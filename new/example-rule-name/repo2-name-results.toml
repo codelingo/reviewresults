@@ -1,0 +1,15 @@
+repo = "github.com/codelingo/scripts"
+rule = "some-rule"
+
+[[issues]]
+  fileline = 20
+  filepath = "cmd/root.go"
+  fixed = false
+  ignored = ""
+
+[[issues]]
+  fileline = 15
+  filepath = "cmd/root.go"
+  fixed = false
+  ignored = ""
+
