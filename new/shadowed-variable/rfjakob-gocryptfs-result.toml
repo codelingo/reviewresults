@@ -1,0 +1,56 @@
+repo = "rfjakob/gocryptfs"
+rule = "shadowed-variable"
+
+[[issues]]
+  filepath = "fsck.go"
+  fileline = 217
+  fixed = false
+  ignored = ""
+
+[[issues]]
+  filepath = "fsck.go"
+  fileline = 165
+  fixed = false
+  ignored = ""
+
+[[issues]]
+  filepath = "tests/matrix/matrix_test.go"
+  fileline = 446
+  fixed = false
+  ignored = ""
+
+[[issues]]
+  filepath = "gocryptfs-xray/xray_main.go"
+  fileline = 109
+  fixed = false
+  ignored = ""
+
+[[issues]]
+  filepath = "internal/fusefrontend/file_allocate_truncate.go"
+  fileline = 192
+  fixed = false
+  ignored = ""
+
+[[issues]]
+  filepath = "internal/fusefrontend/file_allocate_truncate.go"
+  fileline = 191
+  fixed = false
+  ignored = ""
+
+[[issues]]
+  filepath = "internal/fusefrontend/file.go"
+  fileline = 163
+  fixed = false
+  ignored = ""
+
+[[issues]]
+  filepath = "internal/fusefrontend/file.go"
+  fileline = 385
+  fixed = false
+  ignored = ""
+
+[[issues]]
+  filepath = "internal/fusefrontend/openbackingdir.go"
+  fileline = 60
+  fixed = false
+  ignored = ""

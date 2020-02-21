@@ -1,0 +1,14 @@
+repo = "SimonWaldherr/golang-examples"
+rule = "missing-close-file"
+
+[[issues]]
+  filepath = "advanced/csv2md.go"
+  fileline = 25
+  fixed = false
+  ignored = ""
+
+[[issues]]
+  filepath = "advanced/csv.go"
+  fileline = 13
+  fixed = false
+  ignored = ""

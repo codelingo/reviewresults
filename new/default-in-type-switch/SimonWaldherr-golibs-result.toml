@@ -1,0 +1,14 @@
+repo = "SimonWaldherr/golibs"
+rule = "default-in-type-switch"
+
+[[issues]]
+  filepath = "foreach/foreach_test.go"
+  fileline = 81
+  fixed = false
+  ignored = ""
+
+[[issues]]
+  filepath = "node/node_test.go"
+  fileline = 37
+  fixed = false
+  ignored = ""

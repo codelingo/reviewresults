@@ -1,0 +1,8 @@
+repo = "rfjakob/gocryptfs"
+rule = "ticker-in-for-select"
+
+[[issues]]
+  filepath = "internal/serialize_reads/sr.go"
+  fileline = 123
+  fixed = false
+  ignored = ""
