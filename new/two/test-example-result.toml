@@ -1,0 +1,8 @@
+repo = "test/example"
+rule = "two"
+
+[[issues]]
+  filepath = "example2.go"
+  fileline = 6
+  fixed = false
+  ignored = ""
