@@ -1,1 +1,1 @@
-{"repo":"github.com/sundy-li/html2article","rule":"shadowed-variable","sha":"09ac198090c224161026f4a4b7bb4ddce402cea6","issues":[{"Filename":"extract.go","Line":291}]}
+{"repo":"github.com/sundy-li/html2article","rule":"shadowed-variable","sha":"09ac198090c224161026f4a4b7bb4ddce402cea6","issues":[{"Name":"shadowed-variable","Comment":"Variable txt shadows a variable of the same name declared in an outer scope.","filepath":"","fileline":0,"Snippet":"\t}\n\tif isHNode(n) {\n\t\ttxt := getText(n)\n\t\tsize := diffString(txt, ec.title)\n\t\tsize = size - size/3"}]}
