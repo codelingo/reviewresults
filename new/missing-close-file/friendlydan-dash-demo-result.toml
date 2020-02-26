@@ -1,0 +1,19 @@
+repo = "github.com/friendlydan/dash-demo"
+rule = "missing-close-file"
+sha = "6bad7b7ab520ce73c7868632d08994b8aec3260e"
+
+[[issues]]
+  filepath = "main.go"
+  fileline = 38
+
+[[issues]]
+  filepath = "main.go"
+  fileline = 15
+
+[[issues]]
+  filepath = "main.go"
+  fileline = 31
+
+[[issues]]
+  filepath = "main.go"
+  fileline = 21

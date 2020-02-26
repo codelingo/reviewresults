@@ -1,0 +1,7 @@
+repo = "github.com/gadelkareem/awsgo"
+rule = "missing-close-file"
+sha = "8f0a586ce8206840c11d27b56a938ac9ef92622e"
+
+[[issues]]
+  filepath = "AwsService.go"
+  fileline = 61

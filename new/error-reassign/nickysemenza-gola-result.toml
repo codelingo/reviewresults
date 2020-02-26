@@ -1,0 +1,7 @@
+repo = "github.com/nickysemenza/gola"
+rule = "error-reassign"
+sha = "29d749168e8b7502cd690500da427c70b9f43052"
+
+[[issues]]
+  filepath = "utils.go"
+  fileline = 50

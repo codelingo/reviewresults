@@ -1,0 +1,7 @@
+repo = "github.com/andrejsim/golangprimer"
+rule = "unsafe-go-routine-variables"
+sha = "caf7babff893418d8e6368771e11417179f48cb1"
+
+[[issues]]
+  filepath = "hello.go"
+  fileline = 42

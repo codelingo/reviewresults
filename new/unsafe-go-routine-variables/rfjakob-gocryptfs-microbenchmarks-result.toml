@@ -1,0 +1,67 @@
+repo = "github.com/rfjakob/gocryptfs-microbenchmarks"
+rule = "unsafe-go-routine-variables"
+sha = "e382da4d28a310b97466c69d6a996c62f05ae3bf"
+
+[[issues]]
+  filepath = "parallel_gcm/pgcm_test.go"
+  fileline = 48
+
+[[issues]]
+  filepath = "parallel_gcm/pgcm_test.go"
+  fileline = 48
+
+[[issues]]
+  filepath = "parallel_gcm/pgcm_test.go"
+  fileline = 49
+
+[[issues]]
+  filepath = "parallel_gcm/pgcm_test.go"
+  fileline = 48
+
+[[issues]]
+  filepath = "parallel_gcm/pgcm_test.go"
+  fileline = 48
+
+[[issues]]
+  filepath = "parallel_gcm/pgcm_test.go"
+  fileline = 49
+
+[[issues]]
+  filepath = "parallel_gcm/pgcm_test.go"
+  fileline = 70
+
+[[issues]]
+  filepath = "parallel_gcm/pgcm_test.go"
+  fileline = 71
+
+[[issues]]
+  filepath = "parallel_gcm/pgcm_test.go"
+  fileline = 70
+
+[[issues]]
+  filepath = "parallel_gcm/pgcm_test.go"
+  fileline = 71
+
+[[issues]]
+  filepath = "parallel_gcm/pgcm_test.go"
+  fileline = 70
+
+[[issues]]
+  filepath = "parallel_gcm/pgcm_test.go"
+  fileline = 120
+
+[[issues]]
+  filepath = "parallel_gcm/pgcm_test.go"
+  fileline = 121
+
+[[issues]]
+  filepath = "parallel_gcm/pgcm_test.go"
+  fileline = 120
+
+[[issues]]
+  filepath = "parallel_gcm/pgcm_test.go"
+  fileline = 120
+
+[[issues]]
+  filepath = "parallel_gcm/pgcm_test.go"
+  fileline = 121
