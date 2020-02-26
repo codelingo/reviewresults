@@ -1,8 +1,0 @@
-repo = "SimonWaldherr/fsagent"
-rule = "missing-stop-ticker"
-
-[[issues]]
-  filepath = "config.go"
-  fileline = 47
-  fixed = false
-  ignored = ""

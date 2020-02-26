@@ -1,8 +1,0 @@
-repo = "SimonWaldherr/fsagent"
-rule = "insecure-http-connection"
-
-[[issues]]
-  filepath = "modules/mail.go"
-  fileline = 57
-  fixed = false
-  ignored = ""
