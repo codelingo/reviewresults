@@ -3,5 +3,5 @@ rule = "error-reassign"
 sha = "09ac198090c224161026f4a4b7bb4ddce402cea6"
 
 [[issues]]
-  filepath = ""
-  fileline = 0
+  filepath = "extract.go"
+  fileline = 67
