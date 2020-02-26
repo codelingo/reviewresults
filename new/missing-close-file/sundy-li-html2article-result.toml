@@ -1,0 +1,10 @@
+repo = "github.com/sundy-li/html2article"
+rule = "missing-close-file"
+sha = "09ac198090c224161026f4a4b7bb4ddce402cea6"
+
+[[issues]]
+  Name = "missing-close-file"
+  Comment = "Close the file when you are done"
+  filepath = "stopwords.go"
+  fileline = 11
+  Snippet = "\nfunc load(file string) {\n\tfd, err := os.Open(file)\n\tif err != nil {\n\t\tpanic(err)"

@@ -1,0 +1,1 @@
+{"repo":"github.com/sundy-li/html2article","rule":"shadowed-variable","sha":"09ac198090c224161026f4a4b7bb4ddce402cea6","issues":[{"Filename":"extract.go","Line":291}]}
