@@ -3,5 +3,7 @@ rule = "missing-close-file"
 sha = "09ac198090c224161026f4a4b7bb4ddce402cea6"
 
 [[issues]]
-  filepath = "stopwords.go"
   fileline = 11
+  filepath = "stopwords.go"
+  fixed = true
+  ignored = ""

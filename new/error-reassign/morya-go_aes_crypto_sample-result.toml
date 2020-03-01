@@ -3,5 +3,7 @@ rule = "error-reassign"
 sha = "5673c80805a70d3c398fd7d27130eab1ac9bc595"
 
 [[issues]]
-  filepath = "aes.go"
   fileline = 13
+  filepath = "aes.go"
+  fixed = false
+  ignored = "fp. this needs investigating."
