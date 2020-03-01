@@ -1,0 +1,11 @@
+repo = "github.com/morya/bigotim"
+rule = "codelingo/go/unchecked-type-assertion"
+sha = "de72eda6f7ff4ea04eda3060a0a2ca73597ca313"
+
+[[issues]]
+  filepath = "cmd/client/coder.go"
+  fileline = 23
+
+[[issues]]
+  filepath = "cmd/server/coder.go"
+  fileline = 18

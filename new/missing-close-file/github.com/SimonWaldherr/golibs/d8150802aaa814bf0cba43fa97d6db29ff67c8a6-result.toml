@@ -1,0 +1,11 @@
+repo = "github.com/SimonWaldherr/golibs"
+rule = "codelingo/rfjakob-gocryptfs/missing-close-file"
+sha = "d8150802aaa814bf0cba43fa97d6db29ff67c8a6"
+
+[[issues]]
+  filepath = "gopath/gopath.go"
+  fileline = 26
+
+[[issues]]
+  filepath = "csv/csv.go"
+  fileline = 14

@@ -1,0 +1,7 @@
+repo = "github.com/sundy-li/gos"
+rule = "codelingo/go/unchecked-type-assertion"
+sha = "f4a52987dd595ffbbf0ab0c2c79feacb5fb8e29e"
+
+[[issues]]
+  filepath = "log/appender.go"
+  fileline = 69

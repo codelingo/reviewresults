@@ -1,0 +1,675 @@
+repo = "github.com/yongliu1992/go_learn"
+rule = "codelingo/go/unsafe-go-routine-variables"
+sha = "a14870451ad0ae4cd1ed0f29bcfe42663b876ede"
+
+[[issues]]
+  filepath = "bank2/bank_test.go"
+  fileline = 16
+
+[[issues]]
+  filepath = "bank2/bank_test.go"
+  fileline = 14
+
+[[issues]]
+  filepath = "bank2/bank_test.go"
+  fileline = 16
+
+[[issues]]
+  filepath = "bank2/bank_test.go"
+  fileline = 15
+
+[[issues]]
+  filepath = "bank3/bank_test.go"
+  fileline = 17
+
+[[issues]]
+  filepath = "bank3/bank_test.go"
+  fileline = 16
+
+[[issues]]
+  filepath = "bank3/bank_test.go"
+  fileline = 17
+
+[[issues]]
+  filepath = "bank3/bank_test.go"
+  fileline = 16
+
+[[issues]]
+  filepath = "goroutine/netcat3/main.go"
+  fileline = 19
+
+[[issues]]
+  filepath = "goroutine/netcat3/main.go"
+  fileline = 18
+
+[[issues]]
+  filepath = "goroutine/netcat3/main.go"
+  fileline = 18
+
+[[issues]]
+  filepath = "goroutine/netcat3/main.go"
+  fileline = 19
+
+[[issues]]
+  filepath = "goroutine/netcat3/main.go"
+  fileline = 18
+
+[[issues]]
+  filepath = "goroutine/netcat3/main.go"
+  fileline = 20
+
+[[issues]]
+  filepath = "goroutine/netcat3/main.go"
+  fileline = 18
+
+[[issues]]
+  filepath = "goroutine/netcat3/main.go"
+  fileline = 20
+
+[[issues]]
+  filepath = "goroutine/netcat3/main.go"
+  fileline = 18
+
+[[issues]]
+  filepath = "goroutine/netcat3/main.go"
+  fileline = 21
+
+[[issues]]
+  filepath = "channel/main.go"
+  fileline = 19
+
+[[issues]]
+  filepath = "crawl2/main.go"
+  fileline = 29
+
+[[issues]]
+  filepath = "crawl2/main.go"
+  fileline = 29
+
+[[issues]]
+  filepath = "crawl2/main.go"
+  fileline = 29
+
+[[issues]]
+  filepath = "du2/main.go"
+  fileline = 33
+
+[[issues]]
+  filepath = "du2/main.go"
+  fileline = 33
+
+[[issues]]
+  filepath = "du2/main.go"
+  fileline = 33
+
+[[issues]]
+  filepath = "du2/main.go"
+  fileline = 35
+
+[[issues]]
+  filepath = "du2/main.go"
+  fileline = 32
+
+[[issues]]
+  filepath = "du2/main.go"
+  fileline = 35
+
+[[issues]]
+  filepath = "du2/main.go"
+  fileline = 32
+
+[[issues]]
+  filepath = "du2/main.go"
+  fileline = 32
+
+[[issues]]
+  filepath = "channel/main.go"
+  fileline = 15
+
+[[issues]]
+  filepath = "countdown2/main.go"
+  fileline = 12
+
+[[issues]]
+  filepath = "countdown2/main.go"
+  fileline = 12
+
+[[issues]]
+  filepath = "countdown2/main.go"
+  fileline = 12
+
+[[issues]]
+  filepath = "countdown2/main.go"
+  fileline = 12
+
+[[issues]]
+  filepath = "countdown2/main.go"
+  fileline = 13
+
+[[issues]]
+  filepath = "countdown2/main.go"
+  fileline = 12
+
+[[issues]]
+  filepath = "du3/main.go"
+  fileline = 38
+
+[[issues]]
+  filepath = "du3/main.go"
+  fileline = 38
+
+[[issues]]
+  filepath = "du3/main.go"
+  fileline = 37
+
+[[issues]]
+  filepath = "du3/main.go"
+  fileline = 37
+
+[[issues]]
+  filepath = "sync3/main.go"
+  fileline = 55
+
+[[issues]]
+  filepath = "sync3/main.go"
+  fileline = 58
+
+[[issues]]
+  filepath = "sync3/main.go"
+  fileline = 58
+
+[[issues]]
+  filepath = "sync3/main.go"
+  fileline = 59
+
+[[issues]]
+  filepath = "sync3/main.go"
+  fileline = 59
+
+[[issues]]
+  filepath = "sync3/main.go"
+  fileline = 58
+
+[[issues]]
+  filepath = "sync3/main.go"
+  fileline = 58
+
+[[issues]]
+  filepath = "crawl3/main.go"
+  fileline = 28
+
+[[issues]]
+  filepath = "crawl3/main.go"
+  fileline = 28
+
+[[issues]]
+  filepath = "sync2/main.go"
+  fileline = 53
+
+[[issues]]
+  filepath = "sync2/main.go"
+  fileline = 51
+
+[[issues]]
+  filepath = "sync2/main.go"
+  fileline = 49
+
+[[issues]]
+  filepath = "sync2/main.go"
+  fileline = 51
+
+[[issues]]
+  filepath = "sync2/main.go"
+  fileline = 44
+
+[[issues]]
+  filepath = "sync2/main.go"
+  fileline = 51
+
+[[issues]]
+  filepath = "sync2/main.go"
+  fileline = 45
+
+[[issues]]
+  filepath = "sync2/main.go"
+  fileline = 44
+
+[[issues]]
+  filepath = "sync2/main.go"
+  fileline = 44
+
+[[issues]]
+  filepath = "sync2/main.go"
+  fileline = 49
+
+[[issues]]
+  filepath = "sync2/main.go"
+  fileline = 45
+
+[[issues]]
+  filepath = "sync2/main.go"
+  fileline = 52
+
+[[issues]]
+  filepath = "sync2/main.go"
+  fileline = 53
+
+[[issues]]
+  filepath = "sync2/main.go"
+  fileline = 52
+
+[[issues]]
+  filepath = "sync2/main.go"
+  fileline = 49
+
+[[issues]]
+  filepath = "sync2/main.go"
+  fileline = 44
+
+[[issues]]
+  filepath = "sync2/main.go"
+  fileline = 41
+
+[[issues]]
+  filepath = "sync2/main.go"
+  fileline = 47
+
+[[issues]]
+  filepath = "sync2/main.go"
+  fileline = 47
+
+[[issues]]
+  filepath = "du1/main.go"
+  fileline = 19
+
+[[issues]]
+  filepath = "du1/main.go"
+  fileline = 22
+
+[[issues]]
+  filepath = "du1/main.go"
+  fileline = 22
+
+[[issues]]
+  filepath = "du1/main.go"
+  fileline = 19
+
+[[issues]]
+  filepath = "du1/main.go"
+  fileline = 19
+
+[[issues]]
+  filepath = "du1/main.go"
+  fileline = 20
+
+[[issues]]
+  filepath = "du1/main.go"
+  fileline = 20
+
+[[issues]]
+  filepath = "du1/main.go"
+  fileline = 20
+
+[[issues]]
+  filepath = "crawl3/main.go"
+  fileline = 22
+
+[[issues]]
+  filepath = "crawl3/main.go"
+  fileline = 22
+
+[[issues]]
+  filepath = "crawl3/main.go"
+  fileline = 22
+
+[[issues]]
+  filepath = "crawl2/main.go"
+  fileline = 39
+
+[[issues]]
+  filepath = "crawl2/main.go"
+  fileline = 39
+
+[[issues]]
+  filepath = "netcat3/main.go"
+  fileline = 18
+
+[[issues]]
+  filepath = "netcat3/main.go"
+  fileline = 18
+
+[[issues]]
+  filepath = "netcat3/main.go"
+  fileline = 19
+
+[[issues]]
+  filepath = "netcat3/main.go"
+  fileline = 19
+
+[[issues]]
+  filepath = "netcat3/main.go"
+  fileline = 18
+
+[[issues]]
+  filepath = "netcat3/main.go"
+  fileline = 18
+
+[[issues]]
+  filepath = "netcat3/main.go"
+  fileline = 18
+
+[[issues]]
+  filepath = "netcat3/main.go"
+  fileline = 20
+
+[[issues]]
+  filepath = "channel/main.go"
+  fileline = 11
+
+[[issues]]
+  filepath = "sync3/main.go"
+  fileline = 76
+
+[[issues]]
+  filepath = "sync3/main.go"
+  fileline = 76
+
+[[issues]]
+  filepath = "sync3/main.go"
+  fileline = 77
+
+[[issues]]
+  filepath = "sync3/main.go"
+  fileline = 76
+
+[[issues]]
+  filepath = "sync3/main.go"
+  fileline = 76
+
+[[issues]]
+  filepath = "sync3/main.go"
+  fileline = 77
+
+[[issues]]
+  filepath = "sync3/main.go"
+  fileline = 73
+
+[[issues]]
+  filepath = "sync3/main.go"
+  fileline = 68
+
+[[issues]]
+  filepath = "sync3/main.go"
+  fileline = 68
+
+[[issues]]
+  filepath = "sync3/main.go"
+  fileline = 67
+
+[[issues]]
+  filepath = "sync3/main.go"
+  fileline = 67
+
+[[issues]]
+  filepath = "sync3/main.go"
+  fileline = 67
+
+[[issues]]
+  filepath = "sync3/main.go"
+  fileline = 67
+
+[[issues]]
+  filepath = "sync3/main.go"
+  fileline = 64
+
+[[issues]]
+  filepath = "du4/main.go"
+  fileline = 53
+
+[[issues]]
+  filepath = "du4/main.go"
+  fileline = 52
+
+[[issues]]
+  filepath = "du4/main.go"
+  fileline = 53
+
+[[issues]]
+  filepath = "du4/main.go"
+  fileline = 52
+
+[[issues]]
+  filepath = "bank_nosafe/main.go"
+  fileline = 30
+
+[[issues]]
+  filepath = "bank_nosafe/main.go"
+  fileline = 26
+
+[[issues]]
+  filepath = "bank_nosafe/main.go"
+  fileline = 26
+
+[[issues]]
+  filepath = "bank_nosafe/main.go"
+  fileline = 26
+
+[[issues]]
+  filepath = "bank_nosafe/main.go"
+  fileline = 25
+
+[[issues]]
+  filepath = "du4/main.go"
+  fileline = 39
+
+[[issues]]
+  filepath = "du4/main.go"
+  fileline = 39
+
+[[issues]]
+  filepath = "du4/main.go"
+  fileline = 39
+
+[[issues]]
+  filepath = "du4/main.go"
+  fileline = 40
+
+[[issues]]
+  filepath = "du4/main.go"
+  fileline = 40
+
+[[issues]]
+  filepath = "du4/main.go"
+  fileline = 39
+
+[[issues]]
+  filepath = "du4/main.go"
+  fileline = 39
+
+[[issues]]
+  filepath = "sync/main.go"
+  fileline = 32
+
+[[issues]]
+  filepath = "sync/main.go"
+  fileline = 40
+
+[[issues]]
+  filepath = "sync/main.go"
+  fileline = 37
+
+[[issues]]
+  filepath = "sync/main.go"
+  fileline = 38
+
+[[issues]]
+  filepath = "sync/main.go"
+  fileline = 43
+
+[[issues]]
+  filepath = "sync/main.go"
+  fileline = 44
+
+[[issues]]
+  filepath = "sync/main.go"
+  fileline = 53
+
+[[issues]]
+  filepath = "sync/main.go"
+  fileline = 38
+
+[[issues]]
+  filepath = "sync/main.go"
+  fileline = 36
+
+[[issues]]
+  filepath = "sync/main.go"
+  fileline = 43
+
+[[issues]]
+  filepath = "sync/main.go"
+  fileline = 38
+
+[[issues]]
+  filepath = "sync/main.go"
+  fileline = 47
+
+[[issues]]
+  filepath = "sync/main.go"
+  fileline = 36
+
+[[issues]]
+  filepath = "sync/main.go"
+  fileline = 54
+
+[[issues]]
+  filepath = "sync/main.go"
+  fileline = 54
+
+[[issues]]
+  filepath = "sync/main.go"
+  fileline = 41
+
+[[issues]]
+  filepath = "sync/main.go"
+  fileline = 41
+
+[[issues]]
+  filepath = "sync/main.go"
+  fileline = 48
+
+[[issues]]
+  filepath = "sync/main.go"
+  fileline = 48
+
+[[issues]]
+  filepath = "sync/main.go"
+  fileline = 48
+
+[[issues]]
+  filepath = "sync/main.go"
+  fileline = 49
+
+[[issues]]
+  filepath = "sync/main.go"
+  fileline = 50
+
+[[issues]]
+  filepath = "sync/main.go"
+  fileline = 50
+
+[[issues]]
+  filepath = "sync/main.go"
+  fileline = 50
+
+[[issues]]
+  filepath = "sync/main.go"
+  fileline = 45
+
+[[issues]]
+  filepath = "sync/main.go"
+  fileline = 45
+
+[[issues]]
+  filepath = "sync/main.go"
+  fileline = 45
+
+[[issues]]
+  filepath = "sync/main.go"
+  fileline = 34
+
+[[issues]]
+  filepath = "sync2/main.go"
+  fileline = 30
+
+[[issues]]
+  filepath = "sync2/main.go"
+  fileline = 30
+
+[[issues]]
+  filepath = "sync2/main.go"
+  fileline = 24
+
+[[issues]]
+  filepath = "sync2/main.go"
+  fileline = 36
+
+[[issues]]
+  filepath = "sync2/main.go"
+  fileline = 34
+
+[[issues]]
+  filepath = "sync2/main.go"
+  fileline = 28
+
+[[issues]]
+  filepath = "sync2/main.go"
+  fileline = 27
+
+[[issues]]
+  filepath = "sync2/main.go"
+  fileline = 32
+
+[[issues]]
+  filepath = "sync2/main.go"
+  fileline = 32
+
+[[issues]]
+  filepath = "sync2/main.go"
+  fileline = 36
+
+[[issues]]
+  filepath = "sync2/main.go"
+  fileline = 34
+
+[[issues]]
+  filepath = "sync2/main.go"
+  fileline = 35
+
+[[issues]]
+  filepath = "sync2/main.go"
+  fileline = 27
+
+[[issues]]
+  filepath = "sync2/main.go"
+  fileline = 34
+
+[[issues]]
+  filepath = "sync2/main.go"
+  fileline = 32
+
+[[issues]]
+  filepath = "sync2/main.go"
+  fileline = 27
+
+[[issues]]
+  filepath = "sync2/main.go"
+  fileline = 27
+
+[[issues]]
+  filepath = "sync2/main.go"
+  fileline = 28
+
+[[issues]]
+  filepath = "sync2/main.go"
+  fileline = 35

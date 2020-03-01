@@ -1,0 +1,7 @@
+repo = "github.com/sundy-li/gos"
+rule = "codelingo/lomik-go-carbon/missing-stop-ticker"
+sha = "f4a52987dd595ffbbf0ab0c2c79feacb5fb8e29e"
+
+[[issues]]
+  filepath = "log/file.go"
+  fileline = 53

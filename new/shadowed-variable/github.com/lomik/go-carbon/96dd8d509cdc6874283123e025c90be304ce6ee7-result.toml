@@ -1,0 +1,19 @@
+repo = "github.com/lomik/go-carbon"
+rule = "codelingo/go/shadowed-variable"
+sha = "96dd8d509cdc6874283123e025c90be304ce6ee7"
+
+[[issues]]
+  filepath = "cache/carbonlink_test.go"
+  fileline = 56
+
+[[issues]]
+  filepath = "carbonserver/carbonserver.go"
+  fileline = 784
+
+[[issues]]
+  filepath = "carbonserver/find.go"
+  fileline = 126
+
+[[issues]]
+  filepath = "carbonserver/fetchfromdisk.go"
+  fileline = 86

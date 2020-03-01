@@ -1,0 +1,71 @@
+repo = "github.com/lomik/go-carbon"
+rule = "codelingo/go/unchecked-type-assertion"
+sha = "96dd8d509cdc6874283123e025c90be304ce6ee7"
+
+[[issues]]
+  filepath = "receiver/tcp/stop_test.go"
+  fileline = 46
+
+[[issues]]
+  filepath = "cache/carbonlink_stop_test.go"
+  fileline = 21
+
+[[issues]]
+  filepath = "cache/cache.go"
+  fileline = 114
+
+[[issues]]
+  filepath = "receiver/pubsub/pubsub.go"
+  fileline = 238
+
+[[issues]]
+  filepath = "receiver/udp/udp_test.go"
+  fileline = 44
+
+[[issues]]
+  filepath = "cache/cache.go"
+  fileline = 121
+
+[[issues]]
+  filepath = "receiver/udp/stop_test.go"
+  fileline = 25
+
+[[issues]]
+  filepath = "receiver/tcp/tcp_test.go"
+  fileline = 44
+
+[[issues]]
+  filepath = "helper/stat/stat_linux.go"
+  fileline = 15
+
+[[issues]]
+  filepath = "carbonserver/find.go"
+  fileline = 140
+
+[[issues]]
+  filepath = "receiver/http/stop_test.go"
+  fileline = 25
+
+[[issues]]
+  filepath = "helper/stat/stat.go"
+  fileline = 18
+
+[[issues]]
+  filepath = "cache/cache.go"
+  fileline = 247
+
+[[issues]]
+  filepath = "carbonserver/render.go"
+  fileline = 311
+
+[[issues]]
+  filepath = "cache/cache.go"
+  fileline = 239
+
+[[issues]]
+  filepath = "cache/cache.go"
+  fileline = 131
+
+[[issues]]
+  filepath = "receiver/tcp/stop_test.go"
+  fileline = 27

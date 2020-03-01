@@ -1,0 +1,39 @@
+repo = "github.com/gadelkareem/go-helpers"
+rule = "codelingo/go/unsafe-go-routine-variables"
+sha = "37da31be3be96a995f9510f9c34c088bc4890dda"
+
+[[issues]]
+  filepath = "helpers.go"
+  fileline = 189
+
+[[issues]]
+  filepath = "helpers.go"
+  fileline = 190
+
+[[issues]]
+  filepath = "helpers.go"
+  fileline = 189
+
+[[issues]]
+  filepath = "helpers.go"
+  fileline = 399
+
+[[issues]]
+  filepath = "helpers.go"
+  fileline = 399
+
+[[issues]]
+  filepath = "helpers.go"
+  fileline = 401
+
+[[issues]]
+  filepath = "helpers.go"
+  fileline = 400
+
+[[issues]]
+  filepath = "helpers.go"
+  fileline = 401
+
+[[issues]]
+  filepath = "helpers.go"
+  fileline = 400

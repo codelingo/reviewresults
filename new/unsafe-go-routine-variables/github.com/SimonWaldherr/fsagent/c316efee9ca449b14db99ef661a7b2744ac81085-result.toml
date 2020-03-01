@@ -1,0 +1,35 @@
+repo = "github.com/SimonWaldherr/fsagent"
+rule = "codelingo/go/unsafe-go-routine-variables"
+sha = "c316efee9ca449b14db99ef661a7b2744ac81085"
+
+[[issues]]
+  filepath = "cmd/fsagent/main.go"
+  fileline = 36
+
+[[issues]]
+  filepath = "cmd/fsagent/main.go"
+  fileline = 36
+
+[[issues]]
+  filepath = "cmd/fsagent/main.go"
+  fileline = 37
+
+[[issues]]
+  filepath = "cmd/fsagent/main.go"
+  fileline = 38
+
+[[issues]]
+  filepath = "cmd/fsagent/main.go"
+  fileline = 38
+
+[[issues]]
+  filepath = "cmd/fsagent/main.go"
+  fileline = 37
+
+[[issues]]
+  filepath = "cmd/fsagent/main.go"
+  fileline = 37
+
+[[issues]]
+  filepath = "cmd/fsagent/main.go"
+  fileline = 38

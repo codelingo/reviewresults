@@ -1,0 +1,11 @@
+repo = "github.com/gadelkareem/bulk-url-checker"
+rule = "codelingo/go/unchecked-type-assertion"
+sha = "7fb8271237f7bcb95c490b5a40b07d8f7122a52b"
+
+[[issues]]
+  filepath = "main.go"
+  fileline = 91
+
+[[issues]]
+  filepath = "main.go"
+  fileline = 90

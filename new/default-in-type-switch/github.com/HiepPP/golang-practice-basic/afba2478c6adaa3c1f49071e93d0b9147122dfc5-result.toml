@@ -1,0 +1,7 @@
+repo = "github.com/HiepPP/golang-practice-basic"
+rule = "codelingo/go/default-in-type-switch"
+sha = "afba2478c6adaa3c1f49071e93d0b9147122dfc5"
+
+[[issues]]
+  filepath = "Exercises/q19-MapFunctionWithInterfaces.go"
+  fileline = 9

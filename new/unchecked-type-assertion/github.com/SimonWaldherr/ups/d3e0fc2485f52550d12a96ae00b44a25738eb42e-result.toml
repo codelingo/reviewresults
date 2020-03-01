@@ -1,0 +1,7 @@
+repo = "github.com/SimonWaldherr/ups"
+rule = "codelingo/go/unchecked-type-assertion"
+sha = "d3e0fc2485f52550d12a96ae00b44a25738eb42e"
+
+[[issues]]
+  filepath = "load.go"
+  fileline = 77

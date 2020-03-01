@@ -1,0 +1,39 @@
+repo = "github.com/nickysemenza/machelper"
+rule = "codelingo/go/unsafe-go-routine-variables"
+sha = "4d52fc2423dbcf975a130b0257f13a35bc8d999e"
+
+[[issues]]
+  filepath = "main.go"
+  fileline = 113
+
+[[issues]]
+  filepath = "main.go"
+  fileline = 112
+
+[[issues]]
+  filepath = "main.go"
+  fileline = 113
+
+[[issues]]
+  filepath = "main.go"
+  fileline = 114
+
+[[issues]]
+  filepath = "main.go"
+  fileline = 112
+
+[[issues]]
+  filepath = "main.go"
+  fileline = 118
+
+[[issues]]
+  filepath = "main.go"
+  fileline = 115
+
+[[issues]]
+  filepath = "main.go"
+  fileline = 115
+
+[[issues]]
+  filepath = "main.go"
+  fileline = 115

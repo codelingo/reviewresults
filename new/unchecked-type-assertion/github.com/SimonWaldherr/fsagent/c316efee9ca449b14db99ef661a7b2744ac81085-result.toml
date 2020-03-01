@@ -1,0 +1,35 @@
+repo = "github.com/SimonWaldherr/fsagent"
+rule = "codelingo/go/unchecked-type-assertion"
+sha = "c316efee9ca449b14db99ef661a7b2744ac81085"
+
+[[issues]]
+  filepath = "modules/mail.go"
+  fileline = 43
+
+[[issues]]
+  filepath = "modules/http.go"
+  fileline = 27
+
+[[issues]]
+  filepath = "modules/file.go"
+  fileline = 85
+
+[[issues]]
+  filepath = "modules/sleep.go"
+  fileline = 22
+
+[[issues]]
+  filepath = "modules/file.go"
+  fileline = 39
+
+[[issues]]
+  filepath = "modules/file.go"
+  fileline = 120
+
+[[issues]]
+  filepath = "modules/file.go"
+  fileline = 173
+
+[[issues]]
+  filepath = "modules/file.go"
+  fileline = 67

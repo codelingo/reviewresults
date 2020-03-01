@@ -1,0 +1,7 @@
+repo = "github.com/gadelkareem/cachita"
+rule = "codelingo/go/default-in-type-switch"
+sha = "27c05434ad48d5cbb92e0af613152ed5ac17dbe5"
+
+[[issues]]
+  filepath = "cache.go"
+  fileline = 108
