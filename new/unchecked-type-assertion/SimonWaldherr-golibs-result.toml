@@ -1,0 +1,31 @@
+repo = "github.com/SimonWaldherr/golibs"
+rule = "unchecked-type-assertion"
+sha = "d8150802aaa814bf0cba43fa97d6db29ff67c8a6"
+
+[[issues]]
+  filepath = "file/file_darwin.go"
+  fileline = 15
+
+[[issues]]
+  filepath = "as/as.go"
+  fileline = 229
+
+[[issues]]
+  filepath = "as/as.go"
+  fileline = 408
+
+[[issues]]
+  filepath = "file/file_linux.go"
+  fileline = 15
+
+[[issues]]
+  filepath = "as/as.go"
+  fileline = 147
+
+[[issues]]
+  filepath = "as/as.go"
+  fileline = 315
+
+[[issues]]
+  filepath = "as/as.go"
+  fileline = 362

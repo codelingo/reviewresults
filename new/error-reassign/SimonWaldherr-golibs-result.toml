@@ -1,0 +1,23 @@
+repo = "github.com/SimonWaldherr/golibs"
+rule = "error-reassign"
+sha = "d8150802aaa814bf0cba43fa97d6db29ff67c8a6"
+
+[[issues]]
+  filepath = "graphics/graphics_test.go"
+  fileline = 90
+
+[[issues]]
+  filepath = "file/file_test.go"
+  fileline = 396
+
+[[issues]]
+  filepath = "file/file_test.go"
+  fileline = 392
+
+[[issues]]
+  filepath = "graphics/graphics_test.go"
+  fileline = 61
+
+[[issues]]
+  filepath = "file/file_test.go"
+  fileline = 314
