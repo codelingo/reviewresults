@@ -7,16 +7,20 @@ sha = "d8150802aaa814bf0cba43fa97d6db29ff67c8a6"
   fileline = 362
 
 [[issues]]
-  filepath = "file/file_darwin.go"
-  fileline = 15
-
-[[issues]]
-  filepath = "as/as.go"
-  fileline = 408
-
-[[issues]]
   filepath = "as/as.go"
   fileline = 315
+
+[[issues]]
+  filepath = "as/as.go"
+  fileline = 229
+
+[[issues]]
+  filepath = "as/as.go"
+  fileline = 147
+
+[[issues]]
+  filepath = "file/file_darwin.go"
+  fileline = 15
 
 [[issues]]
   filepath = "file/file_linux.go"
@@ -24,8 +28,4 @@ sha = "d8150802aaa814bf0cba43fa97d6db29ff67c8a6"
 
 [[issues]]
   filepath = "as/as.go"
-  fileline = 147
-
-[[issues]]
-  filepath = "as/as.go"
-  fileline = 229
+  fileline = 408

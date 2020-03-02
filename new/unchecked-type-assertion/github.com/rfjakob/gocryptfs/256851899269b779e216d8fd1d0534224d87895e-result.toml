@@ -1,0 +1,47 @@
+repo = "github.com/rfjakob/gocryptfs"
+rule = "codelingo/go/unchecked-type-assertion"
+sha = "256851899269b779e216d8fd1d0534224d87895e"
+
+[[issues]]
+  filepath = "tests/xattr/xattr_integration_test.go"
+  fileline = 220
+
+[[issues]]
+  filepath = "tests/reverse/correctness_test.go"
+  fileline = 209
+
+[[issues]]
+  filepath = "internal/fusefrontend_reverse/rfile.go"
+  fileline = 89
+
+[[issues]]
+  filepath = "fsck.go"
+  fileline = 182
+
+[[issues]]
+  filepath = "internal/contentenc/bpool.go"
+  fileline = 34
+
+[[issues]]
+  filepath = "fsck.go"
+  fileline = 236
+
+[[issues]]
+  filepath = "internal/fusefrontend_reverse/rfile.go"
+  fileline = 78
+
+[[issues]]
+  filepath = "tests/test_helpers/helpers.go"
+  fileline = 82
+
+[[issues]]
+  filepath = "internal/cryptocore/cryptocore.go"
+  fileline = 163
+
+[[issues]]
+  filepath = "mount.go"
+  fileline = 165
+
+[[issues]]
+  filepath = "tests/test_helpers/helpers.go"
+  fileline = 239

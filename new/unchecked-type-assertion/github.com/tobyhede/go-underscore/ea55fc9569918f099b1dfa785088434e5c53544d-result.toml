@@ -1,0 +1,7 @@
+repo = "github.com/tobyhede/go-underscore"
+rule = "codelingo/go/unchecked-type-assertion"
+sha = "ea55fc9569918f099b1dfa785088434e5c53544d"
+
+[[issues]]
+  filepath = "underscore.go"
+  fileline = 42

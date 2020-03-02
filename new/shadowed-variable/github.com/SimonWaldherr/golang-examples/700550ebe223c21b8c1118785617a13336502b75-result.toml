@@ -1,0 +1,15 @@
+repo = "github.com/SimonWaldherr/golang-examples"
+rule = "codelingo/go/shadowed-variable"
+sha = "700550ebe223c21b8c1118785617a13336502b75"
+
+[[issues]]
+  filepath = "beginner/file.go"
+  fileline = 8
+
+[[issues]]
+  filepath = "expert/image.go"
+  fileline = 72
+
+[[issues]]
+  filepath = "expert/image.go"
+  fileline = 33

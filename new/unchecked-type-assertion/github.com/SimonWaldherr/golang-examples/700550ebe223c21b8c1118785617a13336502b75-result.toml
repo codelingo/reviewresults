@@ -1,0 +1,27 @@
+repo = "github.com/SimonWaldherr/golang-examples"
+rule = "codelingo/go/unchecked-type-assertion"
+sha = "700550ebe223c21b8c1118785617a13336502b75"
+
+[[issues]]
+  filepath = "expert/image.go"
+  fileline = 29
+
+[[issues]]
+  filepath = "beginner/interfaces.go"
+  fileline = 6
+
+[[issues]]
+  filepath = "expert/ppk-crypto.go"
+  fileline = 41
+
+[[issues]]
+  filepath = "expert/image.go"
+  fileline = 68
+
+[[issues]]
+  filepath = "advanced/xml.go"
+  fileline = 15
+
+[[issues]]
+  filepath = "advanced/interface.go"
+  fileline = 9

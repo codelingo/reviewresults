@@ -1,0 +1,1151 @@
+repo = "github.com/rfjakob/gocryptfs"
+rule = "codelingo/go/unsafe-go-routine-variables"
+sha = "256851899269b779e216d8fd1d0534224d87895e"
+
+[[issues]]
+  filepath = "profiling.go"
+  fileline = 63
+
+[[issues]]
+  filepath = "profiling.go"
+  fileline = 63
+
+[[issues]]
+  filepath = "profiling.go"
+  fileline = 63
+
+[[issues]]
+  filepath = "profiling.go"
+  fileline = 63
+
+[[issues]]
+  filepath = "profiling.go"
+  fileline = 55
+
+[[issues]]
+  filepath = "profiling.go"
+  fileline = 55
+
+[[issues]]
+  filepath = "profiling.go"
+  fileline = 55
+
+[[issues]]
+  filepath = "profiling.go"
+  fileline = 55
+
+[[issues]]
+  filepath = "profiling.go"
+  fileline = 50
+
+[[issues]]
+  filepath = "profiling.go"
+  fileline = 50
+
+[[issues]]
+  filepath = "profiling.go"
+  fileline = 50
+
+[[issues]]
+  filepath = "profiling.go"
+  fileline = 50
+
+[[issues]]
+  filepath = "profiling.go"
+  fileline = 44
+
+[[issues]]
+  filepath = "profiling.go"
+  fileline = 48
+
+[[issues]]
+  filepath = "profiling.go"
+  fileline = 44
+
+[[issues]]
+  filepath = "profiling.go"
+  fileline = 49
+
+[[issues]]
+  filepath = "profiling.go"
+  fileline = 44
+
+[[issues]]
+  filepath = "profiling.go"
+  fileline = 53
+
+[[issues]]
+  filepath = "profiling.go"
+  fileline = 45
+
+[[issues]]
+  filepath = "profiling.go"
+  fileline = 44
+
+[[issues]]
+  filepath = "profiling.go"
+  fileline = 58
+
+[[issues]]
+  filepath = "profiling.go"
+  fileline = 48
+
+[[issues]]
+  filepath = "profiling.go"
+  fileline = 58
+
+[[issues]]
+  filepath = "profiling.go"
+  fileline = 59
+
+[[issues]]
+  filepath = "profiling.go"
+  fileline = 58
+
+[[issues]]
+  filepath = "profiling.go"
+  fileline = 53
+
+[[issues]]
+  filepath = "profiling.go"
+  fileline = 54
+
+[[issues]]
+  filepath = "profiling.go"
+  fileline = 61
+
+[[issues]]
+  filepath = "profiling.go"
+  fileline = 60
+
+[[issues]]
+  filepath = "profiling.go"
+  fileline = 60
+
+[[issues]]
+  filepath = "profiling.go"
+  fileline = 60
+
+[[issues]]
+  filepath = "tests/test_helpers/mount_unmount.go"
+  fileline = 82
+
+[[issues]]
+  filepath = "tests/test_helpers/mount_unmount.go"
+  fileline = 82
+
+[[issues]]
+  filepath = "tests/test_helpers/mount_unmount.go"
+  fileline = 82
+
+[[issues]]
+  filepath = "tests/cli/cli_test.go"
+  fileline = 419
+
+[[issues]]
+  filepath = "tests/cli/cli_test.go"
+  fileline = 416
+
+[[issues]]
+  filepath = "tests/cli/cli_test.go"
+  fileline = 416
+
+[[issues]]
+  filepath = "tests/cli/cli_test.go"
+  fileline = 416
+
+[[issues]]
+  filepath = "tests/cli/cli_test.go"
+  fileline = 420
+
+[[issues]]
+  filepath = "tests/cli/cli_test.go"
+  fileline = 421
+
+[[issues]]
+  filepath = "tests/cli/cli_test.go"
+  fileline = 420
+
+[[issues]]
+  filepath = "tests/cli/cli_test.go"
+  fileline = 414
+
+[[issues]]
+  filepath = "tests/cli/cli_test.go"
+  fileline = 414
+
+[[issues]]
+  filepath = "internal/contentenc/content.go"
+  fileline = 229
+
+[[issues]]
+  filepath = "internal/contentenc/content.go"
+  fileline = 219
+
+[[issues]]
+  filepath = "internal/contentenc/content.go"
+  fileline = 229
+
+[[issues]]
+  filepath = "internal/contentenc/content.go"
+  fileline = 229
+
+[[issues]]
+  filepath = "internal/contentenc/content.go"
+  fileline = 230
+
+[[issues]]
+  filepath = "internal/contentenc/content.go"
+  fileline = 230
+
+[[issues]]
+  filepath = "internal/contentenc/content.go"
+  fileline = 220
+
+[[issues]]
+  filepath = "internal/contentenc/content.go"
+  fileline = 229
+
+[[issues]]
+  filepath = "internal/contentenc/content.go"
+  fileline = 229
+
+[[issues]]
+  filepath = "internal/contentenc/content.go"
+  fileline = 221
+
+[[issues]]
+  filepath = "internal/contentenc/content.go"
+  fileline = 229
+
+[[issues]]
+  filepath = "internal/contentenc/content.go"
+  fileline = 229
+
+[[issues]]
+  filepath = "internal/contentenc/content.go"
+  fileline = 227
+
+[[issues]]
+  filepath = "internal/contentenc/content.go"
+  fileline = 227
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 118
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 118
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 118
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 114
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 112
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 113
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 107
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 107
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 124
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 121
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 112
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 121
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 108
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 117
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 113
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 107
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 120
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 121
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 105
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 106
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 126
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 105
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 126
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 109
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 122
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 122
+
+[[issues]]
+  filepath = "tests/matrix/matrix_test.go"
+  fileline = 366
+
+[[issues]]
+  filepath = "tests/matrix/matrix_test.go"
+  fileline = 366
+
+[[issues]]
+  filepath = "tests/matrix/matrix_test.go"
+  fileline = 367
+
+[[issues]]
+  filepath = "tests/matrix/matrix_test.go"
+  fileline = 366
+
+[[issues]]
+  filepath = "tests/matrix/matrix_test.go"
+  fileline = 367
+
+[[issues]]
+  filepath = "internal/cryptocore/randprefetch_test.go"
+  fileline = 24
+
+[[issues]]
+  filepath = "internal/cryptocore/randprefetch_test.go"
+  fileline = 24
+
+[[issues]]
+  filepath = "internal/cryptocore/randprefetch_test.go"
+  fileline = 24
+
+[[issues]]
+  filepath = "internal/cryptocore/randprefetch_test.go"
+  fileline = 24
+
+[[issues]]
+  filepath = "internal/cryptocore/randprefetch_test.go"
+  fileline = 26
+
+[[issues]]
+  filepath = "internal/cryptocore/randprefetch_test.go"
+  fileline = 23
+
+[[issues]]
+  filepath = "internal/cryptocore/randprefetch_test.go"
+  fileline = 27
+
+[[issues]]
+  filepath = "internal/cryptocore/randprefetch_test.go"
+  fileline = 27
+
+[[issues]]
+  filepath = "internal/cryptocore/randprefetch_test.go"
+  fileline = 22
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 72
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 72
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 70
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 71
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 70
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 69
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 69
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 69
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 70
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 75
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 67
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 67
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 68
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 75
+
+[[issues]]
+  filepath = "tests/defaults/main_test.go"
+  fileline = 142
+
+[[issues]]
+  filepath = "tests/defaults/main_test.go"
+  fileline = 130
+
+[[issues]]
+  filepath = "tests/defaults/main_test.go"
+  fileline = 142
+
+[[issues]]
+  filepath = "tests/defaults/main_test.go"
+  fileline = 131
+
+[[issues]]
+  filepath = "tests/defaults/main_test.go"
+  fileline = 132
+
+[[issues]]
+  filepath = "tests/defaults/main_test.go"
+  fileline = 130
+
+[[issues]]
+  filepath = "tests/defaults/main_test.go"
+  fileline = 137
+
+[[issues]]
+  filepath = "tests/defaults/main_test.go"
+  fileline = 133
+
+[[issues]]
+  filepath = "tests/defaults/main_test.go"
+  fileline = 137
+
+[[issues]]
+  filepath = "tests/defaults/main_test.go"
+  fileline = 134
+
+[[issues]]
+  filepath = "tests/defaults/main_test.go"
+  fileline = 133
+
+[[issues]]
+  filepath = "tests/defaults/main_test.go"
+  fileline = 137
+
+[[issues]]
+  filepath = "tests/defaults/main_test.go"
+  fileline = 138
+
+[[issues]]
+  filepath = "tests/defaults/main_test.go"
+  fileline = 139
+
+[[issues]]
+  filepath = "tests/defaults/main_test.go"
+  fileline = 135
+
+[[issues]]
+  filepath = "tests/defaults/main_test.go"
+  fileline = 160
+
+[[issues]]
+  filepath = "tests/defaults/main_test.go"
+  fileline = 159
+
+[[issues]]
+  filepath = "tests/defaults/main_test.go"
+  fileline = 155
+
+[[issues]]
+  filepath = "tests/defaults/main_test.go"
+  fileline = 155
+
+[[issues]]
+  filepath = "tests/defaults/main_test.go"
+  fileline = 156
+
+[[issues]]
+  filepath = "tests/defaults/main_test.go"
+  fileline = 155
+
+[[issues]]
+  filepath = "tests/defaults/main_test.go"
+  fileline = 156
+
+[[issues]]
+  filepath = "tests/defaults/main_test.go"
+  fileline = 152
+
+[[issues]]
+  filepath = "tests/defaults/main_test.go"
+  fileline = 163
+
+[[issues]]
+  filepath = "tests/defaults/main_test.go"
+  fileline = 163
+
+[[issues]]
+  filepath = "tests/defaults/main_test.go"
+  fileline = 154
+
+[[issues]]
+  filepath = "tests/defaults/main_test.go"
+  fileline = 152
+
+[[issues]]
+  filepath = "tests/defaults/main_test.go"
+  fileline = 153
+
+[[issues]]
+  filepath = "daemonize.go"
+  fileline = 22
+
+[[issues]]
+  filepath = "daemonize.go"
+  fileline = 22
+
+[[issues]]
+  filepath = "daemonize.go"
+  fileline = 21
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 49
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 39
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 35
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 35
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 36
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 35
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 49
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 48
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 37
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 37
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 37
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 40
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 41
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 41
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 41
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 40
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 40
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 45
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 45
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 45
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 42
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 42
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 42
+
+[[issues]]
+  filepath = "tests/matrix/matrix_test.go"
+  fileline = 360
+
+[[issues]]
+  filepath = "tests/matrix/matrix_test.go"
+  fileline = 360
+
+[[issues]]
+  filepath = "tests/matrix/matrix_test.go"
+  fileline = 360
+
+[[issues]]
+  filepath = "tests/matrix/matrix_test.go"
+  fileline = 361
+
+[[issues]]
+  filepath = "tests/matrix/matrix_test.go"
+  fileline = 361
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 91
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 91
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 91
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 95
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 95
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 95
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 93
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 98
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 97
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 98
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 89
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 93
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 94
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 98
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 89
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 90
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 89
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 88
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 100
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 100
+
+[[issues]]
+  filepath = "tests/defaults/diriv_test.go"
+  fileline = 50
+
+[[issues]]
+  filepath = "tests/defaults/diriv_test.go"
+  fileline = 50
+
+[[issues]]
+  filepath = "tests/defaults/diriv_test.go"
+  fileline = 45
+
+[[issues]]
+  filepath = "tests/defaults/diriv_test.go"
+  fileline = 45
+
+[[issues]]
+  filepath = "tests/defaults/diriv_test.go"
+  fileline = 52
+
+[[issues]]
+  filepath = "tests/defaults/diriv_test.go"
+  fileline = 49
+
+[[issues]]
+  filepath = "tests/defaults/diriv_test.go"
+  fileline = 48
+
+[[issues]]
+  filepath = "tests/defaults/diriv_test.go"
+  fileline = 52
+
+[[issues]]
+  filepath = "tests/defaults/diriv_test.go"
+  fileline = 48
+
+[[issues]]
+  filepath = "tests/defaults/diriv_test.go"
+  fileline = 52
+
+[[issues]]
+  filepath = "tests/defaults/diriv_test.go"
+  fileline = 48
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 55
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 55
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 55
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 70
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 56
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 69
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 70
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 55
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 59
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 55
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 57
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 57
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 57
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 62
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 62
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 62
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 66
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 66
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 66
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 65
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 64
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 64
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 60
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 60
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 61
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 64
+
+[[issues]]
+  filepath = "mount.go"
+  fileline = 482
+
+[[issues]]
+  filepath = "mount.go"
+  fileline = 483
+
+[[issues]]
+  filepath = "mount.go"
+  fileline = 482
+
+[[issues]]
+  filepath = "mount.go"
+  fileline = 481
+
+[[issues]]
+  filepath = "mount.go"
+  fileline = 482
+
+[[issues]]
+  filepath = "mount.go"
+  fileline = 483
+
+[[issues]]
+  filepath = "mount.go"
+  fileline = 483
+
+[[issues]]
+  filepath = "mount.go"
+  fileline = 483
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 58
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 59
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 60
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 58
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 59
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 59
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 58
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 64
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 57
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 56
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 64
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 56
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 61
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 61
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 48
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 48
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 47
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 47
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 49
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 47
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 48
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 47
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 50
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 50
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 45
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 45
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 46
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 45
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 53
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 53
+
+[[issues]]
+  filepath = "tests/test_helpers/mount_unmount.go"
+  fileline = 62
+
+[[issues]]
+  filepath = "tests/test_helpers/mount_unmount.go"
+  fileline = 61
+
+[[issues]]
+  filepath = "tests/test_helpers/mount_unmount.go"
+  fileline = 61
+
+[[issues]]
+  filepath = "tests/test_helpers/mount_unmount.go"
+  fileline = 61
+
+[[issues]]
+  filepath = "tests/test_helpers/mount_unmount.go"
+  fileline = 61
+
+[[issues]]
+  filepath = "tests/test_helpers/mount_unmount.go"
+  fileline = 62
+
+[[issues]]
+  filepath = "tests/test_helpers/mount_unmount.go"
+  fileline = 61
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 34
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 35
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 42
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 42
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 34
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 34
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 39
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 39
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 37
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 36
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 37
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 38
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 37
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 36
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 36

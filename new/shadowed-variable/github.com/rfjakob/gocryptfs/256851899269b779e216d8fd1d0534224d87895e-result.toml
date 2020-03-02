@@ -1,0 +1,39 @@
+repo = "github.com/rfjakob/gocryptfs"
+rule = "codelingo/go/shadowed-variable"
+sha = "256851899269b779e216d8fd1d0534224d87895e"
+
+[[issues]]
+  filepath = "fsck.go"
+  fileline = 217
+
+[[issues]]
+  filepath = "fsck.go"
+  fileline = 165
+
+[[issues]]
+  filepath = "gocryptfs-xray/xray_main.go"
+  fileline = 109
+
+[[issues]]
+  filepath = "internal/fusefrontend/file.go"
+  fileline = 163
+
+[[issues]]
+  filepath = "internal/fusefrontend/file.go"
+  fileline = 385
+
+[[issues]]
+  filepath = "tests/matrix/matrix_test.go"
+  fileline = 446
+
+[[issues]]
+  filepath = "internal/fusefrontend/file_allocate_truncate.go"
+  fileline = 192
+
+[[issues]]
+  filepath = "internal/fusefrontend/file_allocate_truncate.go"
+  fileline = 191
+
+[[issues]]
+  filepath = "internal/fusefrontend/openbackingdir.go"
+  fileline = 60
