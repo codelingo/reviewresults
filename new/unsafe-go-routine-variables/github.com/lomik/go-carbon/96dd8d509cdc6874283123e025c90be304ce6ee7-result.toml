@@ -3,258 +3,6 @@ rule = "codelingo/go/unsafe-go-routine-variables"
 sha = "96dd8d509cdc6874283123e025c90be304ce6ee7"
 
 [[issues]]
-  filepath = "receiver/http/http.go"
-  fileline = 97
-
-[[issues]]
-  filepath = "receiver/http/http.go"
-  fileline = 97
-
-[[issues]]
-  filepath = "receiver/http/http.go"
-  fileline = 96
-
-[[issues]]
-  filepath = "receiver/http/http.go"
-  fileline = 96
-
-[[issues]]
-  filepath = "receiver/http/http.go"
-  fileline = 97
-
-[[issues]]
-  filepath = "receiver/http/http.go"
-  fileline = 96
-
-[[issues]]
-  filepath = "carbonserver/trie_real_test.go"
-  fileline = 72
-
-[[issues]]
-  filepath = "carbonserver/trie_real_test.go"
-  fileline = 71
-
-[[issues]]
-  filepath = "carbonserver/trie_real_test.go"
-  fileline = 72
-
-[[issues]]
-  filepath = "carbonserver/trie_real_test.go"
-  fileline = 72
-
-[[issues]]
-  filepath = "carbonserver/trie_real_test.go"
-  fileline = 72
-
-[[issues]]
-  filepath = "carbonserver/trie_real_test.go"
-  fileline = 71
-
-[[issues]]
-  filepath = "carbonserver/trie_real_test.go"
-  fileline = 72
-
-[[issues]]
-  filepath = "carbonserver/trie_real_test.go"
-  fileline = 72
-
-[[issues]]
-  filepath = "carbonserver/trie_real_test.go"
-  fileline = 72
-
-[[issues]]
-  filepath = "carbonserver/trie_real_test.go"
-  fileline = 72
-
-[[issues]]
-  filepath = "carbonserver/trie_real_test.go"
-  fileline = 67
-
-[[issues]]
-  filepath = "carbonserver/trie_real_test.go"
-  fileline = 70
-
-[[issues]]
-  filepath = "carbonserver/trie_real_test.go"
-  fileline = 68
-
-[[issues]]
-  filepath = "carbonserver/trie_real_test.go"
-  fileline = 74
-
-[[issues]]
-  filepath = "carbonserver/trie_real_test.go"
-  fileline = 67
-
-[[issues]]
-  filepath = "carbonserver/trie_real_test.go"
-  fileline = 68
-
-[[issues]]
-  filepath = "carbonserver/trie_real_test.go"
-  fileline = 67
-
-[[issues]]
-  filepath = "carbonserver/trie_real_test.go"
-  fileline = 74
-
-[[issues]]
-  filepath = "receiver/kafka/kafka.go"
-  fileline = 306
-
-[[issues]]
-  filepath = "receiver/kafka/kafka.go"
-  fileline = 308
-
-[[issues]]
-  filepath = "receiver/kafka/kafka.go"
-  fileline = 306
-
-[[issues]]
-  filepath = "receiver/kafka/kafka.go"
-  fileline = 306
-
-[[issues]]
-  filepath = "receiver/kafka/kafka.go"
-  fileline = 308
-
-[[issues]]
-  filepath = "receiver/kafka/kafka.go"
-  fileline = 308
-
-[[issues]]
-  filepath = "receiver/kafka/kafka.go"
-  fileline = 307
-
-[[issues]]
-  filepath = "receiver/kafka/kafka.go"
-  fileline = 307
-
-[[issues]]
-  filepath = "carbonserver/trie_test.go"
-  fileline = 690
-
-[[issues]]
-  filepath = "carbonserver/trie_test.go"
-  fileline = 691
-
-[[issues]]
-  filepath = "carbonserver/trie_test.go"
-  fileline = 691
-
-[[issues]]
-  filepath = "carbonserver/trie_test.go"
-  fileline = 690
-
-[[issues]]
-  filepath = "carbonserver/trie_test.go"
-  fileline = 690
-
-[[issues]]
-  filepath = "carbon/app.go"
-  fileline = 199
-
-[[issues]]
-  filepath = "carbon/app.go"
-  fileline = 198
-
-[[issues]]
-  filepath = "carbon/app.go"
-  fileline = 199
-
-[[issues]]
-  filepath = "carbon/app.go"
-  fileline = 198
-
-[[issues]]
-  filepath = "carbon/grace.go"
-  fileline = 127
-
-[[issues]]
-  filepath = "carbon/grace.go"
-  fileline = 122
-
-[[issues]]
-  filepath = "carbon/grace.go"
-  fileline = 127
-
-[[issues]]
-  filepath = "carbon/grace.go"
-  fileline = 127
-
-[[issues]]
-  filepath = "carbon/grace.go"
-  fileline = 120
-
-[[issues]]
-  filepath = "carbon/grace.go"
-  fileline = 120
-
-[[issues]]
-  filepath = "carbon/grace.go"
-  fileline = 132
-
-[[issues]]
-  filepath = "carbon/grace.go"
-  fileline = 132
-
-[[issues]]
-  filepath = "carbon/grace.go"
-  fileline = 122
-
-[[issues]]
-  filepath = "carbon/grace.go"
-  fileline = 122
-
-[[issues]]
-  filepath = "carbon/grace.go"
-  fileline = 128
-
-[[issues]]
-  filepath = "carbon/grace.go"
-  fileline = 128
-
-[[issues]]
-  filepath = "carbon/grace.go"
-  fileline = 128
-
-[[issues]]
-  filepath = "carbon/grace.go"
-  fileline = 128
-
-[[issues]]
-  filepath = "carbon/grace.go"
-  fileline = 128
-
-[[issues]]
-  filepath = "carbon/grace.go"
-  fileline = 123
-
-[[issues]]
-  filepath = "carbon/grace.go"
-  fileline = 123
-
-[[issues]]
-  filepath = "carbon/grace.go"
-  fileline = 123
-
-[[issues]]
-  filepath = "carbon/grace.go"
-  fileline = 123
-
-[[issues]]
-  filepath = "carbon/grace.go"
-  fileline = 123
-
-[[issues]]
-  filepath = "helper/stoppable.go"
-  fileline = 43
-
-[[issues]]
-  filepath = "helper/stoppable.go"
-  fileline = 43
-
-[[issues]]
   filepath = "helper/stoppable.go"
   fileline = 43
 
@@ -267,268 +15,100 @@ sha = "96dd8d509cdc6874283123e025c90be304ce6ee7"
   fileline = 42
 
 [[issues]]
-  filepath = "go-carbon.go"
-  fileline = 205
+  filepath = "helper/stoppable.go"
+  fileline = 43
 
 [[issues]]
-  filepath = "go-carbon.go"
-  fileline = 204
+  filepath = "helper/stoppable.go"
+  fileline = 43
 
 [[issues]]
-  filepath = "go-carbon.go"
-  fileline = 203
+  filepath = "carbon/grace.go"
+  fileline = 128
 
 [[issues]]
-  filepath = "go-carbon.go"
-  fileline = 205
+  filepath = "carbon/grace.go"
+  fileline = 128
 
 [[issues]]
-  filepath = "go-carbon.go"
-  fileline = 204
+  filepath = "carbon/grace.go"
+  fileline = 128
 
 [[issues]]
-  filepath = "go-carbon.go"
-  fileline = 205
+  filepath = "carbon/grace.go"
+  fileline = 128
 
 [[issues]]
-  filepath = "go-carbon.go"
-  fileline = 201
+  filepath = "carbon/grace.go"
+  fileline = 128
 
 [[issues]]
-  filepath = "go-carbon.go"
-  fileline = 200
+  filepath = "carbon/grace.go"
+  fileline = 123
 
 [[issues]]
-  filepath = "go-carbon.go"
-  fileline = 200
+  filepath = "carbon/grace.go"
+  fileline = 123
 
 [[issues]]
-  filepath = "go-carbon.go"
-  fileline = 201
+  filepath = "carbon/grace.go"
+  fileline = 123
 
 [[issues]]
-  filepath = "go-carbon.go"
-  fileline = 201
+  filepath = "carbon/grace.go"
+  fileline = 123
 
 [[issues]]
-  filepath = "go-carbon.go"
-  fileline = 200
+  filepath = "carbon/grace.go"
+  fileline = 123
 
 [[issues]]
-  filepath = "go-carbon.go"
-  fileline = 201
+  filepath = "carbon/grace.go"
+  fileline = 127
 
 [[issues]]
-  filepath = "go-carbon.go"
-  fileline = 206
+  filepath = "carbon/grace.go"
+  fileline = 122
 
 [[issues]]
-  filepath = "go-carbon.go"
-  fileline = 206
+  filepath = "carbon/grace.go"
+  fileline = 120
 
 [[issues]]
-  filepath = "go-carbon.go"
-  fileline = 206
+  filepath = "carbon/grace.go"
+  fileline = 132
 
 [[issues]]
-  filepath = "go-carbon.go"
-  fileline = 206
+  filepath = "carbon/grace.go"
+  fileline = 122
 
 [[issues]]
-  filepath = "go-carbon.go"
-  fileline = 206
+  filepath = "carbon/grace.go"
+  fileline = 127
 
 [[issues]]
-  filepath = "go-carbon.go"
-  fileline = 208
+  filepath = "carbon/grace.go"
+  fileline = 127
 
 [[issues]]
-  filepath = "go-carbon.go"
-  fileline = 208
+  filepath = "carbon/grace.go"
+  fileline = 122
 
 [[issues]]
-  filepath = "receiver/pubsub/pubsub.go"
-  fileline = 135
+  filepath = "carbon/grace.go"
+  fileline = 132
 
 [[issues]]
-  filepath = "receiver/pubsub/pubsub.go"
-  fileline = 136
-
-[[issues]]
-  filepath = "receiver/pubsub/pubsub.go"
-  fileline = 135
-
-[[issues]]
-  filepath = "receiver/pubsub/pubsub.go"
-  fileline = 146
-
-[[issues]]
-  filepath = "receiver/pubsub/pubsub.go"
-  fileline = 134
-
-[[issues]]
-  filepath = "receiver/pubsub/pubsub.go"
-  fileline = 134
-
-[[issues]]
-  filepath = "receiver/pubsub/pubsub.go"
-  fileline = 134
-
-[[issues]]
-  filepath = "receiver/pubsub/pubsub.go"
-  fileline = 134
-
-[[issues]]
-  filepath = "receiver/pubsub/pubsub.go"
-  fileline = 134
-
-[[issues]]
-  filepath = "receiver/pubsub/pubsub.go"
-  fileline = 146
-
-[[issues]]
-  filepath = "receiver/pubsub/pubsub.go"
-  fileline = 138
-
-[[issues]]
-  filepath = "receiver/pubsub/pubsub.go"
-  fileline = 138
-
-[[issues]]
-  filepath = "receiver/pubsub/pubsub.go"
-  fileline = 146
-
-[[issues]]
-  filepath = "receiver/pubsub/pubsub.go"
-  fileline = 146
-
-[[issues]]
-  filepath = "receiver/pubsub/pubsub.go"
-  fileline = 134
-
-[[issues]]
-  filepath = "receiver/pubsub/pubsub.go"
-  fileline = 134
-
-[[issues]]
-  filepath = "receiver/pubsub/pubsub.go"
-  fileline = 134
-
-[[issues]]
-  filepath = "receiver/pubsub/pubsub.go"
-  fileline = 143
-
-[[issues]]
-  filepath = "receiver/pubsub/pubsub.go"
-  fileline = 144
-
-[[issues]]
-  filepath = "receiver/pubsub/pubsub.go"
-  fileline = 144
-
-[[issues]]
-  filepath = "receiver/pubsub/pubsub.go"
-  fileline = 144
-
-[[issues]]
-  filepath = "receiver/pubsub/pubsub.go"
-  fileline = 144
-
-[[issues]]
-  filepath = "receiver/pubsub/pubsub.go"
-  fileline = 144
-
-[[issues]]
-  filepath = "receiver/pubsub/pubsub.go"
-  fileline = 139
-
-[[issues]]
-  filepath = "receiver/pubsub/pubsub.go"
-  fileline = 140
-
-[[issues]]
-  filepath = "receiver/pubsub/pubsub.go"
-  fileline = 139
-
-[[issues]]
-  filepath = "receiver/pubsub/pubsub.go"
-  fileline = 140
-
-[[issues]]
-  filepath = "receiver/pubsub/pubsub.go"
-  fileline = 139
-
-[[issues]]
-  filepath = "carbon/app_stop_test.go"
-  fileline = 61
-
-[[issues]]
-  filepath = "carbon/app_stop_test.go"
-  fileline = 62
-
-[[issues]]
-  filepath = "carbon/app_stop_test.go"
-  fileline = 62
-
-[[issues]]
-  filepath = "carbon/app_stop_test.go"
-  fileline = 63
-
-[[issues]]
-  filepath = "carbonserver/trie_test.go"
-  fileline = 694
-
-[[issues]]
-  filepath = "carbonserver/trie_test.go"
-  fileline = 694
-
-[[issues]]
-  filepath = "carbonserver/trie_test.go"
-  fileline = 695
-
-[[issues]]
-  filepath = "carbonserver/trie_test.go"
-  fileline = 695
-
-[[issues]]
-  filepath = "receiver/kafka/kafka.go"
-  fileline = 377
-
-[[issues]]
-  filepath = "receiver/kafka/kafka.go"
-  fileline = 379
-
-[[issues]]
-  filepath = "receiver/kafka/kafka.go"
-  fileline = 377
-
-[[issues]]
-  filepath = "receiver/kafka/kafka.go"
-  fileline = 377
-
-[[issues]]
-  filepath = "receiver/kafka/kafka.go"
-  fileline = 378
-
-[[issues]]
-  filepath = "receiver/kafka/kafka.go"
-  fileline = 378
-
-[[issues]]
-  filepath = "receiver/kafka/kafka.go"
-  fileline = 379
-
-[[issues]]
-  filepath = "receiver/kafka/kafka.go"
-  fileline = 379
-
-[[issues]]
-  filepath = "go-carbon.go"
-  fileline = 195
+  filepath = "carbon/grace.go"
+  fileline = 120
 
 [[issues]]
   filepath = "go-carbon.go"
   fileline = 194
+
+[[issues]]
+  filepath = "go-carbon.go"
+  fileline = 195
 
 [[issues]]
   filepath = "go-carbon.go"
@@ -560,63 +140,19 @@ sha = "96dd8d509cdc6874283123e025c90be304ce6ee7"
 
 [[issues]]
   filepath = "go-carbon.go"
+  fileline = 191
+
+[[issues]]
+  filepath = "go-carbon.go"
+  fileline = 191
+
+[[issues]]
+  filepath = "go-carbon.go"
   fileline = 190
 
 [[issues]]
-  filepath = "go-carbon.go"
-  fileline = 191
-
-[[issues]]
-  filepath = "go-carbon.go"
-  fileline = 191
-
-[[issues]]
   filepath = "carbonserver/trie_real_test.go"
-  fileline = 85
-
-[[issues]]
-  filepath = "carbonserver/trie_real_test.go"
-  fileline = 85
-
-[[issues]]
-  filepath = "carbonserver/trie_real_test.go"
-  fileline = 84
-
-[[issues]]
-  filepath = "carbonserver/trie_real_test.go"
-  fileline = 85
-
-[[issues]]
-  filepath = "carbonserver/trie_real_test.go"
-  fileline = 85
-
-[[issues]]
-  filepath = "carbonserver/trie_real_test.go"
-  fileline = 85
-
-[[issues]]
-  filepath = "carbonserver/trie_real_test.go"
-  fileline = 84
-
-[[issues]]
-  filepath = "carbonserver/trie_real_test.go"
-  fileline = 85
-
-[[issues]]
-  filepath = "carbonserver/trie_real_test.go"
-  fileline = 85
-
-[[issues]]
-  filepath = "carbonserver/trie_real_test.go"
-  fileline = 85
-
-[[issues]]
-  filepath = "carbonserver/trie_real_test.go"
-  fileline = 81
-
-[[issues]]
-  filepath = "carbonserver/trie_real_test.go"
-  fileline = 87
+  fileline = 80
 
 [[issues]]
   filepath = "carbonserver/trie_real_test.go"
@@ -628,12 +164,476 @@ sha = "96dd8d509cdc6874283123e025c90be304ce6ee7"
 
 [[issues]]
   filepath = "carbonserver/trie_real_test.go"
+  fileline = 80
+
+[[issues]]
+  filepath = "carbonserver/trie_real_test.go"
   fileline = 81
 
 [[issues]]
   filepath = "carbonserver/trie_real_test.go"
-  fileline = 80
+  fileline = 81
 
 [[issues]]
   filepath = "carbonserver/trie_real_test.go"
-  fileline = 80
+  fileline = 87
+
+[[issues]]
+  filepath = "carbonserver/trie_real_test.go"
+  fileline = 84
+
+[[issues]]
+  filepath = "carbonserver/trie_real_test.go"
+  fileline = 85
+
+[[issues]]
+  filepath = "carbonserver/trie_real_test.go"
+  fileline = 85
+
+[[issues]]
+  filepath = "carbonserver/trie_real_test.go"
+  fileline = 85
+
+[[issues]]
+  filepath = "carbonserver/trie_real_test.go"
+  fileline = 85
+
+[[issues]]
+  filepath = "carbonserver/trie_real_test.go"
+  fileline = 85
+
+[[issues]]
+  filepath = "carbonserver/trie_real_test.go"
+  fileline = 85
+
+[[issues]]
+  filepath = "carbonserver/trie_real_test.go"
+  fileline = 85
+
+[[issues]]
+  filepath = "carbonserver/trie_real_test.go"
+  fileline = 84
+
+[[issues]]
+  filepath = "carbonserver/trie_real_test.go"
+  fileline = 85
+
+[[issues]]
+  filepath = "carbonserver/trie_test.go"
+  fileline = 694
+
+[[issues]]
+  filepath = "carbonserver/trie_test.go"
+  fileline = 694
+
+[[issues]]
+  filepath = "carbonserver/trie_test.go"
+  fileline = 695
+
+[[issues]]
+  filepath = "carbonserver/trie_test.go"
+  fileline = 695
+
+[[issues]]
+  filepath = "receiver/kafka/kafka.go"
+  fileline = 378
+
+[[issues]]
+  filepath = "receiver/kafka/kafka.go"
+  fileline = 379
+
+[[issues]]
+  filepath = "receiver/kafka/kafka.go"
+  fileline = 377
+
+[[issues]]
+  filepath = "receiver/kafka/kafka.go"
+  fileline = 378
+
+[[issues]]
+  filepath = "receiver/kafka/kafka.go"
+  fileline = 379
+
+[[issues]]
+  filepath = "receiver/kafka/kafka.go"
+  fileline = 377
+
+[[issues]]
+  filepath = "receiver/kafka/kafka.go"
+  fileline = 377
+
+[[issues]]
+  filepath = "receiver/kafka/kafka.go"
+  fileline = 379
+
+[[issues]]
+  filepath = "carbon/app_stop_test.go"
+  fileline = 63
+
+[[issues]]
+  filepath = "carbon/app_stop_test.go"
+  fileline = 62
+
+[[issues]]
+  filepath = "carbon/app_stop_test.go"
+  fileline = 62
+
+[[issues]]
+  filepath = "carbon/app_stop_test.go"
+  fileline = 61
+
+[[issues]]
+  filepath = "carbon/app.go"
+  fileline = 199
+
+[[issues]]
+  filepath = "carbon/app.go"
+  fileline = 198
+
+[[issues]]
+  filepath = "carbon/app.go"
+  fileline = 199
+
+[[issues]]
+  filepath = "carbon/app.go"
+  fileline = 198
+
+[[issues]]
+  filepath = "carbonserver/trie_test.go"
+  fileline = 691
+
+[[issues]]
+  filepath = "carbonserver/trie_test.go"
+  fileline = 690
+
+[[issues]]
+  filepath = "carbonserver/trie_test.go"
+  fileline = 690
+
+[[issues]]
+  filepath = "carbonserver/trie_test.go"
+  fileline = 691
+
+[[issues]]
+  filepath = "carbonserver/trie_test.go"
+  fileline = 690
+
+[[issues]]
+  filepath = "receiver/pubsub/pubsub.go"
+  fileline = 146
+
+[[issues]]
+  filepath = "receiver/pubsub/pubsub.go"
+  fileline = 134
+
+[[issues]]
+  filepath = "receiver/pubsub/pubsub.go"
+  fileline = 134
+
+[[issues]]
+  filepath = "receiver/pubsub/pubsub.go"
+  fileline = 138
+
+[[issues]]
+  filepath = "receiver/pubsub/pubsub.go"
+  fileline = 134
+
+[[issues]]
+  filepath = "receiver/pubsub/pubsub.go"
+  fileline = 146
+
+[[issues]]
+  filepath = "receiver/pubsub/pubsub.go"
+  fileline = 134
+
+[[issues]]
+  filepath = "receiver/pubsub/pubsub.go"
+  fileline = 146
+
+[[issues]]
+  filepath = "receiver/pubsub/pubsub.go"
+  fileline = 138
+
+[[issues]]
+  filepath = "receiver/pubsub/pubsub.go"
+  fileline = 143
+
+[[issues]]
+  filepath = "receiver/pubsub/pubsub.go"
+  fileline = 134
+
+[[issues]]
+  filepath = "receiver/pubsub/pubsub.go"
+  fileline = 146
+
+[[issues]]
+  filepath = "receiver/pubsub/pubsub.go"
+  fileline = 134
+
+[[issues]]
+  filepath = "receiver/pubsub/pubsub.go"
+  fileline = 134
+
+[[issues]]
+  filepath = "receiver/pubsub/pubsub.go"
+  fileline = 134
+
+[[issues]]
+  filepath = "receiver/pubsub/pubsub.go"
+  fileline = 139
+
+[[issues]]
+  filepath = "receiver/pubsub/pubsub.go"
+  fileline = 139
+
+[[issues]]
+  filepath = "receiver/pubsub/pubsub.go"
+  fileline = 140
+
+[[issues]]
+  filepath = "receiver/pubsub/pubsub.go"
+  fileline = 139
+
+[[issues]]
+  filepath = "receiver/pubsub/pubsub.go"
+  fileline = 140
+
+[[issues]]
+  filepath = "receiver/pubsub/pubsub.go"
+  fileline = 144
+
+[[issues]]
+  filepath = "receiver/pubsub/pubsub.go"
+  fileline = 144
+
+[[issues]]
+  filepath = "receiver/pubsub/pubsub.go"
+  fileline = 144
+
+[[issues]]
+  filepath = "receiver/pubsub/pubsub.go"
+  fileline = 144
+
+[[issues]]
+  filepath = "receiver/pubsub/pubsub.go"
+  fileline = 144
+
+[[issues]]
+  filepath = "receiver/pubsub/pubsub.go"
+  fileline = 135
+
+[[issues]]
+  filepath = "receiver/pubsub/pubsub.go"
+  fileline = 135
+
+[[issues]]
+  filepath = "receiver/pubsub/pubsub.go"
+  fileline = 136
+
+[[issues]]
+  filepath = "go-carbon.go"
+  fileline = 200
+
+[[issues]]
+  filepath = "go-carbon.go"
+  fileline = 201
+
+[[issues]]
+  filepath = "go-carbon.go"
+  fileline = 201
+
+[[issues]]
+  filepath = "go-carbon.go"
+  fileline = 201
+
+[[issues]]
+  filepath = "go-carbon.go"
+  fileline = 201
+
+[[issues]]
+  filepath = "go-carbon.go"
+  fileline = 200
+
+[[issues]]
+  filepath = "go-carbon.go"
+  fileline = 200
+
+[[issues]]
+  filepath = "go-carbon.go"
+  fileline = 208
+
+[[issues]]
+  filepath = "go-carbon.go"
+  fileline = 208
+
+[[issues]]
+  filepath = "go-carbon.go"
+  fileline = 206
+
+[[issues]]
+  filepath = "go-carbon.go"
+  fileline = 206
+
+[[issues]]
+  filepath = "go-carbon.go"
+  fileline = 206
+
+[[issues]]
+  filepath = "go-carbon.go"
+  fileline = 206
+
+[[issues]]
+  filepath = "go-carbon.go"
+  fileline = 206
+
+[[issues]]
+  filepath = "go-carbon.go"
+  fileline = 203
+
+[[issues]]
+  filepath = "go-carbon.go"
+  fileline = 204
+
+[[issues]]
+  filepath = "go-carbon.go"
+  fileline = 205
+
+[[issues]]
+  filepath = "go-carbon.go"
+  fileline = 204
+
+[[issues]]
+  filepath = "go-carbon.go"
+  fileline = 205
+
+[[issues]]
+  filepath = "go-carbon.go"
+  fileline = 205
+
+[[issues]]
+  filepath = "carbonserver/trie_real_test.go"
+  fileline = 74
+
+[[issues]]
+  filepath = "carbonserver/trie_real_test.go"
+  fileline = 74
+
+[[issues]]
+  filepath = "carbonserver/trie_real_test.go"
+  fileline = 68
+
+[[issues]]
+  filepath = "carbonserver/trie_real_test.go"
+  fileline = 67
+
+[[issues]]
+  filepath = "carbonserver/trie_real_test.go"
+  fileline = 70
+
+[[issues]]
+  filepath = "carbonserver/trie_real_test.go"
+  fileline = 67
+
+[[issues]]
+  filepath = "carbonserver/trie_real_test.go"
+  fileline = 67
+
+[[issues]]
+  filepath = "carbonserver/trie_real_test.go"
+  fileline = 68
+
+[[issues]]
+  filepath = "carbonserver/trie_real_test.go"
+  fileline = 72
+
+[[issues]]
+  filepath = "carbonserver/trie_real_test.go"
+  fileline = 72
+
+[[issues]]
+  filepath = "carbonserver/trie_real_test.go"
+  fileline = 71
+
+[[issues]]
+  filepath = "carbonserver/trie_real_test.go"
+  fileline = 72
+
+[[issues]]
+  filepath = "carbonserver/trie_real_test.go"
+  fileline = 72
+
+[[issues]]
+  filepath = "carbonserver/trie_real_test.go"
+  fileline = 71
+
+[[issues]]
+  filepath = "carbonserver/trie_real_test.go"
+  fileline = 72
+
+[[issues]]
+  filepath = "carbonserver/trie_real_test.go"
+  fileline = 72
+
+[[issues]]
+  filepath = "carbonserver/trie_real_test.go"
+  fileline = 72
+
+[[issues]]
+  filepath = "carbonserver/trie_real_test.go"
+  fileline = 72
+
+[[issues]]
+  filepath = "receiver/http/http.go"
+  fileline = 97
+
+[[issues]]
+  filepath = "receiver/http/http.go"
+  fileline = 96
+
+[[issues]]
+  filepath = "receiver/http/http.go"
+  fileline = 96
+
+[[issues]]
+  filepath = "receiver/http/http.go"
+  fileline = 96
+
+[[issues]]
+  filepath = "receiver/http/http.go"
+  fileline = 97
+
+[[issues]]
+  filepath = "receiver/http/http.go"
+  fileline = 97
+
+[[issues]]
+  filepath = "receiver/kafka/kafka.go"
+  fileline = 306
+
+[[issues]]
+  filepath = "receiver/kafka/kafka.go"
+  fileline = 307
+
+[[issues]]
+  filepath = "receiver/kafka/kafka.go"
+  fileline = 306
+
+[[issues]]
+  filepath = "receiver/kafka/kafka.go"
+  fileline = 306
+
+[[issues]]
+  filepath = "receiver/kafka/kafka.go"
+  fileline = 307
+
+[[issues]]
+  filepath = "receiver/kafka/kafka.go"
+  fileline = 308
+
+[[issues]]
+  filepath = "receiver/kafka/kafka.go"
+  fileline = 308
+
+[[issues]]
+  filepath = "receiver/kafka/kafka.go"
+  fileline = 308

@@ -4,27 +4,23 @@ sha = "e4e27c8cbcdd426477505f026a8a275525ccbd74"
 
 [[issues]]
   filepath = "service/spider.go"
-  fileline = 228
+  fileline = 185
 
 [[issues]]
   filepath = "service/spider.go"
-  fileline = 228
+  fileline = 184
 
 [[issues]]
   filepath = "service/spider.go"
-  fileline = 229
+  fileline = 185
 
 [[issues]]
   filepath = "service/spider.go"
-  fileline = 229
+  fileline = 184
 
 [[issues]]
   filepath = "service/spider.go"
-  fileline = 140
-
-[[issues]]
-  filepath = "service/spider.go"
-  fileline = 140
+  fileline = 143
 
 [[issues]]
   filepath = "service/spider.go"
@@ -32,11 +28,7 @@ sha = "e4e27c8cbcdd426477505f026a8a275525ccbd74"
 
 [[issues]]
   filepath = "service/spider.go"
-  fileline = 143
-
-[[issues]]
-  filepath = "service/spider.go"
-  fileline = 143
+  fileline = 140
 
 [[issues]]
   filepath = "service/spider.go"
@@ -44,19 +36,11 @@ sha = "e4e27c8cbcdd426477505f026a8a275525ccbd74"
 
 [[issues]]
   filepath = "service/spider.go"
-  fileline = 133
+  fileline = 140
 
 [[issues]]
   filepath = "service/spider.go"
-  fileline = 136
-
-[[issues]]
-  filepath = "service/spider.go"
-  fileline = 133
-
-[[issues]]
-  filepath = "service/spider.go"
-  fileline = 134
+  fileline = 143
 
 [[issues]]
   filepath = "service/spider.go"
@@ -64,20 +48,36 @@ sha = "e4e27c8cbcdd426477505f026a8a275525ccbd74"
 
 [[issues]]
   filepath = "service/spider.go"
+  fileline = 134
+
+[[issues]]
+  filepath = "service/spider.go"
+  fileline = 133
+
+[[issues]]
+  filepath = "service/spider.go"
   fileline = 136
 
 [[issues]]
   filepath = "service/spider.go"
-  fileline = 185
+  fileline = 133
 
 [[issues]]
   filepath = "service/spider.go"
-  fileline = 184
+  fileline = 136
 
 [[issues]]
   filepath = "service/spider.go"
-  fileline = 184
+  fileline = 229
 
 [[issues]]
   filepath = "service/spider.go"
-  fileline = 185
+  fileline = 228
+
+[[issues]]
+  filepath = "service/spider.go"
+  fileline = 229
+
+[[issues]]
+  filepath = "service/spider.go"
+  fileline = 228

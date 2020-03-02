@@ -8,8 +8,8 @@ sha = "700550ebe223c21b8c1118785617a13336502b75"
 
 [[issues]]
   filepath = "expert/image.go"
-  fileline = 72
+  fileline = 33
 
 [[issues]]
   filepath = "expert/image.go"
-  fileline = 33
+  fileline = 72

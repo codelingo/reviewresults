@@ -3,9 +3,9 @@ rule = "codelingo/rfjakob-gocryptfs/missing-close-file"
 sha = "700550ebe223c21b8c1118785617a13336502b75"
 
 [[issues]]
-  filepath = "advanced/csv2md.go"
-  fileline = 25
-
-[[issues]]
   filepath = "advanced/csv.go"
   fileline = 13
+
+[[issues]]
+  filepath = "advanced/csv2md.go"
+  fileline = 25

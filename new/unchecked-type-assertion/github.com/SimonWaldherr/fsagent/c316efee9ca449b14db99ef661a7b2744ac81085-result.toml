@@ -3,20 +3,16 @@ rule = "codelingo/go/unchecked-type-assertion"
 sha = "c316efee9ca449b14db99ef661a7b2744ac81085"
 
 [[issues]]
+  filepath = "modules/sleep.go"
+  fileline = 22
+
+[[issues]]
   filepath = "modules/mail.go"
   fileline = 43
 
 [[issues]]
-  filepath = "modules/http.go"
-  fileline = 27
-
-[[issues]]
   filepath = "modules/file.go"
-  fileline = 85
-
-[[issues]]
-  filepath = "modules/sleep.go"
-  fileline = 22
+  fileline = 67
 
 [[issues]]
   filepath = "modules/file.go"
@@ -24,7 +20,7 @@ sha = "c316efee9ca449b14db99ef661a7b2744ac81085"
 
 [[issues]]
   filepath = "modules/file.go"
-  fileline = 120
+  fileline = 85
 
 [[issues]]
   filepath = "modules/file.go"
@@ -32,4 +28,8 @@ sha = "c316efee9ca449b14db99ef661a7b2744ac81085"
 
 [[issues]]
   filepath = "modules/file.go"
-  fileline = 67
+  fileline = 120
+
+[[issues]]
+  filepath = "modules/http.go"
+  fileline = 27

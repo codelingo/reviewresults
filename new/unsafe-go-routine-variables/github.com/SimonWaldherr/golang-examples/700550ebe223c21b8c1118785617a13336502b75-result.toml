@@ -3,40 +3,52 @@ rule = "codelingo/go/unsafe-go-routine-variables"
 sha = "700550ebe223c21b8c1118785617a13336502b75"
 
 [[issues]]
-  filepath = "advanced/fanin.go"
-  fileline = 50
+  filepath = "advanced/ticker.go"
+  fileline = 20
 
 [[issues]]
-  filepath = "advanced/fanin.go"
-  fileline = 50
+  filepath = "advanced/ticker.go"
+  fileline = 20
 
 [[issues]]
-  filepath = "advanced/fanin.go"
-  fileline = 51
+  filepath = "advanced/ticker.go"
+  fileline = 20
 
 [[issues]]
-  filepath = "advanced/fanin.go"
-  fileline = 51
+  filepath = "advanced/ticker.go"
+  fileline = 21
 
 [[issues]]
-  filepath = "advanced/wait.go"
-  fileline = 23
+  filepath = "advanced/ticker.go"
+  fileline = 22
 
 [[issues]]
-  filepath = "advanced/wait.go"
-  fileline = 23
+  filepath = "advanced/ticker.go"
+  fileline = 21
 
 [[issues]]
-  filepath = "advanced/wait.go"
-  fileline = 23
+  filepath = "advanced/ticker.go"
+  fileline = 22
 
 [[issues]]
-  filepath = "advanced/wait.go"
+  filepath = "advanced/ticker.go"
+  fileline = 21
+
+[[issues]]
+  filepath = "advanced/ticker.go"
   fileline = 22
 
 [[issues]]
   filepath = "advanced/wait.go"
+  fileline = 23
+
+[[issues]]
+  filepath = "advanced/wait.go"
   fileline = 24
+
+[[issues]]
+  filepath = "advanced/wait.go"
+  fileline = 22
 
 [[issues]]
   filepath = "advanced/wait.go"
@@ -44,14 +56,18 @@ sha = "700550ebe223c21b8c1118785617a13336502b75"
 
 [[issues]]
   filepath = "advanced/wait.go"
+  fileline = 23
+
+[[issues]]
+  filepath = "advanced/wait.go"
+  fileline = 23
+
+[[issues]]
+  filepath = "advanced/wait.go"
   fileline = 24
 
 [[issues]]
   filepath = "advanced/wait.go"
-  fileline = 22
-
-[[issues]]
-  filepath = "advanced/wait.go"
   fileline = 23
 
 [[issues]]
@@ -63,60 +79,252 @@ sha = "700550ebe223c21b8c1118785617a13336502b75"
   fileline = 23
 
 [[issues]]
-  filepath = "advanced/ticker.go"
-  fileline = 21
-
-[[issues]]
-  filepath = "advanced/ticker.go"
-  fileline = 21
-
-[[issues]]
-  filepath = "advanced/ticker.go"
+  filepath = "advanced/wait.go"
   fileline = 22
 
 [[issues]]
-  filepath = "advanced/ticker.go"
-  fileline = 22
+  filepath = "advanced/fanin.go"
+  fileline = 15
 
 [[issues]]
-  filepath = "advanced/ticker.go"
-  fileline = 21
+  filepath = "advanced/fanin.go"
+  fileline = 15
 
 [[issues]]
-  filepath = "advanced/ticker.go"
-  fileline = 22
+  filepath = "advanced/fanin.go"
+  fileline = 14
 
 [[issues]]
-  filepath = "advanced/ticker.go"
-  fileline = 20
+  filepath = "advanced/fanin.go"
+  fileline = 18
 
 [[issues]]
-  filepath = "advanced/ticker.go"
-  fileline = 20
+  filepath = "advanced/fanin.go"
+  fileline = 14
 
 [[issues]]
-  filepath = "advanced/ticker.go"
-  fileline = 20
+  filepath = "advanced/fanin.go"
+  fileline = 18
 
 [[issues]]
-  filepath = "advanced/functionanonymous.go"
-  fileline = 12
+  filepath = "advanced/channel.go"
+  fileline = 30
 
 [[issues]]
-  filepath = "advanced/functionanonymous.go"
-  fileline = 11
+  filepath = "advanced/channel.go"
+  fileline = 32
 
 [[issues]]
-  filepath = "advanced/functionanonymous.go"
-  fileline = 11
+  filepath = "advanced/channel.go"
+  fileline = 32
 
 [[issues]]
-  filepath = "advanced/functionanonymous.go"
-  fileline = 12
+  filepath = "advanced/channel.go"
+  fileline = 30
+
+[[issues]]
+  filepath = "advanced/channel.go"
+  fileline = 30
+
+[[issues]]
+  filepath = "advanced/channel.go"
+  fileline = 31
+
+[[issues]]
+  filepath = "advanced/channel.go"
+  fileline = 31
+
+[[issues]]
+  filepath = "advanced/channel.go"
+  fileline = 30
+
+[[issues]]
+  filepath = "advanced/channel.go"
+  fileline = 27
+
+[[issues]]
+  filepath = "advanced/channel.go"
+  fileline = 26
+
+[[issues]]
+  filepath = "advanced/channel.go"
+  fileline = 25
+
+[[issues]]
+  filepath = "advanced/channel.go"
+  fileline = 25
+
+[[issues]]
+  filepath = "advanced/channel.go"
+  fileline = 25
+
+[[issues]]
+  filepath = "advanced/channel.go"
+  fileline = 26
+
+[[issues]]
+  filepath = "advanced/channel.go"
+  fileline = 25
+
+[[issues]]
+  filepath = "advanced/channel.go"
+  fileline = 27
+
+[[issues]]
+  filepath = "advanced/fanin.go"
+  fileline = 51
+
+[[issues]]
+  filepath = "advanced/fanin.go"
+  fileline = 51
+
+[[issues]]
+  filepath = "advanced/fanin.go"
+  fileline = 50
+
+[[issues]]
+  filepath = "advanced/fanin.go"
+  fileline = 50
 
 [[issues]]
   filepath = "expert/pi2go.go"
-  fileline = 39
+  fileline = 64
+
+[[issues]]
+  filepath = "expert/pi2go.go"
+  fileline = 65
+
+[[issues]]
+  filepath = "expert/pi2go-live.go"
+  fileline = 94
+
+[[issues]]
+  filepath = "expert/pi2go-live.go"
+  fileline = 93
+
+[[issues]]
+  filepath = "expert/parallel.go"
+  fileline = 49
+
+[[issues]]
+  filepath = "expert/parallel.go"
+  fileline = 49
+
+[[issues]]
+  filepath = "expert/parallel.go"
+  fileline = 49
+
+[[issues]]
+  filepath = "expert/parallel.go"
+  fileline = 49
+
+[[issues]]
+  filepath = "expert/parallel.go"
+  fileline = 49
+
+[[issues]]
+  filepath = "expert/pi2go-live.go"
+  fileline = 47
+
+[[issues]]
+  filepath = "expert/pi2go-live.go"
+  fileline = 46
+
+[[issues]]
+  filepath = "advanced/timeout.go"
+  fileline = 31
+
+[[issues]]
+  filepath = "advanced/timeout.go"
+  fileline = 31
+
+[[issues]]
+  filepath = "expert/dynparallel.go"
+  fileline = 121
+
+[[issues]]
+  filepath = "expert/dynparallel.go"
+  fileline = 121
+
+[[issues]]
+  filepath = "expert/dynparallel.go"
+  fileline = 121
+
+[[issues]]
+  filepath = "expert/dynparallel.go"
+  fileline = 120
+
+[[issues]]
+  filepath = "expert/dynparallel.go"
+  fileline = 120
+
+[[issues]]
+  filepath = "expert/dynparallel.go"
+  fileline = 120
+
+[[issues]]
+  filepath = "expert/dynparallel.go"
+  fileline = 121
+
+[[issues]]
+  filepath = "expert/dynparallel.go"
+  fileline = 120
+
+[[issues]]
+  filepath = "expert/dynparallel.go"
+  fileline = 120
+
+[[issues]]
+  filepath = "expert/dynparallel.go"
+  fileline = 120
+
+[[issues]]
+  filepath = "expert/dynparallel.go"
+  fileline = 121
+
+[[issues]]
+  filepath = "expert/dynparallel.go"
+  fileline = 122
+
+[[issues]]
+  filepath = "expert/pi2go-live.go"
+  fileline = 73
+
+[[issues]]
+  filepath = "expert/pi2go-live.go"
+  fileline = 74
+
+[[issues]]
+  filepath = "advanced/channel.go"
+  fileline = 35
+
+[[issues]]
+  filepath = "advanced/channel.go"
+  fileline = 35
+
+[[issues]]
+  filepath = "advanced/channel.go"
+  fileline = 35
+
+[[issues]]
+  filepath = "advanced/channel.go"
+  fileline = 36
+
+[[issues]]
+  filepath = "advanced/channel.go"
+  fileline = 37
+
+[[issues]]
+  filepath = "advanced/channel.go"
+  fileline = 36
+
+[[issues]]
+  filepath = "advanced/channel.go"
+  fileline = 35
+
+[[issues]]
+  filepath = "advanced/channel.go"
+  fileline = 37
 
 [[issues]]
   filepath = "expert/pi2go.go"
@@ -124,103 +332,179 @@ sha = "700550ebe223c21b8c1118785617a13336502b75"
 
 [[issues]]
   filepath = "expert/pi2go.go"
-  fileline = 65
-
-[[issues]]
-  filepath = "expert/pi2go.go"
-  fileline = 64
-
-[[issues]]
-  filepath = "expert/dynparallel.go"
-  fileline = 122
-
-[[issues]]
-  filepath = "expert/dynparallel.go"
-  fileline = 121
-
-[[issues]]
-  filepath = "expert/dynparallel.go"
-  fileline = 121
-
-[[issues]]
-  filepath = "expert/dynparallel.go"
-  fileline = 120
-
-[[issues]]
-  filepath = "expert/dynparallel.go"
-  fileline = 120
-
-[[issues]]
-  filepath = "expert/dynparallel.go"
-  fileline = 121
-
-[[issues]]
-  filepath = "expert/dynparallel.go"
-  fileline = 120
-
-[[issues]]
-  filepath = "expert/dynparallel.go"
-  fileline = 120
-
-[[issues]]
-  filepath = "expert/dynparallel.go"
-  fileline = 120
-
-[[issues]]
-  filepath = "expert/dynparallel.go"
-  fileline = 121
-
-[[issues]]
-  filepath = "expert/dynparallel.go"
-  fileline = 120
-
-[[issues]]
-  filepath = "expert/dynparallel.go"
-  fileline = 121
-
-[[issues]]
-  filepath = "expert/pi2go-live.go"
-  fileline = 46
-
-[[issues]]
-  filepath = "expert/pi2go-live.go"
-  fileline = 47
-
-[[issues]]
-  filepath = "advanced/channel.go"
-  fileline = 35
-
-[[issues]]
-  filepath = "advanced/channel.go"
-  fileline = 37
-
-[[issues]]
-  filepath = "advanced/channel.go"
-  fileline = 36
-
-[[issues]]
-  filepath = "advanced/channel.go"
-  fileline = 35
-
-[[issues]]
-  filepath = "advanced/channel.go"
-  fileline = 35
-
-[[issues]]
-  filepath = "advanced/channel.go"
-  fileline = 36
-
-[[issues]]
-  filepath = "advanced/channel.go"
-  fileline = 35
-
-[[issues]]
-  filepath = "advanced/channel.go"
-  fileline = 37
+  fileline = 39
 
 [[issues]]
   filepath = "expert/image3.go"
-  fileline = 73
+  fileline = 75
+
+[[issues]]
+  filepath = "expert/image3.go"
+  fileline = 75
+
+[[issues]]
+  filepath = "expert/image3.go"
+  fileline = 81
+
+[[issues]]
+  filepath = "expert/image3.go"
+  fileline = 81
+
+[[issues]]
+  filepath = "expert/image3.go"
+  fileline = 76
+
+[[issues]]
+  filepath = "expert/image3.go"
+  fileline = 78
+
+[[issues]]
+  filepath = "expert/image3.go"
+  fileline = 77
+
+[[issues]]
+  filepath = "expert/image3.go"
+  fileline = 78
+
+[[issues]]
+  filepath = "expert/image3.go"
+  fileline = 76
+
+[[issues]]
+  filepath = "expert/image3.go"
+  fileline = 76
+
+[[issues]]
+  filepath = "expert/image3.go"
+  fileline = 78
+
+[[issues]]
+  filepath = "expert/image3.go"
+  fileline = 77
+
+[[issues]]
+  filepath = "expert/image3.go"
+  fileline = 76
+
+[[issues]]
+  filepath = "expert/image3.go"
+  fileline = 76
+
+[[issues]]
+  filepath = "expert/image3.go"
+  fileline = 77
+
+[[issues]]
+  filepath = "expert/image3.go"
+  fileline = 78
+
+[[issues]]
+  filepath = "expert/image3.go"
+  fileline = 78
+
+[[issues]]
+  filepath = "expert/image3.go"
+  fileline = 78
+
+[[issues]]
+  filepath = "expert/image3.go"
+  fileline = 77
+
+[[issues]]
+  filepath = "expert/image3.go"
+  fileline = 77
+
+[[issues]]
+  filepath = "expert/image3.go"
+  fileline = 76
+
+[[issues]]
+  filepath = "expert/image3.go"
+  fileline = 77
+
+[[issues]]
+  filepath = "expert/image3.go"
+  fileline = 78
+
+[[issues]]
+  filepath = "expert/image3.go"
+  fileline = 78
+
+[[issues]]
+  filepath = "expert/image3.go"
+  fileline = 77
+
+[[issues]]
+  filepath = "expert/image3.go"
+  fileline = 76
+
+[[issues]]
+  filepath = "expert/image3.go"
+  fileline = 78
+
+[[issues]]
+  filepath = "expert/image3.go"
+  fileline = 83
+
+[[issues]]
+  filepath = "expert/image3.go"
+  fileline = 83
+
+[[issues]]
+  filepath = "expert/image3.go"
+  fileline = 82
+
+[[issues]]
+  filepath = "expert/image3.go"
+  fileline = 82
+
+[[issues]]
+  filepath = "expert/image3.go"
+  fileline = 83
+
+[[issues]]
+  filepath = "expert/image3.go"
+  fileline = 82
+
+[[issues]]
+  filepath = "expert/image3.go"
+  fileline = 83
+
+[[issues]]
+  filepath = "expert/image3.go"
+  fileline = 83
+
+[[issues]]
+  filepath = "expert/image3.go"
+  fileline = 83
+
+[[issues]]
+  filepath = "expert/image3.go"
+  fileline = 83
+
+[[issues]]
+  filepath = "expert/image3.go"
+  fileline = 83
+
+[[issues]]
+  filepath = "expert/image3.go"
+  fileline = 82
+
+[[issues]]
+  filepath = "expert/image3.go"
+  fileline = 83
+
+[[issues]]
+  filepath = "expert/image3.go"
+  fileline = 82
+
+[[issues]]
+  filepath = "expert/image3.go"
+  fileline = 82
+
+[[issues]]
+  filepath = "expert/image3.go"
+  fileline = 82
 
 [[issues]]
   filepath = "expert/image3.go"
@@ -232,239 +516,19 @@ sha = "700550ebe223c21b8c1118785617a13336502b75"
 
 [[issues]]
   filepath = "expert/image3.go"
-  fileline = 82
-
-[[issues]]
-  filepath = "expert/image3.go"
-  fileline = 82
-
-[[issues]]
-  filepath = "expert/image3.go"
-  fileline = 82
-
-[[issues]]
-  filepath = "expert/image3.go"
-  fileline = 82
-
-[[issues]]
-  filepath = "expert/image3.go"
-  fileline = 83
-
-[[issues]]
-  filepath = "expert/image3.go"
-  fileline = 83
-
-[[issues]]
-  filepath = "expert/image3.go"
-  fileline = 83
-
-[[issues]]
-  filepath = "expert/image3.go"
-  fileline = 83
-
-[[issues]]
-  filepath = "expert/image3.go"
-  fileline = 83
-
-[[issues]]
-  filepath = "expert/image3.go"
-  fileline = 83
-
-[[issues]]
-  filepath = "expert/image3.go"
-  fileline = 82
-
-[[issues]]
-  filepath = "expert/image3.go"
-  fileline = 82
-
-[[issues]]
-  filepath = "expert/image3.go"
-  fileline = 83
-
-[[issues]]
-  filepath = "expert/image3.go"
-  fileline = 82
-
-[[issues]]
-  filepath = "expert/image3.go"
-  fileline = 83
-
-[[issues]]
-  filepath = "expert/image3.go"
-  fileline = 83
-
-[[issues]]
-  filepath = "expert/image3.go"
-  fileline = 81
-
-[[issues]]
-  filepath = "expert/image3.go"
-  fileline = 81
-
-[[issues]]
-  filepath = "expert/image3.go"
-  fileline = 78
-
-[[issues]]
-  filepath = "expert/image3.go"
-  fileline = 77
-
-[[issues]]
-  filepath = "expert/image3.go"
-  fileline = 78
-
-[[issues]]
-  filepath = "expert/image3.go"
-  fileline = 76
-
-[[issues]]
-  filepath = "expert/image3.go"
-  fileline = 78
-
-[[issues]]
-  filepath = "expert/image3.go"
-  fileline = 77
-
-[[issues]]
-  filepath = "expert/image3.go"
-  fileline = 77
-
-[[issues]]
-  filepath = "expert/image3.go"
-  fileline = 76
-
-[[issues]]
-  filepath = "expert/image3.go"
-  fileline = 77
-
-[[issues]]
-  filepath = "expert/image3.go"
-  fileline = 78
-
-[[issues]]
-  filepath = "expert/image3.go"
-  fileline = 77
-
-[[issues]]
-  filepath = "expert/image3.go"
-  fileline = 77
-
-[[issues]]
-  filepath = "expert/image3.go"
-  fileline = 78
-
-[[issues]]
-  filepath = "expert/image3.go"
-  fileline = 77
-
-[[issues]]
-  filepath = "expert/image3.go"
-  fileline = 76
-
-[[issues]]
-  filepath = "expert/image3.go"
-  fileline = 76
-
-[[issues]]
-  filepath = "expert/image3.go"
-  fileline = 76
-
-[[issues]]
-  filepath = "expert/image3.go"
-  fileline = 78
-
-[[issues]]
-  filepath = "expert/image3.go"
-  fileline = 76
-
-[[issues]]
-  filepath = "expert/image3.go"
-  fileline = 78
-
-[[issues]]
-  filepath = "expert/image3.go"
-  fileline = 78
-
-[[issues]]
-  filepath = "expert/image3.go"
-  fileline = 76
-
-[[issues]]
-  filepath = "expert/image3.go"
-  fileline = 78
-
-[[issues]]
-  filepath = "expert/image3.go"
-  fileline = 75
-
-[[issues]]
-  filepath = "expert/image3.go"
-  fileline = 75
-
-[[issues]]
-  filepath = "advanced/fanin.go"
-  fileline = 15
-
-[[issues]]
-  filepath = "advanced/fanin.go"
-  fileline = 15
-
-[[issues]]
-  filepath = "advanced/fanin.go"
-  fileline = 18
-
-[[issues]]
-  filepath = "advanced/fanin.go"
-  fileline = 14
-
-[[issues]]
-  filepath = "advanced/fanin.go"
-  fileline = 14
-
-[[issues]]
-  filepath = "advanced/fanin.go"
-  fileline = 18
-
-[[issues]]
-  filepath = "advanced/timeout.go"
-  fileline = 31
-
-[[issues]]
-  filepath = "advanced/timeout.go"
-  fileline = 31
-
-[[issues]]
-  filepath = "expert/parallel.go"
-  fileline = 49
-
-[[issues]]
-  filepath = "expert/parallel.go"
-  fileline = 49
-
-[[issues]]
-  filepath = "expert/parallel.go"
-  fileline = 49
-
-[[issues]]
-  filepath = "expert/parallel.go"
-  fileline = 49
-
-[[issues]]
-  filepath = "expert/parallel.go"
-  fileline = 49
-
-[[issues]]
-  filepath = "expert/pi2go-live.go"
   fileline = 73
 
 [[issues]]
-  filepath = "expert/pi2go-live.go"
-  fileline = 74
+  filepath = "advanced/channel.go"
+  fileline = 78
 
 [[issues]]
   filepath = "advanced/channel.go"
   fileline = 78
+
+[[issues]]
+  filepath = "advanced/channel.go"
+  fileline = 79
 
 [[issues]]
   filepath = "advanced/channel.go"
@@ -488,96 +552,32 @@ sha = "700550ebe223c21b8c1118785617a13336502b75"
 
 [[issues]]
   filepath = "advanced/channel.go"
-  fileline = 79
-
-[[issues]]
-  filepath = "advanced/channel.go"
   fileline = 78
 
 [[issues]]
-  filepath = "advanced/channel.go"
-  fileline = 78
+  filepath = "advanced/functionanonymous.go"
+  fileline = 12
 
 [[issues]]
-  filepath = "expert/pi2go.go"
-  fileline = 82
+  filepath = "advanced/functionanonymous.go"
+  fileline = 11
 
 [[issues]]
-  filepath = "expert/pi2go.go"
-  fileline = 81
+  filepath = "advanced/functionanonymous.go"
+  fileline = 11
 
 [[issues]]
-  filepath = "advanced/channel.go"
-  fileline = 27
-
-[[issues]]
-  filepath = "advanced/channel.go"
-  fileline = 26
-
-[[issues]]
-  filepath = "advanced/channel.go"
-  fileline = 25
-
-[[issues]]
-  filepath = "advanced/channel.go"
-  fileline = 27
-
-[[issues]]
-  filepath = "advanced/channel.go"
-  fileline = 25
-
-[[issues]]
-  filepath = "advanced/channel.go"
-  fileline = 25
-
-[[issues]]
-  filepath = "advanced/channel.go"
-  fileline = 25
-
-[[issues]]
-  filepath = "advanced/channel.go"
-  fileline = 26
-
-[[issues]]
-  filepath = "advanced/channel.go"
-  fileline = 31
-
-[[issues]]
-  filepath = "advanced/channel.go"
-  fileline = 32
-
-[[issues]]
-  filepath = "advanced/channel.go"
-  fileline = 30
-
-[[issues]]
-  filepath = "advanced/channel.go"
-  fileline = 32
-
-[[issues]]
-  filepath = "advanced/channel.go"
-  fileline = 31
-
-[[issues]]
-  filepath = "advanced/channel.go"
-  fileline = 30
-
-[[issues]]
-  filepath = "advanced/channel.go"
-  fileline = 30
-
-[[issues]]
-  filepath = "advanced/channel.go"
-  fileline = 30
-
-[[issues]]
-  filepath = "expert/pi2go-live.go"
-  fileline = 93
-
-[[issues]]
-  filepath = "expert/pi2go-live.go"
-  fileline = 94
+  filepath = "advanced/functionanonymous.go"
+  fileline = 12
 
 [[issues]]
   filepath = "advanced/ticker.go"
   fileline = 28
+
+[[issues]]
+  filepath = "expert/pi2go.go"
+  fileline = 82
+
+[[issues]]
+  filepath = "expert/pi2go.go"
+  fileline = 81

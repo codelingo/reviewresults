@@ -1,0 +1,15 @@
+repo = "github.com/turkogluc/xssGo"
+rule = "codelingo/go/shadowed-variable"
+sha = "133e0f4913f79c4c75045c2918375938212e40b4"
+
+[[issues]]
+  filepath = "source/selenium.go"
+  fileline = 249
+
+[[issues]]
+  filepath = "source/selenium.go"
+  fileline = 402
+
+[[issues]]
+  filepath = "source/selenium.go"
+  fileline = 411

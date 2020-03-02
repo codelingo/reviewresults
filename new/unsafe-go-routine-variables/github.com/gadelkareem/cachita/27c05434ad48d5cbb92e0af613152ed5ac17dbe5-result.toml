@@ -8,8 +8,8 @@ sha = "27c05434ad48d5cbb92e0af613152ed5ac17dbe5"
 
 [[issues]]
   filepath = "cache.go"
-  fileline = 60
+  fileline = 61
 
 [[issues]]
   filepath = "cache.go"
-  fileline = 61
+  fileline = 60
