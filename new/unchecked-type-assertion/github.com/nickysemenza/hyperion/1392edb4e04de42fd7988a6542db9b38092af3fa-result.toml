@@ -3,16 +3,8 @@ rule = "codelingo/go/unchecked-type-assertion"
 sha = "1392edb4e04de42fd7988a6542db9b38092af3fa"
 
 [[issues]]
-  filepath = "core/light/mock_manager.go"
-  fileline = 40
-
-[[issues]]
-  filepath = "core/cue/mock_master_manager.go"
-  fileline = 48
-
-[[issues]]
   filepath = "api/http.go"
-  fileline = 74
+  fileline = 148
 
 [[issues]]
   filepath = "core/light/hue_test.go"
@@ -20,7 +12,75 @@ sha = "1392edb4e04de42fd7988a6542db9b38092af3fa"
 
 [[issues]]
   filepath = "core/light/mock_manager.go"
+  fileline = 71
+
+[[issues]]
+  filepath = "core/cue/mock_master_manager.go"
+  fileline = 32
+
+[[issues]]
+  filepath = "api/http.go"
+  fileline = 110
+
+[[issues]]
+  filepath = "core/light/mock_light.go"
+  fileline = 23
+
+[[issues]]
+  filepath = "core/light/mock_manager.go"
+  fileline = 40
+
+[[issues]]
+  filepath = "api/http.go"
+  fileline = 74
+
+[[issues]]
+  filepath = "api/http.go"
+  fileline = 65
+
+[[issues]]
+  filepath = "api/http.go"
+  fileline = 101
+
+[[issues]]
+  filepath = "core/light/mock_manager.go"
+  fileline = 56
+
+[[issues]]
+  filepath = "core/cue/mock_master_manager.go"
+  fileline = 80
+
+[[issues]]
+  filepath = "api/http.go"
+  fileline = 49
+
+[[issues]]
+  filepath = "core/light/mock_light.go"
+  fileline = 51
+
+[[issues]]
+  filepath = "core/light/mock_manager.go"
+  fileline = 134
+
+[[issues]]
+  filepath = "core/light/mock_light.go"
+  fileline = 37
+
+[[issues]]
+  filepath = "core/light/mock_manager.go"
   fileline = 24
+
+[[issues]]
+  filepath = "core/cue/mock_master_manager.go"
+  fileline = 48
+
+[[issues]]
+  filepath = "core/light/mock_manager.go"
+  fileline = 102
+
+[[issues]]
+  filepath = "core/light/mock_ola_client.go"
+  fileline = 27
 
 [[issues]]
   filepath = "core/cue/mock_master_manager.go"
@@ -32,59 +92,7 @@ sha = "1392edb4e04de42fd7988a6542db9b38092af3fa"
 
 [[issues]]
   filepath = "api/http.go"
-  fileline = 110
-
-[[issues]]
-  filepath = "core/light/mock_light.go"
-  fileline = 23
-
-[[issues]]
-  filepath = "api/http.go"
-  fileline = 101
-
-[[issues]]
-  filepath = "util/clock/mock_clock.go"
-  fileline = 24
-
-[[issues]]
-  filepath = "core/light/mock_manager.go"
-  fileline = 86
-
-[[issues]]
-  filepath = "api/http.go"
-  fileline = 148
-
-[[issues]]
-  filepath = "core/light/mock_manager.go"
-  fileline = 134
-
-[[issues]]
-  filepath = "core/light/mock_light.go"
-  fileline = 51
-
-[[issues]]
-  filepath = "api/http.go"
-  fileline = 65
-
-[[issues]]
-  filepath = "core/cue/mock_master_manager.go"
-  fileline = 80
-
-[[issues]]
-  filepath = "api/http.go"
   fileline = 50
-
-[[issues]]
-  filepath = "core/light/mock_manager.go"
-  fileline = 118
-
-[[issues]]
-  filepath = "core/light/mock_manager.go"
-  fileline = 56
-
-[[issues]]
-  filepath = "core/cue/mock_master_manager.go"
-  fileline = 32
 
 [[issues]]
   filepath = "core/light/mock_hue_connection.go"
@@ -92,24 +100,16 @@ sha = "1392edb4e04de42fd7988a6542db9b38092af3fa"
 
 [[issues]]
   filepath = "core/light/mock_manager.go"
-  fileline = 71
+  fileline = 118
 
 [[issues]]
-  filepath = "core/light/mock_light.go"
-  fileline = 37
-
-[[issues]]
-  filepath = "api/http.go"
-  fileline = 49
-
-[[issues]]
-  filepath = "core/light/mock_manager.go"
-  fileline = 102
-
-[[issues]]
-  filepath = "core/light/mock_ola_client.go"
-  fileline = 27
+  filepath = "util/clock/mock_clock.go"
+  fileline = 24
 
 [[issues]]
   filepath = "util/clock/mock_clock.go"
   fileline = 39
+
+[[issues]]
+  filepath = "core/light/mock_manager.go"
+  fileline = 86

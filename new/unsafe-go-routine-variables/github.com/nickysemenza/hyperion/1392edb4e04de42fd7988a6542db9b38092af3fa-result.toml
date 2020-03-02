@@ -36,27 +36,27 @@ sha = "1392edb4e04de42fd7988a6542db9b38092af3fa"
 
 [[issues]]
   filepath = "api/http.go"
+  fileline = 183
+
+[[issues]]
+  filepath = "api/http.go"
+  fileline = 181
+
+[[issues]]
+  filepath = "api/http.go"
+  fileline = 181
+
+[[issues]]
+  filepath = "api/http.go"
+  fileline = 182
+
+[[issues]]
+  filepath = "api/http.go"
   fileline = 181
 
 [[issues]]
   filepath = "api/http.go"
   fileline = 183
-
-[[issues]]
-  filepath = "api/http.go"
-  fileline = 182
-
-[[issues]]
-  filepath = "api/http.go"
-  fileline = 183
-
-[[issues]]
-  filepath = "api/http.go"
-  fileline = 182
-
-[[issues]]
-  filepath = "api/http.go"
-  fileline = 182
 
 [[issues]]
   filepath = "api/http.go"
@@ -64,23 +64,15 @@ sha = "1392edb4e04de42fd7988a6542db9b38092af3fa"
 
 [[issues]]
   filepath = "api/http.go"
-  fileline = 181
-
-[[issues]]
-  filepath = "api/http.go"
-  fileline = 181
-
-[[issues]]
-  filepath = "api/http.go"
-  fileline = 181
-
-[[issues]]
-  filepath = "api/http.go"
   fileline = 182
 
 [[issues]]
   filepath = "api/http.go"
   fileline = 182
+
+[[issues]]
+  filepath = "api/http.go"
+  fileline = 181
 
 [[issues]]
   filepath = "api/http.go"
@@ -92,15 +84,47 @@ sha = "1392edb4e04de42fd7988a6542db9b38092af3fa"
 
 [[issues]]
   filepath = "api/http.go"
+  fileline = 183
+
+[[issues]]
+  filepath = "api/http.go"
+  fileline = 183
+
+[[issues]]
+  filepath = "api/http.go"
+  fileline = 183
+
+[[issues]]
+  filepath = "api/http.go"
   fileline = 184
 
 [[issues]]
   filepath = "api/http.go"
+  fileline = 181
+
+[[issues]]
+  filepath = "api/http.go"
+  fileline = 182
+
+[[issues]]
+  filepath = "api/http.go"
   fileline = 183
 
 [[issues]]
   filepath = "api/http.go"
   fileline = 182
+
+[[issues]]
+  filepath = "api/http.go"
+  fileline = 183
+
+[[issues]]
+  filepath = "api/http.go"
+  fileline = 182
+
+[[issues]]
+  filepath = "api/http.go"
+  fileline = 183
 
 [[issues]]
   filepath = "api/http.go"
@@ -113,30 +137,6 @@ sha = "1392edb4e04de42fd7988a6542db9b38092af3fa"
 [[issues]]
   filepath = "api/http.go"
   fileline = 181
-
-[[issues]]
-  filepath = "api/http.go"
-  fileline = 183
-
-[[issues]]
-  filepath = "api/http.go"
-  fileline = 183
-
-[[issues]]
-  filepath = "api/http.go"
-  fileline = 181
-
-[[issues]]
-  filepath = "api/http.go"
-  fileline = 183
-
-[[issues]]
-  filepath = "api/http.go"
-  fileline = 183
-
-[[issues]]
-  filepath = "api/http.go"
-  fileline = 183
 
 [[issues]]
   filepath = "api/http.go"
@@ -148,11 +148,7 @@ sha = "1392edb4e04de42fd7988a6542db9b38092af3fa"
 
 [[issues]]
   filepath = "control/homekit/homekit.go"
-  fileline = 93
-
-[[issues]]
-  filepath = "control/homekit/homekit.go"
-  fileline = 93
+  fileline = 92
 
 [[issues]]
   filepath = "control/homekit/homekit.go"
@@ -164,8 +160,12 @@ sha = "1392edb4e04de42fd7988a6542db9b38092af3fa"
 
 [[issues]]
   filepath = "control/homekit/homekit.go"
-  fileline = 92
+  fileline = 93
 
 [[issues]]
   filepath = "control/homekit/homekit.go"
   fileline = 94
+
+[[issues]]
+  filepath = "control/homekit/homekit.go"
+  fileline = 93

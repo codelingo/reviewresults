@@ -4,15 +4,7 @@ sha = "84204a761618454769b0f2b506e27ab659011e77"
 
 [[issues]]
   filepath = "contactinfo.go"
-  fileline = 188
-
-[[issues]]
-  filepath = "contactinfo.go"
-  fileline = 119
-
-[[issues]]
-  filepath = "contactinfo.go"
-  fileline = 161
+  fileline = 120
 
 [[issues]]
   filepath = "contactinfo.go"
@@ -20,7 +12,7 @@ sha = "84204a761618454769b0f2b506e27ab659011e77"
 
 [[issues]]
   filepath = "contactinfo.go"
-  fileline = 189
+  fileline = 119
 
 [[issues]]
   filepath = "contactinfo.go"
@@ -28,11 +20,11 @@ sha = "84204a761618454769b0f2b506e27ab659011e77"
 
 [[issues]]
   filepath = "contactinfo.go"
-  fileline = 120
+  fileline = 161
 
 [[issues]]
   filepath = "contactinfo.go"
-  fileline = 117
+  fileline = 189
 
 [[issues]]
   filepath = "contactinfo.go"
@@ -40,4 +32,12 @@ sha = "84204a761618454769b0f2b506e27ab659011e77"
 
 [[issues]]
   filepath = "contactinfo.go"
+  fileline = 188
+
+[[issues]]
+  filepath = "contactinfo.go"
   fileline = 92
+
+[[issues]]
+  filepath = "contactinfo.go"
+  fileline = 117
