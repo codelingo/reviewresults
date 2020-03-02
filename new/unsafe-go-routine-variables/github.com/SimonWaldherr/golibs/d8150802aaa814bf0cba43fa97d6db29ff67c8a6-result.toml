@@ -3,72 +3,12 @@ rule = "codelingo/go/unsafe-go-routine-variables"
 sha = "d8150802aaa814bf0cba43fa97d6db29ff67c8a6"
 
 [[issues]]
-  filepath = "re/re.go"
-  fileline = 41
-
-[[issues]]
-  filepath = "re/re.go"
-  fileline = 40
-
-[[issues]]
-  filepath = "re/re.go"
-  fileline = 39
-
-[[issues]]
-  filepath = "re/re.go"
-  fileline = 40
-
-[[issues]]
-  filepath = "re/re.go"
-  fileline = 41
-
-[[issues]]
-  filepath = "re/re.go"
-  fileline = 40
-
-[[issues]]
-  filepath = "re/re.go"
-  fileline = 39
-
-[[issues]]
-  filepath = "re/re.go"
-  fileline = 44
-
-[[issues]]
-  filepath = "re/re.go"
-  fileline = 45
-
-[[issues]]
-  filepath = "re/re.go"
-  fileline = 51
-
-[[issues]]
-  filepath = "re/re.go"
-  fileline = 51
-
-[[issues]]
-  filepath = "re/re.go"
-  fileline = 47
-
-[[issues]]
-  filepath = "re/re.go"
-  fileline = 50
-
-[[issues]]
-  filepath = "re/re.go"
-  fileline = 51
-
-[[issues]]
-  filepath = "re/re.go"
-  fileline = 48
-
-[[issues]]
-  filepath = "re/re.go"
-  fileline = 50
+  filepath = "channel/channel_test.go"
+  fileline = 66
 
 [[issues]]
   filepath = "channel/channel_test.go"
-  fileline = 66
+  fileline = 65
 
 [[issues]]
   filepath = "channel/channel_test.go"
@@ -84,343 +24,191 @@ sha = "d8150802aaa814bf0cba43fa97d6db29ff67c8a6"
 
 [[issues]]
   filepath = "channel/channel_test.go"
-  fileline = 65
+  fileline = 92
 
 [[issues]]
-  filepath = "channel/example_test.go"
-  fileline = 22
+  filepath = "channel/channel_test.go"
+  fileline = 92
 
 [[issues]]
-  filepath = "channel/example_test.go"
-  fileline = 21
+  filepath = "channel/channel_test.go"
+  fileline = 93
 
 [[issues]]
-  filepath = "channel/example_test.go"
-  fileline = 22
+  filepath = "channel/channel_test.go"
+  fileline = 92
 
 [[issues]]
-  filepath = "channel/example_test.go"
-  fileline = 21
+  filepath = "channel/channel_test.go"
+  fileline = 93
 
 [[issues]]
-  filepath = "channel/example_test.go"
-  fileline = 21
+  filepath = "channel/channel_test.go"
+  fileline = 91
 
 [[issues]]
-  filepath = "channel/channel.go"
-  fileline = 32
+  filepath = "channel/channel_test.go"
+  fileline = 91
 
 [[issues]]
-  filepath = "channel/channel.go"
-  fileline = 30
+  filepath = "channel/channel_test.go"
+  fileline = 91
 
 [[issues]]
-  filepath = "channel/channel.go"
-  fileline = 32
+  filepath = "cache/cache_test.go"
+  fileline = 232
 
 [[issues]]
-  filepath = "channel/channel.go"
-  fileline = 30
+  filepath = "cache/cache_test.go"
+  fileline = 232
 
 [[issues]]
-  filepath = "channel/channel.go"
-  fileline = 29
+  filepath = "cache/cache_test.go"
+  fileline = 233
 
 [[issues]]
-  filepath = "channel/channel.go"
-  fileline = 29
+  filepath = "cache/cache_test.go"
+  fileline = 231
 
 [[issues]]
-  filepath = "channel/channel.go"
-  fileline = 25
+  filepath = "cache/cache_test.go"
+  fileline = 232
 
 [[issues]]
-  filepath = "channel/channel.go"
-  fileline = 29
+  filepath = "cache/cache_test.go"
+  fileline = 232
 
 [[issues]]
-  filepath = "channel/channel.go"
-  fileline = 21
+  filepath = "cache/cache_test.go"
+  fileline = 231
 
 [[issues]]
-  filepath = "channel/channel.go"
-  fileline = 28
+  filepath = "cache/cache_test.go"
+  fileline = 232
 
 [[issues]]
-  filepath = "channel/channel.go"
-  fileline = 25
+  filepath = "cache/cache_test.go"
+  fileline = 232
 
 [[issues]]
-  filepath = "channel/channel.go"
-  fileline = 28
+  filepath = "cache/cache_test.go"
+  fileline = 233
 
 [[issues]]
-  filepath = "channel/channel.go"
-  fileline = 23
+  filepath = "cache/cache_test.go"
+  fileline = 232
 
 [[issues]]
-  filepath = "channel/channel.go"
-  fileline = 24
-
-[[issues]]
-  filepath = "channel/channel.go"
-  fileline = 25
-
-[[issues]]
-  filepath = "channel/channel.go"
-  fileline = 22
-
-[[issues]]
-  filepath = "channel/channel.go"
-  fileline = 22
-
-[[issues]]
-  filepath = "channel/channel.go"
-  fileline = 21
-
-[[issues]]
-  filepath = "channel/channel.go"
-  fileline = 24
-
-[[issues]]
-  filepath = "channel/channel.go"
-  fileline = 24
-
-[[issues]]
-  filepath = "channel/channel.go"
-  fileline = 23
-
-[[issues]]
-  filepath = "channel/channel.go"
-  fileline = 22
-
-[[issues]]
-  filepath = "examples/ring.go"
-  fileline = 24
-
-[[issues]]
-  filepath = "examples/ring.go"
-  fileline = 26
-
-[[issues]]
-  filepath = "examples/ring.go"
-  fileline = 26
-
-[[issues]]
-  filepath = "examples/ring.go"
-  fileline = 26
-
-[[issues]]
-  filepath = "examples/ring.go"
-  fileline = 26
-
-[[issues]]
-  filepath = "examples/ring.go"
-  fileline = 22
-
-[[issues]]
-  filepath = "examples/ring.go"
-  fileline = 24
-
-[[issues]]
-  filepath = "examples/ring.go"
-  fileline = 22
-
-[[issues]]
-  filepath = "examples/ring.go"
-  fileline = 22
-
-[[issues]]
-  filepath = "examples/ring.go"
-  fileline = 26
-
-[[issues]]
-  filepath = "examples/ring.go"
-  fileline = 26
-
-[[issues]]
-  filepath = "examples/ring.go"
-  fileline = 23
-
-[[issues]]
-  filepath = "examples/ring.go"
-  fileline = 22
-
-[[issues]]
-  filepath = "examples/ring.go"
-  fileline = 26
-
-[[issues]]
-  filepath = "examples/ring.go"
-  fileline = 23
-
-[[issues]]
-  filepath = "examples/ring.go"
-  fileline = 26
-
-[[issues]]
-  filepath = "examples/ring.go"
-  fileline = 22
-
-[[issues]]
-  filepath = "examples/ring.go"
-  fileline = 23
-
-[[issues]]
-  filepath = "examples/ring.go"
-  fileline = 21
-
-[[issues]]
-  filepath = "examples/ring.go"
-  fileline = 22
-
-[[issues]]
-  filepath = "examples/ring.go"
-  fileline = 26
-
-[[issues]]
-  filepath = "examples/ring.go"
-  fileline = 21
-
-[[issues]]
-  filepath = "examples/ring.go"
-  fileline = 23
-
-[[issues]]
-  filepath = "examples/ring.go"
-  fileline = 26
-
-[[issues]]
-  filepath = "examples/ring.go"
-  fileline = 26
-
-[[issues]]
-  filepath = "examples/ring.go"
-  fileline = 25
-
-[[issues]]
-  filepath = "examples/ring.go"
-  fileline = 24
-
-[[issues]]
-  filepath = "examples/ring.go"
-  fileline = 26
-
-[[issues]]
-  filepath = "examples/ring.go"
-  fileline = 26
-
-[[issues]]
-  filepath = "examples/ring.go"
-  fileline = 22
-
-[[issues]]
-  filepath = "examples/ring.go"
-  fileline = 21
-
-[[issues]]
-  filepath = "examples/ring.go"
-  fileline = 21
-
-[[issues]]
-  filepath = "examples/ring.go"
-  fileline = 26
-
-[[issues]]
-  filepath = "examples/ring.go"
-  fileline = 23
-
-[[issues]]
-  filepath = "examples/ring.go"
-  fileline = 26
-
-[[issues]]
-  filepath = "examples/ring.go"
-  fileline = 24
-
-[[issues]]
-  filepath = "examples/ring.go"
-  fileline = 26
-
-[[issues]]
-  filepath = "examples/ring.go"
-  fileline = 25
-
-[[issues]]
-  filepath = "examples/ring.go"
-  fileline = 22
-
-[[issues]]
-  filepath = "examples/ring.go"
-  fileline = 21
-
-[[issues]]
-  filepath = "arg/arg.go"
-  fileline = 45
-
-[[issues]]
-  filepath = "arg/arg.go"
-  fileline = 45
-
-[[issues]]
-  filepath = "arg/arg.go"
-  fileline = 47
-
-[[issues]]
-  filepath = "arg/arg.go"
-  fileline = 47
-
-[[issues]]
-  filepath = "arg/arg.go"
-  fileline = 47
-
-[[issues]]
-  filepath = "rss/rss_test.go"
+  filepath = "re/re.go"
   fileline = 48
 
 [[issues]]
-  filepath = "rss/rss_test.go"
-  fileline = 48
+  filepath = "re/re.go"
+  fileline = 51
 
 [[issues]]
-  filepath = "rss/rss_test.go"
-  fileline = 46
+  filepath = "re/re.go"
+  fileline = 51
 
 [[issues]]
-  filepath = "rss/rss_test.go"
-  fileline = 46
+  filepath = "re/re.go"
+  fileline = 51
 
 [[issues]]
-  filepath = "rss/rss_test.go"
+  filepath = "re/re.go"
+  fileline = 50
+
+[[issues]]
+  filepath = "re/re.go"
   fileline = 47
 
 [[issues]]
-  filepath = "rss/rss_test.go"
-  fileline = 44
+  filepath = "re/re.go"
+  fileline = 50
 
 [[issues]]
-  filepath = "rss/rss_test.go"
-  fileline = 44
-
-[[issues]]
-  filepath = "rss/rss_test.go"
-  fileline = 46
-
-[[issues]]
-  filepath = "rss/rss_test.go"
+  filepath = "re/re.go"
   fileline = 45
 
 [[issues]]
-  filepath = "rss/rss_test.go"
-  fileline = 50
+  filepath = "re/re.go"
+  fileline = 44
 
 [[issues]]
-  filepath = "rss/rss_test.go"
-  fileline = 50
+  filepath = "re/re.go"
+  fileline = 40
 
 [[issues]]
-  filepath = "rss/rss_test.go"
-  fileline = 50
+  filepath = "re/re.go"
+  fileline = 39
+
+[[issues]]
+  filepath = "re/re.go"
+  fileline = 39
+
+[[issues]]
+  filepath = "re/re.go"
+  fileline = 41
+
+[[issues]]
+  filepath = "re/re.go"
+  fileline = 40
+
+[[issues]]
+  filepath = "re/re.go"
+  fileline = 40
+
+[[issues]]
+  filepath = "re/re.go"
+  fileline = 41
+
+[[issues]]
+  filepath = "channel/channel_test.go"
+  fileline = 29
+
+[[issues]]
+  filepath = "channel/channel_test.go"
+  fileline = 29
+
+[[issues]]
+  filepath = "channel/channel_test.go"
+  fileline = 30
+
+[[issues]]
+  filepath = "channel/channel_test.go"
+  fileline = 29
+
+[[issues]]
+  filepath = "channel/channel_test.go"
+  fileline = 30
+
+[[issues]]
+  filepath = "channel/channel_test.go"
+  fileline = 34
+
+[[issues]]
+  filepath = "channel/channel_test.go"
+  fileline = 35
+
+[[issues]]
+  filepath = "channel/channel_test.go"
+  fileline = 35
+
+[[issues]]
+  filepath = "channel/channel_test.go"
+  fileline = 34
+
+[[issues]]
+  filepath = "channel/channel_test.go"
+  fileline = 34
+
+[[issues]]
+  filepath = "cache/cache_test.go"
+  fileline = 240
+
+[[issues]]
+  filepath = "cache/cache_test.go"
+  fileline = 238
 
 [[issues]]
   filepath = "cache/cache_test.go"
@@ -445,90 +233,6 @@ sha = "d8150802aaa814bf0cba43fa97d6db29ff67c8a6"
 [[issues]]
   filepath = "cache/cache_test.go"
   fileline = 239
-
-[[issues]]
-  filepath = "cache/cache_test.go"
-  fileline = 238
-
-[[issues]]
-  filepath = "cache/cache_test.go"
-  fileline = 240
-
-[[issues]]
-  filepath = "channel/channel_test.go"
-  fileline = 34
-
-[[issues]]
-  filepath = "channel/channel_test.go"
-  fileline = 34
-
-[[issues]]
-  filepath = "channel/channel_test.go"
-  fileline = 34
-
-[[issues]]
-  filepath = "channel/channel_test.go"
-  fileline = 35
-
-[[issues]]
-  filepath = "channel/channel_test.go"
-  fileline = 35
-
-[[issues]]
-  filepath = "channel/channel_test.go"
-  fileline = 91
-
-[[issues]]
-  filepath = "channel/channel_test.go"
-  fileline = 91
-
-[[issues]]
-  filepath = "channel/channel_test.go"
-  fileline = 92
-
-[[issues]]
-  filepath = "channel/channel_test.go"
-  fileline = 92
-
-[[issues]]
-  filepath = "channel/channel_test.go"
-  fileline = 93
-
-[[issues]]
-  filepath = "channel/channel_test.go"
-  fileline = 91
-
-[[issues]]
-  filepath = "channel/channel_test.go"
-  fileline = 93
-
-[[issues]]
-  filepath = "channel/channel_test.go"
-  fileline = 92
-
-[[issues]]
-  filepath = "channel/channel_test.go"
-  fileline = 25
-
-[[issues]]
-  filepath = "channel/channel_test.go"
-  fileline = 24
-
-[[issues]]
-  filepath = "channel/channel_test.go"
-  fileline = 24
-
-[[issues]]
-  filepath = "channel/channel_test.go"
-  fileline = 25
-
-[[issues]]
-  filepath = "channel/channel_test.go"
-  fileline = 24
-
-[[issues]]
-  filepath = "cache/cache_test.go"
-  fileline = 225
 
 [[issues]]
   filepath = "cache/cache_test.go"
@@ -567,65 +271,361 @@ sha = "d8150802aaa814bf0cba43fa97d6db29ff67c8a6"
   fileline = 225
 
 [[issues]]
-  filepath = "cache/cache_test.go"
-  fileline = 232
+  filepath = "rss/rss_test.go"
+  fileline = 44
 
 [[issues]]
   filepath = "cache/cache_test.go"
-  fileline = 232
+  fileline = 225
 
 [[issues]]
-  filepath = "cache/cache_test.go"
-  fileline = 232
+  filepath = "rss/rss_test.go"
+  fileline = 44
 
 [[issues]]
-  filepath = "cache/cache_test.go"
-  fileline = 232
+  filepath = "rss/rss_test.go"
+  fileline = 46
 
 [[issues]]
-  filepath = "cache/cache_test.go"
-  fileline = 231
+  filepath = "rss/rss_test.go"
+  fileline = 46
 
 [[issues]]
-  filepath = "cache/cache_test.go"
-  fileline = 233
+  filepath = "rss/rss_test.go"
+  fileline = 46
 
 [[issues]]
-  filepath = "cache/cache_test.go"
-  fileline = 232
+  filepath = "rss/rss_test.go"
+  fileline = 45
 
 [[issues]]
-  filepath = "cache/cache_test.go"
-  fileline = 233
+  filepath = "rss/rss_test.go"
+  fileline = 48
 
 [[issues]]
-  filepath = "cache/cache_test.go"
-  fileline = 232
+  filepath = "rss/rss_test.go"
+  fileline = 48
 
 [[issues]]
-  filepath = "cache/cache_test.go"
-  fileline = 231
+  filepath = "rss/rss_test.go"
+  fileline = 47
 
 [[issues]]
-  filepath = "cache/cache_test.go"
-  fileline = 232
+  filepath = "rss/rss_test.go"
+  fileline = 50
 
 [[issues]]
-  filepath = "channel/channel_test.go"
-  fileline = 29
+  filepath = "examples/ring.go"
+  fileline = 21
 
 [[issues]]
-  filepath = "channel/channel_test.go"
+  filepath = "examples/ring.go"
+  fileline = 22
+
+[[issues]]
+  filepath = "rss/rss_test.go"
+  fileline = 50
+
+[[issues]]
+  filepath = "examples/ring.go"
+  fileline = 22
+
+[[issues]]
+  filepath = "examples/ring.go"
+  fileline = 26
+
+[[issues]]
+  filepath = "examples/ring.go"
+  fileline = 23
+
+[[issues]]
+  filepath = "examples/ring.go"
+  fileline = 26
+
+[[issues]]
+  filepath = "examples/ring.go"
+  fileline = 24
+
+[[issues]]
+  filepath = "examples/ring.go"
+  fileline = 26
+
+[[issues]]
+  filepath = "examples/ring.go"
+  fileline = 23
+
+[[issues]]
+  filepath = "rss/rss_test.go"
+  fileline = 50
+
+[[issues]]
+  filepath = "examples/ring.go"
+  fileline = 24
+
+[[issues]]
+  filepath = "examples/ring.go"
+  fileline = 21
+
+[[issues]]
+  filepath = "examples/ring.go"
+  fileline = 22
+
+[[issues]]
+  filepath = "examples/ring.go"
+  fileline = 23
+
+[[issues]]
+  filepath = "examples/ring.go"
+  fileline = 21
+
+[[issues]]
+  filepath = "examples/ring.go"
+  fileline = 26
+
+[[issues]]
+  filepath = "examples/ring.go"
+  fileline = 26
+
+[[issues]]
+  filepath = "examples/ring.go"
+  fileline = 26
+
+[[issues]]
+  filepath = "examples/ring.go"
+  fileline = 22
+
+[[issues]]
+  filepath = "examples/ring.go"
+  fileline = 22
+
+[[issues]]
+  filepath = "examples/ring.go"
+  fileline = 24
+
+[[issues]]
+  filepath = "examples/ring.go"
+  fileline = 25
+
+[[issues]]
+  filepath = "examples/ring.go"
+  fileline = 25
+
+[[issues]]
+  filepath = "examples/ring.go"
+  fileline = 21
+
+[[issues]]
+  filepath = "examples/ring.go"
+  fileline = 26
+
+[[issues]]
+  filepath = "examples/ring.go"
+  fileline = 21
+
+[[issues]]
+  filepath = "examples/ring.go"
+  fileline = 26
+
+[[issues]]
+  filepath = "examples/ring.go"
+  fileline = 24
+
+[[issues]]
+  filepath = "examples/ring.go"
+  fileline = 26
+
+[[issues]]
+  filepath = "examples/ring.go"
+  fileline = 26
+
+[[issues]]
+  filepath = "examples/ring.go"
+  fileline = 26
+
+[[issues]]
+  filepath = "examples/ring.go"
+  fileline = 22
+
+[[issues]]
+  filepath = "examples/ring.go"
+  fileline = 26
+
+[[issues]]
+  filepath = "examples/ring.go"
+  fileline = 26
+
+[[issues]]
+  filepath = "examples/ring.go"
+  fileline = 26
+
+[[issues]]
+  filepath = "examples/ring.go"
+  fileline = 26
+
+[[issues]]
+  filepath = "examples/ring.go"
+  fileline = 26
+
+[[issues]]
+  filepath = "examples/ring.go"
+  fileline = 23
+
+[[issues]]
+  filepath = "examples/ring.go"
+  fileline = 22
+
+[[issues]]
+  filepath = "examples/ring.go"
+  fileline = 23
+
+[[issues]]
+  filepath = "examples/ring.go"
+  fileline = 22
+
+[[issues]]
+  filepath = "channel/example_test.go"
+  fileline = 21
+
+[[issues]]
+  filepath = "channel/example_test.go"
+  fileline = 21
+
+[[issues]]
+  filepath = "channel/example_test.go"
+  fileline = 22
+
+[[issues]]
+  filepath = "channel/example_test.go"
+  fileline = 22
+
+[[issues]]
+  filepath = "channel/example_test.go"
+  fileline = 21
+
+[[issues]]
+  filepath = "channel/channel.go"
   fileline = 30
 
 [[issues]]
-  filepath = "channel/channel_test.go"
-  fileline = 29
+  filepath = "channel/channel.go"
+  fileline = 32
 
 [[issues]]
-  filepath = "channel/channel_test.go"
+  filepath = "channel/channel.go"
+  fileline = 32
+
+[[issues]]
+  filepath = "channel/channel.go"
   fileline = 30
 
 [[issues]]
-  filepath = "channel/channel_test.go"
+  filepath = "channel/channel.go"
+  fileline = 24
+
+[[issues]]
+  filepath = "channel/channel.go"
+  fileline = 24
+
+[[issues]]
+  filepath = "channel/channel.go"
+  fileline = 22
+
+[[issues]]
+  filepath = "channel/channel.go"
+  fileline = 21
+
+[[issues]]
+  filepath = "channel/channel.go"
+  fileline = 25
+
+[[issues]]
+  filepath = "channel/channel.go"
+  fileline = 21
+
+[[issues]]
+  filepath = "channel/channel.go"
   fileline = 29
+
+[[issues]]
+  filepath = "channel/channel.go"
+  fileline = 29
+
+[[issues]]
+  filepath = "channel/channel.go"
+  fileline = 22
+
+[[issues]]
+  filepath = "channel/channel.go"
+  fileline = 22
+
+[[issues]]
+  filepath = "channel/channel.go"
+  fileline = 23
+
+[[issues]]
+  filepath = "channel/channel.go"
+  fileline = 25
+
+[[issues]]
+  filepath = "channel/channel.go"
+  fileline = 28
+
+[[issues]]
+  filepath = "channel/channel.go"
+  fileline = 24
+
+[[issues]]
+  filepath = "channel/channel.go"
+  fileline = 23
+
+[[issues]]
+  filepath = "channel/channel.go"
+  fileline = 29
+
+[[issues]]
+  filepath = "channel/channel.go"
+  fileline = 28
+
+[[issues]]
+  filepath = "channel/channel.go"
+  fileline = 25
+
+[[issues]]
+  filepath = "arg/arg.go"
+  fileline = 45
+
+[[issues]]
+  filepath = "arg/arg.go"
+  fileline = 47
+
+[[issues]]
+  filepath = "arg/arg.go"
+  fileline = 45
+
+[[issues]]
+  filepath = "arg/arg.go"
+  fileline = 47
+
+[[issues]]
+  filepath = "channel/channel_test.go"
+  fileline = 25
+
+[[issues]]
+  filepath = "arg/arg.go"
+  fileline = 47
+
+[[issues]]
+  filepath = "channel/channel_test.go"
+  fileline = 25
+
+[[issues]]
+  filepath = "channel/channel_test.go"
+  fileline = 24
+
+[[issues]]
+  filepath = "channel/channel_test.go"
+  fileline = 24
+
+[[issues]]
+  filepath = "channel/channel_test.go"
+  fileline = 24

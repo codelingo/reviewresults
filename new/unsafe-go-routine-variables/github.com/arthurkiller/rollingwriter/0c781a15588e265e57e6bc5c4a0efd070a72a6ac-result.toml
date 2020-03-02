@@ -4,63 +4,15 @@ sha = "0c781a15588e265e57e6bc5c4a0efd070a72a6ac"
 
 [[issues]]
   filepath = "writer.go"
-  fileline = 260
+  fileline = 259
 
 [[issues]]
   filepath = "writer.go"
-  fileline = 264
+  fileline = 259
 
 [[issues]]
   filepath = "writer.go"
-  fileline = 264
-
-[[issues]]
-  filepath = "writer.go"
-  fileline = 264
-
-[[issues]]
-  filepath = "writer.go"
-  fileline = 264
-
-[[issues]]
-  filepath = "writer.go"
-  fileline = 260
-
-[[issues]]
-  filepath = "writer.go"
-  fileline = 260
-
-[[issues]]
-  filepath = "writer.go"
-  fileline = 260
-
-[[issues]]
-  filepath = "writer.go"
-  fileline = 264
-
-[[issues]]
-  filepath = "writer.go"
-  fileline = 260
-
-[[issues]]
-  filepath = "writer.go"
-  fileline = 264
-
-[[issues]]
-  filepath = "writer.go"
-  fileline = 264
-
-[[issues]]
-  filepath = "writer.go"
-  fileline = 261
-
-[[issues]]
-  filepath = "writer.go"
-  fileline = 261
-
-[[issues]]
-  filepath = "writer.go"
-  fileline = 261
+  fileline = 259
 
 [[issues]]
   filepath = "writer.go"
@@ -80,31 +32,15 @@ sha = "0c781a15588e265e57e6bc5c4a0efd070a72a6ac"
 
 [[issues]]
   filepath = "writer.go"
-  fileline = 259
-
-[[issues]]
-  filepath = "writer.go"
-  fileline = 258
-
-[[issues]]
-  filepath = "writer.go"
-  fileline = 259
-
-[[issues]]
-  filepath = "writer.go"
-  fileline = 258
-
-[[issues]]
-  filepath = "writer.go"
-  fileline = 259
-
-[[issues]]
-  filepath = "writer.go"
   fileline = 270
 
 [[issues]]
   filepath = "writer.go"
-  fileline = 271
+  fileline = 258
+
+[[issues]]
+  filepath = "writer.go"
+  fileline = 258
 
 [[issues]]
   filepath = "writer.go"
@@ -117,6 +53,50 @@ sha = "0c781a15588e265e57e6bc5c4a0efd070a72a6ac"
 [[issues]]
   filepath = "writer.go"
   fileline = 265
+
+[[issues]]
+  filepath = "writer.go"
+  fileline = 260
+
+[[issues]]
+  filepath = "writer.go"
+  fileline = 264
+
+[[issues]]
+  filepath = "writer.go"
+  fileline = 264
+
+[[issues]]
+  filepath = "writer.go"
+  fileline = 264
+
+[[issues]]
+  filepath = "writer.go"
+  fileline = 260
+
+[[issues]]
+  filepath = "writer.go"
+  fileline = 264
+
+[[issues]]
+  filepath = "writer.go"
+  fileline = 264
+
+[[issues]]
+  filepath = "writer.go"
+  fileline = 260
+
+[[issues]]
+  filepath = "writer.go"
+  fileline = 264
+
+[[issues]]
+  filepath = "writer.go"
+  fileline = 260
+
+[[issues]]
+  filepath = "writer.go"
+  fileline = 260
 
 [[issues]]
   filepath = "writer.go"
@@ -124,7 +104,7 @@ sha = "0c781a15588e265e57e6bc5c4a0efd070a72a6ac"
 
 [[issues]]
   filepath = "writer.go"
-  fileline = 273
+  fileline = 264
 
 [[issues]]
   filepath = "writer.go"
@@ -143,16 +123,84 @@ sha = "0c781a15588e265e57e6bc5c4a0efd070a72a6ac"
   fileline = 275
 
 [[issues]]
+  filepath = "writer.go"
+  fileline = 273
+
+[[issues]]
+  filepath = "writer.go"
+  fileline = 261
+
+[[issues]]
+  filepath = "writer.go"
+  fileline = 261
+
+[[issues]]
+  filepath = "writer.go"
+  fileline = 261
+
+[[issues]]
+  filepath = "writer.go"
+  fileline = 271
+
+[[issues]]
+  filepath = "manager.go"
+  fileline = 61
+
+[[issues]]
+  filepath = "manager.go"
+  fileline = 62
+
+[[issues]]
+  filepath = "manager.go"
+  fileline = 59
+
+[[issues]]
+  filepath = "manager.go"
+  fileline = 65
+
+[[issues]]
+  filepath = "manager.go"
+  fileline = 62
+
+[[issues]]
+  filepath = "manager.go"
+  fileline = 65
+
+[[issues]]
+  filepath = "manager.go"
+  fileline = 68
+
+[[issues]]
+  filepath = "manager.go"
+  fileline = 62
+
+[[issues]]
+  filepath = "manager.go"
+  fileline = 65
+
+[[issues]]
+  filepath = "manager.go"
+  fileline = 65
+
+[[issues]]
+  filepath = "manager.go"
+  fileline = 65
+
+[[issues]]
+  filepath = "manager.go"
+  fileline = 59
+
+[[issues]]
+  filepath = "manager.go"
+  fileline = 62
+
+[[issues]]
   filepath = "manager.go"
   fileline = 53
 
 [[issues]]
   filepath = "manager.go"
   fileline = 51
-
-[[issues]]
-  filepath = "manager.go"
-  fileline = 52
 
 [[issues]]
   filepath = "manager.go"
@@ -172,6 +220,22 @@ sha = "0c781a15588e265e57e6bc5c4a0efd070a72a6ac"
 
 [[issues]]
   filepath = "manager.go"
+  fileline = 53
+
+[[issues]]
+  filepath = "manager.go"
+  fileline = 51
+
+[[issues]]
+  filepath = "manager.go"
+  fileline = 55
+
+[[issues]]
+  filepath = "manager.go"
+  fileline = 52
+
+[[issues]]
+  filepath = "manager.go"
   fileline = 55
 
 [[issues]]
@@ -184,14 +248,6 @@ sha = "0c781a15588e265e57e6bc5c4a0efd070a72a6ac"
 
 [[issues]]
   filepath = "manager.go"
-  fileline = 51
-
-[[issues]]
-  filepath = "manager.go"
-  fileline = 55
-
-[[issues]]
-  filepath = "manager.go"
   fileline = 55
 
 [[issues]]
@@ -200,10 +256,6 @@ sha = "0c781a15588e265e57e6bc5c4a0efd070a72a6ac"
 
 [[issues]]
   filepath = "manager.go"
-  fileline = 53
-
-[[issues]]
-  filepath = "manager.go"
   fileline = 66
 
 [[issues]]
@@ -221,58 +273,6 @@ sha = "0c781a15588e265e57e6bc5c4a0efd070a72a6ac"
 [[issues]]
   filepath = "manager.go"
   fileline = 66
-
-[[issues]]
-  filepath = "manager.go"
-  fileline = 65
-
-[[issues]]
-  filepath = "manager.go"
-  fileline = 68
-
-[[issues]]
-  filepath = "manager.go"
-  fileline = 59
-
-[[issues]]
-  filepath = "manager.go"
-  fileline = 62
-
-[[issues]]
-  filepath = "manager.go"
-  fileline = 65
-
-[[issues]]
-  filepath = "manager.go"
-  fileline = 65
-
-[[issues]]
-  filepath = "manager.go"
-  fileline = 62
-
-[[issues]]
-  filepath = "manager.go"
-  fileline = 59
-
-[[issues]]
-  filepath = "manager.go"
-  fileline = 62
-
-[[issues]]
-  filepath = "manager.go"
-  fileline = 65
-
-[[issues]]
-  filepath = "manager.go"
-  fileline = 61
-
-[[issues]]
-  filepath = "manager.go"
-  fileline = 62
-
-[[issues]]
-  filepath = "manager.go"
-  fileline = 65
 
 [[issues]]
   filepath = "demo/writer.go"
