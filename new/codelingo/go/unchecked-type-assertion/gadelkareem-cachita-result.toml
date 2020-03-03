@@ -3,13 +3,19 @@ rule = "unchecked-type-assertion"
 sha = "27c05434ad48d5cbb92e0af613152ed5ac17dbe5"
 
 [[issues]]
-  filepath = "cache.go"
   fileline = 108
+  filepath = "cache.go"
+  fixed = false
+  ignored = "switch has pretty much all types in it"
 
 [[issues]]
-  filepath = "cache_test.go"
   fileline = 174
+  filepath = "cache_test.go"
+  fixed = false
+  ignored = "probably okay in test"
 
 [[issues]]
-  filepath = "cache_test.go"
   fileline = 173
+  filepath = "cache_test.go"
+  fixed = false
+  ignored = "in test"
