@@ -3,293 +3,439 @@ rule = "unsafe-go-routine-variables"
 sha = "0c781a15588e265e57e6bc5c4a0efd070a72a6ac"
 
 [[issues]]
-  filepath = "writer.go"
   fileline = 264
+  filepath = "writer.go"
+  fixed = false
+  ignored = "fp. var not referenced anywhere else"
 
 [[issues]]
-  filepath = "writer.go"
   fileline = 264
+  filepath = "writer.go"
+  fixed = false
+  ignored = "fp. var not referenced anywhere else"
 
 [[issues]]
-  filepath = "writer.go"
   fileline = 264
+  filepath = "writer.go"
+  fixed = false
+  ignored = "fp. var not referenced anywhere else"
 
 [[issues]]
-  filepath = "writer.go"
   fileline = 264
+  filepath = "writer.go"
+  fixed = false
+  ignored = "fp. var not referenced anywhere else"
 
 [[issues]]
-  filepath = "writer.go"
   fileline = 264
+  filepath = "writer.go"
+  fixed = false
+  ignored = "fp. var not referenced anywhere else"
 
 [[issues]]
-  filepath = "writer.go"
   fileline = 260
+  filepath = "writer.go"
+  fixed = false
+  ignored = "fp. var not referenced anywhere else"
 
 [[issues]]
-  filepath = "writer.go"
   fileline = 264
+  filepath = "writer.go"
+  fixed = false
+  ignored = "fp. var not referenced anywhere else"
 
 [[issues]]
-  filepath = "writer.go"
   fileline = 264
+  filepath = "writer.go"
+  fixed = false
+  ignored = "fp. var not referenced anywhere else"
 
 [[issues]]
-  filepath = "writer.go"
   fileline = 260
+  filepath = "writer.go"
+  fixed = false
+  ignored = "fp. var not referenced anywhere else"
 
 [[issues]]
-  filepath = "writer.go"
   fileline = 260
+  filepath = "writer.go"
+  fixed = false
+  ignored = "fp. var not referenced anywhere else"
 
 [[issues]]
-  filepath = "writer.go"
   fileline = 260
+  filepath = "writer.go"
+  fixed = false
+  ignored = "fp. var not referenced anywhere else"
 
 [[issues]]
-  filepath = "writer.go"
   fileline = 260
+  filepath = "writer.go"
+  fixed = false
+  ignored = "fp. var not referenced anywhere else"
 
 [[issues]]
-  filepath = "writer.go"
   fileline = 273
+  filepath = "writer.go"
+  fixed = false
+  ignored = "fp. var not referenced anywhere else"
 
 [[issues]]
-  filepath = "writer.go"
   fileline = 275
+  filepath = "writer.go"
+  fixed = false
+  ignored = "fp. var not referenced anywhere else"
 
 [[issues]]
-  filepath = "writer.go"
   fileline = 276
+  filepath = "writer.go"
+  fixed = false
+  ignored = "fp. var not referenced anywhere else"
 
 [[issues]]
-  filepath = "writer.go"
   fileline = 273
+  filepath = "writer.go"
+  fixed = false
+  ignored = "fp. var not referenced anywhere else"
 
 [[issues]]
-  filepath = "writer.go"
   fileline = 275
+  filepath = "writer.go"
+  fixed = false
+  ignored = "fp. var not referenced anywhere else"
 
 [[issues]]
-  filepath = "writer.go"
   fileline = 273
+  filepath = "writer.go"
+  fixed = false
+  ignored = "fp. var not referenced anywhere else"
 
 [[issues]]
-  filepath = "writer.go"
   fileline = 265
+  filepath = "writer.go"
+  fixed = false
+  ignored = "fp. var not referenced anywhere else"
 
 [[issues]]
-  filepath = "writer.go"
   fileline = 265
+  filepath = "writer.go"
+  fixed = false
+  ignored = "fp. var not referenced anywhere else"
 
 [[issues]]
-  filepath = "writer.go"
   fileline = 265
+  filepath = "writer.go"
+  fixed = false
+  ignored = "fp. var not referenced anywhere else"
 
 [[issues]]
-  filepath = "writer.go"
   fileline = 261
+  filepath = "writer.go"
+  fixed = false
+  ignored = "fp. var not referenced anywhere else"
 
 [[issues]]
-  filepath = "writer.go"
   fileline = 261
+  filepath = "writer.go"
+  fixed = false
+  ignored = "fp. var not referenced anywhere else"
 
 [[issues]]
-  filepath = "writer.go"
   fileline = 261
+  filepath = "writer.go"
+  fixed = false
+  ignored = "fp. var not referenced anywhere else"
 
 [[issues]]
-  filepath = "writer.go"
   fileline = 258
+  filepath = "writer.go"
+  fixed = false
+  ignored = "fp. var not referenced anywhere else"
 
 [[issues]]
-  filepath = "writer.go"
   fileline = 258
+  filepath = "writer.go"
+  fixed = false
+  ignored = "fp. var not referenced anywhere else"
 
 [[issues]]
-  filepath = "writer.go"
   fileline = 259
+  filepath = "writer.go"
+  fixed = false
+  ignored = "fp. var not referenced anywhere else"
 
 [[issues]]
-  filepath = "writer.go"
   fileline = 270
+  filepath = "writer.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "writer.go"
   fileline = 259
+  filepath = "writer.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "writer.go"
   fileline = 258
+  filepath = "writer.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "writer.go"
   fileline = 258
+  filepath = "writer.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "writer.go"
   fileline = 270
+  filepath = "writer.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "writer.go"
   fileline = 270
+  filepath = "writer.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "writer.go"
   fileline = 259
+  filepath = "writer.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "writer.go"
   fileline = 271
+  filepath = "writer.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "manager.go"
   fileline = 51
+  filepath = "manager.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "manager.go"
   fileline = 51
+  filepath = "manager.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "manager.go"
   fileline = 51
+  filepath = "manager.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "manager.go"
   fileline = 51
+  filepath = "manager.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "manager.go"
   fileline = 55
+  filepath = "manager.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "manager.go"
   fileline = 52
+  filepath = "manager.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "manager.go"
   fileline = 53
+  filepath = "manager.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "manager.go"
   fileline = 55
+  filepath = "manager.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "manager.go"
   fileline = 54
+  filepath = "manager.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "manager.go"
   fileline = 51
+  filepath = "manager.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "manager.go"
   fileline = 51
+  filepath = "manager.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "manager.go"
   fileline = 55
+  filepath = "manager.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "manager.go"
   fileline = 52
+  filepath = "manager.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "manager.go"
   fileline = 53
+  filepath = "manager.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "manager.go"
   fileline = 51
+  filepath = "manager.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "manager.go"
   fileline = 59
+  filepath = "manager.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "manager.go"
   fileline = 62
+  filepath = "manager.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "manager.go"
   fileline = 65
+  filepath = "manager.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "manager.go"
   fileline = 65
+  filepath = "manager.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "manager.go"
   fileline = 62
+  filepath = "manager.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "manager.go"
   fileline = 59
+  filepath = "manager.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "manager.go"
   fileline = 68
+  filepath = "manager.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "manager.go"
   fileline = 62
+  filepath = "manager.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "manager.go"
   fileline = 65
+  filepath = "manager.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "manager.go"
   fileline = 65
+  filepath = "manager.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "manager.go"
   fileline = 65
+  filepath = "manager.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "manager.go"
   fileline = 62
+  filepath = "manager.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "manager.go"
   fileline = 61
-
-[[issues]]
   filepath = "manager.go"
-  fileline = 66
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
+  fileline = 66
   filepath = "manager.go"
-  fileline = 66
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
+  fileline = 66
   filepath = "manager.go"
-  fileline = 66
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
+  fileline = 66
   filepath = "manager.go"
-  fileline = 66
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
+  fileline = 66
   filepath = "manager.go"
+  fixed = false
+  ignored = "fp"
+
+[[issues]]
   fileline = 66
+  filepath = "manager.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "demo/writer.go"
   fileline = 53
+  filepath = "demo/writer.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "demo/writer.go"
   fileline = 53
+  filepath = "demo/writer.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "demo/writer.go"
   fileline = 53
+  filepath = "demo/writer.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "demo/writer.go"
   fileline = 53
+  filepath = "demo/writer.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "demo/writer.go"
   fileline = 53
+  filepath = "demo/writer.go"
+  fixed = false
+  ignored = "fp"
