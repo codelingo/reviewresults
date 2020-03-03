@@ -1,0 +1,35 @@
+repo = "github.com/turkogluc/pointOfSale-Backend"
+rule = "codelingo/go/unchecked-type-assertion"
+sha = "6ebc6ef65568fd3da503ce3c58953a34fdcb7723"
+
+[[issues]]
+  filepath = "lib/jwt-go/rsa.go"
+  fileline = 89
+
+[[issues]]
+  filepath = "lib/jwt-go/rsa_pss.go"
+  fileline = 83
+
+[[issues]]
+  filepath = "lib/jwt-go/rsa.go"
+  fileline = 60
+
+[[issues]]
+  filepath = "apps/dashboard/controller/routes.go"
+  fileline = 129
+
+[[issues]]
+  filepath = "apps/dashboard/controller/routes.go"
+  fileline = 130
+
+[[issues]]
+  filepath = "lib/jwt-go/ecdsa.go"
+  fileline = 68
+
+[[issues]]
+  filepath = "lib/jwt-go/ecdsa.go"
+  fileline = 102
+
+[[issues]]
+  filepath = "lib/jwt-go/rsa_pss.go"
+  fileline = 105

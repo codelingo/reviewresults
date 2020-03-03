@@ -4,23 +4,23 @@ sha = "0bc6738067fe7ebbf39ed67ba208ab49f14f8bea"
 
 [[issues]]
   filepath = "session/connio.go"
+  fileline = 29
+
+[[issues]]
+  filepath = "session/connio.go"
+  fileline = 29
+
+[[issues]]
+  filepath = "session/connio.go"
+  fileline = 29
+
+[[issues]]
+  filepath = "session/connio.go"
   fileline = 24
 
 [[issues]]
   filepath = "session/connio.go"
   fileline = 24
-
-[[issues]]
-  filepath = "session/connio.go"
-  fileline = 29
-
-[[issues]]
-  filepath = "session/connio.go"
-  fileline = 29
-
-[[issues]]
-  filepath = "session/connio.go"
-  fileline = 29
 
 [[issues]]
   filepath = "session/connio.go"

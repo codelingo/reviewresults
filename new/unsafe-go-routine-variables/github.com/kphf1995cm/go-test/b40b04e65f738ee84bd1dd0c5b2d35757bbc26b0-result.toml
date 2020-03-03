@@ -1,0 +1,35 @@
+repo = "github.com/kphf1995cm/go-test"
+rule = "codelingo/go/unsafe-go-routine-variables"
+sha = "b40b04e65f738ee84bd1dd0c5b2d35757bbc26b0"
+
+[[issues]]
+  filepath = "sync/simple.go"
+  fileline = 22
+
+[[issues]]
+  filepath = "sync/simple.go"
+  fileline = 21
+
+[[issues]]
+  filepath = "sync/simple.go"
+  fileline = 21
+
+[[issues]]
+  filepath = "sync/simple.go"
+  fileline = 21
+
+[[issues]]
+  filepath = "sync/simple.go"
+  fileline = 16
+
+[[issues]]
+  filepath = "sync/simple.go"
+  fileline = 16
+
+[[issues]]
+  filepath = "sync/simple.go"
+  fileline = 17
+
+[[issues]]
+  filepath = "sync/simple.go"
+  fileline = 16

@@ -1,0 +1,27 @@
+repo = "github.com/openfortra/fortra"
+rule = "codelingo/go/default-in-type-switch"
+sha = "61e81587df7ba38e454fe40d30747504e7189339"
+
+[[issues]]
+  filepath = "vendor/gopkg.in/yaml.v2/resolve.go"
+  fileline = 97
+
+[[issues]]
+  filepath = "vendor/gopkg.in/yaml.v2/decode.go"
+  fileline = 498
+
+[[issues]]
+  filepath = "vendor/gopkg.in/yaml.v2/decode.go"
+  fileline = 504
+
+[[issues]]
+  filepath = "vendor/gopkg.in/yaml.v2/encode.go"
+  fileline = 104
+
+[[issues]]
+  filepath = "vendor/gopkg.in/yaml.v2/decode.go"
+  fileline = 475
+
+[[issues]]
+  filepath = "vendor/gopkg.in/yaml.v2/decode.go"
+  fileline = 444

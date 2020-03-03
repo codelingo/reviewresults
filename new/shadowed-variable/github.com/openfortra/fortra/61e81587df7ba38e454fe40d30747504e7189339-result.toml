@@ -1,0 +1,27 @@
+repo = "github.com/openfortra/fortra"
+rule = "codelingo/go/shadowed-variable"
+sha = "61e81587df7ba38e454fe40d30747504e7189339"
+
+[[issues]]
+  filepath = "vendor/gopkg.in/yaml.v2/scannerc.go"
+  fileline = 1275
+
+[[issues]]
+  filepath = "vendor/gopkg.in/yaml.v2/parserc.go"
+  fileline = 677
+
+[[issues]]
+  filepath = "vendor/gopkg.in/yaml.v2/parserc.go"
+  fileline = 906
+
+[[issues]]
+  filepath = "vendor/gopkg.in/yaml.v2/parserc.go"
+  fileline = 581
+
+[[issues]]
+  filepath = "vendor/gopkg.in/yaml.v2/parserc.go"
+  fileline = 772
+
+[[issues]]
+  filepath = "vendor/gopkg.in/yaml.v2/parserc.go"
+  fileline = 861

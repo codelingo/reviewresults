@@ -1,0 +1,7 @@
+repo = "github.com/tonyalaribe/440sites"
+rule = "codelingo/rfjakob-gocryptfs/missing-close-file"
+sha = "78f49188b44480161703649a230e3ea58b341ce1"
+
+[[issues]]
+  filepath = "utils/copyfolder.go"
+  fileline = 51

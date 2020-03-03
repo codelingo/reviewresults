@@ -1,0 +1,11 @@
+repo = "github.com/tonyalaribe/dsi-hackaton"
+rule = "codelingo/go/unsafe-go-routine-variables"
+sha = "23dbc83f7fe69fdc79575e070c121dfea865cf51"
+
+[[issues]]
+  filepath = "main.go"
+  fileline = 55
+
+[[issues]]
+  filepath = "main.go"
+  fileline = 55

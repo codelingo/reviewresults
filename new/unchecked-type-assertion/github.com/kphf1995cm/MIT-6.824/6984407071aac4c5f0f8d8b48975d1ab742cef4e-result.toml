@@ -1,0 +1,19 @@
+repo = "github.com/kphf1995cm/MIT-6.824"
+rule = "codelingo/go/unchecked-type-assertion"
+sha = "6984407071aac4c5f0f8d8b48975d1ab742cef4e"
+
+[[issues]]
+  filepath = "src/linearizability/models.go"
+  fileline = 36
+
+[[issues]]
+  filepath = "src/linearizability/models.go"
+  fileline = 37
+
+[[issues]]
+  filepath = "src/labgob/test_test.go"
+  fileline = 99
+
+[[issues]]
+  filepath = "src/linearizability/models.go"
+  fileline = 35

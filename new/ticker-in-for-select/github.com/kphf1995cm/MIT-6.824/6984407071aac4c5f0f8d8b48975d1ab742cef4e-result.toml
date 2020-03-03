@@ -1,0 +1,11 @@
+repo = "github.com/kphf1995cm/MIT-6.824"
+rule = "codelingo/go/ticker-in-for-select"
+sha = "6984407071aac4c5f0f8d8b48975d1ab742cef4e"
+
+[[issues]]
+  filepath = "src/labrpc/labrpc.go"
+  fileline = 243
+
+[[issues]]
+  filepath = "src/shardkv/test_test.go"
+  fileline = 70

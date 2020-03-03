@@ -1,0 +1,1615 @@
+repo = "github.com/kphf1995cm/MIT-6.824"
+rule = "codelingo/go/unsafe-go-routine-variables"
+sha = "6984407071aac4c5f0f8d8b48975d1ab742cef4e"
+
+[[issues]]
+  filepath = "src/shardkv/test_test.go"
+  fileline = 58
+
+[[issues]]
+  filepath = "src/shardkv/test_test.go"
+  fileline = 58
+
+[[issues]]
+  filepath = "src/shardkv/test_test.go"
+  fileline = 59
+
+[[issues]]
+  filepath = "src/shardkv/test_test.go"
+  fileline = 59
+
+[[issues]]
+  filepath = "src/shardkv/test_test.go"
+  fileline = 59
+
+[[issues]]
+  filepath = "src/shardkv/test_test.go"
+  fileline = 59
+
+[[issues]]
+  filepath = "src/shardkv/test_test.go"
+  fileline = 59
+
+[[issues]]
+  filepath = "src/linearizability/linearizability.go"
+  fileline = 287
+
+[[issues]]
+  filepath = "src/linearizability/linearizability.go"
+  fileline = 287
+
+[[issues]]
+  filepath = "src/linearizability/linearizability.go"
+  fileline = 287
+
+[[issues]]
+  filepath = "src/linearizability/linearizability.go"
+  fileline = 287
+
+[[issues]]
+  filepath = "src/linearizability/linearizability.go"
+  fileline = 287
+
+[[issues]]
+  filepath = "src/labrpc/labrpc.go"
+  fileline = 147
+
+[[issues]]
+  filepath = "src/labrpc/labrpc.go"
+  fileline = 145
+
+[[issues]]
+  filepath = "src/labrpc/labrpc.go"
+  fileline = 145
+
+[[issues]]
+  filepath = "src/labrpc/labrpc.go"
+  fileline = 145
+
+[[issues]]
+  filepath = "src/labrpc/labrpc.go"
+  fileline = 147
+
+[[issues]]
+  filepath = "src/labrpc/labrpc.go"
+  fileline = 144
+
+[[issues]]
+  filepath = "src/labrpc/labrpc.go"
+  fileline = 146
+
+[[issues]]
+  filepath = "src/labrpc/labrpc.go"
+  fileline = 146
+
+[[issues]]
+  filepath = "src/labrpc/labrpc.go"
+  fileline = 144
+
+[[issues]]
+  filepath = "src/labrpc/labrpc.go"
+  fileline = 145
+
+[[issues]]
+  filepath = "src/linearizability/linearizability.go"
+  fileline = 244
+
+[[issues]]
+  filepath = "src/linearizability/linearizability.go"
+  fileline = 244
+
+[[issues]]
+  filepath = "src/linearizability/linearizability.go"
+  fileline = 244
+
+[[issues]]
+  filepath = "src/linearizability/linearizability.go"
+  fileline = 244
+
+[[issues]]
+  filepath = "src/linearizability/linearizability.go"
+  fileline = 244
+
+[[issues]]
+  filepath = "src/mapreduce/master_rpc.go"
+  fileline = 37
+
+[[issues]]
+  filepath = "src/mapreduce/master_rpc.go"
+  fileline = 37
+
+[[issues]]
+  filepath = "src/mapreduce/master_rpc.go"
+  fileline = 38
+
+[[issues]]
+  filepath = "src/mapreduce/master_rpc.go"
+  fileline = 41
+
+[[issues]]
+  filepath = "src/mapreduce/master_rpc.go"
+  fileline = 41
+
+[[issues]]
+  filepath = "src/mapreduce/master_rpc.go"
+  fileline = 42
+
+[[issues]]
+  filepath = "src/mapreduce/master_rpc.go"
+  fileline = 41
+
+[[issues]]
+  filepath = "src/mapreduce/master_rpc.go"
+  fileline = 48
+
+[[issues]]
+  filepath = "src/mapreduce/master_rpc.go"
+  fileline = 48
+
+[[issues]]
+  filepath = "src/mapreduce/master_rpc.go"
+  fileline = 52
+
+[[issues]]
+  filepath = "src/mapreduce/master_rpc.go"
+  fileline = 34
+
+[[issues]]
+  filepath = "src/mapreduce/master.go"
+  fileline = 112
+
+[[issues]]
+  filepath = "src/mapreduce/master.go"
+  fileline = 110
+
+[[issues]]
+  filepath = "src/mapreduce/master.go"
+  fileline = 112
+
+[[issues]]
+  filepath = "src/mapreduce/master.go"
+  fileline = 112
+
+[[issues]]
+  filepath = "src/mapreduce/master.go"
+  fileline = 111
+
+[[issues]]
+  filepath = "src/mapreduce/master.go"
+  fileline = 112
+
+[[issues]]
+  filepath = "src/mapreduce/master.go"
+  fileline = 112
+
+[[issues]]
+  filepath = "src/mapreduce/master.go"
+  fileline = 112
+
+[[issues]]
+  filepath = "src/mapreduce/master.go"
+  fileline = 112
+
+[[issues]]
+  filepath = "src/mapreduce/master.go"
+  fileline = 110
+
+[[issues]]
+  filepath = "src/mapreduce/master.go"
+  fileline = 111
+
+[[issues]]
+  filepath = "src/mapreduce/master.go"
+  fileline = 115
+
+[[issues]]
+  filepath = "src/mapreduce/master.go"
+  fileline = 116
+
+[[issues]]
+  filepath = "src/mapreduce/master.go"
+  fileline = 115
+
+[[issues]]
+  filepath = "src/mapreduce/master.go"
+  fileline = 116
+
+[[issues]]
+  filepath = "src/mapreduce/master.go"
+  fileline = 115
+
+[[issues]]
+  filepath = "src/mapreduce/master.go"
+  fileline = 115
+
+[[issues]]
+  filepath = "src/shardmaster/test_test.go"
+  fileline = 323
+
+[[issues]]
+  filepath = "src/shardmaster/test_test.go"
+  fileline = 331
+
+[[issues]]
+  filepath = "src/shardmaster/test_test.go"
+  fileline = 329
+
+[[issues]]
+  filepath = "src/shardmaster/test_test.go"
+  fileline = 328
+
+[[issues]]
+  filepath = "src/shardmaster/test_test.go"
+  fileline = 327
+
+[[issues]]
+  filepath = "src/shardmaster/test_test.go"
+  fileline = 329
+
+[[issues]]
+  filepath = "src/shardmaster/test_test.go"
+  fileline = 323
+
+[[issues]]
+  filepath = "src/shardmaster/test_test.go"
+  fileline = 324
+
+[[issues]]
+  filepath = "src/shardmaster/test_test.go"
+  fileline = 321
+
+[[issues]]
+  filepath = "src/shardmaster/test_test.go"
+  fileline = 328
+
+[[issues]]
+  filepath = "src/shardmaster/test_test.go"
+  fileline = 326
+
+[[issues]]
+  filepath = "src/shardmaster/test_test.go"
+  fileline = 323
+
+[[issues]]
+  filepath = "src/shardmaster/test_test.go"
+  fileline = 328
+
+[[issues]]
+  filepath = "src/shardmaster/test_test.go"
+  fileline = 331
+
+[[issues]]
+  filepath = "src/shardmaster/test_test.go"
+  fileline = 323
+
+[[issues]]
+  filepath = "src/shardmaster/test_test.go"
+  fileline = 331
+
+[[issues]]
+  filepath = "src/shardmaster/test_test.go"
+  fileline = 322
+
+[[issues]]
+  filepath = "src/shardmaster/test_test.go"
+  fileline = 329
+
+[[issues]]
+  filepath = "src/shardmaster/test_test.go"
+  fileline = 322
+
+[[issues]]
+  filepath = "src/shardmaster/test_test.go"
+  fileline = 325
+
+[[issues]]
+  filepath = "src/shardmaster/test_test.go"
+  fileline = 326
+
+[[issues]]
+  filepath = "src/shardmaster/test_test.go"
+  fileline = 327
+
+[[issues]]
+  filepath = "src/shardmaster/test_test.go"
+  fileline = 321
+
+[[issues]]
+  filepath = "src/shardmaster/test_test.go"
+  fileline = 325
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 355
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 339
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 340
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 338
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 354
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 337
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 356
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 355
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 338
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 358
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 356
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 357
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 340
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 354
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 341
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 340
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 345
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 337
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 341
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 336
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 339
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 336
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 337
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 345
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 336
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 358
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 355
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 354
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 340
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 336
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 355
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 355
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 337
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 337
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 336
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 355
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 354
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 335
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 335
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 335
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 347
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 348
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 346
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 346
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 347
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 347
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 347
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 347
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 346
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 346
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 347
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 347
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 343
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 342
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 343
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 343
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 343
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 342
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 344
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 342
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 343
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 342
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 343
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 343
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 350
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 351
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 351
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 351
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 350
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 352
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 350
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 352
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 351
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 352
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 351
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 333
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 333
+
+[[issues]]
+  filepath = "src/mapreduce/master_rpc.go"
+  fileline = 44
+
+[[issues]]
+  filepath = "src/mapreduce/master_rpc.go"
+  fileline = 44
+
+[[issues]]
+  filepath = "src/mapreduce/master_rpc.go"
+  fileline = 44
+
+[[issues]]
+  filepath = "src/mapreduce/master_rpc.go"
+  fileline = 45
+
+[[issues]]
+  filepath = "src/mapreduce/master_rpc.go"
+  fileline = 45
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 507
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 508
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 507
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 508
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 507
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 187
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 189
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 183
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 175
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 189
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 175
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 183
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 182
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 184
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 184
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 175
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 182
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 189
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 174
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 187
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 182
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 174
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 183
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 184
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 184
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 183
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 187
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 174
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 183
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 183
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 182
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 182
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 185
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 185
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 185
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 185
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 169
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 169
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 190
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 190
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 190
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 190
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 190
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 193
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 193
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 193
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 193
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 198
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 198
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 197
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 198
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 197
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 197
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 198
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 179
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 179
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 179
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 179
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 178
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 179
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 179
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 179
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 178
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 171
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 171
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 171
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 173
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 173
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 173
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 176
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 176
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 176
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 176
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 176
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 176
+
+[[issues]]
+  filepath = "src/labrpc/test_test.go"
+  fileline = 476
+
+[[issues]]
+  filepath = "src/labrpc/test_test.go"
+  fileline = 475
+
+[[issues]]
+  filepath = "src/labrpc/test_test.go"
+  fileline = 475
+
+[[issues]]
+  filepath = "src/labrpc/labrpc.go"
+  fileline = 247
+
+[[issues]]
+  filepath = "src/shardmaster/test_test.go"
+  fileline = 197
+
+[[issues]]
+  filepath = "src/shardmaster/test_test.go"
+  fileline = 195
+
+[[issues]]
+  filepath = "src/shardmaster/test_test.go"
+  fileline = 198
+
+[[issues]]
+  filepath = "src/shardmaster/test_test.go"
+  fileline = 195
+
+[[issues]]
+  filepath = "src/shardmaster/test_test.go"
+  fileline = 196
+
+[[issues]]
+  filepath = "src/shardmaster/test_test.go"
+  fileline = 199
+
+[[issues]]
+  filepath = "src/shardmaster/test_test.go"
+  fileline = 200
+
+[[issues]]
+  filepath = "src/shardmaster/test_test.go"
+  fileline = 200
+
+[[issues]]
+  filepath = "src/shardmaster/test_test.go"
+  fileline = 196
+
+[[issues]]
+  filepath = "src/shardmaster/test_test.go"
+  fileline = 198
+
+[[issues]]
+  filepath = "src/shardmaster/test_test.go"
+  fileline = 199
+
+[[issues]]
+  filepath = "src/shardmaster/test_test.go"
+  fileline = 199
+
+[[issues]]
+  filepath = "src/shardmaster/test_test.go"
+  fileline = 198
+
+[[issues]]
+  filepath = "src/shardmaster/test_test.go"
+  fileline = 198
+
+[[issues]]
+  filepath = "src/shardmaster/test_test.go"
+  fileline = 200
+
+[[issues]]
+  filepath = "src/shardmaster/test_test.go"
+  fileline = 198
+
+[[issues]]
+  filepath = "src/shardmaster/test_test.go"
+  fileline = 199
+
+[[issues]]
+  filepath = "src/shardmaster/test_test.go"
+  fileline = 197
+
+[[issues]]
+  filepath = "src/shardmaster/test_test.go"
+  fileline = 199
+
+[[issues]]
+  filepath = "src/shardmaster/test_test.go"
+  fileline = 194
+
+[[issues]]
+  filepath = "src/shardmaster/test_test.go"
+  fileline = 194
+
+[[issues]]
+  filepath = "src/labrpc/labrpc.go"
+  fileline = 229
+
+[[issues]]
+  filepath = "src/labrpc/labrpc.go"
+  fileline = 230
+
+[[issues]]
+  filepath = "src/labrpc/labrpc.go"
+  fileline = 229
+
+[[issues]]
+  filepath = "src/labrpc/labrpc.go"
+  fileline = 229
+
+[[issues]]
+  filepath = "src/raft/test_test.go"
+  fileline = 220
+
+[[issues]]
+  filepath = "src/raft/test_test.go"
+  fileline = 224
+
+[[issues]]
+  filepath = "src/raft/test_test.go"
+  fileline = 220
+
+[[issues]]
+  filepath = "src/raft/test_test.go"
+  fileline = 219
+
+[[issues]]
+  filepath = "src/raft/test_test.go"
+  fileline = 221
+
+[[issues]]
+  filepath = "src/raft/test_test.go"
+  fileline = 227
+
+[[issues]]
+  filepath = "src/raft/test_test.go"
+  fileline = 220
+
+[[issues]]
+  filepath = "src/raft/test_test.go"
+  fileline = 220
+
+[[issues]]
+  filepath = "src/raft/test_test.go"
+  fileline = 219
+
+[[issues]]
+  filepath = "src/mapreduce/master.go"
+  fileline = 92
+
+[[issues]]
+  filepath = "src/mapreduce/master.go"
+  fileline = 92
+
+[[issues]]
+  filepath = "src/raft/test_test.go"
+  fileline = 714
+
+[[issues]]
+  filepath = "src/raft/test_test.go"
+  fileline = 713
+
+[[issues]]
+  filepath = "src/raft/test_test.go"
+  fileline = 714
+
+[[issues]]
+  filepath = "src/raft/test_test.go"
+  fileline = 713
+
+[[issues]]
+  filepath = "src/raft/test_test.go"
+  fileline = 714
+
+[[issues]]
+  filepath = "src/labrpc/test_test.go"
+  fileline = 347
+
+[[issues]]
+  filepath = "src/labrpc/test_test.go"
+  fileline = 347
+
+[[issues]]
+  filepath = "src/labrpc/test_test.go"
+  fileline = 347
+
+[[issues]]
+  filepath = "src/labrpc/test_test.go"
+  fileline = 347
+
+[[issues]]
+  filepath = "src/labrpc/test_test.go"
+  fileline = 340
+
+[[issues]]
+  filepath = "src/labrpc/test_test.go"
+  fileline = 340
+
+[[issues]]
+  filepath = "src/labrpc/test_test.go"
+  fileline = 345
+
+[[issues]]
+  filepath = "src/labrpc/test_test.go"
+  fileline = 344
+
+[[issues]]
+  filepath = "src/labrpc/test_test.go"
+  fileline = 345
+
+[[issues]]
+  filepath = "src/labrpc/test_test.go"
+  fileline = 344
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 503
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 504
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 504
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 503
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 503
+
+[[issues]]
+  filepath = "src/mapreduce/master.go"
+  fileline = 73
+
+[[issues]]
+  filepath = "src/mapreduce/master.go"
+  fileline = 73
+
+[[issues]]
+  filepath = "src/mapreduce/master.go"
+  fileline = 73
+
+[[issues]]
+  filepath = "src/mapreduce/master.go"
+  fileline = 73
+
+[[issues]]
+  filepath = "src/mapreduce/master.go"
+  fileline = 73
+
+[[issues]]
+  filepath = "src/mapreduce/master.go"
+  fileline = 73
+
+[[issues]]
+  filepath = "src/mapreduce/master.go"
+  fileline = 73
+
+[[issues]]
+  filepath = "src/mapreduce/master.go"
+  fileline = 73
+
+[[issues]]
+  filepath = "src/mapreduce/master.go"
+  fileline = 73
+
+[[issues]]
+  filepath = "src/mapreduce/master.go"
+  fileline = 73
+
+[[issues]]
+  filepath = "src/mapreduce/master.go"
+  fileline = 73
+
+[[issues]]
+  filepath = "src/mapreduce/master.go"
+  fileline = 73
+
+[[issues]]
+  filepath = "src/mapreduce/master.go"
+  fileline = 69
+
+[[issues]]
+  filepath = "src/mapreduce/master.go"
+  fileline = 69
+
+[[issues]]
+  filepath = "src/mapreduce/master.go"
+  fileline = 69
+
+[[issues]]
+  filepath = "src/mapreduce/master.go"
+  fileline = 69
+
+[[issues]]
+  filepath = "src/mapreduce/master.go"
+  fileline = 69
+
+[[issues]]
+  filepath = "src/mapreduce/master.go"
+  fileline = 69
+
+[[issues]]
+  filepath = "src/mapreduce/master.go"
+  fileline = 69
+
+[[issues]]
+  filepath = "src/mapreduce/master.go"
+  fileline = 69
+
+[[issues]]
+  filepath = "src/mapreduce/master.go"
+  fileline = 72
+
+[[issues]]
+  filepath = "src/mapreduce/master.go"
+  fileline = 68
+
+[[issues]]
+  filepath = "src/mapreduce/master.go"
+  fileline = 72
+
+[[issues]]
+  filepath = "src/mapreduce/master.go"
+  fileline = 68
+
+[[issues]]
+  filepath = "src/mapreduce/master.go"
+  fileline = 68
+
+[[issues]]
+  filepath = "src/mapreduce/master.go"
+  fileline = 67
+
+[[issues]]
+  filepath = "src/mapreduce/master.go"
+  fileline = 71
+
+[[issues]]
+  filepath = "src/mapreduce/master.go"
+  fileline = 77
+
+[[issues]]
+  filepath = "src/mapreduce/master.go"
+  fileline = 77
+
+[[issues]]
+  filepath = "src/mapreduce/master.go"
+  fileline = 77
+
+[[issues]]
+  filepath = "src/mapreduce/master.go"
+  fileline = 77
+
+[[issues]]
+  filepath = "src/mapreduce/master.go"
+  fileline = 77
+
+[[issues]]
+  filepath = "src/mapreduce/master.go"
+  fileline = 77
+
+[[issues]]
+  filepath = "src/labrpc/test_test.go"
+  fileline = 408
+
+[[issues]]
+  filepath = "src/labrpc/test_test.go"
+  fileline = 402
+
+[[issues]]
+  filepath = "src/labrpc/test_test.go"
+  fileline = 408
+
+[[issues]]
+  filepath = "src/labrpc/test_test.go"
+  fileline = 409
+
+[[issues]]
+  filepath = "src/labrpc/test_test.go"
+  fileline = 403
+
+[[issues]]
+  filepath = "src/labrpc/test_test.go"
+  fileline = 403
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 204
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 204
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 207
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 207
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 205
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 205
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 205
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 209
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 207
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 205
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 208
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 205
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 213
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 212
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 212
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 212
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 203
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 201
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 203
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 201
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 202
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 202
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 203
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 198
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 198
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 214
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 214
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 214
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 214
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 214
+
+[[issues]]
+  filepath = "src/raft/test_test.go"
+  fileline = 262
+
+[[issues]]
+  filepath = "src/labrpc/test_test.go"
+  fileline = 230
+
+[[issues]]
+  filepath = "src/labrpc/test_test.go"
+  fileline = 230
+
+[[issues]]
+  filepath = "src/labrpc/test_test.go"
+  fileline = 232
+
+[[issues]]
+  filepath = "src/labrpc/test_test.go"
+  fileline = 229
+
+[[issues]]
+  filepath = "src/labrpc/test_test.go"
+  fileline = 229
+
+[[issues]]
+  filepath = "src/labrpc/test_test.go"
+  fileline = 230
+
+[[issues]]
+  filepath = "src/labrpc/test_test.go"
+  fileline = 228
+
+[[issues]]
+  filepath = "src/labrpc/test_test.go"
+  fileline = 228
+
+[[issues]]
+  filepath = "src/labrpc/test_test.go"
+  fileline = 226
+
+[[issues]]
+  filepath = "src/labrpc/test_test.go"
+  fileline = 226
+
+[[issues]]
+  filepath = "src/labrpc/test_test.go"
+  fileline = 238
+
+[[issues]]
+  filepath = "src/labrpc/test_test.go"
+  fileline = 238
+
+[[issues]]
+  filepath = "src/labrpc/test_test.go"
+  fileline = 238
+
+[[issues]]
+  filepath = "src/labrpc/test_test.go"
+  fileline = 238
+
+[[issues]]
+  filepath = "src/labrpc/test_test.go"
+  fileline = 235
+
+[[issues]]
+  filepath = "src/labrpc/test_test.go"
+  fileline = 233
+
+[[issues]]
+  filepath = "src/labrpc/test_test.go"
+  fileline = 235
+
+[[issues]]
+  filepath = "src/labrpc/test_test.go"
+  fileline = 236
+
+[[issues]]
+  filepath = "src/labrpc/test_test.go"
+  fileline = 236
+
+[[issues]]
+  filepath = "src/labrpc/test_test.go"
+  fileline = 286
+
+[[issues]]
+  filepath = "src/labrpc/test_test.go"
+  fileline = 286
+
+[[issues]]
+  filepath = "src/labrpc/test_test.go"
+  fileline = 287
+
+[[issues]]
+  filepath = "src/labrpc/test_test.go"
+  fileline = 292
+
+[[issues]]
+  filepath = "src/labrpc/test_test.go"
+  fileline = 287
+
+[[issues]]
+  filepath = "src/labrpc/test_test.go"
+  fileline = 288
+
+[[issues]]
+  filepath = "src/labrpc/test_test.go"
+  fileline = 288
+
+[[issues]]
+  filepath = "src/labrpc/test_test.go"
+  fileline = 288
+
+[[issues]]
+  filepath = "src/labrpc/test_test.go"
+  fileline = 284
+
+[[issues]]
+  filepath = "src/labrpc/test_test.go"
+  fileline = 284
+
+[[issues]]
+  filepath = "src/labrpc/test_test.go"
+  fileline = 296
+
+[[issues]]
+  filepath = "src/labrpc/test_test.go"
+  fileline = 296
+
+[[issues]]
+  filepath = "src/labrpc/test_test.go"
+  fileline = 296
+
+[[issues]]
+  filepath = "src/labrpc/test_test.go"
+  fileline = 296
+
+[[issues]]
+  filepath = "src/labrpc/test_test.go"
+  fileline = 294
+
+[[issues]]
+  filepath = "src/labrpc/test_test.go"
+  fileline = 295
+
+[[issues]]
+  filepath = "src/labrpc/test_test.go"
+  fileline = 294
+
+[[issues]]
+  filepath = "src/labrpc/test_test.go"
+  fileline = 294

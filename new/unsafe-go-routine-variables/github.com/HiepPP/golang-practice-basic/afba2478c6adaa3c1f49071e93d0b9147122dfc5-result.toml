@@ -3,11 +3,7 @@ rule = "codelingo/go/unsafe-go-routine-variables"
 sha = "afba2478c6adaa3c1f49071e93d0b9147122dfc5"
 
 [[issues]]
-  filepath = "concurent/chan.go"
-  fileline = 14
-
-[[issues]]
-  filepath = "concurent/chan.go"
+  filepath = "concurent/goroutine.go"
   fileline = 14
 
 [[issues]]
@@ -23,7 +19,11 @@ sha = "afba2478c6adaa3c1f49071e93d0b9147122dfc5"
   fileline = 14
 
 [[issues]]
-  filepath = "concurent/goroutine.go"
+  filepath = "concurent/chan.go"
+  fileline = 14
+
+[[issues]]
+  filepath = "concurent/chan.go"
   fileline = 14
 
 [[issues]]
@@ -40,35 +40,19 @@ sha = "afba2478c6adaa3c1f49071e93d0b9147122dfc5"
 
 [[issues]]
   filepath = "concurent/chan.go"
-  fileline = 28
+  fileline = 27
 
 [[issues]]
   filepath = "concurent/chan.go"
-  fileline = 27
+  fileline = 28
 
 [[issues]]
   filepath = "concurent/chan.go"
   fileline = 29
 
 [[issues]]
-  filepath = "concurent/chan.go"
-  fileline = 20
-
-[[issues]]
-  filepath = "concurent/chan.go"
-  fileline = 20
-
-[[issues]]
-  filepath = "concurent/chan.go"
+  filepath = "concurent/goroutine1.go"
   fileline = 19
-
-[[issues]]
-  filepath = "concurent/chan.go"
-  fileline = 20
-
-[[issues]]
-  filepath = "concurent/chan.go"
-  fileline = 20
 
 [[issues]]
   filepath = "concurent/goroutine1.go"
@@ -80,12 +64,28 @@ sha = "afba2478c6adaa3c1f49071e93d0b9147122dfc5"
 
 [[issues]]
   filepath = "concurent/goroutine1.go"
-  fileline = 19
-
-[[issues]]
-  filepath = "concurent/goroutine1.go"
   fileline = 17
 
 [[issues]]
   filepath = "concurent/goroutine1.go"
   fileline = 19
+
+[[issues]]
+  filepath = "concurent/chan.go"
+  fileline = 20
+
+[[issues]]
+  filepath = "concurent/chan.go"
+  fileline = 19
+
+[[issues]]
+  filepath = "concurent/chan.go"
+  fileline = 20
+
+[[issues]]
+  filepath = "concurent/chan.go"
+  fileline = 20
+
+[[issues]]
+  filepath = "concurent/chan.go"
+  fileline = 20
