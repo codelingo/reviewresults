@@ -3,5 +3,7 @@ rule = "unchecked-type-assertion"
 sha = "0c781a15588e265e57e6bc5c4a0efd070a72a6ac"
 
 [[issues]]
-  filepath = "writer.go"
   fileline = 325
+  filepath = "writer.go"
+  fixed = true
+  ignored = ""
