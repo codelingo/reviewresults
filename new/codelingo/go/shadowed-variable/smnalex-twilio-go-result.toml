@@ -3,17 +3,25 @@ rule = "shadowed-variable"
 sha = "084bf9682c344da52a7fd908ccbba0beee9753f2"
 
 [[issues]]
-  filepath = "chat/httpclient_mock_test.go"
   fileline = 128
+  filepath = "chat/httpclient_mock_test.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "chat/httpclient_mock_test.go"
   fileline = 48
-
-[[issues]]
   filepath = "chat/httpclient_mock_test.go"
-  fileline = 93
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "chat/chat_test.go"
+  fileline = 93
+  filepath = "chat/httpclient_mock_test.go"
+  fixed = false
+  ignored = "fp"
+
+[[issues]]
   fileline = 37
+  filepath = "chat/chat_test.go"
+  fixed = false
+  ignored = "fp"
