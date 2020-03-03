@@ -3,65 +3,97 @@ rule = "unsafe-go-routine-variables"
 sha = "e382da4d28a310b97466c69d6a996c62f05ae3bf"
 
 [[issues]]
-  filepath = "parallel_gcm/pgcm_test.go"
   fileline = 48
+  filepath = "parallel_gcm/pgcm_test.go"
+  fixed = true
+  ignored = ""
 
 [[issues]]
-  filepath = "parallel_gcm/pgcm_test.go"
   fileline = 48
+  filepath = "parallel_gcm/pgcm_test.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "parallel_gcm/pgcm_test.go"
   fileline = 49
+  filepath = "parallel_gcm/pgcm_test.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "parallel_gcm/pgcm_test.go"
   fileline = 48
+  filepath = "parallel_gcm/pgcm_test.go"
+  fixed = false
+  ignored = "dup"
 
 [[issues]]
-  filepath = "parallel_gcm/pgcm_test.go"
   fileline = 48
+  filepath = "parallel_gcm/pgcm_test.go"
+  fixed = false
+  ignored = "dup"
 
 [[issues]]
-  filepath = "parallel_gcm/pgcm_test.go"
   fileline = 49
+  filepath = "parallel_gcm/pgcm_test.go"
+  fixed = false
+  ignored = "dup"
 
 [[issues]]
-  filepath = "parallel_gcm/pgcm_test.go"
   fileline = 70
+  filepath = "parallel_gcm/pgcm_test.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "parallel_gcm/pgcm_test.go"
   fileline = 71
+  filepath = "parallel_gcm/pgcm_test.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "parallel_gcm/pgcm_test.go"
   fileline = 70
+  filepath = "parallel_gcm/pgcm_test.go"
+  fixed = false
+  ignored = "dup"
 
 [[issues]]
-  filepath = "parallel_gcm/pgcm_test.go"
   fileline = 71
+  filepath = "parallel_gcm/pgcm_test.go"
+  fixed = false
+  ignored = "dup"
 
 [[issues]]
-  filepath = "parallel_gcm/pgcm_test.go"
   fileline = 70
+  filepath = "parallel_gcm/pgcm_test.go"
+  fixed = false
+  ignored = "dup"
 
 [[issues]]
-  filepath = "parallel_gcm/pgcm_test.go"
   fileline = 120
+  filepath = "parallel_gcm/pgcm_test.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "parallel_gcm/pgcm_test.go"
   fileline = 121
+  filepath = "parallel_gcm/pgcm_test.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "parallel_gcm/pgcm_test.go"
   fileline = 120
+  filepath = "parallel_gcm/pgcm_test.go"
+  fixed = false
+  ignored = "dup"
 
 [[issues]]
-  filepath = "parallel_gcm/pgcm_test.go"
   fileline = 120
+  filepath = "parallel_gcm/pgcm_test.go"
+  fixed = false
+  ignored = "dup"
 
 [[issues]]
-  filepath = "parallel_gcm/pgcm_test.go"
   fileline = 121
+  filepath = "parallel_gcm/pgcm_test.go"
+  fixed = false
+  ignored = "dup"
