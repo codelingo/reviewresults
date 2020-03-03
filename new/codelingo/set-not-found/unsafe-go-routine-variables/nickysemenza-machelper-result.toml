@@ -3,37 +3,55 @@ rule = "unsafe-go-routine-variables"
 sha = "4d52fc2423dbcf975a130b0257f13a35bc8d999e"
 
 [[issues]]
-  filepath = "main.go"
   fileline = 115
+  filepath = "main.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "main.go"
   fileline = 115
+  filepath = "main.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "main.go"
   fileline = 115
+  filepath = "main.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "main.go"
   fileline = 118
+  filepath = "main.go"
+  fixed = true
+  ignored = ""
 
 [[issues]]
-  filepath = "main.go"
   fileline = 113
+  filepath = "main.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "main.go"
   fileline = 112
+  filepath = "main.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "main.go"
   fileline = 114
+  filepath = "main.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "main.go"
   fileline = 113
+  filepath = "main.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "main.go"
   fileline = 112
+  filepath = "main.go"
+  fixed = false
+  ignored = "fp"
