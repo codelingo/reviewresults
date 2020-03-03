@@ -1,0 +1,75 @@
+repo = "github.com/mjs/directnic_ddns"
+rule = "codelingo/go/unchecked-type-assertion"
+sha = "6082c54efb4389e02259894f5f83534438609803"
+
+[[issues]]
+  filepath = "vendor/github.com/pelletier/go-toml/parser.go"
+  fileline = 104
+
+[[issues]]
+  filepath = "vendor/github.com/pelletier/go-toml/toml.go"
+  fileline = 140
+
+[[issues]]
+  filepath = "vendor/github.com/pelletier/go-toml/tomltree_create.go"
+  fileline = 37
+
+[[issues]]
+  filepath = "vendor/github.com/pelletier/go-toml/toml.go"
+  fileline = 317
+
+[[issues]]
+  filepath = "vendor/github.com/pelletier/go-toml/toml.go"
+  fileline = 154
+
+[[issues]]
+  filepath = "vendor/github.com/pelletier/go-toml/toml.go"
+  fileline = 98
+
+[[issues]]
+  filepath = "vendor/github.com/pelletier/go-toml/toml.go"
+  fileline = 226
+
+[[issues]]
+  filepath = "vendor/github.com/pelletier/go-toml/toml.go"
+  fileline = 289
+
+[[issues]]
+  filepath = "vendor/github.com/pelletier/go-toml/toml.go"
+  fileline = 203
+
+[[issues]]
+  filepath = "vendor/github.com/pelletier/go-toml/toml.go"
+  fileline = 266
+
+[[issues]]
+  filepath = "vendor/github.com/pelletier/go-toml/toml.go"
+  fileline = 220
+
+[[issues]]
+  filepath = "vendor/github.com/pelletier/go-toml/tomltree_write.go"
+  fileline = 220
+
+[[issues]]
+  filepath = "vendor/github.com/pelletier/go-toml/toml.go"
+  fileline = 283
+
+[[issues]]
+  filepath = "vendor/github.com/pelletier/go-toml/tomltree_write.go"
+  fileline = 319
+
+[[issues]]
+  filepath = "vendor/github.com/pelletier/go-toml/toml.go"
+  fileline = 112
+
+[[issues]]
+  filepath = "vendor/github.com/pelletier/go-toml/parser.go"
+  fileline = 406
+
+[[issues]]
+  filepath = "vendor/github.com/pelletier/go-toml/parser.go"
+  fileline = 178
+
+[[issues]]
+  filepath = "vendor/github.com/pelletier/go-toml/tomltree_write.go"
+  fileline = 91

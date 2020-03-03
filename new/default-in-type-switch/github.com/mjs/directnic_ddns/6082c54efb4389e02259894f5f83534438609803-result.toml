@@ -1,0 +1,23 @@
+repo = "github.com/mjs/directnic_ddns"
+rule = "codelingo/go/default-in-type-switch"
+sha = "6082c54efb4389e02259894f5f83534438609803"
+
+[[issues]]
+  filepath = "vendor/github.com/pelletier/go-toml/tomltree_write.go"
+  fileline = 91
+
+[[issues]]
+  filepath = "vendor/github.com/pelletier/go-toml/tomltree_write.go"
+  fileline = 319
+
+[[issues]]
+  filepath = "vendor/github.com/pelletier/go-toml/toml.go"
+  fileline = 203
+
+[[issues]]
+  filepath = "vendor/github.com/pelletier/go-toml/toml.go"
+  fileline = 266
+
+[[issues]]
+  filepath = "vendor/github.com/pelletier/go-toml/tomltree_write.go"
+  fileline = 220

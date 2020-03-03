@@ -1,0 +1,7 @@
+repo = "github.com/fakelingouser/FirstProject"
+rule = "codelingo/rfjakob-gocryptfs/missing-close-file"
+sha = "66e70e9f0c1880cfa9fb59a213e31f6c1a0e55f3"
+
+[[issues]]
+  filepath = "main.go"
+  fileline = 20

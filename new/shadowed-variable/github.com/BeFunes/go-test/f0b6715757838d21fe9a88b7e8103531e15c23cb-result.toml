@@ -1,0 +1,31 @@
+repo = "github.com/BeFunes/go-test"
+rule = "codelingo/go/shadowed-variable"
+sha = "f0b6715757838d21fe9a88b7e8103531e15c23cb"
+
+[[issues]]
+  filepath = "_examples/encoding/easyjson.go"
+  fileline = 72
+
+[[issues]]
+  filepath = "_examples/instrumentation/apmelasticsearch.go"
+  fileline = 192
+
+[[issues]]
+  filepath = "_examples/instrumentation/apmelasticsearch.go"
+  fileline = 158
+
+[[issues]]
+  filepath = "_examples/instrumentation/apmelasticsearch.go"
+  fileline = 116
+
+[[issues]]
+  filepath = "_examples/instrumentation/apmelasticsearch.go"
+  fileline = 231
+
+[[issues]]
+  filepath = "_examples/main.go"
+  fileline = 82
+
+[[issues]]
+  filepath = "internal/cmd/generate/commands/gentests/command.go"
+  fileline = 278

@@ -1,0 +1,11 @@
+repo = "github.com/sundy-li/go_commons"
+rule = "codelingo/go/ticker-in-for-select"
+sha = "84e4cb0afce4401a08fab57d23876b840ae4c979"
+
+[[issues]]
+  filepath = "libs/kafka/reader.go"
+  fileline = 456
+
+[[issues]]
+  filepath = "libs/kafka/reader.go"
+  fileline = 625

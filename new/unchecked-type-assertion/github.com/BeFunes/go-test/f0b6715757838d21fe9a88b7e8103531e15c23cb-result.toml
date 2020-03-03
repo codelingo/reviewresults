@@ -1,0 +1,83 @@
+repo = "github.com/BeFunes/go-test"
+rule = "codelingo/go/unchecked-type-assertion"
+sha = "f0b6715757838d21fe9a88b7e8103531e15c23cb"
+
+[[issues]]
+  filepath = "internal/cmd/generate/commands/gentests/model.go"
+  fileline = 234
+
+[[issues]]
+  filepath = "internal/cmd/generate/commands/gentests/debug.go"
+  fileline = 84
+
+[[issues]]
+  filepath = "_examples/instrumentation/opencensus.go"
+  fileline = 55
+
+[[issues]]
+  filepath = "internal/cmd/generate/commands/gentests/debug.go"
+  fileline = 71
+
+[[issues]]
+  filepath = "internal/cmd/generate/commands/gentests/model.go"
+  fileline = 197
+
+[[issues]]
+  filepath = "internal/cmd/generate/commands/gentests/model.go"
+  fileline = 403
+
+[[issues]]
+  filepath = "internal/cmd/generate/commands/gentests/generator.go"
+  fileline = 1158
+
+[[issues]]
+  filepath = "internal/cmd/generate/commands/gentests/generator.go"
+  fileline = 1151
+
+[[issues]]
+  filepath = "internal/cmd/generate/utils/debug.go"
+  fileline = 28
+
+[[issues]]
+  filepath = "internal/cmd/generate/commands/gentests/model.go"
+  fileline = 226
+
+[[issues]]
+  filepath = "internal/cmd/generate/commands/gentests/model.go"
+  fileline = 231
+
+[[issues]]
+  filepath = "internal/cmd/generate/commands/gentests/model.go"
+  fileline = 399
+
+[[issues]]
+  filepath = "internal/cmd/generate/commands/gentests/generator.go"
+  fileline = 943
+
+[[issues]]
+  filepath = "esapi/esapi.request.go"
+  fileline = 40
+
+[[issues]]
+  filepath = "internal/cmd/generate/commands/gensource/generator.go"
+  fileline = 475
+
+[[issues]]
+  filepath = "internal/cmd/generate/commands/gentests/model.go"
+  fileline = 405
+
+[[issues]]
+  filepath = "estransport/logger_internal_test.go"
+  fileline = 341
+
+[[issues]]
+  filepath = "internal/cmd/generate/commands/gentests/generator.go"
+  fileline = 875
+
+[[issues]]
+  filepath = "internal/cmd/generate/commands/gentests/model.go"
+  fileline = 235
+
+[[issues]]
+  filepath = "internal/cmd/generate/commands/gentests/model.go"
+  fileline = 401

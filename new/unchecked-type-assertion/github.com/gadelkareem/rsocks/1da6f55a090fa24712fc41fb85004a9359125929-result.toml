@@ -1,0 +1,7 @@
+repo = "github.com/gadelkareem/rsocks"
+rule = "codelingo/go/unchecked-type-assertion"
+sha = "1da6f55a090fa24712fc41fb85004a9359125929"
+
+[[issues]]
+  filepath = "client.go"
+  fileline = 81

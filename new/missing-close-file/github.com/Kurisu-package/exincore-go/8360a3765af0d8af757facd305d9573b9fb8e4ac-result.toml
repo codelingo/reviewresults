@@ -1,0 +1,7 @@
+repo = "github.com/Kurisu-package/exincore-go"
+rule = "codelingo/rfjakob-gocryptfs/missing-close-file"
+sha = "8360a3765af0d8af757facd305d9573b9fb8e4ac"
+
+[[issues]]
+  filepath = "exincore_test.go"
+  fileline = 24

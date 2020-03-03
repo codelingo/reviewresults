@@ -1,0 +1,535 @@
+repo = "github.com/sundy-li/go_commons"
+rule = "codelingo/go/unsafe-go-routine-variables"
+sha = "84e4cb0afce4401a08fab57d23876b840ae4c979"
+
+[[issues]]
+  filepath = "libs/flow/timer.go"
+  fileline = 91
+
+[[issues]]
+  filepath = "libs/flow/timer.go"
+  fileline = 92
+
+[[issues]]
+  filepath = "libs/flow/timer.go"
+  fileline = 92
+
+[[issues]]
+  filepath = "libs/flow/timer.go"
+  fileline = 97
+
+[[issues]]
+  filepath = "libs/flow/timer.go"
+  fileline = 98
+
+[[issues]]
+  filepath = "libs/flow/timer.go"
+  fileline = 93
+
+[[issues]]
+  filepath = "libs/flow/timer.go"
+  fileline = 93
+
+[[issues]]
+  filepath = "libs/flow/timer.go"
+  fileline = 99
+
+[[issues]]
+  filepath = "libs/flow/timer.go"
+  fileline = 99
+
+[[issues]]
+  filepath = "libs/flow/timer.go"
+  fileline = 99
+
+[[issues]]
+  filepath = "libs/flow/timer.go"
+  fileline = 56
+
+[[issues]]
+  filepath = "libs/flow/timer.go"
+  fileline = 57
+
+[[issues]]
+  filepath = "libs/flow/timer.go"
+  fileline = 57
+
+[[issues]]
+  filepath = "libs/flow/timer.go"
+  fileline = 56
+
+[[issues]]
+  filepath = "libs/flow/timer.go"
+  fileline = 57
+
+[[issues]]
+  filepath = "libs/flow/timer.go"
+  fileline = 56
+
+[[issues]]
+  filepath = "libs/flow/timer.go"
+  fileline = 80
+
+[[issues]]
+  filepath = "libs/flow/timer.go"
+  fileline = 79
+
+[[issues]]
+  filepath = "libs/flow/timer.go"
+  fileline = 80
+
+[[issues]]
+  filepath = "libs/flow/timer.go"
+  fileline = 80
+
+[[issues]]
+  filepath = "libs/flow/timer.go"
+  fileline = 79
+
+[[issues]]
+  filepath = "libs/flow/timer.go"
+  fileline = 75
+
+[[issues]]
+  filepath = "libs/flow/timer.go"
+  fileline = 75
+
+[[issues]]
+  filepath = "modules/proxy/proxy_test.go"
+  fileline = 20
+
+[[issues]]
+  filepath = "modules/proxy/proxy_test.go"
+  fileline = 20
+
+[[issues]]
+  filepath = "modules/proxy/proxy_test.go"
+  fileline = 20
+
+[[issues]]
+  filepath = "modules/proxy/proxy_test.go"
+  fileline = 19
+
+[[issues]]
+  filepath = "modules/proxy/proxy_test.go"
+  fileline = 19
+
+[[issues]]
+  filepath = "modules/proxy/proxy_test.go"
+  fileline = 19
+
+[[issues]]
+  filepath = "modules/proxy/proxy_test.go"
+  fileline = 18
+
+[[issues]]
+  filepath = "modules/proxy/proxy_test.go"
+  fileline = 18
+
+[[issues]]
+  filepath = "libs/mq/kafka_cluster_mq.go"
+  fileline = 72
+
+[[issues]]
+  filepath = "libs/mq/kafka_cluster_mq.go"
+  fileline = 72
+
+[[issues]]
+  filepath = "libs/mq/kafka_cluster_mq.go"
+  fileline = 63
+
+[[issues]]
+  filepath = "libs/mq/kafka_cluster_mq.go"
+  fileline = 75
+
+[[issues]]
+  filepath = "libs/mq/kafka_cluster_mq.go"
+  fileline = 70
+
+[[issues]]
+  filepath = "libs/mq/kafka_cluster_mq.go"
+  fileline = 69
+
+[[issues]]
+  filepath = "libs/mq/kafka_cluster_mq.go"
+  fileline = 79
+
+[[issues]]
+  filepath = "libs/mq/kafka_cluster_mq.go"
+  fileline = 79
+
+[[issues]]
+  filepath = "app/app.go"
+  fileline = 34
+
+[[issues]]
+  filepath = "app/app.go"
+  fileline = 33
+
+[[issues]]
+  filepath = "app/app.go"
+  fileline = 34
+
+[[issues]]
+  filepath = "app/app.go"
+  fileline = 33
+
+[[issues]]
+  filepath = "app/app.go"
+  fileline = 33
+
+[[issues]]
+  filepath = "app/app.go"
+  fileline = 33
+
+[[issues]]
+  filepath = "app/app.go"
+  fileline = 32
+
+[[issues]]
+  filepath = "app/app.go"
+  fileline = 32
+
+[[issues]]
+  filepath = "utils/time.go"
+  fileline = 17
+
+[[issues]]
+  filepath = "utils/time.go"
+  fileline = 18
+
+[[issues]]
+  filepath = "utils/time.go"
+  fileline = 18
+
+[[issues]]
+  filepath = "utils/time.go"
+  fileline = 17
+
+[[issues]]
+  filepath = "modules/phantomjs/agent.go"
+  fileline = 122
+
+[[issues]]
+  filepath = "modules/phantomjs/agent.go"
+  fileline = 127
+
+[[issues]]
+  filepath = "modules/phantomjs/agent.go"
+  fileline = 121
+
+[[issues]]
+  filepath = "modules/phantomjs/agent.go"
+  fileline = 127
+
+[[issues]]
+  filepath = "modules/phantomjs/agent.go"
+  fileline = 122
+
+[[issues]]
+  filepath = "modules/phantomjs/agent.go"
+  fileline = 121
+
+[[issues]]
+  filepath = "modules/phantomjs/agent.go"
+  fileline = 122
+
+[[issues]]
+  filepath = "modules/phantomjs/agent.go"
+  fileline = 128
+
+[[issues]]
+  filepath = "modules/phantomjs/agent.go"
+  fileline = 128
+
+[[issues]]
+  filepath = "modules/phantomjs/agent.go"
+  fileline = 124
+
+[[issues]]
+  filepath = "modules/phantomjs/agent.go"
+  fileline = 124
+
+[[issues]]
+  filepath = "modules/phantomjs/agent.go"
+  fileline = 124
+
+[[issues]]
+  filepath = "modules/phantomjs/agent.go"
+  fileline = 124
+
+[[issues]]
+  filepath = "modules/phantomjs/agent.go"
+  fileline = 124
+
+[[issues]]
+  filepath = "modules/phantomjs/agent.go"
+  fileline = 124
+
+[[issues]]
+  filepath = "libs/etcd/etcd_test.go"
+  fileline = 28
+
+[[issues]]
+  filepath = "libs/etcd/etcd_test.go"
+  fileline = 31
+
+[[issues]]
+  filepath = "libs/etcd/etcd_test.go"
+  fileline = 31
+
+[[issues]]
+  filepath = "libs/etcd/etcd_test.go"
+  fileline = 28
+
+[[issues]]
+  filepath = "libs/etcd/etcd_test.go"
+  fileline = 28
+
+[[issues]]
+  filepath = "libs/etcd/etcd_test.go"
+  fileline = 29
+
+[[issues]]
+  filepath = "libs/etcd/etcd_test.go"
+  fileline = 29
+
+[[issues]]
+  filepath = "libs/etcd/etcd_test.go"
+  fileline = 29
+
+[[issues]]
+  filepath = "libs/etcd/etcd_test.go"
+  fileline = 29
+
+[[issues]]
+  filepath = "libs/etcd/etcd_test.go"
+  fileline = 29
+
+[[issues]]
+  filepath = "libs/etcd/etcd_test.go"
+  fileline = 29
+
+[[issues]]
+  filepath = "modules/phantomjs/agent.go"
+  fileline = 56
+
+[[issues]]
+  filepath = "modules/phantomjs/agent.go"
+  fileline = 56
+
+[[issues]]
+  filepath = "modules/phantomjs/agent.go"
+  fileline = 56
+
+[[issues]]
+  filepath = "modules/phantomjs/agent.go"
+  fileline = 56
+
+[[issues]]
+  filepath = "modules/phantomjs/agent.go"
+  fileline = 60
+
+[[issues]]
+  filepath = "modules/phantomjs/agent.go"
+  fileline = 60
+
+[[issues]]
+  filepath = "modules/phantomjs/agent.go"
+  fileline = 59
+
+[[issues]]
+  filepath = "modules/phantomjs/agent.go"
+  fileline = 59
+
+[[issues]]
+  filepath = "libs/flow/timer.go"
+  fileline = 61
+
+[[issues]]
+  filepath = "libs/flow/timer.go"
+  fileline = 60
+
+[[issues]]
+  filepath = "libs/flow/timer.go"
+  fileline = 61
+
+[[issues]]
+  filepath = "libs/flow/timer.go"
+  fileline = 61
+
+[[issues]]
+  filepath = "conf/config_center.go"
+  fileline = 100
+
+[[issues]]
+  filepath = "conf/config_center.go"
+  fileline = 100
+
+[[issues]]
+  filepath = "conf/config_center.go"
+  fileline = 100
+
+[[issues]]
+  filepath = "conf/config_center.go"
+  fileline = 100
+
+[[issues]]
+  filepath = "conf/config_center.go"
+  fileline = 100
+
+[[issues]]
+  filepath = "conf/config_center.go"
+  fileline = 100
+
+[[issues]]
+  filepath = "conf/config_center.go"
+  fileline = 115
+
+[[issues]]
+  filepath = "conf/config_center.go"
+  fileline = 100
+
+[[issues]]
+  filepath = "conf/config_center.go"
+  fileline = 105
+
+[[issues]]
+  filepath = "conf/config_center.go"
+  fileline = 105
+
+[[issues]]
+  filepath = "conf/config_center.go"
+  fileline = 105
+
+[[issues]]
+  filepath = "conf/config_center.go"
+  fileline = 105
+
+[[issues]]
+  filepath = "conf/config_center.go"
+  fileline = 105
+
+[[issues]]
+  filepath = "conf/config_center.go"
+  fileline = 109
+
+[[issues]]
+  filepath = "conf/config_center.go"
+  fileline = 109
+
+[[issues]]
+  filepath = "conf/config_center.go"
+  fileline = 109
+
+[[issues]]
+  filepath = "conf/config_center.go"
+  fileline = 109
+
+[[issues]]
+  filepath = "conf/config_center.go"
+  fileline = 103
+
+[[issues]]
+  filepath = "conf/config_center.go"
+  fileline = 104
+
+[[issues]]
+  filepath = "conf/config_center.go"
+  fileline = 106
+
+[[issues]]
+  filepath = "conf/config_center.go"
+  fileline = 104
+
+[[issues]]
+  filepath = "conf/config_center.go"
+  fileline = 110
+
+[[issues]]
+  filepath = "conf/config_center.go"
+  fileline = 110
+
+[[issues]]
+  filepath = "conf/config_center.go"
+  fileline = 110
+
+[[issues]]
+  filepath = "conf/config_center.go"
+  fileline = 110
+
+[[issues]]
+  filepath = "conf/config_center.go"
+  fileline = 110
+
+[[issues]]
+  filepath = "conf/config_center.go"
+  fileline = 107
+
+[[issues]]
+  filepath = "app/example/app_example.go"
+  fileline = 16
+
+[[issues]]
+  filepath = "app/example/app_example.go"
+  fileline = 15
+
+[[issues]]
+  filepath = "app/example/app_example.go"
+  fileline = 20
+
+[[issues]]
+  filepath = "app/example/app_example.go"
+  fileline = 15
+
+[[issues]]
+  filepath = "app/example/app_example.go"
+  fileline = 17
+
+[[issues]]
+  filepath = "app/example/app_example.go"
+  fileline = 16
+
+[[issues]]
+  filepath = "app/example/app_example.go"
+  fileline = 15
+
+[[issues]]
+  filepath = "app/example/app_example.go"
+  fileline = 20
+
+[[issues]]
+  filepath = "app/example/app_example.go"
+  fileline = 16
+
+[[issues]]
+  filepath = "app/example/app_example.go"
+  fileline = 20
+
+[[issues]]
+  filepath = "app/example/app_example.go"
+  fileline = 16
+
+[[issues]]
+  filepath = "app/example/app_example.go"
+  fileline = 15
+
+[[issues]]
+  filepath = "app/example/app_example.go"
+  fileline = 18
+
+[[issues]]
+  filepath = "app/example/app_example.go"
+  fileline = 18
+
+[[issues]]
+  filepath = "libs/kafka/reader.go"
+  fileline = 270
+
+[[issues]]
+  filepath = "libs/kafka/reader.go"
+  fileline = 271
+
+[[issues]]
+  filepath = "libs/kafka/reader.go"
+  fileline = 271

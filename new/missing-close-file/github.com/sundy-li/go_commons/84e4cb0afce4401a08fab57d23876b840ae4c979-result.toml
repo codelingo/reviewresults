@@ -1,0 +1,15 @@
+repo = "github.com/sundy-li/go_commons"
+rule = "codelingo/rfjakob-gocryptfs/missing-close-file"
+sha = "84e4cb0afce4401a08fab57d23876b840ae4c979"
+
+[[issues]]
+  filepath = "log/file_test.go"
+  fileline = 58
+
+[[issues]]
+  filepath = "utils/qrpie/qrpie.go"
+  fileline = 38
+
+[[issues]]
+  filepath = "log/file_test.go"
+  fileline = 90

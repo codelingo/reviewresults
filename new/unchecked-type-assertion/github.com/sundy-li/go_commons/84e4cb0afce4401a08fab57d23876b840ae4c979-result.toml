@@ -1,0 +1,19 @@
+repo = "github.com/sundy-li/go_commons"
+rule = "codelingo/go/unchecked-type-assertion"
+sha = "84e4cb0afce4401a08fab57d23876b840ae4c979"
+
+[[issues]]
+  filepath = "log/log.go"
+  fileline = 708
+
+[[issues]]
+  filepath = "log/log.go"
+  fileline = 319
+
+[[issues]]
+  filepath = "log/log.go"
+  fileline = 723
+
+[[issues]]
+  filepath = "libs/kafka/reader.go"
+  fileline = 385

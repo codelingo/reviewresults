@@ -1,0 +1,11 @@
+repo = "github.com/BeFunes/go-test"
+rule = "codelingo/go/default-in-type-switch"
+sha = "f0b6715757838d21fe9a88b7e8103531e15c23cb"
+
+[[issues]]
+  filepath = "_examples/instrumentation/opencensus.go"
+  fileline = 55
+
+[[issues]]
+  filepath = "internal/cmd/generate/commands/gentests/generator.go"
+  fileline = 1151
