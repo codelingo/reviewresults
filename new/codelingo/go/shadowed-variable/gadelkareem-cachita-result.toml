@@ -3,5 +3,7 @@ rule = "shadowed-variable"
 sha = "27c05434ad48d5cbb92e0af613152ed5ac17dbe5"
 
 [[issues]]
-  filepath = "cache_test.go"
   fileline = 173
+  filepath = "cache_test.go"
+  fixed = false
+  ignored = "fp"

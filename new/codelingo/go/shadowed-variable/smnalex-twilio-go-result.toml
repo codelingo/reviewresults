@@ -1,0 +1,27 @@
+repo = "github.com/smnalex/twilio-go"
+rule = "shadowed-variable"
+sha = "084bf9682c344da52a7fd908ccbba0beee9753f2"
+
+[[issues]]
+  fileline = 128
+  filepath = "chat/httpclient_mock_test.go"
+  fixed = false
+  ignored = "fp"
+
+[[issues]]
+  fileline = 48
+  filepath = "chat/httpclient_mock_test.go"
+  fixed = false
+  ignored = "fp"
+
+[[issues]]
+  fileline = 93
+  filepath = "chat/httpclient_mock_test.go"
+  fixed = false
+  ignored = "fp"
+
+[[issues]]
+  fileline = 37
+  filepath = "chat/chat_test.go"
+  fixed = false
+  ignored = "fp"

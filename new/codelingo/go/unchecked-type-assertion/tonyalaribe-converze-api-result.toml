@@ -3,5 +3,7 @@ rule = "unchecked-type-assertion"
 sha = "81f327385e55576139526c2fd86b8c5fb68b7458"
 
 [[issues]]
-  filepath = "web/middlewares.go"
   fileline = 148
+  filepath = "web/middlewares.go"
+  fixed = false
+  ignored = "fp. type already checked in switch"

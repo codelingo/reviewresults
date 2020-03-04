@@ -1,0 +1,39 @@
+repo = "github.com/morya/gopractice"
+rule = "unsafe-go-routine-variables"
+sha = "308e6732591c092d8cedde2734660931c94fd927"
+
+[[issues]]
+  fileline = 33
+  filepath = "gw_log_consumer/main.go"
+  fixed = false
+  ignored = "fp"
+
+[[issues]]
+  fileline = 32
+  filepath = "gw_log_consumer/main.go"
+  fixed = false
+  ignored = "fp"
+
+[[issues]]
+  fileline = 33
+  filepath = "gw_log_consumer/main.go"
+  fixed = false
+  ignored = "fp"
+
+[[issues]]
+  fileline = 34
+  filepath = "gw_log_consumer/main.go"
+  fixed = false
+  ignored = "fp"
+
+[[issues]]
+  fileline = 34
+  filepath = "gw_log_consumer/main.go"
+  fixed = false
+  ignored = "fp"
+
+[[issues]]
+  fileline = 33
+  filepath = "gw_log_consumer/main.go"
+  fixed = false
+  ignored = "fp"

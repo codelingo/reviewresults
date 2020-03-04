@@ -1,0 +1,57 @@
+repo = "github.com/gadelkareem/go-helpers"
+rule = "unsafe-go-routine-variables"
+sha = "37da31be3be96a995f9510f9c34c088bc4890dda"
+
+[[issues]]
+  fileline = 400
+  filepath = "helpers.go"
+  fixed = false
+  ignored = "fp"
+
+[[issues]]
+  fileline = 399
+  filepath = "helpers.go"
+  fixed = false
+  ignored = "fp"
+
+[[issues]]
+  fileline = 401
+  filepath = "helpers.go"
+  fixed = false
+  ignored = "fp"
+
+[[issues]]
+  fileline = 401
+  filepath = "helpers.go"
+  fixed = false
+  ignored = "fp"
+
+[[issues]]
+  fileline = 400
+  filepath = "helpers.go"
+  fixed = false
+  ignored = "fp"
+
+[[issues]]
+  fileline = 399
+  filepath = "helpers.go"
+  fixed = false
+  ignored = "fp"
+
+[[issues]]
+  fileline = 189
+  filepath = "helpers.go"
+  fixed = false
+  ignored = "fp"
+
+[[issues]]
+  fileline = 189
+  filepath = "helpers.go"
+  fixed = false
+  ignored = "fp"
+
+[[issues]]
+  fileline = 190
+  filepath = "helpers.go"
+  fixed = false
+  ignored = "fp"

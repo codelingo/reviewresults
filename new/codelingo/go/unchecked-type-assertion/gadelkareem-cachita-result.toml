@@ -1,0 +1,21 @@
+repo = "github.com/gadelkareem/cachita"
+rule = "unchecked-type-assertion"
+sha = "27c05434ad48d5cbb92e0af613152ed5ac17dbe5"
+
+[[issues]]
+  fileline = 108
+  filepath = "cache.go"
+  fixed = false
+  ignored = "switch has pretty much all types in it"
+
+[[issues]]
+  fileline = 174
+  filepath = "cache_test.go"
+  fixed = false
+  ignored = "probably okay in test"
+
+[[issues]]
+  fileline = 173
+  filepath = "cache_test.go"
+  fixed = false
+  ignored = "in test"

@@ -1,7 +1,9 @@
 repo = "github.com/gadelkareem/cachita"
-rule = "missing-stop-ticker"
+rule = "default-in-type-switch"
 sha = "27c05434ad48d5cbb92e0af613152ed5ac17dbe5"
 
 [[issues]]
+  fileline = 108
   filepath = "cache.go"
-  fileline = 56
+  fixed = true
+  ignored = ""

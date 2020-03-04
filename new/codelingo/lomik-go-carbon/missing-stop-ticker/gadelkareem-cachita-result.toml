@@ -1,7 +1,9 @@
 repo = "github.com/gadelkareem/cachita"
-rule = "default-in-type-switch"
+rule = "missing-stop-ticker"
 sha = "27c05434ad48d5cbb92e0af613152ed5ac17dbe5"
 
 [[issues]]
+  fileline = 56
   filepath = "cache.go"
-  fileline = 108
+  fixed = false
+  ignored = "goroutine never exits. runs for prog duration"
