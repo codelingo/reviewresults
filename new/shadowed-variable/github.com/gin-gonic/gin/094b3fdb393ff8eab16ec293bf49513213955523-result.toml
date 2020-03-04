@@ -1,0 +1,11 @@
+repo = "github.com/gin-gonic/gin"
+rule = "codelingo/go/shadowed-variable"
+sha = "094b3fdb393ff8eab16ec293bf49513213955523"
+
+[[issues]]
+  filepath = "routes_test.go"
+  fileline = 608
+
+[[issues]]
+  filepath = "routes_test.go"
+  fileline = 456

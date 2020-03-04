@@ -1,0 +1,19 @@
+repo = "github.com/gin-gonic/gin"
+rule = "codelingo/go/default-in-type-switch"
+sha = "094b3fdb393ff8eab16ec293bf49513213955523"
+
+[[issues]]
+  filepath = "binding/multipart_form_mapping.go"
+  fileline = 36
+
+[[issues]]
+  filepath = "binding/form_mapping.go"
+  fileline = 208
+
+[[issues]]
+  filepath = "binding/multipart_form_mapping.go"
+  fileline = 30
+
+[[issues]]
+  filepath = "binding/form_mapping.go"
+  fileline = 184
