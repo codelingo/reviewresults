@@ -1,7 +1,0 @@
-repo = "github.com/iamtito/go"
-rule = "unchecked-type-assertion"
-sha = "b5167ecb7bf016ca6f430d40a1aca0f285ffe90f"
-
-[[issues]]
-  filepath = "githubWebhook-lambda-jenkins.go"
-  fileline = 142
