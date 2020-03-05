@@ -1,9 +1,0 @@
-repo = "github.com/gadelkareem/cachita"
-rule = "default-in-type-switch"
-sha = "27c05434ad48d5cbb92e0af613152ed5ac17dbe5"
-
-[[issues]]
-  fileline = 108
-  filepath = "cache.go"
-  fixed = true
-  ignored = ""
