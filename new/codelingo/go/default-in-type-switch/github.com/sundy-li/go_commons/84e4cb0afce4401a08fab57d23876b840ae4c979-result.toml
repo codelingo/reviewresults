@@ -3,9 +3,13 @@ rule = "codelingo/go/default-in-type-switch"
 sha = "84e4cb0afce4401a08fab57d23876b840ae4c979"
 
 [[issues]]
-  filepath = "libs/gomysql/gomysql.go"
   fileline = 87
+  filepath = "libs/gomysql/gomysql.go"
+  fixed = true
+  ignored = ""
 
 [[issues]]
-  filepath = "libs/gomysql/gomysql.go"
   fileline = 41
+  filepath = "libs/gomysql/gomysql.go"
+  fixed = true
+  ignored = ""
