@@ -3,5 +3,7 @@ rule = "codelingo/go/default-in-type-switch"
 sha = "0bc6738067fe7ebbf39ed67ba208ab49f14f8bea"
 
 [[issues]]
-  filepath = "protocol/cmpp30/coder.go"
   fileline = 112
+  filepath = "protocol/cmpp30/coder.go"
+  fixed = false
+  ignored = "handled by fallthrough"
