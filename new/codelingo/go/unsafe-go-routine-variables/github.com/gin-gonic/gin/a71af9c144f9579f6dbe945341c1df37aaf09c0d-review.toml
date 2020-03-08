@@ -1,0 +1,643 @@
+repo = "github.com/gin-gonic/gin"
+rule = "codelingo/go/unsafe-go-routine-variables"
+sha = "a71af9c144f9579f6dbe945341c1df37aaf09c0d"
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 114
+  comment = "The variable String should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 114
+  comment = "The variable StatusOK should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 114
+  comment = "The variable http should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 114
+  comment = "The variable Context should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 114
+  comment = "The variable GET should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 114
+  comment = "The variable router should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 115
+  comment = "The variable t should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 115
+  comment = "The variable assert should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 115
+  comment = "The variable NoError should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 115
+  comment = "The variable Run should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 115
+  comment = "The variable router should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 60
+  comment = "The variable GET should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 62
+  comment = "The variable router should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 60
+  comment = "The variable Context should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 62
+  comment = "The variable t should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 60
+  comment = "The variable router should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 62
+  comment = "The variable NoError should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 62
+  comment = "The variable RunTLS should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 62
+  comment = "The variable assert should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 60
+  comment = "The variable StatusOK should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 60
+  comment = "The variable http should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 60
+  comment = "The variable String should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "context_test.go"
+  fileline = 1913
+  comment = "The variable Equal should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "context_test.go"
+  fileline = 1913
+  comment = "The variable t should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "context_test.go"
+  fileline = 1912
+  comment = "The variable Millisecond should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "context_test.go"
+  fileline = 1912
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "context_test.go"
+  fileline = 1912
+  comment = "The variable Sleep should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "context_test.go"
+  fileline = 1910
+  comment = "The variable Done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "context_test.go"
+  fileline = 1912
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "context_test.go"
+  fileline = 1913
+  comment = "The variable Param should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "context_test.go"
+  fileline = 1913
+  comment = "The variable assert should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "context_test.go"
+  fileline = 1910
+  comment = "The variable wg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 91
+  comment = "The variable router should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 99
+  comment = "The variable router should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 99
+  comment = "The variable RunTLS should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 91
+  comment = "The variable GET should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 99
+  comment = "The variable NoError should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 99
+  comment = "The variable assert should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 91
+  comment = "The variable Context should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 99
+  comment = "The variable t should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 93
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 93
+  comment = "The variable pusher should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 94
+  comment = "The variable assert should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 93
+  comment = "The variable Push should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 94
+  comment = "The variable NoError should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 94
+  comment = "The variable t should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 96
+  comment = "The variable StatusOK should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 96
+  comment = "The variable http should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 92
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 92
+  comment = "The variable Writer should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 92
+  comment = "The variable Pusher should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 96
+  comment = "The variable String should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 218
+  comment = "The variable http should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 218
+  comment = "The variable String should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 218
+  comment = "The variable StatusOK should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 219
+  comment = "The variable NoError should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 218
+  comment = "The variable Context should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 219
+  comment = "The variable RunListener should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 218
+  comment = "The variable router should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 219
+  comment = "The variable t should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 219
+  comment = "The variable assert should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 219
+  comment = "The variable listener should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 219
+  comment = "The variable router should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 218
+  comment = "The variable GET should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 135
+  comment = "The variable http should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 135
+  comment = "The variable StatusOK should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 135
+  comment = "The variable String should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 136
+  comment = "The variable t should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 136
+  comment = "The variable assert should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 136
+  comment = "The variable NoError should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 136
+  comment = "The variable Run should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 135
+  comment = "The variable Context should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 136
+  comment = "The variable router should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 135
+  comment = "The variable GET should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 135
+  comment = "The variable router should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 150
+  comment = "The variable Context should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 150
+  comment = "The variable GET should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 151
+  comment = "The variable RunUnix should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 151
+  comment = "The variable assert should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 151
+  comment = "The variable NoError should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 151
+  comment = "The variable t should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 150
+  comment = "The variable router should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 151
+  comment = "The variable router should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 150
+  comment = "The variable StatusOK should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 150
+  comment = "The variable http should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 150
+  comment = "The variable String should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 46
+  comment = "The variable GET should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 47
+  comment = "The variable router should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 47
+  comment = "The variable Run should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 46
+  comment = "The variable router should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 47
+  comment = "The variable assert should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 47
+  comment = "The variable NoError should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 46
+  comment = "The variable Context should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 47
+  comment = "The variable t should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 46
+  comment = "The variable StatusOK should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 46
+  comment = "The variable String should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 46
+  comment = "The variable http should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 271
+  comment = "The variable t should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 272
+  comment = "The variable Done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 271
+  comment = "The variable testGetRequestHandler should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 271
+  comment = "The variable router should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 272
+  comment = "The variable wg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "debug_test.go"
+  fileline = 130
+  comment = "The variable Copy should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "debug_test.go"
+  fileline = 130
+  comment = "The variable reader should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "debug_test.go"
+  fileline = 132
+  comment = "The variable String should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "debug_test.go"
+  fileline = 131
+  comment = "The variable NoError should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "debug_test.go"
+  fileline = 129
+  comment = "The variable wg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "debug_test.go"
+  fileline = 130
+  comment = "The variable io should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "debug_test.go"
+  fileline = 132
+  comment = "The variable out should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "debug_test.go"
+  fileline = 131
+  comment = "The variable t should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "debug_test.go"
+  fileline = 128
+  comment = "The variable bytes should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "debug_test.go"
+  fileline = 129
+  comment = "The variable Done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "debug_test.go"
+  fileline = 131
+  comment = "The variable assert should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "debug_test.go"
+  fileline = 128
+  comment = "The variable Buffer should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 186
+  comment = "The variable String should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 186
+  comment = "The variable StatusOK should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 186
+  comment = "The variable http should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 187
+  comment = "The variable int should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 186
+  comment = "The variable GET should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 187
+  comment = "The variable socketFile should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 187
+  comment = "The variable router should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 187
+  comment = "The variable assert should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 187
+  comment = "The variable RunFd should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 187
+  comment = "The variable Fd should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 187
+  comment = "The variable NoError should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 187
+  comment = "The variable t should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 186
+  comment = "The variable Context should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "gin_integration_test.go"
+  fileline = 186
+  comment = "The variable router should be passed in as arguments to go-routines to avoid race conditions."

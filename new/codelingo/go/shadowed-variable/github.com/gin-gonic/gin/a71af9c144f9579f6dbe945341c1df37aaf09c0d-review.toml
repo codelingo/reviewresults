@@ -1,0 +1,13 @@
+repo = "github.com/gin-gonic/gin"
+rule = "codelingo/go/shadowed-variable"
+sha = "a71af9c144f9579f6dbe945341c1df37aaf09c0d"
+
+[[issues]]
+  filepath = "routes_test.go"
+  fileline = 456
+  comment = "Variable w shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "routes_test.go"
+  fileline = 608
+  comment = "Variable w shadows a variable of the same name declared in an outer scope."
