@@ -1,0 +1,13 @@
+repo = "github.com/gin-gonic/gin"
+rule = "codelingo/go/unchecked-type-assertion"
+sha = "a71af9c144f9579f6dbe945341c1df37aaf09c0d"
+
+[[issues]]
+  filepath = "utils_test.go"
+  fileline = 114
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "gin.go"
+  fileline = 365
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
