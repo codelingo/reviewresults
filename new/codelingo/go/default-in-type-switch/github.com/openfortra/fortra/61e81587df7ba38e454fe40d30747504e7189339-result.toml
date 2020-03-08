@@ -3,25 +3,37 @@ rule = "codelingo/go/default-in-type-switch"
 sha = "61e81587df7ba38e454fe40d30747504e7189339"
 
 [[issues]]
-  filepath = "vendor/gopkg.in/yaml.v2/resolve.go"
   fileline = 97
+  filepath = "vendor/gopkg.in/yaml.v2/resolve.go"
+  fixed = false
+  ignored = "handled by fallthrough"
 
 [[issues]]
-  filepath = "vendor/gopkg.in/yaml.v2/decode.go"
   fileline = 498
+  filepath = "vendor/gopkg.in/yaml.v2/decode.go"
+  fixed = false
+  ignored = "in vendor"
 
 [[issues]]
-  filepath = "vendor/gopkg.in/yaml.v2/decode.go"
   fileline = 504
+  filepath = "vendor/gopkg.in/yaml.v2/decode.go"
+  fixed = false
+  ignored = "in vendor"
 
 [[issues]]
-  filepath = "vendor/gopkg.in/yaml.v2/encode.go"
   fileline = 104
+  filepath = "vendor/gopkg.in/yaml.v2/encode.go"
+  fixed = false
+  ignored = "in vendor"
 
 [[issues]]
-  filepath = "vendor/gopkg.in/yaml.v2/decode.go"
   fileline = 475
+  filepath = "vendor/gopkg.in/yaml.v2/decode.go"
+  fixed = false
+  ignored = "in vendor"
 
 [[issues]]
-  filepath = "vendor/gopkg.in/yaml.v2/decode.go"
   fileline = 444
+  filepath = "vendor/gopkg.in/yaml.v2/decode.go"
+  fixed = false
+  ignored = "in vendor"
