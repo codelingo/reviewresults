@@ -1,0 +1,13 @@
+repo = "github.com/FiloSottile/mkcert"
+rule = "codelingo/go/shadowed-variable"
+sha = "a21de51acfcff0ee03cadb665c055530428a0447"
+
+[[issues]]
+  filepath = "truststore_linux.go"
+  fileline = 89
+  comment = "Variable out shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "truststore_linux.go"
+  fileline = 88
+  comment = "Variable cmd shadows a variable of the same name declared in an outer scope."
