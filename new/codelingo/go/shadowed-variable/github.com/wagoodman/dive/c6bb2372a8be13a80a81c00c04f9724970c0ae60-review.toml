@@ -1,0 +1,18 @@
+repo = "github.com/wagoodman/dive"
+rule = "codelingo/go/shadowed-variable"
+sha = "c6bb2372a8be13a80a81c00c04f9724970c0ae60"
+
+[[issues]]
+  filepath = "runtime/ui/format/format.go"
+  fileline = 72
+  comment = "Variable repeatCount shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "runtime/ui/format/format.go"
+  fileline = 70
+  comment = "Variable body shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "runtime/ui/format/format.go"
+  fileline = 71
+  comment = "Variable bodyLen shadows a variable of the same name declared in an outer scope."
