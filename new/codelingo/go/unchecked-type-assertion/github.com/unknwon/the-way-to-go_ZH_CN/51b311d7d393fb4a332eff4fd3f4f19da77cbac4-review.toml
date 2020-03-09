@@ -1,0 +1,128 @@
+repo = "github.com/unknwon/the-way-to-go_ZH_CN"
+rule = "codelingo/go/unchecked-type-assertion"
+sha = "51b311d7d393fb4a332eff4fd3f4f19da77cbac4"
+
+[[issues]]
+  filepath = "eBook/exercises/chapter_11/print.go"
+  fileline = 32
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_11/type_interfaces.go"
+  fileline = 36
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_11/tideland-cgl.googlecode.com/hg/cglmon.go"
+  fileline = 384
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_11/tideland-cgl.googlecode.com/hg/cglmon.go"
+  fileline = 393
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_11/tideland-cgl.googlecode.com/hg/cgl_test.go"
+  fileline = 392
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_11/tideland-cgl.googlecode.com/hg/cglmon.go"
+  fileline = 371
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_11/emptyint_switch.go"
+  fileline = 11
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_11/tideland-cgl.googlecode.com/hg/cglfsm.go"
+  fileline = 224
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_11/tideland-cgl.googlecode.com/hg/cgl_test.go"
+  fileline = 285
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_12/xml.go"
+  fileline = 19
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_11/tideland-cgl.googlecode.com/hg/cgl_test.go"
+  fileline = 907
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_11/empty_interface.go"
+  fileline = 26
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_11/tideland-cgl.googlecode.com/hg/cglmon.go"
+  fileline = 416
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_14/general_lazy_evalution1.go"
+  fileline = 13
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_11/tideland-cgl.googlecode.com/hg/cgltim.go"
+  fileline = 258
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_11/tideland-cgl.googlecode.com/hg/cgl_test.go"
+  fileline = 786
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_11/print.go"
+  fileline = 32
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "eBook/exercises/chapter_14/general_lazy_evalution2.go"
+  fileline = 12
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_11/tideland-cgl.googlecode.com/hg/cgl_test.go"
+  fileline = 880
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_11/reflect1.go"
+  fileline = 20
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_11/tideland-cgl.googlecode.com/hg/cgl_test.go"
+  fileline = 951
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_11/tideland-cgl.googlecode.com/hg/cglmon.go"
+  fileline = 431
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_11/tideland-cgl.googlecode.com/hg/cglmon.go"
+  fileline = 406
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_11/tideland-cgl.googlecode.com/hg/cgl_test.go"
+  fileline = 371
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_11/tideland-cgl.googlecode.com/hg/cgltim.go"
+  fileline = 255
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."

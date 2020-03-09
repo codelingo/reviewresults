@@ -1,0 +1,33 @@
+repo = "github.com/unknwon/the-way-to-go_ZH_CN"
+rule = "codelingo/go/default-in-type-switch"
+sha = "51b311d7d393fb4a332eff4fd3f4f19da77cbac4"
+
+[[issues]]
+  filepath = "eBook/examples/chapter_11/tideland-cgl.googlecode.com/hg/cgl_test.go"
+  fileline = 951
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "eBook/exercises/chapter_11/map_function_interface.go"
+  fileline = 10
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_11/tideland-cgl.googlecode.com/hg/cgl_test.go"
+  fileline = 907
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "eBook/exercises/chapter_11/map_function_interface_var.go"
+  fileline = 10
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_11/tideland-cgl.googlecode.com/hg/cgl_test.go"
+  fileline = 880
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_12/xml.go"
+  fileline = 19
+  comment = "Always include a default case when using a type switch."
