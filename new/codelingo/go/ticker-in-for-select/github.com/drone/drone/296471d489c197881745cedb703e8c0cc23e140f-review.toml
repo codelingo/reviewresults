@@ -1,0 +1,48 @@
+repo = "github.com/drone/drone"
+rule = "codelingo/go/ticker-in-for-select"
+sha = "296471d489c197881745cedb703e8c0cc23e140f"
+
+[[issues]]
+  filepath = "handler/api/events/global.go"
+  fileline = 75
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "handler/api/events/global.go"
+  fileline = 78
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "scheduler/queue/queue.go"
+  fileline = 211
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "scheduler/queue/canceller.go"
+  fileline = 66
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "handler/api/events/build.go"
+  fileline = 94
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "handler/api/events/build.go"
+  fileline = 97
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "handler/api/events/logs.go"
+  fileline = 112
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "handler/api/events/logs.go"
+  fileline = 114
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "metric/sink/datadog.go"
+  fileline = 72
+  comment = "Make one ticker as opposed to making a new timer each iteration."
