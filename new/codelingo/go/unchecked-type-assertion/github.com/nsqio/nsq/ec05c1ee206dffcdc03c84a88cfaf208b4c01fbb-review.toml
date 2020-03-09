@@ -1,0 +1,83 @@
+repo = "github.com/nsqio/nsq"
+rule = "codelingo/go/unchecked-type-assertion"
+sha = "ec05c1ee206dffcdc03c84a88cfaf208b4c01fbb"
+
+[[issues]]
+  filepath = "nsqd/channel.go"
+  fileline = 553
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "internal/http_api/api_response.go"
+  fileline = 79
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "apps/nsq_to_nsq/nsq_to_nsq.go"
+  fileline = 180
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "internal/pqueue/pqueue.go"
+  fileline = 44
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "nsqd/channel.go"
+  fileline = 245
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "internal/http_api/api_response.go"
+  fileline = 43
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "apps/nsq_to_nsq/nsq_to_nsq.go"
+  fileline = 96
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "nsqd/http_test.go"
+  fileline = 289
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "apps/nsq_to_nsq/nsq_to_nsq.go"
+  fileline = 92
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "apps/nsq_to_nsq/nsq_to_nsq.go"
+  fileline = 97
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "apps/nsq_to_nsq/nsq_to_nsq.go"
+  fileline = 98
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "apps/nsq_to_nsq/nsq_to_nsq.go"
+  fileline = 94
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "nsqd/http_test.go"
+  fileline = 251
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "apps/nsq_to_nsq/nsq_to_nsq.go"
+  fileline = 91
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "nsqd/lookup.go"
+  fileline = 127
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "nsqd/lookup.go"
+  fileline = 136
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."

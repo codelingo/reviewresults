@@ -1,0 +1,4108 @@
+repo = "github.com/nsqio/nsq"
+rule = "codelingo/go/unsafe-go-routine-variables"
+sha = "ec05c1ee206dffcdc03c84a88cfaf208b4c01fbb"
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1657
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1657
+  comment = "The variable panic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1657
+  comment = "The variable Error should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1661
+  comment = "The variable N should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1661
+  comment = "The variable batchSize should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1656
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1661
+  comment = "The variable b should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1659
+  comment = "The variable NewReadWriter should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1661
+  comment = "The variable numTopics should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1691
+  comment = "The variable wg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1659
+  comment = "The variable NewReader should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1655
+  comment = "The variable tcpAddr should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1691
+  comment = "The variable Done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1659
+  comment = "The variable NewWriter should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1659
+  comment = "The variable bufio should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1677
+  comment = "The variable wg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1677
+  comment = "The variable Add should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1659
+  comment = "The variable bufio should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1659
+  comment = "The variable bufio should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1655
+  comment = "The variable mustConnectNSQD should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1662
+  comment = "The variable Add should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1662
+  comment = "The variable wg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/http_test.go"
+  fileline = 923
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/http_test.go"
+  fileline = 923
+  comment = "The variable Error should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/http_test.go"
+  fileline = 923
+  comment = "The variable panic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/http_test.go"
+  fileline = 926
+  comment = "The variable bytes should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/http_test.go"
+  fileline = 920
+  comment = "The variable http should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/http_test.go"
+  fileline = 925
+  comment = "The variable ioutil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/http_test.go"
+  fileline = 919
+  comment = "The variable bytes should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/http_test.go"
+  fileline = 919
+  comment = "The variable NewBuffer should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/http_test.go"
+  fileline = 920
+  comment = "The variable url should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/http_test.go"
+  fileline = 926
+  comment = "The variable Equal should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/http_test.go"
+  fileline = 926
+  comment = "The variable byte should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/http_test.go"
+  fileline = 919
+  comment = "The variable msg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/http_test.go"
+  fileline = 922
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/http_test.go"
+  fileline = 925
+  comment = "The variable ReadAll should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/http_test.go"
+  fileline = 925
+  comment = "The variable Body should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/http_test.go"
+  fileline = 929
+  comment = "The variable Body should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/http_test.go"
+  fileline = 921
+  comment = "The variable client should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/http_test.go"
+  fileline = 920
+  comment = "The variable NewRequest should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/http_test.go"
+  fileline = 921
+  comment = "The variable Do should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/http_test.go"
+  fileline = 929
+  comment = "The variable Close should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/http_test.go"
+  fileline = 917
+  comment = "The variable GOMAXPROCS should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/http_test.go"
+  fileline = 931
+  comment = "The variable wg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/http_test.go"
+  fileline = 917
+  comment = "The variable b should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/http_test.go"
+  fileline = 917
+  comment = "The variable N should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/http_test.go"
+  fileline = 917
+  comment = "The variable runtime should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/http_test.go"
+  fileline = 931
+  comment = "The variable Done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/http_test.go"
+  fileline = 927
+  comment = "The variable panic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1909
+  comment = "The variable topicName should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1910
+  comment = "The variable Done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1909
+  comment = "The variable rdyChan should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1910
+  comment = "The variable wg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1909
+  comment = "The variable tcpAddr should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1909
+  comment = "The variable goChan should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1909
+  comment = "The variable subWorker should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1909
+  comment = "The variable N should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1909
+  comment = "The variable b should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1909
+  comment = "The variable workers should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 51
+  comment = "The variable panic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 51
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 49
+  comment = "The variable Main should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 49
+  comment = "The variable nsqd should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 50
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 196
+  comment = "The variable lock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 195
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 194
+  comment = "The variable lock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 195
+  comment = "The variable append should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 196
+  comment = "The variable Unlock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 194
+  comment = "The variable Lock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 209
+  comment = "The variable VersionObj should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 209
+  comment = "The variable producer should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 215
+  comment = "The variable Address should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 203
+  comment = "The variable TCPAddress should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 214
+  comment = "The variable RemoteAddresses should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 214
+  comment = "The variable append should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 215
+  comment = "The variable Sprintf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 215
+  comment = "The variable fmt should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 203
+  comment = "The variable producer should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 215
+  comment = "The variable producer should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 214
+  comment = "The variable RemoteAddresses should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 204
+  comment = "The variable producersByAddr should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 201
+  comment = "The variable lock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 188
+  comment = "The variable fmt should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 191
+  comment = "The variable respType should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 201
+  comment = "The variable Unlock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 192
+  comment = "The variable GETV1 should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 202
+  comment = "The variable producer should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 189
+  comment = "The variable c should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 200
+  comment = "The variable Lock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 189
+  comment = "The variable logf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 202
+  comment = "The variable _ should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 200
+  comment = "The variable lock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 192
+  comment = "The variable client should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 188
+  comment = "The variable Sprintf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 202
+  comment = "The variable Producers should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 192
+  comment = "The variable c should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 193
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 186
+  comment = "The variable Done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 186
+  comment = "The variable wg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 208
+  comment = "The variable VersionObj should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 207
+  comment = "The variable append should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 212
+  comment = "The variable producer should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 206
+  comment = "The variable producer should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 211
+  comment = "The variable sort should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 211
+  comment = "The variable Topics should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 206
+  comment = "The variable producersByAddr should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 211
+  comment = "The variable Sort should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 208
+  comment = "The variable maxVersion should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 211
+  comment = "The variable producer should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 207
+  comment = "The variable producer should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 206
+  comment = "The variable key should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 208
+  comment = "The variable LT should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 208
+  comment = "The variable producer should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/protocol/tcp_server.go"
+  fileline = 39
+  comment = "The variable handler should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/protocol/tcp_server.go"
+  fileline = 39
+  comment = "The variable clientConn should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/protocol/tcp_server.go"
+  fileline = 40
+  comment = "The variable wg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/protocol/tcp_server.go"
+  fileline = 39
+  comment = "The variable Handle should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/protocol/tcp_server.go"
+  fileline = 40
+  comment = "The variable Done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "bench/bench_channels/bench_channels.go"
+  fileline = 28
+  comment = "The variable Sprintf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "bench/bench_channels/bench_channels.go"
+  fileline = 28
+  comment = "The variable num should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "bench/bench_channels/bench_channels.go"
+  fileline = 28
+  comment = "The variable subWorker should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "bench/bench_channels/bench_channels.go"
+  fileline = 28
+  comment = "The variable tcpAddress should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "bench/bench_channels/bench_channels.go"
+  fileline = 29
+  comment = "The variable wg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "bench/bench_channels/bench_channels.go"
+  fileline = 28
+  comment = "The variable rdyChan should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "bench/bench_channels/bench_channels.go"
+  fileline = 28
+  comment = "The variable goChan should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "bench/bench_channels/bench_channels.go"
+  fileline = 29
+  comment = "The variable Done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "bench/bench_channels/bench_channels.go"
+  fileline = 28
+  comment = "The variable fmt should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "bench/bench_channels/bench_channels.go"
+  fileline = 28
+  comment = "The variable j should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 324
+  comment = "The variable topic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 324
+  comment = "The variable Name should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 324
+  comment = "The variable Add should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 324
+  comment = "The variable stringy should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 321
+  comment = "The variable lock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 313
+  comment = "The variable client should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 307
+  comment = "The variable Done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 321
+  comment = "The variable Lock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 312
+  comment = "The variable respType should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 323
+  comment = "The variable topic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 314
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 310
+  comment = "The variable logf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 309
+  comment = "The variable fmt should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 309
+  comment = "The variable Sprintf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 322
+  comment = "The variable lock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 313
+  comment = "The variable GETV1 should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 313
+  comment = "The variable c should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 323
+  comment = "The variable Topics should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 307
+  comment = "The variable wg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 310
+  comment = "The variable c should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 322
+  comment = "The variable Unlock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 323
+  comment = "The variable _ should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 315
+  comment = "The variable lock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 315
+  comment = "The variable Lock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 317
+  comment = "The variable lock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 316
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 316
+  comment = "The variable append should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 317
+  comment = "The variable Unlock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1261
+  comment = "The variable Depth should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1265
+  comment = "The variable Sleep should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1261
+  comment = "The variable channel should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1265
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1265
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1265
+  comment = "The variable Millisecond should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1262
+  comment = "The variable doneChan should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1262
+  comment = "The variable close should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "bench/bench_writer/bench_writer.go"
+  fileline = 44
+  comment = "The variable runfor should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "bench/bench_writer/bench_writer.go"
+  fileline = 44
+  comment = "The variable tcpAddress should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "bench/bench_writer/bench_writer.go"
+  fileline = 45
+  comment = "The variable wg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "bench/bench_writer/bench_writer.go"
+  fileline = 45
+  comment = "The variable Done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "bench/bench_writer/bench_writer.go"
+  fileline = 44
+  comment = "The variable rdyChan should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "bench/bench_writer/bench_writer.go"
+  fileline = 44
+  comment = "The variable batch should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "bench/bench_writer/bench_writer.go"
+  fileline = 44
+  comment = "The variable batchSize should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "bench/bench_writer/bench_writer.go"
+  fileline = 44
+  comment = "The variable goChan should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "bench/bench_writer/bench_writer.go"
+  fileline = 44
+  comment = "The variable topic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "bench/bench_writer/bench_writer.go"
+  fileline = 44
+  comment = "The variable pubWorker should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/to_nsq/to_nsq.go"
+  fileline = 99
+  comment = "The variable interval should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/to_nsq/to_nsq.go"
+  fileline = 99
+  comment = "The variable Sleep should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/to_nsq/to_nsq.go"
+  fileline = 99
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/to_nsq/to_nsq.go"
+  fileline = 108
+  comment = "The variable Fatal should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/to_nsq/to_nsq.go"
+  fileline = 108
+  comment = "The variable log should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/to_nsq/to_nsq.go"
+  fileline = 101
+  comment = "The variable readAndPublish should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/to_nsq/to_nsq.go"
+  fileline = 102
+  comment = "The variable balance should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/to_nsq/to_nsq.go"
+  fileline = 101
+  comment = "The variable r should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/to_nsq/to_nsq.go"
+  fileline = 101
+  comment = "The variable delim should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/to_nsq/to_nsq.go"
+  fileline = 97
+  comment = "The variable balance should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/to_nsq/to_nsq.go"
+  fileline = 97
+  comment = "The variable LoadInt64 should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/to_nsq/to_nsq.go"
+  fileline = 101
+  comment = "The variable producers should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/to_nsq/to_nsq.go"
+  fileline = 97
+  comment = "The variable atomic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/to_nsq/to_nsq.go"
+  fileline = 102
+  comment = "The variable AddInt64 should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/to_nsq/to_nsq.go"
+  fileline = 102
+  comment = "The variable atomic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/to_nsq/to_nsq.go"
+  fileline = 95
+  comment = "The variable error should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/to_nsq/to_nsq.go"
+  fileline = 96
+  comment = "The variable throttleEnabled should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/to_nsq/to_nsq.go"
+  fileline = 106
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/to_nsq/to_nsq.go"
+  fileline = 110
+  comment = "The variable stopChan should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/to_nsq/to_nsq.go"
+  fileline = 107
+  comment = "The variable EOF should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/to_nsq/to_nsq.go"
+  fileline = 107
+  comment = "The variable io should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/to_nsq/to_nsq.go"
+  fileline = 110
+  comment = "The variable close should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/to_nsq/to_nsq.go"
+  fileline = 104
+  comment = "The variable delim should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/to_nsq/to_nsq.go"
+  fileline = 104
+  comment = "The variable readAndPublish should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/to_nsq/to_nsq.go"
+  fileline = 104
+  comment = "The variable producers should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/to_nsq/to_nsq.go"
+  fileline = 104
+  comment = "The variable r should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1668
+  comment = "The variable Error should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1668
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1668
+  comment = "The variable panic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1672
+  comment = "The variable panic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1672
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1672
+  comment = "The variable Error should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1671
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1665
+  comment = "The variable batch should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1670
+  comment = "The variable Flush should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1665
+  comment = "The variable topicName should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1666
+  comment = "The variable WriteTo should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1670
+  comment = "The variable rw should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1665
+  comment = "The variable nsq should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1665
+  comment = "The variable MultiPublish should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1667
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1666
+  comment = "The variable rw should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1664
+  comment = "The variable num should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1675
+  comment = "The variable wg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1675
+  comment = "The variable Done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "bench/bench_reader/bench_reader.go"
+  fileline = 90
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "bench/bench_reader/bench_reader.go"
+  fileline = 90
+  comment = "The variable td should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "bench/bench_reader/bench_reader.go"
+  fileline = 91
+  comment = "The variable Close should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "bench/bench_reader/bench_reader.go"
+  fileline = 90
+  comment = "The variable Sleep should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "bench/bench_reader/bench_reader.go"
+  fileline = 91
+  comment = "The variable conn should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/nsqd_test.go"
+  fileline = 252
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/nsqd_test.go"
+  fileline = 251
+  comment = "The variable Main should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/nsqd_test.go"
+  fileline = 251
+  comment = "The variable lookupd should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/nsqd_test.go"
+  fileline = 253
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/nsqd_test.go"
+  fileline = 253
+  comment = "The variable panic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/nsqadmin/main.go"
+  fileline = 116
+  comment = "The variable os should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/nsqadmin/main.go"
+  fileline = 115
+  comment = "The variable p should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/nsqadmin/main.go"
+  fileline = 115
+  comment = "The variable Stop should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/nsqadmin/main.go"
+  fileline = 116
+  comment = "The variable Exit should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/nsqadmin/main.go"
+  fileline = 113
+  comment = "The variable p should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/nsqadmin/main.go"
+  fileline = 113
+  comment = "The variable nsqadmin should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/nsqadmin/main.go"
+  fileline = 113
+  comment = "The variable Main should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/nsqadmin/main.go"
+  fileline = 114
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqadmin/nsqadmin_test.go"
+  fileline = 60
+  comment = "The variable Main should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqadmin/nsqadmin_test.go"
+  fileline = 61
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqadmin/nsqadmin_test.go"
+  fileline = 60
+  comment = "The variable nsqadmin should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqadmin/nsqadmin_test.go"
+  fileline = 62
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqadmin/nsqadmin_test.go"
+  fileline = 62
+  comment = "The variable panic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1751
+  comment = "The variable wg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1735
+  comment = "The variable N should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1729
+  comment = "The variable tcpAddr should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1735
+  comment = "The variable runtime should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1735
+  comment = "The variable batchSize should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1733
+  comment = "The variable NewReader should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1733
+  comment = "The variable NewWriter should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1733
+  comment = "The variable bufio should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1733
+  comment = "The variable NewReadWriter should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1765
+  comment = "The variable Done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1729
+  comment = "The variable mustConnectNSQD should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1765
+  comment = "The variable wg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1735
+  comment = "The variable GOMAXPROCS should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1736
+  comment = "The variable Add should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1735
+  comment = "The variable b should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1733
+  comment = "The variable bufio should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1733
+  comment = "The variable bufio should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1736
+  comment = "The variable wg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1730
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1751
+  comment = "The variable Add should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1731
+  comment = "The variable panic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1731
+  comment = "The variable Error should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1731
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 144
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 143
+  comment = "The variable lock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 145
+  comment = "The variable lock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 144
+  comment = "The variable append should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 143
+  comment = "The variable Lock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 145
+  comment = "The variable Unlock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 137
+  comment = "The variable QueryEscape should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 150
+  comment = "The variable Unlock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 138
+  comment = "The variable c should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 150
+  comment = "The variable lock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 140
+  comment = "The variable respType should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 149
+  comment = "The variable lock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 151
+  comment = "The variable Channels should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 149
+  comment = "The variable Lock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 137
+  comment = "The variable topic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 137
+  comment = "The variable Sprintf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 141
+  comment = "The variable client should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 137
+  comment = "The variable fmt should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 135
+  comment = "The variable wg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 141
+  comment = "The variable GETV1 should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 151
+  comment = "The variable append should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 137
+  comment = "The variable url should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 138
+  comment = "The variable logf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 135
+  comment = "The variable Done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 142
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 141
+  comment = "The variable c should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 455
+  comment = "The variable c should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 458
+  comment = "The variable GETV1 should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 471
+  comment = "The variable t should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 454
+  comment = "The variable QueryEscape should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 459
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 455
+  comment = "The variable logf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 453
+  comment = "The variable fmt should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 454
+  comment = "The variable topic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 458
+  comment = "The variable c should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 458
+  comment = "The variable client should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 471
+  comment = "The variable _ should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 466
+  comment = "The variable ProducerTopics should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 467
+  comment = "The variable Topics should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 467
+  comment = "The variable t should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 471
+  comment = "The variable Topics should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 457
+  comment = "The variable statsRespType should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 453
+  comment = "The variable Sprintf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 454
+  comment = "The variable url should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 467
+  comment = "The variable _ should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 451
+  comment = "The variable wg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 451
+  comment = "The variable Done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 502
+  comment = "The variable lock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 506
+  comment = "The variable BroadcastAddress should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 512
+  comment = "The variable lock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 474
+  comment = "The variable logf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 512
+  comment = "The variable Unlock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 493
+  comment = "The variable BroadcastAddress should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 478
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 502
+  comment = "The variable Lock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 508
+  comment = "The variable HTTPPort should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 509
+  comment = "The variable TCPPort should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 498
+  comment = "The variable Hostname should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 486
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 474
+  comment = "The variable c should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 485
+  comment = "The variable semver should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 507
+  comment = "The variable Hostname should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 510
+  comment = "The variable Topics should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 503
+  comment = "The variable Producer should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 477
+  comment = "The variable client should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 473
+  comment = "The variable Sprintf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 485
+  comment = "The variable Version should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 509
+  comment = "The variable TCPPort should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 508
+  comment = "The variable HTTPPort should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 507
+  comment = "The variable Hostname should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 485
+  comment = "The variable Parse should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 477
+  comment = "The variable GETV1 should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 504
+  comment = "The variable Version should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 504
+  comment = "The variable Version should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 503
+  comment = "The variable append should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 477
+  comment = "The variable c should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 506
+  comment = "The variable BroadcastAddress should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 505
+  comment = "The variable VersionObj should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 476
+  comment = "The variable infoRespType should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 473
+  comment = "The variable fmt should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 468
+  comment = "The variable t should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 468
+  comment = "The variable Name should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 468
+  comment = "The variable append should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 468
+  comment = "The variable Topic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 468
+  comment = "The variable ProducerTopic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 481
+  comment = "The variable Unlock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 480
+  comment = "The variable append should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 479
+  comment = "The variable Lock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 480
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 481
+  comment = "The variable lock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 479
+  comment = "The variable lock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 499
+  comment = "The variable Hostname should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 499
+  comment = "The variable SplitHostPort should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 499
+  comment = "The variable net should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 472
+  comment = "The variable Name should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 472
+  comment = "The variable topic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 472
+  comment = "The variable t should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 495
+  comment = "The variable SplitHostPort should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 496
+  comment = "The variable Atoi should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 496
+  comment = "The variable HTTPPort should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 495
+  comment = "The variable net should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 495
+  comment = "The variable BroadcastAddress should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 496
+  comment = "The variable strconv should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 494
+  comment = "The variable string should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 487
+  comment = "The variable Parse should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 487
+  comment = "The variable semver should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 461
+  comment = "The variable append should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 461
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 460
+  comment = "The variable lock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 462
+  comment = "The variable Unlock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 462
+  comment = "The variable lock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 460
+  comment = "The variable Lock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 399
+  comment = "The variable semver should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 399
+  comment = "The variable Parse should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 394
+  comment = "The variable Name should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 394
+  comment = "The variable append should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 394
+  comment = "The variable ProducerTopic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 394
+  comment = "The variable t should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 394
+  comment = "The variable Topic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 388
+  comment = "The variable Unlock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 388
+  comment = "The variable lock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 387
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 386
+  comment = "The variable Lock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 387
+  comment = "The variable append should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 386
+  comment = "The variable lock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 407
+  comment = "The variable BroadcastAddress should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 410
+  comment = "The variable TCPPort should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 385
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 409
+  comment = "The variable HTTPPort should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 369
+  comment = "The variable logf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 384
+  comment = "The variable c should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 381
+  comment = "The variable c should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 408
+  comment = "The variable Hostname should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 393
+  comment = "The variable _ should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 369
+  comment = "The variable c should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 397
+  comment = "The variable Parse should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 380
+  comment = "The variable fmt should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 405
+  comment = "The variable Version should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 405
+  comment = "The variable Version should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 371
+  comment = "The variable infoRespType should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 403
+  comment = "The variable lock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 407
+  comment = "The variable BroadcastAddress should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 409
+  comment = "The variable HTTPPort should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 397
+  comment = "The variable Version should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 372
+  comment = "The variable c should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 366
+  comment = "The variable Done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 384
+  comment = "The variable client should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 411
+  comment = "The variable Topics should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 402
+  comment = "The variable Lock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 392
+  comment = "The variable ProducerTopics should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 406
+  comment = "The variable VersionObj should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 368
+  comment = "The variable fmt should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 393
+  comment = "The variable t should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 384
+  comment = "The variable GETV1 should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 402
+  comment = "The variable lock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 373
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 404
+  comment = "The variable append should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 366
+  comment = "The variable wg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 398
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 383
+  comment = "The variable statsRespType should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 408
+  comment = "The variable Hostname should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 404
+  comment = "The variable Producer should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 410
+  comment = "The variable TCPPort should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 372
+  comment = "The variable GETV1 should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 381
+  comment = "The variable logf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 368
+  comment = "The variable Sprintf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 372
+  comment = "The variable client should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 380
+  comment = "The variable Sprintf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 393
+  comment = "The variable Topics should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 403
+  comment = "The variable Unlock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 397
+  comment = "The variable semver should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 375
+  comment = "The variable append should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 374
+  comment = "The variable lock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 376
+  comment = "The variable lock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 375
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 374
+  comment = "The variable Lock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 376
+  comment = "The variable Unlock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/to_nsq/to_nsq.go"
+  fileline = 86
+  comment = "The variable balance should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/to_nsq/to_nsq.go"
+  fileline = 86
+  comment = "The variable atomic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/to_nsq/to_nsq.go"
+  fileline = 86
+  comment = "The variable rate should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/to_nsq/to_nsq.go"
+  fileline = 86
+  comment = "The variable int64 should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/to_nsq/to_nsq.go"
+  fileline = 86
+  comment = "The variable StoreInt64 should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/to_nsq/to_nsq.go"
+  fileline = 77
+  comment = "The variable throttleEnabled should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/to_nsq/to_nsq.go"
+  fileline = 80
+  comment = "The variable log should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/to_nsq/to_nsq.go"
+  fileline = 82
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/to_nsq/to_nsq.go"
+  fileline = 80
+  comment = "The variable rate should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/to_nsq/to_nsq.go"
+  fileline = 82
+  comment = "The variable Tick should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/to_nsq/to_nsq.go"
+  fileline = 82
+  comment = "The variable interval should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/to_nsq/to_nsq.go"
+  fileline = 80
+  comment = "The variable Printf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/to_nsq/to_nsq.go"
+  fileline = 82
+  comment = "The variable _ should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/to_nsq/to_nsq.go"
+  fileline = 83
+  comment = "The variable balance should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/to_nsq/to_nsq.go"
+  fileline = 85
+  comment = "The variable int64 should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/to_nsq/to_nsq.go"
+  fileline = 83
+  comment = "The variable atomic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/to_nsq/to_nsq.go"
+  fileline = 85
+  comment = "The variable rate should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/to_nsq/to_nsq.go"
+  fileline = 83
+  comment = "The variable AddInt64 should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1763
+  comment = "The variable wg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1763
+  comment = "The variable Done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1753
+  comment = "The variable num should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1756
+  comment = "The variable panic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1756
+  comment = "The variable Error should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1756
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1759
+  comment = "The variable byte should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1758
+  comment = "The variable nsq should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1755
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1759
+  comment = "The variable Equal should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1754
+  comment = "The variable rw should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1758
+  comment = "The variable UnpackResponse should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1754
+  comment = "The variable ReadResponse should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1759
+  comment = "The variable bytes should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1754
+  comment = "The variable nsq should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1760
+  comment = "The variable panic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1686
+  comment = "The variable panic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1684
+  comment = "The variable UnpackResponse should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1680
+  comment = "The variable ReadResponse should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1685
+  comment = "The variable Equal should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1681
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1680
+  comment = "The variable nsq should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1684
+  comment = "The variable nsq should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1685
+  comment = "The variable byte should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1680
+  comment = "The variable rw should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1685
+  comment = "The variable bytes should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1682
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1682
+  comment = "The variable Error should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1682
+  comment = "The variable panic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1689
+  comment = "The variable Done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1689
+  comment = "The variable wg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1679
+  comment = "The variable num should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/channel.go"
+  fileline = 426
+  comment = "The variable c should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/channel.go"
+  fileline = 426
+  comment = "The variable c should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/channel.go"
+  fileline = 426
+  comment = "The variable deleteCallback should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqadmin/http_test.go"
+  fileline = 126
+  comment = "The variable panic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqadmin/http_test.go"
+  fileline = 126
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqadmin/http_test.go"
+  fileline = 124
+  comment = "The variable Main should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqadmin/http_test.go"
+  fileline = 124
+  comment = "The variable nsqadmin1 should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqadmin/http_test.go"
+  fileline = 125
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 604
+  comment = "The variable channel should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 604
+  comment = "The variable ChannelName should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 603
+  comment = "The variable TopicName should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 603
+  comment = "The variable topic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 606
+  comment = "The variable key should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 602
+  comment = "The variable Node should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 603
+  comment = "The variable TopicName should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 601
+  comment = "The variable ChannelStats should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 604
+  comment = "The variable ChannelName should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 606
+  comment = "The variable channelStatsMap should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 602
+  comment = "The variable addr should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 557
+  comment = "The variable Sprintf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 555
+  comment = "The variable HTTPAddress should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 580
+  comment = "The variable Unlock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 581
+  comment = "The variable _ should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 581
+  comment = "The variable Topics should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 553
+  comment = "The variable Done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 558
+  comment = "The variable selectedTopic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 553
+  comment = "The variable wg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 571
+  comment = "The variable client should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 568
+  comment = "The variable c should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 570
+  comment = "The variable respType should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 571
+  comment = "The variable GETV1 should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 557
+  comment = "The variable fmt should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 568
+  comment = "The variable logf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 572
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 579
+  comment = "The variable lock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 580
+  comment = "The variable lock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 581
+  comment = "The variable topic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 579
+  comment = "The variable Lock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 571
+  comment = "The variable c should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 564
+  comment = "The variable includeClients should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 585
+  comment = "The variable topic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 584
+  comment = "The variable topic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 584
+  comment = "The variable Depth should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 582
+  comment = "The variable Node should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 590
+  comment = "The variable channel should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 585
+  comment = "The variable selectedTopic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 583
+  comment = "The variable Hostname should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 588
+  comment = "The variable topic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 582
+  comment = "The variable addr should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 583
+  comment = "The variable topic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 584
+  comment = "The variable topic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 584
+  comment = "The variable BackendDepth should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 582
+  comment = "The variable topic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 590
+  comment = "The variable _ should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 590
+  comment = "The variable Channels should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 590
+  comment = "The variable topic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 588
+  comment = "The variable append should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 584
+  comment = "The variable topic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 585
+  comment = "The variable TopicName should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 584
+  comment = "The variable MemoryDepth should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 585
+  comment = "The variable selectedTopic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 583
+  comment = "The variable Hostname should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 559
+  comment = "The variable selectedTopic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 559
+  comment = "The variable QueryEscape should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 559
+  comment = "The variable url should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 560
+  comment = "The variable selectedChannel should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 574
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 575
+  comment = "The variable lock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 573
+  comment = "The variable lock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 573
+  comment = "The variable Lock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 575
+  comment = "The variable Unlock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 574
+  comment = "The variable append should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 561
+  comment = "The variable QueryEscape should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 561
+  comment = "The variable url should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 561
+  comment = "The variable selectedChannel should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 609
+  comment = "The variable Node should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 609
+  comment = "The variable addr should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 609
+  comment = "The variable c should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 594
+  comment = "The variable channel should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 611
+  comment = "The variable Add should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 592
+  comment = "The variable Hostname should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 592
+  comment = "The variable channel should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 608
+  comment = "The variable c should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 608
+  comment = "The variable _ should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 591
+  comment = "The variable addr should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 591
+  comment = "The variable Node should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 594
+  comment = "The variable MemoryDepth should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 608
+  comment = "The variable channel should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 595
+  comment = "The variable ChannelName should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 593
+  comment = "The variable topic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 592
+  comment = "The variable Hostname should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 599
+  comment = "The variable channelStatsMap should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 593
+  comment = "The variable channel should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 591
+  comment = "The variable channel should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 594
+  comment = "The variable BackendDepth should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 593
+  comment = "The variable TopicName should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 594
+  comment = "The variable channel should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 594
+  comment = "The variable Depth should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 608
+  comment = "The variable Clients should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 611
+  comment = "The variable channel should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 595
+  comment = "The variable channel should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 593
+  comment = "The variable TopicName should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 594
+  comment = "The variable channel should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 596
+  comment = "The variable selectedTopic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 597
+  comment = "The variable ChannelName should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 597
+  comment = "The variable fmt should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 597
+  comment = "The variable topic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 597
+  comment = "The variable Sprintf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 597
+  comment = "The variable TopicName should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 597
+  comment = "The variable channel should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 262
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 263
+  comment = "The variable lock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 261
+  comment = "The variable lock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 263
+  comment = "The variable Unlock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 262
+  comment = "The variable append should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 261
+  comment = "The variable Lock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 259
+  comment = "The variable c should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 269
+  comment = "The variable _ should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 255
+  comment = "The variable url should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 255
+  comment = "The variable Sprintf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 258
+  comment = "The variable respType should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 255
+  comment = "The variable QueryEscape should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 269
+  comment = "The variable p should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 268
+  comment = "The variable lock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 259
+  comment = "The variable GETV1 should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 269
+  comment = "The variable Producers should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 255
+  comment = "The variable topic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 267
+  comment = "The variable Lock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 267
+  comment = "The variable lock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 256
+  comment = "The variable logf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 255
+  comment = "The variable fmt should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 268
+  comment = "The variable Unlock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 259
+  comment = "The variable client should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 256
+  comment = "The variable c should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 253
+  comment = "The variable Done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 260
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 253
+  comment = "The variable wg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 271
+  comment = "The variable p should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 271
+  comment = "The variable HTTPAddress should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 271
+  comment = "The variable HTTPAddress should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 271
+  comment = "The variable pp should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 276
+  comment = "The variable skip should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 275
+  comment = "The variable p should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 275
+  comment = "The variable append should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 270
+  comment = "The variable pp should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 270
+  comment = "The variable _ should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 272
+  comment = "The variable skip should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/stats_test.go"
+  fileline = 148
+  comment = "The variable wg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/stats_test.go"
+  fileline = 148
+  comment = "The variable Done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/stats_test.go"
+  fileline = 146
+  comment = "The variable true should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/stats_test.go"
+  fileline = 146
+  comment = "The variable nsqd should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/stats_test.go"
+  fileline = 146
+  comment = "The variable GetStats should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqadmin/notify.go"
+  fileline = 70
+  comment = "The variable nsqadmin should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqadmin/notify.go"
+  fileline = 70
+  comment = "The variable s should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqadmin/notify.go"
+  fileline = 70
+  comment = "The variable ctx should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqadmin/notify.go"
+  fileline = 70
+  comment = "The variable notifications should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqadmin/notify.go"
+  fileline = 70
+  comment = "The variable a should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 197
+  comment = "The variable decodeMessage should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 195
+  comment = "The variable nsq should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 199
+  comment = "The variable msgChan should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 194
+  comment = "The variable test should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 193
+  comment = "The variable ReadResponse should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 198
+  comment = "The variable test should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 193
+  comment = "The variable nsq should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 198
+  comment = "The variable Nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 198
+  comment = "The variable t should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 196
+  comment = "The variable t should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 196
+  comment = "The variable test should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 196
+  comment = "The variable Nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 194
+  comment = "The variable Nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 194
+  comment = "The variable t should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 195
+  comment = "The variable UnpackResponse should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/topic.go"
+  fileline = 173
+  comment = "The variable t should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/topic.go"
+  fileline = 173
+  comment = "The variable t should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/topic.go"
+  fileline = 173
+  comment = "The variable deleteCallback should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqadmin/nsqadmin_test.go"
+  fileline = 99
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqadmin/nsqadmin_test.go"
+  fileline = 99
+  comment = "The variable panic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqadmin/nsqadmin_test.go"
+  fileline = 97
+  comment = "The variable Main should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqadmin/nsqadmin_test.go"
+  fileline = 98
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqadmin/nsqadmin_test.go"
+  fileline = 97
+  comment = "The variable nsqd should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "bench/bench_reader/bench_reader.go"
+  fileline = 41
+  comment = "The variable runfor should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "bench/bench_reader/bench_reader.go"
+  fileline = 41
+  comment = "The variable workers should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "bench/bench_reader/bench_reader.go"
+  fileline = 42
+  comment = "The variable Done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "bench/bench_reader/bench_reader.go"
+  fileline = 41
+  comment = "The variable topic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "bench/bench_reader/bench_reader.go"
+  fileline = 42
+  comment = "The variable wg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "bench/bench_reader/bench_reader.go"
+  fileline = 41
+  comment = "The variable goChan should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "bench/bench_reader/bench_reader.go"
+  fileline = 41
+  comment = "The variable rdyChan should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "bench/bench_reader/bench_reader.go"
+  fileline = 41
+  comment = "The variable tcpAddress should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "bench/bench_reader/bench_reader.go"
+  fileline = 41
+  comment = "The variable subWorker should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "bench/bench_reader/bench_reader.go"
+  fileline = 41
+  comment = "The variable channel should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1744
+  comment = "The variable rw should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1741
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1745
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1740
+  comment = "The variable WriteTo should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1744
+  comment = "The variable Flush should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1739
+  comment = "The variable MultiPublish should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1739
+  comment = "The variable nsq should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1740
+  comment = "The variable rw should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1739
+  comment = "The variable batch should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1739
+  comment = "The variable topicName should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1749
+  comment = "The variable wg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1738
+  comment = "The variable num should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1749
+  comment = "The variable Done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1742
+  comment = "The variable Error should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1742
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1742
+  comment = "The variable panic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1746
+  comment = "The variable panic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1746
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1746
+  comment = "The variable Error should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqadmin/http_test.go"
+  fileline = 84
+  comment = "The variable panic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqadmin/http_test.go"
+  fileline = 84
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqadmin/http_test.go"
+  fileline = 82
+  comment = "The variable Main should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqadmin/http_test.go"
+  fileline = 82
+  comment = "The variable nsqlookupd1 should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqadmin/http_test.go"
+  fileline = 83
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/stats_test.go"
+  fileline = 141
+  comment = "The variable Done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/stats_test.go"
+  fileline = 141
+  comment = "The variable wg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/stats_test.go"
+  fileline = 139
+  comment = "The variable MsgTimeout should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/stats_test.go"
+  fileline = 137
+  comment = "The variable GenerateID should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/stats_test.go"
+  fileline = 137
+  comment = "The variable NewMessage should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/stats_test.go"
+  fileline = 137
+  comment = "The variable byte should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/stats_test.go"
+  fileline = 138
+  comment = "The variable topic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/stats_test.go"
+  fileline = 139
+  comment = "The variable opts should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/stats_test.go"
+  fileline = 138
+  comment = "The variable PutMessage should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/stats_test.go"
+  fileline = 137
+  comment = "The variable topic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/stats_test.go"
+  fileline = 139
+  comment = "The variable StartInFlightTimeout should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/stats_test.go"
+  fileline = 139
+  comment = "The variable channel should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqlookupd/http_test.go"
+  fileline = 43
+  comment = "The variable nsqlookupd1 should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqlookupd/http_test.go"
+  fileline = 43
+  comment = "The variable Main should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqlookupd/http_test.go"
+  fileline = 44
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqlookupd/http_test.go"
+  fileline = 45
+  comment = "The variable panic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqlookupd/http_test.go"
+  fileline = 45
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqlookupd/nsqlookupd_test.go"
+  fileline = 45
+  comment = "The variable Main should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqlookupd/nsqlookupd_test.go"
+  fileline = 46
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqlookupd/nsqlookupd_test.go"
+  fileline = 45
+  comment = "The variable nsqlookupd should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqlookupd/nsqlookupd_test.go"
+  fileline = 47
+  comment = "The variable panic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqlookupd/nsqlookupd_test.go"
+  fileline = 47
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 95
+  comment = "The variable append should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 95
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 94
+  comment = "The variable lock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 96
+  comment = "The variable lock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 96
+  comment = "The variable Unlock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 94
+  comment = "The variable Lock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 100
+  comment = "The variable lock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 89
+  comment = "The variable c should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 100
+  comment = "The variable Lock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 86
+  comment = "The variable Done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 101
+  comment = "The variable Unlock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 86
+  comment = "The variable wg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 88
+  comment = "The variable Sprintf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 101
+  comment = "The variable lock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 92
+  comment = "The variable client should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 88
+  comment = "The variable fmt should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 89
+  comment = "The variable logf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 102
+  comment = "The variable Topics should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 92
+  comment = "The variable c should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 92
+  comment = "The variable GETV1 should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 91
+  comment = "The variable respType should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 102
+  comment = "The variable append should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/clusterinfo/data.go"
+  fileline = 93
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/nsqlookupd/main.go"
+  fileline = 88
+  comment = "The variable p should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/nsqlookupd/main.go"
+  fileline = 88
+  comment = "The variable Main should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/nsqlookupd/main.go"
+  fileline = 88
+  comment = "The variable nsqlookupd should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/nsqlookupd/main.go"
+  fileline = 89
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/nsqlookupd/main.go"
+  fileline = 91
+  comment = "The variable Exit should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/nsqlookupd/main.go"
+  fileline = 90
+  comment = "The variable p should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/nsqlookupd/main.go"
+  fileline = 91
+  comment = "The variable os should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/nsqlookupd/main.go"
+  fileline = 90
+  comment = "The variable Stop should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqlookupd/http_test.go"
+  fileline = 69
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqlookupd/http_test.go"
+  fileline = 69
+  comment = "The variable panic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqlookupd/http_test.go"
+  fileline = 68
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqlookupd/http_test.go"
+  fileline = 67
+  comment = "The variable nsqd1 should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqlookupd/http_test.go"
+  fileline = 67
+  comment = "The variable Main should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1251
+  comment = "The variable ReadResponse should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1251
+  comment = "The variable conn should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1251
+  comment = "The variable nsq should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1252
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/nsqd_test.go"
+  fileline = 60
+  comment = "The variable nsqd should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/nsqd_test.go"
+  fileline = 59
+  comment = "The variable exitChan should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/nsqd_test.go"
+  fileline = 61
+  comment = "The variable doneExitChan should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/nsqd_test.go"
+  fileline = 60
+  comment = "The variable Exit should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/nsqd_test.go"
+  fileline = 175
+  comment = "The variable doneExitChan should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/nsqd_test.go"
+  fileline = 174
+  comment = "The variable nsqd should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/nsqd_test.go"
+  fileline = 173
+  comment = "The variable exitChan should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/nsqd_test.go"
+  fileline = 174
+  comment = "The variable Exit should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqadmin/http_test.go"
+  fileline = 59
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqadmin/http_test.go"
+  fileline = 59
+  comment = "The variable panic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqadmin/http_test.go"
+  fileline = 57
+  comment = "The variable Main should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqadmin/http_test.go"
+  fileline = 58
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqadmin/http_test.go"
+  fileline = 57
+  comment = "The variable lookupd should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/nsqd/main.go"
+  fileline = 84
+  comment = "The variable Exit should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/nsqd/main.go"
+  fileline = 83
+  comment = "The variable Stop should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/nsqd/main.go"
+  fileline = 83
+  comment = "The variable p should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/nsqd/main.go"
+  fileline = 84
+  comment = "The variable os should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/nsqd/main.go"
+  fileline = 81
+  comment = "The variable nsqd should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/nsqd/main.go"
+  fileline = 82
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/nsqd/main.go"
+  fileline = 81
+  comment = "The variable Main should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/nsqd/main.go"
+  fileline = 81
+  comment = "The variable p should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqadmin/http_test.go"
+  fileline = 107
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqadmin/http_test.go"
+  fileline = 106
+  comment = "The variable nsqd1 should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqadmin/http_test.go"
+  fileline = 106
+  comment = "The variable Main should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqadmin/http_test.go"
+  fileline = 108
+  comment = "The variable panic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqadmin/http_test.go"
+  fileline = 108
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/util/wait_group_wrapper.go"
+  fileline = 15
+  comment = "The variable w should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/util/wait_group_wrapper.go"
+  fileline = 15
+  comment = "The variable Done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/util/wait_group_wrapper.go"
+  fileline = 14
+  comment = "The variable cb should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/nsqd_test.go"
+  fileline = 123
+  comment = "The variable nsqd should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/nsqd_test.go"
+  fileline = 123
+  comment = "The variable Exit should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/nsqd_test.go"
+  fileline = 124
+  comment = "The variable doneExitChan should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/nsqd_test.go"
+  fileline = 122
+  comment = "The variable exitChan should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqadmin/http_test.go"
+  fileline = 629
+  comment = "The variable nsqadmin should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqadmin/http_test.go"
+  fileline = 629
+  comment = "The variable Main should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqadmin/http_test.go"
+  fileline = 630
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqadmin/http_test.go"
+  fileline = 631
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqadmin/http_test.go"
+  fileline = 631
+  comment = "The variable panic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/nsq_to_file/topic_discoverer.go"
+  fileline = 60
+  comment = "The variable Done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/nsq_to_file/topic_discoverer.go"
+  fileline = 60
+  comment = "The variable wg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/nsq_to_file/topic_discoverer.go"
+  fileline = 60
+  comment = "The variable t should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "apps/nsq_to_file/topic_discoverer.go"
+  fileline = 59
+  comment = "The variable router should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1813
+  comment = "The variable wg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1812
+  comment = "The variable tcpAddr should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1812
+  comment = "The variable topicName should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1812
+  comment = "The variable subWorker should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1812
+  comment = "The variable b should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1812
+  comment = "The variable workers should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1812
+  comment = "The variable rdyChan should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1813
+  comment = "The variable Done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1812
+  comment = "The variable N should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1812
+  comment = "The variable goChan should be passed in as arguments to go-routines to avoid race conditions."
