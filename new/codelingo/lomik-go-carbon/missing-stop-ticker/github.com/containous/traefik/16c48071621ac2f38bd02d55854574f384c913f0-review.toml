@@ -1,0 +1,23 @@
+repo = "github.com/containous/traefik"
+rule = "codelingo/lomik-go-carbon/missing-stop-ticker"
+sha = "16c48071621ac2f38bd02d55854574f384c913f0"
+
+[[issues]]
+  filepath = "pkg/metrics/datadog.go"
+  fileline = 75
+  comment = "Stop the ticker to release associated resources."
+
+[[issues]]
+  filepath = "pkg/metrics/statsd.go"
+  fileline = 81
+  comment = "Stop the ticker to release associated resources."
+
+[[issues]]
+  filepath = "pkg/metrics/influxdb.go"
+  fileline = 128
+  comment = "Stop the ticker to release associated resources."
+
+[[issues]]
+  filepath = "pkg/metrics/metrics_test.go"
+  fileline = 20
+  comment = "Stop the ticker to release associated resources."
