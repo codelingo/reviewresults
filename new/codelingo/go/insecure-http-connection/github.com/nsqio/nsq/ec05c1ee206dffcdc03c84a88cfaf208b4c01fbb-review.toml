@@ -1,0 +1,68 @@
+repo = "github.com/nsqio/nsq"
+rule = "codelingo/go/insecure-http-connection"
+sha = "ec05c1ee206dffcdc03c84a88cfaf208b4c01fbb"
+
+[[issues]]
+  filepath = "nsqd/http_test.go"
+  fileline = 302
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+
+[[issues]]
+  filepath = "nsqd/http_test.go"
+  fileline = 319
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+
+[[issues]]
+  filepath = "nsqd/http_test.go"
+  fileline = 254
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1553
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1306
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 936
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 846
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 895
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1003
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1026
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 960
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1050
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1182
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."

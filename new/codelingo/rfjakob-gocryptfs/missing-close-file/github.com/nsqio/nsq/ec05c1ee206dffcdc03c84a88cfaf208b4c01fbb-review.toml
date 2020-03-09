@@ -1,0 +1,8 @@
+repo = "github.com/nsqio/nsq"
+rule = "codelingo/rfjakob-gocryptfs/missing-close-file"
+sha = "ec05c1ee206dffcdc03c84a88cfaf208b4c01fbb"
+
+[[issues]]
+  filepath = "internal/dirlock/dirlock.go"
+  fileline = 23
+  comment = "Close the file when you are done"

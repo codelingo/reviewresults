@@ -1,0 +1,8 @@
+repo = "github.com/nsqio/nsq"
+rule = "codelingo/go/default-in-type-switch"
+sha = "ec05c1ee206dffcdc03c84a88cfaf208b4c01fbb"
+
+[[issues]]
+  filepath = "nsqd/lookup.go"
+  fileline = 123
+  comment = "Always include a default case when using a type switch."
