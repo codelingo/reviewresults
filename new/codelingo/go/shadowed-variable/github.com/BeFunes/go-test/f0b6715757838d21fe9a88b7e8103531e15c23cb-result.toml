@@ -3,29 +3,43 @@ rule = "codelingo/go/shadowed-variable"
 sha = "f0b6715757838d21fe9a88b7e8103531e15c23cb"
 
 [[issues]]
-  filepath = "_examples/encoding/easyjson.go"
   fileline = 72
+  filepath = "_examples/encoding/easyjson.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "_examples/instrumentation/apmelasticsearch.go"
   fileline = 192
+  filepath = "_examples/instrumentation/apmelasticsearch.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "_examples/instrumentation/apmelasticsearch.go"
   fileline = 158
+  filepath = "_examples/instrumentation/apmelasticsearch.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "_examples/instrumentation/apmelasticsearch.go"
   fileline = 116
-
-[[issues]]
   filepath = "_examples/instrumentation/apmelasticsearch.go"
+  fixed = false
+  ignored = "fp"
+
+[[issues]]
   fileline = 231
+  filepath = "_examples/instrumentation/apmelasticsearch.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "_examples/main.go"
   fileline = 82
+  filepath = "_examples/main.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "internal/cmd/generate/commands/gentests/command.go"
   fileline = 278
+  filepath = "internal/cmd/generate/commands/gentests/command.go"
+  fixed = false
+  ignored = "fp"
