@@ -1,0 +1,983 @@
+repo = "github.com/inconshreveable/ngrok"
+rule = "codelingo/go/unsafe-go-routine-variables"
+sha = "a8e7fa486348f391f4bdf241344d798297f953bc"
+
+[[issues]]
+  filepath = "src/ngrok/server/http.go"
+  fileline = 51
+  comment = "The variable conn should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/http.go"
+  fileline = 51
+  comment = "The variable proto should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/http.go"
+  fileline = 51
+  comment = "The variable httpHandler should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/http.go"
+  fileline = 50
+  comment = "The variable conn should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/http.go"
+  fileline = 50
+  comment = "The variable listener should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/http.go"
+  fileline = 50
+  comment = "The variable Conns should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/main.go"
+  fileline = 71
+  comment = "The variable Stack should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/main.go"
+  fileline = 71
+  comment = "The variable Info should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/main.go"
+  fileline = 71
+  comment = "The variable debug should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/main.go"
+  fileline = 71
+  comment = "The variable r should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/main.go"
+  fileline = 79
+  comment = "The variable Close should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/main.go"
+  fileline = 78
+  comment = "The variable Warn should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/main.go"
+  fileline = 78
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/main.go"
+  fileline = 70
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/main.go"
+  fileline = 70
+  comment = "The variable recover should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/main.go"
+  fileline = 75
+  comment = "The variable connReadTimeout should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/main.go"
+  fileline = 76
+  comment = "The variable msg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/main.go"
+  fileline = 85
+  comment = "The variable Time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/main.go"
+  fileline = 75
+  comment = "The variable SetReadDeadline should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/main.go"
+  fileline = 75
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/main.go"
+  fileline = 75
+  comment = "The variable Now should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/main.go"
+  fileline = 77
+  comment = "The variable ReadMsg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/main.go"
+  fileline = 77
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/main.go"
+  fileline = 85
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/main.go"
+  fileline = 75
+  comment = "The variable Add should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/main.go"
+  fileline = 76
+  comment = "The variable Message should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/main.go"
+  fileline = 77
+  comment = "The variable msg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/main.go"
+  fileline = 85
+  comment = "The variable SetReadDeadline should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/main.go"
+  fileline = 89
+  comment = "The variable m should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/main.go"
+  fileline = 92
+  comment = "The variable m should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/main.go"
+  fileline = 95
+  comment = "The variable Close should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/main.go"
+  fileline = 88
+  comment = "The variable Auth should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/main.go"
+  fileline = 88
+  comment = "The variable msg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/main.go"
+  fileline = 89
+  comment = "The variable NewControl should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/main.go"
+  fileline = 91
+  comment = "The variable RegProxy should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/main.go"
+  fileline = 92
+  comment = "The variable NewProxy should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/main.go"
+  fileline = 91
+  comment = "The variable msg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/proto/http.go"
+  fileline = 251
+  comment = "The variable ioutil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/proto/http.go"
+  fileline = 251
+  comment = "The variable req should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/proto/http.go"
+  fileline = 251
+  comment = "The variable Body should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/proto/http.go"
+  fileline = 251
+  comment = "The variable ReadAll should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/proto/http.go"
+  fileline = 248
+  comment = "The variable http should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/proto/http.go"
+  fileline = 253
+  comment = "The variable NewReader should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/proto/http.go"
+  fileline = 248
+  comment = "The variable bufio should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/proto/http.go"
+  fileline = 250
+  comment = "The variable Body should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/proto/http.go"
+  fileline = 248
+  comment = "The variable ReadRequest should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/proto/http.go"
+  fileline = 250
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/proto/http.go"
+  fileline = 253
+  comment = "The variable dr should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/proto/http.go"
+  fileline = 248
+  comment = "The variable pr should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/proto/http.go"
+  fileline = 250
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/proto/http.go"
+  fileline = 253
+  comment = "The variable strings should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/proto/http.go"
+  fileline = 248
+  comment = "The variable NewReader should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/proto/http.go"
+  fileline = 253
+  comment = "The variable c should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/metrics.go"
+  fileline = 185
+  comment = "The variable make should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/metrics.go"
+  fileline = 185
+  comment = "The variable string should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/metrics.go"
+  fileline = 186
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/metrics.go"
+  fileline = 186
+  comment = "The variable batchInterval should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/metrics.go"
+  fileline = 186
+  comment = "The variable Tick should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/metrics.go"
+  fileline = 208
+  comment = "The variable val should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/metrics.go"
+  fileline = 208
+  comment = "The variable len should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/metrics.go"
+  fileline = 208
+  comment = "The variable Debug should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/metrics.go"
+  fileline = 208
+  comment = "The variable key should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/metrics.go"
+  fileline = 208
+  comment = "The variable k should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/metrics.go"
+  fileline = 193
+  comment = "The variable make should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/metrics.go"
+  fileline = 181
+  comment = "The variable k should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/metrics.go"
+  fileline = 181
+  comment = "The variable r should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/metrics.go"
+  fileline = 181
+  comment = "The variable Error should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/metrics.go"
+  fileline = 180
+  comment = "The variable recover should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/metrics.go"
+  fileline = 180
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/metrics.go"
+  fileline = 205
+  comment = "The variable k should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/metrics.go"
+  fileline = 205
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/metrics.go"
+  fileline = 205
+  comment = "The variable Error should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/metrics.go"
+  fileline = 205
+  comment = "The variable batch should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/metrics.go"
+  fileline = 199
+  comment = "The variable len should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/metrics.go"
+  fileline = 213
+  comment = "The variable string should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/metrics.go"
+  fileline = 195
+  comment = "The variable append should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/metrics.go"
+  fileline = 203
+  comment = "The variable json should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/metrics.go"
+  fileline = 195
+  comment = "The variable Collection should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/metrics.go"
+  fileline = 195
+  comment = "The variable Event should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/metrics.go"
+  fileline = 204
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/metrics.go"
+  fileline = 190
+  comment = "The variable k should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/metrics.go"
+  fileline = 191
+  comment = "The variable Collection should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/metrics.go"
+  fileline = 190
+  comment = "The variable Metrics should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/metrics.go"
+  fileline = 213
+  comment = "The variable make should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/metrics.go"
+  fileline = 203
+  comment = "The variable Marshal should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/metrics.go"
+  fileline = 197
+  comment = "The variable batchTimer should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/metrics.go"
+  fileline = 211
+  comment = "The variable bytes should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/metrics.go"
+  fileline = 207
+  comment = "The variable val should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/metrics.go"
+  fileline = 211
+  comment = "The variable payload should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/metrics.go"
+  fileline = 211
+  comment = "The variable NewReader should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/metrics.go"
+  fileline = 211
+  comment = "The variable AuthedRequest should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/metrics.go"
+  fileline = 207
+  comment = "The variable key should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/metrics.go"
+  fileline = 211
+  comment = "The variable k should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/metrics.go"
+  fileline = 207
+  comment = "The variable batch should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/client/controller.go"
+  fileline = 202
+  comment = "The variable done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/client/controller.go"
+  fileline = 201
+  comment = "The variable msg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/client/controller.go"
+  fileline = 201
+  comment = "The variable fmt should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/client/controller.go"
+  fileline = 200
+  comment = "The variable doShutdown should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/client/controller.go"
+  fileline = 200
+  comment = "The variable ctl should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/client/controller.go"
+  fileline = 201
+  comment = "The variable Println should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/conn/conn.go"
+  fileline = 71
+  comment = "The variable Error should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/conn/conn.go"
+  fileline = 71
+  comment = "The variable typ should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/conn/conn.go"
+  fileline = 71
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/conn/conn.go"
+  fileline = 71
+  comment = "The variable log should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/conn/conn.go"
+  fileline = 75
+  comment = "The variable wrapConn should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/conn/conn.go"
+  fileline = 70
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/conn/conn.go"
+  fileline = 79
+  comment = "The variable Info should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/conn/conn.go"
+  fileline = 76
+  comment = "The variable tlsCfg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/conn/conn.go"
+  fileline = 75
+  comment = "The variable typ should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/conn/conn.go"
+  fileline = 69
+  comment = "The variable Accept should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/conn/conn.go"
+  fileline = 79
+  comment = "The variable RemoteAddr should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/conn/conn.go"
+  fileline = 76
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/conn/conn.go"
+  fileline = 80
+  comment = "The variable Conns should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/conn/conn.go"
+  fileline = 80
+  comment = "The variable l should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/conn/conn.go"
+  fileline = 69
+  comment = "The variable listener should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/conn/conn.go"
+  fileline = 77
+  comment = "The variable Conn should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/conn/conn.go"
+  fileline = 77
+  comment = "The variable c should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/conn/conn.go"
+  fileline = 77
+  comment = "The variable Server should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/conn/conn.go"
+  fileline = 77
+  comment = "The variable tlsCfg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/conn/conn.go"
+  fileline = 77
+  comment = "The variable c should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/conn/conn.go"
+  fileline = 77
+  comment = "The variable Conn should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/conn/conn.go"
+  fileline = 77
+  comment = "The variable tls should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/proto/http.go"
+  fileline = 150
+  comment = "The variable tee should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/proto/http.go"
+  fileline = 150
+  comment = "The variable ReadBuffer should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/proto/http.go"
+  fileline = 150
+  comment = "The variable ReadAll should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/proto/http.go"
+  fileline = 150
+  comment = "The variable ioutil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/proto/http.go"
+  fileline = 151
+  comment = "The variable Done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/proto/http.go"
+  fileline = 151
+  comment = "The variable wg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/client/controller.go"
+  fileline = 96
+  comment = "The variable fn should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/client/controller.go"
+  fileline = 92
+  comment = "The variable ctl should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/client/controller.go"
+  fileline = 90
+  comment = "The variable r should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/client/controller.go"
+  fileline = 90
+  comment = "The variable util should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/client/controller.go"
+  fileline = 91
+  comment = "The variable Error should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/client/controller.go"
+  fileline = 90
+  comment = "The variable MakePanicTrace should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/client/controller.go"
+  fileline = 91
+  comment = "The variable ctl should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/client/controller.go"
+  fileline = 92
+  comment = "The variable Shutdown should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/client/controller.go"
+  fileline = 89
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/client/controller.go"
+  fileline = 89
+  comment = "The variable recover should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/util/broadcast.go"
+  fileline = 38
+  comment = "The variable item should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/util/broadcast.go"
+  fileline = 38
+  comment = "The variable l should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/util/broadcast.go"
+  fileline = 37
+  comment = "The variable listeners should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/util/broadcast.go"
+  fileline = 34
+  comment = "The variable append should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/util/broadcast.go"
+  fileline = 26
+  comment = "The variable len should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/util/broadcast.go"
+  fileline = 34
+  comment = "The variable b should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/util/broadcast.go"
+  fileline = 33
+  comment = "The variable reg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/util/broadcast.go"
+  fileline = 33
+  comment = "The variable b should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/util/broadcast.go"
+  fileline = 36
+  comment = "The variable b should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/util/broadcast.go"
+  fileline = 21
+  comment = "The variable unreg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/util/broadcast.go"
+  fileline = 34
+  comment = "The variable listeners should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/util/broadcast.go"
+  fileline = 26
+  comment = "The variable listeners should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/util/broadcast.go"
+  fileline = 36
+  comment = "The variable in should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/util/broadcast.go"
+  fileline = 25
+  comment = "The variable listeners should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/util/broadcast.go"
+  fileline = 27
+  comment = "The variable oldL should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/util/broadcast.go"
+  fileline = 27
+  comment = "The variable _ should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/util/broadcast.go"
+  fileline = 26
+  comment = "The variable make should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/util/broadcast.go"
+  fileline = 21
+  comment = "The variable b should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/util/broadcast.go"
+  fileline = 37
+  comment = "The variable _ should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/util/broadcast.go"
+  fileline = 34
+  comment = "The variable listeners should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/util/broadcast.go"
+  fileline = 37
+  comment = "The variable b should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/util/broadcast.go"
+  fileline = 34
+  comment = "The variable b should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/util/broadcast.go"
+  fileline = 25
+  comment = "The variable b should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/util/broadcast.go"
+  fileline = 26
+  comment = "The variable b should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/util/broadcast.go"
+  fileline = 29
+  comment = "The variable listeners should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/util/broadcast.go"
+  fileline = 29
+  comment = "The variable b should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/util/broadcast.go"
+  fileline = 29
+  comment = "The variable append should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/util/broadcast.go"
+  fileline = 29
+  comment = "The variable b should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/util/broadcast.go"
+  fileline = 29
+  comment = "The variable listeners should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/util/broadcast.go"
+  fileline = 29
+  comment = "The variable oldL should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/util/broadcast.go"
+  fileline = 28
+  comment = "The variable l should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/util/broadcast.go"
+  fileline = 28
+  comment = "The variable oldL should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/registry.go"
+  fileline = 63
+  comment = "The variable Info should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/registry.go"
+  fileline = 63
+  comment = "The variable interval should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/registry.go"
+  fileline = 63
+  comment = "The variable r should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/registry.go"
+  fileline = 63
+  comment = "The variable String should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/registry.go"
+  fileline = 63
+  comment = "The variable path should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/registry.go"
+  fileline = 70
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/registry.go"
+  fileline = 70
+  comment = "The variable r should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/registry.go"
+  fileline = 70
+  comment = "The variable Error should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/registry.go"
+  fileline = 72
+  comment = "The variable r should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/registry.go"
+  fileline = 72
+  comment = "The variable Info should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/registry.go"
+  fileline = 65
+  comment = "The variable Sleep should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/registry.go"
+  fileline = 67
+  comment = "The variable Debug should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/registry.go"
+  fileline = 68
+  comment = "The variable path should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/registry.go"
+  fileline = 67
+  comment = "The variable r should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/registry.go"
+  fileline = 68
+  comment = "The variable SaveItemsToFile should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/registry.go"
+  fileline = 68
+  comment = "The variable affinity should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/registry.go"
+  fileline = 69
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/registry.go"
+  fileline = 65
+  comment = "The variable interval should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/registry.go"
+  fileline = 68
+  comment = "The variable r should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/server/registry.go"
+  fileline = 65
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/proto/http.go"
+  fileline = 146
+  comment = "The variable Done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/proto/http.go"
+  fileline = 146
+  comment = "The variable wg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/proto/http.go"
+  fileline = 145
+  comment = "The variable ioutil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/proto/http.go"
+  fileline = 145
+  comment = "The variable WriteBuffer should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/proto/http.go"
+  fileline = 145
+  comment = "The variable ReadAll should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "src/ngrok/proto/http.go"
+  fileline = 145
+  comment = "The variable tee should be passed in as arguments to go-routines to avoid race conditions."

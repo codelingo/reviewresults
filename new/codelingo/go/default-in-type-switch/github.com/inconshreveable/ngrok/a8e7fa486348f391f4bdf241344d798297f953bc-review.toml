@@ -1,0 +1,23 @@
+repo = "github.com/inconshreveable/ngrok"
+rule = "codelingo/go/default-in-type-switch"
+sha = "a8e7fa486348f391f4bdf241344d798297f953bc"
+
+[[issues]]
+  filepath = "src/ngrok/client/controller.go"
+  fileline = 173
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "src/ngrok/client/controller.go"
+  fileline = 196
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "src/ngrok/conn/conn.go"
+  fileline = 40
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "src/ngrok/server/control.go"
+  fileline = 192
+  comment = "Always include a default case when using a type switch."
