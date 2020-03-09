@@ -1,0 +1,13 @@
+repo = "github.com/v2ray/v2ray-core"
+rule = "codelingo/rfjakob-gocryptfs/missing-close-file"
+sha = "c44dd395072f77e0e51a4258a159d2dbbc340371"
+
+[[issues]]
+  filepath = "infra/control/verify.go"
+  fileline = 139
+  comment = "Close the file when you are done"
+
+[[issues]]
+  filepath = "infra/control/verify.go"
+  fileline = 144
+  comment = "Close the file when you are done"

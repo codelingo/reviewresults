@@ -1,0 +1,198 @@
+repo = "github.com/v2ray/v2ray-core"
+rule = "codelingo/go/shadowed-variable"
+sha = "c44dd395072f77e0e51a4258a159d2dbbc340371"
+
+[[issues]]
+  filepath = "external/github.com/lucas-clemente/quic-go/internal/wire/extended_header.go"
+  fileline = 150
+  comment = "Variable length shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "common/log/logger.go"
+  fileline = 130
+  comment = "Variable file shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "external/github.com/marten-seemann/qtls/handshake_client.go"
+  fileline = 610
+  comment = "Variable ok shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "transport/internet/kcp/receiving.go"
+  fileline = 186
+  comment = "Variable mb shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "external/github.com/lucas-clemente/quic-go/internal/wire/ack_frame.go"
+  fileline = 74
+  comment = "Variable ab shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "external/github.com/lucas-clemente/quic-go/internal/wire/ack_frame.go"
+  fileline = 78
+  comment = "Variable ackBlock shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "external/github.com/lucas-clemente/quic-go/streams_map_incoming_generic.go"
+  fileline = 80
+  comment = "Variable s shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "transport/internet/quic/dialer.go"
+  fileline = 135
+  comment = "Variable conn shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "app/dns/dohdns.go"
+  fileline = 371
+  comment = "Variable ips shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "app/dns/server.go"
+  fileline = 353
+  comment = "Variable ips shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "app/dns/server.go"
+  fileline = 333
+  comment = "Variable ips shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "main/confloader/external/external.go"
+  fileline = 21
+  comment = "Variable content shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "external/github.com/lucas-clemente/quic-go/streams_map_incoming_uni.go"
+  fileline = 82
+  comment = "Variable s shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "external/github.com/marten-seemann/qtls/13.go"
+  fileline = 360
+  comment = "Variable ok shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "external/github.com/marten-seemann/qtls/13.go"
+  fileline = 380
+  comment = "Variable ok shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "infra/conf/loader.go"
+  fileline = 70
+  comment = "Variable found shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "app/dns/udpns.go"
+  fileline = 281
+  comment = "Variable ips shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "proxy/socks/protocol.go"
+  fileline = 193
+  comment = "Variable addr shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "external/github.com/marten-seemann/qtls/common.go"
+  fileline = 1056
+  comment = "Variable entry shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "external/github.com/marten-seemann/qtls/common.go"
+  fileline = 1049
+  comment = "Variable entry shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "app/router/condition.go"
+  fileline = 123
+  comment = "Variable matcher shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "transport/internet/domainsocket/listener_test.go"
+  fileline = 69
+  comment = "Variable b shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "transport/internet/domainsocket/listener_test.go"
+  fileline = 28
+  comment = "Variable b shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "common/buf/reader.go"
+  fileline = 68
+  comment = "Variable nBytes shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "common/buf/reader.go"
+  fileline = 102
+  comment = "Variable mb shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "transport/pipe/pipe_test.go"
+  fileline = 115
+  comment = "Variable b shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "external/github.com/marten-seemann/qtls/conn.go"
+  fileline = 1297
+  comment = "Variable n shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "external/github.com/marten-seemann/qtls/conn.go"
+  fileline = 293
+  comment = "Variable t shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "external/github.com/marten-seemann/qtls/conn.go"
+  fileline = 475
+  comment = "Variable n shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "external/github.com/lucas-clemente/quic-go/streams_map_incoming_bidi.go"
+  fileline = 82
+  comment = "Variable s shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "external/github.com/marten-seemann/qtls/handshake_messages.go"
+  fileline = 2319
+  comment = "Variable length shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "external/github.com/marten-seemann/qtls/handshake_messages.go"
+  fileline = 1530
+  comment = "Variable ok shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "external/github.com/marten-seemann/qtls/handshake_messages.go"
+  fileline = 2643
+  comment = "Variable length shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "external/github.com/marten-seemann/qtls/handshake_server.go"
+  fileline = 637
+  comment = "Variable ok shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "external/github.com/marten-seemann/qtls/handshake_server.go"
+  fileline = 705
+  comment = "Variable ok shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "external/github.com/marten-seemann/qtls/handshake_server.go"
+  fileline = 701
+  comment = "Variable msg shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "transport/internet/headers/http/http_test.go"
+  fileline = 108
+  comment = "Variable authConn shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "transport/internet/headers/http/http_test.go"
+  fileline = 106
+  comment = "Variable conn shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "external/github.com/marten-seemann/qtls/key_agreement.go"
+  fileline = 187
+  comment = "Variable ok shadows a variable of the same name declared in an outer scope."
