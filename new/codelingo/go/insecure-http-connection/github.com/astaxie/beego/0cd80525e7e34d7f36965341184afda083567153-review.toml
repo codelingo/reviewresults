@@ -1,0 +1,8 @@
+repo = "github.com/astaxie/beego"
+rule = "codelingo/go/insecure-http-connection"
+sha = "0cd80525e7e34d7f36965341184afda083567153"
+
+[[issues]]
+  filepath = "logs/smtp.go"
+  fileline = 77
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."

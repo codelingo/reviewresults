@@ -1,0 +1,18 @@
+repo = "github.com/FiloSottile/mkcert"
+rule = "codelingo/go/unchecked-type-assertion"
+sha = "a21de51acfcff0ee03cadb665c055530428a0447"
+
+[[issues]]
+  filepath = "truststore_darwin.go"
+  fileline = 85
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "truststore_darwin.go"
+  fileline = 81
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "truststore_darwin.go"
+  fileline = 79
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."

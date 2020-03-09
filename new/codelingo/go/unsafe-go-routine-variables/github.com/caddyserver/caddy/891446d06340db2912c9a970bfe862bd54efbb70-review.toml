@@ -1,0 +1,1703 @@
+repo = "github.com/caddyserver/caddy"
+rule = "codelingo/go/unsafe-go-routine-variables"
+sha = "891446d06340db2912c9a970bfe862bd54efbb70"
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 1458
+  comment = "The variable cancel should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 1457
+  comment = "The variable reqInFlight should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/reverseproxy.go"
+  fileline = 708
+  comment = "The variable tlsConn should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/reverseproxy.go"
+  fileline = 709
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/reverseproxy.go"
+  fileline = 712
+  comment = "The variable errc should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/reverseproxy.go"
+  fileline = 709
+  comment = "The variable timer should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/reverseproxy.go"
+  fileline = 708
+  comment = "The variable Handshake should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/reverseproxy.go"
+  fileline = 710
+  comment = "The variable timer should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/reverseproxy.go"
+  fileline = 710
+  comment = "The variable Stop should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 278
+  comment = "The variable Code should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 278
+  comment = "The variable w should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 278
+  comment = "The variable t should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 278
+  comment = "The variable Errorf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 271
+  comment = "The variable httptest should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 272
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 271
+  comment = "The variable NewRecorder should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 272
+  comment = "The variable ServeHTTP should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 272
+  comment = "The variable NewRequest should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 270
+  comment = "The variable Done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 272
+  comment = "The variable p should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 273
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 270
+  comment = "The variable jobs should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 272
+  comment = "The variable httptest should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 277
+  comment = "The variable Code should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 274
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 274
+  comment = "The variable Errorf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 274
+  comment = "The variable t should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 276
+  comment = "The variable Errorf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 276
+  comment = "The variable t should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 276
+  comment = "The variable code should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddy.go"
+  fileline = 801
+  comment = "The variable ln should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddy.go"
+  fileline = 801
+  comment = "The variable Serve should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddy.go"
+  fileline = 801
+  comment = "The variable errChan should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddy.go"
+  fileline = 801
+  comment = "The variable s should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddy.go"
+  fileline = 798
+  comment = "The variable Done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddy.go"
+  fileline = 798
+  comment = "The variable wg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddy.go"
+  fileline = 799
+  comment = "The variable Done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddy.go"
+  fileline = 798
+  comment = "The variable inst should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddy.go"
+  fileline = 799
+  comment = "The variable stopWg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/upstream.go"
+  fileline = 211
+  comment = "The variable upstream should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/upstream.go"
+  fileline = 210
+  comment = "The variable Done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/upstream.go"
+  fileline = 210
+  comment = "The variable wg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/upstream.go"
+  fileline = 211
+  comment = "The variable stop should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/upstream.go"
+  fileline = 211
+  comment = "The variable upstream should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/upstream.go"
+  fileline = 211
+  comment = "The variable HealthCheckWorker should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/upstream.go"
+  fileline = 210
+  comment = "The variable upstream should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/reverseproxy.go"
+  fileline = 434
+  comment = "The variable conn should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/reverseproxy.go"
+  fileline = 435
+  comment = "The variable proxyDone should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/reverseproxy.go"
+  fileline = 434
+  comment = "The variable pooledIoCopy should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/reverseproxy.go"
+  fileline = 434
+  comment = "The variable backendConn should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy.go"
+  fileline = 322
+  comment = "The variable ctx should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy.go"
+  fileline = 322
+  comment = "The variable Done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy.go"
+  fileline = 321
+  comment = "The variable cancel should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy.go"
+  fileline = 320
+  comment = "The variable notifyChan should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 371
+  comment = "The variable http should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 371
+  comment = "The variable listener should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 371
+  comment = "The variable ResponseWriter should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 371
+  comment = "The variable http should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 371
+  comment = "The variable http should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 374
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 371
+  comment = "The variable fcgi should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 371
+  comment = "The variable Serve should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 371
+  comment = "The variable Request should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 371
+  comment = "The variable HandlerFunc should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 375
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 375
+  comment = "The variable log should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 375
+  comment = "The variable Printf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 372
+  comment = "The variable WriteHeader should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 372
+  comment = "The variable http should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 372
+  comment = "The variable StatusOK should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddy.go"
+  fileline = 806
+  comment = "The variable wg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddy.go"
+  fileline = 806
+  comment = "The variable inst should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddy.go"
+  fileline = 807
+  comment = "The variable Done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddy.go"
+  fileline = 806
+  comment = "The variable Done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddy.go"
+  fileline = 807
+  comment = "The variable stopWg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddy.go"
+  fileline = 809
+  comment = "The variable s should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddy.go"
+  fileline = 809
+  comment = "The variable errChan should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddy.go"
+  fileline = 809
+  comment = "The variable pc should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddy.go"
+  fileline = 809
+  comment = "The variable ServePacket should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddy.go"
+  fileline = 821
+  comment = "The variable strings should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddy.go"
+  fileline = 821
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddy.go"
+  fileline = 821
+  comment = "The variable Contains should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddy.go"
+  fileline = 821
+  comment = "The variable Error should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddy.go"
+  fileline = 823
+  comment = "The variable Println should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddy.go"
+  fileline = 823
+  comment = "The variable log should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddy.go"
+  fileline = 823
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddy.go"
+  fileline = 820
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddy.go"
+  fileline = 826
+  comment = "The variable stopChan should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddy.go"
+  fileline = 819
+  comment = "The variable errChan should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 310
+  comment = "The variable Done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 309
+  comment = "The variable http should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 308
+  comment = "The variable sleep should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 310
+  comment = "The variable wg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 309
+  comment = "The variable StatusOK should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 308
+  comment = "The variable Sleep should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 308
+  comment = "The variable test should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 309
+  comment = "The variable WriteHeader should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 308
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 313
+  comment = "The variable log should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 313
+  comment = "The variable Printf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 313
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 307
+  comment = "The variable http should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 307
+  comment = "The variable listener should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 307
+  comment = "The variable ResponseWriter should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 307
+  comment = "The variable http should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 307
+  comment = "The variable HandlerFunc should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 307
+  comment = "The variable Serve should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 307
+  comment = "The variable Request should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 307
+  comment = "The variable http should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 307
+  comment = "The variable fcgi should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 312
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy.go"
+  fileline = 277
+  comment = "The variable Sleep should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy.go"
+  fileline = 277
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy.go"
+  fileline = 278
+  comment = "The variable atomic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy.go"
+  fileline = 278
+  comment = "The variable AddInt32 should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy.go"
+  fileline = 278
+  comment = "The variable Fails should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 67
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 67
+  comment = "The variable log should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 67
+  comment = "The variable Printf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 39
+  comment = "The variable f should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 79
+  comment = "The variable log should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 79
+  comment = "The variable Printf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 79
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 47
+  comment = "The variable f should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 31
+  comment = "The variable os should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 32
+  comment = "The variable syscall should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 32
+  comment = "The variable SIGUSR2 should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 32
+  comment = "The variable syscall should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 32
+  comment = "The variable syscall should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 32
+  comment = "The variable SIGHUP should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 32
+  comment = "The variable SIGTERM should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 32
+  comment = "The variable signal should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 31
+  comment = "The variable make should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 31
+  comment = "The variable Signal should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 32
+  comment = "The variable Notify should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 32
+  comment = "The variable syscall should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 32
+  comment = "The variable syscall should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 32
+  comment = "The variable SIGUSR1 should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 32
+  comment = "The variable SIGQUIT should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 34
+  comment = "The variable sig should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 105
+  comment = "The variable Printf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 105
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 105
+  comment = "The variable log should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 83
+  comment = "The variable newCaddyfile should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 98
+  comment = "The variable Printf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 98
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 98
+  comment = "The variable log should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 96
+  comment = "The variable restoreEventHooks should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 96
+  comment = "The variable oldEventHooks should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 72
+  comment = "The variable Println should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 72
+  comment = "The variable log should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 51
+  comment = "The variable Printf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 51
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 51
+  comment = "The variable log should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 49
+  comment = "The variable Stop should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 110
+  comment = "The variable telemetry should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 77
+  comment = "The variable loader should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 104
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 58
+  comment = "The variable Exit should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 61
+  comment = "The variable Println should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 50
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 77
+  comment = "The variable Load should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 43
+  comment = "The variable syscall should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 61
+  comment = "The variable log should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 70
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 102
+  comment = "The variable log should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 56
+  comment = "The variable telemetry should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 36
+  comment = "The variable SIGQUIT should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 66
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 55
+  comment = "The variable AppendUnique should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 93
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 43
+  comment = "The variable SIGTERM should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 101
+  comment = "The variable syscall should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 103
+  comment = "The variable telemetry should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 38
+  comment = "The variable OnProcessExit should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 70
+  comment = "The variable loader should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 56
+  comment = "The variable StopEmitting should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 44
+  comment = "The variable Println should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 38
+  comment = "The variable f should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 46
+  comment = "The variable f should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 45
+  comment = "The variable executeShutdownCallbacks should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 82
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 62
+  comment = "The variable telemetry should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 60
+  comment = "The variable syscall should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 94
+  comment = "The variable Restart should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 41
+  comment = "The variable os should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 102
+  comment = "The variable Println should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 62
+  comment = "The variable AppendUnique should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 93
+  comment = "The variable EmitEvent should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 77
+  comment = "The variable loaderUsed should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 104
+  comment = "The variable Upgrade should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 101
+  comment = "The variable SIGUSR2 should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 90
+  comment = "The variable purgeEventHooks should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 58
+  comment = "The variable os should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 93
+  comment = "The variable InstanceRestartEvent should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 60
+  comment = "The variable SIGUSR1 should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 36
+  comment = "The variable syscall should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 46
+  comment = "The variable OnProcessExit should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 55
+  comment = "The variable telemetry should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 44
+  comment = "The variable log should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 65
+  comment = "The variable getCurrentCaddyfile should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 103
+  comment = "The variable AppendUnique should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 41
+  comment = "The variable Exit should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 108
+  comment = "The variable SIGHUP should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 77
+  comment = "The variable serverType should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 78
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 37
+  comment = "The variable Println should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 37
+  comment = "The variable log should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 110
+  comment = "The variable AppendUnique should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 70
+  comment = "The variable loaderUsed should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 108
+  comment = "The variable syscall should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 95
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 87
+  comment = "The variable cloneEventHooks should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap_posix.go"
+  fileline = 35
+  comment = "The variable sig should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 373
+  comment = "The variable Close should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 372
+  comment = "The variable shutdown should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 373
+  comment = "The variable backend should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 49
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 48
+  comment = "The variable byte should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 48
+  comment = "The variable body should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 48
+  comment = "The variable Write should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 47
+  comment = "The variable Set should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 47
+  comment = "The variable bodyLenStr should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 47
+  comment = "The variable Header should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 50
+  comment = "The variable Printf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 50
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 50
+  comment = "The variable log should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 54
+  comment = "The variable Printf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 54
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 54
+  comment = "The variable log should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 46
+  comment = "The variable http should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 46
+  comment = "The variable ResponseWriter should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 46
+  comment = "The variable HandlerFunc should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 46
+  comment = "The variable fcgi should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 46
+  comment = "The variable http should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 46
+  comment = "The variable Serve should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 46
+  comment = "The variable http should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 53
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 46
+  comment = "The variable Request should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 46
+  comment = "The variable listener should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/reverseproxy.go"
+  fileline = 454
+  comment = "The variable pooledIoCopy should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/reverseproxy.go"
+  fileline = 454
+  comment = "The variable conn should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/reverseproxy.go"
+  fileline = 455
+  comment = "The variable proxyDone should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/reverseproxy.go"
+  fileline = 454
+  comment = "The variable backendConn should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fcgiclient_test.go"
+  fileline = 223
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fcgiclient_test.go"
+  fileline = 223
+  comment = "The variable log should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fcgiclient_test.go"
+  fileline = 223
+  comment = "The variable Println should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fcgiclient_test.go"
+  fileline = 228
+  comment = "The variable log should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fcgiclient_test.go"
+  fileline = 228
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fcgiclient_test.go"
+  fileline = 228
+  comment = "The variable Print should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fcgiclient_test.go"
+  fileline = 221
+  comment = "The variable Listen should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fcgiclient_test.go"
+  fileline = 226
+  comment = "The variable FastCGIServer should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fcgiclient_test.go"
+  fileline = 226
+  comment = "The variable new should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fcgiclient_test.go"
+  fileline = 227
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fcgiclient_test.go"
+  fileline = 222
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fcgiclient_test.go"
+  fileline = 227
+  comment = "The variable Serve should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fcgiclient_test.go"
+  fileline = 221
+  comment = "The variable net should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fcgiclient_test.go"
+  fileline = 221
+  comment = "The variable ipPort should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fcgiclient_test.go"
+  fileline = 227
+  comment = "The variable fcgi should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddytls/config.go"
+  fileline = 139
+  comment = "The variable done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddytls/config.go"
+  fileline = 142
+  comment = "The variable storageCleaningTicker should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddytls/config.go"
+  fileline = 143
+  comment = "The variable certmagic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddytls/config.go"
+  fileline = 143
+  comment = "The variable Default should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddytls/config.go"
+  fileline = 143
+  comment = "The variable certmagic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddytls/config.go"
+  fileline = 140
+  comment = "The variable storageCleaningTicker should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddytls/config.go"
+  fileline = 144
+  comment = "The variable true should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddytls/config.go"
+  fileline = 142
+  comment = "The variable C should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddytls/config.go"
+  fileline = 143
+  comment = "The variable certmagic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddytls/config.go"
+  fileline = 143
+  comment = "The variable CleanStorage should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddytls/config.go"
+  fileline = 143
+  comment = "The variable CleanStorageOptions should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddytls/config.go"
+  fileline = 143
+  comment = "The variable Storage should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddytls/config.go"
+  fileline = 144
+  comment = "The variable OCSPStaples should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddytls/config.go"
+  fileline = 140
+  comment = "The variable Stop should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddy.go"
+  fileline = 833
+  comment = "The variable Wait should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddy.go"
+  fileline = 834
+  comment = "The variable stopChan should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddy.go"
+  fileline = 833
+  comment = "The variable stopWg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 1769
+  comment = "The variable t should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 1769
+  comment = "The variable Errorf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 1769
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 1769
+  comment = "The variable Error should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 1753
+  comment = "The variable Errorf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 1753
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 1753
+  comment = "The variable t should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 1753
+  comment = "The variable Error should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 1758
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 1758
+  comment = "The variable log should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 1758
+  comment = "The variable Println should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 1760
+  comment = "The variable WriteHeader should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 1757
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 1757
+  comment = "The variable byte should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 1757
+  comment = "The variable Write should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 1757
+  comment = "The variable content should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 1756
+  comment = "The variable Request should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 1756
+  comment = "The variable HandlerFunc should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 1756
+  comment = "The variable http should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 1764
+  comment = "The variable Join should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 1765
+  comment = "The variable Join should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 1764
+  comment = "The variable path should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 1756
+  comment = "The variable http should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 1756
+  comment = "The variable ResponseWriter should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 1752
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 1768
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 1762
+  comment = "The variable ListenAndServeQUIC should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 1756
+  comment = "The variable http should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 1751
+  comment = "The variable Getwd should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 1762
+  comment = "The variable http3 should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 1765
+  comment = "The variable path should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 1751
+  comment = "The variable os should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 1763
+  comment = "The variable upstream should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap.go"
+  fileline = 66
+  comment = "The variable Exit should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap.go"
+  fileline = 66
+  comment = "The variable executeShutdownCallbacks should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap.go"
+  fileline = 66
+  comment = "The variable os should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap.go"
+  fileline = 42
+  comment = "The variable Notify should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap.go"
+  fileline = 42
+  comment = "The variable Interrupt should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap.go"
+  fileline = 41
+  comment = "The variable Signal should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap.go"
+  fileline = 42
+  comment = "The variable signal should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap.go"
+  fileline = 44
+  comment = "The variable true should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap.go"
+  fileline = 42
+  comment = "The variable os should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap.go"
+  fileline = 41
+  comment = "The variable os should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap.go"
+  fileline = 41
+  comment = "The variable make should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap.go"
+  fileline = 50
+  comment = "The variable f should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap.go"
+  fileline = 62
+  comment = "The variable f should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap.go"
+  fileline = 57
+  comment = "The variable AppendUnique should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap.go"
+  fileline = 45
+  comment = "The variable shutdown should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap.go"
+  fileline = 47
+  comment = "The variable i should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap.go"
+  fileline = 61
+  comment = "The variable _ should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap.go"
+  fileline = 58
+  comment = "The variable telemetry should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap.go"
+  fileline = 61
+  comment = "The variable f should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap.go"
+  fileline = 58
+  comment = "The variable StopEmitting should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap.go"
+  fileline = 57
+  comment = "The variable telemetry should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap.go"
+  fileline = 55
+  comment = "The variable Println should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap.go"
+  fileline = 61
+  comment = "The variable OnProcessExit should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap.go"
+  fileline = 55
+  comment = "The variable log should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap.go"
+  fileline = 49
+  comment = "The variable _ should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap.go"
+  fileline = 48
+  comment = "The variable Println should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap.go"
+  fileline = 52
+  comment = "The variable os should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap.go"
+  fileline = 48
+  comment = "The variable log should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap.go"
+  fileline = 49
+  comment = "The variable OnProcessExit should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap.go"
+  fileline = 52
+  comment = "The variable Exit should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "sigtrap.go"
+  fileline = 49
+  comment = "The variable f should be passed in as arguments to go-routines to avoid race conditions."

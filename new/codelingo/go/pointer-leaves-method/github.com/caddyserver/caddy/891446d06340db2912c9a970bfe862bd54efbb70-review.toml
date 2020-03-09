@@ -1,0 +1,8 @@
+repo = "github.com/caddyserver/caddy"
+rule = "codelingo/go/pointer-leaves-method"
+sha = "891446d06340db2912c9a970bfe862bd54efbb70"
+
+[[issues]]
+  filepath = "caddyhttp/proxy/upstream.go"
+  fileline = 239
+  comment = "The receiver pointer is returned from this method. Make a copy instead."

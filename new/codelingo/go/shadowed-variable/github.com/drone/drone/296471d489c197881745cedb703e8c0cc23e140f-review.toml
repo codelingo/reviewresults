@@ -1,0 +1,28 @@
+repo = "github.com/drone/drone"
+rule = "codelingo/go/shadowed-variable"
+sha = "296471d489c197881745cedb703e8c0cc23e140f"
+
+[[issues]]
+  filepath = "service/user/user_test.go"
+  fileline = 32
+  comment = "Variable want shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "service/user/user_test.go"
+  fileline = 27
+  comment = "Variable got shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "plugin/admission/account.go"
+  fileline = 62
+  comment = "Variable ok shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "service/org/org_test.go"
+  fileline = 33
+  comment = "Variable want shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "service/org/org_test.go"
+  fileline = 28
+  comment = "Variable got shadows a variable of the same name declared in an outer scope."

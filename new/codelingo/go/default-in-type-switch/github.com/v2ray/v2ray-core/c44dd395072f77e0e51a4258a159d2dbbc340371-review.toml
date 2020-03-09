@@ -1,0 +1,48 @@
+repo = "github.com/v2ray/v2ray-core"
+rule = "codelingo/go/default-in-type-switch"
+sha = "c44dd395072f77e0e51a4258a159d2dbbc340371"
+
+[[issues]]
+  filepath = "external/github.com/lucas-clemente/quic-go/internal/qerr/quic_error.go"
+  fileline = 46
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "common/net/address.go"
+  fileline = 184
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "transport/internet/kcp/connection.go"
+  fileline = 569
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "proxy/vmess/outbound/command.go"
+  fileline = 36
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "transport/internet/sockopt_freebsd.go"
+  fileline = 68
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "app/router/condition.go"
+  fileline = 314
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "external/github.com/marten-seemann/qtls/auth.go"
+  fileline = 55
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "app/log/log.go"
+  fileline = 103
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "infra/conf/serial/loader.go"
+  fileline = 53
+  comment = "Always include a default case when using a type switch."

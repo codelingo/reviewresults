@@ -1,0 +1,2468 @@
+repo = "github.com/v2ray/v2ray-core"
+rule = "codelingo/go/unsafe-go-routine-variables"
+sha = "c44dd395072f77e0e51a4258a159d2dbbc340371"
+
+[[issues]]
+  filepath = "app/dns/dohdns.go"
+  fileline = 235
+  comment = "The variable ContextWithInbound should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/dohdns.go"
+  fileline = 235
+  comment = "The variable session should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/dohdns.go"
+  fileline = 235
+  comment = "The variable inbound should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/dohdns.go"
+  fileline = 252
+  comment = "The variable WriteToLog should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/dohdns.go"
+  fileline = 252
+  comment = "The variable Base should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/dohdns.go"
+  fileline = 252
+  comment = "The variable newError should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/dohdns.go"
+  fileline = 252
+  comment = "The variable AtError should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/dohdns.go"
+  fileline = 252
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/dohdns.go"
+  fileline = 257
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/dohdns.go"
+  fileline = 257
+  comment = "The variable AtError should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/dohdns.go"
+  fileline = 257
+  comment = "The variable Base should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/dohdns.go"
+  fileline = 257
+  comment = "The variable newError should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/dohdns.go"
+  fileline = 257
+  comment = "The variable WriteToLog should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/dohdns.go"
+  fileline = 238
+  comment = "The variable Content should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/dohdns.go"
+  fileline = 246
+  comment = "The variable WithDeadline should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/dohdns.go"
+  fileline = 238
+  comment = "The variable ContextWithContent should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/dohdns.go"
+  fileline = 231
+  comment = "The variable Background should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/dohdns.go"
+  fileline = 231
+  comment = "The variable context should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/dohdns.go"
+  fileline = 246
+  comment = "The variable context should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/dohdns.go"
+  fileline = 244
+  comment = "The variable session should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/dohdns.go"
+  fileline = 250
+  comment = "The variable s should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/dohdns.go"
+  fileline = 240
+  comment = "The variable SkipRoutePick should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/dohdns.go"
+  fileline = 251
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/dohdns.go"
+  fileline = 250
+  comment = "The variable dohHTTPSContext should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/dohdns.go"
+  fileline = 234
+  comment = "The variable session should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/dohdns.go"
+  fileline = 238
+  comment = "The variable session should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/dohdns.go"
+  fileline = 244
+  comment = "The variable true should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/dohdns.go"
+  fileline = 249
+  comment = "The variable dns should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/dohdns.go"
+  fileline = 260
+  comment = "The variable s should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/dohdns.go"
+  fileline = 244
+  comment = "The variable ContextWithMuxPrefered should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/dohdns.go"
+  fileline = 260
+  comment = "The variable updateIP should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/dohdns.go"
+  fileline = 246
+  comment = "The variable deadline should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/dohdns.go"
+  fileline = 255
+  comment = "The variable parseResponse should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/dohdns.go"
+  fileline = 250
+  comment = "The variable Bytes should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/dohdns.go"
+  fileline = 234
+  comment = "The variable InboundFromContext should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/dohdns.go"
+  fileline = 256
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/dohdns.go"
+  fileline = 249
+  comment = "The variable msg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/dohdns.go"
+  fileline = 240
+  comment = "The variable true should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/dohdns.go"
+  fileline = 238
+  comment = "The variable session should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/dohdns.go"
+  fileline = 239
+  comment = "The variable Protocol should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/dohdns.go"
+  fileline = 234
+  comment = "The variable ctx should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/dohdns.go"
+  fileline = 234
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/dohdns.go"
+  fileline = 249
+  comment = "The variable PackMessage should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/quic/quic_test.go"
+  fileline = 173
+  comment = "The variable Must2 should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/quic/quic_test.go"
+  fileline = 170
+  comment = "The variable conn should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/quic/quic_test.go"
+  fileline = 173
+  comment = "The variable b should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/quic/quic_test.go"
+  fileline = 170
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/quic/quic_test.go"
+  fileline = 169
+  comment = "The variable b should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/quic/quic_test.go"
+  fileline = 173
+  comment = "The variable common should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/quic/quic_test.go"
+  fileline = 173
+  comment = "The variable Bytes should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/quic/quic_test.go"
+  fileline = 173
+  comment = "The variable conn should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/quic/quic_test.go"
+  fileline = 170
+  comment = "The variable b should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/quic/quic_test.go"
+  fileline = 173
+  comment = "The variable Write should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/quic/quic_test.go"
+  fileline = 169
+  comment = "The variable Clear should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/quic/quic_test.go"
+  fileline = 170
+  comment = "The variable ReadFrom should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/quic/quic_test.go"
+  fileline = 165
+  comment = "The variable buf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/quic/quic_test.go"
+  fileline = 165
+  comment = "The variable New should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/quic/quic_test.go"
+  fileline = 163
+  comment = "The variable conn should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/quic/quic_test.go"
+  fileline = 166
+  comment = "The variable Release should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/quic/quic_test.go"
+  fileline = 163
+  comment = "The variable Close should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "main/distro/debug/debug.go"
+  fileline = 8
+  comment = "The variable ListenAndServe should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "main/distro/debug/debug.go"
+  fileline = 8
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "main/distro/debug/debug.go"
+  fileline = 8
+  comment = "The variable http should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/kcp/kcp_test.go"
+  fileline = 26
+  comment = "The variable make should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/kcp/kcp_test.go"
+  fileline = 37
+  comment = "The variable Close should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/kcp/kcp_test.go"
+  fileline = 26
+  comment = "The variable byte should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/kcp/kcp_test.go"
+  fileline = 32
+  comment = "The variable idx should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/kcp/kcp_test.go"
+  fileline = 35
+  comment = "The variable payload should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/kcp/kcp_test.go"
+  fileline = 28
+  comment = "The variable Read should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/kcp/kcp_test.go"
+  fileline = 32
+  comment = "The variable b should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/kcp/kcp_test.go"
+  fileline = 28
+  comment = "The variable payload should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/kcp/kcp_test.go"
+  fileline = 35
+  comment = "The variable Write should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/kcp/kcp_test.go"
+  fileline = 32
+  comment = "The variable payload should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/kcp/kcp_test.go"
+  fileline = 29
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/kcp/kcp_test.go"
+  fileline = 33
+  comment = "The variable idx should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/kcp/kcp_test.go"
+  fileline = 33
+  comment = "The variable b should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/kcp/kcp_test.go"
+  fileline = 33
+  comment = "The variable payload should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/commander/commander.go"
+  fileline = 78
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/commander/commander.go"
+  fileline = 78
+  comment = "The variable Serve should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/commander/commander.go"
+  fileline = 78
+  comment = "The variable c should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/commander/commander.go"
+  fileline = 78
+  comment = "The variable server should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/commander/commander.go"
+  fileline = 78
+  comment = "The variable listener should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/commander/commander.go"
+  fileline = 79
+  comment = "The variable Base should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/commander/commander.go"
+  fileline = 79
+  comment = "The variable newError should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/commander/commander.go"
+  fileline = 79
+  comment = "The variable WriteToLog should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/commander/commander.go"
+  fileline = 79
+  comment = "The variable AtError should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/commander/commander.go"
+  fileline = 79
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/quic/quic_test.go"
+  fileline = 46
+  comment = "The variable common should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/quic/quic_test.go"
+  fileline = 46
+  comment = "The variable Write should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/quic/quic_test.go"
+  fileline = 43
+  comment = "The variable conn should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/quic/quic_test.go"
+  fileline = 46
+  comment = "The variable conn should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/quic/quic_test.go"
+  fileline = 46
+  comment = "The variable Bytes should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/quic/quic_test.go"
+  fileline = 43
+  comment = "The variable ReadFrom should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/quic/quic_test.go"
+  fileline = 43
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/quic/quic_test.go"
+  fileline = 42
+  comment = "The variable b should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/quic/quic_test.go"
+  fileline = 43
+  comment = "The variable b should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/quic/quic_test.go"
+  fileline = 46
+  comment = "The variable Must2 should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/quic/quic_test.go"
+  fileline = 42
+  comment = "The variable Clear should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/quic/quic_test.go"
+  fileline = 46
+  comment = "The variable b should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/quic/quic_test.go"
+  fileline = 36
+  comment = "The variable conn should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/quic/quic_test.go"
+  fileline = 38
+  comment = "The variable buf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/quic/quic_test.go"
+  fileline = 36
+  comment = "The variable Close should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/quic/quic_test.go"
+  fileline = 38
+  comment = "The variable New should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/quic/quic_test.go"
+  fileline = 39
+  comment = "The variable Release should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "external/github.com/marten-seemann/qtls/tls.go"
+  fileline = 149
+  comment = "The variable errChannel should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "external/github.com/marten-seemann/qtls/tls.go"
+  fileline = 149
+  comment = "The variable Handshake should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "external/github.com/marten-seemann/qtls/tls.go"
+  fileline = 149
+  comment = "The variable conn should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/udpns.go"
+  fileline = 273
+  comment = "The variable Done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/udpns.go"
+  fileline = 272
+  comment = "The variable sub6 should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/udpns.go"
+  fileline = 272
+  comment = "The variable Wait should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/udpns.go"
+  fileline = 273
+  comment = "The variable ctx should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/udpns.go"
+  fileline = 267
+  comment = "The variable ctx should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/udpns.go"
+  fileline = 267
+  comment = "The variable Done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/udpns.go"
+  fileline = 266
+  comment = "The variable sub4 should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/udpns.go"
+  fileline = 266
+  comment = "The variable Wait should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/udpns.go"
+  fileline = 276
+  comment = "The variable done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/udpns.go"
+  fileline = 270
+  comment = "The variable sub6 should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/udpns.go"
+  fileline = 270
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/udpns.go"
+  fileline = 276
+  comment = "The variable close should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/udpns.go"
+  fileline = 264
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/udpns.go"
+  fileline = 264
+  comment = "The variable sub4 should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/quic/quic_test.go"
+  fileline = 105
+  comment = "The variable Clear should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/quic/quic_test.go"
+  fileline = 109
+  comment = "The variable Must2 should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/quic/quic_test.go"
+  fileline = 106
+  comment = "The variable conn should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/quic/quic_test.go"
+  fileline = 109
+  comment = "The variable common should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/quic/quic_test.go"
+  fileline = 109
+  comment = "The variable b should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/quic/quic_test.go"
+  fileline = 109
+  comment = "The variable conn should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/quic/quic_test.go"
+  fileline = 106
+  comment = "The variable b should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/quic/quic_test.go"
+  fileline = 106
+  comment = "The variable ReadFrom should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/quic/quic_test.go"
+  fileline = 109
+  comment = "The variable Bytes should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/quic/quic_test.go"
+  fileline = 106
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/quic/quic_test.go"
+  fileline = 109
+  comment = "The variable Write should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/quic/quic_test.go"
+  fileline = 105
+  comment = "The variable b should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/quic/quic_test.go"
+  fileline = 101
+  comment = "The variable buf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/quic/quic_test.go"
+  fileline = 99
+  comment = "The variable conn should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/quic/quic_test.go"
+  fileline = 99
+  comment = "The variable Close should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/quic/quic_test.go"
+  fileline = 101
+  comment = "The variable New should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/quic/quic_test.go"
+  fileline = 102
+  comment = "The variable Release should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/http/hub.go"
+  fileline = 143
+  comment = "The variable server should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/http/hub.go"
+  fileline = 144
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/http/hub.go"
+  fileline = 143
+  comment = "The variable tcpListener should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/http/hub.go"
+  fileline = 143
+  comment = "The variable ServeTLS should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/http/hub.go"
+  fileline = 145
+  comment = "The variable Base should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/http/hub.go"
+  fileline = 145
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/http/hub.go"
+  fileline = 145
+  comment = "The variable WriteToLog should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/http/hub.go"
+  fileline = 145
+  comment = "The variable ExportIDToError should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/http/hub.go"
+  fileline = 145
+  comment = "The variable ctx should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/http/hub.go"
+  fileline = 145
+  comment = "The variable newError should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/http/hub.go"
+  fileline = 145
+  comment = "The variable session should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/http/hub.go"
+  fileline = 140
+  comment = "The variable ExportIDToError should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/http/hub.go"
+  fileline = 140
+  comment = "The variable Base should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/http/hub.go"
+  fileline = 140
+  comment = "The variable session should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/http/hub.go"
+  fileline = 140
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/http/hub.go"
+  fileline = 140
+  comment = "The variable WriteToLog should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/http/hub.go"
+  fileline = 140
+  comment = "The variable ctx should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/http/hub.go"
+  fileline = 140
+  comment = "The variable newError should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/http/hub.go"
+  fileline = 137
+  comment = "The variable config should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/http/hub.go"
+  fileline = 131
+  comment = "The variable int should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/http/hub.go"
+  fileline = 130
+  comment = "The variable IP should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/http/hub.go"
+  fileline = 132
+  comment = "The variable streamSettings should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/http/hub.go"
+  fileline = 130
+  comment = "The variable address should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/http/hub.go"
+  fileline = 129
+  comment = "The variable TCPAddr should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/http/hub.go"
+  fileline = 129
+  comment = "The variable net should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/http/hub.go"
+  fileline = 131
+  comment = "The variable port should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/http/hub.go"
+  fileline = 133
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/http/hub.go"
+  fileline = 129
+  comment = "The variable internet should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/http/hub.go"
+  fileline = 129
+  comment = "The variable ListenSystem should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/http/hub.go"
+  fileline = 132
+  comment = "The variable SocketSettings should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/http/hub.go"
+  fileline = 129
+  comment = "The variable ctx should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/http/hub.go"
+  fileline = 130
+  comment = "The variable IP should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/http/hub.go"
+  fileline = 137
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/http/hub.go"
+  fileline = 131
+  comment = "The variable Port should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/http/hub.go"
+  fileline = 138
+  comment = "The variable Serve should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/http/hub.go"
+  fileline = 138
+  comment = "The variable tcpListener should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/http/hub.go"
+  fileline = 138
+  comment = "The variable server should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/http/hub.go"
+  fileline = 139
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/http/hub.go"
+  fileline = 134
+  comment = "The variable address should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/http/hub.go"
+  fileline = 134
+  comment = "The variable port should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/http/hub.go"
+  fileline = 134
+  comment = "The variable session should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/http/hub.go"
+  fileline = 134
+  comment = "The variable ctx should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/http/hub.go"
+  fileline = 134
+  comment = "The variable Base should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/http/hub.go"
+  fileline = 134
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/http/hub.go"
+  fileline = 134
+  comment = "The variable WriteToLog should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/http/hub.go"
+  fileline = 134
+  comment = "The variable newError should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/http/hub.go"
+  fileline = 134
+  comment = "The variable ExportIDToError should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "external/github.com/lucas-clemente/quic-go/session.go"
+  fileline = 327
+  comment = "The variable s should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "external/github.com/lucas-clemente/quic-go/session.go"
+  fileline = 331
+  comment = "The variable close should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "external/github.com/lucas-clemente/quic-go/session.go"
+  fileline = 327
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "external/github.com/lucas-clemente/quic-go/session.go"
+  fileline = 331
+  comment = "The variable s should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "external/github.com/lucas-clemente/quic-go/session.go"
+  fileline = 331
+  comment = "The variable handshakeCompleteChan should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "external/github.com/lucas-clemente/quic-go/session.go"
+  fileline = 327
+  comment = "The variable RunHandshake should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "external/github.com/lucas-clemente/quic-go/session.go"
+  fileline = 327
+  comment = "The variable cryptoStreamHandler should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "external/github.com/lucas-clemente/quic-go/session.go"
+  fileline = 328
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "external/github.com/lucas-clemente/quic-go/session.go"
+  fileline = 328
+  comment = "The variable s should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "external/github.com/lucas-clemente/quic-go/session.go"
+  fileline = 328
+  comment = "The variable closeLocal should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/websocket/hub.go"
+  fileline = 89
+  comment = "The variable Serve should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/websocket/hub.go"
+  fileline = 89
+  comment = "The variable listener should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/websocket/hub.go"
+  fileline = 89
+  comment = "The variable l should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/websocket/hub.go"
+  fileline = 89
+  comment = "The variable l should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/websocket/hub.go"
+  fileline = 89
+  comment = "The variable server should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/websocket/hub.go"
+  fileline = 89
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/websocket/hub.go"
+  fileline = 90
+  comment = "The variable newError should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/websocket/hub.go"
+  fileline = 90
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/websocket/hub.go"
+  fileline = 90
+  comment = "The variable session should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/websocket/hub.go"
+  fileline = 90
+  comment = "The variable WriteToLog should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/websocket/hub.go"
+  fileline = 90
+  comment = "The variable ctx should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/websocket/hub.go"
+  fileline = 90
+  comment = "The variable ExportIDToError should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/websocket/hub.go"
+  fileline = 90
+  comment = "The variable AtWarning should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/websocket/hub.go"
+  fileline = 90
+  comment = "The variable Base should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "external/github.com/lucas-clemente/quic-go/internal/handshake/crypto_setup.go"
+  fileline = 232
+  comment = "The variable Handshake should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "external/github.com/lucas-clemente/quic-go/internal/handshake/crypto_setup.go"
+  fileline = 231
+  comment = "The variable h should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "external/github.com/lucas-clemente/quic-go/internal/handshake/crypto_setup.go"
+  fileline = 231
+  comment = "The variable close should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "external/github.com/lucas-clemente/quic-go/internal/handshake/crypto_setup.go"
+  fileline = 232
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "external/github.com/lucas-clemente/quic-go/internal/handshake/crypto_setup.go"
+  fileline = 232
+  comment = "The variable conn should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "external/github.com/lucas-clemente/quic-go/internal/handshake/crypto_setup.go"
+  fileline = 236
+  comment = "The variable close should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "external/github.com/lucas-clemente/quic-go/internal/handshake/crypto_setup.go"
+  fileline = 231
+  comment = "The variable handshakeDone should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "external/github.com/lucas-clemente/quic-go/internal/handshake/crypto_setup.go"
+  fileline = 236
+  comment = "The variable handshakeComplete should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "external/github.com/lucas-clemente/quic-go/internal/handshake/crypto_setup.go"
+  fileline = 232
+  comment = "The variable h should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "external/github.com/lucas-clemente/quic-go/internal/handshake/crypto_setup.go"
+  fileline = 233
+  comment = "The variable handshakeErrChan should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "external/github.com/lucas-clemente/quic-go/internal/handshake/crypto_setup.go"
+  fileline = 233
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/dohdns.go"
+  fileline = 357
+  comment = "The variable Done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/dohdns.go"
+  fileline = 357
+  comment = "The variable ctx should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/dohdns.go"
+  fileline = 356
+  comment = "The variable Wait should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/dohdns.go"
+  fileline = 356
+  comment = "The variable sub4 should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/dohdns.go"
+  fileline = 362
+  comment = "The variable sub6 should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/dohdns.go"
+  fileline = 363
+  comment = "The variable ctx should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/dohdns.go"
+  fileline = 363
+  comment = "The variable Done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/dohdns.go"
+  fileline = 362
+  comment = "The variable Wait should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/dohdns.go"
+  fileline = 366
+  comment = "The variable done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/dohdns.go"
+  fileline = 366
+  comment = "The variable close should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/dohdns.go"
+  fileline = 360
+  comment = "The variable sub6 should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/dohdns.go"
+  fileline = 360
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/dohdns.go"
+  fileline = 354
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dns/dohdns.go"
+  fileline = 354
+  comment = "The variable sub4 should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/kcp/dialer.go"
+  fileline = 36
+  comment = "The variable Release should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/kcp/dialer.go"
+  fileline = 36
+  comment = "The variable payload should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/kcp/dialer.go"
+  fileline = 34
+  comment = "The variable cache should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/kcp/dialer.go"
+  fileline = 34
+  comment = "The variable payload should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/kcp/dialer.go"
+  fileline = 29
+  comment = "The variable Release should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/kcp/dialer.go"
+  fileline = 30
+  comment = "The variable close should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/kcp/dialer.go"
+  fileline = 29
+  comment = "The variable payload should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/kcp/dialer.go"
+  fileline = 30
+  comment = "The variable cache should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/kcp/dialer.go"
+  fileline = 28
+  comment = "The variable ReadFrom should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/kcp/dialer.go"
+  fileline = 28
+  comment = "The variable input should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/kcp/dialer.go"
+  fileline = 27
+  comment = "The variable buf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/kcp/dialer.go"
+  fileline = 27
+  comment = "The variable New should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/kcp/dialer.go"
+  fileline = 28
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "external/github.com/lucas-clemente/quic-go/packet_handler_map.go"
+  fileline = 132
+  comment = "The variable destroy should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "external/github.com/lucas-clemente/quic-go/packet_handler_map.go"
+  fileline = 133
+  comment = "The variable wg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "external/github.com/lucas-clemente/quic-go/packet_handler_map.go"
+  fileline = 132
+  comment = "The variable e should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "external/github.com/lucas-clemente/quic-go/packet_handler_map.go"
+  fileline = 132
+  comment = "The variable handler should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "external/github.com/lucas-clemente/quic-go/packet_handler_map.go"
+  fileline = 133
+  comment = "The variable Done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "proxy/blackhole/blackhole_test.go"
+  fileline = 26
+  comment = "The variable reader should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "proxy/blackhole/blackhole_test.go"
+  fileline = 26
+  comment = "The variable ReadMultiBuffer should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/websocket/ws_test.go"
+  fileline = 89
+  comment = "The variable byte should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/websocket/ws_test.go"
+  fileline = 80
+  comment = "The variable Close should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/websocket/ws_test.go"
+  fileline = 90
+  comment = "The variable Must should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/websocket/ws_test.go"
+  fileline = 90
+  comment = "The variable common should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/websocket/ws_test.go"
+  fileline = 83
+  comment = "The variable Read should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/websocket/ws_test.go"
+  fileline = 89
+  comment = "The variable Write should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/websocket/ws_test.go"
+  fileline = 85
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/websocket/ws_test.go"
+  fileline = 82
+  comment = "The variable byte should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/udp/dispatcher_test.go"
+  fileline = 51
+  comment = "The variable Must should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/udp/dispatcher_test.go"
+  fileline = 50
+  comment = "The variable downlinkWriter should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/udp/dispatcher_test.go"
+  fileline = 51
+  comment = "The variable common should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/udp/dispatcher_test.go"
+  fileline = 46
+  comment = "The variable ReadMultiBuffer should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/udp/dispatcher_test.go"
+  fileline = 47
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/udp/dispatcher_test.go"
+  fileline = 46
+  comment = "The variable uplinkReader should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/udp/dispatcher_test.go"
+  fileline = 50
+  comment = "The variable WriteMultiBuffer should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/headers/http/http_test.go"
+  fileline = 109
+  comment = "The variable byte should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/headers/http/http_test.go"
+  fileline = 108
+  comment = "The variable auth should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/headers/http/http_test.go"
+  fileline = 107
+  comment = "The variable common should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/headers/http/http_test.go"
+  fileline = 109
+  comment = "The variable make should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/headers/http/http_test.go"
+  fileline = 107
+  comment = "The variable Must should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/headers/http/http_test.go"
+  fileline = 106
+  comment = "The variable Accept should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/headers/http/http_test.go"
+  fileline = 108
+  comment = "The variable Server should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/headers/http/http_test.go"
+  fileline = 106
+  comment = "The variable listener should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/headers/http/http_test.go"
+  fileline = 111
+  comment = "The variable authConn should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/headers/http/http_test.go"
+  fileline = 115
+  comment = "The variable authConn should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/headers/http/http_test.go"
+  fileline = 115
+  comment = "The variable b should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/headers/http/http_test.go"
+  fileline = 111
+  comment = "The variable b should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/headers/http/http_test.go"
+  fileline = 116
+  comment = "The variable Must should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/headers/http/http_test.go"
+  fileline = 111
+  comment = "The variable Read should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/headers/http/http_test.go"
+  fileline = 115
+  comment = "The variable Write should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/headers/http/http_test.go"
+  fileline = 112
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/headers/http/http_test.go"
+  fileline = 116
+  comment = "The variable common should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dispatcher/default.go"
+  fileline = 220
+  comment = "The variable net should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dispatcher/default.go"
+  fileline = 218
+  comment = "The variable result should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dispatcher/default.go"
+  fileline = 219
+  comment = "The variable WriteToLog should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dispatcher/default.go"
+  fileline = 221
+  comment = "The variable ob should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dispatcher/default.go"
+  fileline = 220
+  comment = "The variable ParseAddress should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dispatcher/default.go"
+  fileline = 220
+  comment = "The variable Address should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dispatcher/default.go"
+  fileline = 219
+  comment = "The variable ExportIDToError should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dispatcher/default.go"
+  fileline = 219
+  comment = "The variable ctx should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dispatcher/default.go"
+  fileline = 219
+  comment = "The variable newError should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dispatcher/default.go"
+  fileline = 221
+  comment = "The variable destination should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dispatcher/default.go"
+  fileline = 221
+  comment = "The variable Target should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dispatcher/default.go"
+  fileline = 218
+  comment = "The variable Domain should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dispatcher/default.go"
+  fileline = 220
+  comment = "The variable destination should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dispatcher/default.go"
+  fileline = 219
+  comment = "The variable session should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dispatcher/default.go"
+  fileline = 215
+  comment = "The variable Protocol should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dispatcher/default.go"
+  fileline = 215
+  comment = "The variable content should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dispatcher/default.go"
+  fileline = 215
+  comment = "The variable Protocol should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dispatcher/default.go"
+  fileline = 215
+  comment = "The variable result should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dispatcher/default.go"
+  fileline = 210
+  comment = "The variable Reader should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dispatcher/default.go"
+  fileline = 217
+  comment = "The variable shouldOverride should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dispatcher/default.go"
+  fileline = 209
+  comment = "The variable cachedReader should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dispatcher/default.go"
+  fileline = 210
+  comment = "The variable Reader should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dispatcher/default.go"
+  fileline = 214
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dispatcher/default.go"
+  fileline = 223
+  comment = "The variable routedDispatch should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dispatcher/default.go"
+  fileline = 213
+  comment = "The variable sniffer should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dispatcher/default.go"
+  fileline = 210
+  comment = "The variable reader should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dispatcher/default.go"
+  fileline = 217
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dispatcher/default.go"
+  fileline = 212
+  comment = "The variable Reader should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dispatcher/default.go"
+  fileline = 210
+  comment = "The variable outbound should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dispatcher/default.go"
+  fileline = 213
+  comment = "The variable ctx should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dispatcher/default.go"
+  fileline = 223
+  comment = "The variable outbound should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dispatcher/default.go"
+  fileline = 212
+  comment = "The variable outbound should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dispatcher/default.go"
+  fileline = 217
+  comment = "The variable OverrideDestinationForProtocol should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dispatcher/default.go"
+  fileline = 210
+  comment = "The variable pipe should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dispatcher/default.go"
+  fileline = 223
+  comment = "The variable destination should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dispatcher/default.go"
+  fileline = 223
+  comment = "The variable d should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dispatcher/default.go"
+  fileline = 217
+  comment = "The variable sniffingRequest should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/dispatcher/default.go"
+  fileline = 223
+  comment = "The variable ctx should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/websocket/ws_test.go"
+  fileline = 134
+  comment = "The variable conn should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/websocket/ws_test.go"
+  fileline = 134
+  comment = "The variable Close should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "external/github.com/lucas-clemente/quic-go/client.go"
+  fileline = 274
+  comment = "The variable Close should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "external/github.com/lucas-clemente/quic-go/client.go"
+  fileline = 274
+  comment = "The variable conn should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "external/github.com/lucas-clemente/quic-go/client.go"
+  fileline = 274
+  comment = "The variable c should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "external/github.com/lucas-clemente/quic-go/client.go"
+  fileline = 272
+  comment = "The variable run should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "external/github.com/lucas-clemente/quic-go/client.go"
+  fileline = 272
+  comment = "The variable c should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "external/github.com/lucas-clemente/quic-go/client.go"
+  fileline = 272
+  comment = "The variable session should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "external/github.com/lucas-clemente/quic-go/client.go"
+  fileline = 276
+  comment = "The variable errorChan should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "external/github.com/lucas-clemente/quic-go/client.go"
+  fileline = 273
+  comment = "The variable c should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "external/github.com/lucas-clemente/quic-go/client.go"
+  fileline = 273
+  comment = "The variable errCloseForRecreating should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "external/github.com/lucas-clemente/quic-go/client.go"
+  fileline = 273
+  comment = "The variable createdPacketConn should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/websocket/ws_test.go"
+  fileline = 33
+  comment = "The variable Write should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/websocket/ws_test.go"
+  fileline = 25
+  comment = "The variable Close should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/websocket/ws_test.go"
+  fileline = 27
+  comment = "The variable byte should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/websocket/ws_test.go"
+  fileline = 33
+  comment = "The variable Must2 should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/websocket/ws_test.go"
+  fileline = 28
+  comment = "The variable Read should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/websocket/ws_test.go"
+  fileline = 33
+  comment = "The variable byte should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/websocket/ws_test.go"
+  fileline = 29
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/websocket/ws_test.go"
+  fileline = 33
+  comment = "The variable common should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/reverse/bridge.go"
+  fileline = 170
+  comment = "The variable WriteToLog should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/reverse/bridge.go"
+  fileline = 170
+  comment = "The variable Base should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/reverse/bridge.go"
+  fileline = 170
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/reverse/bridge.go"
+  fileline = 170
+  comment = "The variable newError should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/reverse/bridge.go"
+  fileline = 163
+  comment = "The variable ReadMultiBuffer should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/reverse/bridge.go"
+  fileline = 163
+  comment = "The variable reader should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/reverse/bridge.go"
+  fileline = 167
+  comment = "The variable b should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/reverse/bridge.go"
+  fileline = 167
+  comment = "The variable _ should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/reverse/bridge.go"
+  fileline = 164
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/reverse/bridge.go"
+  fileline = 161
+  comment = "The variable link should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/reverse/bridge.go"
+  fileline = 161
+  comment = "The variable Reader should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/reverse/bridge.go"
+  fileline = 169
+  comment = "The variable proto should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/reverse/bridge.go"
+  fileline = 173
+  comment = "The variable state should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/reverse/bridge.go"
+  fileline = 173
+  comment = "The variable w should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/reverse/bridge.go"
+  fileline = 169
+  comment = "The variable Unmarshal should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/reverse/bridge.go"
+  fileline = 169
+  comment = "The variable Bytes should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/reverse/bridge.go"
+  fileline = 169
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/reverse/bridge.go"
+  fileline = 169
+  comment = "The variable b should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/reverse/bridge.go"
+  fileline = 173
+  comment = "The variable State should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/reverse/bridge.go"
+  fileline = 168
+  comment = "The variable Control should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/reverse/bridge.go"
+  fileline = 174
+  comment = "The variable state should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/reverse/bridge.go"
+  fileline = 174
+  comment = "The variable w should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/reverse/bridge.go"
+  fileline = 174
+  comment = "The variable State should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "external/github.com/lucas-clemente/quic-go/packet_handler_map.go"
+  fileline = 111
+  comment = "The variable retireByConnectionIDAsString should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "external/github.com/lucas-clemente/quic-go/packet_handler_map.go"
+  fileline = 112
+  comment = "The variable wg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "external/github.com/lucas-clemente/quic-go/packet_handler_map.go"
+  fileline = 112
+  comment = "The variable Done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "external/github.com/lucas-clemente/quic-go/packet_handler_map.go"
+  fileline = 111
+  comment = "The variable h should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "external/github.com/lucas-clemente/quic-go/packet_handler_map.go"
+  fileline = 110
+  comment = "The variable Close should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "common/mux/client.go"
+  fileline = 152
+  comment = "The variable Target should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "common/mux/client.go"
+  fileline = 156
+  comment = "The variable Reader should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "common/mux/client.go"
+  fileline = 156
+  comment = "The variable uplinkReader should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "common/mux/client.go"
+  fileline = 152
+  comment = "The variable TCPDestination should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "common/mux/client.go"
+  fileline = 151
+  comment = "The variable ContextWithOutbound should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "common/mux/client.go"
+  fileline = 151
+  comment = "The variable Background should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "common/mux/client.go"
+  fileline = 156
+  comment = "The variable downlinkWriter should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "common/mux/client.go"
+  fileline = 152
+  comment = "The variable net should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "common/mux/client.go"
+  fileline = 152
+  comment = "The variable muxCoolAddress should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "common/mux/client.go"
+  fileline = 159
+  comment = "The variable common should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "common/mux/client.go"
+  fileline = 156
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "common/mux/client.go"
+  fileline = 154
+  comment = "The variable WithCancel should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "common/mux/client.go"
+  fileline = 151
+  comment = "The variable session should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "common/mux/client.go"
+  fileline = 154
+  comment = "The variable context should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "common/mux/client.go"
+  fileline = 151
+  comment = "The variable context should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "common/mux/client.go"
+  fileline = 159
+  comment = "The variable Close should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "common/mux/client.go"
+  fileline = 156
+  comment = "The variable transport should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "common/mux/client.go"
+  fileline = 156
+  comment = "The variable Link should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "common/mux/client.go"
+  fileline = 156
+  comment = "The variable Writer should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "common/mux/client.go"
+  fileline = 151
+  comment = "The variable Outbound should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "common/mux/client.go"
+  fileline = 151
+  comment = "The variable session should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "common/mux/client.go"
+  fileline = 159
+  comment = "The variable Must should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "common/mux/client.go"
+  fileline = 152
+  comment = "The variable muxCoolPort should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "common/mux/client.go"
+  fileline = 156
+  comment = "The variable Process should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "common/mux/client.go"
+  fileline = 157
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "common/mux/client.go"
+  fileline = 157
+  comment = "The variable WriteToLog should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "common/mux/client.go"
+  fileline = 157
+  comment = "The variable Base should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "common/mux/client.go"
+  fileline = 157
+  comment = "The variable New should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "common/mux/client.go"
+  fileline = 157
+  comment = "The variable errors should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "external/github.com/lucas-clemente/quic-go/server.go"
+  fileline = 173
+  comment = "The variable s should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "external/github.com/lucas-clemente/quic-go/server.go"
+  fileline = 173
+  comment = "The variable sessionQueueLen should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "external/github.com/lucas-clemente/quic-go/server.go"
+  fileline = 172
+  comment = "The variable atomic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "external/github.com/lucas-clemente/quic-go/server.go"
+  fileline = 173
+  comment = "The variable atomic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "external/github.com/lucas-clemente/quic-go/server.go"
+  fileline = 173
+  comment = "The variable AddInt32 should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "external/github.com/lucas-clemente/quic-go/server.go"
+  fileline = 172
+  comment = "The variable s should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "external/github.com/lucas-clemente/quic-go/server.go"
+  fileline = 172
+  comment = "The variable AddInt32 should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "external/github.com/lucas-clemente/quic-go/server.go"
+  fileline = 172
+  comment = "The variable sessionQueueLen should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "external/github.com/lucas-clemente/quic-go/server.go"
+  fileline = 177
+  comment = "The variable Done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "external/github.com/lucas-clemente/quic-go/server.go"
+  fileline = 175
+  comment = "The variable s should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "external/github.com/lucas-clemente/quic-go/server.go"
+  fileline = 175
+  comment = "The variable sess should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "external/github.com/lucas-clemente/quic-go/server.go"
+  fileline = 177
+  comment = "The variable sess should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "external/github.com/lucas-clemente/quic-go/server.go"
+  fileline = 177
+  comment = "The variable Context should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "external/github.com/lucas-clemente/quic-go/server.go"
+  fileline = 175
+  comment = "The variable sessionQueue should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/proxyman/inbound/worker.go"
+  fileline = 296
+  comment = "The variable ContextWithInbound should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/proxyman/inbound/worker.go"
+  fileline = 298
+  comment = "The variable net should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/proxyman/inbound/worker.go"
+  fileline = 305
+  comment = "The variable removeConn should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/proxyman/inbound/worker.go"
+  fileline = 296
+  comment = "The variable Inbound should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/proxyman/inbound/worker.go"
+  fileline = 297
+  comment = "The variable source should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/proxyman/inbound/worker.go"
+  fileline = 297
+  comment = "The variable Source should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/proxyman/inbound/worker.go"
+  fileline = 299
+  comment = "The variable tag should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/proxyman/inbound/worker.go"
+  fileline = 301
+  comment = "The variable Network_UDP should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/proxyman/inbound/worker.go"
+  fileline = 296
+  comment = "The variable session should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/proxyman/inbound/worker.go"
+  fileline = 305
+  comment = "The variable w should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/proxyman/inbound/worker.go"
+  fileline = 301
+  comment = "The variable proxy should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/proxyman/inbound/worker.go"
+  fileline = 298
+  comment = "The variable w should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/proxyman/inbound/worker.go"
+  fileline = 301
+  comment = "The variable conn should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/proxyman/inbound/worker.go"
+  fileline = 301
+  comment = "The variable w should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/proxyman/inbound/worker.go"
+  fileline = 288
+  comment = "The variable session should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/proxyman/inbound/worker.go"
+  fileline = 298
+  comment = "The variable address should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/proxyman/inbound/worker.go"
+  fileline = 304
+  comment = "The variable conn should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/proxyman/inbound/worker.go"
+  fileline = 301
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/proxyman/inbound/worker.go"
+  fileline = 298
+  comment = "The variable Gateway should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/proxyman/inbound/worker.go"
+  fileline = 296
+  comment = "The variable session should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/proxyman/inbound/worker.go"
+  fileline = 299
+  comment = "The variable w should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/proxyman/inbound/worker.go"
+  fileline = 304
+  comment = "The variable Close should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/proxyman/inbound/worker.go"
+  fileline = 298
+  comment = "The variable UDPDestination should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/proxyman/inbound/worker.go"
+  fileline = 301
+  comment = "The variable w should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/proxyman/inbound/worker.go"
+  fileline = 301
+  comment = "The variable dispatcher should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/proxyman/inbound/worker.go"
+  fileline = 298
+  comment = "The variable w should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/proxyman/inbound/worker.go"
+  fileline = 301
+  comment = "The variable net should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/proxyman/inbound/worker.go"
+  fileline = 299
+  comment = "The variable Tag should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/proxyman/inbound/worker.go"
+  fileline = 289
+  comment = "The variable session should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/proxyman/inbound/worker.go"
+  fileline = 291
+  comment = "The variable originalDest should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/proxyman/inbound/worker.go"
+  fileline = 305
+  comment = "The variable id should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/proxyman/inbound/worker.go"
+  fileline = 291
+  comment = "The variable IsValid should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/proxyman/inbound/worker.go"
+  fileline = 287
+  comment = "The variable context should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/proxyman/inbound/worker.go"
+  fileline = 298
+  comment = "The variable port should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/proxyman/inbound/worker.go"
+  fileline = 287
+  comment = "The variable Background should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/proxyman/inbound/worker.go"
+  fileline = 288
+  comment = "The variable NewID should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/proxyman/inbound/worker.go"
+  fileline = 289
+  comment = "The variable ContextWithID should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/proxyman/inbound/worker.go"
+  fileline = 301
+  comment = "The variable Process should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/proxyman/inbound/worker.go"
+  fileline = 302
+  comment = "The variable ExportIDToError should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/proxyman/inbound/worker.go"
+  fileline = 302
+  comment = "The variable session should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/proxyman/inbound/worker.go"
+  fileline = 302
+  comment = "The variable WriteToLog should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/proxyman/inbound/worker.go"
+  fileline = 302
+  comment = "The variable ctx should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/proxyman/inbound/worker.go"
+  fileline = 302
+  comment = "The variable newError should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/proxyman/inbound/worker.go"
+  fileline = 302
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/proxyman/inbound/worker.go"
+  fileline = 302
+  comment = "The variable Base should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/proxyman/inbound/worker.go"
+  fileline = 293
+  comment = "The variable Target should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/proxyman/inbound/worker.go"
+  fileline = 292
+  comment = "The variable session should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/proxyman/inbound/worker.go"
+  fileline = 293
+  comment = "The variable originalDest should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/proxyman/inbound/worker.go"
+  fileline = 292
+  comment = "The variable session should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/proxyman/inbound/worker.go"
+  fileline = 292
+  comment = "The variable Outbound should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "app/proxyman/inbound/worker.go"
+  fileline = 292
+  comment = "The variable ContextWithOutbound should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/http/http_test.go"
+  fileline = 42
+  comment = "The variable Bytes should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/http/http_test.go"
+  fileline = 39
+  comment = "The variable conn should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/http/http_test.go"
+  fileline = 42
+  comment = "The variable conn should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/http/http_test.go"
+  fileline = 39
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/http/http_test.go"
+  fileline = 43
+  comment = "The variable Must should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/http/http_test.go"
+  fileline = 42
+  comment = "The variable Write should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/http/http_test.go"
+  fileline = 42
+  comment = "The variable b should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/http/http_test.go"
+  fileline = 39
+  comment = "The variable b should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/http/http_test.go"
+  fileline = 43
+  comment = "The variable common should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/http/http_test.go"
+  fileline = 39
+  comment = "The variable ReadFrom should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/http/http_test.go"
+  fileline = 35
+  comment = "The variable New should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/http/http_test.go"
+  fileline = 33
+  comment = "The variable conn should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/http/http_test.go"
+  fileline = 33
+  comment = "The variable Close should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/http/http_test.go"
+  fileline = 36
+  comment = "The variable Release should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "transport/internet/http/http_test.go"
+  fileline = 35
+  comment = "The variable buf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "common/task/task.go"
+  fileline = 30
+  comment = "The variable Signal should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "common/task/task.go"
+  fileline = 30
+  comment = "The variable s should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "common/task/task.go"
+  fileline = 29
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "common/task/task.go"
+  fileline = 35
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "common/task/task.go"
+  fileline = 35
+  comment = "The variable done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "testing/scenarios/policy_test.go"
+  fileline = 40
+  comment = "The variable Read should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "testing/scenarios/policy_test.go"
+  fileline = 39
+  comment = "The variable make should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "testing/scenarios/policy_test.go"
+  fileline = 41
+  comment = "The variable Close should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "testing/scenarios/policy_test.go"
+  fileline = 35
+  comment = "The variable Accept should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "testing/scenarios/policy_test.go"
+  fileline = 39
+  comment = "The variable byte should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "testing/scenarios/policy_test.go"
+  fileline = 36
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "testing/scenarios/policy_test.go"
+  fileline = 35
+  comment = "The variable listener should be passed in as arguments to go-routines to avoid race conditions."

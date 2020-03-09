@@ -1,0 +1,8 @@
+repo = "github.com/drone/drone"
+rule = "codelingo/go/default-in-type-switch"
+sha = "296471d489c197881745cedb703e8c0cc23e140f"
+
+[[issues]]
+  filepath = "operator/runner/runner.go"
+  fileline = 101
+  comment = "Always include a default case when using a type switch."

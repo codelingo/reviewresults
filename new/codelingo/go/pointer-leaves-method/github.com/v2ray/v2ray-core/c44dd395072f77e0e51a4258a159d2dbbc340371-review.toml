@@ -1,0 +1,8 @@
+repo = "github.com/v2ray/v2ray-core"
+rule = "codelingo/go/pointer-leaves-method"
+sha = "c44dd395072f77e0e51a4258a159d2dbbc340371"
+
+[[issues]]
+  filepath = "common/mux/session.go"
+  fileline = 57
+  comment = "The receiver pointer is returned from this method. Make a copy instead."
