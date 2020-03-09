@@ -1,0 +1,353 @@
+repo = "github.com/containous/traefik"
+rule = "codelingo/go/unchecked-type-assertion"
+sha = "16c48071621ac2f38bd02d55854574f384c913f0"
+
+[[issues]]
+  filepath = "pkg/provider/kubernetes/crd/client.go"
+  fileline = 362
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/provider/marathon/mocks/Marathon.go"
+  fileline = 336
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/provider/marathon/mocks/Marathon.go"
+  fileline = 525
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/provider/marathon/mocks/Marathon.go"
+  fileline = 761
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/provider/marathon/mocks/Marathon.go"
+  fileline = 290
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/provider/marathon/mocks/Marathon.go"
+  fileline = 465
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/provider/marathon/mocks/Marathon.go"
+  fileline = 911
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/provider/marathon/mocks/Marathon.go"
+  fileline = 1090
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/provider/marathon/mocks/Marathon.go"
+  fileline = 850
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/provider/kubernetes/ingress/client_mock_test.go"
+  fileline = 40
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/provider/marathon/mocks/Marathon.go"
+  fileline = 548
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/provider/marathon/mocks/Marathon.go"
+  fileline = 1135
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/provider/marathon/mocks/Marathon.go"
+  fileline = 1031
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/provider/marathon/mocks/Marathon.go"
+  fileline = 359
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/middlewares/accesslog/logger_formatters.go"
+  fileline = 61
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/provider/marathon/mocks/Marathon.go"
+  fileline = 405
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/provider/marathon/mocks/Marathon.go"
+  fileline = 888
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/metrics/metrics_test.go"
+  fileline = 45
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/provider/marathon/mocks/Marathon.go"
+  fileline = 985
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/provider/marathon/mocks/Marathon.go"
+  fileline = 48
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/provider/marathon/mocks/Marathon.go"
+  fileline = 487
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/server/configurationwatcher.go"
+  fileline = 138
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/metrics/metrics_test.go"
+  fileline = 46
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/provider/marathon/mocks/Marathon.go"
+  fileline = 185
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/provider/marathon/mocks/Marathon.go"
+  fileline = 26
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/tls/tlsmanager_test.go"
+  fileline = 88
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/provider/marathon/mocks/Marathon.go"
+  fileline = 865
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/provider/marathon/mocks/Marathon.go"
+  fileline = 163
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/middlewares/ratelimiter/rate_limiter.go"
+  fileline = 121
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "internal/gendoc.go"
+  fileline = 137
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/provider/marathon/mocks/Marathon.go"
+  fileline = 1195
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/provider/marathon/mocks/Marathon.go"
+  fileline = 140
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/provider/marathon/mocks/Marathon.go"
+  fileline = 783
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/provider/marathon/mocks/Marathon.go"
+  fileline = 1068
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/provider/marathon/mocks/Marathon.go"
+  fileline = 1008
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/provider/marathon/mocks/Marathon.go"
+  fileline = 382
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/middlewares/handler_switcher.go"
+  fileline = 28
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/provider/marathon/mocks/Marathon.go"
+  fileline = 502
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/provider/marathon/mocks/Marathon.go"
+  fileline = 635
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/provider/marathon/mocks/Marathon.go"
+  fileline = 230
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/provider/marathon/mocks/Marathon.go"
+  fileline = 1172
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/provider/marathon/mocks/Marathon.go"
+  fileline = 657
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/provider/marathon/mocks/Marathon.go"
+  fileline = 313
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/provider/marathon/mocks/Marathon.go"
+  fileline = 117
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/provider/marathon/mocks/Marathon.go"
+  fileline = 805
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/provider/marathon/mocks/Marathon.go"
+  fileline = 428
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/provider/kubernetes/crd/client_mock_test.go"
+  fileline = 55
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/middlewares/retry/retry_test.go"
+  fileline = 149
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/provider/marathon/mocks/Marathon.go"
+  fileline = 614
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/server/service/loadbalancer/wrr/wrr.go"
+  fileline = 92
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/provider/kubernetes/ingress/client.go"
+  fileline = 318
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/middlewares/handler_switcher.go"
+  fileline = 22
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/provider/marathon/mocks/Marathon.go"
+  fileline = 703
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/provider/marathon/mocks/Marathon.go"
+  fileline = 207
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/provider/marathon/mocks/Marathon.go"
+  fileline = 828
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/provider/marathon/mocks/Marathon.go"
+  fileline = 71
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/provider/marathon/mocks/Marathon.go"
+  fileline = 593
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/provider/marathon/mocks/Marathon.go"
+  fileline = 739
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/provider/marathon/mocks/Marathon.go"
+  fileline = 680
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/provider/marathon/mocks/Marathon.go"
+  fileline = 253
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/metrics/metrics_test.go"
+  fileline = 47
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/provider/marathon/mocks/Marathon.go"
+  fileline = 1218
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/tls/tlsmanager_test.go"
+  fileline = 63
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/provider/marathon/mocks/Marathon.go"
+  fileline = 94
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/provider/marathon/mocks/Marathon.go"
+  fileline = 957
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/server/server_entrypoint_tcp.go"
+  fileline = 305
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/provider/marathon/mocks/Marathon.go"
+  fileline = 934
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/provider/marathon/mocks/Marathon.go"
+  fileline = 1112
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/provider/marathon/mocks/Marathon.go"
+  fileline = 571
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "pkg/middlewares/accesslog/logger.go"
+  fileline = 301
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
