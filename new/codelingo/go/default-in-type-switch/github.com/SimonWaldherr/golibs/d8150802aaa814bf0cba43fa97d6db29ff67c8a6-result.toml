@@ -3,9 +3,13 @@ rule = "codelingo/go/default-in-type-switch"
 sha = "d8150802aaa814bf0cba43fa97d6db29ff67c8a6"
 
 [[issues]]
-  filepath = "foreach/foreach_test.go"
   fileline = 81
+  filepath = "foreach/foreach_test.go"
+  fixed = false
+  ignored = "dup"
 
 [[issues]]
-  filepath = "node/node_test.go"
   fileline = 37
+  filepath = "node/node_test.go"
+  fixed = false
+  ignored = "dup"

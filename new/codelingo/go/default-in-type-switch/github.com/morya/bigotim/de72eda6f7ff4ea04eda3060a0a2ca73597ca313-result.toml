@@ -3,9 +3,13 @@ rule = "codelingo/go/default-in-type-switch"
 sha = "de72eda6f7ff4ea04eda3060a0a2ca73597ca313"
 
 [[issues]]
-  filepath = "cmd/server/coder.go"
   fileline = 18
+  filepath = "cmd/server/coder.go"
+  fixed = false
+  ignored = "unused code"
 
 [[issues]]
-  filepath = "cmd/client/coder.go"
   fileline = 23
+  filepath = "cmd/client/coder.go"
+  fixed = false
+  ignored = "unused code"

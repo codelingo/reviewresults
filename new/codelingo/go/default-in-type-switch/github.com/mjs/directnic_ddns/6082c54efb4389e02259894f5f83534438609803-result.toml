@@ -3,21 +3,31 @@ rule = "codelingo/go/default-in-type-switch"
 sha = "6082c54efb4389e02259894f5f83534438609803"
 
 [[issues]]
-  filepath = "vendor/github.com/pelletier/go-toml/tomltree_write.go"
   fileline = 91
+  filepath = "vendor/github.com/pelletier/go-toml/tomltree_write.go"
+  fixed = false
+  ignored = "handled by fallthrough"
 
 [[issues]]
-  filepath = "vendor/github.com/pelletier/go-toml/tomltree_write.go"
   fileline = 319
-
-[[issues]]
-  filepath = "vendor/github.com/pelletier/go-toml/toml.go"
-  fileline = 203
-
-[[issues]]
-  filepath = "vendor/github.com/pelletier/go-toml/toml.go"
-  fileline = 266
-
-[[issues]]
   filepath = "vendor/github.com/pelletier/go-toml/tomltree_write.go"
+  fixed = false
+  ignored = "in vendor"
+
+[[issues]]
+  fileline = 203
+  filepath = "vendor/github.com/pelletier/go-toml/toml.go"
+  fixed = false
+  ignored = "in vendor"
+
+[[issues]]
+  fileline = 266
+  filepath = "vendor/github.com/pelletier/go-toml/toml.go"
+  fixed = false
+  ignored = "in vendor"
+
+[[issues]]
   fileline = 220
+  filepath = "vendor/github.com/pelletier/go-toml/tomltree_write.go"
+  fixed = false
+  ignored = "in vendor"

@@ -3,5 +3,7 @@ rule = "codelingo/go/default-in-type-switch"
 sha = "9332e1cd106659ea77f28a4bc417ba96c0a4e7b7"
 
 [[issues]]
-  filepath = "src/flatten-arr/main.go"
   fileline = 13
+  filepath = "src/flatten-arr/main.go"
+  fixed = false
+  ignored = "catch-all case present"
