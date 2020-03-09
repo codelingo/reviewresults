@@ -3,5 +3,7 @@ rule = "codelingo/go/insecure-http-connection"
 sha = "f0b6715757838d21fe9a88b7e8103531e15c23cb"
 
 [[issues]]
-  filepath = "elasticsearch_integration_test.go"
   fileline = 124
+  filepath = "elasticsearch_integration_test.go"
+  fixed = false
+  ignored = "in test"
