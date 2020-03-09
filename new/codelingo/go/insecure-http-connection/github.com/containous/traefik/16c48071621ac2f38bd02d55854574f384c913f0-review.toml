@@ -3,176 +3,240 @@ rule = "codelingo/go/insecure-http-connection"
 sha = "16c48071621ac2f38bd02d55854574f384c913f0"
 
 [[issues]]
-  filepath = "integration/https_test.go"
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
   fileline = 87
-  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+  filepath = "integration/https_test.go"
+  fixed = false
+  ignored = "in test"
 
 [[issues]]
-  filepath = "integration/https_test.go"
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
   fileline = 849
-  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+  filepath = "integration/https_test.go"
+  fixed = false
+  ignored = "in test"
 
 [[issues]]
-  filepath = "integration/https_test.go"
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
   fileline = 143
-  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+  filepath = "integration/https_test.go"
+  fixed = false
+  ignored = "in test"
 
 [[issues]]
-  filepath = "integration/https_test.go"
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
   fileline = 842
-  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+  filepath = "integration/https_test.go"
+  fixed = false
+  ignored = "in test"
 
 [[issues]]
-  filepath = "integration/https_test.go"
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
   fileline = 780
-  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+  filepath = "integration/https_test.go"
+  fixed = false
+  ignored = "in test"
 
 [[issues]]
-  filepath = "integration/https_test.go"
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
   fileline = 159
-  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+  filepath = "integration/https_test.go"
+  fixed = false
+  ignored = "in test"
 
 [[issues]]
-  filepath = "integration/https_test.go"
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
   fileline = 93
-  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+  filepath = "integration/https_test.go"
+  fixed = false
+  ignored = "in test"
 
 [[issues]]
-  filepath = "integration/https_test.go"
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
   fileline = 151
-  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+  filepath = "integration/https_test.go"
+  fixed = false
+  ignored = "in test"
 
 [[issues]]
-  filepath = "integration/https_test.go"
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
   fileline = 912
-  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+  filepath = "integration/https_test.go"
+  fixed = false
+  ignored = "in test"
 
 [[issues]]
-  filepath = "integration/https_test.go"
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
   fileline = 229
-  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+  filepath = "integration/https_test.go"
+  fixed = false
+  ignored = "in test"
 
 [[issues]]
-  filepath = "integration/https_test.go"
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
   fileline = 773
-  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+  filepath = "integration/https_test.go"
+  fixed = false
+  ignored = "in test"
 
 [[issues]]
-  filepath = "integration/https_test.go"
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
   fileline = 237
-  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+  filepath = "integration/https_test.go"
+  fixed = false
+  ignored = "in test"
 
 [[issues]]
-  filepath = "integration/https_test.go"
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
   fileline = 350
-  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+  filepath = "integration/https_test.go"
+  fixed = false
+  ignored = "in test"
 
 [[issues]]
-  filepath = "integration/https_test.go"
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
   fileline = 1093
-  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+  filepath = "integration/https_test.go"
+  fixed = false
+  ignored = "in test"
 
 [[issues]]
-  filepath = "integration/https_test.go"
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
   fileline = 423
-  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+  filepath = "integration/https_test.go"
+  fixed = false
+  ignored = "in test"
 
 [[issues]]
-  filepath = "integration/https_test.go"
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
   fileline = 534
-  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+  filepath = "integration/https_test.go"
+  fixed = false
+  ignored = "in test"
 
 [[issues]]
-  filepath = "integration/https_test.go"
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
   fileline = 40
-  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+  filepath = "integration/https_test.go"
+  fixed = false
+  ignored = "in test"
 
 [[issues]]
-  filepath = "integration/https_test.go"
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
   fileline = 654
-  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+  filepath = "integration/https_test.go"
+  fixed = false
+  ignored = "in test"
 
 [[issues]]
-  filepath = "integration/https_test.go"
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
   fileline = 673
-  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+  filepath = "integration/https_test.go"
+  fixed = false
+  ignored = "in test"
 
 [[issues]]
-  filepath = "integration/https_test.go"
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
   fileline = 488
-  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+  filepath = "integration/https_test.go"
+  fixed = false
+  ignored = "in test"
 
 [[issues]]
-  filepath = "integration/https_test.go"
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
   fileline = 288
-  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+  filepath = "integration/https_test.go"
+  fixed = false
+  ignored = "in test"
 
 [[issues]]
-  filepath = "integration/https_test.go"
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
   fileline = 578
-  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+  filepath = "integration/https_test.go"
+  fixed = false
+  ignored = "in test"
 
 [[issues]]
-  filepath = "integration/https_test.go"
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
   fileline = 630
-  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+  filepath = "integration/https_test.go"
+  fixed = false
+  ignored = "in test"
 
 [[issues]]
-  filepath = "integration/https_test.go"
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
   fileline = 558
-  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+  filepath = "integration/https_test.go"
+  fixed = false
+  ignored = "in test"
 
 [[issues]]
-  filepath = "integration/https_test.go"
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
   fileline = 386
-  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+  filepath = "integration/https_test.go"
+  fixed = false
+  ignored = "in test"
 
 [[issues]]
-  filepath = "integration/https_test.go"
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
   fileline = 458
-  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
-
-[[issues]]
   filepath = "integration/https_test.go"
+  fixed = false
+  ignored = "in test"
+
+[[issues]]
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
   fileline = 314
-  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+  filepath = "integration/https_test.go"
+  fixed = false
+  ignored = "in test"
 
 [[issues]]
-  filepath = "integration/tcp_test.go"
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
   fileline = 196
-  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
-
-[[issues]]
   filepath = "integration/tcp_test.go"
+  fixed = false
+  ignored = "in test"
+
+[[issues]]
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
   fileline = 54
-  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+  filepath = "integration/tcp_test.go"
+  fixed = false
+  ignored = "in test"
 
 [[issues]]
-  filepath = "integration/acme_test.go"
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
   fileline = 453
-  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
-
-[[issues]]
   filepath = "integration/acme_test.go"
+  fixed = false
+  ignored = "in test"
+
+[[issues]]
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
   fileline = 466
-  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+  filepath = "integration/acme_test.go"
+  fixed = false
+  ignored = "in test"
 
 [[issues]]
-  filepath = "integration/tls_client_headers_test.go"
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
   fileline = 63
-  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+  filepath = "integration/tls_client_headers_test.go"
+  fixed = false
+  ignored = "in test"
 
 [[issues]]
-  filepath = "pkg/server/service/roundtripper.go"
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
   fileline = 70
-  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+  filepath = "pkg/server/service/roundtripper.go"
 
 [[issues]]
-  filepath = "pkg/server/service/proxy_websocket_test.go"
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
   fileline = 575
-  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+  filepath = "pkg/server/service/proxy_websocket_test.go"
 
 [[issues]]
-  filepath = "pkg/server/service/proxy_websocket_test.go"
-  fileline = 594
   comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+  fileline = 594
+  filepath = "pkg/server/service/proxy_websocket_test.go"
