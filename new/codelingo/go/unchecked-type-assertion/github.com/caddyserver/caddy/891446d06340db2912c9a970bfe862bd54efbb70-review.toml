@@ -1,0 +1,158 @@
+repo = "github.com/caddyserver/caddy"
+rule = "codelingo/go/unchecked-type-assertion"
+sha = "891446d06340db2912c9a970bfe862bd54efbb70"
+
+[[issues]]
+  filepath = "caddyfile/json.go"
+  fileline = 138
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "caddyhttp/httpserver/mitm.go"
+  fileline = 366
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "caddyhttp/httpserver/server.go"
+  fileline = 320
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "caddyhttp/rewrite/setup_test.go"
+  fileline = 195
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "caddytls/setup.go"
+  fileline = 99
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/reverseproxy.go"
+  fileline = 66
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "caddyhttp/templates/templates.go"
+  fileline = 45
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "caddyhttp/httpserver/plugin_test.go"
+  fileline = 144
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "caddyhttp/status/setup_test.go"
+  fileline = 121
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/setup_test.go"
+  fileline = 187
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "caddyhttp/httpserver/plugin_test.go"
+  fileline = 345
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "caddyhttp/httpserver/plugin_test.go"
+  fileline = 178
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "caddyhttp/rewrite/setup_test.go"
+  fileline = 108
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "caddyhttp/httpserver/server.go"
+  fileline = 289
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "caddyhttp/httpserver/replacer_test.go"
+  fileline = 47
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "caddyhttp/status/status.go"
+  fileline = 59
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "caddyhttp/rewrite/setup_test.go"
+  fileline = 107
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "caddyhttp/httpserver/recorder.go"
+  fileline = 218
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "caddyhttp/markdown/process.go"
+  fileline = 91
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "caddytls/selfsigned.go"
+  fileline = 75
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "caddyhttp/httpserver/plugin.go"
+  fileline = 342
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "caddyhttp/status/setup.go"
+  fileline = 68
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "caddyhttp/httpserver/plugin.go"
+  fileline = 83
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "caddyhttp/rewrite/setup_test.go"
+  fileline = 196
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "caddyhttp/httpserver/plugin_test.go"
+  fileline = 326
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "caddyhttp/httpserver/https.go"
+  fileline = 35
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "caddyhttp/httpserver/plugin_test.go"
+  fileline = 192
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "caddyhttp/status/setup.go"
+  fileline = 93
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "caddyhttp/httpserver/tplcontext.go"
+  fileline = 314
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "caddyhttp/gzip/setup.go"
+  fileline = 171
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "caddytls/setup.go"
+  fileline = 73
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."

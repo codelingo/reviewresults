@@ -1,0 +1,13 @@
+repo = "github.com/caddyserver/caddy"
+rule = "codelingo/lomik-go-carbon/missing-stop-ticker"
+sha = "891446d06340db2912c9a970bfe862bd54efbb70"
+
+[[issues]]
+  filepath = "caddytls/crypto.go"
+  fileline = 34
+  comment = "Stop the ticker to release associated resources."
+
+[[issues]]
+  filepath = "caddytls/crypto_test.go"
+  fileline = 47
+  comment = "Stop the ticker to release associated resources."

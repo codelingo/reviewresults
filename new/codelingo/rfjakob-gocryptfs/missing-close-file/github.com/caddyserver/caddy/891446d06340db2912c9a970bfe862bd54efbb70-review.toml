@@ -1,0 +1,8 @@
+repo = "github.com/caddyserver/caddy"
+rule = "codelingo/rfjakob-gocryptfs/missing-close-file"
+sha = "891446d06340db2912c9a970bfe862bd54efbb70"
+
+[[issues]]
+  filepath = "caddyhttp/errors/errors_test.go"
+  fileline = 50
+  comment = "Close the file when you are done"

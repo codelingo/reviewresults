@@ -1,0 +1,103 @@
+repo = "github.com/caddyserver/caddy"
+rule = "codelingo/go/shadowed-variable"
+sha = "891446d06340db2912c9a970bfe862bd54efbb70"
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 166
+  comment = "Variable r shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "caddyhttp/fastcgi/fastcgi_test.go"
+  fileline = 179
+  comment = "Variable ctx shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "caddytls/config.go"
+  fileline = 121
+  comment = "Variable ok shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/upstream_test.go"
+  fileline = 573
+  comment = "Variable tests shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "caddytls/setup.go"
+  fileline = 186
+  comment = "Variable ok shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "caddytls/setup.go"
+  fileline = 194
+  comment = "Variable ok shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "caddytls/setup.go"
+  fileline = 170
+  comment = "Variable ok shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "caddytls/setup.go"
+  fileline = 164
+  comment = "Variable ok shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "caddyhttp/httpserver/replacer_test.go"
+  fileline = 154
+  comment = "Variable repl shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "caddyhttp/gzip/requestfilter_test.go"
+  fileline = 85
+  comment = "Variable r shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "caddyhttp/gzip/requestfilter_test.go"
+  fileline = 76
+  comment = "Variable r shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "caddyhttp/gzip/requestfilter_test.go"
+  fileline = 92
+  comment = "Variable r shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "caddyhttp/rewrite/to_test.go"
+  fileline = 48
+  comment = "Variable uri shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 334
+  comment = "Variable r shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 271
+  comment = "Variable w shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 272
+  comment = "Variable code shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 1163
+  comment = "Variable p shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "caddyhttp/proxy/proxy_test.go"
+  fileline = 1129
+  comment = "Variable p shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "caddytls/setup_test.go"
+  fileline = 286
+  comment = "Variable cfg shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "caddytls/setup_test.go"
+  fileline = 288
+  comment = "Variable c shadows a variable of the same name declared in an outer scope."
