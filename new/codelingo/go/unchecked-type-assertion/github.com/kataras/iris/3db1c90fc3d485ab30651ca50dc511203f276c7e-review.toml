@@ -1,0 +1,253 @@
+repo = "github.com/kataras/iris"
+rule = "codelingo/go/unchecked-type-assertion"
+sha = "3db1c90fc3d485ab30651ca50dc511203f276c7e"
+
+[[issues]]
+  filepath = "core/memstore/memstore_test.go"
+  fileline = 64
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "mvc/controller.go"
+  fileline = 479
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "core/memstore/memstore.go"
+  fileline = 580
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "core/memstore/memstore.go"
+  fileline = 282
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "hero/func_result.go"
+  fileline = 268
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "context/gzip_response_writer.go"
+  fileline = 36
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "core/memstore/memstore.go"
+  fileline = 312
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "core/memstore/memstore_test.go"
+  fileline = 86
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "core/memstore/memstore_test.go"
+  fileline = 43
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "core/memstore/memstore_test.go"
+  fileline = 39
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "core/memstore/memstore.go"
+  fileline = 402
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "core/memstore/memstore_test.go"
+  fileline = 28
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "core/memstore/memstore_test.go"
+  fileline = 31
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "core/memstore/memstore_test.go"
+  fileline = 90
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "core/handlerconv/from_std.go"
+  fileline = 17
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "i18n/loader.go"
+  fileline = 125
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "core/memstore/memstore_test.go"
+  fileline = 74
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "core/memstore/memstore_test.go"
+  fileline = 77
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "_examples/websocket/socketio/main.go"
+  fileline = 34
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "context/transaction.go"
+  fileline = 163
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "core/memstore/memstore_test.go"
+  fileline = 57
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "core/memstore/memstore_test.go"
+  fileline = 17
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "core/memstore/memstore.go"
+  fileline = 545
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "core/memstore/memstore_test.go"
+  fileline = 54
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "core/memstore/memstore.go"
+  fileline = 499
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "core/memstore/memstore.go"
+  fileline = 200
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "context/gzip_response_writer.go"
+  fileline = 68
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "core/memstore/memstore_test.go"
+  fileline = 108
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "sessions/sessiondb/redis/driver_radix.go"
+  fileline = 161
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "_examples/experimental-handlers/jwt/main.go"
+  fileline = 34
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "_examples/routing/macros/main.go"
+  fileline = 71
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "mvc/controller.go"
+  fileline = 466
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "hero/di/reflect.go"
+  fileline = 39
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "_examples/routing/custom-context/new-implementation/main.go"
+  fileline = 52
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "core/memstore/memstore.go"
+  fileline = 159
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "core/memstore/memstore_test.go"
+  fileline = 67
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "core/memstore/memstore_test.go"
+  fileline = 20
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "context/problem.go"
+  fileline = 283
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "core/memstore/memstore.go"
+  fileline = 612
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "context/context.go"
+  fileline = 3727
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "_examples/sessions/middleware/main.go"
+  fileline = 121
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "_examples/experimental-handlers/jwt/main.go"
+  fileline = 29
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "core/memstore/memstore.go"
+  fileline = 648
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "core/memstore/memstore.go"
+  fileline = 452
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "core/memstore/memstore_test.go"
+  fileline = 102
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "core/memstore/memstore.go"
+  fileline = 241
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "_examples/http_request/read-json-struct-validation/main.go"
+  fileline = 134
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "context/pool.go"
+  fileline = 36
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "sessions/sessiondb/redis/driver_redigo.go"
+  fileline = 100
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "core/memstore/memstore.go"
+  fileline = 353
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
