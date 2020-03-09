@@ -1,0 +1,938 @@
+repo = "github.com/kataras/iris"
+rule = "codelingo/go/unsafe-go-routine-variables"
+sha = "3db1c90fc3d485ab30651ca50dc511203f276c7e"
+
+[[issues]]
+  filepath = "_examples/http-listening/notify-on-shutdown/main.go"
+  fileline = 21
+  comment = "The variable Second should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http-listening/notify-on-shutdown/main.go"
+  fileline = 21
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http-listening/notify-on-shutdown/main.go"
+  fileline = 20
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http-listening/notify-on-shutdown/main.go"
+  fileline = 26
+  comment = "The variable app should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http-listening/notify-on-shutdown/main.go"
+  fileline = 22
+  comment = "The variable Background should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http-listening/notify-on-shutdown/main.go"
+  fileline = 22
+  comment = "The variable context should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http-listening/notify-on-shutdown/main.go"
+  fileline = 20
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http-listening/notify-on-shutdown/main.go"
+  fileline = 26
+  comment = "The variable Shutdown should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http-listening/notify-on-shutdown/main.go"
+  fileline = 20
+  comment = "The variable After should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http-listening/notify-on-shutdown/main.go"
+  fileline = 20
+  comment = "The variable Second should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http-listening/notify-on-shutdown/main.go"
+  fileline = 22
+  comment = "The variable WithTimeout should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http-listening/notify-on-shutdown/main.go"
+  fileline = 22
+  comment = "The variable context should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/editor/editor.go"
+  fileline = 185
+  comment = "The variable outputScanner should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/editor/editor.go"
+  fileline = 185
+  comment = "The variable log should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/editor/editor.go"
+  fileline = 185
+  comment = "The variable prefix should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/editor/editor.go"
+  fileline = 185
+  comment = "The variable e should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/editor/editor.go"
+  fileline = 185
+  comment = "The variable Text should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/editor/editor.go"
+  fileline = 184
+  comment = "The variable Scan should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/editor/editor.go"
+  fileline = 184
+  comment = "The variable outputScanner should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http-listening/graceful-shutdown/custom-notifier/main.go"
+  fileline = 25
+  comment = "The variable SIGINT should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http-listening/graceful-shutdown/custom-notifier/main.go"
+  fileline = 21
+  comment = "The variable make should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http-listening/graceful-shutdown/custom-notifier/main.go"
+  fileline = 28
+  comment = "The variable syscall should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http-listening/graceful-shutdown/custom-notifier/main.go"
+  fileline = 22
+  comment = "The variable signal should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http-listening/graceful-shutdown/custom-notifier/main.go"
+  fileline = 27
+  comment = "The variable Kill should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http-listening/graceful-shutdown/custom-notifier/main.go"
+  fileline = 25
+  comment = "The variable syscall should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http-listening/graceful-shutdown/custom-notifier/main.go"
+  fileline = 30
+  comment = "The variable syscall should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http-listening/graceful-shutdown/custom-notifier/main.go"
+  fileline = 21
+  comment = "The variable Signal should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http-listening/graceful-shutdown/custom-notifier/main.go"
+  fileline = 30
+  comment = "The variable SIGTERM should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http-listening/graceful-shutdown/custom-notifier/main.go"
+  fileline = 24
+  comment = "The variable os should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http-listening/graceful-shutdown/custom-notifier/main.go"
+  fileline = 27
+  comment = "The variable os should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http-listening/graceful-shutdown/custom-notifier/main.go"
+  fileline = 28
+  comment = "The variable SIGKILL should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http-listening/graceful-shutdown/custom-notifier/main.go"
+  fileline = 24
+  comment = "The variable Interrupt should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http-listening/graceful-shutdown/custom-notifier/main.go"
+  fileline = 22
+  comment = "The variable Notify should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http-listening/graceful-shutdown/custom-notifier/main.go"
+  fileline = 21
+  comment = "The variable os should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http-listening/graceful-shutdown/custom-notifier/main.go"
+  fileline = 39
+  comment = "The variable Shutdown should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http-listening/graceful-shutdown/custom-notifier/main.go"
+  fileline = 36
+  comment = "The variable Second should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http-listening/graceful-shutdown/custom-notifier/main.go"
+  fileline = 37
+  comment = "The variable stdContext should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http-listening/graceful-shutdown/custom-notifier/main.go"
+  fileline = 37
+  comment = "The variable Background should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http-listening/graceful-shutdown/custom-notifier/main.go"
+  fileline = 37
+  comment = "The variable stdContext should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http-listening/graceful-shutdown/custom-notifier/main.go"
+  fileline = 34
+  comment = "The variable println should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http-listening/graceful-shutdown/custom-notifier/main.go"
+  fileline = 36
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http-listening/graceful-shutdown/custom-notifier/main.go"
+  fileline = 39
+  comment = "The variable app should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http-listening/graceful-shutdown/custom-notifier/main.go"
+  fileline = 37
+  comment = "The variable WithTimeout should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http-listening/graceful-shutdown/custom-notifier/main.go"
+  fileline = 33
+  comment = "The variable ch should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/typescript.go"
+  fileline = 98
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/typescript.go"
+  fileline = 97
+  comment = "The variable Output should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/typescript.go"
+  fileline = 97
+  comment = "The variable cmd should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/typescript.go"
+  fileline = 99
+  comment = "The variable log should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/typescript.go"
+  fileline = 99
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/typescript.go"
+  fileline = 99
+  comment = "The variable t should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/npm/npm.go"
+  fileline = 73
+  comment = "The variable print should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/npm/npm.go"
+  fileline = 62
+  comment = "The variable finish should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/npm/npm.go"
+  fileline = 78
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/npm/npm.go"
+  fileline = 74
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/npm/npm.go"
+  fileline = 78
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/npm/npm.go"
+  fileline = 80
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/npm/npm.go"
+  fileline = 76
+  comment = "The variable Sleep should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/npm/npm.go"
+  fileline = 78
+  comment = "The variable Second should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/npm/npm.go"
+  fileline = 76
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/npm/npm.go"
+  fileline = 72
+  comment = "The variable Second should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/npm/npm.go"
+  fileline = 80
+  comment = "The variable Second should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/npm/npm.go"
+  fileline = 74
+  comment = "The variable Second should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/npm/npm.go"
+  fileline = 78
+  comment = "The variable Sleep should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/npm/npm.go"
+  fileline = 77
+  comment = "The variable print should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/npm/npm.go"
+  fileline = 75
+  comment = "The variable print should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/npm/npm.go"
+  fileline = 74
+  comment = "The variable Sleep should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/npm/npm.go"
+  fileline = 76
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/npm/npm.go"
+  fileline = 72
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/npm/npm.go"
+  fileline = 80
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/npm/npm.go"
+  fileline = 81
+  comment = "The variable print should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/npm/npm.go"
+  fileline = 72
+  comment = "The variable Sleep should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/npm/npm.go"
+  fileline = 74
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/npm/npm.go"
+  fileline = 71
+  comment = "The variable print should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/npm/npm.go"
+  fileline = 72
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/npm/npm.go"
+  fileline = 80
+  comment = "The variable Sleep should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/npm/npm.go"
+  fileline = 76
+  comment = "The variable Second should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/npm/npm.go"
+  fileline = 79
+  comment = "The variable print should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/npm/npm.go"
+  fileline = 65
+  comment = "The variable print should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/npm/npm.go"
+  fileline = 66
+  comment = "The variable finish should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/npm/npm.go"
+  fileline = 66
+  comment = "The variable close should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/npm/npm.go"
+  fileline = 64
+  comment = "The variable v should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/npm/npm.go"
+  fileline = 58
+  comment = "The variable print should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/npm/npm.go"
+  fileline = 56
+  comment = "The variable print should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/npm/npm.go"
+  fileline = 57
+  comment = "The variable print should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http_responsewriter/sse/main.go"
+  fileline = 160
+  comment = "The variable Marshal should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http_responsewriter/sse/main.go"
+  fileline = 152
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http_responsewriter/sse/main.go"
+  fileline = 152
+  comment = "The variable Sleep should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http_responsewriter/sse/main.go"
+  fileline = 160
+  comment = "The variable json should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http_responsewriter/sse/main.go"
+  fileline = 161
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http_responsewriter/sse/main.go"
+  fileline = 157
+  comment = "The variable fmt should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http_responsewriter/sse/main.go"
+  fileline = 166
+  comment = "The variable Notifier should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http_responsewriter/sse/main.go"
+  fileline = 157
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http_responsewriter/sse/main.go"
+  fileline = 156
+  comment = "The variable Timestamp should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http_responsewriter/sse/main.go"
+  fileline = 152
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http_responsewriter/sse/main.go"
+  fileline = 157
+  comment = "The variable Sprintf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http_responsewriter/sse/main.go"
+  fileline = 155
+  comment = "The variable event should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http_responsewriter/sse/main.go"
+  fileline = 156
+  comment = "The variable Unix should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http_responsewriter/sse/main.go"
+  fileline = 157
+  comment = "The variable Message should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http_responsewriter/sse/main.go"
+  fileline = 157
+  comment = "The variable Format should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http_responsewriter/sse/main.go"
+  fileline = 154
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http_responsewriter/sse/main.go"
+  fileline = 157
+  comment = "The variable RFC1123 should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http_responsewriter/sse/main.go"
+  fileline = 166
+  comment = "The variable broker should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http_responsewriter/sse/main.go"
+  fileline = 154
+  comment = "The variable Now should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http_responsewriter/sse/main.go"
+  fileline = 152
+  comment = "The variable Second should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http_responsewriter/sse/main.go"
+  fileline = 162
+  comment = "The variable golog should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http_responsewriter/sse/main.go"
+  fileline = 162
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http_responsewriter/sse/main.go"
+  fileline = 162
+  comment = "The variable Error should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http-listening/listen-addr/omit-server-errors/main_test.go"
+  fileline = 31
+  comment = "The variable Second should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http-listening/listen-addr/omit-server-errors/main_test.go"
+  fileline = 32
+  comment = "The variable stdContext should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http-listening/listen-addr/omit-server-errors/main_test.go"
+  fileline = 32
+  comment = "The variable TODO should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http-listening/listen-addr/omit-server-errors/main_test.go"
+  fileline = 32
+  comment = "The variable stdContext should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http-listening/listen-addr/omit-server-errors/main_test.go"
+  fileline = 31
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http-listening/listen-addr/omit-server-errors/main_test.go"
+  fileline = 31
+  comment = "The variable Sleep should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http-listening/listen-addr/omit-server-errors/main_test.go"
+  fileline = 34
+  comment = "The variable Shutdown should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http-listening/listen-addr/omit-server-errors/main_test.go"
+  fileline = 32
+  comment = "The variable WithTimeout should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http-listening/listen-addr/omit-server-errors/main_test.go"
+  fileline = 32
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http-listening/listen-addr/omit-server-errors/main_test.go"
+  fileline = 34
+  comment = "The variable app should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http-listening/listen-addr/omit-server-errors/main_test.go"
+  fileline = 32
+  comment = "The variable Second should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http-listening/listen-addr/omit-server-errors/main_test.go"
+  fileline = 31
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/typescript.go"
+  fileline = 148
+  comment = "The variable t should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/typescript.go"
+  fileline = 148
+  comment = "The variable compilerMsg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/typescript.go"
+  fileline = 148
+  comment = "The variable log should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/typescript.go"
+  fileline = 145
+  comment = "The variable cmd should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/typescript.go"
+  fileline = 145
+  comment = "The variable Args should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/typescript.go"
+  fileline = 147
+  comment = "The variable Contains should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/typescript.go"
+  fileline = 145
+  comment = "The variable Args should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/typescript.go"
+  fileline = 143
+  comment = "The variable cmd should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/typescript.go"
+  fileline = 145
+  comment = "The variable cmd should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/typescript.go"
+  fileline = 145
+  comment = "The variable cmd should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/typescript.go"
+  fileline = 144
+  comment = "The variable string should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/typescript.go"
+  fileline = 145
+  comment = "The variable Args should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/typescript.go"
+  fileline = 143
+  comment = "The variable Output should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/typescript.go"
+  fileline = 147
+  comment = "The variable strings should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/typescript.go"
+  fileline = 145
+  comment = "The variable len should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/editor/editor.go"
+  fileline = 194
+  comment = "The variable e should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/editor/editor.go"
+  fileline = 194
+  comment = "The variable errScanner should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/editor/editor.go"
+  fileline = 194
+  comment = "The variable Text should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/editor/editor.go"
+  fileline = 194
+  comment = "The variable log should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/editor/editor.go"
+  fileline = 194
+  comment = "The variable prefix should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/editor/editor.go"
+  fileline = 193
+  comment = "The variable Scan should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "typescript/editor/editor.go"
+  fileline = 193
+  comment = "The variable errScanner should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "context/context.go"
+  fileline = 1453
+  comment = "The variable cb should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "context/context.go"
+  fileline = 1452
+  comment = "The variable notify should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "context/context.go"
+  fileline = 1453
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "context/context.go"
+  fileline = 1454
+  comment = "The variable cb should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http_responsewriter/sse-third-party/main.go"
+  fileline = 31
+  comment = "The variable Sleep should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http_responsewriter/sse-third-party/main.go"
+  fileline = 42
+  comment = "The variable sse should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http_responsewriter/sse-third-party/main.go"
+  fileline = 37
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http_responsewriter/sse-third-party/main.go"
+  fileline = 34
+  comment = "The variable Data should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http_responsewriter/sse-third-party/main.go"
+  fileline = 37
+  comment = "The variable Sleep should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http_responsewriter/sse-third-party/main.go"
+  fileline = 38
+  comment = "The variable sse should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http_responsewriter/sse-third-party/main.go"
+  fileline = 31
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http_responsewriter/sse-third-party/main.go"
+  fileline = 42
+  comment = "The variable Event should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http_responsewriter/sse-third-party/main.go"
+  fileline = 39
+  comment = "The variable Data should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http_responsewriter/sse-third-party/main.go"
+  fileline = 38
+  comment = "The variable Event should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http_responsewriter/sse-third-party/main.go"
+  fileline = 33
+  comment = "The variable Publish should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http_responsewriter/sse-third-party/main.go"
+  fileline = 42
+  comment = "The variable s should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http_responsewriter/sse-third-party/main.go"
+  fileline = 43
+  comment = "The variable Data should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http_responsewriter/sse-third-party/main.go"
+  fileline = 33
+  comment = "The variable Event should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http_responsewriter/sse-third-party/main.go"
+  fileline = 41
+  comment = "The variable Second should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http_responsewriter/sse-third-party/main.go"
+  fileline = 38
+  comment = "The variable Publish should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http_responsewriter/sse-third-party/main.go"
+  fileline = 43
+  comment = "The variable byte should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http_responsewriter/sse-third-party/main.go"
+  fileline = 37
+  comment = "The variable Second should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http_responsewriter/sse-third-party/main.go"
+  fileline = 37
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http_responsewriter/sse-third-party/main.go"
+  fileline = 31
+  comment = "The variable Second should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http_responsewriter/sse-third-party/main.go"
+  fileline = 38
+  comment = "The variable s should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http_responsewriter/sse-third-party/main.go"
+  fileline = 42
+  comment = "The variable Publish should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http_responsewriter/sse-third-party/main.go"
+  fileline = 41
+  comment = "The variable Sleep should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http_responsewriter/sse-third-party/main.go"
+  fileline = 33
+  comment = "The variable sse should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http_responsewriter/sse-third-party/main.go"
+  fileline = 41
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http_responsewriter/sse-third-party/main.go"
+  fileline = 34
+  comment = "The variable byte should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http_responsewriter/sse-third-party/main.go"
+  fileline = 41
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http_responsewriter/sse-third-party/main.go"
+  fileline = 39
+  comment = "The variable byte should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http_responsewriter/sse-third-party/main.go"
+  fileline = 33
+  comment = "The variable s should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http_responsewriter/sse-third-party/main.go"
+  fileline = 31
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http-listening/listen-addr/omit-server-errors/main_test.go"
+  fileline = 57
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http-listening/listen-addr/omit-server-errors/main_test.go"
+  fileline = 57
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http-listening/listen-addr/omit-server-errors/main_test.go"
+  fileline = 57
+  comment = "The variable Second should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http-listening/listen-addr/omit-server-errors/main_test.go"
+  fileline = 58
+  comment = "The variable stdContext should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http-listening/listen-addr/omit-server-errors/main_test.go"
+  fileline = 58
+  comment = "The variable stdContext should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http-listening/listen-addr/omit-server-errors/main_test.go"
+  fileline = 58
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http-listening/listen-addr/omit-server-errors/main_test.go"
+  fileline = 58
+  comment = "The variable Second should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http-listening/listen-addr/omit-server-errors/main_test.go"
+  fileline = 57
+  comment = "The variable Sleep should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http-listening/listen-addr/omit-server-errors/main_test.go"
+  fileline = 58
+  comment = "The variable TODO should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http-listening/listen-addr/omit-server-errors/main_test.go"
+  fileline = 58
+  comment = "The variable WithTimeout should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http-listening/listen-addr/omit-server-errors/main_test.go"
+  fileline = 60
+  comment = "The variable Shutdown should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "_examples/http-listening/listen-addr/omit-server-errors/main_test.go"
+  fileline = 60
+  comment = "The variable app should be passed in as arguments to go-routines to avoid race conditions."

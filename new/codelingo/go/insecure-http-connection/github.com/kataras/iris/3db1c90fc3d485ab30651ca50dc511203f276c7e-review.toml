@@ -1,0 +1,28 @@
+repo = "github.com/kataras/iris"
+rule = "codelingo/go/insecure-http-connection"
+sha = "3db1c90fc3d485ab30651ca50dc511203f276c7e"
+
+[[issues]]
+  filepath = "httptest/netutils.go"
+  fileline = 95
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+
+[[issues]]
+  filepath = "core/host/supervisor_test.go"
+  fileline = 27
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+
+[[issues]]
+  filepath = "core/host/proxy.go"
+  fileline = 54
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+
+[[issues]]
+  filepath = "httptest/httptest.go"
+  fileline = 124
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+
+[[issues]]
+  filepath = "core/netutil/tcp.go"
+  fileline = 149
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."

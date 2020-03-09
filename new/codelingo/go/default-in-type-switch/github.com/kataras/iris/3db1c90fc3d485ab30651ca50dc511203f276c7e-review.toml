@@ -1,0 +1,73 @@
+repo = "github.com/kataras/iris"
+rule = "codelingo/go/default-in-type-switch"
+sha = "3db1c90fc3d485ab30651ca50dc511203f276c7e"
+
+[[issues]]
+  filepath = "core/memstore/memstore.go"
+  fileline = 612
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "core/memstore/memstore.go"
+  fileline = 282
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "core/memstore/memstore.go"
+  fileline = 200
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "core/memstore/memstore.go"
+  fileline = 241
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "core/memstore/memstore.go"
+  fileline = 402
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "core/memstore/memstore.go"
+  fileline = 452
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "core/memstore/memstore.go"
+  fileline = 499
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "core/memstore/memstore.go"
+  fileline = 159
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "context/problem.go"
+  fileline = 283
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "core/memstore/memstore.go"
+  fileline = 312
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "core/memstore/memstore.go"
+  fileline = 545
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "core/memstore/memstore.go"
+  fileline = 580
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "core/memstore/memstore.go"
+  fileline = 648
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "core/memstore/memstore.go"
+  fileline = 353
+  comment = "Always include a default case when using a type switch."
