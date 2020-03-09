@@ -3,5 +3,7 @@ rule = "ticker-in-for-select"
 sha = "d8150802aaa814bf0cba43fa97d6db29ff67c8a6"
 
 [[issues]]
-  filepath = "arg/arg.go"
   fileline = 52
+  filepath = "arg/arg.go"
+  fixed = false
+  ignored = "timer duration changes each iter"
