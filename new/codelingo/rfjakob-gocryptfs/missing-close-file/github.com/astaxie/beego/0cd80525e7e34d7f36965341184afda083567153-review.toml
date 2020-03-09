@@ -1,0 +1,38 @@
+repo = "github.com/astaxie/beego"
+rule = "codelingo/rfjakob-gocryptfs/missing-close-file"
+sha = "0cd80525e7e34d7f36965341184afda083567153"
+
+[[issues]]
+  filepath = "logs/multifile_test.go"
+  fileline = 46
+  comment = "Close the file when you are done"
+
+[[issues]]
+  filepath = "staticfile_test.go"
+  fileline = 36
+  comment = "Close the file when you are done"
+
+[[issues]]
+  filepath = "logs/file_test.go"
+  fileline = 93
+  comment = "Close the file when you are done"
+
+[[issues]]
+  filepath = "logs/file_test.go"
+  fileline = 60
+  comment = "Close the file when you are done"
+
+[[issues]]
+  filepath = "utils/file.go"
+  fileline = 68
+  comment = "Close the file when you are done"
+
+[[issues]]
+  filepath = "staticfile_test.go"
+  fileline = 46
+  comment = "Close the file when you are done"
+
+[[issues]]
+  filepath = "staticfile_test.go"
+  fileline = 30
+  comment = "Close the file when you are done"

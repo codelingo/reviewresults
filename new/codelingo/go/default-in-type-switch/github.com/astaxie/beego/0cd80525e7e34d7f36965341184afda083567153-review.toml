@@ -1,0 +1,123 @@
+repo = "github.com/astaxie/beego"
+rule = "codelingo/go/default-in-type-switch"
+sha = "0cd80525e7e34d7f36965341184afda083567153"
+
+[[issues]]
+  filepath = "parser.go"
+  fileline = 100
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "orm/orm_raw.go"
+  fileline = 158
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "orm/orm_raw.go"
+  fileline = 155
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/crypto/acme/jws.go"
+  fileline = 62
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/gopkg.in/yaml.v2/decode.go"
+  fileline = 504
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/gopkg.in/yaml.v2/decode.go"
+  fileline = 444
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/crypto/acme/jws.go"
+  fileline = 128
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "config/config.go"
+  fileline = 212
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "orm/db.go"
+  fileline = 1264
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "orm/models_utils.go"
+  fileline = 185
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "context/output.go"
+  fileline = 98
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "config/config.go"
+  fileline = 181
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "config/config.go"
+  fileline = 114
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "httplib/httplib.go"
+  fileline = 311
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "context/acceptencoder.go"
+  fileline = 176
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/gopkg.in/yaml.v2/decode.go"
+  fileline = 475
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/gopkg.in/yaml.v2/decode.go"
+  fileline = 498
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/crypto/acme/jws.go"
+  fileline = 103
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/gopkg.in/yaml.v2/encode.go"
+  fileline = 91
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "orm/orm_raw.go"
+  fileline = 690
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "orm/db.go"
+  fileline = 1762
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "config/env/env.go"
+  fileline = 78
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "config/env/env.go"
+  fileline = 80
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/gopkg.in/yaml.v2/resolve.go"
+  fileline = 97
+  comment = "Always include a default case when using a type switch."
