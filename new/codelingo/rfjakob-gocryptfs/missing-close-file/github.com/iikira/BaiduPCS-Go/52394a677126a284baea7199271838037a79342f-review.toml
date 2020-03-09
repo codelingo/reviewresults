@@ -1,0 +1,23 @@
+repo = "github.com/iikira/BaiduPCS-Go"
+rule = "codelingo/rfjakob-gocryptfs/missing-close-file"
+sha = "52394a677126a284baea7199271838037a79342f"
+
+[[issues]]
+  filepath = "vendor/github.com/astaxie/beego/utils/mail.go"
+  fileline = 174
+  comment = "Close the file when you are done"
+
+[[issues]]
+  filepath = "vendor/github.com/daaku/go.zipexe/zipexe.go"
+  fileline = 22
+  comment = "Close the file when you are done"
+
+[[issues]]
+  filepath = "vendor/github.com/astaxie/beego/utils/file.go"
+  fileline = 68
+  comment = "Close the file when you are done"
+
+[[issues]]
+  filepath = "vendor/github.com/GeertJohan/go.rice/box.go"
+  fileline = 271
+  comment = "Close the file when you are done"

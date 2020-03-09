@@ -1,0 +1,108 @@
+repo = "github.com/iikira/BaiduPCS-Go"
+rule = "codelingo/go/default-in-type-switch"
+sha = "52394a677126a284baea7199271838037a79342f"
+
+[[issues]]
+  filepath = "vendor/github.com/bitly/go-simplejson/simplejson_go10.go"
+  fileline = 53
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/github.com/bitly/go-simplejson/simplejson_go11.go"
+  fileline = 47
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/github.com/bitly/go-simplejson/simplejson_go11.go"
+  fileline = 32
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/github.com/urfave/cli/app.go"
+  fileline = 519
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/github.com/golang/protobuf/proto/extensions.go"
+  fileline = 96
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/github.com/bitly/go-simplejson/simplejson_go11.go"
+  fileline = 78
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/github.com/dgrijalva/jwt-go/map_claims.go"
+  fileline = 36
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/github.com/golang/protobuf/proto/table_marshal.go"
+  fileline = 324
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/github.com/dgrijalva/jwt-go/map_claims.go"
+  fileline = 23
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "requester/fetch.go"
+  fileline = 79
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "pcsutil/addr.go"
+  fileline = 14
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/github.com/golang/protobuf/proto/table_unmarshal.go"
+  fileline = 366
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/github.com/bitly/go-simplejson/simplejson_go10.go"
+  fileline = 66
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/github.com/urfave/cli/flag.go"
+  fileline = 687
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/github.com/bitly/go-simplejson/simplejson_go10.go"
+  fileline = 27
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/github.com/golang/protobuf/proto/properties.go"
+  fileline = 394
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/github.com/bitly/go-simplejson/simplejson_go11.go"
+  fileline = 63
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/github.com/dgrijalva/jwt-go/map_claims.go"
+  fileline = 56
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/github.com/bitly/go-simplejson/simplejson_go10.go"
+  fileline = 40
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/github.com/json-iterator/go/reflect_json_number.go"
+  fileline = 26
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "requester/fetch.go"
+  fileline = 88
+  comment = "Always include a default case when using a type switch."
