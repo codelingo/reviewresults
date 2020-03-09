@@ -1,0 +1,3318 @@
+repo = "github.com/iikira/BaiduPCS-Go"
+rule = "codelingo/go/unsafe-go-routine-variables"
+sha = "52394a677126a284baea7199271838037a79342f"
+
+[[issues]]
+  filepath = "vendor/github.com/peterh/liner/input.go"
+  fileline = 98
+  comment = "The variable next should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "vendor/github.com/peterh/liner/input.go"
+  fileline = 98
+  comment = "The variable close should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "vendor/github.com/peterh/liner/input.go"
+  fileline = 95
+  comment = "The variable next should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "vendor/github.com/peterh/liner/input.go"
+  fileline = 97
+  comment = "The variable r should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "vendor/github.com/peterh/liner/input.go"
+  fileline = 97
+  comment = "The variable r should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "vendor/github.com/peterh/liner/input.go"
+  fileline = 93
+  comment = "The variable nexter should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "vendor/github.com/peterh/liner/input.go"
+  fileline = 94
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "vendor/github.com/peterh/liner/input.go"
+  fileline = 94
+  comment = "The variable r should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "vendor/github.com/peterh/liner/input.go"
+  fileline = 97
+  comment = "The variable ctrlC should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "vendor/github.com/peterh/liner/input.go"
+  fileline = 94
+  comment = "The variable s should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "vendor/github.com/peterh/liner/input.go"
+  fileline = 97
+  comment = "The variable r should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "vendor/github.com/peterh/liner/input.go"
+  fileline = 94
+  comment = "The variable ReadRune should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "vendor/github.com/peterh/liner/input.go"
+  fileline = 97
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "vendor/github.com/peterh/liner/input.go"
+  fileline = 97
+  comment = "The variable r should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "vendor/github.com/peterh/liner/input.go"
+  fileline = 97
+  comment = "The variable ctrlD should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "vendor/github.com/peterh/liner/input.go"
+  fileline = 97
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "vendor/github.com/peterh/liner/input.go"
+  fileline = 94
+  comment = "The variable r should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcsfunctions/pcsupload/upload.go"
+  fileline = 58
+  comment = "The variable StatusCode should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcsfunctions/pcsupload/upload.go"
+  fileline = 58
+  comment = "The variable resp should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcsfunctions/pcsupload/upload.go"
+  fileline = 60
+  comment = "The variable MultiError should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcsfunctions/pcsupload/upload.go"
+  fileline = 61
+  comment = "The variable Terminated should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcsfunctions/pcsupload/upload.go"
+  fileline = 60
+  comment = "The variable uploader should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcsfunctions/pcsupload/upload.go"
+  fileline = 61
+  comment = "The variable true should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcsfunctions/pcsupload/upload.go"
+  fileline = 53
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcsfunctions/pcsupload/upload.go"
+  fileline = 53
+  comment = "The variable client should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcsfunctions/pcsupload/upload.go"
+  fileline = 54
+  comment = "The variable doneChan should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcsfunctions/pcsupload/upload.go"
+  fileline = 53
+  comment = "The variable uploadURL should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcsfunctions/pcsupload/upload.go"
+  fileline = 53
+  comment = "The variable http should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcsfunctions/pcsupload/upload.go"
+  fileline = 53
+  comment = "The variable mr should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcsfunctions/pcsupload/upload.go"
+  fileline = 53
+  comment = "The variable Req should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcsfunctions/pcsupload/upload.go"
+  fileline = 56
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcsfunctions/pcsupload/upload.go"
+  fileline = 53
+  comment = "The variable MethodPost should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/bg_fg.go"
+  fileline = 86
+  comment = "The variable options should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/bg_fg.go"
+  fileline = 87
+  comment = "The variable BgMap should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/bg_fg.go"
+  fileline = 87
+  comment = "The variable sig should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/bg_fg.go"
+  fileline = 86
+  comment = "The variable RunDownload should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/bg_fg.go"
+  fileline = 86
+  comment = "The variable paths should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 499
+  comment = "The variable CheckRedirect should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 511
+  comment = "The variable cfg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 511
+  comment = "The variable task should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 497
+  comment = "The variable task should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 511
+  comment = "The variable task should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 511
+  comment = "The variable options should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 511
+  comment = "The variable downloadInfo should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 511
+  comment = "The variable task should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 498
+  comment = "The variable PanHTTPClient should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 498
+  comment = "The variable Config should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 497
+  comment = "The variable ID should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 511
+  comment = "The variable ID should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 497
+  comment = "The variable Infof should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 509
+  comment = "The variable Minute should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 509
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 499
+  comment = "The variable http should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 497
+  comment = "The variable pcsCommandVerbose should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 511
+  comment = "The variable savePath should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 510
+  comment = "The variable true should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 499
+  comment = "The variable error should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 499
+  comment = "The variable http should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 498
+  comment = "The variable pcsconfig should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 499
+  comment = "The variable Request should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 511
+  comment = "The variable download should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 499
+  comment = "The variable Request should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 510
+  comment = "The variable SetKeepAlive should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 509
+  comment = "The variable SetTimeout should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 405
+  comment = "The variable task should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 405
+  comment = "The variable ID should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 405
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 405
+  comment = "The variable Printf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 405
+  comment = "The variable fmt should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 402
+  comment = "The variable FilesDirectoriesMeta should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 403
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 402
+  comment = "The variable task should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 402
+  comment = "The variable downloadInfo should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 402
+  comment = "The variable path should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 402
+  comment = "The variable task should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 402
+  comment = "The variable pcs should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 538
+  comment = "The variable task should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 538
+  comment = "The variable StrDownloadFailed should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 538
+  comment = "The variable handleTaskErr should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 538
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 476
+  comment = "The variable handleHTTPLinkURL should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 477
+  comment = "The variable append should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 477
+  comment = "The variable String should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 477
+  comment = "The variable rawDlink should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 476
+  comment = "The variable rawDlink should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 416
+  comment = "The variable savePath should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 416
+  comment = "The variable os should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 416
+  comment = "The variable task should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 416
+  comment = "The variable MkdirAll should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 419
+  comment = "The variable pcs should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 426
+  comment = "The variable k should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 415
+  comment = "The variable IsTest should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 419
+  comment = "The variable baidupcs should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 415
+  comment = "The variable options should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 420
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 419
+  comment = "The variable FilesDirectoriesList should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 419
+  comment = "The variable task should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 419
+  comment = "The variable DefaultOrderOptions should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 419
+  comment = "The variable path should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 438
+  comment = "The variable fileList should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 438
+  comment = "The variable filepath should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 438
+  comment = "The variable k should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 438
+  comment = "The variable Join should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 438
+  comment = "The variable subTask should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 438
+  comment = "The variable savePath should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 438
+  comment = "The variable Filename should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 438
+  comment = "The variable task should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 438
+  comment = "The variable savePath should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 505
+  comment = "The variable errors should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 505
+  comment = "The variable New should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 517
+  comment = "The variable string should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 530
+  comment = "The variable IsStreaming should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 513
+  comment = "The variable IsLocateDownload should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 513
+  comment = "The variable IsLocatePanAPIDownload should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 517
+  comment = "The variable error should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 517
+  comment = "The variable CookieJar should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 513
+  comment = "The variable options should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 513
+  comment = "The variable IsShareDownload should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 530
+  comment = "The variable options should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 513
+  comment = "The variable options should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 513
+  comment = "The variable options should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 517
+  comment = "The variable http should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 430
+  comment = "The variable ID should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 444
+  comment = "The variable fileList should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 433
+  comment = "The variable path should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 444
+  comment = "The variable fmt should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 444
+  comment = "The variable Path should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 433
+  comment = "The variable k should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 437
+  comment = "The variable options should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 433
+  comment = "The variable Path should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 427
+  comment = "The variable lastID should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 431
+  comment = "The variable options should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 444
+  comment = "The variable lastID should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 444
+  comment = "The variable options should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 429
+  comment = "The variable ListTask should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 431
+  comment = "The variable MaxRetry should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 444
+  comment = "The variable Out should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 437
+  comment = "The variable SaveTo should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 444
+  comment = "The variable k should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 430
+  comment = "The variable lastID should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 433
+  comment = "The variable fileList should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 428
+  comment = "The variable dtask should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 434
+  comment = "The variable downloadInfo should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 443
+  comment = "The variable Append should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 431
+  comment = "The variable MaxRetry should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 429
+  comment = "The variable ListTask should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 434
+  comment = "The variable k should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 434
+  comment = "The variable fileList should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 444
+  comment = "The variable Fprintf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 443
+  comment = "The variable dlist should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 485
+  comment = "The variable task should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 485
+  comment = "The variable StrDownloadFailed should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 483
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 485
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 483
+  comment = "The variable ErrShareInfoNotFound should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 485
+  comment = "The variable handleTaskErr should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 525
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 452
+  comment = "The variable savePath should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 452
+  comment = "The variable fmt should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 452
+  comment = "The variable task should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 452
+  comment = "The variable task should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 452
+  comment = "The variable Fprintf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 452
+  comment = "The variable ID should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 452
+  comment = "The variable options should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 452
+  comment = "The variable Out should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 531
+  comment = "The variable path should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 531
+  comment = "The variable dfunc should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 531
+  comment = "The variable pcs should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 531
+  comment = "The variable task should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 531
+  comment = "The variable DownloadStreamFile should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 489
+  comment = "The variable pcs should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 489
+  comment = "The variable getLocatePanLink should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 480
+  comment = "The variable options should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 470
+  comment = "The variable task should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 481
+  comment = "The variable task should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 481
+  comment = "The variable path should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 470
+  comment = "The variable getLocateDownloadLinks should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 469
+  comment = "The variable URL should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 469
+  comment = "The variable url should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 489
+  comment = "The variable task should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 488
+  comment = "The variable options should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 480
+  comment = "The variable IsShareDownload should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 481
+  comment = "The variable getShareDLink should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 470
+  comment = "The variable path should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 489
+  comment = "The variable FsID should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 489
+  comment = "The variable downloadInfo should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 490
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 467
+  comment = "The variable IsLocateDownload should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 488
+  comment = "The variable IsLocatePanAPIDownload should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 467
+  comment = "The variable options should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 471
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 549
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 457
+  comment = "The variable task should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 457
+  comment = "The variable ID should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 457
+  comment = "The variable Out should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 457
+  comment = "The variable options should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 457
+  comment = "The variable Fprintf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 457
+  comment = "The variable fmt should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 457
+  comment = "The variable task should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 457
+  comment = "The variable savePath should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 551
+  comment = "The variable ID should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 551
+  comment = "The variable options should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 554
+  comment = "The variable task should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 550
+  comment = "The variable ErrDownloadFileBanned should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 551
+  comment = "The variable Out should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 554
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 551
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 551
+  comment = "The variable fmt should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 554
+  comment = "The variable handleTaskErr should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 551
+  comment = "The variable task should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 551
+  comment = "The variable Fprintf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 533
+  comment = "The variable task should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 533
+  comment = "The variable pcs should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 533
+  comment = "The variable dfunc should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 533
+  comment = "The variable DownloadFile should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 533
+  comment = "The variable path should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 502
+  comment = "The variable Del should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 502
+  comment = "The variable Header should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 422
+  comment = "The variable ID should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 422
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 422
+  comment = "The variable fmt should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 422
+  comment = "The variable options should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 422
+  comment = "The variable task should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 422
+  comment = "The variable Fprintf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 422
+  comment = "The variable Out should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 440
+  comment = "The variable subTask should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 440
+  comment = "The variable path should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 440
+  comment = "The variable savePath should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 440
+  comment = "The variable GetActiveUser should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 440
+  comment = "The variable GetSavePath should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 440
+  comment = "The variable subTask should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 547
+  comment = "The variable savePath should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 544
+  comment = "The variable converter should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 559
+  comment = "The variable fmt should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 544
+  comment = "The variable task should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 559
+  comment = "The variable options should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 559
+  comment = "The variable ID should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 547
+  comment = "The variable task should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 547
+  comment = "The variable downloadInfo should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 559
+  comment = "The variable Out should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 544
+  comment = "The variable Size should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 547
+  comment = "The variable checkFileValid should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 544
+  comment = "The variable downloadInfo should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 544
+  comment = "The variable MB should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 547
+  comment = "The variable task should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 548
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 559
+  comment = "The variable task should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 559
+  comment = "The variable Fprintf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 449
+  comment = "The variable fmt should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 411
+  comment = "The variable options should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 543
+  comment = "The variable NoCheck should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 449
+  comment = "The variable path should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 496
+  comment = "The variable IsLocatePanAPIDownload should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 411
+  comment = "The variable ID should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 463
+  comment = "The variable string should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 496
+  comment = "The variable options should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 456
+  comment = "The variable options should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 562
+  comment = "The variable atomic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 562
+  comment = "The variable Size should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 449
+  comment = "The variable Fprintf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 449
+  comment = "The variable task should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 414
+  comment = "The variable task should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 414
+  comment = "The variable Isdir should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 496
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 451
+  comment = "The variable savePath should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 451
+  comment = "The variable options should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 537
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 451
+  comment = "The variable IsTest should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 449
+  comment = "The variable task should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 401
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 410
+  comment = "The variable options should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 411
+  comment = "The variable task should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 496
+  comment = "The variable options should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 496
+  comment = "The variable options should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 410
+  comment = "The variable Out should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 462
+  comment = "The variable string should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 496
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 414
+  comment = "The variable downloadInfo should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 399
+  comment = "The variable Done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 451
+  comment = "The variable fileExist should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 451
+  comment = "The variable options should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 449
+  comment = "The variable ID should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 562
+  comment = "The variable AddInt64 should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 410
+  comment = "The variable Fprintf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 411
+  comment = "The variable Fprintf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 401
+  comment = "The variable downloadInfo should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 496
+  comment = "The variable IsLocateDownload should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 449
+  comment = "The variable options should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 399
+  comment = "The variable wg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 543
+  comment = "The variable IsTest should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 410
+  comment = "The variable fmt should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 562
+  comment = "The variable downloadInfo should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 411
+  comment = "The variable String should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 411
+  comment = "The variable task should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 456
+  comment = "The variable IsTest should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 411
+  comment = "The variable downloadInfo should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 451
+  comment = "The variable IsOverwrite should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 496
+  comment = "The variable IsShareDownload should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 449
+  comment = "The variable Out should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 411
+  comment = "The variable fmt should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 562
+  comment = "The variable totalSize should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 562
+  comment = "The variable task should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 537
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 543
+  comment = "The variable options should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 411
+  comment = "The variable Out should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 451
+  comment = "The variable task should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 401
+  comment = "The variable task should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 543
+  comment = "The variable cfg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 521
+  comment = "The variable Minute should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 519
+  comment = "The variable SetCookiejar should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 528
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 521
+  comment = "The variable SetTimeout should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 521
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 524
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 518
+  comment = "The variable Config should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 523
+  comment = "The variable download should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 523
+  comment = "The variable ID should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 523
+  comment = "The variable task should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 523
+  comment = "The variable options should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 520
+  comment = "The variable SetKeepAlive should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 523
+  comment = "The variable cfg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 523
+  comment = "The variable savePath should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 523
+  comment = "The variable task should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 518
+  comment = "The variable pcsconfig should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 518
+  comment = "The variable PCSHTTPClient should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 520
+  comment = "The variable true should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 523
+  comment = "The variable downloadInfo should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 523
+  comment = "The variable task should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 545
+  comment = "The variable Out should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 545
+  comment = "The variable task should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 545
+  comment = "The variable options should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 545
+  comment = "The variable fmt should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 545
+  comment = "The variable ID should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 545
+  comment = "The variable Fprintf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 514
+  comment = "The variable Out should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 514
+  comment = "The variable options should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 514
+  comment = "The variable ID should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 514
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 514
+  comment = "The variable task should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 514
+  comment = "The variable Fprintf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 514
+  comment = "The variable fmt should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 507
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 504
+  comment = "The variable len should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 501
+  comment = "The variable pcsconfig should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 501
+  comment = "The variable EnableHTTPS should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 501
+  comment = "The variable Config should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 475
+  comment = "The variable rawDlink should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 473
+  comment = "The variable String should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 474
+  comment = "The variable make should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 475
+  comment = "The variable len should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 474
+  comment = "The variable len should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 474
+  comment = "The variable string should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 472
+  comment = "The variable handleHTTPLinkURL should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 475
+  comment = "The variable _ should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 491
+  comment = "The variable task should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 491
+  comment = "The variable handleTaskErr should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 491
+  comment = "The variable StrDownloadFailed should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/download.go"
+  fileline = 491
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/bg_fg.go"
+  fileline = 67
+  comment = "The variable fmt should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/bg_fg.go"
+  fileline = 66
+  comment = "The variable BgMap should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/bg_fg.go"
+  fileline = 65
+  comment = "The variable BgMap should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/bg_fg.go"
+  fileline = 66
+  comment = "The variable Delete should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/bg_fg.go"
+  fileline = 65
+  comment = "The variable sig should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/bg_fg.go"
+  fileline = 67
+  comment = "The variable Printf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "internal/pcscommand/bg_fg.go"
+  fileline = 66
+  comment = "The variable tasks should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/multiworker.go"
+  fileline = 100
+  comment = "The variable uploadDeque should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/multiworker.go"
+  fileline = 98
+  comment = "The variable id should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/multiworker.go"
+  fileline = 99
+  comment = "The variable SEEK_SET should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/multiworker.go"
+  fileline = 99
+  comment = "The variable os should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/multiworker.go"
+  fileline = 98
+  comment = "The variable uploaderVerbose should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/multiworker.go"
+  fileline = 99
+  comment = "The variable wer should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/multiworker.go"
+  fileline = 99
+  comment = "The variable splitUnit should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/multiworker.go"
+  fileline = 88
+  comment = "The variable MultiError should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/multiworker.go"
+  fileline = 98
+  comment = "The variable wer should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/multiworker.go"
+  fileline = 100
+  comment = "The variable wer should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/multiworker.go"
+  fileline = 100
+  comment = "The variable Append should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/multiworker.go"
+  fileline = 99
+  comment = "The variable Seek should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/multiworker.go"
+  fileline = 98
+  comment = "The variable Warnf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/multiworker.go"
+  fileline = 107
+  comment = "The variable muer should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/multiworker.go"
+  fileline = 107
+  comment = "The variable updateInstanceStateChan should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/multiworker.go"
+  fileline = 91
+  comment = "The variable close should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/multiworker.go"
+  fileline = 91
+  comment = "The variable muer should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/multiworker.go"
+  fileline = 91
+  comment = "The variable canceled should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/multiworker.go"
+  fileline = 89
+  comment = "The variable Terminated should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/multiworker.go"
+  fileline = 89
+  comment = "The variable me should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/multiworker.go"
+  fileline = 80
+  comment = "The variable canceled should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/multiworker.go"
+  fileline = 80
+  comment = "The variable muer should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/multiworker.go"
+  fileline = 70
+  comment = "The variable WithCancel should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/multiworker.go"
+  fileline = 73
+  comment = "The variable error should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/multiworker.go"
+  fileline = 71
+  comment = "The variable make should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/multiworker.go"
+  fileline = 70
+  comment = "The variable context should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/multiworker.go"
+  fileline = 72
+  comment = "The variable string should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/multiworker.go"
+  fileline = 70
+  comment = "The variable Background should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/multiworker.go"
+  fileline = 106
+  comment = "The variable muer should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/multiworker.go"
+  fileline = 70
+  comment = "The variable context should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/multiworker.go"
+  fileline = 106
+  comment = "The variable updateInstanceStateChan should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/multiworker.go"
+  fileline = 106
+  comment = "The variable muer should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/multiworker.go"
+  fileline = 87
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/multiworker.go"
+  fileline = 106
+  comment = "The variable updateInstanceStateChan should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/multiworker.go"
+  fileline = 106
+  comment = "The variable updateInstanceStateChan should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/multiworker.go"
+  fileline = 106
+  comment = "The variable len should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/multiworker.go"
+  fileline = 106
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/multiworker.go"
+  fileline = 67
+  comment = "The variable Done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/multiworker.go"
+  fileline = 106
+  comment = "The variable muer should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/multiworker.go"
+  fileline = 67
+  comment = "The variable wg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/multiworker.go"
+  fileline = 103
+  comment = "The variable wer should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/multiworker.go"
+  fileline = 106
+  comment = "The variable cap should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/multiworker.go"
+  fileline = 90
+  comment = "The variable Do should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/multiworker.go"
+  fileline = 93
+  comment = "The variable Err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/multiworker.go"
+  fileline = 90
+  comment = "The variable closeCanceledOnce should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/multiworker.go"
+  fileline = 90
+  comment = "The variable muer should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/multiworker.go"
+  fileline = 93
+  comment = "The variable me should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "pcsutil/delay/delay.go"
+  fileline = 12
+  comment = "The variable close should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "pcsutil/delay/delay.go"
+  fileline = 11
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "pcsutil/delay/delay.go"
+  fileline = 12
+  comment = "The variable c should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "pcsutil/delay/delay.go"
+  fileline = 11
+  comment = "The variable Sleep should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "pcsutil/delay/delay.go"
+  fileline = 11
+  comment = "The variable t should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/downloader.go"
+  fileline = 232
+  comment = "The variable Verbosef should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/downloader.go"
+  fileline = 232
+  comment = "The variable pcsverbose should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/downloader.go"
+  fileline = 232
+  comment = "The variable subErr should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/downloader.go"
+  fileline = 257
+  comment = "The variable Verbosef should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/downloader.go"
+  fileline = 257
+  comment = "The variable pcsverbose should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/downloader.go"
+  fileline = 244
+  comment = "The variable errors should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/downloader.go"
+  fileline = 244
+  comment = "The variable Status should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/downloader.go"
+  fileline = 244
+  comment = "The variable New should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/downloader.go"
+  fileline = 244
+  comment = "The variable subResp should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/downloader.go"
+  fileline = 261
+  comment = "The variable Request should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/downloader.go"
+  fileline = 256
+  comment = "The variable der should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/downloader.go"
+  fileline = 256
+  comment = "The variable firstInfo should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/downloader.go"
+  fileline = 251
+  comment = "The variable ContentLength should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/downloader.go"
+  fileline = 256
+  comment = "The variable ToMap should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/downloader.go"
+  fileline = 251
+  comment = "The variable der should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/downloader.go"
+  fileline = 225
+  comment = "The variable Done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/downloader.go"
+  fileline = 231
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/downloader.go"
+  fileline = 227
+  comment = "The variable client should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/downloader.go"
+  fileline = 228
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/downloader.go"
+  fileline = 251
+  comment = "The variable firstInfo should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/downloader.go"
+  fileline = 225
+  comment = "The variable wg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/downloader.go"
+  fileline = 256
+  comment = "The variable loadBalancerCompareFunc should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/downloader.go"
+  fileline = 227
+  comment = "The variable der should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/downloader.go"
+  fileline = 256
+  comment = "The variable der should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/downloader.go"
+  fileline = 227
+  comment = "The variable durlCheckFunc should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/downloader.go"
+  fileline = 261
+  comment = "The variable handleLoadBalancer should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/downloader.go"
+  fileline = 237
+  comment = "The variable StatusCode should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/downloader.go"
+  fileline = 227
+  comment = "The variable der should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/downloader.go"
+  fileline = 252
+  comment = "The variable pcsverbose should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/downloader.go"
+  fileline = 252
+  comment = "The variable Verbosef should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/downloader.go"
+  fileline = 229
+  comment = "The variable subResp should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/downloader.go"
+  fileline = 229
+  comment = "The variable Close should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/downloader.go"
+  fileline = 229
+  comment = "The variable Body should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/downloader.go"
+  fileline = 242
+  comment = "The variable subResp should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/downloader.go"
+  fileline = 242
+  comment = "The variable Body should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/downloader.go"
+  fileline = 242
+  comment = "The variable statusCodeBodyCheckFunc should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/downloader.go"
+  fileline = 242
+  comment = "The variable der should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/downloader.go"
+  fileline = 240
+  comment = "The variable error should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/downloader.go"
+  fileline = 241
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/downloader.go"
+  fileline = 246
+  comment = "The variable Verbosef should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/downloader.go"
+  fileline = 241
+  comment = "The variable statusCodeBodyCheckFunc should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/downloader.go"
+  fileline = 246
+  comment = "The variable pcsverbose should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/downloader.go"
+  fileline = 241
+  comment = "The variable der should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/download_test.go"
+  fileline = 51
+  comment = "The variable Pause should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/download_test.go"
+  fileline = 59
+  comment = "The variable Cancel should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/download_test.go"
+  fileline = 53
+  comment = "The variable d should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/download_test.go"
+  fileline = 57
+  comment = "The variable Resume should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/download_test.go"
+  fileline = 52
+  comment = "The variable Sleep should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/download_test.go"
+  fileline = 60
+  comment = "The variable Println should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/download_test.go"
+  fileline = 55
+  comment = "The variable Pause should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/download_test.go"
+  fileline = 58
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/download_test.go"
+  fileline = 55
+  comment = "The variable d should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/download_test.go"
+  fileline = 61
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/download_test.go"
+  fileline = 58
+  comment = "The variable Sleep should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/download_test.go"
+  fileline = 57
+  comment = "The variable d should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/download_test.go"
+  fileline = 51
+  comment = "The variable d should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/download_test.go"
+  fileline = 59
+  comment = "The variable d should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/download_test.go"
+  fileline = 50
+  comment = "The variable Sleep should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/download_test.go"
+  fileline = 53
+  comment = "The variable Resume should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/download_test.go"
+  fileline = 60
+  comment = "The variable fmt should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/download_test.go"
+  fileline = 56
+  comment = "The variable Sleep should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/download_test.go"
+  fileline = 54
+  comment = "The variable Sleep should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/download_test.go"
+  fileline = 56
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/download_test.go"
+  fileline = 54
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/download_test.go"
+  fileline = 61
+  comment = "The variable Sleep should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/download_test.go"
+  fileline = 52
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/download_test.go"
+  fileline = 50
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 85
+  comment = "The variable NewTicker should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 85
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 85
+  comment = "The variable Second should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 85
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 86
+  comment = "The variable Stop should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 98
+  comment = "The variable updateInstanceStateChan should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 96
+  comment = "The variable muer should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 94
+  comment = "The variable Len should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 95
+  comment = "The variable uploaded should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 93
+  comment = "The variable UploadStatus should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 93
+  comment = "The variable onUploadStatusEvent should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 89
+  comment = "The variable muer should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 94
+  comment = "The variable file should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 91
+  comment = "The variable C should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 92
+  comment = "The variable Readed should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 97
+  comment = "The variable timeElapsed should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 97
+  comment = "The variable Since should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 93
+  comment = "The variable muer should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 97
+  comment = "The variable executeTime should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 94
+  comment = "The variable totalSize should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 96
+  comment = "The variable speedsStat should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 91
+  comment = "The variable ticker should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 94
+  comment = "The variable muer should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 98
+  comment = "The variable muer should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 92
+  comment = "The variable muer should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 97
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 96
+  comment = "The variable speedsPerSecond should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 89
+  comment = "The variable finished should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 92
+  comment = "The variable workers should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 96
+  comment = "The variable GetSpeeds should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 97
+  comment = "The variable muer should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/rio/speeds/ratelimit.go"
+  fileline = 70
+  comment = "The variable count should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/rio/speeds/ratelimit.go"
+  fileline = 68
+  comment = "The variable C should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/rio/speeds/ratelimit.go"
+  fileline = 69
+  comment = "The variable resetChan should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/rio/speeds/ratelimit.go"
+  fileline = 69
+  comment = "The variable rl should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/rio/speeds/ratelimit.go"
+  fileline = 71
+  comment = "The variable rl should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/rio/speeds/ratelimit.go"
+  fileline = 70
+  comment = "The variable atomic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/rio/speeds/ratelimit.go"
+  fileline = 68
+  comment = "The variable rl should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/rio/speeds/ratelimit.go"
+  fileline = 70
+  comment = "The variable StoreInt64 should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/rio/speeds/ratelimit.go"
+  fileline = 71
+  comment = "The variable closeChan should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/rio/speeds/ratelimit.go"
+  fileline = 70
+  comment = "The variable rl should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/rio/speeds/ratelimit.go"
+  fileline = 68
+  comment = "The variable ticker should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/downloader.go"
+  fileline = 476
+  comment = "The variable monitor should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/downloader.go"
+  fileline = 476
+  comment = "The variable onDownloadStatusEvent should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/downloader.go"
+  fileline = 475
+  comment = "The variable ticker should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/downloader.go"
+  fileline = 473
+  comment = "The variable der should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/downloader.go"
+  fileline = 476
+  comment = "The variable der should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/downloader.go"
+  fileline = 476
+  comment = "The variable RangeWorker should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/downloader.go"
+  fileline = 476
+  comment = "The variable der should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/downloader.go"
+  fileline = 473
+  comment = "The variable completed should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/downloader.go"
+  fileline = 475
+  comment = "The variable C should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/downloader.go"
+  fileline = 473
+  comment = "The variable monitor should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/downloader.go"
+  fileline = 476
+  comment = "The variable status should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/downloader.go"
+  fileline = 469
+  comment = "The variable Second should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/downloader.go"
+  fileline = 470
+  comment = "The variable Stop should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/downloader.go"
+  fileline = 469
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/downloader.go"
+  fileline = 469
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/downloader.go"
+  fileline = 469
+  comment = "The variable NewTicker should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/download_test.go"
+  fileline = 43
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/download_test.go"
+  fileline = 43
+  comment = "The variable monitor should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/download_test.go"
+  fileline = 46
+  comment = "The variable Sleep should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/download_test.go"
+  fileline = 43
+  comment = "The variable d should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/download_test.go"
+  fileline = 46
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/download_test.go"
+  fileline = 44
+  comment = "The variable fmt should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/download_test.go"
+  fileline = 44
+  comment = "The variable ShowWorkers should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/download_test.go"
+  fileline = 44
+  comment = "The variable Println should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/download_test.go"
+  fileline = 44
+  comment = "The variable d should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/download_test.go"
+  fileline = 44
+  comment = "The variable monitor should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "pcsutil/waitgroup/wait_group_test.go"
+  fileline = 14
+  comment = "The variable fmt should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "pcsutil/waitgroup/wait_group_test.go"
+  fileline = 16
+  comment = "The variable Done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "pcsutil/waitgroup/wait_group_test.go"
+  fileline = 14
+  comment = "The variable wg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "pcsutil/waitgroup/wait_group_test.go"
+  fileline = 15
+  comment = "The variable Sleep should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "pcsutil/waitgroup/wait_group_test.go"
+  fileline = 16
+  comment = "The variable wg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "pcsutil/waitgroup/wait_group_test.go"
+  fileline = 14
+  comment = "The variable Parallel should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "pcsutil/waitgroup/wait_group_test.go"
+  fileline = 15
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "pcsutil/waitgroup/wait_group_test.go"
+  fileline = 14
+  comment = "The variable Println should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/multiworker.go"
+  fileline = 76
+  comment = "The variable wer should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/multiworker.go"
+  fileline = 76
+  comment = "The variable ctx should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/multiworker.go"
+  fileline = 76
+  comment = "The variable muer should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/multiworker.go"
+  fileline = 76
+  comment = "The variable wer should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/multiworker.go"
+  fileline = 76
+  comment = "The variable wer should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/multiworker.go"
+  fileline = 76
+  comment = "The variable splitUnit should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/multiworker.go"
+  fileline = 77
+  comment = "The variable close should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/multiworker.go"
+  fileline = 76
+  comment = "The variable partOffset should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/multiworker.go"
+  fileline = 76
+  comment = "The variable multiUpload should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/multiworker.go"
+  fileline = 76
+  comment = "The variable TmpFile should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/multiworker.go"
+  fileline = 77
+  comment = "The variable doneChan should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/multiworker.go"
+  fileline = 76
+  comment = "The variable int should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/multiworker.go"
+  fileline = 76
+  comment = "The variable id should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/monitor.go"
+  fileline = 188
+  comment = "The variable completed should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/monitor.go"
+  fileline = 188
+  comment = "The variable mt should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/monitor.go"
+  fileline = 188
+  comment = "The variable close should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/monitor.go"
+  fileline = 186
+  comment = "The variable mt should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/monitor.go"
+  fileline = 174
+  comment = "The variable worker should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/monitor.go"
+  fileline = 174
+  comment = "The variable _ should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/monitor.go"
+  fileline = 186
+  comment = "The variable status should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/monitor.go"
+  fileline = 186
+  comment = "The variable RangeListGen should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/monitor.go"
+  fileline = 187
+  comment = "The variable workerNum should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/monitor.go"
+  fileline = 187
+  comment = "The variable IsDone should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/monitor.go"
+  fileline = 171
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/monitor.go"
+  fileline = 187
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/monitor.go"
+  fileline = 171
+  comment = "The variable Second should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/monitor.go"
+  fileline = 171
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/monitor.go"
+  fileline = 174
+  comment = "The variable workers should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/monitor.go"
+  fileline = 174
+  comment = "The variable mt should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/monitor.go"
+  fileline = 171
+  comment = "The variable Sleep should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/monitor.go"
+  fileline = 175
+  comment = "The variable StatusCode should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/monitor.go"
+  fileline = 175
+  comment = "The variable worker should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/monitor.go"
+  fileline = 175
+  comment = "The variable GetStatus should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/monitor.go"
+  fileline = 180
+  comment = "The variable StatusCodeCanceled should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/monitor.go"
+  fileline = 178
+  comment = "The variable mt should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/monitor.go"
+  fileline = 176
+  comment = "The variable StatusCodeInternalError should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/monitor.go"
+  fileline = 177
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/monitor.go"
+  fileline = 178
+  comment = "The variable close should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/monitor.go"
+  fileline = 181
+  comment = "The variable completeNum should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/monitor.go"
+  fileline = 177
+  comment = "The variable fmt should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/monitor.go"
+  fileline = 178
+  comment = "The variable completed should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/monitor.go"
+  fileline = 177
+  comment = "The variable worker should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/monitor.go"
+  fileline = 177
+  comment = "The variable mt should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/monitor.go"
+  fileline = 177
+  comment = "The variable Errorf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/monitor.go"
+  fileline = 177
+  comment = "The variable Err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/downloader/monitor.go"
+  fileline = 180
+  comment = "The variable StatusCodeSuccessed should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 59
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 59
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 59
+  comment = "The variable Sleep should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 59
+  comment = "The variable Second should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 58
+  comment = "The variable u should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 71
+  comment = "The variable u should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 64
+  comment = "The variable Sleep should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 71
+  comment = "The variable timeElapsed should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 66
+  comment = "The variable Readed should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 55
+  comment = "The variable close should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 71
+  comment = "The variable executeTime should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 63
+  comment = "The variable Readed should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 63
+  comment = "The variable u should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 66
+  comment = "The variable u should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 55
+  comment = "The variable c should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 64
+  comment = "The variable Second should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 64
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 68
+  comment = "The variable Len should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 68
+  comment = "The variable u should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 66
+  comment = "The variable readed64 should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 67
+  comment = "The variable c should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 68
+  comment = "The variable totalSize should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 70
+  comment = "The variable speedsPerSecond should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 64
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 54
+  comment = "The variable u should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 54
+  comment = "The variable finished should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 71
+  comment = "The variable time should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 67
+  comment = "The variable UploadStatus should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 69
+  comment = "The variable uploaded should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 63
+  comment = "The variable readed64 should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 68
+  comment = "The variable readed64 should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 71
+  comment = "The variable Since should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "requester/uploader/status.go"
+  fileline = 58
+  comment = "The variable executed should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "vendor/github.com/modern-go/concurrent/unbounded_executor.go"
+  fileline = 65
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "vendor/github.com/modern-go/concurrent/unbounded_executor.go"
+  fileline = 65
+  comment = "The variable executor should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "vendor/github.com/modern-go/concurrent/unbounded_executor.go"
+  fileline = 65
+  comment = "The variable HandlePanic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "vendor/github.com/modern-go/concurrent/unbounded_executor.go"
+  fileline = 66
+  comment = "The variable recovered should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "vendor/github.com/modern-go/concurrent/unbounded_executor.go"
+  fileline = 66
+  comment = "The variable funcName should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "vendor/github.com/modern-go/concurrent/unbounded_executor.go"
+  fileline = 66
+  comment = "The variable HandlePanic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "vendor/github.com/modern-go/concurrent/unbounded_executor.go"
+  fileline = 68
+  comment = "The variable executor should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "vendor/github.com/modern-go/concurrent/unbounded_executor.go"
+  fileline = 68
+  comment = "The variable funcName should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "vendor/github.com/modern-go/concurrent/unbounded_executor.go"
+  fileline = 68
+  comment = "The variable HandlePanic should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "vendor/github.com/modern-go/concurrent/unbounded_executor.go"
+  fileline = 68
+  comment = "The variable recovered should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "vendor/github.com/modern-go/concurrent/unbounded_executor.go"
+  fileline = 75
+  comment = "The variable handler should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "vendor/github.com/modern-go/concurrent/unbounded_executor.go"
+  fileline = 75
+  comment = "The variable executor should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "vendor/github.com/modern-go/concurrent/unbounded_executor.go"
+  fileline = 75
+  comment = "The variable ctx should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "vendor/github.com/modern-go/concurrent/unbounded_executor.go"
+  fileline = 73
+  comment = "The variable executor should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "vendor/github.com/modern-go/concurrent/unbounded_executor.go"
+  fileline = 73
+  comment = "The variable activeGoroutinesMutex should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "vendor/github.com/modern-go/concurrent/unbounded_executor.go"
+  fileline = 72
+  comment = "The variable activeGoroutines should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "vendor/github.com/modern-go/concurrent/unbounded_executor.go"
+  fileline = 71
+  comment = "The variable Lock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "vendor/github.com/modern-go/concurrent/unbounded_executor.go"
+  fileline = 64
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "vendor/github.com/modern-go/concurrent/unbounded_executor.go"
+  fileline = 71
+  comment = "The variable activeGoroutinesMutex should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "vendor/github.com/modern-go/concurrent/unbounded_executor.go"
+  fileline = 72
+  comment = "The variable startFrom should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "vendor/github.com/modern-go/concurrent/unbounded_executor.go"
+  fileline = 71
+  comment = "The variable executor should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "vendor/github.com/modern-go/concurrent/unbounded_executor.go"
+  fileline = 73
+  comment = "The variable Unlock should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "vendor/github.com/modern-go/concurrent/unbounded_executor.go"
+  fileline = 61
+  comment = "The variable recover should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "vendor/github.com/modern-go/concurrent/unbounded_executor.go"
+  fileline = 72
+  comment = "The variable executor should be passed in as arguments to go-routines to avoid race conditions."
