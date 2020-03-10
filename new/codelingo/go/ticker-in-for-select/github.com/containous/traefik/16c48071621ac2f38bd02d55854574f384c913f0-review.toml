@@ -3,6 +3,8 @@ rule = "codelingo/go/ticker-in-for-select"
 sha = "16c48071621ac2f38bd02d55854574f384c913f0"
 
 [[issues]]
-  filepath = "pkg/healthcheck/healthcheck_test.go"
-  fileline = 139
   comment = "Make one ticker as opposed to making a new timer each iteration."
+  fileline = 139
+  filepath = "pkg/healthcheck/healthcheck_test.go"
+  fixed = false
+  ignored = "deterministic timer"
