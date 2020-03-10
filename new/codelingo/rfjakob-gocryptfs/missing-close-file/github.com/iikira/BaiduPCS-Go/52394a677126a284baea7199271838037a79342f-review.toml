@@ -3,21 +3,29 @@ rule = "codelingo/rfjakob-gocryptfs/missing-close-file"
 sha = "52394a677126a284baea7199271838037a79342f"
 
 [[issues]]
-  filepath = "vendor/github.com/astaxie/beego/utils/mail.go"
+  comment = "Close the file when you are done"
   fileline = 174
-  comment = "Close the file when you are done"
+  filepath = "vendor/github.com/astaxie/beego/utils/mail.go"
+  fixed = false
+  ignored = "fp. handed off as io.Reader"
 
 [[issues]]
-  filepath = "vendor/github.com/daaku/go.zipexe/zipexe.go"
+  comment = "Close the file when you are done"
   fileline = 22
-  comment = "Close the file when you are done"
+  filepath = "vendor/github.com/daaku/go.zipexe/zipexe.go"
+  fixed = false
+  ignored = "fp. file is returned"
 
 [[issues]]
-  filepath = "vendor/github.com/astaxie/beego/utils/file.go"
+  comment = "Close the file when you are done"
   fileline = 68
-  comment = "Close the file when you are done"
+  filepath = "vendor/github.com/astaxie/beego/utils/file.go"
+  fixed = false
+  ignored = "in vendor"
 
 [[issues]]
-  filepath = "vendor/github.com/GeertJohan/go.rice/box.go"
-  fileline = 271
   comment = "Close the file when you are done"
+  fileline = 271
+  filepath = "vendor/github.com/GeertJohan/go.rice/box.go"
+  fixed = false
+  ignored = "in vendor"
