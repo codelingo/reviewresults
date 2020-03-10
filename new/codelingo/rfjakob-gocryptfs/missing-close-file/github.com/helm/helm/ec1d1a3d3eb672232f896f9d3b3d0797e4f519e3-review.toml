@@ -3,16 +3,22 @@ rule = "codelingo/rfjakob-gocryptfs/missing-close-file"
 sha = "ec1d1a3d3eb672232f896f9d3b3d0797e4f519e3"
 
 [[issues]]
-  filepath = "pkg/chartutil/expand_test.go"
+  comment = "Close the file when you are done"
   fileline = 33
-  comment = "Close the file when you are done"
+  filepath = "pkg/chartutil/expand_test.go"
+  fixed = true
+  ignored = ""
 
 [[issues]]
-  filepath = "pkg/chartutil/expand_test.go"
+  comment = "Close the file when you are done"
   fileline = 51
-  comment = "Close the file when you are done"
+  filepath = "pkg/chartutil/expand_test.go"
+  fixed = true
+  ignored = ""
 
 [[issues]]
-  filepath = "pkg/chartutil/expand_test.go"
-  fileline = 103
   comment = "Close the file when you are done"
+  fileline = 103
+  filepath = "pkg/chartutil/expand_test.go"
+  fixed = true
+  ignored = ""
