@@ -1,0 +1,8 @@
+repo = "github.com/helm/helm"
+rule = "codelingo/go/insecure-http-connection"
+sha = "ec1d1a3d3eb672232f896f9d3b3d0797e4f519e3"
+
+[[issues]]
+  filepath = "pkg/getter/httpgetter.go"
+  fileline = 119
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."

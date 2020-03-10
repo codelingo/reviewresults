@@ -1,0 +1,33 @@
+repo = "github.com/helm/helm"
+rule = "codelingo/go/shadowed-variable"
+sha = "ec1d1a3d3eb672232f896f9d3b3d0797e4f519e3"
+
+[[issues]]
+  filepath = "pkg/action/dependency.go"
+  fileline = 75
+  comment = "Variable c shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "pkg/releaseutil/manifest_sorter_test.go"
+  fileline = 198
+  comment = "Variable manifests shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "internal/third_party/dep/fs/rename_windows.go"
+  fileline = 59
+  comment = "Variable ok shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "pkg/downloader/chart_downloader.go"
+  fileline = 169
+  comment = "Variable rc shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "pkg/kube/client.go"
+  fileline = 393
+  comment = "Variable patch shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "pkg/chart/loader/load_test.go"
+  fileline = 282
+  comment = "Variable illegalChart shadows a variable of the same name declared in an outer scope."

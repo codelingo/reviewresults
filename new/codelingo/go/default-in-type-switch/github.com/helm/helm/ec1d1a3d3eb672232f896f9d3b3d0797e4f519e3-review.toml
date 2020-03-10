@@ -1,0 +1,13 @@
+repo = "github.com/helm/helm"
+rule = "codelingo/go/default-in-type-switch"
+sha = "ec1d1a3d3eb672232f896f9d3b3d0797e4f519e3"
+
+[[issues]]
+  filepath = "pkg/kube/wait.go"
+  fileline = 63
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "pkg/chartutil/dependencies.go"
+  fileline = 234
+  comment = "Always include a default case when using a type switch."

@@ -1,0 +1,418 @@
+repo = "github.com/helm/helm"
+rule = "codelingo/go/unsafe-go-routine-variables"
+sha = "ec1d1a3d3eb672232f896f9d3b3d0797e4f519e3"
+
+[[issues]]
+  filepath = "pkg/downloader/manager.go"
+  fileline = 522
+  comment = "The variable m should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "pkg/downloader/manager.go"
+  fileline = 522
+  comment = "The variable fmt should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "pkg/downloader/manager.go"
+  fileline = 522
+  comment = "The variable Config should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "pkg/downloader/manager.go"
+  fileline = 522
+  comment = "The variable Fprintf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "pkg/downloader/manager.go"
+  fileline = 522
+  comment = "The variable Name should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "pkg/downloader/manager.go"
+  fileline = 522
+  comment = "The variable Out should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "pkg/downloader/manager.go"
+  fileline = 520
+  comment = "The variable Fprintf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "pkg/downloader/manager.go"
+  fileline = 520
+  comment = "The variable URL should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "pkg/downloader/manager.go"
+  fileline = 520
+  comment = "The variable fmt should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "pkg/downloader/manager.go"
+  fileline = 520
+  comment = "The variable m should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "pkg/downloader/manager.go"
+  fileline = 520
+  comment = "The variable Name should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "pkg/downloader/manager.go"
+  fileline = 520
+  comment = "The variable Config should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "pkg/downloader/manager.go"
+  fileline = 520
+  comment = "The variable Out should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "pkg/downloader/manager.go"
+  fileline = 520
+  comment = "The variable Config should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "pkg/downloader/manager.go"
+  fileline = 520
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "pkg/downloader/manager.go"
+  fileline = 519
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "pkg/downloader/manager.go"
+  fileline = 524
+  comment = "The variable Done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "pkg/downloader/manager.go"
+  fileline = 524
+  comment = "The variable wg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "pkg/downloader/manager.go"
+  fileline = 519
+  comment = "The variable DownloadIndexFile should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "pkg/engine/engine_test.go"
+  fileline = 179
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "pkg/engine/engine_test.go"
+  fileline = 179
+  comment = "The variable t should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "pkg/engine/engine_test.go"
+  fileline = 179
+  comment = "The variable tt should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "pkg/engine/engine_test.go"
+  fileline = 179
+  comment = "The variable Errorf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "pkg/engine/engine_test.go"
+  fileline = 184
+  comment = "The variable Done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "pkg/engine/engine_test.go"
+  fileline = 170
+  comment = "The variable Sprintf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "pkg/engine/engine_test.go"
+  fileline = 184
+  comment = "The variable wg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "pkg/engine/engine_test.go"
+  fileline = 174
+  comment = "The variable vals should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "pkg/engine/engine_test.go"
+  fileline = 177
+  comment = "The variable render should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "pkg/engine/engine_test.go"
+  fileline = 178
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "pkg/engine/engine_test.go"
+  fileline = 174
+  comment = "The variable string should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "pkg/engine/engine_test.go"
+  fileline = 170
+  comment = "The variable fmt should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "pkg/engine/engine_test.go"
+  fileline = 171
+  comment = "The variable renderable should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "pkg/engine/engine_test.go"
+  fileline = 177
+  comment = "The variable e should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "pkg/engine/engine_test.go"
+  fileline = 173
+  comment = "The variable tpl should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "pkg/engine/engine_test.go"
+  fileline = 171
+  comment = "The variable string should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "pkg/engine/engine_test.go"
+  fileline = 182
+  comment = "The variable tt should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "pkg/engine/engine_test.go"
+  fileline = 182
+  comment = "The variable Errorf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "pkg/engine/engine_test.go"
+  fileline = 182
+  comment = "The variable out should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "pkg/engine/engine_test.go"
+  fileline = 182
+  comment = "The variable t should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "pkg/postrender/exec.go"
+  fileline = 59
+  comment = "The variable stdin should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "pkg/postrender/exec.go"
+  fileline = 58
+  comment = "The variable stdin should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "pkg/postrender/exec.go"
+  fileline = 59
+  comment = "The variable Copy should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "pkg/postrender/exec.go"
+  fileline = 59
+  comment = "The variable renderedManifests should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "pkg/postrender/exec.go"
+  fileline = 58
+  comment = "The variable Close should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "pkg/postrender/exec.go"
+  fileline = 59
+  comment = "The variable io should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "pkg/kube/client.go"
+  fileline = 336
+  comment = "The variable Done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "pkg/kube/client.go"
+  fileline = 336
+  comment = "The variable wg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "pkg/kube/client.go"
+  fileline = 335
+  comment = "The variable fn should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "pkg/kube/client.go"
+  fileline = 335
+  comment = "The variable errs should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "cmd/helm/repo_add_test.go"
+  fileline = 138
+  comment = "The variable Error should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "cmd/helm/repo_add_test.go"
+  fileline = 138
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "cmd/helm/repo_add_test.go"
+  fileline = 138
+  comment = "The variable t should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "cmd/helm/repo_add_test.go"
+  fileline = 130
+  comment = "The variable Done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "cmd/helm/repo_add_test.go"
+  fileline = 133
+  comment = "The variable URL should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "cmd/helm/repo_add_test.go"
+  fileline = 135
+  comment = "The variable repoFile should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "cmd/helm/repo_add_test.go"
+  fileline = 131
+  comment = "The variable repoAddOptions should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "cmd/helm/repo_add_test.go"
+  fileline = 135
+  comment = "The variable repoFile should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "cmd/helm/repo_add_test.go"
+  fileline = 133
+  comment = "The variable url should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "cmd/helm/repo_add_test.go"
+  fileline = 137
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "cmd/helm/repo_add_test.go"
+  fileline = 134
+  comment = "The variable true should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "cmd/helm/repo_add_test.go"
+  fileline = 137
+  comment = "The variable ioutil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "cmd/helm/repo_add_test.go"
+  fileline = 134
+  comment = "The variable noUpdate should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "cmd/helm/repo_add_test.go"
+  fileline = 137
+  comment = "The variable run should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "cmd/helm/repo_add_test.go"
+  fileline = 130
+  comment = "The variable wg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "cmd/helm/repo_add_test.go"
+  fileline = 137
+  comment = "The variable Discard should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "cmd/helm/repo_add_test.go"
+  fileline = 133
+  comment = "The variable ts should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "cmd/helm/repo_update.go"
+  fileline = 86
+  comment = "The variable nil should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "cmd/helm/repo_update.go"
+  fileline = 86
+  comment = "The variable DownloadIndexFile should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "cmd/helm/repo_update.go"
+  fileline = 85
+  comment = "The variable wg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "cmd/helm/repo_update.go"
+  fileline = 85
+  comment = "The variable Done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "cmd/helm/repo_update.go"
+  fileline = 87
+  comment = "The variable Name should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "cmd/helm/repo_update.go"
+  fileline = 87
+  comment = "The variable Config should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "cmd/helm/repo_update.go"
+  fileline = 87
+  comment = "The variable URL should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "cmd/helm/repo_update.go"
+  fileline = 87
+  comment = "The variable fmt should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "cmd/helm/repo_update.go"
+  fileline = 87
+  comment = "The variable out should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "cmd/helm/repo_update.go"
+  fileline = 87
+  comment = "The variable Fprintf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "cmd/helm/repo_update.go"
+  fileline = 87
+  comment = "The variable Config should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "cmd/helm/repo_update.go"
+  fileline = 87
+  comment = "The variable err should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "cmd/helm/repo_update.go"
+  fileline = 89
+  comment = "The variable Config should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "cmd/helm/repo_update.go"
+  fileline = 89
+  comment = "The variable fmt should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "cmd/helm/repo_update.go"
+  fileline = 89
+  comment = "The variable out should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "cmd/helm/repo_update.go"
+  fileline = 89
+  comment = "The variable Fprintf should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "cmd/helm/repo_update.go"
+  fileline = 89
+  comment = "The variable Name should be passed in as arguments to go-routines to avoid race conditions."
