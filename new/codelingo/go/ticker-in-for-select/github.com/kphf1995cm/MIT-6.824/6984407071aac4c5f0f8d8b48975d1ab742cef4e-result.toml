@@ -3,9 +3,13 @@ rule = "codelingo/go/ticker-in-for-select"
 sha = "6984407071aac4c5f0f8d8b48975d1ab742cef4e"
 
 [[issues]]
-  filepath = "src/labrpc/labrpc.go"
   fileline = 243
+  filepath = "src/labrpc/labrpc.go"
+  fixed = false
+  ignored = "only runs once"
 
 [[issues]]
-  filepath = "src/shardkv/test_test.go"
   fileline = 70
+  filepath = "src/shardkv/test_test.go"
+  fixed = false
+  ignored = "runs once"

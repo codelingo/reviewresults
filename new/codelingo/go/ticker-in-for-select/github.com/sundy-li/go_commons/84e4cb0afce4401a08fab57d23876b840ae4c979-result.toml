@@ -3,9 +3,13 @@ rule = "codelingo/go/ticker-in-for-select"
 sha = "84e4cb0afce4401a08fab57d23876b840ae4c979"
 
 [[issues]]
-  filepath = "libs/kafka/reader.go"
   fileline = 456
+  filepath = "libs/kafka/reader.go"
+  fixed = false
+  ignored = ""
 
 [[issues]]
-  filepath = "libs/kafka/reader.go"
   fileline = 625
+  filepath = "libs/kafka/reader.go"
+  fixed = false
+  ignored = ""

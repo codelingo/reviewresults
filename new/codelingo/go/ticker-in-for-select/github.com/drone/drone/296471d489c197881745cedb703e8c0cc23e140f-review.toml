@@ -3,46 +3,64 @@ rule = "codelingo/go/ticker-in-for-select"
 sha = "296471d489c197881745cedb703e8c0cc23e140f"
 
 [[issues]]
-  filepath = "handler/api/events/global.go"
+  comment = "Make one ticker as opposed to making a new timer each iteration."
   fileline = 75
-  comment = "Make one ticker as opposed to making a new timer each iteration."
-
-[[issues]]
   filepath = "handler/api/events/global.go"
+  fixed = true
+  ignored = ""
+
+[[issues]]
+  comment = "Make one ticker as opposed to making a new timer each iteration."
   fileline = 78
-  comment = "Make one ticker as opposed to making a new timer each iteration."
+  filepath = "handler/api/events/global.go"
+  fixed = true
+  ignored = ""
 
 [[issues]]
-  filepath = "scheduler/queue/queue.go"
+  comment = "Make one ticker as opposed to making a new timer each iteration."
   fileline = 211
-  comment = "Make one ticker as opposed to making a new timer each iteration."
+  filepath = "scheduler/queue/queue.go"
+  fixed = true
+  ignored = ""
 
 [[issues]]
-  filepath = "scheduler/queue/canceller.go"
+  comment = "Make one ticker as opposed to making a new timer each iteration."
   fileline = 66
-  comment = "Make one ticker as opposed to making a new timer each iteration."
+  filepath = "scheduler/queue/canceller.go"
+  fixed = true
+  ignored = ""
 
 [[issues]]
-  filepath = "handler/api/events/build.go"
+  comment = "Make one ticker as opposed to making a new timer each iteration."
   fileline = 94
-  comment = "Make one ticker as opposed to making a new timer each iteration."
-
-[[issues]]
   filepath = "handler/api/events/build.go"
+  fixed = true
+  ignored = ""
+
+[[issues]]
+  comment = "Make one ticker as opposed to making a new timer each iteration."
   fileline = 97
-  comment = "Make one ticker as opposed to making a new timer each iteration."
+  filepath = "handler/api/events/build.go"
+  fixed = true
+  ignored = ""
 
 [[issues]]
-  filepath = "handler/api/events/logs.go"
+  comment = "Make one ticker as opposed to making a new timer each iteration."
   fileline = 112
-  comment = "Make one ticker as opposed to making a new timer each iteration."
-
-[[issues]]
   filepath = "handler/api/events/logs.go"
-  fileline = 114
-  comment = "Make one ticker as opposed to making a new timer each iteration."
+  fixed = true
+  ignored = ""
 
 [[issues]]
-  filepath = "metric/sink/datadog.go"
-  fileline = 72
   comment = "Make one ticker as opposed to making a new timer each iteration."
+  fileline = 114
+  filepath = "handler/api/events/logs.go"
+  fixed = true
+  ignored = ""
+
+[[issues]]
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+  fileline = 72
+  filepath = "metric/sink/datadog.go"
+  fixed = false
+  ignored = "deterministic"

@@ -3,5 +3,7 @@ rule = "codelingo/go/ticker-in-for-select"
 sha = "256851899269b779e216d8fd1d0534224d87895e"
 
 [[issues]]
-  filepath = "internal/serialize_reads/sr.go"
   fileline = 123
+  filepath = "internal/serialize_reads/sr.go"
+  fixed = false
+  ignored = "would change timing"

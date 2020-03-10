@@ -3,11 +3,15 @@ rule = "codelingo/lomik-go-carbon/missing-stop-ticker"
 sha = "891446d06340db2912c9a970bfe862bd54efbb70"
 
 [[issues]]
-  filepath = "caddytls/crypto.go"
-  fileline = 34
   comment = "Stop the ticker to release associated resources."
+  fileline = 34
+  filepath = "caddytls/crypto.go"
+  fixed = false
+  ignored = "fp. ticker passed on and stopped elsewhere"
 
 [[issues]]
-  filepath = "caddytls/crypto_test.go"
-  fileline = 47
   comment = "Stop the ticker to release associated resources."
+  fileline = 47
+  filepath = "caddytls/crypto_test.go"
+  fixed = false
+  ignored = "fp. ticker passed on and stopped elsewhere"
