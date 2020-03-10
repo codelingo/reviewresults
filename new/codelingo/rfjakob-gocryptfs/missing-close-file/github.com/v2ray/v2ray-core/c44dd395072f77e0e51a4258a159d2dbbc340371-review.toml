@@ -3,11 +3,15 @@ rule = "codelingo/rfjakob-gocryptfs/missing-close-file"
 sha = "c44dd395072f77e0e51a4258a159d2dbbc340371"
 
 [[issues]]
-  filepath = "infra/control/verify.go"
-  fileline = 139
   comment = "Close the file when you are done"
+  fileline = 139
+  filepath = "infra/control/verify.go"
+  fixed = false
+  ignored = "passed on as io.Reader"
 
 [[issues]]
-  filepath = "infra/control/verify.go"
-  fileline = 144
   comment = "Close the file when you are done"
+  fileline = 144
+  filepath = "infra/control/verify.go"
+  fixed = false
+  ignored = "passed on as io.Reader"
