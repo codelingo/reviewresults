@@ -1,0 +1,33 @@
+repo = "github.com/go-kit/kit"
+rule = "codelingo/go/default-in-type-switch"
+sha = "ad60314e5159aad7c4a801aa1d56862b82084066"
+
+[[issues]]
+  filepath = "log/json_logger.go"
+  fileline = 53
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "cmd/kitgen/transform.go"
+  fileline = 131
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "cmd/kitgen/ast_helpers.go"
+  fileline = 83
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "cmd/kitgen/transform.go"
+  fileline = 93
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "cmd/kitgen/parsevisitor.go"
+  fileline = 154
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "cmd/kitgen/ast_helpers.go"
+  fileline = 95
+  comment = "Always include a default case when using a type switch."

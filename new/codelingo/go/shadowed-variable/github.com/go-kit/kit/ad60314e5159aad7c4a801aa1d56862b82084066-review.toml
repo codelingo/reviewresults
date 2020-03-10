@@ -1,0 +1,53 @@
+repo = "github.com/go-kit/kit"
+rule = "codelingo/go/shadowed-variable"
+sha = "ad60314e5159aad7c4a801aa1d56862b82084066"
+
+[[issues]]
+  filepath = "metrics/cloudwatch/cloudwatch_test.go"
+  fileline = 98
+  comment = "Variable value shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "transport/awslambda/handler_test.go"
+  fileline = 192
+  comment = "Variable resp shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "transport/awslambda/handler_test.go"
+  fileline = 189
+  comment = "Variable apigwResp shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "transport/awslambda/handler_test.go"
+  fileline = 79
+  comment = "Variable apigwResp shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "transport/awslambda/handler_test.go"
+  fileline = 91
+  comment = "Variable expectedGreeting shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "transport/awslambda/handler_test.go"
+  fileline = 85
+  comment = "Variable response shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "transport/awslambda/handler_test.go"
+  fileline = 250
+  comment = "Variable resp shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "transport/awslambda/handler_test.go"
+  fileline = 247
+  comment = "Variable apigwResp shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "transport/awslambda/handler_test.go"
+  fileline = 139
+  comment = "Variable apigwResp shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "transport/awslambda/handler_test.go"
+  fileline = 142
+  comment = "Variable resp shadows a variable of the same name declared in an outer scope."
