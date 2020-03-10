@@ -1,0 +1,78 @@
+repo = "github.com/cayleygraph/cayley"
+rule = "codelingo/go/shadowed-variable"
+sha = "fac546436001de25fdede3796485261ce9842379"
+
+[[issues]]
+  filepath = "cmd/cayley/command/dedup.go"
+  fileline = 149
+  comment = "Variable p shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "query/graphql/graphql.go"
+  fileline = 212
+  comment = "Variable it shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "query/linkedql/registry.go"
+  fileline = 88
+  comment = "Variable ok shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "query/linkedql/registry.go"
+  fileline = 154
+  comment = "Variable ok shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "graph/kv/quad_iterator.go"
+  fileline = 66
+  comment = "Variable sz shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "graph/kv/all_iterator.go"
+  fileline = 245
+  comment = "Variable ok shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "graph/linksto.go"
+  fileline = 118
+  comment = "Variable st shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "graph/graphtest/graphtest.go"
+  fileline = 524
+  comment = "Variable st shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "graph/graphtest/graphtest.go"
+  fileline = 516
+  comment = "Variable st shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "query/gizmo/traversals.go"
+  fileline = 434
+  comment = "Variable np shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "graph/memstore/quadstore.go"
+  fileline = 199
+  comment = "Variable id shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "query/gizmo/finals.go"
+  fileline = 92
+  comment = "Variable array shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "schema/loader.go"
+  fileline = 175
+  comment = "Variable m shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "graph/sql/iterator.go"
+  fileline = 196
+  comment = "Variable i shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "graph/sql/iterator.go"
+  fileline = 196
+  comment = "Variable ok shadows a variable of the same name declared in an outer scope."

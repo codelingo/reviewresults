@@ -1,0 +1,163 @@
+repo = "github.com/cayleygraph/cayley"
+rule = "codelingo/go/default-in-type-switch"
+sha = "fac546436001de25fdede3796485261ce9842379"
+
+[[issues]]
+  filepath = "graph/memstore/keys.go"
+  fileline = 289
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "query/linkedql/registry.go"
+  fileline = 244
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "graph/nosql/shapes.go"
+  fileline = 20
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "graph/iterator/regex.go"
+  fileline = 35
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "graph/nosql/shapes.go"
+  fileline = 227
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "schema/writer.go"
+  fileline = 85
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "graph/memstore/keys.go"
+  fileline = 539
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "internal/gephi/stream.go"
+  fileline = 241
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "graph/memstore/keys.go"
+  fileline = 347
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "query/gizmo/gizmo.go"
+  fileline = 403
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "query/shape/shape.go"
+  fileline = 732
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "query/shape/path.go"
+  fileline = 39
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "graph/memstore/keys.go"
+  fileline = 455
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "query/shape/shape.go"
+  fileline = 979
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "query/gizmo/environ.go"
+  fileline = 266
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "graph/nosql/shapes.go"
+  fileline = 164
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "graph/memstore/keys.go"
+  fileline = 322
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "graph/memstore/iterator.go"
+  fileline = 195
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "query/mql/fill.go"
+  fileline = 98
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "query/shape/shape.go"
+  fileline = 502
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "graph/memstore/keys.go"
+  fileline = 174
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "schema/loader.go"
+  fileline = 218
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "query/linkedql/iter_docs.go"
+  fileline = 63
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "graph/kv/iterators.go"
+  fileline = 96
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "graph/memstore/keys.go"
+  fileline = 665
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "query/shape/shape.go"
+  fileline = 1056
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "query/mql/fill.go"
+  fileline = 62
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "graph/memstore/keys.go"
+  fileline = 548
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "graph/memstore/keys.go"
+  fileline = 598
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "graph/memstore/keys.go"
+  fileline = 372
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "query/shape/path.go"
+  fileline = 12
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "query/path/morphism_apply_functions.go"
+  fileline = 403
+  comment = "Always include a default case when using a type switch."

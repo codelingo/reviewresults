@@ -1,0 +1,28 @@
+repo = "github.com/yudai/gotty"
+rule = "codelingo/go/unchecked-type-assertion"
+sha = "a080c85cbc59226c94c6941ad8c395232d72d517"
+
+[[issues]]
+  filepath = "vendor/github.com/NYTimes/gziphandler/gzip.go"
+  fileline = 161
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/hashicorp/go-multierror/append.go"
+  fileline = 10
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "server/list_address.go"
+  fileline = 18
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/hashicorp/go-multierror/flatten.go"
+  fileline = 18
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/gorilla/websocket/conn.go"
+  fileline = 518
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."

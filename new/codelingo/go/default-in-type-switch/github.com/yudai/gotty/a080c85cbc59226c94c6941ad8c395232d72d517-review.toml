@@ -1,0 +1,13 @@
+repo = "github.com/yudai/gotty"
+rule = "codelingo/go/default-in-type-switch"
+sha = "a080c85cbc59226c94c6941ad8c395232d72d517"
+
+[[issues]]
+  filepath = "vendor/github.com/codegangsta/cli/flag.go"
+  fileline = 710
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "server/list_address.go"
+  fileline = 18
+  comment = "Always include a default case when using a type switch."

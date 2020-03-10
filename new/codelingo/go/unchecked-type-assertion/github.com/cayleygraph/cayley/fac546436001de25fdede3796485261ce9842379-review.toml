@@ -1,0 +1,498 @@
+repo = "github.com/cayleygraph/cayley"
+rule = "codelingo/go/unchecked-type-assertion"
+sha = "fac546436001de25fdede3796485261ce9842379"
+
+[[issues]]
+  filepath = "graph/memstore/quadstore.go"
+  fileline = 457
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "graph/nosql/quadstore.go"
+  fileline = 560
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "graph/kv/iterators.go"
+  fileline = 96
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "graph/gaedatastore/quadstore.go"
+  fileline = 155
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "graph/memstore/quadstore_test.go"
+  fileline = 118
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "query/graphql/graphql.go"
+  fileline = 558
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "graph/memstore/keys.go"
+  fileline = 539
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "graph/memstore/keys.go"
+  fileline = 748
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "schema/loader.go"
+  fileline = 218
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "graph/kv/indexing.go"
+  fileline = 1098
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "query/gizmo/gizmo_test.go"
+  fileline = 716
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "query/mql/build_iterator.go"
+  fileline = 59
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "query/gizmo/traversals.go"
+  fileline = 478
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "query/gizmo/environ.go"
+  fileline = 223
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "query/mql/fill.go"
+  fileline = 98
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "graph/sql/optimizer.go"
+  fileline = 81
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "graph/sql/optimizer.go"
+  fileline = 118
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "graph/nosql/shapes.go"
+  fileline = 20
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "graph/nosql/iterator.go"
+  fileline = 273
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "graph/gaedatastore/iterator.go"
+  fileline = 374
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "query/shape/path.go"
+  fileline = 12
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "graph/memstore/keys.go"
+  fileline = 322
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "query/gizmo/environ.go"
+  fileline = 203
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "inference/inference.go"
+  fileline = 294
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "graph/memstore/keys.go"
+  fileline = 686
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "query/graphql/graphql.go"
+  fileline = 442
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "query/shape/shape.go"
+  fileline = 732
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "graph/gaedatastore/quadstore_test.go"
+  fileline = 119
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "internal/http/write.go"
+  fileline = 64
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "graph/memstore/keys.go"
+  fileline = 813
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "graph/memstore/keys.go"
+  fileline = 463
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "graph/memstore/keys.go"
+  fileline = 613
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "graph/nosql/quadstore.go"
+  fileline = 475
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "graph/nosql/quadstore.go"
+  fileline = 580
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "query/mql/fill.go"
+  fileline = 62
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "query/gizmo/environ.go"
+  fileline = 308
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "query/shape/path.go"
+  fileline = 39
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "graph/memstore/keys.go"
+  fileline = 810
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "graph/memstore/keys.go"
+  fileline = 222
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "graph/iterator/value_comparison.go"
+  fileline = 64
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "graph/nosql/shapes.go"
+  fileline = 227
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "graph/iterator/regex.go"
+  fileline = 35
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "query/gizmo/gizmo_test.go"
+  fileline = 710
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "query/shape/shape.go"
+  fileline = 979
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "graph/nosql/quadstore.go"
+  fileline = 571
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "graph/nosql/quadstore.go"
+  fileline = 671
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "query/shape/path.go"
+  fileline = 26
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "graph/sql/quadstore.go"
+  fileline = 513
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "graph/gaedatastore/iterator.go"
+  fileline = 60
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "graph/sql/optimizer.go"
+  fileline = 270
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "graph/memstore/keys.go"
+  fileline = 190
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "graph/memstore/keys.go"
+  fileline = 598
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "graph/nosql/quadstore.go"
+  fileline = 510
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "query/gizmo/gizmo.go"
+  fileline = 429
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "graph/kv/quadstore.go"
+  fileline = 316
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "graph/memstore/keys.go"
+  fileline = 347
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "graph/iterator/regex.go"
+  fileline = 26
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "graph/memstore/keys.go"
+  fileline = 665
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "graph/memstore/keys.go"
+  fileline = 289
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "graph/sql/quadstore.go"
+  fileline = 317
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "query/linkedql/registry.go"
+  fileline = 244
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "graph/nosql/quadstore.go"
+  fileline = 529
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "query/path/morphism_apply_functions.go"
+  fileline = 403
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "internal/gephi/stream.go"
+  fileline = 102
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "query/gizmo/environ.go"
+  fileline = 294
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "query/shape/shape.go"
+  fileline = 1056
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "graph/memstore/keys.go"
+  fileline = 98
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "graph/sql/optimizer.go"
+  fileline = 318
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "graph/memstore/quadstore.go"
+  fileline = 446
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "graph/memstore/keys.go"
+  fileline = 455
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "graph/memstore/iterator.go"
+  fileline = 195
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "graph/graphmock/graphmock.go"
+  fileline = 92
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "graph/nosql/quadstore.go"
+  fileline = 614
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "query/shape/shape.go"
+  fileline = 1217
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "graph/sql/quadstore.go"
+  fileline = 583
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "schema/writer.go"
+  fileline = 85
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "graph/memstore/keys.go"
+  fileline = 548
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "graph/memstore/keys.go"
+  fileline = 372
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "graph/sql/optimizer.go"
+  fileline = 224
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "graph/nosql/shapes.go"
+  fileline = 164
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "graph/sql/iterator.go"
+  fileline = 328
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "query/gizmo/environ.go"
+  fileline = 266
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "query/path/path.go"
+  fileline = 388
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "query/linkedql/iter_docs.go"
+  fileline = 63
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "graph/sql/quadstore.go"
+  fileline = 616
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "graph/memstore/keys.go"
+  fileline = 225
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "query/gizmo/environ.go"
+  fileline = 354
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "server/http/common.go"
+  fileline = 17
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "schema/loader.go"
+  fileline = 302
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "query/linkedql/voc_util.go"
+  fileline = 10
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "schema/schema.go"
+  fileline = 442
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "graph/nosql/shapes.go"
+  fileline = 110
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "graph/memstore/keys.go"
+  fileline = 401
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "internal/gephi/stream.go"
+  fileline = 113
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "graph/memstore/keys.go"
+  fileline = 174
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "graph/memstore/keys.go"
+  fileline = 90
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "query/gizmo/traversals.go"
+  fileline = 420
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "graph/memstore/keys.go"
+  fileline = 713
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "server/http/api_v2.go"
+  fileline = 464
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
