@@ -3,5 +3,7 @@ rule = "codelingo/rfjakob-gocryptfs/missing-close-file"
 sha = "7509fdef4a199b666f4fd838e5d9ea4bc68302d5"
 
 [[issues]]
-  filepath = "main.go"
   fileline = 42
+  filepath = "main.go"
+  fixed = true
+  ignored = ""
