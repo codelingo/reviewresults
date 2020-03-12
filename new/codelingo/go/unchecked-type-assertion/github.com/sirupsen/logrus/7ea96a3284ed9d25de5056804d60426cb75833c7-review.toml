@@ -1,0 +1,48 @@
+repo = "github.com/sirupsen/logrus"
+rule = "codelingo/go/unchecked-type-assertion"
+sha = "7ea96a3284ed9d25de5056804d60426cb75833c7"
+
+[[issues]]
+  filepath = "entry_test.go"
+  fileline = 155
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "terminal_check_windows.go"
+  fileline = 14
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "json_formatter_test.go"
+  fileline = 187
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "terminal_check_notappengine.go"
+  fileline = 11
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "entry.go"
+  fileline = 241
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "json_formatter.go"
+  fileline = 60
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "terminal_check_windows.go"
+  fileline = 22
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "example_basic_test.go"
+  fileline = 28
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "entry_test.go"
+  fileline = 133
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."

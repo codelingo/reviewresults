@@ -1,0 +1,168 @@
+repo = "github.com/sirupsen/logrus"
+rule = "codelingo/go/unsafe-go-routine-variables"
+sha = "7ea96a3284ed9d25de5056804d60426cb75833c7"
+
+[[issues]]
+  filepath = "hook_test.go"
+  fileline = 184
+  comment = "The variable Error should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "hook_test.go"
+  fileline = 183
+  comment = "The variable Done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "hook_test.go"
+  fileline = 183
+  comment = "The variable wg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "hook_test.go"
+  fileline = 184
+  comment = "The variable log should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "logrus_test.go"
+  fileline = 558
+  comment = "The variable Done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "logrus_test.go"
+  fileline = 558
+  comment = "The variable wg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "logrus_test.go"
+  fileline = 560
+  comment = "The variable SetLevel should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "logrus_test.go"
+  fileline = 560
+  comment = "The variable InfoLevel should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "logrus_test.go"
+  fileline = 562
+  comment = "The variable GetLevel should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "hook_test.go"
+  fileline = 180
+  comment = "The variable AddHook should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "hook_test.go"
+  fileline = 180
+  comment = "The variable log should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "hook_test.go"
+  fileline = 180
+  comment = "The variable hook should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "hook_test.go"
+  fileline = 179
+  comment = "The variable Done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "hook_test.go"
+  fileline = 179
+  comment = "The variable wg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "logrus_test.go"
+  fileline = 761
+  comment = "The variable Done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "logrus_test.go"
+  fileline = 761
+  comment = "The variable wg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "logrus_test.go"
+  fileline = 760
+  comment = "The variable Error should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "logrus_test.go"
+  fileline = 760
+  comment = "The variable l should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "hooks/test/test_test.go"
+  fileline = 56
+  comment = "The variable Info should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "hooks/test/test_test.go"
+  fileline = 57
+  comment = "The variable wgAll should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "hooks/test/test_test.go"
+  fileline = 57
+  comment = "The variable Done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "hooks/test/test_test.go"
+  fileline = 58
+  comment = "The variable unlocker should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "hooks/test/test_test.go"
+  fileline = 56
+  comment = "The variable logger should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "hooks/test/test_test.go"
+  fileline = 59
+  comment = "The variable Done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "hooks/test/test_test.go"
+  fileline = 59
+  comment = "The variable wgOne should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "logrus_test.go"
+  fileline = 597
+  comment = "The variable wg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "logrus_test.go"
+  fileline = 597
+  comment = "The variable Done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "logrus_test.go"
+  fileline = 596
+  comment = "The variable Info should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "logrus_test.go"
+  fileline = 596
+  comment = "The variable entry should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "logrus_test.go"
+  fileline = 579
+  comment = "The variable Done should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "logrus_test.go"
+  fileline = 578
+  comment = "The variable logger should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "logrus_test.go"
+  fileline = 579
+  comment = "The variable wg should be passed in as arguments to go-routines to avoid race conditions."
+
+[[issues]]
+  filepath = "logrus_test.go"
+  fileline = 578
+  comment = "The variable Info should be passed in as arguments to go-routines to avoid race conditions."

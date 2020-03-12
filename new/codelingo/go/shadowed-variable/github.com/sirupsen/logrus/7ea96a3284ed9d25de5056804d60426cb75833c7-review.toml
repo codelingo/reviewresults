@@ -1,0 +1,13 @@
+repo = "github.com/sirupsen/logrus"
+rule = "codelingo/go/shadowed-variable"
+sha = "7ea96a3284ed9d25de5056804d60426cb75833c7"
+
+[[issues]]
+  filepath = "entry_test.go"
+  fileline = 200
+  comment = "Variable entry shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "entry.go"
+  fileline = 186
+  comment = "Variable pcs shadows a variable of the same name declared in an outer scope."
