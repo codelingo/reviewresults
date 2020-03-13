@@ -1,0 +1,10 @@
+repo = "github.com/waigani/diffparser"
+rule = "codelingo/go/ticker-in-for-select"
+sha = "7391f219313d9175703f67561b222fd2a81bca30"
+
+[[issues]]
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+  fileline = 75
+  filepath = "diffparser.go"
+  fixed = true
+  ignored = ""
