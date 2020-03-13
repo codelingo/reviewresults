@@ -3,6 +3,8 @@ rule = "codelingo/rfjakob-gocryptfs/missing-close-file"
 sha = "fac546436001de25fdede3796485261ce9842379"
 
 [[issues]]
-  filepath = "internal/load.go"
-  fileline = 56
   comment = "Close the file when you are done"
+  fileline = 56
+  filepath = "internal/load.go"
+  fixed = false
+  ignored = "leaves func"
