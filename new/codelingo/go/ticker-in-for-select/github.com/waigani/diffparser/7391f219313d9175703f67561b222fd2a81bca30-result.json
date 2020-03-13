@@ -1,0 +1,1 @@
+{"repo":"github.com/waigani/diffparser","rule":"codelingo/go/ticker-in-for-select", "comment": "this is a comment", "sha":"7391f219313d9175703f67561b222fd2a81bca30","issues":[{"filepath":"diffparser.go","fileline":75}]}
