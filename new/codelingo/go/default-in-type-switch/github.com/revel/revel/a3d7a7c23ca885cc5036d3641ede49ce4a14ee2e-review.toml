@@ -1,0 +1,38 @@
+repo = "github.com/revel/revel"
+rule = "codelingo/go/default-in-type-switch"
+sha = "a3d7a7c23ca885cc5036d3641ede49ce4a14ee2e"
+
+[[issues]]
+  filepath = "util.go"
+  fileline = 179
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "results.go"
+  fileline = 72
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "util.go"
+  fileline = 159
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "util.go"
+  fileline = 164
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "util.go"
+  fileline = 169
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "util.go"
+  fileline = 174
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "util.go"
+  fileline = 157
+  comment = "Always include a default case when using a type switch."
