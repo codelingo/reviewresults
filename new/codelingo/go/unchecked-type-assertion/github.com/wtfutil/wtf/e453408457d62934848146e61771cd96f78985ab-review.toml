@@ -1,0 +1,103 @@
+repo = "github.com/wtfutil/wtf"
+rule = "codelingo/go/unchecked-type-assertion"
+sha = "e453408457d62934848146e61771cd96f78985ab"
+
+[[issues]]
+  filepath = "modules/cryptoexchanges/cryptolive/price/settings.go"
+  fileline = 68
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "modules/github/settings.go"
+  fileline = 65
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "utils/conversions.go"
+  fileline = 38
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "modules/exchangerates/settings.go"
+  fileline = 35
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "modules/github/settings.go"
+  fileline = 63
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "modules/cryptoexchanges/bittrex/settings.go"
+  fileline = 55
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "modules/nbascore/widget.go"
+  fileline = 112
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "modules/zendesk/widget.go"
+  fileline = 89
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "modules/nbascore/widget.go"
+  fileline = 116
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "utils/conversions.go"
+  fileline = 49
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "modules/nbascore/widget.go"
+  fileline = 105
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "modules/nbascore/widget.go"
+  fileline = 103
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "utils/conversions.go"
+  fileline = 14
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "utils/conversions.go"
+  fileline = 65
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "modules/github/settings.go"
+  fileline = 61
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "modules/newrelic/client/http_helper.go"
+  fileline = 55
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "modules/cryptoexchanges/cryptolive/toplist/settings.go"
+  fileline = 69
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "modules/nbascore/widget.go"
+  fileline = 97
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "modules/nbascore/widget.go"
+  fileline = 99
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "modules/zendesk/widget.go"
+  fileline = 93
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."

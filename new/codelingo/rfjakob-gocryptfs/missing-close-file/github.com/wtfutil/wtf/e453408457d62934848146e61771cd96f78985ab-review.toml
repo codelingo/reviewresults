@@ -1,0 +1,8 @@
+repo = "github.com/wtfutil/wtf"
+rule = "codelingo/rfjakob-gocryptfs/missing-close-file"
+sha = "e453408457d62934848146e61771cd96f78985ab"
+
+[[issues]]
+  filepath = "cfg/copy.go"
+  fileline = 43
+  comment = "Close the file when you are done"
