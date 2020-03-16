@@ -1,0 +1,38 @@
+repo = "github.com/zyedidia/micro"
+rule = "codelingo/go/shadowed-variable"
+sha = "943ea15fa3a9a9577c7b4b52307c0176606fea27"
+
+[[issues]]
+  filepath = "internal/display/statusline.go"
+  fileline = 105
+  comment = "Variable statusLineStyle shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "internal/display/infowindow.go"
+  fileline = 243
+  comment = "Variable x shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "internal/display/bufwindow.go"
+  fileline = 651
+  comment = "Variable curStyle shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "internal/display/bufwindow.go"
+  fileline = 78
+  comment = "Variable curStyle shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "pkg/highlight/highlighter.go"
+  fileline = 193
+  comment = "Variable loc shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "pkg/highlight/parser.go"
+  fileline = 387
+  comment = "Variable groupNum shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "pkg/highlight/parser.go"
+  fileline = 203
+  comment = "Variable rules shadows a variable of the same name declared in an outer scope."

@@ -1,0 +1,33 @@
+repo = "github.com/zyedidia/micro"
+rule = "codelingo/go/default-in-type-switch"
+sha = "943ea15fa3a9a9577c7b4b52307c0176606fea27"
+
+[[issues]]
+  filepath = "internal/action/bufpane.go"
+  fileline = 296
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "internal/action/actions.go"
+  fileline = 1511
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "internal/action/tab.go"
+  fileline = 100
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "internal/action/infocomplete.go"
+  fileline = 159
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "internal/action/rawpane.go"
+  fileline = 30
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "internal/action/bindings.go"
+  fileline = 61
+  comment = "Always include a default case when using a type switch."
