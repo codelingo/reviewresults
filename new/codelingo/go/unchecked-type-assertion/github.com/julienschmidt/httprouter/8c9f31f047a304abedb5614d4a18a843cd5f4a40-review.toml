@@ -1,0 +1,8 @@
+repo = "github.com/julienschmidt/httprouter"
+rule = "codelingo/go/unchecked-type-assertion"
+sha = "8c9f31f047a304abedb5614d4a18a843cd5f4a40"
+
+[[issues]]
+  filepath = "router.go"
+  fileline = 223
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
