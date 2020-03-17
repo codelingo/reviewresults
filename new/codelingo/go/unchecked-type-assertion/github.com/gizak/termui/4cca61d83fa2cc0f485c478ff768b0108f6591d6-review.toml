@@ -1,0 +1,23 @@
+repo = "github.com/gizak/termui"
+rule = "codelingo/go/unchecked-type-assertion"
+sha = "4cca61d83fa2cc0f485c478ff768b0108f6591d6"
+
+[[issues]]
+  filepath = "v3/buffer.go"
+  fileline = 30
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "v3/style.go"
+  fileline = 58
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "v3/style.go"
+  fileline = 55
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "_examples/grid.go"
+  fileline = 104
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."

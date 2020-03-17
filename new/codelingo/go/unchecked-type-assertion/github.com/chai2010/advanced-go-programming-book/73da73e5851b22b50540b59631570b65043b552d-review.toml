@@ -1,0 +1,18 @@
+repo = "github.com/chai2010/advanced-go-programming-book"
+rule = "codelingo/go/unchecked-type-assertion"
+sha = "73da73e5851b22b50540b59631570b65043b552d"
+
+[[issues]]
+  filepath = "examples/ch2.8/class-go2cc/person_capi.go"
+  fileline = 29
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "examples/ch2.8/class-go2cc/person_capi.go"
+  fileline = 23
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "examples/ch2.8/class-go2cc/person_capi.go"
+  fileline = 42
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."

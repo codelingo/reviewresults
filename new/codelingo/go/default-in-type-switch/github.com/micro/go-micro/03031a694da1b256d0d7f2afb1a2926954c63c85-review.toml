@@ -1,0 +1,28 @@
+repo = "github.com/micro/go-micro"
+rule = "codelingo/go/default-in-type-switch"
+sha = "03031a694da1b256d0d7f2afb1a2926954c63c85"
+
+[[issues]]
+  filepath = "codec/bytes/marshaler.go"
+  fileline = 27
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "broker/memory/memory.go"
+  fileline = 187
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "codec/bytes/marshaler.go"
+  fileline = 15
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "util/addr/addr.go"
+  fileline = 143
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "client/grpc/codec.go"
+  fileline = 72
+  comment = "Always include a default case when using a type switch."

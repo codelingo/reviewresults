@@ -1,0 +1,33 @@
+repo = "github.com/micro/go-micro"
+rule = "codelingo/go/insecure-http-connection"
+sha = "03031a694da1b256d0d7f2afb1a2926954c63c85"
+
+[[issues]]
+  filepath = "transport/grpc/grpc.go"
+  fileline = 104
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+
+[[issues]]
+  filepath = "transport/http_transport.go"
+  fileline = 495
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+
+[[issues]]
+  filepath = "web/service_test.go"
+  fileline = 264
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+
+[[issues]]
+  filepath = "registry/etcd/etcd.go"
+  fileline = 63
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+
+[[issues]]
+  filepath = "transport/quic/quic.go"
+  fileline = 115
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+
+[[issues]]
+  filepath = "service/grpc/grpc_test.go"
+  fileline = 99
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
