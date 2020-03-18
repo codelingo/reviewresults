@@ -1,0 +1,23 @@
+repo = "github.com/ipfs/go-ipfs"
+rule = "codelingo/go/default-in-type-switch"
+sha = "4acb15d52b26bc71071f44f71ef0a72b547cf855"
+
+[[issues]]
+  filepath = "repo/fsrepo/fsrepo.go"
+  fileline = 634
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "plugin/plugins/peerlog/peerlog.go"
+  fileline = 77
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "core/commands/files.go"
+  fileline = 1051
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "repo/fsrepo/fsrepo.go"
+  fileline = 619
+  comment = "Always include a default case when using a type switch."

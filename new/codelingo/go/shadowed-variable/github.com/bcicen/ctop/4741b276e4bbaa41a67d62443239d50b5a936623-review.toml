@@ -1,0 +1,13 @@
+repo = "github.com/bcicen/ctop"
+rule = "codelingo/go/shadowed-variable"
+sha = "4741b276e4bbaa41a67d62443239d50b5a936623"
+
+[[issues]]
+  filepath = "config/file.go"
+  fileline = 94
+  comment = "Variable ok shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "cwidgets/util.go"
+  fileline = 33
+  comment = "Variable nf shadows a variable of the same name declared in an outer scope."

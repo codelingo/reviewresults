@@ -1,0 +1,33 @@
+repo = "github.com/ipfs/go-ipfs"
+rule = "codelingo/go/shadowed-variable"
+sha = "4acb15d52b26bc71071f44f71ef0a72b547cf855"
+
+[[issues]]
+  filepath = "core/commands/config.go"
+  fileline = 207
+  comment = "Variable ok shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "core/commands/p2p.go"
+  fileline = 241
+  comment = "Variable sport shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "core/corehttp/lazyseek.go"
+  fileline = 43
+  comment = "Variable off shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "repo/fsrepo/datastores.go"
+  fileline = 108
+  comment = "Variable ok shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "core/coreapi/pubsub.go"
+  fileline = 107
+  comment = "Variable cancel shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "core/coreapi/pubsub.go"
+  fileline = 107
+  comment = "Variable ctx shadows a variable of the same name declared in an outer scope."

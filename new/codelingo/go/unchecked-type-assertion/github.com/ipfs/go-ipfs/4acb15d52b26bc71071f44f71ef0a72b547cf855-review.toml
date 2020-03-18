@@ -1,0 +1,178 @@
+repo = "github.com/ipfs/go-ipfs"
+rule = "codelingo/go/unchecked-type-assertion"
+sha = "4acb15d52b26bc71071f44f71ef0a72b547cf855"
+
+[[issues]]
+  filepath = "plugin/plugins/levelds/levelds.go"
+  fileline = 57
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "fuse/readonly/readonly_unix.go"
+  fileline = 74
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "core/commands/ping.go"
+  fileline = 180
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "fuse/ipns/ipns_unix.go"
+  fileline = 169
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "core/commands/cid.go"
+  fileline = 105
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "blocks/blockstoreutil/remove.go"
+  fileline = 108
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "core/commands/files.go"
+  fileline = 253
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "fuse/ipns/ipns_unix.go"
+  fileline = 505
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "repo/fsrepo/fsrepo.go"
+  fileline = 619
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "core/commands/active.go"
+  fileline = 27
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "cmd/ipfs/init.go"
+  fileline = 67
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "cmd/ipfs/main.go"
+  fileline = 204
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "core/corehttp/metrics.go"
+  fileline = 78
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "core/commands/ls.go"
+  fileline = 183
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "core/corehttp/metrics.go"
+  fileline = 56
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "cmd/ipfs/daemon.go"
+  fileline = 225
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "core/commands/pin.go"
+  fileline = 348
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "core/commands/cat.go"
+  fileline = 97
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "core/commands/files.go"
+  fileline = 965
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "plugin/plugins/peerlog/peerlog.go"
+  fileline = 77
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "core/commands/add.go"
+  fileline = 336
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "core/corehttp/metrics.go"
+  fileline = 67
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "core/commands/filestore.go"
+  fileline = 87
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "core/commands/active.go"
+  fileline = 92
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "core/coreunix/add.go"
+  fileline = 186
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "core/coreunix/add.go"
+  fileline = 358
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "fuse/readonly/readonly_unix.go"
+  fileline = 192
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "cmd/ipfs/init.go"
+  fileline = 83
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "fuse/ipns/ipns_unix.go"
+  fileline = 279
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "core/corehttp/metrics.go"
+  fileline = 45
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "core/commands/cat.go"
+  fileline = 127
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "core/commands/active.go"
+  fileline = 110
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "core/commands/files.go"
+  fileline = 461
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "core/commands/stat.go"
+  fileline = 171
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "fuse/node/mount_darwin.go"
+  fileline = 239
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
