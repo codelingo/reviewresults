@@ -1,0 +1,8 @@
+repo = "github.com/apex/apex"
+rule = "codelingo/go/unchecked-type-assertion"
+sha = "16c08f0eb344e00f7c8353483467230efc3e586b"
+
+[[issues]]
+  filepath = "internal/util/util.go"
+  fileline = 280
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."

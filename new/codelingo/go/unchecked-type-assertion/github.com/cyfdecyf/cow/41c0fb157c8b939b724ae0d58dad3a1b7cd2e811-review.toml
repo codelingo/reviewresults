@@ -1,0 +1,8 @@
+repo = "github.com/cyfdecyf/cow"
+rule = "codelingo/go/unchecked-type-assertion"
+sha = "41c0fb157c8b939b724ae0d58dad3a1b7cd2e811"
+
+[[issues]]
+  filepath = "parent_proxy.go"
+  fileline = 70
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."

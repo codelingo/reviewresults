@@ -1,0 +1,133 @@
+repo = "github.com/Masterminds/glide"
+rule = "codelingo/go/unchecked-type-assertion"
+sha = "b94b39d657d8abcccba6545e148f1201aee6ffec"
+
+[[issues]]
+  filepath = "vendor/github.com/codegangsta/cli/command_test.go"
+  fileline = 99
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "msg/msg.go"
+  fileline = 182
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "repo/vcs.go"
+  fileline = 438
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/gopkg.in/yaml.v2/encode.go"
+  fileline = 140
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/gopkg.in/yaml.v2/decode.go"
+  fileline = 442
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/codegangsta/cli/altsrc/toml_file_loader.go"
+  fileline = 29
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/gopkg.in/yaml.v2/encode.go"
+  fileline = 247
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "dependency/resolver.go"
+  fileline = 467
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/gopkg.in/yaml.v2/decode.go"
+  fileline = 436
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "path/winbug.go"
+  fileline = 20
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/codegangsta/cli/altsrc/toml_file_loader.go"
+  fileline = 27
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "action/config_wizard.go"
+  fileline = 135
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/codegangsta/cli/altsrc/toml_file_loader.go"
+  fileline = 22
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "action/config_wizard.go"
+  fileline = 110
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "gom/gom.go"
+  fileline = 76
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "gom/gom.go"
+  fileline = 70
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/gopkg.in/yaml.v2/decode.go"
+  fileline = 382
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "repo/vcs.go"
+  fileline = 437
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/gopkg.in/yaml.v2/decode.go"
+  fileline = 413
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "action/config_wizard.go"
+  fileline = 85
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "gom/gom.go"
+  fileline = 73
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/codegangsta/cli/altsrc/toml_file_loader.go"
+  fileline = 61
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "repo/vcs.go"
+  fileline = 404
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "repo/vcs.go"
+  fileline = 403
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "dependency/resolver.go"
+  fileline = 687
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/codegangsta/cli/command_test.go"
+  fileline = 107
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
