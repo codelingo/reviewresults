@@ -1,0 +1,8 @@
+repo = "github.com/asciimoo/wuzz"
+rule = "codelingo/go/reassigned-error"
+sha = "f087795f7299f432123dc61baf072ffcb2088178"
+
+[[issues]]
+  filepath = "commands.go"
+  fileline = 222
+  comment = "Error was not checked before reassignment"

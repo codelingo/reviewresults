@@ -1,0 +1,33 @@
+repo = "github.com/go-sql-driver/mysql"
+rule = "codelingo/go/unchecked-type-assertion"
+sha = "681ffa848bae8d0d7b1a452963c0705b132308f7"
+
+[[issues]]
+  filepath = "packets.go"
+  fileline = 1011
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "nulltime.go"
+  fileline = 26
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "driver_test.go"
+  fileline = 745
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "connection.go"
+  fileline = 216
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "auth_test.go"
+  fileline = 39
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "auth.go"
+  fileline = 380
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."

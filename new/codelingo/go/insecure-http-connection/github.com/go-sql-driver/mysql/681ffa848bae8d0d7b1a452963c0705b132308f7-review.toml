@@ -1,0 +1,28 @@
+repo = "github.com/go-sql-driver/mysql"
+rule = "codelingo/go/insecure-http-connection"
+sha = "681ffa848bae8d0d7b1a452963c0705b132308f7"
+
+[[issues]]
+  filepath = "dsn.go"
+  fileline = 128
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+
+[[issues]]
+  filepath = "auth_test.go"
+  fileline = 666
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+
+[[issues]]
+  filepath = "auth_test.go"
+  fileline = 869
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+
+[[issues]]
+  filepath = "auth_test.go"
+  fileline = 1302
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+
+[[issues]]
+  filepath = "auth_test.go"
+  fileline = 294
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."

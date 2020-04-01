@@ -1,0 +1,8 @@
+repo = "github.com/go-sql-driver/mysql"
+rule = "codelingo/go/default-in-type-switch"
+sha = "681ffa848bae8d0d7b1a452963c0705b132308f7"
+
+[[issues]]
+  filepath = "nulltime.go"
+  fileline = 26
+  comment = "Always include a default case when using a type switch."
