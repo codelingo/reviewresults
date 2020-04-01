@@ -1,0 +1,68 @@
+repo = "github.com/jesseduffield/lazydocker"
+rule = "codelingo/go/default-in-type-switch"
+sha = "22ab84043937cdbb9dcb08518dc9adf7f2c7a68b"
+
+[[issues]]
+  filepath = "vendor/github.com/jesseduffield/yaml/decode.go"
+  fileline = 498
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/github.com/jesseduffield/yaml/decode.go"
+  fileline = 475
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/github.com/sirupsen/logrus/terminal_check_windows.go"
+  fileline = 14
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/github.com/gogo/protobuf/proto/table_marshal.go"
+  fileline = 393
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/github.com/jesseduffield/yaml/resolve.go"
+  fileline = 97
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/github.com/jesseduffield/yaml/encode.go"
+  fileline = 107
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/github.com/jesseduffield/yaml/decode.go"
+  fileline = 444
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/github.com/davecgh/go-spew/spew/common.go"
+  fileline = 114
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/github.com/gogo/protobuf/proto/extensions.go"
+  fileline = 96
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/github.com/gogo/protobuf/proto/properties.go"
+  fileline = 454
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/github.com/jesseduffield/yaml/decode.go"
+  fileline = 504
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "pkg/gui/keybindings.go"
+  fileline = 27
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/github.com/gogo/protobuf/proto/table_unmarshal.go"
+  fileline = 377
+  comment = "Always include a default case when using a type switch."

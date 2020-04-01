@@ -1,0 +1,8 @@
+repo = "github.com/iawia002/annie"
+rule = "codelingo/rfjakob-gocryptfs/missing-close-file"
+sha = "c24fbc04b8260cc5923af12be9baf30d35735325"
+
+[[issues]]
+  filepath = "downloader/downloader.go"
+  fileline = 447
+  comment = "Close the file when you are done"

@@ -1,0 +1,13 @@
+repo = "github.com/quii/learn-go-with-tests"
+rule = "codelingo/go/reassigned-error"
+sha = "d84a9bd65fceb46b318cda32920efd2232f3b2de"
+
+[[issues]]
+  filepath = "time/v2/FileSystemStore.go"
+  fileline = 39
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "websockets/v2/FileSystemStore.go"
+  fileline = 39
+  comment = "Error was not checked before reassignment"

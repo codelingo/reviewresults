@@ -1,0 +1,8 @@
+repo = "github.com/gorilla/websocket"
+rule = "codelingo/go/ticker-in-for-select"
+sha = "c3e18be99d19e6b3e8f1559eea2c161a665c4b6b"
+
+[[issues]]
+  filepath = "examples/echo/client.go"
+  fileline = 77
+  comment = "Make one ticker as opposed to making a new timer each iteration."

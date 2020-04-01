@@ -1,0 +1,43 @@
+repo = "github.com/asciimoo/wuzz"
+rule = "codelingo/go/shadowed-variable"
+sha = "f087795f7299f432123dc61baf072ffcb2088178"
+
+[[issues]]
+  filepath = "wuzz.go"
+  fileline = 781
+  comment = "Variable vrb shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "wuzz.go"
+  fileline = 884
+  comment = "Variable vrb shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "wuzz.go"
+  fileline = 905
+  comment = "Variable vrh shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "wuzz.go"
+  fileline = 815
+  comment = "Variable vrb shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "wuzz.go"
+  fileline = 744
+  comment = "Variable vrb shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "wuzz.go"
+  fileline = 867
+  comment = "Variable vrb shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "wuzz.go"
+  fileline = 848
+  comment = "Variable vrb shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "wuzz.go"
+  fileline = 754
+  comment = "Variable vrb shadows a variable of the same name declared in an outer scope."

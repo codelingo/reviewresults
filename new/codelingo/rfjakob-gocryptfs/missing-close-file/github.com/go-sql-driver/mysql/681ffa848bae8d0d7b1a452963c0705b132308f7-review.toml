@@ -1,0 +1,8 @@
+repo = "github.com/go-sql-driver/mysql"
+rule = "codelingo/rfjakob-gocryptfs/missing-close-file"
+sha = "681ffa848bae8d0d7b1a452963c0705b132308f7"
+
+[[issues]]
+  filepath = "infile.go"
+  fileline = 133
+  comment = "Close the file when you are done"

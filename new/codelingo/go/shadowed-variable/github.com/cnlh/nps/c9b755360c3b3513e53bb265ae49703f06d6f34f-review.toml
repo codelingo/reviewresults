@@ -1,0 +1,68 @@
+repo = "github.com/cnlh/nps"
+rule = "codelingo/go/shadowed-variable"
+sha = "c9b755360c3b3513e53bb265ae49703f06d6f34f"
+
+[[issues]]
+  filepath = "gui/npc/npc.go"
+  fileline = 64
+  comment = "Variable ct shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "gui/npc/npc.go"
+  fileline = 64
+  comment = "Variable vk shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "gui/npc/npc.go"
+  fileline = 64
+  comment = "Variable sp shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "client/client.go"
+  fileline = 227
+  comment = "Variable b shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "client/client.go"
+  fileline = 237
+  comment = "Variable b shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "server/proxy/socks5.go"
+  fileline = 229
+  comment = "Variable b shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "server/proxy/socks5.go"
+  fileline = 251
+  comment = "Variable b shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "lib/pmux/pmux_test.go"
+  fileline = 23
+  comment = "Variable l shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "lib/pmux/pmux_test.go"
+  fileline = 24
+  comment = "Variable conn shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "lib/pmux/pmux_test.go"
+  fileline = 33
+  comment = "Variable l shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "lib/pmux/pmux_test.go"
+  fileline = 34
+  comment = "Variable conn shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "lib/pmux/pmux_test.go"
+  fileline = 28
+  comment = "Variable l shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "lib/pmux/pmux_test.go"
+  fileline = 29
+  comment = "Variable conn shadows a variable of the same name declared in an outer scope."

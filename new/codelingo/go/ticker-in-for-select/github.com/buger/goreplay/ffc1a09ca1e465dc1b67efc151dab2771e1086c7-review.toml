@@ -1,0 +1,28 @@
+repo = "github.com/buger/goreplay"
+rule = "codelingo/go/ticker-in-for-select"
+sha = "ffc1a09ca1e465dc1b67efc151dab2771e1086c7"
+
+[[issues]]
+  filepath = "vendor/github.com/Shopify/sarama/consumer.go"
+  fileline = 331
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "output_http.go"
+  fileline = 130
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "raw_socket_listener/listener_test.go"
+  fileline = 577
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "emitter.go"
+  fileline = 59
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "vendor/github.com/araddon/gou/testutil.go"
+  fileline = 32
+  comment = "Make one ticker as opposed to making a new timer each iteration."

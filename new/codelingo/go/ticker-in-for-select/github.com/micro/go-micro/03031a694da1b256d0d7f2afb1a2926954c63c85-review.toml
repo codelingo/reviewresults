@@ -1,0 +1,23 @@
+repo = "github.com/micro/go-micro"
+rule = "codelingo/go/ticker-in-for-select"
+sha = "03031a694da1b256d0d7f2afb1a2926954c63c85"
+
+[[issues]]
+  filepath = "router/table.go"
+  fileline = 50
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "registry/memory/memory.go"
+  fileline = 108
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "network/default.go"
+  fileline = 1671
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "api/router/registry/registry.go"
+  fileline = 93
+  comment = "Make one ticker as opposed to making a new timer each iteration."

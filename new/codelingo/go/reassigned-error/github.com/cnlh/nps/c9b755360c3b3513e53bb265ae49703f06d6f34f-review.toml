@@ -1,0 +1,8 @@
+repo = "github.com/cnlh/nps"
+rule = "codelingo/go/reassigned-error"
+sha = "c9b755360c3b3513e53bb265ae49703f06d6f34f"
+
+[[issues]]
+  filepath = "client/client.go"
+  fileline = 230
+  comment = "Error was not checked before reassignment"

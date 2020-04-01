@@ -1,0 +1,28 @@
+repo = "github.com/Masterminds/glide"
+rule = "codelingo/rfjakob-gocryptfs/missing-close-file"
+sha = "b94b39d657d8abcccba6545e148f1201aee6ffec"
+
+[[issues]]
+  filepath = "action/no_vendor.go"
+  fileline = 49
+  comment = "Close the file when you are done"
+
+[[issues]]
+  filepath = "dependency/scan.go"
+  fileline = 163
+  comment = "Close the file when you are done"
+
+[[issues]]
+  filepath = "gpm/gpm.go"
+  fileline = 38
+  comment = "Close the file when you are done"
+
+[[issues]]
+  filepath = "gom/parser.go"
+  fileline = 69
+  comment = "Close the file when you are done"
+
+[[issues]]
+  filepath = "gom/parser.go"
+  fileline = 67
+  comment = "Close the file when you are done"

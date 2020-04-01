@@ -1,0 +1,13 @@
+repo = "github.com/micro/go-micro"
+rule = "codelingo/lomik-go-carbon/missing-stop-ticker"
+sha = "03031a694da1b256d0d7f2afb1a2926954c63c85"
+
+[[issues]]
+  filepath = "server/grpc/grpc.go"
+  fileline = 861
+  comment = "Stop the ticker to release associated resources."
+
+[[issues]]
+  filepath = "api/handler/registry/registry.go"
+  fileline = 135
+  comment = "Stop the ticker to release associated resources."

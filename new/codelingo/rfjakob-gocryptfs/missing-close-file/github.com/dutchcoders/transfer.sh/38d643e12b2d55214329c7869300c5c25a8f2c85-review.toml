@@ -1,0 +1,18 @@
+repo = "github.com/dutchcoders/transfer.sh"
+rule = "codelingo/rfjakob-gocryptfs/missing-close-file"
+sha = "38d643e12b2d55214329c7869300c5c25a8f2c85"
+
+[[issues]]
+  filepath = "server/handlers.go"
+  fileline = 450
+  comment = "Close the file when you are done"
+
+[[issues]]
+  filepath = "server/handlers.go"
+  fileline = 307
+  comment = "Close the file when you are done"
+
+[[issues]]
+  filepath = "server/storage.go"
+  fileline = 67
+  comment = "Close the file when you are done"

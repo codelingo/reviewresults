@@ -1,0 +1,8 @@
+repo = "github.com/gorilla/mux"
+rule = "codelingo/go/unchecked-type-assertion"
+sha = "75dcda0896e109a2a22c9315bca3bb21b87b2ba5"
+
+[[issues]]
+  filepath = "mux_test.go"
+  fileline = 1601
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."

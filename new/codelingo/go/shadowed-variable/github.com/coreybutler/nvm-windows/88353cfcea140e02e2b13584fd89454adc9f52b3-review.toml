@@ -1,0 +1,23 @@
+repo = "github.com/coreybutler/nvm-windows"
+rule = "codelingo/go/shadowed-variable"
+sha = "88353cfcea140e02e2b13584fd89454adc9f52b3"
+
+[[issues]]
+  filepath = "src/nvm/node/node.go"
+  fileline = 25
+  comment = "Variable str shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "src/nvm/node/node.go"
+  fileline = 24
+  comment = "Variable cmd shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "src/nvm/node/node.go"
+  fileline = 30
+  comment = "Variable str shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "src/nvm/node/node.go"
+  fileline = 29
+  comment = "Variable cmd shadows a variable of the same name declared in an outer scope."

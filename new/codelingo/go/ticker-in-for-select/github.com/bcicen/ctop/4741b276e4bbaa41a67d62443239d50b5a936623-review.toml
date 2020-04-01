@@ -1,0 +1,8 @@
+repo = "github.com/bcicen/ctop"
+rule = "codelingo/go/ticker-in-for-select"
+sha = "4741b276e4bbaa41a67d62443239d50b5a936623"
+
+[[issues]]
+  filepath = "connector/runc.go"
+  fileline = 87
+  comment = "Make one ticker as opposed to making a new timer each iteration."

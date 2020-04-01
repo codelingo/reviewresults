@@ -1,0 +1,23 @@
+repo = "github.com/ipfs/go-ipfs"
+rule = "codelingo/go/ticker-in-for-select"
+sha = "4acb15d52b26bc71071f44f71ef0a72b547cf855"
+
+[[issues]]
+  filepath = "core/corerepo/gc.go"
+  fileline = 190
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "core/commands/stat.go"
+  fileline = 148
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "thirdparty/notifier/notifier_test.go"
+  fileline = 267
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "thirdparty/notifier/notifier_test.go"
+  fileline = 275
+  comment = "Make one ticker as opposed to making a new timer each iteration."

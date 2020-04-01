@@ -1,0 +1,233 @@
+repo = "github.com/buger/goreplay"
+rule = "codelingo/go/unchecked-type-assertion"
+sha = "ffc1a09ca1e465dc1b67efc151dab2771e1086c7"
+
+[[issues]]
+  filepath = "vendor/github.com/google/gopacket/layers/dot11.go"
+  fileline = 1072
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/araddon/gou/coerce.go"
+  fileline = 60
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/Shopify/sarama/mockresponses.go"
+  fileline = 100
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/Shopify/sarama/mockresponses.go"
+  fileline = 395
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/araddon/gou/coerce.go"
+  fileline = 194
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/araddon/gou/coerce.go"
+  fileline = 71
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/google/gopacket/layers/tcpip.go"
+  fileline = 95
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/araddon/gou/coerce.go"
+  fileline = 102
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/rcrowley/go-metrics/json.go"
+  fileline = 15
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/araddon/gou/http.go"
+  fileline = 54
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/mattbaird/elastigo/lib/corebulk.go"
+  fileline = 398
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/araddon/gou/jsonhelper.go"
+  fileline = 444
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/Shopify/sarama/mockresponses.go"
+  fileline = 344
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/rcrowley/go-metrics/graphite.go"
+  fileline = 67
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/rcrowley/go-metrics/writer.go"
+  fileline = 28
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/araddon/gou/jsonhelper.go"
+  fileline = 329
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/araddon/gou/jsonhelper.go"
+  fileline = 557
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/mattbaird/elastigo/lib/request.go"
+  fileline = 41
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/Shopify/sarama/mockresponses.go"
+  fileline = 306
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/Shopify/sarama/mockresponses.go"
+  fileline = 150
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/Shopify/sarama/sync_producer.go"
+  fileline = 147
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/Shopify/sarama/mockresponses.go"
+  fileline = 220
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/mattbaird/elastigo/lib/coreupdate.go"
+  fileline = 84
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/rcrowley/go-metrics/opentsdb.go"
+  fileline = 71
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/araddon/gou/jsonhelper.go"
+  fileline = 306
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/araddon/gou/jsonhelper.go"
+  fileline = 189
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/araddon/gou/http.go"
+  fileline = 90
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/araddon/gou/coerce.go"
+  fileline = 87
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/araddon/gou/jsonhelper.go"
+  fileline = 278
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/Shopify/sarama/sync_producer.go"
+  fileline = 155
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/mattbaird/elastigo/lib/request.go"
+  fileline = 156
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/araddon/gou/coerce.go"
+  fileline = 13
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/mattbaird/elastigo/lib/coreupdate.go"
+  fileline = 56
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/rcrowley/go-metrics/registry.go"
+  fileline = 185
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/bitly/go-hostpool/epsilon_greedy.go"
+  fileline = 50
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/mattbaird/elastigo/lib/searchfilter.go"
+  fileline = 82
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/Shopify/sarama/mockresponses.go"
+  fileline = 446
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/araddon/gou/coerce.go"
+  fileline = 248
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/mattbaird/elastigo/lib/baserequest.go"
+  fileline = 42
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/Shopify/sarama/mockresponses.go"
+  fileline = 302
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/araddon/gou/coerce.go"
+  fileline = 313
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/Shopify/sarama/mockresponses.go"
+  fileline = 49
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/rcrowley/go-metrics/log.go"
+  fileline = 23
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/davecgh/go-spew/spew/common.go"
+  fileline = 114
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/araddon/gou/coerce.go"
+  fileline = 122
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/rcrowley/go-metrics/syslog.go"
+  fileline = 16
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."

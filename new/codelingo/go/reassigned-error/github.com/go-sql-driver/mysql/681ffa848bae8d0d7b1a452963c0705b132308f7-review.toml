@@ -1,0 +1,13 @@
+repo = "github.com/go-sql-driver/mysql"
+rule = "codelingo/go/reassigned-error"
+sha = "681ffa848bae8d0d7b1a452963c0705b132308f7"
+
+[[issues]]
+  filepath = "driver_test.go"
+  fileline = 1107
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "packets.go"
+  fileline = 32
+  comment = "Error was not checked before reassignment"

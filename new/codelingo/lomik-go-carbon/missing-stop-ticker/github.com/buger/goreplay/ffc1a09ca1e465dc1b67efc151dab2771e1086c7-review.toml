@@ -1,0 +1,8 @@
+repo = "github.com/buger/goreplay"
+rule = "codelingo/lomik-go-carbon/missing-stop-ticker"
+sha = "ffc1a09ca1e465dc1b67efc151dab2771e1086c7"
+
+[[issues]]
+  filepath = "input_dummy.go"
+  fileline = 31
+  comment = "Stop the ticker to release associated resources."

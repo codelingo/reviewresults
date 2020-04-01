@@ -1,0 +1,18 @@
+repo = "github.com/urfave/cli"
+rule = "codelingo/go/default-in-type-switch"
+sha = "120c9eead1a53482088819c06c6251010f82c0a0"
+
+[[issues]]
+  filepath = "flag.go"
+  fileline = 254
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "fish.go"
+  fileline = 161
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "app.go"
+  fileline = 531
+  comment = "Always include a default case when using a type switch."

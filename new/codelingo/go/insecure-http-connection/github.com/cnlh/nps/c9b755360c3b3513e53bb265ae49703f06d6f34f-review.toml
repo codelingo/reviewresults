@@ -1,0 +1,8 @@
+repo = "github.com/cnlh/nps"
+rule = "codelingo/go/insecure-http-connection"
+sha = "c9b755360c3b3513e53bb265ae49703f06d6f34f"
+
+[[issues]]
+  filepath = "lib/crypt/tls.go"
+  fileline = 30
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."

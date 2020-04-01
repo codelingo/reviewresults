@@ -1,0 +1,13 @@
+repo = "github.com/wtfutil/wtf"
+rule = "codelingo/go/default-in-type-switch"
+sha = "e453408457d62934848146e61771cd96f78985ab"
+
+[[issues]]
+  filepath = "modules/exchangerates/settings.go"
+  fileline = 35
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "utils/conversions.go"
+  fileline = 49
+  comment = "Always include a default case when using a type switch."

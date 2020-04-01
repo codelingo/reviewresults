@@ -1,0 +1,133 @@
+repo = "github.com/buger/goreplay"
+rule = "codelingo/go/default-in-type-switch"
+sha = "ffc1a09ca1e465dc1b67efc151dab2771e1086c7"
+
+[[issues]]
+  filepath = "vendor/github.com/mattbaird/elastigo/lib/coreupdate.go"
+  fileline = 56
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/github.com/araddon/gou/jsonhelper.go"
+  fileline = 440
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/github.com/rcrowley/go-metrics/json.go"
+  fileline = 15
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/github.com/araddon/gou/coerce.go"
+  fileline = 87
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/github.com/araddon/gou/jsonhelper.go"
+  fileline = 329
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/github.com/rcrowley/go-metrics/registry.go"
+  fileline = 185
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/github.com/araddon/gou/coerce.go"
+  fileline = 194
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/github.com/rcrowley/go-metrics/syslog.go"
+  fileline = 16
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/github.com/rcrowley/go-metrics/opentsdb.go"
+  fileline = 71
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/github.com/araddon/gou/jsonhelper.go"
+  fileline = 181
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/github.com/rcrowley/go-metrics/writer.go"
+  fileline = 28
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/github.com/araddon/gou/jsonhelper.go"
+  fileline = 306
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/github.com/araddon/gou/coerce.go"
+  fileline = 13
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/github.com/araddon/gou/jsonhelper.go"
+  fileline = 278
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/github.com/araddon/gou/coerce.go"
+  fileline = 248
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/github.com/araddon/gou/coerce.go"
+  fileline = 60
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/github.com/davecgh/go-spew/spew/common.go"
+  fileline = 114
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/github.com/mattbaird/elastigo/lib/coreupdate.go"
+  fileline = 84
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/github.com/rcrowley/go-metrics/registry.go"
+  fileline = 132
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/github.com/rcrowley/go-metrics/graphite.go"
+  fileline = 67
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/github.com/araddon/gou/coerce.go"
+  fileline = 122
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/github.com/rcrowley/go-metrics/log.go"
+  fileline = 23
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/github.com/araddon/gou/coerce.go"
+  fileline = 313
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/github.com/Shopify/sarama/mockresponses.go"
+  fileline = 306
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/github.com/mattbaird/elastigo/lib/searchfilter.go"
+  fileline = 80
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/github.com/araddon/gou/jsonhelper.go"
+  fileline = 557
+  comment = "Always include a default case when using a type switch."

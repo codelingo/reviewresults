@@ -1,0 +1,38 @@
+repo = "github.com/Masterminds/glide"
+rule = "codelingo/go/default-in-type-switch"
+sha = "b94b39d657d8abcccba6545e148f1201aee6ffec"
+
+[[issues]]
+  filepath = "vendor/gopkg.in/yaml.v2/decode.go"
+  fileline = 413
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/github.com/codegangsta/cli/flag.go"
+  fileline = 711
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "msg/msg.go"
+  fileline = 182
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/gopkg.in/yaml.v2/decode.go"
+  fileline = 382
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/github.com/Masterminds/vcs/vcs_remote_lookup.go"
+  fileline = 203
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/gopkg.in/yaml.v2/decode.go"
+  fileline = 436
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/gopkg.in/yaml.v2/decode.go"
+  fileline = 442
+  comment = "Always include a default case when using a type switch."

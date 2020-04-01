@@ -1,0 +1,18 @@
+repo = "github.com/Masterminds/glide"
+rule = "codelingo/go/reassigned-error"
+sha = "b94b39d657d8abcccba6545e148f1201aee6ffec"
+
+[[issues]]
+  filepath = "dependency/scan.go"
+  fileline = 209
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "repo/vcs.go"
+  fileline = 397
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "repo/vcs.go"
+  fileline = 431
+  comment = "Error was not checked before reassignment"

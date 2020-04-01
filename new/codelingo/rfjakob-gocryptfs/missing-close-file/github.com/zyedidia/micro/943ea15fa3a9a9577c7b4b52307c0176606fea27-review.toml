@@ -1,0 +1,8 @@
+repo = "github.com/zyedidia/micro"
+rule = "codelingo/rfjakob-gocryptfs/missing-close-file"
+sha = "943ea15fa3a9a9577c7b4b52307c0176606fea27"
+
+[[issues]]
+  filepath = "internal/buffer/buffer.go"
+  fileline = 436
+  comment = "Close the file when you are done"
