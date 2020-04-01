@@ -1,8 +1,0 @@
-repo = "github.com/revel/revel"
-rule = "codelingo/go/pointer-leaves-method"
-sha = "a3d7a7c23ca885cc5036d3641ede49ce4a14ee2e"
-
-[[issues]]
-  filepath = "testing/testsuite.go"
-  fileline = 78
-  comment = "The receiver pointer is returned from this method. Make a copy instead."

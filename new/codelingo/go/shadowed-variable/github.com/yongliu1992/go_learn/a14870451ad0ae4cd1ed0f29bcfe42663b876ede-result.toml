@@ -1,7 +1,0 @@
-repo = "github.com/yongliu1992/go_learn"
-rule = "codelingo/go/shadowed-variable"
-sha = "a14870451ad0ae4cd1ed0f29bcfe42663b876ede"
-
-[[issues]]
-  filepath = "sync/main.go"
-  fileline = 38

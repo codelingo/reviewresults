@@ -1,8 +1,0 @@
-repo = "github.com/caddyserver/caddy"
-rule = "codelingo/go/shared-count-datarace"
-sha = "891446d06340db2912c9a970bfe862bd54efbb70"
-
-[[issues]]
-  filepath = "caddy.go"
-  fileline = 792
-  comment = "Goroutines created in for loops that use the iterator of the loop internally should instead use a copy made at the time of the goroutines creation by passing it as an argument."
