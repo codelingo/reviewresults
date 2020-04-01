@@ -1,0 +1,48 @@
+repo = "github.com/influxdata/telegraf"
+rule = "codelingo/rfjakob-gocryptfs/missing-close-file"
+sha = "c083c1f64d05d72bdacfe03847f2831d224a4ee0"
+
+[[issues]]
+  filepath = "plugins/parsers/grok/parser.go"
+  fileline = 172
+  comment = "Close the file when you are done"
+
+[[issues]]
+  filepath = "testutil/tls.go"
+  fileline = 92
+  comment = "Close the file when you are done"
+
+[[issues]]
+  filepath = "plugins/inputs/ecs/client_test.go"
+  fileline = 169
+  comment = "Close the file when you are done"
+
+[[issues]]
+  filepath = "plugins/inputs/ecs/client_test.go"
+  fileline = 98
+  comment = "Close the file when you are done"
+
+[[issues]]
+  filepath = "plugins/inputs/ecs/types_test.go"
+  fileline = 36
+  comment = "Close the file when you are done"
+
+[[issues]]
+  filepath = "plugins/inputs/ecs/types_test.go"
+  fileline = 30
+  comment = "Close the file when you are done"
+
+[[issues]]
+  filepath = "plugins/inputs/ecs/types_test.go"
+  fileline = 21
+  comment = "Close the file when you are done"
+
+[[issues]]
+  filepath = "plugins/inputs/ecs/types_test.go"
+  fileline = 11
+  comment = "Close the file when you are done"
+
+[[issues]]
+  filepath = "plugins/parsers/collectd/parser.go"
+  fileline = 209
+  comment = "Close the file when you are done"

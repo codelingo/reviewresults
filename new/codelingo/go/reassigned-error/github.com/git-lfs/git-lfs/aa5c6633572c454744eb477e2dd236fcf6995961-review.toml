@@ -1,0 +1,113 @@
+repo = "github.com/git-lfs/git-lfs"
+rule = "codelingo/go/reassigned-error"
+sha = "aa5c6633572c454744eb477e2dd236fcf6995961"
+
+[[issues]]
+  filepath = "tq/api_test.go"
+  fileline = 132
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vendor/golang.org/x/sys/unix/syscall_bsd.go"
+  fileline = 29
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vendor/gopkg.in/jcmturner/gokrb5.v5/pac/device_claims.go"
+  fileline = 17
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "t/cmd/lfstest-customadapter.go"
+  fileline = 164
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vendor/golang.org/x/sys/unix/syscall_solaris.go"
+  fileline = 410
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vendor/gopkg.in/jcmturner/gokrb5.v5/client/passwd.go"
+  fileline = 91
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vendor/golang.org/x/sys/unix/syscall_aix.go"
+  fileline = 193
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vendor/gopkg.in/jcmturner/gokrb5.v5/pac/device_info.go"
+  fileline = 25
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vendor/gopkg.in/jcmturner/gokrb5.v5/pac/s4u_delegation_info.go"
+  fileline = 19
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "creds/creds_test.go"
+  fileline = 253
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "creds/creds_test.go"
+  fileline = 245
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "tools/filetools.go"
+  fileline = 458
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vendor/golang.org/x/sys/unix/syscall_linux_arm.go"
+  fileline = 191
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vendor/gopkg.in/jcmturner/gokrb5.v5/client/passwd.go"
+  fileline = 53
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "locking/locks_test.go"
+  fileline = 70
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "locking/locks_test.go"
+  fileline = 101
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "locking/locks_test.go"
+  fileline = 91
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "tools/filetools.go"
+  fileline = 219
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "locking/locks_test.go"
+  fileline = 273
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "locking/locks_test.go"
+  fileline = 255
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vendor/gopkg.in/jcmturner/gokrb5.v5/client/passwd.go"
+  fileline = 77
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vendor/gopkg.in/jcmturner/gokrb5.v5/client/passwd.go"
+  fileline = 73
+  comment = "Error was not checked before reassignment"

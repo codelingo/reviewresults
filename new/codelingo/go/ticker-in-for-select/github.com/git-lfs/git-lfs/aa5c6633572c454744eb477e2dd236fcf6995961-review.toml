@@ -1,0 +1,8 @@
+repo = "github.com/git-lfs/git-lfs"
+rule = "codelingo/go/ticker-in-for-select"
+sha = "aa5c6633572c454744eb477e2dd236fcf6995961"
+
+[[issues]]
+  filepath = "vendor/golang.org/x/net/http2/transport.go"
+  fileline = 457
+  comment = "Make one ticker as opposed to making a new timer each iteration."

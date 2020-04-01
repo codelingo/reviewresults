@@ -1,0 +1,203 @@
+repo = "github.com/git-lfs/git-lfs"
+rule = "codelingo/go/shadowed-variable"
+sha = "aa5c6633572c454744eb477e2dd236fcf6995961"
+
+[[issues]]
+  filepath = "lfshttp/ssh.go"
+  fileline = 162
+  comment = "Variable sshCmd shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "lfshttp/certs_test.go"
+  fileline = 71
+  comment = "Variable c shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "vendor/github.com/alexbrainman/sspi/negotiate/negotiate.go"
+  fileline = 180
+  comment = "Variable err2 shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "lfsapi/auth.go"
+  fileline = 150
+  comment = "Variable credsURL shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "lfsapi/auth.go"
+  fileline = 159
+  comment = "Variable credWrapper shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "lfsapi/ntlm.go"
+  fileline = 38
+  comment = "Variable res shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "tq/api_test.go"
+  fileline = 91
+  comment = "Variable bReq shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "tq/api_test.go"
+  fileline = 34
+  comment = "Variable bReq shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/text/transform/transform.go"
+  fileline = 651
+  comment = "Variable nSrc shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/text/transform/transform.go"
+  fileline = 651
+  comment = "Variable nDst shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "tq/manifest.go"
+  fileline = 116
+  comment = "Variable v shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/crypto/md4/md4.go"
+  fileline = 67
+  comment = "Variable n shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "commands/command_push.go"
+  fileline = 115
+  comment = "Variable refs shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "vendor/github.com/jcmturner/gofork/encoding/asn1/asn1.go"
+  fileline = 633
+  comment = "Variable innerBytes shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "vendor/github.com/jcmturner/gofork/encoding/asn1/asn1.go"
+  fileline = 682
+  comment = "Variable expectedClass shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "vendor/github.com/git-lfs/go-ntlm/ntlm/md4/md4.go"
+  fileline = 63
+  comment = "Variable n shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/net/http2/transport.go"
+  fileline = 2375
+  comment = "Variable cc shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "git/ls_files.go"
+  fileline = 67
+  comment = "Variable msg shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/text/unicode/norm/forminfo.go"
+  fileline = 227
+  comment = "Variable p shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "tq/transfer.go"
+  fileline = 68
+  comment = "Variable a shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "git/git_test.go"
+  fileline = 57
+  comment = "Variable r shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "commands/command_smudge.go"
+  fileline = 73
+  comment = "Variable n shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "commands/command_smudge.go"
+  fileline = 40
+  comment = "Variable n shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "commands/command_smudge.go"
+  fileline = 103
+  comment = "Variable n shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "commands/command_fetch.go"
+  fileline = 352
+  comment = "Variable ok shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "vendor/gopkg.in/jcmturner/gokrb5.v5/config/krb5conf.go"
+  fileline = 589
+  comment = "Variable d shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "vendor/gopkg.in/jcmturner/gokrb5.v5/config/krb5conf.go"
+  fileline = 626
+  comment = "Variable d shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "git/git.go"
+  fileline = 612
+  comment = "Variable absGitDir shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "git/git.go"
+  fileline = 738
+  comment = "Variable ref shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "git/git.go"
+  fileline = 737
+  comment = "Variable headfile shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/sys/unix/syscall_freebsd.go"
+  fileline = 161
+  comment = "Variable n shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/text/unicode/norm/normalize.go"
+  fileline = 208
+  comment = "Variable rb shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/net/http2/server.go"
+  fileline = 2448
+  comment = "Variable endStream shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "vendor/gopkg.in/jcmturner/gokrb5.v5/client/network.go"
+  fileline = 59
+  comment = "Variable rb shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "vendor/gopkg.in/jcmturner/gokrb5.v5/client/network.go"
+  fileline = 32
+  comment = "Variable rb shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "vendor/gopkg.in/jcmturner/gokrb5.v5/client/network.go"
+  fileline = 21
+  comment = "Variable errtcp shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "vendor/gopkg.in/jcmturner/gokrb5.v5/client/network.go"
+  fileline = 21
+  comment = "Variable rb shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "vendor/gopkg.in/jcmturner/gokrb5.v5/client/network.go"
+  fileline = 40
+  comment = "Variable errtcp shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "vendor/gopkg.in/jcmturner/aescts.v1/aescts.go"
+  fileline = 40
+  comment = "Variable rb shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "vendor/gopkg.in/jcmturner/aescts.v1/aescts.go"
+  fileline = 89
+  comment = "Variable message shadows a variable of the same name declared in an outer scope."

@@ -1,0 +1,23 @@
+repo = "github.com/influxdata/telegraf"
+rule = "codelingo/go/insecure-http-connection"
+sha = "c083c1f64d05d72bdacfe03847f2831d224a4ee0"
+
+[[issues]]
+  filepath = "plugins/inputs/mongodb/mongodb.go"
+  fileline = 154
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+
+[[issues]]
+  filepath = "plugins/inputs/socket_listener/socket_listener_test.go"
+  fileline = 86
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+
+[[issues]]
+  filepath = "plugins/inputs/x509_cert/x509_cert_test.go"
+  fileline = 66
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+
+[[issues]]
+  filepath = "plugins/inputs/x509_cert/x509_cert_test.go"
+  fileline = 116
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
