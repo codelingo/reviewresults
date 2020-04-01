@@ -1,8 +1,0 @@
-repo = "github.com/astaxie/beego"
-rule = "codelingo/go/pointer-leaves-method"
-sha = "0cd80525e7e34d7f36965341184afda083567153"
-
-[[issues]]
-  filepath = "vendor/golang.org/x/crypto/acme/autocert/listener.go"
-  fileline = 75
-  comment = "The receiver pointer is returned from this method. Make a copy instead."

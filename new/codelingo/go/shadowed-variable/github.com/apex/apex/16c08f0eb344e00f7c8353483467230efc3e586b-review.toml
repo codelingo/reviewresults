@@ -1,8 +1,0 @@
-repo = "github.com/apex/apex"
-rule = "codelingo/go/shadowed-variable"
-sha = "16c08f0eb344e00f7c8353483467230efc3e586b"
-
-[[issues]]
-  filepath = "cmd/apex/metrics/metrics.go"
-  fileline = 75
-  comment = "Variable m shadows a variable of the same name declared in an outer scope."

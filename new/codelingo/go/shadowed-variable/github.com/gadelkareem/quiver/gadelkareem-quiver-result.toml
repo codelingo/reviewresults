@@ -1,7 +1,0 @@
-repo = "github.com/gadelkareem/quiver"
-rule = "shadowed-variable"
-sha = "828461abd15ae9bc7191cf7fba0fe900f509c55c"
-
-[[issues]]
-  filepath = "quiver_test.go"
-  fileline = 24
