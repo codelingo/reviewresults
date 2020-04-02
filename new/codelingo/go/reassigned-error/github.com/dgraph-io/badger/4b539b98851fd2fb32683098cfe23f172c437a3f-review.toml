@@ -1,0 +1,28 @@
+repo = "github.com/dgraph-io/badger"
+rule = "codelingo/go/reassigned-error"
+sha = "4b539b98851fd2fb32683098cfe23f172c437a3f"
+
+[[issues]]
+  filepath = "stream_writer_test.go"
+  fileline = 397
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "manifest_test.go"
+  fileline = 140
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "managed_db_test.go"
+  fileline = 427
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "db_test.go"
+  fileline = 1571
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "db_test.go"
+  fileline = 1836
+  comment = "Error was not checked before reassignment"

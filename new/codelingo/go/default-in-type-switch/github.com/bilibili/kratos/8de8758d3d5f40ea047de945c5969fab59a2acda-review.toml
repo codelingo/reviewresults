@@ -1,0 +1,93 @@
+repo = "github.com/bilibili/kratos"
+rule = "codelingo/go/default-in-type-switch"
+sha = "8de8758d3d5f40ea047de945c5969fab59a2acda"
+
+[[issues]]
+  filepath = "pkg/cache/redis/reply.go"
+  fileline = 206
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "pkg/cache/redis/pubsub_test.go"
+  fileline = 53
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "tool/testgen/parser.go"
+  fileline = 81
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "pkg/cache/redis/reply.go"
+  fileline = 100
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "pkg/cache/redis/reply.go"
+  fileline = 286
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "pkg/conf/paladin/value_test.go"
+  fileline = 140
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "tool/testgen/parser.go"
+  fileline = 180
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "pkg/cache/redis/reply.go"
+  fileline = 180
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "pkg/time/time.go"
+  fileline = 15
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "pkg/cache/redis/reply.go"
+  fileline = 129
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "pkg/cache/redis/reply.go"
+  fileline = 40
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "pkg/cache/redis/reply.go"
+  fileline = 237
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "pkg/cache/memcache/encoding.go"
+  fileline = 149
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "pkg/cache/redis/reply.go"
+  fileline = 154
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "pkg/cache/redis/reply.go"
+  fileline = 256
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "pkg/conf/paladin/value_test.go"
+  fileline = 62
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "tool/testgen/parser.go"
+  fileline = 130
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "pkg/cache/redis/reply.go"
+  fileline = 71
+  comment = "Always include a default case when using a type switch."

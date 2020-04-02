@@ -1,0 +1,73 @@
+repo = "github.com/emirpasic/gods"
+rule = "codelingo/go/reassigned-error"
+sha = "80e934ed68b9084f386ae25f74f839aaecfb54d8"
+
+[[issues]]
+  filepath = "stacks/arraystack/arraystack_test.go"
+  fileline = 256
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "lists/singlylinkedlist/singlylinkedlist_test.go"
+  fileline = 442
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "sets/hashset/hashset_test.go"
+  fileline = 101
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "sets/linkedhashset/linkedhashset_test.go"
+  fileline = 354
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "lists/arraylist/arraylist_test.go"
+  fileline = 522
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "stacks/linkedliststack/linkedliststack_test.go"
+  fileline = 172
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "trees/binaryheap/binaryheap_test.go"
+  fileline = 287
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "maps/hashbidimap/hashbidimap_test.go"
+  fileline = 177
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "trees/redblacktree/redblacktree_test.go"
+  fileline = 584
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "lists/doublylinkedlist/doublylinkedlist_test.go"
+  fileline = 528
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "maps/hashmap/hashmap_test.go"
+  fileline = 145
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "trees/btree/btree_test.go"
+  fileline = 1101
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "sets/treeset/treeset_test.go"
+  fileline = 363
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "trees/avltree/avltree_test.go"
+  fileline = 583
+  comment = "Error was not checked before reassignment"

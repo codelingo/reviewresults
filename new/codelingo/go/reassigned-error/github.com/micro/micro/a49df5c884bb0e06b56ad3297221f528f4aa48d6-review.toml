@@ -1,0 +1,8 @@
+repo = "github.com/micro/micro"
+rule = "codelingo/go/reassigned-error"
+sha = "a49df5c884bb0e06b56ad3297221f528f4aa48d6"
+
+[[issues]]
+  filepath = "store/handler/handler.go"
+  fileline = 94
+  comment = "Error was not checked before reassignment"

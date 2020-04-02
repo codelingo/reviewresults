@@ -1,0 +1,13 @@
+repo = "github.com/nats-io/nats-server"
+rule = "codelingo/go/reassigned-error"
+sha = "8c8d6f88466bb7161a5246892ea6ff89ac9547c3"
+
+[[issues]]
+  filepath = "vendor/golang.org/x/sys/windows/registry/value.go"
+  fileline = 55
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vendor/golang.org/x/sys/windows/registry/value.go"
+  fileline = 123
+  comment = "Error was not checked before reassignment"

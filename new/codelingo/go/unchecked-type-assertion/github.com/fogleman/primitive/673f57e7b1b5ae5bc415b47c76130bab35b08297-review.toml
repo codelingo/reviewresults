@@ -1,0 +1,18 @@
+repo = "github.com/fogleman/primitive"
+rule = "codelingo/go/unchecked-type-assertion"
+sha = "673f57e7b1b5ae5bc415b47c76130bab35b08297"
+
+[[issues]]
+  filepath = "primitive/state.go"
+  fileline = 39
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "primitive/worker.go"
+  fileline = 62
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "primitive/model.go"
+  fileline = 127
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."

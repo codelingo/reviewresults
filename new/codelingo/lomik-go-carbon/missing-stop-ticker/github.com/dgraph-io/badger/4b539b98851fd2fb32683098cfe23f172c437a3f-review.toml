@@ -1,0 +1,8 @@
+repo = "github.com/dgraph-io/badger"
+rule = "codelingo/lomik-go-carbon/missing-stop-ticker"
+sha = "4b539b98851fd2fb32683098cfe23f172c437a3f"
+
+[[issues]]
+  filepath = "db_test.go"
+  fileline = 1798
+  comment = "Stop the ticker to release associated resources."

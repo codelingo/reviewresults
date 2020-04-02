@@ -1,0 +1,13 @@
+repo = "github.com/rakyll/hey"
+rule = "codelingo/go/non-directional-chan"
+sha = "f3676ef133bcbda356147da8c0ded4d36d1d28f5"
+
+[[issues]]
+  filepath = "vendor/golang.org/x/net/http2/server.go"
+  fileline = 872
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "requester/report.go"
+  fileline = 66
+  comment = "Returned channels or channel arguments should generally have a direction."

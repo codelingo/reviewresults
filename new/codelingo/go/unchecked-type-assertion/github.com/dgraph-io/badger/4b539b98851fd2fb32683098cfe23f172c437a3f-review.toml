@@ -1,0 +1,18 @@
+repo = "github.com/dgraph-io/badger"
+rule = "codelingo/go/unchecked-type-assertion"
+sha = "4b539b98851fd2fb32683098cfe23f172c437a3f"
+
+[[issues]]
+  filepath = "db.go"
+  fileline = 773
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "table/builder.go"
+  fileline = 139
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "table/table.go"
+  fileline = 524
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
