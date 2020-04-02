@@ -1,8 +1,0 @@
-repo = "github.com/inconshreveable/ngrok"
-rule = "codelingo/go/shadowed-variable"
-sha = "a8e7fa486348f391f4bdf241344d798297f953bc"
-
-[[issues]]
-  filepath = "src/ngrok/client/model.go"
-  fileline = 402
-  comment = "Variable localConn shadows a variable of the same name declared in an outer scope."

@@ -1,7 +1,0 @@
-repo = "github.com/tonyalaribe/ninja"
-rule = "codelingo/go/shadowed-variable"
-sha = "532184d51e030cc342861712fa10d58a4842b8fb"
-
-[[issues]]
-  filepath = "uilayer/rest/main_test.go"
-  fileline = 34

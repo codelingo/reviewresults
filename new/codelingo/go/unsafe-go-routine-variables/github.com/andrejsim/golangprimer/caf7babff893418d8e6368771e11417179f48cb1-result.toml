@@ -1,9 +1,0 @@
-repo = "github.com/andrejsim/golangprimer"
-rule = "codelingo/go/unsafe-go-routine-variables"
-sha = "caf7babff893418d8e6368771e11417179f48cb1"
-
-[[issues]]
-  fileline = 42
-  filepath = "hello.go"
-  fixed = false
-  ignored = "fp"

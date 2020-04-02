@@ -1,7 +1,0 @@
-repo = "github.com/sundy-li/gos"
-rule = "codelingo/go/shadowed-variable"
-sha = "f4a52987dd595ffbbf0ab0c2c79feacb5fb8e29e"
-
-[[issues]]
-  filepath = "gofetcher/gofetcher.go"
-  fileline = 88

@@ -1,8 +1,0 @@
-repo = "github.com/micro/go-micro"
-rule = "codelingo/go/writes-to-async-pointer"
-sha = "03031a694da1b256d0d7f2afb1a2926954c63c85"
-
-[[issues]]
-  filepath = "registry/mdns_registry.go"
-  fileline = 368
-  comment = "Writing to a reference passed to an asynchronous function is dengerous when other reads and writes have been called from the same context."

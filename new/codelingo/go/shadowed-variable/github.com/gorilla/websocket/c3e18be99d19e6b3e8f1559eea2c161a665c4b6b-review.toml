@@ -1,8 +1,0 @@
-repo = "github.com/gorilla/websocket"
-rule = "codelingo/go/shadowed-variable"
-sha = "c3e18be99d19e6b3e8f1559eea2c161a665c4b6b"
-
-[[issues]]
-  filepath = "conn.go"
-  fileline = 881
-  comment = "Variable p shadows a variable of the same name declared in an outer scope."

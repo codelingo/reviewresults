@@ -1,8 +1,0 @@
-repo = "github.com/cayleygraph/cayley"
-rule = "codelingo/go/pointer-leaves-method"
-sha = "fac546436001de25fdede3796485261ce9842379"
-
-[[issues]]
-  filepath = "inference/inference.go"
-  fileline = 51
-  comment = "The receiver pointer is returned from this method. Make a copy instead."
