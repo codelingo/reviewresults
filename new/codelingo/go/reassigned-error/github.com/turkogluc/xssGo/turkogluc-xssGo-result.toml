@@ -1,5 +1,5 @@
 repo = "github.com/turkogluc/xssGo"
-rule = "reassigned-error"
+rule = "codelingo/go/reassigned-error"
 sha = "133e0f4913f79c4c75045c2918375938212e40b4"
 
 [[issues]]

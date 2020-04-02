@@ -1,5 +1,5 @@
 repo = "github.com/morya/go_aes_crypto_sample"
-rule = "reassigned-error"
+rule = "codelingo/go/reassigned-error"
 sha = "5673c80805a70d3c398fd7d27130eab1ac9bc595"
 
 [[issues]]

@@ -1,5 +1,5 @@
 repo = "github.com/nickysemenza/gola"
-rule = "reassigned-error"
+rule = "codelingo/go/reassigned-error"
 sha = "29d749168e8b7502cd690500da427c70b9f43052"
 
 [[issues]]
