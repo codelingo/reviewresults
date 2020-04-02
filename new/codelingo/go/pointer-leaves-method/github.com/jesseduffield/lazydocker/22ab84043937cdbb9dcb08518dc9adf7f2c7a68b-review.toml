@@ -1,8 +1,0 @@
-repo = "github.com/jesseduffield/lazydocker"
-rule = "codelingo/go/pointer-leaves-method"
-sha = "22ab84043937cdbb9dcb08518dc9adf7f2c7a68b"
-
-[[issues]]
-  filepath = "vendor/golang.org/x/sys/windows/dll_windows.go"
-  fileline = 91
-  comment = "The receiver pointer is returned from this method. Make a copy instead."

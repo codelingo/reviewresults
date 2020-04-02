@@ -1,0 +1,33 @@
+repo = "github.com/SimonWaldherr/golibs"
+rule = "codelingo/go/reassigned-error"
+sha = "d8150802aaa814bf0cba43fa97d6db29ff67c8a6"
+
+[[issues]]
+  fileline = 90
+  filepath = "graphics/graphics_test.go"
+  fixed = true
+  ignored = ""
+
+[[issues]]
+  fileline = 396
+  filepath = "file/file_test.go"
+  fixed = false
+  ignored = "in test"
+
+[[issues]]
+  fileline = 392
+  filepath = "file/file_test.go"
+  fixed = false
+  ignored = "in test"
+
+[[issues]]
+  fileline = 61
+  filepath = "graphics/graphics_test.go"
+  fixed = true
+  ignored = ""
+
+[[issues]]
+  fileline = 314
+  filepath = "file/file_test.go"
+  fixed = true
+  ignored = ""

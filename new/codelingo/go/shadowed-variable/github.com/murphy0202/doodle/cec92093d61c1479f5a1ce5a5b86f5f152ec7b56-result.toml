@@ -1,7 +1,0 @@
-repo = "github.com/murphy0202/doodle"
-rule = "codelingo/go/shadowed-variable"
-sha = "cec92093d61c1479f5a1ce5a5b86f5f152ec7b56"
-
-[[issues]]
-  filepath = "birthday2019/surprise.go"
-  fileline = 167
