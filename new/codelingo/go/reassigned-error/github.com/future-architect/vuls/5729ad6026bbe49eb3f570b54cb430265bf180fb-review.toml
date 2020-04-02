@@ -1,0 +1,23 @@
+repo = "github.com/future-architect/vuls"
+rule = "codelingo/go/reassigned-error"
+sha = "5729ad6026bbe49eb3f570b54cb430265bf180fb"
+
+[[issues]]
+  filepath = "scan/debian.go"
+  fileline = 1110
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "scan/redhatbase.go"
+  fileline = 255
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "report/stride.go"
+  fileline = 68
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "scan/redhatbase.go"
+  fileline = 464
+  comment = "Error was not checked before reassignment"

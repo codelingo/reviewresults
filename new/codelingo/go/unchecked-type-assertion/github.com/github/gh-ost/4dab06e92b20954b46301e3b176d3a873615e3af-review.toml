@@ -1,0 +1,403 @@
+repo = "github.com/github/gh-ost"
+rule = "codelingo/go/unchecked-type-assertion"
+sha = "4dab06e92b20954b46301e3b176d3a873615e3af"
+
+[[issues]]
+  filepath = "vendor/golang.org/x/crypto/ssh/keys_test.go"
+  fileline = 25
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/net/context/context_test.go"
+  fileline = 123
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/siddontang/go-mysql/vendor/github.com/go-sql-driver/mysql/utils.go"
+  fileline = 137
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/net/context/pre_go17.go"
+  fileline = 111
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/BurntSushi/toml/cmd/toml-test-encoder/main.go"
+  fileline = 89
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/BurntSushi/toml/cmd/toml-test-encoder/main.go"
+  fileline = 112
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/BurntSushi/toml/parse.go"
+  fileline = 296
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/siddontang/go-mysql/replication/row_event_test.go"
+  fileline = 45
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/siddontang/go-mysql/vendor/github.com/go-sql-driver/mysql/auth.go"
+  fileline = 380
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/jmoiron/sqlx/types/types.go"
+  fileline = 31
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/siddontang/go-mysql/vendor/github.com/shopspring/decimal/decimal.go"
+  fileline = 974
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/siddontang/go-mysql/vendor/github.com/pingcap/check/check.go"
+  fileline = 709
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/BurntSushi/toml/cmd/toml-test-decoder/main.go"
+  fileline = 48
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/siddontang/go-mysql/schema/schema.go"
+  fileline = 327
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/crypto/ssh/channel.go"
+  fileline = 420
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/siddontang/go-mysql/canal/rows.go"
+  fileline = 54
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/siddontang/go-mysql/mysql/resultset.go"
+  fileline = 364
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/BurntSushi/toml/cmd/toml-test-encoder/main.go"
+  fileline = 76
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/jmoiron/sqlx/sqlx.go"
+  fileline = 435
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/siddontang/go-mysql/mysql/resultset_helper.go"
+  fileline = 49
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/siddontang/go-mysql/vendor/github.com/BurntSushi/toml/decode.go"
+  fileline = 444
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/siddontang/go-mysql/vendor/github.com/pingcap/check/compare.go"
+  fileline = 80
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/siddontang/go-mysql/vendor/github.com/go-sql-driver/mysql/packets.go"
+  fileline = 1007
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/text/encoding/internal/identifier/gen.go"
+  fileline = 90
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/BurntSushi/toml/parse.go"
+  fileline = 249
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/siddontang/go-mysql/mysql/resultset_helper.go"
+  fileline = 12
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/net/context/context_test.go"
+  fileline = 121
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/siddontang/go-mysql/client/stmt.go"
+  fileline = 71
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/siddontang/go-mysql/vendor/github.com/satori/go.uuid/sql.go"
+  fileline = 38
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/siddontang/go-mysql/vendor/github.com/BurntSushi/toml/parse.go"
+  fileline = 417
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/siddontang/go-mysql/vendor/github.com/pingcap/check/printer.go"
+  fileline = 126
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/net/context/context_test.go"
+  fileline = 188
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/siddontang/go-mysql/vendor/github.com/pingcap/check/compare.go"
+  fileline = 71
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/siddontang/go-mysql/vendor/github.com/BurntSushi/toml/encode.go"
+  fileline = 158
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/BurntSushi/toml/cmd/toml-test-encoder/main.go"
+  fileline = 48
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/siddontang/go-mysql/vendor/github.com/pingcap/check/compare.go"
+  fileline = 72
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/siddontang/go-mysql/vendor/github.com/pingcap/check/compare.go"
+  fileline = 81
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/BurntSushi/toml/cmd/toml-test-encoder/main.go"
+  fileline = 82
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/BurntSushi/toml/cmd/toml-test-encoder/main.go"
+  fileline = 103
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/crypto/ssh/keys.go"
+  fileline = 636
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/net/context/context_test.go"
+  fileline = 122
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/go-sql-driver/mysql/connection.go"
+  fileline = 213
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/crypto/ssh/mux.go"
+  fileline = 322
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/siddontang/go-mysql/server/resp.go"
+  fileline = 175
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/net/context/context_test.go"
+  fileline = 529
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/crypto/ssh/agent/client.go"
+  fileline = 438
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/siddontang/go-mysql/canal/sync.go"
+  fileline = 179
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/go-sql-driver/mysql/driver_test.go"
+  fileline = 721
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/siddontang/go-mysql/vendor/github.com/jmoiron/sqlx/sqlx_context.go"
+  fileline = 215
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/siddontang/go-mysql/vendor/github.com/go-sql-driver/mysql/auth_test.go"
+  fileline = 39
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/BurntSushi/toml/decode.go"
+  fileline = 402
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/crypto/ssh/mux.go"
+  fileline = 255
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/BurntSushi/toml/cmd/toml-test-encoder/main.go"
+  fileline = 96
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/crypto/ssh/mux.go"
+  fileline = 162
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/siddontang/go-mysql/mysql/resultset.go"
+  fileline = 296
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/go-sql-driver/mysql/auth.go"
+  fileline = 380
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/siddontang/go-mysql/vendor/github.com/BurntSushi/toml/parse.go"
+  fileline = 370
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/go-sql-driver/mysql/auth_test.go"
+  fileline = 39
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/siddontang/go-mysql/vendor/github.com/go-sql-driver/mysql/connection.go"
+  fileline = 213
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/siddontang/go-mysql/vendor/github.com/jmoiron/sqlx/sqlx.go"
+  fileline = 115
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/siddontang/go-mysql/vendor/github.com/go-sql-driver/mysql/driver_test.go"
+  fileline = 721
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/go-sql-driver/mysql/utils.go"
+  fileline = 137
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/siddontang/go-mysql/vendor/github.com/jmoiron/sqlx/bind.go"
+  fileline = 190
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/BurntSushi/toml/encode.go"
+  fileline = 157
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/siddontang/go-mysql/vendor/github.com/jmoiron/sqlx/sqlx.go"
+  fileline = 469
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/crypto/ssh/agent/client.go"
+  fileline = 319
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/crypto/ssh/keys.go"
+  fileline = 670
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/siddontang/go-mysql/replication/backup.go"
+  fileline = 58
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/crypto/ssh/keys.go"
+  fileline = 731
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/go-sql-driver/mysql/packets.go"
+  fileline = 1007
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/siddontang/go-mysql/vendor/github.com/shopspring/decimal/decimal.go"
+  fileline = 1155
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/crypto/ssh/agent/client.go"
+  fileline = 565
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/siddontang/go-mysql/mysql/resultset.go"
+  fileline = 414
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/text/transform/transform_test.go"
+  fileline = 748
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/siddontang/go-mysql/replication/binlogsyncer.go"
+  fileline = 719
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/BurntSushi/toml/cmd/toml-test-decoder/main.go"
+  fileline = 58
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/jmoiron/sqlx/sqlx.go"
+  fileline = 442
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/crypto/ssh/agent/client.go"
+  fileline = 354
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/jmoiron/sqlx/types/types.go"
+  fileline = 84
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/siddontang/go-mysql/canal/sync.go"
+  fileline = 70
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."

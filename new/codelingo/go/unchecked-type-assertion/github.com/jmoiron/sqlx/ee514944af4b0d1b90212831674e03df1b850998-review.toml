@@ -1,0 +1,43 @@
+repo = "github.com/jmoiron/sqlx"
+rule = "codelingo/go/unchecked-type-assertion"
+sha = "ee514944af4b0d1b90212831674e03df1b850998"
+
+[[issues]]
+  filepath = "types/types.go"
+  fileline = 33
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "sqlx.go"
+  fileline = 469
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "sqlx_context.go"
+  fileline = 215
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "bind.go"
+  fileline = 222
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "sqlx.go"
+  fileline = 115
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "sqlx.go"
+  fileline = 152
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "types/types.go"
+  fileline = 93
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "sqlx_test.go"
+  fileline = 1404
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."

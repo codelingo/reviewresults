@@ -1,0 +1,8 @@
+repo = "github.com/future-architect/vuls"
+rule = "codelingo/go/default-in-type-switch"
+sha = "5729ad6026bbe49eb3f570b54cb430265bf180fb"
+
+[[issues]]
+  filepath = "util/util.go"
+  fileline = 90
+  comment = "Always include a default case when using a type switch."

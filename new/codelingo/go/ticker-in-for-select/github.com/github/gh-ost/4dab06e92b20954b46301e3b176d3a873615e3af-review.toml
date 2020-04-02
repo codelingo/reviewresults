@@ -1,0 +1,18 @@
+repo = "github.com/github/gh-ost"
+rule = "codelingo/go/ticker-in-for-select"
+sha = "4dab06e92b20954b46301e3b176d3a873615e3af"
+
+[[issues]]
+  filepath = "vendor/golang.org/x/net/context/context_test.go"
+  fileline = 448
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "vendor/github.com/siddontang/go-mysql/replication/binlogsyncer.go"
+  fileline = 646
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "vendor/github.com/ngaut/sync2/service_manager_test.go"
+  fileline = 39
+  comment = "Make one ticker as opposed to making a new timer each iteration."

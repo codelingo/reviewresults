@@ -1,0 +1,18 @@
+repo = "github.com/github/gh-ost"
+rule = "codelingo/rfjakob-gocryptfs/missing-close-file"
+sha = "4dab06e92b20954b46301e3b176d3a873615e3af"
+
+[[issues]]
+  filepath = "vendor/github.com/siddontang/go-mysql/vendor/github.com/go-sql-driver/mysql/infile.go"
+  fileline = 133
+  comment = "Close the file when you are done"
+
+[[issues]]
+  filepath = "vendor/github.com/go-sql-driver/mysql/infile.go"
+  fileline = 133
+  comment = "Close the file when you are done"
+
+[[issues]]
+  filepath = "vendor/github.com/siddontang/go-mysql/vendor/github.com/pingcap/check/printer.go"
+  fileline = 31
+  comment = "Close the file when you are done"

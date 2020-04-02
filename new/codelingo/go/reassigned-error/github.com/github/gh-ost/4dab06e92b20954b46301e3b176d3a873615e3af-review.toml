@@ -1,0 +1,218 @@
+repo = "github.com/github/gh-ost"
+rule = "codelingo/go/reassigned-error"
+sha = "4dab06e92b20954b46301e3b176d3a873615e3af"
+
+[[issues]]
+  filepath = "vendor/github.com/juju/errors/functions_test.go"
+  fileline = 78
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vendor/golang.org/x/crypto/ssh/cipher_test.go"
+  fileline = 95
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vendor/github.com/siddontang/go-mysql/vendor/github.com/go-sql-driver/mysql/packets.go"
+  fileline = 31
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vendor/github.com/jmoiron/sqlx/sqlx_test.go"
+  fileline = 754
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vendor/github.com/juju/errors/functions_test.go"
+  fileline = 154
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vendor/github.com/juju/errors/functions_test.go"
+  fileline = 162
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vendor/github.com/juju/errors/functions_test.go"
+  fileline = 151
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vendor/github.com/juju/errors/error_test.go"
+  fileline = 81
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vendor/github.com/juju/errors/error_test.go"
+  fileline = 81
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vendor/github.com/juju/errors/error_test.go"
+  fileline = 82
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vendor/github.com/juju/errors/error_test.go"
+  fileline = 82
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vendor/github.com/juju/errors/error_test.go"
+  fileline = 84
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vendor/github.com/juju/errors/error_test.go"
+  fileline = 83
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vendor/github.com/juju/errors/error_test.go"
+  fileline = 65
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vendor/github.com/siddontang/go-mysql/canal/canal_test.go"
+  fileline = 129
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vendor/github.com/siddontang/go-mysql/canal/canal_test.go"
+  fileline = 126
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vendor/github.com/siddontang/go-mysql/canal/canal_test.go"
+  fileline = 123
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vendor/github.com/juju/errors/functions_test.go"
+  fileline = 255
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vendor/github.com/juju/errors/functions_test.go"
+  fileline = 255
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vendor/github.com/juju/errors/functions_test.go"
+  fileline = 258
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vendor/github.com/juju/errors/functions_test.go"
+  fileline = 255
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vendor/github.com/juju/errors/functions_test.go"
+  fileline = 257
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vendor/github.com/juju/errors/functions_test.go"
+  fileline = 256
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vendor/github.com/siddontang/go-mysql/failover/failover_test.go"
+  fileline = 157
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vendor/github.com/juju/errors/functions_test.go"
+  fileline = 275
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vendor/github.com/juju/errors/functions_test.go"
+  fileline = 273
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vendor/github.com/juju/errors/functions_test.go"
+  fileline = 273
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vendor/github.com/juju/errors/functions_test.go"
+  fileline = 276
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vendor/github.com/juju/errors/functions_test.go"
+  fileline = 274
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vendor/github.com/juju/errors/error_test.go"
+  fileline = 92
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vendor/github.com/juju/errors/error_test.go"
+  fileline = 92
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vendor/github.com/juju/errors/error_test.go"
+  fileline = 93
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vendor/github.com/juju/errors/error_test.go"
+  fileline = 93
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vendor/github.com/juju/errors/error_test.go"
+  fileline = 95
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vendor/github.com/juju/errors/error_test.go"
+  fileline = 94
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vendor/github.com/siddontang/go-mysql/client/client_test.go"
+  fileline = 315
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vendor/github.com/juju/errors/error_test.go"
+  fileline = 73
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "go/sql/builder.go"
+  fileline = 494
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vendor/github.com/jmoiron/sqlx/sqlx.go"
+  fileline = 747
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vendor/github.com/jmoiron/sqlx/sqlx.go"
+  fileline = 898
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vendor/golang.org/x/crypto/ssh/agent/client_test.go"
+  fileline = 312
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vendor/github.com/jmoiron/sqlx/types/types.go"
+  fileline = 35
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vendor/github.com/juju/errors/functions_test.go"
+  fileline = 243
+  comment = "Error was not checked before reassignment"

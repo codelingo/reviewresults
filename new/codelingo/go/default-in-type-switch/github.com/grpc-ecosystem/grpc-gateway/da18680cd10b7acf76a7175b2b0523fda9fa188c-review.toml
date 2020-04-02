@@ -1,0 +1,13 @@
+repo = "github.com/grpc-ecosystem/grpc-gateway"
+rule = "codelingo/go/default-in-type-switch"
+sha = "da18680cd10b7acf76a7175b2b0523fda9fa188c"
+
+[[issues]]
+  filepath = "runtime/query.go"
+  fileline = 319
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "runtime/query.go"
+  fileline = 221
+  comment = "Always include a default case when using a type switch."
