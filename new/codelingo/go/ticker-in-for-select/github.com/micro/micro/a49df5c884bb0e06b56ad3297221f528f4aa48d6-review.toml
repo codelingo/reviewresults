@@ -1,0 +1,8 @@
+repo = "github.com/micro/micro"
+rule = "codelingo/go/ticker-in-for-select"
+sha = "a49df5c884bb0e06b56ad3297221f528f4aa48d6"
+
+[[issues]]
+  filepath = "config/handler/handler.go"
+  fileline = 365
+  comment = "Make one ticker as opposed to making a new timer each iteration."

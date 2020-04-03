@@ -1,0 +1,118 @@
+repo = "github.com/nats-io/nats-server"
+rule = "codelingo/go/ticker-in-for-select"
+sha = "8c8d6f88466bb7161a5246892ea6ff89ac9547c3"
+
+[[issues]]
+  filepath = "server/norace_test.go"
+  fileline = 660
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "server/opts_test.go"
+  fileline = 1255
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "server/leafnode_test.go"
+  fileline = 1009
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "test/leafnode_test.go"
+  fileline = 2999
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "server/client_test.go"
+  fileline = 1679
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "test/norace_test.go"
+  fileline = 204
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "server/route.go"
+  fileline = 1570
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "test/leafnode_test.go"
+  fileline = 2985
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "server/gateway_test.go"
+  fileline = 3028
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "test/tls_test.go"
+  fileline = 371
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "test/tls_test.go"
+  fileline = 210
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "test/routes_test.go"
+  fileline = 965
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "server/server.go"
+  fileline = 2425
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "server/gateway_test.go"
+  fileline = 3008
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "server/leafnode.go"
+  fileline = 273
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "test/client_cluster_test.go"
+  fileline = 102
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "server/client_test.go"
+  fileline = 1155
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "server/leafnode_test.go"
+  fileline = 835
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "test/routes_test.go"
+  fileline = 1001
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "server/gateway.go"
+  fileline = 690
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "test/tls_test.go"
+  fileline = 534
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "test/routes_test.go"
+  fileline = 876
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "server/jwt_test.go"
+  fileline = 2082
+  comment = "Make one ticker as opposed to making a new timer each iteration."

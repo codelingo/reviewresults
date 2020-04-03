@@ -1,0 +1,393 @@
+repo = "github.com/git-lfs/git-lfs"
+rule = "codelingo/go/unchecked-type-assertion"
+sha = "aa5c6633572c454744eb477e2dd236fcf6995961"
+
+[[issues]]
+  filepath = "vendor/github.com/xeipuuv/gojsonschema/schema.go"
+  fileline = 114
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/net/http2/write.go"
+  fileline = 51
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/net/http2/server.go"
+  fileline = 1376
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "lfshttp/ssh_test.go"
+  fileline = 142
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/xeipuuv/gojsonschema/utils.go"
+  fileline = 118
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/xeipuuv/gojsonschema/schema.go"
+  fileline = 471
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/net/http2/server.go"
+  fileline = 1002
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "errors/types.go"
+  fileline = 198
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "locking/cache.go"
+  fileline = 67
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/xeipuuv/gojsonschema/validation.go"
+  fileline = 697
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "lfshttp/ssh_test.go"
+  fileline = 172
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/net/http2/server.go"
+  fileline = 1001
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/net/http2/server.go"
+  fileline = 2550
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/xeipuuv/gojsonschema/validation.go"
+  fileline = 227
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/xeipuuv/gojsonschema/utils.go"
+  fileline = 83
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/net/http2/server.go"
+  fileline = 1408
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/xeipuuv/gojsonschema/schema.go"
+  fileline = 267
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/jcmturner/gofork/encoding/asn1/marshal.go"
+  fileline = 416
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/net/http2/server.go"
+  fileline = 2113
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/olekukonko/ts/ts_x.go"
+  fileline = 33
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/stretchr/testify/assert/assertions.go"
+  fileline = 1353
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/net/http2/server.go"
+  fileline = 882
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "lfshttp/ssh_test.go"
+  fileline = 16
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "lfshttp/ssh_test.go"
+  fileline = 78
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "git/object_scanner.go"
+  fileline = 181
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "lfshttp/stats.go"
+  fileline = 137
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/text/unicode/bidi/bracket.go"
+  fileline = 160
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/davecgh/go-spew/spew/common.go"
+  fileline = 114
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/sync/semaphore/semaphore.go"
+  fileline = 106
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/xeipuuv/gojsonpointer/pointer.go"
+  fileline = 125
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/xeipuuv/gojsonschema/format_checkers.go"
+  fileline = 128
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/xeipuuv/gojsonschema/validation.go"
+  fileline = 761
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/net/http2/gotrack.go"
+  fileline = 52
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/xeipuuv/gojsonschema/schema.go"
+  fileline = 327
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "commands/commands.go"
+  fileline = 389
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/net/http2/hpack/huffman.go"
+  fileline = 33
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/stretchr/testify/assert/assertions.go"
+  fileline = 940
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "lfshttp/ssh_test.go"
+  fileline = 99
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "tq/errors_test.go"
+  fileline = 18
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/gopkg.in/jcmturner/gokrb5.v5/types/HostAddress.go"
+  fileline = 99
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "tools/robustio_windows.go"
+  fileline = 18
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/xeipuuv/gojsonschema/schema.go"
+  fileline = 861
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/xeipuuv/gojsonschema/schema.go"
+  fileline = 500
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/xeipuuv/gojsonschema/schema.go"
+  fileline = 131
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "errors/types.go"
+  fileline = 202
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/net/http2/write.go"
+  fileline = 335
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/net/http2/server.go"
+  fileline = 1218
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/xeipuuv/gojsonschema/validation.go"
+  fileline = 354
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/xeipuuv/gojsonschema/schema.go"
+  fileline = 701
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "lfshttp/ssh_test.go"
+  fileline = 120
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/xeipuuv/gojsonschema/validation.go"
+  fileline = 446
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/xeipuuv/gojsonschema/schema.go"
+  fileline = 837
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/net/http2/server.go"
+  fileline = 2173
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/net/http2/http2.go"
+  fileline = 281
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "lfshttp/ssh_test.go"
+  fileline = 36
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/xeipuuv/gojsonschema/utils.go"
+  fileline = 145
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/net/http2/transport.go"
+  fileline = 1761
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/olekukonko/ts/ts_x.go"
+  fileline = 41
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/xeipuuv/gojsonschema/schema.go"
+  fileline = 891
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/net/http2/frame.go"
+  fileline = 231
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/xeipuuv/gojsonschema/validation.go"
+  fileline = 169
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/xeipuuv/gojsonschema/validation.go"
+  fileline = 115
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "errors/types.go"
+  fileline = 110
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "tq/errors_test.go"
+  fileline = 10
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/xeipuuv/gojsonschema/schema.go"
+  fileline = 411
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/xeipuuv/gojsonschema/validation.go"
+  fileline = 194
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/jcmturner/gofork/encoding/asn1/marshal.go"
+  fileline = 543
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "lfshttp/ssh_test.go"
+  fileline = 57
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/net/http2/frame.go"
+  fileline = 1546
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/xeipuuv/gojsonschema/schema.go"
+  fileline = 305
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/stretchr/testify/assert/assertions.go"
+  fileline = 1352
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/net/http2/frame.go"
+  fileline = 1576
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/net/http2/hpack/huffman.go"
+  fileline = 22
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/xeipuuv/gojsonschema/validation.go"
+  fileline = 249
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/xeipuuv/gojsonschema/schema.go"
+  fileline = 884
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/xeipuuv/gojsonschema/validation.go"
+  fileline = 593
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/github.com/xeipuuv/gojsonschema/schema.go"
+  fileline = 641
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/net/http2/hpack/hpack.go"
+  fileline = 493
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."

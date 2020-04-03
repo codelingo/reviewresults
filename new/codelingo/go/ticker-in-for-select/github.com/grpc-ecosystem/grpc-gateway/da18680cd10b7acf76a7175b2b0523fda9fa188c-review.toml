@@ -1,0 +1,8 @@
+repo = "github.com/grpc-ecosystem/grpc-gateway"
+rule = "codelingo/go/ticker-in-for-select"
+sha = "da18680cd10b7acf76a7175b2b0523fda9fa188c"
+
+[[issues]]
+  filepath = "examples/internal/integration/main_test.go"
+  fileline = 54
+  comment = "Make one ticker as opposed to making a new timer each iteration."

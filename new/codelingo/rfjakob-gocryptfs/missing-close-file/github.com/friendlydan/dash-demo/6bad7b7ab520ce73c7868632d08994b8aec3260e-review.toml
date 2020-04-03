@@ -4,12 +4,7 @@ sha = "6bad7b7ab520ce73c7868632d08994b8aec3260e"
 
 [[issues]]
   filepath = "main.go"
-  fileline = 31
-  comment = "Close the file when you are done"
-
-[[issues]]
-  filepath = "main.go"
-  fileline = 38
+  fileline = 15
   comment = "Close the file when you are done"
 
 [[issues]]
@@ -19,5 +14,10 @@ sha = "6bad7b7ab520ce73c7868632d08994b8aec3260e"
 
 [[issues]]
   filepath = "main.go"
-  fileline = 15
+  fileline = 31
+  comment = "Close the file when you are done"
+
+[[issues]]
+  filepath = "main.go"
+  fileline = 38
   comment = "Close the file when you are done"

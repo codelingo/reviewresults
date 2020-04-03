@@ -1,0 +1,33 @@
+repo = "github.com/golang/groupcache"
+rule = "codelingo/go/unchecked-type-assertion"
+sha = "8c9f03a8e57eb486e42badaed3fb287da51807ba"
+
+[[issues]]
+  filepath = "groupcache.go"
+  fileline = 291
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "http.go"
+  fileline = 219
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "groupcache.go"
+  fileline = 416
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "lru/lru.go"
+  fileline = 127
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "lru/lru.go"
+  fileline = 108
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "groupcache_test.go"
+  fileline = 205
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."

@@ -1,0 +1,8 @@
+repo = "github.com/friendlydan/dash-demo"
+rule = "codelingo/go/reassigned-error"
+sha = "6bad7b7ab520ce73c7868632d08994b8aec3260e"
+
+[[issues]]
+  filepath = "main.go"
+  fileline = 21
+  comment = "Error was not checked before reassignment"

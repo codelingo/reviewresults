@@ -1,0 +1,73 @@
+repo = "github.com/micro/micro"
+rule = "codelingo/go/unchecked-type-assertion"
+sha = "a49df5c884bb0e06b56ad3297221f528f4aa48d6"
+
+[[issues]]
+  filepath = "network/dns/provider/cloudflare/cloudflare.go"
+  fileline = 111
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "internal/command/cli/command.go"
+  fileline = 407
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "internal/command/cli/command.go"
+  fileline = 351
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "internal/command/cli/command.go"
+  fileline = 523
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "internal/command/cli/command.go"
+  fileline = 454
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "internal/command/cli/command.go"
+  fileline = 136
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "network/dns/provider/cloudflare/cloudflare.go"
+  fileline = 114
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "internal/command/cli/command.go"
+  fileline = 135
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "cmd/update/main.go"
+  fileline = 53
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "internal/command/cli/command.go"
+  fileline = 143
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "network/dns/provider/cloudflare/cloudflare.go"
+  fileline = 117
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "cmd/update/main.go"
+  fileline = 99
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "internal/command/cli/command.go"
+  fileline = 466
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "cmd/update/main.go"
+  fileline = 78
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."

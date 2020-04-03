@@ -1,0 +1,8 @@
+repo = "github.com/sjwhitworth/golearn"
+rule = "codelingo/go/reassigned-error"
+sha = "3e43e74895fbe667cb83c7fd8278238eb001f667"
+
+[[issues]]
+  filepath = "base/csv.go"
+  fileline = 202
+  comment = "Error was not checked before reassignment"

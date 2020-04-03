@@ -1,0 +1,8 @@
+repo = "github.com/fogleman/primitive"
+rule = "codelingo/go/non-directional-chan"
+sha = "673f57e7b1b5ae5bc415b47c76130bab35b08297"
+
+[[issues]]
+  filepath = "primitive/model.go"
+  fileline = 172
+  comment = "Returned channels or channel arguments should generally have a direction."

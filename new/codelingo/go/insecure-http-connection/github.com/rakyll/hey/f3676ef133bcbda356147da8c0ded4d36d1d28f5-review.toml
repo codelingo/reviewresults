@@ -1,0 +1,8 @@
+repo = "github.com/rakyll/hey"
+rule = "codelingo/go/insecure-http-connection"
+sha = "f3676ef133bcbda356147da8c0ded4d36d1d28f5"
+
+[[issues]]
+  filepath = "requester/requester.go"
+  fileline = 230
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."

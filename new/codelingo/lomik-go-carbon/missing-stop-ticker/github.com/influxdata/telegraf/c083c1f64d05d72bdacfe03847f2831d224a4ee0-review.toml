@@ -1,0 +1,8 @@
+repo = "github.com/influxdata/telegraf"
+rule = "codelingo/lomik-go-carbon/missing-stop-ticker"
+sha = "c083c1f64d05d72bdacfe03847f2831d224a4ee0"
+
+[[issues]]
+  filepath = "plugins/inputs/kafka_consumer_legacy/kafka_consumer_legacy_integration_test.go"
+  fileline = 85
+  comment = "Stop the ticker to release associated resources."

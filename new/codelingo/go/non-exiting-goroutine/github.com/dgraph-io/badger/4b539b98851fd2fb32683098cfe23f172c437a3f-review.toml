@@ -1,0 +1,43 @@
+repo = "github.com/dgraph-io/badger"
+rule = "codelingo/go/non-exiting-goroutine"
+sha = "4b539b98851fd2fb32683098cfe23f172c437a3f"
+
+[[issues]]
+  filepath = "txn_test.go"
+  fileline = 124
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "badger/main.go"
+  fileline = 30
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "db_test.go"
+  fileline = 193
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "db_test.go"
+  fileline = 1013
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "badger/cmd/bank.go"
+  fileline = 544
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "txn_test.go"
+  fileline = 144
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "txn_test.go"
+  fileline = 148
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "integration/testgc/main.go"
+  fileline = 156
+  comment = "This goroutine does not exit and may cause a resource leak."

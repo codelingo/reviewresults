@@ -1,0 +1,1948 @@
+repo = "github.com/go-redis/redis"
+rule = "codelingo/go/reassigned-error"
+sha = "9a49a4d91df7039dda33713ccd768f809b837ef1"
+
+[[issues]]
+  filepath = "race_test.go"
+  fileline = 255
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 1568
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 1565
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3261
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3261
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3266
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3266
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3271
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3259
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3259
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3263
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "race_test.go"
+  fileline = 184
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 1370
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3764
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "internal/proto/write_buffer_test.go"
+  fileline = 68
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "pubsub_test.go"
+  fileline = 92
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "pubsub_test.go"
+  fileline = 92
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "pubsub_test.go"
+  fileline = 96
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 694
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 694
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 702
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 694
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 706
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 698
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 305
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 305
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 307
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3247
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3239
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3235
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3237
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3235
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3235
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3242
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 316
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 318
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 316
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "pubsub_test.go"
+  fileline = 230
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "pubsub_test.go"
+  fileline = 227
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2095
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2095
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2099
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2090
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2088
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2088
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2092
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3784
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3492
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3484
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3648
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3648
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3654
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3648
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3651
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "pipeline_test.go"
+  fileline = 55
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "pipeline_test.go"
+  fileline = 51
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2876
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2876
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2878
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2452
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2452
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2463
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2459
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2459
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2470
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "pubsub_test.go"
+  fileline = 301
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2178
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2178
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2183
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2183
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2188
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "cluster_test.go"
+  fileline = 590
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "cluster_test.go"
+  fileline = 590
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2935
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2933
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "command_test.go"
+  fileline = 77
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "command_test.go"
+  fileline = 80
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3327
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3306
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3310
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3310
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3313
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3308
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3306
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3895
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "internal/proto/write_buffer_test.go"
+  fileline = 34
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2510
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2499
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2499
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2506
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 643
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 643
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 647
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 639
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "command_test.go"
+  fileline = 66
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 1210
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 1210
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 1214
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 1210
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 1217
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "main_test.go"
+  fileline = 72
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "main_test.go"
+  fileline = 72
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "main_test.go"
+  fileline = 75
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "main_test.go"
+  fileline = 69
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "main_test.go"
+  fileline = 66
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "main_test.go"
+  fileline = 63
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "main_test.go"
+  fileline = 60
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "main_test.go"
+  fileline = 57
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "redis_test.go"
+  fileline = 205
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "pubsub_test.go"
+  fileline = 277
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 1390
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 1386
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 1379
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "cluster_test.go"
+  fileline = 1044
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2897
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2897
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2901
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2901
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2904
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2897
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2917
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2899
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "redis_test.go"
+  fileline = 75
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "redis_test.go"
+  fileline = 75
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "redis_test.go"
+  fileline = 78
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2265
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2260
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2260
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2270
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "tx_test.go"
+  fileline = 91
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2975
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2970
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "sentinel_test.go"
+  fileline = 27
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "sentinel_test.go"
+  fileline = 27
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3339
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3339
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3341
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3457
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "cluster_test.go"
+  fileline = 532
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "cluster_test.go"
+  fileline = 532
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "cluster_test.go"
+  fileline = 299
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "pubsub_test.go"
+  fileline = 385
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2356
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2349
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2342
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2342
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2363
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3367
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3367
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3370
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3370
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3374
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3374
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3377
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3365
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3365
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3372
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "cluster_test.go"
+  fileline = 934
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "race_test.go"
+  fileline = 190
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "race_test.go"
+  fileline = 194
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "race_test.go"
+  fileline = 190
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3577
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3283
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3287
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3283
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3283
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3285
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "cluster_test.go"
+  fileline = 990
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2691
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2680
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2680
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2685
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 619
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 629
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 625
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2633
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2633
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2638
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "pubsub_test.go"
+  fileline = 251
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "pubsub_test.go"
+  fileline = 254
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "pubsub_test.go"
+  fileline = 243
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "pubsub_test.go"
+  fileline = 243
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "pubsub_test.go"
+  fileline = 257
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3697
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "pool_test.go"
+  fileline = 90
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "pool_test.go"
+  fileline = 85
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3546
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 602
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 602
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 605
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 596
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 609
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 276
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 273
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "ring_test.go"
+  fileline = 487
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3178
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3180
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3178
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 1298
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 1298
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 1300
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2670
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2655
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2650
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2650
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2666
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2660
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3601
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "ring_test.go"
+  fileline = 473
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 665
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 665
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 669
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 661
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "cluster_test.go"
+  fileline = 85
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2526
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2526
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2533
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2533
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2537
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2537
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2544
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2585
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2578
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2578
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2589
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2838
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2814
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2814
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2833
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2833
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2855
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2819
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2819
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2825
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2809
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2809
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2849
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3440
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 1142
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2483
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 954
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 950
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 950
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 962
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 934
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 931
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 931
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 942
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 938
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 938
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 946
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 931
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 958
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "race_test.go"
+  fileline = 240
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "internal/proto/write_buffer_test.go"
+  fileline = 58
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3110
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3108
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3108
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "ring_test.go"
+  fileline = 311
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3561
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2385
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2385
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2392
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2392
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2399
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2399
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2406
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3085
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3085
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3087
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 145
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 1179
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 1179
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 1183
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3529
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 345
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 341
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 341
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 349
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3960
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3957
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "tx_test.go"
+  fileline = 105
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "race_test.go"
+  fileline = 141
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "ring_test.go"
+  fileline = 214
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "ring_test.go"
+  fileline = 521
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "ring_test.go"
+  fileline = 517
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3402
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3402
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3410
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "tx_test.go"
+  fileline = 145
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2439
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2435
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2428
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "command_test.go"
+  fileline = 50
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "command_test.go"
+  fileline = 50
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "command_test.go"
+  fileline = 54
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "cluster_test.go"
+  fileline = 884
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "cluster_test.go"
+  fileline = 884
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "cluster_test.go"
+  fileline = 889
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "cluster_test.go"
+  fileline = 257
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "cluster_test.go"
+  fileline = 254
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "cluster_test.go"
+  fileline = 949
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3203
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3199
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3199
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3201
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3201
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3206
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3206
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3219
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 1193
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 1197
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 1197
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 1200
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 1193
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "pubsub_test.go"
+  fileline = 211
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "pubsub_test.go"
+  fileline = 211
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "pubsub_test.go"
+  fileline = 214
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2749
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2744
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2789
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2744
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2744
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2760
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2760
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2768
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2754
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2754
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2784
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2773
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 1429
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 1424
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 1426
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 1424
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "ring_test.go"
+  fileline = 511
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3168
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3627
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3130
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3128
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3016
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3016
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3018
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3018
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3023
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3023
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3039
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3020
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3016
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3052
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2718
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2718
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2720
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2720
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2722
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2707
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2712
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2707
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2707
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2725
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "redis_test.go"
+  fileline = 253
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "race_test.go"
+  fileline = 149
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2602
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2620
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2613
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2602
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2602
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2609
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3068
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3068
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3070
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3664
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3664
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3673
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "pubsub_test.go"
+  fileline = 159
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3515
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 3508
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "cluster_test.go"
+  fileline = 270
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2557
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2557
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2568
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 2564
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "cluster_test.go"
+  fileline = 647
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "cluster_test.go"
+  fileline = 647
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "ring_test.go"
+  fileline = 259
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "cluster_test.go"
+  fileline = 748
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 288
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 288
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 291
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "commands_test.go"
+  fileline = 285
+  comment = "Error was not checked before reassignment"

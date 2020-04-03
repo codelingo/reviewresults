@@ -1,0 +1,73 @@
+repo = "github.com/sjwhitworth/golearn"
+rule = "codelingo/go/unchecked-type-assertion"
+sha = "3e43e74895fbe667cb83c7fd8278238eb001f667"
+
+[[issues]]
+  filepath = "base/arff.go"
+  fileline = 259
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "knn/knn.go"
+  fileline = 392
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "trees/id3.go"
+  fileline = 63
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "knn/knn_opt_euclidean.go"
+  fileline = 25
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "filters/chimerge_funcs.go"
+  fileline = 10
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "knn/knn.go"
+  fileline = 399
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "knn/knn.go"
+  fileline = 396
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "base/arff_test.go"
+  fileline = 72
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "knn/knn.go"
+  fileline = 393
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "filters/binning.go"
+  fileline = 55
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "knn/knn.go"
+  fileline = 395
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "base/serialize_instances.go"
+  fileline = 195
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "base/arff_test.go"
+  fileline = 76
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "base/arff_test.go"
+  fileline = 68
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."

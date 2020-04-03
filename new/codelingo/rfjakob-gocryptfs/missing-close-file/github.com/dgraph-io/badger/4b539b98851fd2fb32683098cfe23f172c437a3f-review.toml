@@ -1,0 +1,8 @@
+repo = "github.com/dgraph-io/badger"
+rule = "codelingo/rfjakob-gocryptfs/missing-close-file"
+sha = "4b539b98851fd2fb32683098cfe23f172c437a3f"
+
+[[issues]]
+  filepath = "badger/cmd/rotate.go"
+  fileline = 78
+  comment = "Close the file when you are done"

@@ -1,0 +1,8 @@
+repo = "github.com/rakyll/hey"
+rule = "codelingo/go/ticker-in-for-select"
+sha = "f3676ef133bcbda356147da8c0ded4d36d1d28f5"
+
+[[issues]]
+  filepath = "vendor/golang.org/x/net/http2/transport.go"
+  fileline = 402
+  comment = "Make one ticker as opposed to making a new timer each iteration."

@@ -1,0 +1,13 @@
+repo = "github.com/future-architect/vuls"
+rule = "codelingo/go/unchecked-type-assertion"
+sha = "5729ad6026bbe49eb3f570b54cb430265bf180fb"
+
+[[issues]]
+  filepath = "util/util.go"
+  fileline = 90
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "scan/executil.go"
+  fileline = 180
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."

@@ -1,0 +1,68 @@
+repo = "github.com/git-lfs/git-lfs"
+rule = "codelingo/go/default-in-type-switch"
+sha = "aa5c6633572c454744eb477e2dd236fcf6995961"
+
+[[issues]]
+  filepath = "vendor/github.com/xeipuuv/gojsonschema/validation.go"
+  fileline = 440
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/github.com/xeipuuv/gojsonschema/validation.go"
+  fileline = 354
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "tools/robustio_windows.go"
+  fileline = 18
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/net/http2/frame.go"
+  fileline = 1576
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/net/http2/write.go"
+  fileline = 51
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/github.com/davecgh/go-spew/spew/common.go"
+  fileline = 114
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/github.com/xeipuuv/gojsonschema/utils.go"
+  fileline = 72
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/gopkg.in/jcmturner/gokrb5.v5/types/HostAddress.go"
+  fileline = 99
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/github.com/xeipuuv/gojsonschema/errors.go"
+  fileline = 154
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/net/http2/server.go"
+  fileline = 1218
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "commands/commands.go"
+  fileline = 389
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/net/http2/server.go"
+  fileline = 1100
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/github.com/xeipuuv/gojsonschema/validation.go"
+  fileline = 549
+  comment = "Always include a default case when using a type switch."

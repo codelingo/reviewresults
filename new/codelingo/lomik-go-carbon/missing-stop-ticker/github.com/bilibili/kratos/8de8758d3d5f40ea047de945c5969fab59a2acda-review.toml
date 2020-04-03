@@ -1,0 +1,18 @@
+repo = "github.com/bilibili/kratos"
+rule = "codelingo/lomik-go-carbon/missing-stop-ticker"
+sha = "8de8758d3d5f40ea047de945c5969fab59a2acda"
+
+[[issues]]
+  filepath = "pkg/container/pool/list.go"
+  fileline = 80
+  comment = "Stop the ticker to release associated resources."
+
+[[issues]]
+  filepath = "pkg/log/internal/filewriter/filewriter.go"
+  fileline = 228
+  comment = "Stop the ticker to release associated resources."
+
+[[issues]]
+  filepath = "pkg/log/internal/filewriter/filewriter.go"
+  fileline = 230
+  comment = "Stop the ticker to release associated resources."

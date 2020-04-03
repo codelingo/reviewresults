@@ -1,0 +1,13 @@
+repo = "github.com/bilibili/kratos"
+rule = "codelingo/go/non-directional-chan"
+sha = "8de8758d3d5f40ea047de945c5969fab59a2acda"
+
+[[issues]]
+  filepath = "pkg/cache/redis/pool_test.go"
+  fileline = 407
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/sync/pipeline/pipeline.go"
+  fileline = 146
+  comment = "Returned channels or channel arguments should generally have a direction."

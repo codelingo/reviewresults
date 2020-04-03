@@ -1,0 +1,23 @@
+repo = "github.com/git-lfs/git-lfs"
+rule = "codelingo/rfjakob-gocryptfs/missing-close-file"
+sha = "aa5c6633572c454744eb477e2dd236fcf6995961"
+
+[[issues]]
+  filepath = "vendor/github.com/git-lfs/gitobj/pack/set.go"
+  fileline = 73
+  comment = "Close the file when you are done"
+
+[[issues]]
+  filepath = "tools/util_linux.go"
+  fileline = 56
+  comment = "Close the file when you are done"
+
+[[issues]]
+  filepath = "tools/robustio_windows.go"
+  fileline = 52
+  comment = "Close the file when you are done"
+
+[[issues]]
+  filepath = "tools/util_windows.go"
+  fileline = 69
+  comment = "Close the file when you are done"

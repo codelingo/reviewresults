@@ -1,0 +1,63 @@
+repo = "github.com/bilibili/kratos"
+rule = "codelingo/go/non-exiting-goroutine"
+sha = "8de8758d3d5f40ea047de945c5969fab59a2acda"
+
+[[issues]]
+  filepath = "pkg/log/internal/core/pool_test.go"
+  fileline = 38
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "pkg/stat/sys/cpu/cpu.go"
+  fileline = 39
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "pkg/ratelimit/bbr/bbr_test.go"
+  fileline = 58
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "pkg/stat/metric/rolling_counter_test.go"
+  fileline = 102
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "pkg/stat/metric/rolling_gauge_test.go"
+  fileline = 138
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "pkg/net/rpc/warden/balancer/p2c/p2c_test.go"
+  fileline = 68
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "pkg/net/rpc/warden/balancer/p2c/p2c_test.go"
+  fileline = 67
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "pkg/net/rpc/warden/internal/benchmark/bench/client/client.go"
+  fileline = 104
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "pkg/net/rpc/warden/balancer/p2c/p2c_test.go"
+  fileline = 271
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "pkg/naming/etcd/etcd_test.go"
+  fileline = 61
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "pkg/naming/etcd/etcd_test.go"
+  fileline = 30
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "pkg/naming/zookeeper/zookeeper.go"
+  fileline = 310
+  comment = "This goroutine does not exit and may cause a resource leak."

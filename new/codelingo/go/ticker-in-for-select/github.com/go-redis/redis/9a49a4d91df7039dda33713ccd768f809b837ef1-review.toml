@@ -1,0 +1,8 @@
+repo = "github.com/go-redis/redis"
+rule = "codelingo/go/ticker-in-for-select"
+sha = "9a49a4d91df7039dda33713ccd768f809b837ef1"
+
+[[issues]]
+  filepath = "main_test.go"
+  fileline = 192
+  comment = "Make one ticker as opposed to making a new timer each iteration."
