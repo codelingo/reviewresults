@@ -3,36 +3,40 @@ rule = "codelingo/go/default-in-type-switch"
 sha = "b94b39d657d8abcccba6545e148f1201aee6ffec"
 
 [[issues]]
-  filepath = "vendor/gopkg.in/yaml.v2/decode.go"
+  comment = "Always include a default case when using a type switch."
   fileline = 413
-  comment = "Always include a default case when using a type switch."
+  filepath = "vendor/gopkg.in/yaml.v2/decode.go"
+  fixed = false
+  ignored = "embedded switch. all cases covered"
 
 [[issues]]
-  filepath = "vendor/github.com/codegangsta/cli/flag.go"
+  comment = "Always include a default case when using a type switch."
   fileline = 711
-  comment = "Always include a default case when using a type switch."
+  filepath = "vendor/github.com/codegangsta/cli/flag.go"
+  fixed = false
+  ignored = "in vendor"
 
 [[issues]]
-  filepath = "msg/msg.go"
+  comment = "Always include a default case when using a type switch."
   fileline = 182
-  comment = "Always include a default case when using a type switch."
+  filepath = "msg/msg.go"
 
 [[issues]]
-  filepath = "vendor/gopkg.in/yaml.v2/decode.go"
+  comment = "Always include a default case when using a type switch."
   fileline = 382
-  comment = "Always include a default case when using a type switch."
+  filepath = "vendor/gopkg.in/yaml.v2/decode.go"
 
 [[issues]]
-  filepath = "vendor/github.com/Masterminds/vcs/vcs_remote_lookup.go"
+  comment = "Always include a default case when using a type switch."
   fileline = 203
-  comment = "Always include a default case when using a type switch."
+  filepath = "vendor/github.com/Masterminds/vcs/vcs_remote_lookup.go"
 
 [[issues]]
-  filepath = "vendor/gopkg.in/yaml.v2/decode.go"
+  comment = "Always include a default case when using a type switch."
   fileline = 436
-  comment = "Always include a default case when using a type switch."
+  filepath = "vendor/gopkg.in/yaml.v2/decode.go"
 
 [[issues]]
-  filepath = "vendor/gopkg.in/yaml.v2/decode.go"
-  fileline = 442
   comment = "Always include a default case when using a type switch."
+  fileline = 442
+  filepath = "vendor/gopkg.in/yaml.v2/decode.go"
