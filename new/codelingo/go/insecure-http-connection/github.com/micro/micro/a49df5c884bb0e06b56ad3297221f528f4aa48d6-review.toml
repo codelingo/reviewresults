@@ -1,0 +1,8 @@
+repo = "github.com/micro/micro"
+rule = "codelingo/go/insecure-http-connection"
+sha = "a49df5c884bb0e06b56ad3297221f528f4aa48d6"
+
+[[issues]]
+  filepath = "network/network.go"
+  fileline = 131
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."

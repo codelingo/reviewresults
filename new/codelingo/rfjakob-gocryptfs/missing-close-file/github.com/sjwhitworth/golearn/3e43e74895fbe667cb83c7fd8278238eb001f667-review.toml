@@ -1,0 +1,13 @@
+repo = "github.com/sjwhitworth/golearn"
+rule = "codelingo/rfjakob-gocryptfs/missing-close-file"
+sha = "3e43e74895fbe667cb83c7fd8278238eb001f667"
+
+[[issues]]
+  filepath = "base/logger.go"
+  fileline = 29
+  comment = "Close the file when you are done"
+
+[[issues]]
+  filepath = "base/serialize.go"
+  fileline = 121
+  comment = "Close the file when you are done"

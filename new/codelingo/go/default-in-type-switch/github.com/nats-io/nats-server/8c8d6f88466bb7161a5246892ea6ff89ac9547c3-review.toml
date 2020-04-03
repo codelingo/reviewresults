@@ -1,0 +1,58 @@
+repo = "github.com/nats-io/nats-server"
+rule = "codelingo/go/default-in-type-switch"
+sha = "8c8d6f88466bb7161a5246892ea6ff89ac9547c3"
+
+[[issues]]
+  filepath = "conf/parse.go"
+  fileline = 343
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "server/opts.go"
+  fileline = 2199
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "server/server.go"
+  fileline = 2231
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "server/opts.go"
+  fileline = 2677
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "conf/parse.go"
+  fileline = 413
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "server/monitor.go"
+  fileline = 716
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "server/util.go"
+  fileline = 88
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "server/opts.go"
+  fileline = 1220
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "server/opts.go"
+  fileline = 1335
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "server/opts.go"
+  fileline = 876
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "test/monitor_test.go"
+  fileline = 768
+  comment = "Always include a default case when using a type switch."

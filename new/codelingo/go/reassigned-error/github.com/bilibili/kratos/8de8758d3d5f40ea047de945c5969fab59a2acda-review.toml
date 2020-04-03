@@ -1,0 +1,23 @@
+repo = "github.com/bilibili/kratos"
+rule = "codelingo/go/reassigned-error"
+sha = "8de8758d3d5f40ea047de945c5969fab59a2acda"
+
+[[issues]]
+  filepath = "pkg/log/internal/filewriter/filewriter_test.go"
+  fileline = 125
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "pkg/net/trace/span_test.go"
+  fileline = 76
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "pkg/log/internal/filewriter/filewriter_test.go"
+  fileline = 96
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "pkg/naming/etcd/etcd_test.go"
+  fileline = 41
+  comment = "Error was not checked before reassignment"

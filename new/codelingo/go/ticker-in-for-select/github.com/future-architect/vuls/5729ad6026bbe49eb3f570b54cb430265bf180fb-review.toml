@@ -1,0 +1,8 @@
+repo = "github.com/future-architect/vuls"
+rule = "codelingo/go/ticker-in-for-select"
+sha = "5729ad6026bbe49eb3f570b54cb430265bf180fb"
+
+[[issues]]
+  filepath = "scan/executil.go"
+  fileline = 115
+  comment = "Make one ticker as opposed to making a new timer each iteration."

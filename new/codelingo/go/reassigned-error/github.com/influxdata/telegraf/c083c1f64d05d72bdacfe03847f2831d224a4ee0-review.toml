@@ -1,0 +1,203 @@
+repo = "github.com/influxdata/telegraf"
+rule = "codelingo/go/reassigned-error"
+sha = "c083c1f64d05d72bdacfe03847f2831d224a4ee0"
+
+[[issues]]
+  filepath = "plugins/serializers/graphite/graphite_test.go"
+  fileline = 158
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "plugins/inputs/syslog/syslog.go"
+  fileline = 146
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "plugins/inputs/jolokia2/client.go"
+  fileline = 133
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "plugins/inputs/suricata/suricata_test.go"
+  fileline = 190
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "plugins/inputs/statsd/statsd_test.go"
+  fileline = 1670
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "plugins/inputs/phpfpm/phpfpm.go"
+  fileline = 145
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "plugins/inputs/mysql/mysql.go"
+  fileline = 1274
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "plugins/outputs/warp10/warp10.go"
+  fileline = 141
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "plugins/parsers/graphite/parser_test.go"
+  fileline = 455
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "plugins/inputs/httpjson/httpjson.go"
+  fileline = 220
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "plugins/inputs/haproxy/haproxy.go"
+  fileline = 168
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "plugins/inputs/bcache/bcache.go"
+  fileline = 75
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "plugins/serializers/graphite/graphite_test.go"
+  fileline = 203
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "plugins/inputs/disk/disk_test.go"
+  fileline = 367
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "plugins/inputs/processes/processes_notwindows.go"
+  fileline = 138
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "logger/logger_test.go"
+  fileline = 18
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "plugins/inputs/filecount/filesystem_helpers_test.go"
+  fileline = 51
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "plugins/parsers/graphite/parser_test.go"
+  fileline = 824
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "internal/models/filter_test.go"
+  fileline = 364
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "plugins/outputs/influxdb/udp_test.go"
+  fileline = 236
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "plugins/outputs/syslog/syslog_test.go"
+  fileline = 65
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "plugins/outputs/influxdb/http.go"
+  fileline = 386
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "plugins/outputs/influxdb/udp_test.go"
+  fileline = 118
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "plugins/inputs/cisco_telemetry_gnmi/cisco_telemetry_gnmi_test.go"
+  fileline = 105
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "plugins/inputs/statsd/statsd_test.go"
+  fileline = 1715
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "plugins/inputs/win_perf_counters/win_perf_counters_integration_test.go"
+  fileline = 494
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "plugins/inputs/disk/disk_test.go"
+  fileline = 112
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "plugins/inputs/win_perf_counters/win_perf_counters.go"
+  fileline = 277
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "plugins/inputs/net_response/net_response.go"
+  fileline = 143
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "plugins/inputs/conntrack/conntrack_test.go"
+  fileline = 65
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "plugins/inputs/kibana/kibana.go"
+  fileline = 242
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "plugins/inputs/apcupsd/apcupsd.go"
+  fileline = 46
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "plugins/inputs/jolokia/jolokia.go"
+  fileline = 236
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "plugins/inputs/rethinkdb/rethinkdb_server.go"
+  fileline = 166
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "plugins/inputs/unbound/unbound.go"
+  fileline = 78
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "plugins/inputs/phpfpm/phpfpm.go"
+  fileline = 203
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "plugins/inputs/systemd_units/systemd_units_linux.go"
+  fileline = 196
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "plugins/outputs/influxdb/http.go"
+  fileline = 204
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "plugins/outputs/influxdb/http.go"
+  fileline = 204
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "plugins/inputs/mcrouter/mcrouter.go"
+  fileline = 200
+  comment = "Error was not checked before reassignment"

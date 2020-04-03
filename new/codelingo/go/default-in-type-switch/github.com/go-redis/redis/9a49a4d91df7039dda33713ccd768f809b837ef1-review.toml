@@ -1,0 +1,8 @@
+repo = "github.com/go-redis/redis"
+rule = "codelingo/go/default-in-type-switch"
+sha = "9a49a4d91df7039dda33713ccd768f809b837ef1"
+
+[[issues]]
+  filepath = "commands.go"
+  fileline = 37
+  comment = "Always include a default case when using a type switch."

@@ -1,0 +1,28 @@
+repo = "github.com/influxdata/telegraf"
+rule = "codelingo/go/ticker-in-for-select"
+sha = "c083c1f64d05d72bdacfe03847f2831d224a4ee0"
+
+[[issues]]
+  filepath = "plugins/inputs/snmp_trap/snmp_trap_test.go"
+  fileline = 328
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "plugins/inputs/cisco_telemetry_gnmi/cisco_telemetry_gnmi.go"
+  fileline = 146
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "agent/agent.go"
+  fileline = 478
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "plugins/inputs/prometheus/kubernetes.go"
+  fileline = 68
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "plugins/inputs/execd/execd.go"
+  fileline = 118
+  comment = "Make one ticker as opposed to making a new timer each iteration."

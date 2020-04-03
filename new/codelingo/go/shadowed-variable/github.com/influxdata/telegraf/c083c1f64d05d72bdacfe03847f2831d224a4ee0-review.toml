@@ -1,0 +1,278 @@
+repo = "github.com/influxdata/telegraf"
+rule = "codelingo/go/shadowed-variable"
+sha = "c083c1f64d05d72bdacfe03847f2831d224a4ee0"
+
+[[issues]]
+  filepath = "plugins/inputs/bcache/bcache.go"
+  fileline = 91
+  comment = "Variable file shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "plugins/inputs/bcache/bcache.go"
+  fileline = 92
+  comment = "Variable rawValue shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "plugins/inputs/bcache/bcache.go"
+  fileline = 97
+  comment = "Variable value shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "plugins/inputs/bcache/bcache.go"
+  fileline = 100
+  comment = "Variable value shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "plugins/inputs/bind/json_stats.go"
+  fileline = 128
+  comment = "Variable tags shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "plugins/inputs/bind/json_stats.go"
+  fileline = 116
+  comment = "Variable tags shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "plugins/inputs/bind/json_stats.go"
+  fileline = 117
+  comment = "Variable fields shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "plugins/inputs/bind/xml_stats_v3.go"
+  fileline = 102
+  comment = "Variable fields shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "plugins/inputs/salesforce/salesforce.go"
+  fileline = 206
+  comment = "Variable body shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "plugins/inputs/fail2ban/fail2ban.go"
+  fileline = 86
+  comment = "Variable args shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "plugins/inputs/fail2ban/fail2ban.go"
+  fileline = 87
+  comment = "Variable cmd shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "plugins/inputs/fail2ban/fail2ban.go"
+  fileline = 93
+  comment = "Variable lines shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "plugins/inputs/fail2ban/fail2ban.go"
+  fileline = 88
+  comment = "Variable out shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "plugins/inputs/fail2ban/fail2ban.go"
+  fileline = 128
+  comment = "Variable f shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "plugins/parsers/nagios/parser.go"
+  fileline = 129
+  comment = "Variable parts shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "plugins/inputs/amqp_consumer/amqp_consumer.go"
+  fileline = 246
+  comment = "Variable msgs shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "plugins/inputs/ipmi_sensor/ipmi.go"
+  fileline = 294
+  comment = "Variable m shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "plugins/inputs/ceph/ceph.go"
+  fileline = 482
+  comment = "Variable fields shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "agent/agent.go"
+  fileline = 510
+  comment = "Variable jitter shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "agent/agent.go"
+  fileline = 504
+  comment = "Variable interval shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "plugins/inputs/apcupsd/apcupsd.go"
+  fileline = 54
+  comment = "Variable ctx shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "plugins/inputs/bind/xml_stats_v2.go"
+  fileline = 155
+  comment = "Variable tags shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "plugins/inputs/bind/xml_stats_v2.go"
+  fileline = 146
+  comment = "Variable fields shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "plugins/inputs/bind/xml_stats_v2.go"
+  fileline = 145
+  comment = "Variable tags shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "plugins/inputs/disque/disque.go"
+  fileline = 121
+  comment = "Variable r shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "plugins/inputs/disque/disque.go"
+  fileline = 123
+  comment = "Variable line shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "plugins/inputs/disque/disque.go"
+  fileline = 166
+  comment = "Variable line shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "plugins/inputs/docker_log/docker_log.go"
+  fileline = 225
+  comment = "Variable cancel shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "plugins/inputs/docker_log/docker_log.go"
+  fileline = 225
+  comment = "Variable ctx shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "plugins/inputs/dcos/client.go"
+  fileline = 182
+  comment = "Variable token shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "plugins/inputs/dcos/client.go"
+  fileline = 176
+  comment = "Variable dec shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "plugins/parsers/wavefront/parser.go"
+  fileline = 107
+  comment = "Variable buf shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "plugins/parsers/wavefront/parser.go"
+  fileline = 174
+  comment = "Variable tok shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "plugins/parsers/wavefront/parser.go"
+  fileline = 174
+  comment = "Variable lit shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "plugins/inputs/cisco_telemetry_gnmi/cisco_telemetry_gnmi.go"
+  fileline = 159
+  comment = "Variable gnmiPath shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "plugins/inputs/snmp/snmp.go"
+  fileline = 894
+  comment = "Variable scanner shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "plugins/outputs/kafka/kafka_test.go"
+  fileline = 85
+  comment = "Variable topic shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "plugins/inputs/procstat/procstat.go"
+  fileline = 111
+  comment = "Variable fields shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "plugins/inputs/procstat/procstat.go"
+  fileline = 116
+  comment = "Variable tags shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "plugins/inputs/mailchimp/chimp_api.go"
+  fileline = 149
+  comment = "Variable body shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "plugins/outputs/cloud_pubsub/pubsub_test.go"
+  fileline = 182
+  comment = "Variable v shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "plugins/inputs/vsphere/endpoint.go"
+  fileline = 558
+  comment = "Variable i shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "plugins/outputs/cloudwatch/cloudwatch_test.go"
+  fileline = 82
+  comment = "Variable datums shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "plugins/outputs/cloudwatch/cloudwatch_test.go"
+  fileline = 78
+  comment = "Variable datums shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "plugins/inputs/ecs/stats.go"
+  fileline = 262
+  comment = "Variable iotags shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "plugins/inputs/mysql/mysql.go"
+  fileline = 864
+  comment = "Variable fields shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "plugins/inputs/mysql/mysql.go"
+  fileline = 863
+  comment = "Variable tags shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "plugins/inputs/passenger/passenger.go"
+  fileline = 220
+  comment = "Variable fields shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "plugins/inputs/passenger/passenger.go"
+  fileline = 211
+  comment = "Variable tags shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "plugins/inputs/passenger/passenger.go"
+  fileline = 191
+  comment = "Variable fields shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "plugins/inputs/passenger/passenger.go"
+  fileline = 188
+  comment = "Variable tags shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "plugins/inputs/passenger/passenger.go"
+  fileline = 198
+  comment = "Variable tags shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "plugins/inputs/passenger/passenger.go"
+  fileline = 203
+  comment = "Variable fields shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "plugins/inputs/docker/docker.go"
+  fileline = 405
+  comment = "Variable tags shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "plugins/inputs/win_perf_counters/pdh.go"
+  fileline = 320
+  comment = "Variable ret shadows a variable of the same name declared in an outer scope."

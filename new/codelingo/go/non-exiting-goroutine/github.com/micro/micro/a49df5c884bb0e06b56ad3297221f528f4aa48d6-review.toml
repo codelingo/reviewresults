@@ -1,0 +1,13 @@
+repo = "github.com/micro/micro"
+rule = "codelingo/go/non-exiting-goroutine"
+sha = "a49df5c884bb0e06b56ad3297221f528f4aa48d6"
+
+[[issues]]
+  filepath = "internal/usage/plugin.go"
+  fileline = 51
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "debug/collector/micro/micro.go"
+  fileline = 71
+  comment = "This goroutine does not exit and may cause a resource leak."

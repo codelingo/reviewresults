@@ -1,0 +1,23 @@
+repo = "github.com/github/gh-ost"
+rule = "codelingo/go/non-directional-chan"
+sha = "4dab06e92b20954b46301e3b176d3a873615e3af"
+
+[[issues]]
+  filepath = "go/logic/applier.go"
+  fileline = 784
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vendor/github.com/ngaut/pools/roundrobin_test.go"
+  fileline = 115
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "go/logic/applier.go"
+  fileline = 885
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/crypto/ssh/tcpip.go"
+  fileline = 146
+  comment = "Returned channels or channel arguments should generally have a direction."

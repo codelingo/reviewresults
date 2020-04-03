@@ -1,0 +1,23 @@
+repo = "github.com/rakyll/hey"
+rule = "codelingo/go/default-in-type-switch"
+sha = "f3676ef133bcbda356147da8c0ded4d36d1d28f5"
+
+[[issues]]
+  filepath = "vendor/golang.org/x/net/http2/server.go"
+  fileline = 1155
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/net/http2/write.go"
+  fileline = 51
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/net/http2/frame.go"
+  fileline = 1576
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/net/http2/server.go"
+  fileline = 1045
+  comment = "Always include a default case when using a type switch."

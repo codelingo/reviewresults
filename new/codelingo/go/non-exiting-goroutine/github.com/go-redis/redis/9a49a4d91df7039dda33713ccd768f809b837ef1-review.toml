@@ -1,0 +1,8 @@
+repo = "github.com/go-redis/redis"
+rule = "codelingo/go/non-exiting-goroutine"
+sha = "9a49a4d91df7039dda33713ccd768f809b837ef1"
+
+[[issues]]
+  filepath = "pubsub_test.go"
+  fileline = 428
+  comment = "This goroutine does not exit and may cause a resource leak."

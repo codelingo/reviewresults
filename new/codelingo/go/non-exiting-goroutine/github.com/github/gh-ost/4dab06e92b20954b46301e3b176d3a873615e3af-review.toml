@@ -1,0 +1,43 @@
+repo = "github.com/github/gh-ost"
+rule = "codelingo/go/non-exiting-goroutine"
+sha = "4dab06e92b20954b46301e3b176d3a873615e3af"
+
+[[issues]]
+  filepath = "go/logic/server.go"
+  fileline = 76
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "go/logic/server.go"
+  fileline = 88
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/crypto/ssh/benchmark_test.go"
+  fileline = 96
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/crypto/ssh/handshake_test.go"
+  fileline = 100
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "vendor/github.com/ngaut/sync2/cond_test.go"
+  fileline = 88
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "vendor/github.com/ngaut/pools/resource_pool_test.go"
+  fileline = 121
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "vendor/github.com/ngaut/pools/resource_pool_test.go"
+  fileline = 114
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "vendor/github.com/siddontang/go-mysql/server/example/server_example.go"
+  fileline = 46
+  comment = "This goroutine does not exit and may cause a resource leak."

@@ -1,0 +1,208 @@
+repo = "github.com/influxdata/telegraf"
+rule = "codelingo/go/default-in-type-switch"
+sha = "c083c1f64d05d72bdacfe03847f2831d224a4ee0"
+
+[[issues]]
+  filepath = "plugins/parsers/collectd/parser.go"
+  fileline = 173
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "plugins/serializers/graphite/graphite.go"
+  fileline = 115
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "plugins/outputs/application_insights/application_insights.go"
+  fileline = 315
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "plugins/parsers/json/parser.go"
+  fileline = 109
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "plugins/processors/converter/converter.go"
+  fileline = 346
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "internal/config/config.go"
+  fileline = 514
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "plugins/inputs/graylog/graylog.go"
+  fileline = 206
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "plugins/parsers/json/parser.go"
+  fileline = 176
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "plugins/inputs/cassandra/cassandra.go"
+  fileline = 120
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "plugins/outputs/datadog/datadog.go"
+  fileline = 175
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "plugins/inputs/cassandra/cassandra.go"
+  fileline = 65
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "plugins/parsers/collectd/parser.go"
+  fileline = 137
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "plugins/inputs/cisco_telemetry_mdt/cisco_telemetry_mdt.go"
+  fileline = 318
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "plugins/processors/converter/converter.go"
+  fileline = 445
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "plugins/inputs/dcos/dcos.go"
+  fileline = 272
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "plugins/processors/converter/converter.go"
+  fileline = 385
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "plugins/outputs/influxdb/influxdb.go"
+  fileline = 222
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "plugins/outputs/syslog/syslog_mapper.go"
+  fileline = 93
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "plugins/outputs/prometheus_client/v1/collector.go"
+  fileline = 216
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "plugins/serializers/nowmetric/nowmetric.go"
+  fileline = 132
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "plugins/inputs/sflow/decoder/directives.go"
+  fileline = 284
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "plugins/inputs/elasticsearch/elasticsearch.go"
+  fileline = 578
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "plugins/outputs/librato/librato.go"
+  fileline = 227
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "plugins/inputs/ping/ping.go"
+  fileline = 169
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "internal/config/config.go"
+  fileline = 1002
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "plugins/outputs/application_insights/application_insights.go"
+  fileline = 291
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "plugins/processors/converter/converter.go"
+  fileline = 329
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "plugins/inputs/cisco_telemetry_gnmi/cisco_telemetry_gnmi.go"
+  fileline = 328
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "internal/config/config.go"
+  fileline = 1011
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "plugins/inputs/snmp/snmp.go"
+  fileline = 781
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "plugins/processors/regex/regex.go"
+  fileline = 86
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "plugins/inputs/jti_openconfig_telemetry/openconfig_telemetry.go"
+  fileline = 164
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "plugins/inputs/http_response/http_response.go"
+  fileline = 200
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "plugins/inputs/pgbouncer/pgbouncer.go"
+  fileline = 77
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "plugins/processors/converter/converter.go"
+  fileline = 424
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "plugins/outputs/syslog/syslog_mapper.go"
+  fileline = 155
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "internal/config/config.go"
+  fileline = 961
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "plugins/inputs/sflow/decoder/directives.go"
+  fileline = 147
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "plugins/inputs/snmp/snmp.go"
+  fileline = 745
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "plugins/parsers/dropwizard/parser.go"
+  fileline = 256
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "plugins/outputs/syslog/syslog_mapper.go"
+  fileline = 146
+  comment = "Always include a default case when using a type switch."

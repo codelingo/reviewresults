@@ -1,0 +1,53 @@
+repo = "github.com/nats-io/nats-server"
+rule = "codelingo/go/non-exiting-goroutine"
+sha = "8c8d6f88466bb7161a5246892ea6ff89ac9547c3"
+
+[[issues]]
+  filepath = "server/monitor_test.go"
+  fileline = 2174
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "server/sublist_test.go"
+  fileline = 1319
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "server/client_test.go"
+  fileline = 1403
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "server/client_test.go"
+  fileline = 1014
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "server/sublist_test.go"
+  fileline = 1453
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "test/norace_test.go"
+  fileline = 190
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "server/sublist_test.go"
+  fileline = 1181
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "test/monitor_test.go"
+  fileline = 117
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "server/gateway_test.go"
+  fileline = 3022
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "server/monitor_test.go"
+  fileline = 1866
+  comment = "This goroutine does not exit and may cause a resource leak."
