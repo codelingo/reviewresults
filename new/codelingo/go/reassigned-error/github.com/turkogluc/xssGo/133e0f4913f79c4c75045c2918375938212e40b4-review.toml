@@ -3,6 +3,8 @@ rule = "codelingo/go/reassigned-error"
 sha = "133e0f4913f79c4c75045c2918375938212e40b4"
 
 [[issues]]
-  filepath = "main.go"
-  fileline = 370
   comment = "Error was not checked before reassignment"
+  fileline = 370
+  filepath = "main.go"
+  fixed = true
+  ignored = ""
