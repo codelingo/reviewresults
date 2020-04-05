@@ -3,11 +3,15 @@ rule = "codelingo/go/default-in-type-switch"
 sha = "f0b6715757838d21fe9a88b7e8103531e15c23cb"
 
 [[issues]]
-  filepath = "_examples/instrumentation/opencensus.go"
-  fileline = 55
   comment = "Always include a default case when using a type switch."
+  fileline = 55
+  filepath = "_examples/instrumentation/opencensus.go"
+  fixed = true
+  ignored = ""
 
 [[issues]]
-  filepath = "internal/cmd/generate/commands/gentests/generator.go"
-  fileline = 1151
   comment = "Always include a default case when using a type switch."
+  fileline = 1151
+  filepath = "internal/cmd/generate/commands/gentests/generator.go"
+  fixed = false
+  ignored = "catchall cases"
