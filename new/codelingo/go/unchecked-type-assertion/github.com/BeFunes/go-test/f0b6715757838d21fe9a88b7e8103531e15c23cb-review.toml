@@ -1,0 +1,103 @@
+repo = "github.com/BeFunes/go-test"
+rule = "codelingo/go/unchecked-type-assertion"
+sha = "f0b6715757838d21fe9a88b7e8103531e15c23cb"
+
+[[issues]]
+  filepath = "internal/cmd/generate/commands/gentests/generator.go"
+  fileline = 943
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "internal/cmd/generate/commands/gentests/model.go"
+  fileline = 226
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "internal/cmd/generate/commands/gentests/model.go"
+  fileline = 401
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "internal/cmd/generate/commands/gentests/debug.go"
+  fileline = 71
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "internal/cmd/generate/commands/gentests/debug.go"
+  fileline = 84
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "internal/cmd/generate/commands/gensource/generator.go"
+  fileline = 475
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "internal/cmd/generate/commands/gentests/generator.go"
+  fileline = 1151
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "internal/cmd/generate/commands/gentests/model.go"
+  fileline = 234
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "_examples/instrumentation/opencensus.go"
+  fileline = 55
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "internal/cmd/generate/commands/gentests/model.go"
+  fileline = 399
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "internal/cmd/generate/commands/gentests/generator.go"
+  fileline = 875
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "internal/cmd/generate/commands/gentests/model.go"
+  fileline = 231
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "internal/cmd/generate/commands/gentests/model.go"
+  fileline = 403
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "estransport/logger_internal_test.go"
+  fileline = 341
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "internal/cmd/generate/commands/gentests/generator.go"
+  fileline = 1158
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "internal/cmd/generate/commands/gentests/model.go"
+  fileline = 405
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "internal/cmd/generate/commands/gentests/model.go"
+  fileline = 197
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "internal/cmd/generate/utils/debug.go"
+  fileline = 28
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "esapi/esapi.request.go"
+  fileline = 40
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "internal/cmd/generate/commands/gentests/model.go"
+  fileline = 235
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."

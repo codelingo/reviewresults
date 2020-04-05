@@ -1,0 +1,13 @@
+repo = "github.com/BeFunes/go-test"
+rule = "codelingo/rfjakob-gocryptfs/missing-close-file"
+sha = "f0b6715757838d21fe9a88b7e8103531e15c23cb"
+
+[[issues]]
+  filepath = "internal/cmd/generate/commands/gensource/generator_test.go"
+  fileline = 14
+  comment = "Close the file when you are done"
+
+[[issues]]
+  filepath = "internal/cmd/generate/commands/gentests/generator.go"
+  fileline = 609
+  comment = "Close the file when you are done"
