@@ -1,0 +1,13 @@
+repo = "github.com/sundy-li/go_commons"
+rule = "codelingo/go/default-in-type-switch"
+sha = "f22c3f2760b83ba2cbc218a64df4dfa38d62535b"
+
+[[issues]]
+  filepath = "libs/gomysql/gomysql.go"
+  fileline = 87
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "libs/gomysql/gomysql.go"
+  fileline = 41
+  comment = "Always include a default case when using a type switch."

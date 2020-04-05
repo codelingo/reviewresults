@@ -1,0 +1,38 @@
+repo = "github.com/SimonWaldherr/golibs"
+rule = "codelingo/go/unchecked-type-assertion"
+sha = "d8150802aaa814bf0cba43fa97d6db29ff67c8a6"
+
+[[issues]]
+  filepath = "as/as.go"
+  fileline = 229
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "file/file_linux.go"
+  fileline = 15
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "as/as.go"
+  fileline = 362
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "file/file_darwin.go"
+  fileline = 15
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "as/as.go"
+  fileline = 315
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "as/as.go"
+  fileline = 147
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "as/as.go"
+  fileline = 408
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."

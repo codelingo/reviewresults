@@ -1,0 +1,13 @@
+repo = "github.com/sundy-li/go_commons"
+rule = "codelingo/go/non-exiting-goroutine"
+sha = "f22c3f2760b83ba2cbc218a64df4dfa38d62535b"
+
+[[issues]]
+  filepath = "conf/config_center.go"
+  fileline = 101
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "utils/time.go"
+  fileline = 15
+  comment = "This goroutine does not exit and may cause a resource leak."

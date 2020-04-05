@@ -1,0 +1,28 @@
+repo = "github.com/sundy-li/go_commons"
+rule = "codelingo/go/non-directional-chan"
+sha = "f22c3f2760b83ba2cbc218a64df4dfa38d62535b"
+
+[[issues]]
+  filepath = "libs/kafka/reader.go"
+  fileline = 484
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "libs/kafka/reader.go"
+  fileline = 449
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "libs/mq/kafka_cluster_mq.go"
+  fileline = 57
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "libs/flow/timer.go"
+  fileline = 116
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "libs/flow/timer.go"
+  fileline = 20
+  comment = "Returned channels or channel arguments should generally have a direction."

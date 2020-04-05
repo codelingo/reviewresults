@@ -1,0 +1,18 @@
+repo = "github.com/sundy-li/go_commons"
+rule = "codelingo/rfjakob-gocryptfs/missing-close-file"
+sha = "f22c3f2760b83ba2cbc218a64df4dfa38d62535b"
+
+[[issues]]
+  filepath = "log/file_test.go"
+  fileline = 58
+  comment = "Close the file when you are done"
+
+[[issues]]
+  filepath = "log/file_test.go"
+  fileline = 90
+  comment = "Close the file when you are done"
+
+[[issues]]
+  filepath = "utils/qrpie/qrpie.go"
+  fileline = 38
+  comment = "Close the file when you are done"

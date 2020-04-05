@@ -1,0 +1,23 @@
+repo = "github.com/sundy-li/go_commons"
+rule = "codelingo/go/unchecked-type-assertion"
+sha = "f22c3f2760b83ba2cbc218a64df4dfa38d62535b"
+
+[[issues]]
+  filepath = "libs/kafka/reader.go"
+  fileline = 385
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "log/log.go"
+  fileline = 319
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "log/log.go"
+  fileline = 733
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "log/log.go"
+  fileline = 718
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."

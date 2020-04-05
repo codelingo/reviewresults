@@ -1,0 +1,13 @@
+repo = "github.com/sundy-li/go_commons"
+rule = "codelingo/go/ticker-in-for-select"
+sha = "f22c3f2760b83ba2cbc218a64df4dfa38d62535b"
+
+[[issues]]
+  filepath = "libs/kafka/reader.go"
+  fileline = 625
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "libs/kafka/reader.go"
+  fileline = 456
+  comment = "Make one ticker as opposed to making a new timer each iteration."

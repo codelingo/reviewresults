@@ -1,0 +1,33 @@
+repo = "github.com/sundy-li/go_commons"
+rule = "codelingo/go/reassigned-error"
+sha = "f22c3f2760b83ba2cbc218a64df4dfa38d62535b"
+
+[[issues]]
+  filepath = "utils/qrpie/qrpie.go"
+  fileline = 38
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "libs/crypto/crypto_test.go"
+  fileline = 46
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "utils/encrypt.go"
+  fileline = 115
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "libs/gomysql/gomysql.go"
+  fileline = 24
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "libs/redis/redis.go"
+  fileline = 28
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "log/file.go"
+  fileline = 276
+  comment = "Error was not checked before reassignment"

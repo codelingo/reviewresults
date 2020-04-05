@@ -1,0 +1,28 @@
+repo = "github.com/SimonWaldherr/golibs"
+rule = "codelingo/go/reassigned-error"
+sha = "d8150802aaa814bf0cba43fa97d6db29ff67c8a6"
+
+[[issues]]
+  filepath = "graphics/graphics_test.go"
+  fileline = 90
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "file/file_test.go"
+  fileline = 392
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "file/file_test.go"
+  fileline = 392
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "file/file_test.go"
+  fileline = 396
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "file/file_test.go"
+  fileline = 314
+  comment = "Error was not checked before reassignment"
