@@ -1,0 +1,8 @@
+repo = "github.com/gadelkareem/go-helpers"
+rule = "codelingo/go/non-exiting-goroutine"
+sha = "37da31be3be96a995f9510f9c34c088bc4890dda"
+
+[[issues]]
+  filepath = "helpers.go"
+  fileline = 187
+  comment = "This goroutine does not exit and may cause a resource leak."

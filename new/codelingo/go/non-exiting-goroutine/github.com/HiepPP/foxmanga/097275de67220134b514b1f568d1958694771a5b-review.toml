@@ -1,0 +1,8 @@
+repo = "github.com/HiepPP/foxmanga"
+rule = "codelingo/go/non-exiting-goroutine"
+sha = "097275de67220134b514b1f568d1958694771a5b"
+
+[[issues]]
+  filepath = "vendor/github.com/spf13/viper/viper.go"
+  fileline = 1621
+  comment = "This goroutine does not exit and may cause a resource leak."

@@ -1,0 +1,8 @@
+repo = "github.com/nickysemenza/hyperion"
+rule = "codelingo/go/non-exiting-goroutine"
+sha = "1392edb4e04de42fd7988a6542db9b38092af3fa"
+
+[[issues]]
+  filepath = "api/http.go"
+  fileline = 179
+  comment = "This goroutine does not exit and may cause a resource leak."

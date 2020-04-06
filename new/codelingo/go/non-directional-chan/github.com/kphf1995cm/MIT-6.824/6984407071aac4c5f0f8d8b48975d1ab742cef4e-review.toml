@@ -1,0 +1,33 @@
+repo = "github.com/kphf1995cm/MIT-6.824"
+rule = "codelingo/go/non-directional-chan"
+sha = "6984407071aac4c5f0f8d8b48975d1ab742cef4e"
+
+[[issues]]
+  filepath = "src/raft/raft.go"
+  fileline = 218
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "src/mapreduce/schedule.go"
+  fileline = 14
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 122
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "src/raft/test_test.go"
+  fileline = 799
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "src/mapreduce/master.go"
+  fileline = 85
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 45
+  comment = "Returned channels or channel arguments should generally have a direction."

@@ -1,0 +1,28 @@
+repo = "github.com/kphf1995cm/MIT-6.824"
+rule = "codelingo/go/non-exiting-goroutine"
+sha = "6984407071aac4c5f0f8d8b48975d1ab742cef4e"
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 335
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "src/mapreduce/master.go"
+  fileline = 72
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "src/kvraft/test_test.go"
+  fileline = 203
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "src/labrpc/test_test.go"
+  fileline = 232
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "src/raft/config.go"
+  fileline = 175
+  comment = "This goroutine does not exit and may cause a resource leak."

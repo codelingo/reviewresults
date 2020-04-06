@@ -1,0 +1,28 @@
+repo = "github.com/HiepPP/golang-practice-basic"
+rule = "codelingo/go/non-exiting-goroutine"
+sha = "afba2478c6adaa3c1f49071e93d0b9147122dfc5"
+
+[[issues]]
+  filepath = "concurent/chan.go"
+  fileline = 12
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "concurent/chan.go"
+  fileline = 18
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "concurent/chan.go"
+  fileline = 24
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "concurent/goroutine1.go"
+  fileline = 16
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "concurent/goroutine.go"
+  fileline = 13
+  comment = "This goroutine does not exit and may cause a resource leak."

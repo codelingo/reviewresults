@@ -1,0 +1,18 @@
+repo = "github.com/HiepPP/golang-practice-basic"
+rule = "codelingo/go/non-directional-chan"
+sha = "afba2478c6adaa3c1f49071e93d0b9147122dfc5"
+
+[[issues]]
+  filepath = "concurent/goroutine3.go"
+  fileline = 37
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "concurent/concurent4.go"
+  fileline = 23
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "concurent/goroutine2.go"
+  fileline = 32
+  comment = "Returned channels or channel arguments should generally have a direction."
