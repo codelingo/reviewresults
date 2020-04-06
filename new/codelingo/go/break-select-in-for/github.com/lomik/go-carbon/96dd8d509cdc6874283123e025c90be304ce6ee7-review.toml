@@ -3,6 +3,8 @@ rule = "codelingo/go/break-select-in-for"
 sha = "96dd8d509cdc6874283123e025c90be304ce6ee7"
 
 [[issues]]
-  filepath = "receiver/kafka/kafka.go"
-  fileline = 448
   comment = "This `break` statement only breaks to the innermost select, rather than the parent `for` loop.\nThis is generally unexpected and can cause an active goroutine to leak.\nFix it by adding a label to the for loop and breaking to that instead.\n"
+  fileline = 448
+  filepath = "receiver/kafka/kafka.go"
+  fixed = false
+  ignored = "is chan switch"
