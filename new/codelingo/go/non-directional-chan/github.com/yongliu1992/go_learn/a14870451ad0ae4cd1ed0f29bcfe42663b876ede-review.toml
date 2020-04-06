@@ -1,0 +1,13 @@
+repo = "github.com/yongliu1992/go_learn"
+rule = "codelingo/go/non-directional-chan"
+sha = "a14870451ad0ae4cd1ed0f29bcfe42663b876ede"
+
+[[issues]]
+  filepath = "routine/main.go"
+  fileline = 13
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "routine/main.go"
+  fileline = 20
+  comment = "Returned channels or channel arguments should generally have a direction."

@@ -1,0 +1,8 @@
+repo = "github.com/gadelkareem/elhabash"
+rule = "codelingo/go/insecure-http-connection"
+sha = "858e38187272b6d2394ad7ec4068ccf069a1d1be"
+
+[[issues]]
+  filepath = "fetch.go"
+  fileline = 658
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."

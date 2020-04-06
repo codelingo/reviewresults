@@ -1,0 +1,18 @@
+repo = "github.com/kphf1995cm/go-test"
+rule = "codelingo/go/non-directional-chan"
+sha = "b40b04e65f738ee84bd1dd0c5b2d35757bbc26b0"
+
+[[issues]]
+  filepath = "cs/fetch_parallel.go"
+  fileline = 12
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "sync/read_write.go"
+  fileline = 7
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "sync/read_write.go"
+  fileline = 12
+  comment = "Returned channels or channel arguments should generally have a direction."

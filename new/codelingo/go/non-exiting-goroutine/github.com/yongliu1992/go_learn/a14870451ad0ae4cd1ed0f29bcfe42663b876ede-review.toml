@@ -1,0 +1,48 @@
+repo = "github.com/yongliu1992/go_learn"
+rule = "codelingo/go/non-exiting-goroutine"
+sha = "a14870451ad0ae4cd1ed0f29bcfe42663b876ede"
+
+[[issues]]
+  filepath = "sync2/main.go"
+  fileline = 46
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "sync2/main.go"
+  fileline = 43
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "sync3/main.go"
+  fileline = 57
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "sync3/main.go"
+  fileline = 66
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "sync/main.go"
+  fileline = 47
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "sync/main.go"
+  fileline = 34
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "sync3/main.go"
+  fileline = 75
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "sync2/main.go"
+  fileline = 26
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "sync2/main.go"
+  fileline = 29
+  comment = "This goroutine does not exit and may cause a resource leak."

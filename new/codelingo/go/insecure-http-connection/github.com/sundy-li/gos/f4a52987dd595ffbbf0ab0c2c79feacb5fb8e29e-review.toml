@@ -1,0 +1,8 @@
+repo = "github.com/sundy-li/gos"
+rule = "codelingo/go/insecure-http-connection"
+sha = "f4a52987dd595ffbbf0ab0c2c79feacb5fb8e29e"
+
+[[issues]]
+  filepath = "email/ssl_email.go"
+  fileline = 46
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
