@@ -6,5 +6,5 @@ sha = "133e0f4913f79c4c75045c2918375938212e40b4"
   comment = "Error was not checked before reassignment"
   fileline = 370
   filepath = "main.go"
-  fixed = false
+  fixed = true
   ignored = ""
