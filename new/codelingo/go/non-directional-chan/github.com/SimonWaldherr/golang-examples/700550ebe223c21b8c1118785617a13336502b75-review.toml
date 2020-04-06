@@ -1,0 +1,63 @@
+repo = "github.com/SimonWaldherr/golang-examples"
+rule = "codelingo/go/non-directional-chan"
+sha = "700550ebe223c21b8c1118785617a13336502b75"
+
+[[issues]]
+  filepath = "expert/pi2go.go"
+  fileline = 61
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "expert/pi2go-live.go"
+  fileline = 90
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "expert/dynparallel.go"
+  fileline = 119
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "expert/pi2go.go"
+  fileline = 78
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "expert/pi2go-live.go"
+  fileline = 43
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "expert/pi2go.go"
+  fileline = 22
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "expert/pi2go-live.go"
+  fileline = 24
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "advanced/getchar.go"
+  fileline = 9
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "advanced/getchar.go"
+  fileline = 9
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "expert/pi2go.go"
+  fileline = 36
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "advanced/fanin.go"
+  fileline = 28
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "expert/pi2go-live.go"
+  fileline = 70
+  comment = "Returned channels or channel arguments should generally have a direction."

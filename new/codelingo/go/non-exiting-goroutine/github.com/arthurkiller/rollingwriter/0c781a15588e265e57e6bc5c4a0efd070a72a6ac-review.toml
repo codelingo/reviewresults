@@ -1,0 +1,8 @@
+repo = "github.com/arthurkiller/rollingwriter"
+rule = "codelingo/go/non-exiting-goroutine"
+sha = "0c781a15588e265e57e6bc5c4a0efd070a72a6ac"
+
+[[issues]]
+  filepath = "demo/writer.go"
+  fileline = 52
+  comment = "This goroutine does not exit and may cause a resource leak."

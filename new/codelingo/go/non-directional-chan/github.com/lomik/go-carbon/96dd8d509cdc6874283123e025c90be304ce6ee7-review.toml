@@ -1,0 +1,243 @@
+repo = "github.com/lomik/go-carbon"
+rule = "codelingo/go/non-directional-chan"
+sha = "96dd8d509cdc6874283123e025c90be304ce6ee7"
+
+[[issues]]
+  filepath = "cache/writeout_queue.go"
+  fileline = 78
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "persister/whisper.go"
+  fileline = 68
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "receiver/udp/udp.go"
+  fileline = 168
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "points/glue.go"
+  fileline = 9
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "points/glue.go"
+  fileline = 9
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "cache/writeout_queue.go"
+  fileline = 20
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "cache/writeout_queue.go"
+  fileline = 20
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "persister/whisper.go"
+  fileline = 28
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "cache/carbonlink.go"
+  fileline = 287
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "cache/writeout_queue.go"
+  fileline = 105
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "persister/throttle.go"
+  fileline = 60
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "api/api.go"
+  fileline = 72
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "helper/stoppable.go"
+  fileline = 71
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "receiver/tcp/tcp.go"
+  fileline = 260
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "helper/stoppable.go"
+  fileline = 70
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "receiver/tcp/tcp.go"
+  fileline = 335
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "cache/writeout_queue.go"
+  fileline = 32
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "cache/writeout_queue.go"
+  fileline = 32
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "carbon/collector.go"
+  fileline = 81
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "persister/throttle.go"
+  fileline = 59
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "persister/whisper_test.go"
+  fileline = 10
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "cache/writeout_queue.go"
+  fileline = 36
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "cache/writeout_queue.go"
+  fileline = 36
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "cache/carbonlink.go"
+  fileline = 280
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "persister/throttle.go"
+  fileline = 59
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "tags/queue.go"
+  fileline = 231
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "api/api.go"
+  fileline = 67
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "receiver/tcp/tcp.go"
+  fileline = 348
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "receiver/udp/udp.go"
+  fileline = 107
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "persister/throttle.go"
+  fileline = 104
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "helper/stoppable.go"
+  fileline = 14
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "carbon/collector.go"
+  fileline = 190
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "tags/queue.go"
+  fileline = 165
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "receiver/tcp/tcp.go"
+  fileline = 194
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "receiver/tcp/tcp.go"
+  fileline = 364
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "persister/whisper_stop_test.go"
+  fileline = 16
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "persister/throttle.go"
+  fileline = 103
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "helper/stoppable.go"
+  fileline = 13
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "receiver/tcp/tcp.go"
+  fileline = 380
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "cache/queue.go"
+  fileline = 24
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "persister/throttle.go"
+  fileline = 103
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "persister/whisper.go"
+  fileline = 377
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "helper/stoppable.go"
+  fileline = 46
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "receiver/udp/udp.go"
+  fileline = 160
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "persister/whisper_stop_test.go"
+  fileline = 16
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "helper/stoppable.go"
+  fileline = 39
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "persister/whisper_stop_test.go"
+  fileline = 20
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "carbon/collector.go"
+  fileline = 65
+  comment = "Returned channels or channel arguments should generally have a direction."

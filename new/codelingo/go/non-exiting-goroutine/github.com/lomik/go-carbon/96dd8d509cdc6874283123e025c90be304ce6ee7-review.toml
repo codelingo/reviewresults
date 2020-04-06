@@ -1,0 +1,18 @@
+repo = "github.com/lomik/go-carbon"
+rule = "codelingo/go/non-exiting-goroutine"
+sha = "96dd8d509cdc6874283123e025c90be304ce6ee7"
+
+[[issues]]
+  filepath = "go-carbon.go"
+  fileline = 192
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "go-carbon.go"
+  fileline = 202
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "carbon/app_stop_test.go"
+  fileline = 61
+  comment = "This goroutine does not exit and may cause a resource leak."
