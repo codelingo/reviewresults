@@ -1,0 +1,83 @@
+repo = "github.com/mjs/influx-spout-prev"
+rule = "codelingo/go/non-exiting-goroutine"
+sha = "7890cf82008ed77e5302776cae3eb0eb1929440e"
+
+[[issues]]
+  filepath = "vendor/github.com/nats-io/gnatsd/server/monitor_test.go"
+  fileline = 1417
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "vendor/github.com/nats-io/go-nats/test/conn_test.go"
+  fileline = 411
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "vendor/github.com/nats-io/go-nats/test/sub_test.go"
+  fileline = 888
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "vendor/github.com/spf13/afero/memmap_test.go"
+  fileline = 363
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "vendor/github.com/nats-io/gnatsd/server/sublist_test.go"
+  fileline = 521
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/crypto/ssh/benchmark_test.go"
+  fileline = 96
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/tools/cmd/cover/testdata/test.go"
+  fileline = 163
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/tools/playground/socket/socket_test.go"
+  fileline = 55
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "vendor/github.com/nats-io/gnatsd/test/monitor_test.go"
+  fileline = 108
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/sys/windows/svc/debug/service.go"
+  fileline = 31
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/crypto/ssh/handshake_test.go"
+  fileline = 158
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "vendor/github.com/nats-io/gnatsd/server/client_test.go"
+  fileline = 670
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "vendor/github.com/nats-io/go-nats/test/conn_test.go"
+  fileline = 1036
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/tools/playground/socket/socket.go"
+  fileline = 520
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/tools/cmd/stress/stress.go"
+  fileline = 74
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/tools/go/ssa/interp/ops.go"
+  fileline = 1102
+  comment = "This goroutine does not exit and may cause a resource leak."

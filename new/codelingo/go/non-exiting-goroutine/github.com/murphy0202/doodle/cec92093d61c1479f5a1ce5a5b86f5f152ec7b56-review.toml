@@ -1,0 +1,18 @@
+repo = "github.com/murphy0202/doodle"
+rule = "codelingo/go/non-exiting-goroutine"
+sha = "cec92093d61c1479f5a1ce5a5b86f5f152ec7b56"
+
+[[issues]]
+  filepath = "summer2019/summer.go"
+  fileline = 488
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "cheers2019/cheers.go"
+  fileline = 269
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "birthday2019/surprise.go"
+  fileline = 161
+  comment = "This goroutine does not exit and may cause a resource leak."

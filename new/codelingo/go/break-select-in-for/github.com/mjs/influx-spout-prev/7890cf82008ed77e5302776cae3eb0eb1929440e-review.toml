@@ -1,0 +1,8 @@
+repo = "github.com/mjs/influx-spout-prev"
+rule = "codelingo/go/break-select-in-for"
+sha = "7890cf82008ed77e5302776cae3eb0eb1929440e"
+
+[[issues]]
+  filepath = "vendor/golang.org/x/crypto/ssh/handshake.go"
+  fileline = 260
+  comment = "This `break` statement only breaks to the innermost select, rather than the parent `for` loop.\nThis is generally unexpected and can cause an active goroutine to leak.\nFix it by adding a label to the for loop and breaking to that instead.\n"

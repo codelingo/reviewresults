@@ -1,0 +1,8 @@
+repo = "github.com/fatedier/frp"
+rule = "codelingo/go/break-select-in-for"
+sha = "8668fef136baceacf974f7ef4859d108d413a42e"
+
+[[issues]]
+  filepath = "server/proxy/xtcp.go"
+  fileline = 43
+  comment = "This `break` statement only breaks to the innermost select, rather than the parent `for` loop.\nThis is generally unexpected and can cause an active goroutine to leak.\nFix it by adding a label to the for loop and breaking to that instead.\n"
