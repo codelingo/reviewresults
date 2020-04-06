@@ -1,0 +1,8 @@
+repo = "github.com/gadelkareem/cachita"
+rule = "codelingo/go/non-exiting-goroutine"
+sha = "27c05434ad48d5cbb92e0af613152ed5ac17dbe5"
+
+[[issues]]
+  filepath = "cache.go"
+  fileline = 58
+  comment = "This goroutine does not exit and may cause a resource leak."

@@ -1,0 +1,18 @@
+repo = "github.com/arthurkiller/rollingwriter"
+rule = "codelingo/go/non-directional-chan"
+sha = "0c781a15588e265e57e6bc5c4a0efd070a72a6ac"
+
+[[issues]]
+  filepath = "rollingwriter.go"
+  fileline = 42
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "manager.go"
+  fileline = 78
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "writer.go"
+  fileline = 237
+  comment = "Returned channels or channel arguments should generally have a direction."

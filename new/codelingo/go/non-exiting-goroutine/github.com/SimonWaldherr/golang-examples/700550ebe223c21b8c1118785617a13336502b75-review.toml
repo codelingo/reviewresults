@@ -1,0 +1,28 @@
+repo = "github.com/SimonWaldherr/golang-examples"
+rule = "codelingo/go/non-exiting-goroutine"
+sha = "700550ebe223c21b8c1118785617a13336502b75"
+
+[[issues]]
+  filepath = "expert/image3.go"
+  fileline = 81
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "expert/image3.go"
+  fileline = 75
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "advanced/channel.go"
+  fileline = 77
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "advanced/ticker.go"
+  fileline = 27
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "advanced/fanin.go"
+  fileline = 14
+  comment = "This goroutine does not exit and may cause a resource leak."

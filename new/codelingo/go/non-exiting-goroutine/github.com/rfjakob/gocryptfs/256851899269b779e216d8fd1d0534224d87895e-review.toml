@@ -1,0 +1,58 @@
+repo = "github.com/rfjakob/gocryptfs"
+rule = "codelingo/go/non-exiting-goroutine"
+sha = "256851899269b779e216d8fd1d0534224d87895e"
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 88
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "tests/defaults/main_test.go"
+  fileline = 154
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 39
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 68
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 57
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 106
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 46
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "tests/matrix/concurrency_test.go"
+  fileline = 59
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "internal/cryptocore/randprefetch_test.go"
+  fileline = 23
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "internal/openfiletable/inummap_test.go"
+  fileline = 35
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "tests/defaults/main_test.go"
+  fileline = 132
+  comment = "This goroutine does not exit and may cause a resource leak."

@@ -1,0 +1,23 @@
+repo = "github.com/tobyhede/go-underscore"
+rule = "codelingo/go/non-directional-chan"
+sha = "ea55fc9569918f099b1dfa785088434e5c53544d"
+
+[[issues]]
+  filepath = "map.go"
+  fileline = 128
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "underscore.go"
+  fileline = 81
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "map.go"
+  fileline = 135
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "map.go"
+  fileline = 75
+  comment = "Returned channels or channel arguments should generally have a direction."

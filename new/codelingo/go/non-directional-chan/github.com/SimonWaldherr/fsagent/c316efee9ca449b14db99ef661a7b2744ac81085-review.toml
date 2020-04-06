@@ -1,0 +1,8 @@
+repo = "github.com/SimonWaldherr/fsagent"
+rule = "codelingo/go/non-directional-chan"
+sha = "c316efee9ca449b14db99ef661a7b2744ac81085"
+
+[[issues]]
+  filepath = "config.go"
+  fileline = 29
+  comment = "Returned channels or channel arguments should generally have a direction."
