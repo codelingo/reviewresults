@@ -4,12 +4,12 @@ sha = "d8150802aaa814bf0cba43fa97d6db29ff67c8a6"
 
 [[issues]]
   filepath = "channel/channel.go"
-  fileline = 41
+  fileline = 30
   comment = "Returned channels or channel arguments should generally have a direction."
 
 [[issues]]
   filepath = "channel/channel.go"
-  fileline = 30
+  fileline = 41
   comment = "Returned channels or channel arguments should generally have a direction."
 
 [[issues]]

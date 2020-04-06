@@ -4,16 +4,6 @@ sha = "d8150802aaa814bf0cba43fa97d6db29ff67c8a6"
 
 [[issues]]
   filepath = "cache/cache_test.go"
-  fileline = 237
-  comment = "This goroutine does not exit and may cause a resource leak."
-
-[[issues]]
-  filepath = "examples/ring.go"
-  fileline = 20
-  comment = "This goroutine does not exit and may cause a resource leak."
-
-[[issues]]
-  filepath = "cache/cache_test.go"
   fileline = 224
   comment = "This goroutine does not exit and may cause a resource leak."
 
@@ -25,4 +15,14 @@ sha = "d8150802aaa814bf0cba43fa97d6db29ff67c8a6"
 [[issues]]
   filepath = "cache/cache_test.go"
   fileline = 230
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "examples/ring.go"
+  fileline = 20
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "cache/cache_test.go"
+  fileline = 237
   comment = "This goroutine does not exit and may cause a resource leak."
