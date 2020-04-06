@@ -1,0 +1,13 @@
+repo = "github.com/fatedier/frp"
+rule = "codelingo/go/non-exiting-goroutine"
+sha = "8668fef136baceacf974f7ef4859d108d413a42e"
+
+[[issues]]
+  filepath = "models/metrics/mem/server.go"
+  fileline = 58
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "server/proxy/xtcp.go"
+  fileline = 43
+  comment = "This goroutine does not exit and may cause a resource leak."

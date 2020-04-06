@@ -1,0 +1,173 @@
+repo = "github.com/mjs/influx-spout-prev"
+rule = "codelingo/go/non-directional-chan"
+sha = "7890cf82008ed77e5302776cae3eb0eb1929440e"
+
+[[issues]]
+  filepath = "vendor/github.com/nats-io/gnatsd/server/route.go"
+  fileline = 698
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vendor/github.com/nats-io/gnatsd/server/client_test.go"
+  fileline = 33
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vendor/github.com/nats-io/go-nats/nats.go"
+  fileline = 2629
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/tools/go/ssa/ssautil/testdata/switches.go"
+  fileline = 286
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "listener/listener_medium_test.go"
+  fileline = 263
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "listener/listener_medium_test.go"
+  fileline = 259
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/tools/godoc/vfs/gatefs/gatefs.go"
+  fileline = 19
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/tools/cmd/godex/godex.go"
+  fileline = 199
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/tools/cmd/guru/testdata/src/peers/main.go"
+  fileline = 46
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/tools/cmd/guru/testdata/src/peers/main.go"
+  fileline = 46
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vendor/github.com/nats-io/go-nats/nats.go"
+  fileline = 2207
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vendor/github.com/nats-io/go-nats/nats.go"
+  fileline = 2212
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vendor/github.com/nats-io/gnatsd/test/tls_test.go"
+  fileline = 185
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vendor/github.com/stretchr/testify/mock/mock_test.go"
+  fileline = 610
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/crypto/ssh/tcpip.go"
+  fileline = 154
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vendor/github.com/nats-io/go-nats/test/test.go"
+  fileline = 31
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vendor/github.com/nats-io/go-nats/nats_test.go"
+  fileline = 28
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/tools/cmd/godex/godex.go"
+  fileline = 112
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vendor/github.com/nats-io/go-nats/nats.go"
+  fileline = 2613
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vendor/github.com/stretchr/testify/assert/assertions_test.go"
+  fileline = 1171
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/tools/cmd/godex/godex.go"
+  fileline = 187
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "listener/listener_medium_test.go"
+  fileline = 255
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vendor/github.com/nats-io/go-nats/nats.go"
+  fileline = 2168
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "listener/listener_medium_test.go"
+  fileline = 280
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/tools/go/ssa/interp/testdata/coverage.go"
+  fileline = 57
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "listener/listener_medium_test.go"
+  fileline = 297
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vendor/github.com/nats-io/go-nats/nats_test.go"
+  fileline = 24
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vendor/github.com/nats-io/go-nats/test/test.go"
+  fileline = 26
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/tools/go/ssa/ssautil/testdata/switches.go"
+  fileline = 266
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vendor/github.com/nats-io/gnatsd/server/server.go"
+  fileline = 372
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vendor/github.com/nats-io/go-nats/nats.go"
+  fileline = 2162
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "listener/listener_medium_test.go"
+  fileline = 289
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vendor/github.com/nats-io/gnatsd/server/route.go"
+  fileline = 613
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vendor/github.com/nats-io/gnatsd/test/bench_test.go"
+  fileline = 124
+  comment = "Returned channels or channel arguments should generally have a direction."

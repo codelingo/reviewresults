@@ -1,0 +1,13 @@
+repo = "github.com/sundy-li/wechat_brain"
+rule = "codelingo/go/non-directional-chan"
+sha = "b49fc95d3e06b2841dc394c86831ca07c04d8803"
+
+[[issues]]
+  filepath = "vendor/github.com/boltdb/bolt/tx.go"
+  fileline = 416
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vendor/github.com/boltdb/bolt/tx.go"
+  fileline = 381
+  comment = "Returned channels or channel arguments should generally have a direction."

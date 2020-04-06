@@ -1,28 +1,28 @@
-repo = "github.com/sundy-li/go_commons"
+repo = "github.com/fatedier/frp"
 rule = "codelingo/go/non-directional-chan"
-sha = "f22c3f2760b83ba2cbc218a64df4dfa38d62535b"
+sha = "8668fef136baceacf974f7ef4859d108d413a42e"
 
 [[issues]]
-  filepath = "libs/kafka/reader.go"
-  fileline = 449
+  filepath = "client/proxy/proxy_manager.go"
+  fileline = 32
   comment = "Returned channels or channel arguments should generally have a direction."
 
 [[issues]]
-  filepath = "libs/kafka/reader.go"
-  fileline = 484
+  filepath = "client/proxy/proxy.go"
+  fileline = 506
   comment = "Returned channels or channel arguments should generally have a direction."
 
 [[issues]]
-  filepath = "libs/flow/timer.go"
-  fileline = 20
+  filepath = "client/proxy/proxy.go"
+  fileline = 524
   comment = "Returned channels or channel arguments should generally have a direction."
 
 [[issues]]
-  filepath = "libs/mq/kafka_cluster_mq.go"
-  fileline = 57
+  filepath = "models/nathole/nathole.go"
+  fileline = 52
   comment = "Returned channels or channel arguments should generally have a direction."
 
 [[issues]]
-  filepath = "libs/flow/timer.go"
-  fileline = 116
+  filepath = "client/proxy/proxy.go"
+  fileline = 490
   comment = "Returned channels or channel arguments should generally have a direction."
