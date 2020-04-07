@@ -3,16 +3,22 @@ rule = "codelingo/go/non-directional-chan"
 sha = "b40b04e65f738ee84bd1dd0c5b2d35757bbc26b0"
 
 [[issues]]
+  comment = "Returned channels or channel arguments should generally have a direction."
+  fileline = 12
   filepath = "cs/fetch_parallel.go"
-  fileline = 12
-  comment = "Returned channels or channel arguments should generally have a direction."
+  fixed = true
+  ignored = ""
 
 [[issues]]
-  filepath = "sync/read_write.go"
+  comment = "Returned channels or channel arguments should generally have a direction."
   fileline = 7
-  comment = "Returned channels or channel arguments should generally have a direction."
+  filepath = "sync/read_write.go"
+  fixed = true
+  ignored = ""
 
 [[issues]]
-  filepath = "sync/read_write.go"
-  fileline = 12
   comment = "Returned channels or channel arguments should generally have a direction."
+  fileline = 12
+  filepath = "sync/read_write.go"
+  fixed = true
+  ignored = ""
