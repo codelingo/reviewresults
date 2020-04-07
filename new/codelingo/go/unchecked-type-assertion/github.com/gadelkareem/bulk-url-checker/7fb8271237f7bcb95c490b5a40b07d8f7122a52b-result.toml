@@ -5,11 +5,11 @@ sha = "7fb8271237f7bcb95c490b5a40b07d8f7122a52b"
 [[issues]]
   fileline = 91
   filepath = "main.go"
-  fixed = false
+  fixed = true
   ignored = ""
 
 [[issues]]
   fileline = 90
   filepath = "main.go"
-  fixed = false
+  fixed = true
   ignored = ""
