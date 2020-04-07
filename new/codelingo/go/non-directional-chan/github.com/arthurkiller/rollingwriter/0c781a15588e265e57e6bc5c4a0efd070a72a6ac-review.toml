@@ -3,16 +3,22 @@ rule = "codelingo/go/non-directional-chan"
 sha = "0c781a15588e265e57e6bc5c4a0efd070a72a6ac"
 
 [[issues]]
-  filepath = "rollingwriter.go"
+  comment = "Returned channels or channel arguments should generally have a direction."
   fileline = 42
-  comment = "Returned channels or channel arguments should generally have a direction."
+  filepath = "rollingwriter.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "manager.go"
+  comment = "Returned channels or channel arguments should generally have a direction."
   fileline = 78
-  comment = "Returned channels or channel arguments should generally have a direction."
+  filepath = "manager.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "writer.go"
-  fileline = 237
   comment = "Returned channels or channel arguments should generally have a direction."
+  fileline = 237
+  filepath = "writer.go"
+  fixed = false
+  ignored = "fp"
