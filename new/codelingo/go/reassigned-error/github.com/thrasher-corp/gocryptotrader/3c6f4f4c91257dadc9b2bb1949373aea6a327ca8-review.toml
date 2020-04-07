@@ -1,0 +1,138 @@
+repo = "github.com/thrasher-corp/gocryptotrader"
+rule = "codelingo/go/reassigned-error"
+sha = "3c6f4f4c91257dadc9b2bb1949373aea6a327ca8"
+
+[[issues]]
+  filepath = "communications/slack/slack_test.go"
+  fileline = 119
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "database/models/postgres/withdrawal_history_test.go"
+  fileline = 688
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "common/crypto/crypto_test.go"
+  fileline = 23
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "cmd/gctcli/commands.go"
+  fileline = 187
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "engine/exchange_test.go"
+  fileline = 118
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "gctscript/modules/gct/gct_test.go"
+  fileline = 222
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "gctscript/modules/gct/gct_test.go"
+  fileline = 145
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "exchanges/bitstamp/bitstamp_websocket.go"
+  fileline = 234
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "cmd/gctcli/commands.go"
+  fileline = 3756
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "cmd/gctcli/commands.go"
+  fileline = 1100
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "cmd/gctcli/commands.go"
+  fileline = 1123
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "gctscript/modules/gct/gct_test.go"
+  fileline = 162
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "cmd/gctcli/commands.go"
+  fileline = 432
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "cmd/gctcli/commands.go"
+  fileline = 845
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "cmd/gctcli/commands.go"
+  fileline = 213
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "database/models/sqlite3/withdrawal_history_test.go"
+  fileline = 765
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "gctscript/modules/gct/gct_test.go"
+  fileline = 240
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "gctscript/modules/gct/gct_test.go"
+  fileline = 257
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "exchanges/lbank/lbank_wrapper.go"
+  fileline = 642
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "gctscript/modules/gct/gct_test.go"
+  fileline = 126
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "database/models/postgres/withdrawal_history_test.go"
+  fileline = 939
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "communications/telegram/telegram_test.go"
+  fileline = 56
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "communications/telegram/telegram_test.go"
+  fileline = 56
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "communications/telegram/telegram_test.go"
+  fileline = 66
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "communications/telegram/telegram_test.go"
+  fileline = 61
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "communications/telegram/telegram_test.go"
+  fileline = 61
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "communications/telegram/telegram_test.go"
+  fileline = 71
+  comment = "Error was not checked before reassignment"

@@ -3,5 +3,7 @@ rule = "codelingo/go/insecure-http-connection"
 sha = "f4a52987dd595ffbbf0ab0c2c79feacb5fb8e29e"
 
 [[issues]]
-  filepath = "email/ssl_email.go"
   fileline = 46
+  filepath = "email/ssl_email.go"
+  fixed = true
+  ignored = ""

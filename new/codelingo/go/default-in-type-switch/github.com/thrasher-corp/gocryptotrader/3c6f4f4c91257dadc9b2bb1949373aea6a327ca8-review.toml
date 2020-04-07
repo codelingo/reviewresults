@@ -1,0 +1,38 @@
+repo = "github.com/thrasher-corp/gocryptotrader"
+rule = "codelingo/go/default-in-type-switch"
+sha = "3c6f4f4c91257dadc9b2bb1949373aea6a327ca8"
+
+[[issues]]
+  filepath = "exchanges/bitfinex/bitfinex.go"
+  fileline = 1238
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "exchanges/bitfinex/bitfinex_websocket.go"
+  fileline = 186
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "exchanges/hitbtc/hitbtc_websocket.go"
+  fileline = 110
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "exchanges/bitfinex/bitfinex_websocket.go"
+  fileline = 149
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "engine/rpcserver.go"
+  fileline = 1487
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "exchanges/websocket/wshandler/wshandler.go"
+  fileline = 882
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "exchanges/bitmex/bitmex_parameters.go"
+  fileline = 49
+  comment = "Always include a default case when using a type switch."
