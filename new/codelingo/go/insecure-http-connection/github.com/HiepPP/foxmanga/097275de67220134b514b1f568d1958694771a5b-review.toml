@@ -3,6 +3,8 @@ rule = "codelingo/go/insecure-http-connection"
 sha = "097275de67220134b514b1f568d1958694771a5b"
 
 [[issues]]
-  filepath = "vendor/github.com/go-sql-driver/mysql/dsn.go"
-  fileline = 565
   comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+  fileline = 565
+  filepath = "vendor/github.com/go-sql-driver/mysql/dsn.go"
+  fixed = false
+  ignored = "issue in vendor"
