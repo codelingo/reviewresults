@@ -1,0 +1,128 @@
+repo = "github.com/thrasher-corp/gocryptotrader"
+rule = "codelingo/go/shadowed-variable"
+sha = "3c6f4f4c91257dadc9b2bb1949373aea6a327ca8"
+
+[[issues]]
+  filepath = "exchanges/mock/recording.go"
+  fileline = 83
+  comment = "Variable payload shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "exchanges/mock/recording.go"
+  fileline = 150
+  comment = "Variable ok shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "exchanges/mock/recording.go"
+  fileline = 130
+  comment = "Variable ok shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "exchanges/ticker/ticker_test.go"
+  fileline = 301
+  comment = "Variable result shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "exchanges/lbank/lbank.go"
+  fileline = 131
+  comment = "Variable ok shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "exchanges/poloniex/poloniex.go"
+  fileline = 602
+  comment = "Variable result shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "exchanges/hitbtc/hitbtc_wrapper.go"
+  fileline = 269
+  comment = "Variable tickerPrice shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "exchanges/coinbasepro/coinbasepro.go"
+  fileline = 87
+  comment = "Variable ob shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "exchanges/orderbook/calculator.go"
+  fileline = 71
+  comment = "Variable min shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "exchanges/orderbook/calculator.go"
+  fileline = 71
+  comment = "Variable max shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "exchanges/orderbook/calculator.go"
+  fileline = 70
+  comment = "Variable orders shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "exchanges/orderbook/calculator.go"
+  fileline = 70
+  comment = "Variable amt shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "exchanges/orderbook/calculator.go"
+  fileline = 73
+  comment = "Variable status shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "exchanges/orderbook/calculator.go"
+  fileline = 72
+  comment = "Variable pct shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "exchanges/orderbook/calculator.go"
+  fileline = 28
+  comment = "Variable orders shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "exchanges/orderbook/calculator.go"
+  fileline = 28
+  comment = "Variable a shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "exchanges/orderbook/calculator.go"
+  fileline = 29
+  comment = "Variable max shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "exchanges/orderbook/calculator.go"
+  fileline = 29
+  comment = "Variable min shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "exchanges/orderbook/calculator.go"
+  fileline = 34
+  comment = "Variable status shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "exchanges/huobi/huobi_wrapper.go"
+  fileline = 307
+  comment = "Variable tickerPrice shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "currency/forexprovider/currencyconverterapi/currencyconverterapi.go"
+  fileline = 53
+  comment = "Variable result shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "exchanges/yobit/yobit_wrapper.go"
+  fileline = 200
+  comment = "Variable tickerPrice shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "exchanges/orderbook/orderbook_test.go"
+  fileline = 436
+  comment = "Variable base shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "exchanges/orderbook/orderbook_test.go"
+  fileline = 468
+  comment = "Variable result shadows a variable of the same name declared in an outer scope."
+
+[[issues]]
+  filepath = "engine/rpcserver.go"
+  fileline = 1110
+  comment = "Variable ret shadows a variable of the same name declared in an outer scope."
