@@ -3,16 +3,22 @@ rule = "codelingo/go/non-exiting-goroutine"
 sha = "cec92093d61c1479f5a1ce5a5b86f5f152ec7b56"
 
 [[issues]]
-  filepath = "summer2019/summer.go"
+  comment = "This goroutine does not exit and may cause a resource leak."
   fileline = 488
-  comment = "This goroutine does not exit and may cause a resource leak."
+  filepath = "summer2019/summer.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "cheers2019/cheers.go"
+  comment = "This goroutine does not exit and may cause a resource leak."
   fileline = 269
-  comment = "This goroutine does not exit and may cause a resource leak."
+  filepath = "cheers2019/cheers.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "birthday2019/surprise.go"
-  fileline = 161
   comment = "This goroutine does not exit and may cause a resource leak."
+  fileline = 161
+  filepath = "birthday2019/surprise.go"
+  fixed = false
+  ignored = "fp"

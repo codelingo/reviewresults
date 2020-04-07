@@ -1,0 +1,263 @@
+repo = "github.com/unknwon/the-way-to-go_ZH_CN"
+rule = "codelingo/go/non-directional-chan"
+sha = "717421efbad4fe41d4a1d21247483dab959acc92"
+
+[[issues]]
+  filepath = "eBook/exercises/chapter_14/goroutine_close.go"
+  fileline = 8
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "eBook/exercises/chapter_14/multiplex_server3.go"
+  fileline = 34
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "eBook/exercises/chapter_14/multiplex_server3.go"
+  fileline = 34
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "eBook/exercises/chapter_14/blocking.go"
+  fileline = 9
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_14/goroutine3.go"
+  fileline = 20
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_14/goroutine_select.go"
+  fileline = 31
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_14/goroutine_select.go"
+  fileline = 25
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "eBook/exercises/chapter_14/polar_to_cartesian.go"
+  fileline = 58
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "eBook/exercises/chapter_14/polar_to_cartesian.go"
+  fileline = 58
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_14/channel_idiom.go"
+  fileline = 14
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_14/goroutine2.go"
+  fileline = 17
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_14/lazy_evaluation.go"
+  fileline = 10
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_14/multiplex_server.go"
+  fileline = 27
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_14/multiplex_server2.go"
+  fileline = 30
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_14/multiplex_server2.go"
+  fileline = 30
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_14/channel_idiom.go"
+  fileline = 24
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_14/channel_block2.go"
+  fileline = 21
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "eBook/exercises/chapter_14/concurrent_pi2.go"
+  fileline = 34
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "eBook/exercises/chapter_14/concurrent_pi.go"
+  fileline = 39
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "eBook/exercises/chapter_14/multiplex_server3.go"
+  fileline = 23
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "eBook/exercises/chapter_14/multiplex_server3.go"
+  fileline = 23
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_14/sieve1.go"
+  fileline = 9
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_14/sieve2.go"
+  fileline = 23
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_14/sieve2.go"
+  fileline = 23
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_14/goroutine3.go"
+  fileline = 11
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_14/goroutine2.go"
+  fileline = 25
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_14/goroutine_select.go"
+  fileline = 19
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_14/sieve2.go"
+  fileline = 12
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "eBook/exercises/chapter_14/goroutine_panic.go"
+  fileline = 7
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "eBook/exercises/chapter_14/gofibonacci2.go"
+  fileline = 8
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_14/chaining.go"
+  fileline = 10
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_14/goroutine_select2.go"
+  fileline = 38
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_14/multiplex_server2.go"
+  fileline = 19
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_14/multiplex_server2.go"
+  fileline = 19
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_11/tideland-cgl.googlecode.com/hg/cglsmr.go"
+  fileline = 140
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_14/goroutine_select2.go"
+  fileline = 32
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "eBook/exercises/chapter_14/goroutine_select.go"
+  fileline = 9
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "eBook/exercises/chapter_14/goroutine_select.go"
+  fileline = 9
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_14/sieve2.go"
+  fileline = 35
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_14/sieve1.go"
+  fileline = 17
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_14/channel_idiom2.go"
+  fileline = 13
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "eBook/exercises/chapter_14/gofibonacci_select.go"
+  fileline = 6
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_14/channel_block.go"
+  fileline = 11
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_14/max_tasks.go"
+  fileline = 22
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_14/channel_idiom2.go"
+  fileline = 23
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_14/channel_block2.go"
+  fileline = 15
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "eBook/exercises/chapter_14/polar_to_cartesian.go"
+  fileline = 44
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "eBook/exercises/chapter_14/polar_to_cartesian.go"
+  fileline = 44
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "eBook/exercises/chapter_14/gosum.go"
+  fileline = 8
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "eBook/exercises/chapter_14/gofibonacci.go"
+  fileline = 30
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_14/multiplex_server.go"
+  fileline = 19
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_14/goroutine_select2.go"
+  fileline = 26
+  comment = "Returned channels or channel arguments should generally have a direction."

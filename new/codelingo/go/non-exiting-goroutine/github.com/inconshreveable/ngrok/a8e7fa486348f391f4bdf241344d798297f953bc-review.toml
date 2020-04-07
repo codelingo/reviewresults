@@ -1,0 +1,23 @@
+repo = "github.com/inconshreveable/ngrok"
+rule = "codelingo/go/non-exiting-goroutine"
+sha = "a8e7fa486348f391f4bdf241344d798297f953bc"
+
+[[issues]]
+  filepath = "src/ngrok/conn/conn.go"
+  fileline = 68
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "src/ngrok/util/broadcast.go"
+  fileline = 19
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "src/ngrok/server/metrics.go"
+  fileline = 188
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "src/ngrok/server/registry.go"
+  fileline = 64
+  comment = "This goroutine does not exit and may cause a resource leak."
