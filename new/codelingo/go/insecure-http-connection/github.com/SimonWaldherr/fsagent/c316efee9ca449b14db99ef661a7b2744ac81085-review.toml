@@ -3,6 +3,8 @@ rule = "codelingo/go/insecure-http-connection"
 sha = "c316efee9ca449b14db99ef661a7b2744ac81085"
 
 [[issues]]
-  filepath = "modules/mail.go"
-  fileline = 57
   comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+  fileline = 57
+  filepath = "modules/mail.go"
+  fixed = true
+  ignored = ""
