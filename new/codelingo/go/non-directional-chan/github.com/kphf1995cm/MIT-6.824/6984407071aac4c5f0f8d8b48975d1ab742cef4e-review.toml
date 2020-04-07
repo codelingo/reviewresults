@@ -3,31 +3,43 @@ rule = "codelingo/go/non-directional-chan"
 sha = "6984407071aac4c5f0f8d8b48975d1ab742cef4e"
 
 [[issues]]
-  filepath = "src/raft/raft.go"
+  comment = "Returned channels or channel arguments should generally have a direction."
   fileline = 218
-  comment = "Returned channels or channel arguments should generally have a direction."
+  filepath = "src/raft/raft.go"
+  fixed = false
+  ignored = "not used"
 
 [[issues]]
-  filepath = "src/mapreduce/schedule.go"
+  comment = "Returned channels or channel arguments should generally have a direction."
   fileline = 14
-  comment = "Returned channels or channel arguments should generally have a direction."
+  filepath = "src/mapreduce/schedule.go"
+  fixed = false
+  ignored = "not used"
 
 [[issues]]
-  filepath = "src/kvraft/test_test.go"
+  comment = "Returned channels or channel arguments should generally have a direction."
   fileline = 122
-  comment = "Returned channels or channel arguments should generally have a direction."
-
-[[issues]]
-  filepath = "src/raft/test_test.go"
-  fileline = 799
-  comment = "Returned channels or channel arguments should generally have a direction."
-
-[[issues]]
-  filepath = "src/mapreduce/master.go"
-  fileline = 85
-  comment = "Returned channels or channel arguments should generally have a direction."
-
-[[issues]]
   filepath = "src/kvraft/test_test.go"
-  fileline = 45
+  fixed = true
+  ignored = ""
+
+[[issues]]
   comment = "Returned channels or channel arguments should generally have a direction."
+  fileline = 799
+  filepath = "src/raft/test_test.go"
+  fixed = true
+  ignored = ""
+
+[[issues]]
+  comment = "Returned channels or channel arguments should generally have a direction."
+  fileline = 85
+  filepath = "src/mapreduce/master.go"
+  fixed = true
+  ignored = ""
+
+[[issues]]
+  comment = "Returned channels or channel arguments should generally have a direction."
+  fileline = 45
+  filepath = "src/kvraft/test_test.go"
+  fixed = true
+  ignored = ""
