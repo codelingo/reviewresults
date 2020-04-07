@@ -3,11 +3,15 @@ rule = "codelingo/go/non-directional-chan"
 sha = "a14870451ad0ae4cd1ed0f29bcfe42663b876ede"
 
 [[issues]]
-  filepath = "routine/main.go"
-  fileline = 13
   comment = "Returned channels or channel arguments should generally have a direction."
+  fileline = 13
+  filepath = "routine/main.go"
+  fixed = true
+  ignored = ""
 
 [[issues]]
-  filepath = "routine/main.go"
-  fileline = 20
   comment = "Returned channels or channel arguments should generally have a direction."
+  fileline = 20
+  filepath = "routine/main.go"
+  fixed = true
+  ignored = ""
