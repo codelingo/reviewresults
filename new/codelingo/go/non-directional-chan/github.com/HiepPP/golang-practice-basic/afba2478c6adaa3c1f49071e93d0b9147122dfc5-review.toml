@@ -3,16 +3,22 @@ rule = "codelingo/go/non-directional-chan"
 sha = "afba2478c6adaa3c1f49071e93d0b9147122dfc5"
 
 [[issues]]
-  filepath = "concurent/goroutine3.go"
+  comment = "Returned channels or channel arguments should generally have a direction."
   fileline = 37
-  comment = "Returned channels or channel arguments should generally have a direction."
+  filepath = "concurent/goroutine3.go"
+  fixed = true
+  ignored = ""
 
 [[issues]]
-  filepath = "concurent/concurent4.go"
+  comment = "Returned channels or channel arguments should generally have a direction."
   fileline = 23
-  comment = "Returned channels or channel arguments should generally have a direction."
+  filepath = "concurent/concurent4.go"
+  fixed = true
+  ignored = ""
 
 [[issues]]
-  filepath = "concurent/goroutine2.go"
-  fileline = 32
   comment = "Returned channels or channel arguments should generally have a direction."
+  fileline = 32
+  filepath = "concurent/goroutine2.go"
+  fixed = false
+  ignored = "fp"
