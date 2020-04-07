@@ -3,11 +3,15 @@ rule = "codelingo/go/non-directional-chan"
 sha = "b49fc95d3e06b2841dc394c86831ca07c04d8803"
 
 [[issues]]
-  filepath = "vendor/github.com/boltdb/bolt/tx.go"
-  fileline = 416
   comment = "Returned channels or channel arguments should generally have a direction."
+  fileline = 416
+  filepath = "vendor/github.com/boltdb/bolt/tx.go"
+  fixed = false
+  ignored = "archived"
 
 [[issues]]
-  filepath = "vendor/github.com/boltdb/bolt/tx.go"
-  fileline = 381
   comment = "Returned channels or channel arguments should generally have a direction."
+  fileline = 381
+  filepath = "vendor/github.com/boltdb/bolt/tx.go"
+  fixed = false
+  ignored = "archived"
