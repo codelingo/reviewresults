@@ -1,0 +1,48 @@
+repo = "github.com/openfaas/faas"
+rule = "codelingo/go/non-directional-chan"
+sha = "28f45e7efaf5bada07810f59223c13f01dd0ee1a"
+
+[[issues]]
+  filepath = "watchdog/metrics/metrics.go"
+  fileline = 41
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "gateway/vendor/github.com/nats-io/go-nats/nats.go"
+  fileline = 2776
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "gateway/vendor/github.com/nats-io/go-nats/nats.go"
+  fileline = 3288
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "gateway/vendor/github.com/nats-io/go-nats-streaming/stan.go"
+  fileline = 698
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "sample-functions/MarkdownRender/vendor/golang.org/x/net/http2/server.go"
+  fileline = 870
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "gateway/vendor/github.com/nats-io/go-nats/nats.go"
+  fileline = 2721
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "gateway/vendor/github.com/nats-io/go-nats/nats.go"
+  fileline = 2731
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "gateway/vendor/github.com/nats-io/go-nats/nats.go"
+  fileline = 3272
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "gateway/vendor/github.com/nats-io/go-nats/nats.go"
+  fileline = 2781
+  comment = "Returned channels or channel arguments should generally have a direction."

@@ -1,0 +1,93 @@
+repo = "github.com/nsqio/nsq"
+rule = "codelingo/go/non-directional-chan"
+sha = "8db8c50e5e583bbde3528de93a5e363edd788868"
+
+[[issues]]
+  filepath = "internal/writers/spread_writer.go"
+  fileline = 15
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "bench/bench_channels/bench_channels.go"
+  fileline = 41
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "bench/bench_channels/bench_channels.go"
+  fileline = 41
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "apps/nsq_to_file/topic_discoverer.go"
+  fileline = 26
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "apps/nsq_to_file/topic_discoverer.go"
+  fileline = 26
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2.go"
+  fileline = 202
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "bench/bench_reader/bench_reader.go"
+  fileline = 70
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "bench/bench_reader/bench_reader.go"
+  fileline = 70
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "nsqd/nsqd.go"
+  fileline = 596
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "nsqd/nsqd.go"
+  fileline = 596
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "nsqd/nsqd.go"
+  fileline = 596
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "bench/bench_writer/bench_writer.go"
+  fileline = 73
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "bench/bench_writer/bench_writer.go"
+  fileline = 73
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1826
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "nsqd/protocol_v2_test.go"
+  fileline = 1826
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "nsqd/nsqd.go"
+  fileline = 622
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "nsqd/nsqd.go"
+  fileline = 622
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "nsqd/nsqd.go"
+  fileline = 622
+  comment = "Returned channels or channel arguments should generally have a direction."

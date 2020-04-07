@@ -1,0 +1,18 @@
+repo = "github.com/kataras/iris"
+rule = "codelingo/go/non-exiting-goroutine"
+sha = "5f5849db9f72e15567cbafa4deb6cab3c70885c2"
+
+[[issues]]
+  filepath = "typescript/editor/editor.go"
+  fileline = 184
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "typescript/editor/editor.go"
+  fileline = 193
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "_examples/http_responsewriter/sse/main.go"
+  fileline = 151
+  comment = "This goroutine does not exit and may cause a resource leak."

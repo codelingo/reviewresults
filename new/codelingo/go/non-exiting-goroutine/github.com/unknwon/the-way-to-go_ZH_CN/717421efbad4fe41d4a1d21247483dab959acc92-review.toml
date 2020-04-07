@@ -1,0 +1,83 @@
+repo = "github.com/unknwon/the-way-to-go_ZH_CN"
+rule = "codelingo/go/non-exiting-goroutine"
+sha = "717421efbad4fe41d4a1d21247483dab959acc92"
+
+[[issues]]
+  filepath = "eBook/exercises/chapter_14/gofibonacci_select.go"
+  fileline = 23
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_11/tideland-cgl.googlecode.com/hg/cgl_test.go"
+  fileline = 760
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_11/tideland-cgl.googlecode.com/hg/cgl_test.go"
+  fileline = 753
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_14/channel_idiom2.go"
+  fileline = 16
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_14/benchmark_channels.go"
+  fileline = 16
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "eBook/exercises/chapter_14/random_bitgen.go"
+  fileline = 11
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_14/channel_idiom.go"
+  fileline = 17
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_14/sieve2.go"
+  fileline = 39
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "eBook/exercises/chapter_14/gofibonacci3.go"
+  fileline = 12
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "eBook/exercises/chapter_14/gofibonacci3.go"
+  fileline = 29
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_14/sieve2.go"
+  fileline = 15
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_15/elaborated_webserver.go"
+  fileline = 110
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_14/lazy_evaluation.go"
+  fileline = 14
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "eBook/exercises/chapter_14/polar_to_cartesian.go"
+  fileline = 47
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_14/benchmark_channels.go"
+  fileline = 28
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "eBook/examples/chapter_14/sieve2.go"
+  fileline = 26
+  comment = "This goroutine does not exit and may cause a resource leak."

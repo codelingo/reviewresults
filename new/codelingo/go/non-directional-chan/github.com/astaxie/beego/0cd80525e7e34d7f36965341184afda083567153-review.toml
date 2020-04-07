@@ -1,0 +1,8 @@
+repo = "github.com/astaxie/beego"
+rule = "codelingo/go/non-directional-chan"
+sha = "0cd80525e7e34d7f36965341184afda083567153"
+
+[[issues]]
+  filepath = "toolbox/task_test.go"
+  fileline = 56
+  comment = "Returned channels or channel arguments should generally have a direction."

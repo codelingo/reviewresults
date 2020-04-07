@@ -1,0 +1,8 @@
+repo = "github.com/caddyserver/caddy"
+rule = "codelingo/go/non-exiting-goroutine"
+sha = "657f0cab17c1597f4f78f15d0b720aa6f9d7fbcb"
+
+[[issues]]
+  filepath = "sigtrap.go"
+  fileline = 41
+  comment = "This goroutine does not exit and may cause a resource leak."

@@ -1,0 +1,8 @@
+repo = "github.com/astaxie/beego"
+rule = "codelingo/go/break-select-in-for"
+sha = "0cd80525e7e34d7f36965341184afda083567153"
+
+[[issues]]
+  filepath = "toolbox/task.go"
+  fileline = 410
+  comment = "This `break` statement only breaks to the innermost select, rather than the parent `for` loop.\nThis is generally unexpected and can cause an active goroutine to leak.\nFix it by adding a label to the for loop and breaking to that instead.\n"

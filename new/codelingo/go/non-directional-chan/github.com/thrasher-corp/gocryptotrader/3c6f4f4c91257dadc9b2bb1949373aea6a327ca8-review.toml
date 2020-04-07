@@ -1,0 +1,43 @@
+repo = "github.com/thrasher-corp/gocryptotrader"
+rule = "codelingo/go/non-directional-chan"
+sha = "3c6f4f4c91257dadc9b2bb1949373aea6a327ca8"
+
+[[issues]]
+  filepath = "dispatch/dispatch.go"
+  fileline = 130
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "dispatch/dispatch.go"
+  fileline = 272
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "exchanges/sharedtestvalues/sharedtestvalues.go"
+  fileline = 23
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "dispatch/dispatch.go"
+  fileline = 297
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "dispatch/mux.go"
+  fileline = 35
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "exchanges/request/request_test.go"
+  fileline = 417
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "exchanges/sharedtestvalues/sharedtestvalues.go"
+  fileline = 29
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "log/logger_multiwriter.go"
+  fileline = 46
+  comment = "Returned channels or channel arguments should generally have a direction."

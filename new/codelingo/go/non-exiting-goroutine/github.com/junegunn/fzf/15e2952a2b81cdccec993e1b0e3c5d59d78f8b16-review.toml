@@ -1,0 +1,33 @@
+repo = "github.com/junegunn/fzf"
+rule = "codelingo/go/non-exiting-goroutine"
+sha = "15e2952a2b81cdccec993e1b0e3c5d59d78f8b16"
+
+[[issues]]
+  filepath = "src/tui/light_windows.go"
+  fileline = 62
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "src/terminal.go"
+  fileline = 1540
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "src/terminal.go"
+  fileline = 1549
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "src/terminal.go"
+  fileline = 1665
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "src/terminal.go"
+  fileline = 1571
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "src/terminal.go"
+  fileline = 1585
+  comment = "This goroutine does not exit and may cause a resource leak."
