@@ -3,11 +3,15 @@ rule = "codelingo/go/non-directional-chan"
 sha = "8de8758d3d5f40ea047de945c5969fab59a2acda"
 
 [[issues]]
-  filepath = "pkg/cache/redis/pool_test.go"
-  fileline = 407
   comment = "Returned channels or channel arguments should generally have a direction."
+  fileline = 407
+  filepath = "pkg/cache/redis/pool_test.go"
+  fixed = false
+  ignored = "returned chan"
 
 [[issues]]
-  filepath = "pkg/sync/pipeline/pipeline.go"
-  fileline = 146
   comment = "Returned channels or channel arguments should generally have a direction."
+  fileline = 146
+  filepath = "pkg/sync/pipeline/pipeline.go"
+  fixed = false
+  ignored = "returned chan"
