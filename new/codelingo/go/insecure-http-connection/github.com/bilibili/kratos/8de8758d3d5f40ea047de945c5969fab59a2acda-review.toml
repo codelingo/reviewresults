@@ -3,6 +3,8 @@ rule = "codelingo/go/insecure-http-connection"
 sha = "8de8758d3d5f40ea047de945c5969fab59a2acda"
 
 [[issues]]
-  filepath = "pkg/net/http/blademaster/client.go"
-  fileline = 78
   comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+  fileline = 78
+  filepath = "pkg/net/http/blademaster/client.go"
+  fixed = true
+  ignored = ""
