@@ -3,11 +3,15 @@ rule = "codelingo/go/break-select-in-for"
 sha = "755c95684ffe290c64b8be114c2963aa2850b531"
 
 [[issues]]
-  filepath = "discoverd/client/heartbeat.go"
-  fileline = 167
   comment = "This `break` statement only breaks to the innermost select, rather than the parent `for` loop.\nThis is generally unexpected and can cause an active goroutine to leak.\nFix it by adding a label to the for loop and breaking to that instead.\n"
+  fileline = 167
+  filepath = "discoverd/client/heartbeat.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "discoverd/client/watch.go"
-  fileline = 127
   comment = "This `break` statement only breaks to the innermost select, rather than the parent `for` loop.\nThis is generally unexpected and can cause an active goroutine to leak.\nFix it by adding a label to the for loop and breaking to that instead.\n"
+  fileline = 127
+  filepath = "discoverd/client/watch.go"
+  fixed = false
+  ignored = "fp"
