@@ -3,41 +3,57 @@ rule = "codelingo/go/non-directional-chan"
 sha = "3c6f4f4c91257dadc9b2bb1949373aea6a327ca8"
 
 [[issues]]
-  filepath = "dispatch/dispatch.go"
+  comment = "Returned channels or channel arguments should generally have a direction."
   fileline = 130
-  comment = "Returned channels or channel arguments should generally have a direction."
+  filepath = "dispatch/dispatch.go"
+  fixed = true
+  ignored = ""
 
 [[issues]]
-  filepath = "dispatch/dispatch.go"
+  comment = "Returned channels or channel arguments should generally have a direction."
   fileline = 272
-  comment = "Returned channels or channel arguments should generally have a direction."
-
-[[issues]]
-  filepath = "exchanges/sharedtestvalues/sharedtestvalues.go"
-  fileline = 23
-  comment = "Returned channels or channel arguments should generally have a direction."
-
-[[issues]]
   filepath = "dispatch/dispatch.go"
-  fileline = 297
-  comment = "Returned channels or channel arguments should generally have a direction."
+  fixed = false
+  ignored = "unsure"
 
 [[issues]]
-  filepath = "dispatch/mux.go"
-  fileline = 35
   comment = "Returned channels or channel arguments should generally have a direction."
-
-[[issues]]
-  filepath = "exchanges/request/request_test.go"
-  fileline = 417
-  comment = "Returned channels or channel arguments should generally have a direction."
-
-[[issues]]
+  fileline = 23
   filepath = "exchanges/sharedtestvalues/sharedtestvalues.go"
-  fileline = 29
-  comment = "Returned channels or channel arguments should generally have a direction."
+  fixed = false
+  ignored = "unsure"
 
 [[issues]]
-  filepath = "log/logger_multiwriter.go"
-  fileline = 46
   comment = "Returned channels or channel arguments should generally have a direction."
+  fileline = 297
+  filepath = "dispatch/dispatch.go"
+  fixed = false
+  ignored = "unsure"
+
+[[issues]]
+  comment = "Returned channels or channel arguments should generally have a direction."
+  fileline = 35
+  filepath = "dispatch/mux.go"
+  fixed = false
+  ignored = "unsure"
+
+[[issues]]
+  comment = "Returned channels or channel arguments should generally have a direction."
+  fileline = 417
+  filepath = "exchanges/request/request_test.go"
+  fixed = true
+  ignored = ""
+
+[[issues]]
+  comment = "Returned channels or channel arguments should generally have a direction."
+  fileline = 29
+  filepath = "exchanges/sharedtestvalues/sharedtestvalues.go"
+  fixed = false
+  ignored = "unsure"
+
+[[issues]]
+  comment = "Returned channels or channel arguments should generally have a direction."
+  fileline = 46
+  filepath = "log/logger_multiwriter.go"
+  fixed = true
+  ignored = ""

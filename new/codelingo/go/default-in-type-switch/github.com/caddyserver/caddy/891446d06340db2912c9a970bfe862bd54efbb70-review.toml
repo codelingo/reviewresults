@@ -3,16 +3,22 @@ rule = "codelingo/go/default-in-type-switch"
 sha = "891446d06340db2912c9a970bfe862bd54efbb70"
 
 [[issues]]
-  filepath = "caddyfile/json.go"
+  comment = "Always include a default case when using a type switch."
   fileline = 138
-  comment = "Always include a default case when using a type switch."
+  filepath = "caddyfile/json.go"
+  fixed = false
+  ignored = "fallthrough"
 
 [[issues]]
-  filepath = "caddyhttp/gzip/setup_test.go"
+  comment = "Always include a default case when using a type switch."
   fileline = 127
-  comment = "Always include a default case when using a type switch."
+  filepath = "caddyhttp/gzip/setup_test.go"
+  fixed = false
+  ignored = "in test"
 
 [[issues]]
-  filepath = "telemetry/telemetry.go"
-  fileline = 328
   comment = "Always include a default case when using a type switch."
+  fileline = 328
+  filepath = "telemetry/telemetry.go"
+  fixed = false
+  ignored = "fallthrough"
