@@ -3,6 +3,8 @@ rule = "codelingo/go/non-directional-chan"
 sha = "5777a4ff5f92b7d2e1119c79263d57c2a5573557"
 
 [[issues]]
-  filepath = "internal/signal/signal.go"
-  fileline = 30
   comment = "Returned channels or channel arguments should generally have a direction."
+  fileline = 30
+  filepath = "internal/signal/signal.go"
+  fixed = true
+  ignored = ""
