@@ -1,0 +1,48 @@
+repo = "github.com/influxdata/telegraf"
+rule = "codelingo/go/non-exiting-goroutine"
+sha = "df145c7e564c8ba0d4722a7a5ab96eb36834e1e0"
+
+[[issues]]
+  filepath = "plugins/inputs/influxdb_listener/influxdb_listener_test.go"
+  fileline = 419
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "plugins/inputs/cisco_telemetry_gnmi/cisco_telemetry_gnmi.go"
+  fileline = 139
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "metric/tracking_test.go"
+  fileline = 47
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "plugins/inputs/jti_openconfig_telemetry/openconfig_telemetry.go"
+  fileline = 313
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "metric/tracking_test.go"
+  fileline = 41
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "plugins/inputs/amqp_consumer/amqp_consumer.go"
+  fileline = 245
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "plugins/inputs/apcupsd/apcupsd_test.go"
+  fileline = 40
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "plugins/inputs/http_listener_v2/http_listener_v2_test.go"
+  fileline = 326
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "plugins/inputs/kafka_consumer/kafka_consumer.go"
+  fileline = 258
+  comment = "This goroutine does not exit and may cause a resource leak."

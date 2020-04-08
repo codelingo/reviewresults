@@ -1,0 +1,8 @@
+repo = "github.com/bcicen/ctop"
+rule = "codelingo/go/break-select-in-for"
+sha = "4741b276e4bbaa41a67d62443239d50b5a936623"
+
+[[issues]]
+  filepath = "connector/collector/mock_logs.go"
+  fileline = 18
+  comment = "This `break` statement only breaks to the innermost select, rather than the parent `for` loop.\nThis is generally unexpected and can cause an active goroutine to leak.\nFix it by adding a label to the for loop and breaking to that instead.\n"

@@ -1,0 +1,103 @@
+repo = "github.com/grpc/grpc-go"
+rule = "codelingo/go/non-exiting-goroutine"
+sha = "98e4c7ad3eefd5c1a3cd647c004943ffab4f5722"
+
+[[issues]]
+  filepath = "internal/buffer/unbounded_test.go"
+  fileline = 99
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "internal/profiling/buffer/buffer_test.go"
+  fileline = 129
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "internal/buffer/unbounded_test.go"
+  fileline = 110
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "test/balancer_test.go"
+  fileline = 191
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "balancer/grpclb/grpclb_util_test.go"
+  fileline = 248
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "internal/profiling/profiling_test.go"
+  fileline = 147
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "internal/buffer/unbounded_test.go"
+  fileline = 65
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "test/bufconn/bufconn_test.go"
+  fileline = 51
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "internal/cache/timeoutCache_test.go"
+  fileline = 216
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "benchmark/benchmark.go"
+  fileline = 113
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "test/channelz_test.go"
+  fileline = 989
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "benchmark/benchmark.go"
+  fileline = 126
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "internal/profiling/buffer/buffer_test.go"
+  fileline = 178
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "internal/transport/transport_test.go"
+  fileline = 1255
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "health/server_internal_test.go"
+  fileline = 52
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "examples/features/metadata/client/main.go"
+  fileline = 247
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "internal/buffer/unbounded_test.go"
+  fileline = 75
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "internal/buffer/unbounded_test.go"
+  fileline = 76
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "encoding/proto/proto_test.go"
+  fileline = 84
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "benchmark/primitives/syncmap_test.go"
+  fileline = 140
+  comment = "This goroutine does not exit and may cause a resource leak."

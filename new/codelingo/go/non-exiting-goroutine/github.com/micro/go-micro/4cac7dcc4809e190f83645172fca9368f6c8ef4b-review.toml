@@ -1,0 +1,48 @@
+repo = "github.com/micro/go-micro"
+rule = "codelingo/go/non-exiting-goroutine"
+sha = "4cac7dcc4809e190f83645172fca9368f6c8ef4b"
+
+[[issues]]
+  filepath = "auth/service/service.go"
+  fileline = 63
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "util/pool/default_test.go"
+  fileline = 34
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "sync/cron.go"
+  fileline = 34
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "registry/mdns_registry.go"
+  fileline = 432
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "server/rpc_stream_test.go"
+  fileline = 123
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "runtime/service/service.go"
+  fileline = 83
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "proxy/mucp/mucp.go"
+  fileline = 611
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "auth/service/service.go"
+  fileline = 82
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "server/rpc_stream_test.go"
+  fileline = 112
+  comment = "This goroutine does not exit and may cause a resource leak."

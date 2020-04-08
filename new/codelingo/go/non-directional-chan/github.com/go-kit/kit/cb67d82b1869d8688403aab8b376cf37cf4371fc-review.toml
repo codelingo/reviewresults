@@ -1,0 +1,68 @@
+repo = "github.com/go-kit/kit"
+rule = "codelingo/go/non-directional-chan"
+sha = "cb67d82b1869d8688403aab8b376cf37cf4371fc"
+
+[[issues]]
+  filepath = "sd/etcd/client_test.go"
+  fileline = 144
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "sd/etcdv3/client.go"
+  fileline = 143
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "sd/consul/instancer_test.go"
+  fileline = 142
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "sd/consul/instancer_test.go"
+  fileline = 142
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "sd/etcdv3/instancer_test.go"
+  fileline = 72
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "sd/etcdv3/client.go"
+  fileline = 35
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "sd/consul/instancer.go"
+  fileline = 86
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "sd/etcd/client.go"
+  fileline = 141
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "sd/etcd/client.go"
+  fileline = 38
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "sd/internal/instance/cache_test.go"
+  fileline = 49
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "sd/etcdv3/registrar_test.go"
+  fileline = 20
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "sd/etcd/registrar_test.go"
+  fileline = 20
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "sd/etcd/instancer_test.go"
+  fileline = 63
+  comment = "Returned channels or channel arguments should generally have a direction."

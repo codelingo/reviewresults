@@ -1,0 +1,93 @@
+repo = "github.com/grpc/grpc-go"
+rule = "codelingo/go/non-directional-chan"
+sha = "98e4c7ad3eefd5c1a3cd647c004943ffab4f5722"
+
+[[issues]]
+  filepath = "internal/testutils/pipe_listener_test.go"
+  fileline = 113
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "internal/testutils/pipe_listener_test.go"
+  fileline = 87
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "internal/testutils/pipe_listener_test.go"
+  fileline = 127
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "test/healthcheck_test.go"
+  fileline = 116
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "test/healthcheck_test.go"
+  fileline = 116
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "security/advancedtls/advancedtls_test.go"
+  fileline = 447
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "internal/transport/transport_test.go"
+  fileline = 446
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "internal/resolver/dns/dns_resolver_test.go"
+  fileline = 119
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "balancer/grpclb/grpclb_test.go"
+  fileline = 333
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "credentials/credentials_test.go"
+  fileline = 254
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "test/end2end_test.go"
+  fileline = 5887
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "internal/testutils/pipe_listener_test.go"
+  fileline = 142
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "balancer/grpclb/grpclb_test.go"
+  fileline = 196
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "internal/testutils/pipe_listener_test.go"
+  fileline = 101
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "credentials/credentials_test.go"
+  fileline = 240
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "credentials/credentials_test.go"
+  fileline = 236
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "internal/testutils/pipe_listener_test.go"
+  fileline = 82
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "balancer/grpclb/grpclb_test.go"
+  fileline = 1238
+  comment = "Returned channels or channel arguments should generally have a direction."

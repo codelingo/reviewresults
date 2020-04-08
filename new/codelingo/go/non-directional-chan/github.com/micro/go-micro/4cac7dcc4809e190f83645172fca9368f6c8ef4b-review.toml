@@ -1,0 +1,128 @@
+repo = "github.com/micro/go-micro"
+rule = "codelingo/go/non-directional-chan"
+sha = "4cac7dcc4809e190f83645172fca9368f6c8ef4b"
+
+[[issues]]
+  filepath = "util/ring/buffer.go"
+  fileline = 116
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "runtime/kubernetes/kubernetes.go"
+  fileline = 342
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "tunnel/tunnel_test.go"
+  fileline = 11
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "sync/leader/leader.go"
+  fileline = 20
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "tunnel/default.go"
+  fileline = 515
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "broker/nats/nats.go"
+  fileline = 120
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "sync/leader/etcd/etcd.go"
+  fileline = 80
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "tunnel/tunnel_test.go"
+  fileline = 96
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "web/service.go"
+  fileline = 92
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "network/default.go"
+  fileline = 477
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "api/handler/registry/registry.go"
+  fileline = 140
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "network/default.go"
+  fileline = 219
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "tunnel/tunnel_test.go"
+  fileline = 139
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "runtime/default.go"
+  fileline = 267
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "runtime/service/service.go"
+  fileline = 107
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "tunnel/tunnel_test.go"
+  fileline = 54
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "broker/default.go"
+  fileline = 130
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "sync/leader/leader.go"
+  fileline = 9
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "router/service/service.go"
+  fileline = 95
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "network/default.go"
+  fileline = 512
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "sync/store/manager.go"
+  fileline = 31
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "runtime/runtime.go"
+  fileline = 45
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "sync/leader/etcd/etcd.go"
+  fileline = 52
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "sync/task/broker/broker.go"
+  fileline = 31
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "network/default.go"
+  fileline = 246
+  comment = "Returned channels or channel arguments should generally have a direction."

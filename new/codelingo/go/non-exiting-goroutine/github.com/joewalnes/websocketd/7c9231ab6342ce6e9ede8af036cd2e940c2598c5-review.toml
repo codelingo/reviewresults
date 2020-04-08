@@ -1,0 +1,8 @@
+repo = "github.com/joewalnes/websocketd"
+rule = "codelingo/go/non-exiting-goroutine"
+sha = "7c9231ab6342ce6e9ede8af036cd2e940c2598c5"
+
+[[issues]]
+  filepath = "libwebsocketd/endpoint_test.go"
+  fileline = 44
+  comment = "This goroutine does not exit and may cause a resource leak."

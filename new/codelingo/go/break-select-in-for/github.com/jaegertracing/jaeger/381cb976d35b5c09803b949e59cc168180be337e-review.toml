@@ -1,0 +1,8 @@
+repo = "github.com/jaegertracing/jaeger"
+rule = "codelingo/go/break-select-in-for"
+sha = "381cb976d35b5c09803b949e59cc168180be337e"
+
+[[issues]]
+  filepath = "plugin/sampling/strategystore/adaptive/processor.go"
+  fileline = 235
+  comment = "This `break` statement only breaks to the innermost select, rather than the parent `for` loop.\nThis is generally unexpected and can cause an active goroutine to leak.\nFix it by adding a label to the for loop and breaking to that instead.\n"

@@ -1,0 +1,63 @@
+repo = "github.com/google/cadvisor"
+rule = "codelingo/go/non-directional-chan"
+sha = "7f840ac879cf7409586233865f96b0b74e1bda51"
+
+[[issues]]
+  filepath = "manager/manager.go"
+  fileline = 341
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "watcher/watcher.go"
+  fileline = 47
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "container/common/inotify_watcher.go"
+  fileline = 111
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "manager/manager.go"
+  fileline = 1105
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "container/common/inotify_watcher.go"
+  fileline = 106
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "client/client.go"
+  fileline = 203
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "container/raw/watcher.go"
+  fileline = 71
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "events/handler.go"
+  fileline = 176
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "manager/manager.go"
+  fileline = 319
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "container/raw/watcher.go"
+  fileline = 171
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "container/raw/watcher.go"
+  fileline = 112
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "client/client.go"
+  fileline = 71
+  comment = "Returned channels or channel arguments should generally have a direction."

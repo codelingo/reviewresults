@@ -1,0 +1,63 @@
+repo = "github.com/influxdata/telegraf"
+rule = "codelingo/go/non-directional-chan"
+sha = "df145c7e564c8ba0d4722a7a5ab96eb36834e1e0"
+
+[[issues]]
+  filepath = "plugins/inputs/burrow/burrow.go"
+  fileline = 297
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "plugins/inputs/cloud_pubsub_push/pubsub_push_test.go"
+  fileline = 157
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "plugins/inputs/burrow/burrow.go"
+  fileline = 354
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "internal/internal.go"
+  fileline = 210
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "plugins/inputs/kafka_consumer_legacy/kafka_consumer_legacy_test.go"
+  fileline = 21
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "agent/agent.go"
+  fileline = 93
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "cmd/telegraf/telegraf.go"
+  fileline = 81
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "plugins/inputs/tcp_listener/tcp_listener_test.go"
+  fileline = 33
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "agent/agent.go"
+  fileline = 111
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "agent/agent.go"
+  fileline = 72
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "agent/agent.go"
+  fileline = 126
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "plugins/inputs/udp_listener/udp_listener_test.go"
+  fileline = 31
+  comment = "Returned channels or channel arguments should generally have a direction."

@@ -1,0 +1,38 @@
+repo = "github.com/ipfs/go-ipfs"
+rule = "codelingo/go/non-exiting-goroutine"
+sha = "1a2c88baae3aeb9ffe5ef64c9be1fc4fedef7d08"
+
+[[issues]]
+  filepath = "fuse/ipns/ipns_test.go"
+  fileline = 433
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "thirdparty/notifier/notifier_test.go"
+  fileline = 251
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "coverage/main/main.go"
+  fileline = 50
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "fuse/ipns/ipns_test.go"
+  fileline = 409
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "core/commands/repo.go"
+  fileline = 268
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "fuse/readonly/ipfs_test.go"
+  fileline = 186
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "fuse/ipns/ipns_test.go"
+  fileline = 359
+  comment = "This goroutine does not exit and may cause a resource leak."

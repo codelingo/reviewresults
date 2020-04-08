@@ -1,0 +1,53 @@
+repo = "github.com/rkt/rkt"
+rule = "codelingo/go/non-directional-chan"
+sha = "171c416fac02516604e48d2e65153dd55a12513e"
+
+[[issues]]
+  filepath = "vendor/github.com/godbus/dbus/object.go"
+  fileline = 12
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "tests/rkt_fetch_test.go"
+  fileline = 393
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vendor/github.com/coreos/gexpect/gexpect.go"
+  fileline = 159
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vendor/github.com/coreos/gexpect/gexpect.go"
+  fileline = 159
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "tests/testutils/utils.go"
+  fileline = 41
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vendor/github.com/godbus/dbus/object.go"
+  fileline = 50
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "stage1/iottymux/iottymux.go"
+  fileline = 585
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vendor/github.com/godbus/dbus/conn.go"
+  fileline = 411
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vendor/github.com/coreos/pkg/progressutil/iocopy.go"
+  fileline = 121
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "tests/rkt_fetch_test.go"
+  fileline = 406
+  comment = "Returned channels or channel arguments should generally have a direction."

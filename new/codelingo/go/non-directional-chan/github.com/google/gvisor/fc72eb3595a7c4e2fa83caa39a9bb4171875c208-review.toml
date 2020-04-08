@@ -1,0 +1,138 @@
+repo = "github.com/google/gvisor"
+rule = "codelingo/go/non-directional-chan"
+sha = "fc72eb3595a7c4e2fa83caa39a9bb4171875c208"
+
+[[issues]]
+  filepath = "pkg/sentry/kernel/semaphore/semaphore.go"
+  fileline = 496
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/gate/gate_test.go"
+  fileline = 42
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/sentry/sighandling/sighandling.go"
+  fileline = 35
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/tcpip/stack/forwarder.go"
+  fileline = 115
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/sentry/kernel/semaphore/semaphore.go"
+  fileline = 435
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "tools/go_generics/generics_tests/all_stmts/output/output.go"
+  fileline = 150
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/sync/rwmutex_test.go"
+  fileline = 21
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/sentry/kernel/semaphore/semaphore_test.go"
+  fileline = 47
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/tcpip/sample/tun_tcp_connect/main.go"
+  fileline = 68
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/sentry/kernel/futex/futex_test.go"
+  fileline = 508
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/sentry/kernel/task_block.go"
+  fileline = 35
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/sync/rwmutex_test.go"
+  fileline = 73
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/sentry/mm/aio_context.go"
+  fileline = 188
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/sentry/syscalls/linux/vfs2/poll.go"
+  fileline = 63
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/sync/rwmutex_test.go"
+  fileline = 58
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/p9/client.go"
+  fileline = 411
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/gate/gate_test.go"
+  fileline = 93
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "tools/go_generics/generics_tests/all_stmts/input.go"
+  fileline = 152
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/waiter/waiter.go"
+  fileline = 162
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/waiter/waiter.go"
+  fileline = 162
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/sentry/kernel/semaphore/semaphore.go"
+  fileline = 404
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/sentry/kernel/semaphore/semaphore_test.go"
+  fileline = 27
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "tools/go_generics/generics_tests/all_stmts/output/output.go"
+  fileline = 178
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/sentry/syscalls/linux/sys_poll.go"
+  fileline = 60
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/sentry/kernel/task_block.go"
+  fileline = 69
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/sync/rwmutex_test.go"
+  fileline = 88
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "tools/go_generics/generics_tests/all_stmts/input.go"
+  fileline = 180
+  comment = "Returned channels or channel arguments should generally have a direction."

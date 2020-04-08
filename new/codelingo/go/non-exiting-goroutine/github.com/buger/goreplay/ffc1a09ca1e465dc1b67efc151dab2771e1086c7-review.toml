@@ -1,0 +1,38 @@
+repo = "github.com/buger/goreplay"
+rule = "codelingo/go/non-exiting-goroutine"
+sha = "ffc1a09ca1e465dc1b67efc151dab2771e1086c7"
+
+[[issues]]
+  filepath = "output_tcp_test.go"
+  fileline = 45
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "raw_socket_listener/listener_test.go"
+  fileline = 541
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "input_tcp.go"
+  fileline = 70
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "vendor/github.com/Shopify/sarama/offset_manager.go"
+  fileline = 358
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "output_tcp_test.go"
+  fileline = 54
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "input_raw_test.go"
+  fileline = 414
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "http_client_test.go"
+  fileline = 117
+  comment = "This goroutine does not exit and may cause a resource leak."

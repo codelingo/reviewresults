@@ -1,0 +1,8 @@
+repo = "github.com/valyala/fasthttp"
+rule = "codelingo/go/non-directional-chan"
+sha = "402e095d4da607735c2164a1b53f087c253a669d"
+
+[[issues]]
+  filepath = "tcpdialer.go"
+  fileline = 305
+  comment = "Returned channels or channel arguments should generally have a direction."

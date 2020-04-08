@@ -1,0 +1,13 @@
+repo = "github.com/gorilla/websocket"
+rule = "codelingo/go/non-directional-chan"
+sha = "b65e62901fc1c0d968042419e74789f6af455eb9"
+
+[[issues]]
+  filepath = "examples/command/main.go"
+  fileline = 81
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "examples/command/main.go"
+  fileline = 59
+  comment = "Returned channels or channel arguments should generally have a direction."

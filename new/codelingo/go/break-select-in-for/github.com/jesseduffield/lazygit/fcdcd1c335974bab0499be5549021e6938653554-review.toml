@@ -1,0 +1,13 @@
+repo = "github.com/jesseduffield/lazygit"
+rule = "codelingo/go/break-select-in-for"
+sha = "fcdcd1c335974bab0499be5549021e6938653554"
+
+[[issues]]
+  filepath = "vendor/github.com/jesseduffield/termbox-go/api.go"
+  fileline = 99
+  comment = "This `break` statement only breaks to the innermost select, rather than the parent `for` loop.\nThis is generally unexpected and can cause an active goroutine to leak.\nFix it by adding a label to the for loop and breaking to that instead.\n"
+
+[[issues]]
+  filepath = "vendor/golang.org/x/crypto/ssh/handshake.go"
+  fileline = 266
+  comment = "This `break` statement only breaks to the innermost select, rather than the parent `for` loop.\nThis is generally unexpected and can cause an active goroutine to leak.\nFix it by adding a label to the for loop and breaking to that instead.\n"

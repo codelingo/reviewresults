@@ -1,0 +1,43 @@
+repo = "github.com/valyala/fasthttp"
+rule = "codelingo/go/non-exiting-goroutine"
+sha = "402e095d4da607735c2164a1b53f087c253a669d"
+
+[[issues]]
+  filepath = "fs_test.go"
+  fileline = 281
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "fs_test.go"
+  fileline = 451
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "server_test.go"
+  fileline = 3198
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "header.go"
+  fileline = 1447
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "server_test.go"
+  fileline = 3258
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "fs_test.go"
+  fileline = 591
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "fs.go"
+  fileline = 365
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "server_test.go"
+  fileline = 117
+  comment = "This goroutine does not exit and may cause a resource leak."

@@ -1,0 +1,178 @@
+repo = "github.com/peterq/pan-light"
+rule = "codelingo/go/non-directional-chan"
+sha = "867eee7a9251a0a5e6ac5367b1ec84c98b6cfb1d"
+
+[[issues]]
+  filepath = "pc/downloader/worker.go"
+  fileline = 98
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "qt/tool-chain/cmd/moc/test/qtmoc_test.go"
+  fileline = 416
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pc/functions/pan-api.go"
+  fileline = 53
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pc/gui/bridge/api_for_qml.go"
+  fileline = 28
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pc/functions/login.go"
+  fileline = 59
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pc/functions/pan-api.go"
+  fileline = 44
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pc/functions/regitser.go"
+  fileline = 29
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pc/functions/base.go"
+  fileline = 81
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pc/functions/login.go"
+  fileline = 18
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "server/cmd/nickname/avatar.go"
+  fileline = 147
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "server/cmd/nickname/avatar.go"
+  fileline = 147
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pc/functions/base.go"
+  fileline = 121
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pc/pan-light-pc-dev.go"
+  fileline = 71
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "demo/slave/ui/regitser-plugin.go"
+  fileline = 6
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pc/functions/pan-api.go"
+  fileline = 18
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pc/functions/pan-api.go"
+  fileline = 27
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pc/gui/gui-plugin.go"
+  fileline = 36
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pc/functions/regitser-plugin.go"
+  fileline = 17
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pc/gui/bridge/api_for_qml.go"
+  fileline = 26
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pc/functions/pan-api.go"
+  fileline = 36
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pc/functions/regitser-plugin.go"
+  fileline = 31
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pc/functions/testing.go"
+  fileline = 27
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pc/functions/regitser-plugin.go"
+  fileline = 36
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "qt/tool-chain/cmd/moc/test/qtmoc_test.go"
+  fileline = 413
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pc/functions/login.go"
+  fileline = 100
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "demo/slave/ui/ui-init.go"
+  fileline = 60
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "server/cmd/nickname/avatar.go"
+  fileline = 135
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "server/cmd/nickname/avatar.go"
+  fileline = 135
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pc/functions/login.go"
+  fileline = 140
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pc/functions/regitser.go"
+  fileline = 17
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pc/functions/pan-api.go"
+  fileline = 62
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "demo/slave/ui/ui-init.go"
+  fileline = 36
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pc/gui/bridge/api_for_qml.go"
+  fileline = 44
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "demo/slave/ui/regitser-plugin.go"
+  fileline = 20
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "demo/slave/ui/regitser-plugin.go"
+  fileline = 25
+  comment = "Returned channels or channel arguments should generally have a direction."

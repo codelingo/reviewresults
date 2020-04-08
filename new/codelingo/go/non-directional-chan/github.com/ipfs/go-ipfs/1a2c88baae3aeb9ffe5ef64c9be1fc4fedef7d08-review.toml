@@ -1,0 +1,28 @@
+repo = "github.com/ipfs/go-ipfs"
+rule = "codelingo/go/non-directional-chan"
+sha = "1a2c88baae3aeb9ffe5ef64c9be1fc4fedef7d08"
+
+[[issues]]
+  filepath = "namesys/publisher.go"
+  fileline = 255
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "core/coreapi/pin.go"
+  fileline = 222
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "core/coreapi/pin.go"
+  fileline = 222
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "core/commands/add.go"
+  fileline = 304
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "namesys/dns.go"
+  fileline = 122
+  comment = "Returned channels or channel arguments should generally have a direction."

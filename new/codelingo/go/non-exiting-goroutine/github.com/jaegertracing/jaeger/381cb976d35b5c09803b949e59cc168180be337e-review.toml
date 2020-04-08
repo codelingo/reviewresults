@@ -1,0 +1,18 @@
+repo = "github.com/jaegertracing/jaeger"
+rule = "codelingo/go/non-exiting-goroutine"
+sha = "381cb976d35b5c09803b949e59cc168180be337e"
+
+[[issues]]
+  filepath = "cmd/agent/app/servers/thriftudp/transport_test.go"
+  fileline = 98
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "cmd/query/app/static_handler_test.go"
+  fileline = 145
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "pkg/cache/lru_test.go"
+  fileline = 164
+  comment = "This goroutine does not exit and may cause a resource leak."

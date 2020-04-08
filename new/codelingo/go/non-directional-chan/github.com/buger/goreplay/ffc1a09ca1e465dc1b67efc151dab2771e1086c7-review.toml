@@ -1,0 +1,18 @@
+repo = "github.com/buger/goreplay"
+rule = "codelingo/go/non-directional-chan"
+sha = "ffc1a09ca1e465dc1b67efc151dab2771e1086c7"
+
+[[issues]]
+  filepath = "emitter.go"
+  fileline = 11
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "raw_socket_listener/listener.go"
+  fileline = 893
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vendor/github.com/google/gopacket/packet.go"
+  fileline = 837
+  comment = "Returned channels or channel arguments should generally have a direction."

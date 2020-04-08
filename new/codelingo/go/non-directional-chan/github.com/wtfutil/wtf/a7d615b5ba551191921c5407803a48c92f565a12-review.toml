@@ -1,0 +1,13 @@
+repo = "github.com/wtfutil/wtf"
+rule = "codelingo/go/non-directional-chan"
+sha = "a7d615b5ba551191921c5407803a48c92f565a12"
+
+[[issues]]
+  filepath = "wtf/wtfable.go"
+  fileline = 20
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "view/base.go"
+  fileline = 118
+  comment = "Returned channels or channel arguments should generally have a direction."

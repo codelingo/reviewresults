@@ -1,0 +1,98 @@
+repo = "github.com/flynn/flynn"
+rule = "codelingo/go/non-exiting-goroutine"
+sha = "755c95684ffe290c64b8be114c2963aa2850b531"
+
+[[issues]]
+  filepath = "controller/scheduler/scheduler.go"
+  fileline = 334
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "controller/scheduler/scheduler.go"
+  fileline = 335
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "host/discoverd_wrapper.go"
+  fileline = 61
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "controller/scheduler/scheduler.go"
+  fileline = 273
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "controller/scheduler/scheduler.go"
+  fileline = 272
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "discoverd/testutil/testutil.go"
+  fileline = 155
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "builder/build.go"
+  fileline = 1130
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "pkg/stream/stream_example_test.go"
+  fileline = 115
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "pkg/rpcplus/server_test.go"
+  fileline = 489
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "builder/build.go"
+  fileline = 934
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "host/cli/bootstrap.go"
+  fileline = 859
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "controller/scheduler/discoverd.go"
+  fileline = 66
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "controller/scheduler/discoverd.go"
+  fileline = 65
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "blobstore/blobstore_test.go"
+  fileline = 510
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "controller/scheduler/scheduler.go"
+  fileline = 209
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "controller/scheduler/scheduler.go"
+  fileline = 210
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "builder/build.go"
+  fileline = 1152
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "builder/build.go"
+  fileline = 1159
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "vendor/github.com/coreos/go-systemd/dbus/subscription.go"
+  fileline = 112
+  comment = "This goroutine does not exit and may cause a resource leak."

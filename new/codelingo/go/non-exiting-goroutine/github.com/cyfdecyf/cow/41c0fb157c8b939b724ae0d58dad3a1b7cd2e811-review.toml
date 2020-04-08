@@ -1,0 +1,13 @@
+repo = "github.com/cyfdecyf/cow"
+rule = "codelingo/go/non-exiting-goroutine"
+sha = "41c0fb157c8b939b724ae0d58dad3a1b7cd2e811"
+
+[[issues]]
+  filepath = "pac.go"
+  fileline = 203
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "sitestat.go"
+  fileline = 443
+  comment = "This goroutine does not exit and may cause a resource leak."

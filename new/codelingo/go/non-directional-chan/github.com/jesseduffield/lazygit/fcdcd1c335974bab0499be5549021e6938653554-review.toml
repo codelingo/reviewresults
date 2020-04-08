@@ -1,0 +1,83 @@
+repo = "github.com/jesseduffield/lazygit"
+rule = "codelingo/go/non-directional-chan"
+sha = "fcdcd1c335974bab0499be5549021e6938653554"
+
+[[issues]]
+  filepath = "pkg/tasks/tasks.go"
+  fileline = 49
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/gui/tasks_adapter.go"
+  fileline = 61
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/gui/gui.go"
+  fileline = 460
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vendor/golang.org/x/crypto/ssh/tcpip.go"
+  fileline = 163
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/gui/tasks_adapter.go"
+  fileline = 38
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/gui/gui.go"
+  fileline = 442
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vendor/github.com/kevinburke/ssh_config/lexer.go"
+  fileline = 228
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/tasks/tasks.go"
+  fileline = 48
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/gui/gui.go"
+  fileline = 469
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/gui/gui.go"
+  fileline = 333
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/tasks/tasks.go"
+  fileline = 168
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vendor/github.com/spf13/viper/viper.go"
+  fileline = 76
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vendor/github.com/go-git/go-git/v5/plumbing/transport/internal/common/common.go"
+  fileline = 145
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vendor/github.com/kevinburke/ssh_config/parser.go"
+  fileline = 171
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/gui/gui.go"
+  fileline = 479
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/tasks/tasks.go"
+  fileline = 21
+  comment = "Returned channels or channel arguments should generally have a direction."

@@ -1,0 +1,8 @@
+repo = "github.com/xtaci/kcptun"
+rule = "codelingo/go/non-directional-chan"
+sha = "7cf99098cf73d54f025b799998a29a829ed0b8ae"
+
+[[issues]]
+  filepath = "client/main.go"
+  fileline = 465
+  comment = "Returned channels or channel arguments should generally have a direction."

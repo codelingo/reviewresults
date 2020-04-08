@@ -1,0 +1,13 @@
+repo = "github.com/rkt/rkt"
+rule = "codelingo/go/non-exiting-goroutine"
+sha = "171c416fac02516604e48d2e65153dd55a12513e"
+
+[[issues]]
+  filepath = "vendor/github.com/coreos/go-systemd/dbus/subscription.go"
+  fileline = 114
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "tests/rkt-monitor/main.go"
+  fileline = 178
+  comment = "This goroutine does not exit and may cause a resource leak."

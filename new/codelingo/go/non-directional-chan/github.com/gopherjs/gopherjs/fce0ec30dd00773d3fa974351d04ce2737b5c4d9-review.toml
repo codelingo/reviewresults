@@ -1,0 +1,23 @@
+repo = "github.com/gopherjs/gopherjs"
+rule = "codelingo/go/non-directional-chan"
+sha = "fce0ec30dd00773d3fa974351d04ce2737b5c4d9"
+
+[[issues]]
+  filepath = "tests/deferblock_test.go"
+  fileline = 18
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "tests/misc_test.go"
+  fileline = 348
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "tests/deferblock_test.go"
+  fileline = 8
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "tests/misc_test.go"
+  fileline = 375
+  comment = "Returned channels or channel arguments should generally have a direction."

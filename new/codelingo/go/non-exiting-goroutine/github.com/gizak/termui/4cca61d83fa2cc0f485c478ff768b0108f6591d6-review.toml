@@ -1,0 +1,8 @@
+repo = "github.com/gizak/termui"
+rule = "codelingo/go/non-exiting-goroutine"
+sha = "4cca61d83fa2cc0f485c478ff768b0108f6591d6"
+
+[[issues]]
+  filepath = "v3/events.go"
+  fileline = 73
+  comment = "This goroutine does not exit and may cause a resource leak."
