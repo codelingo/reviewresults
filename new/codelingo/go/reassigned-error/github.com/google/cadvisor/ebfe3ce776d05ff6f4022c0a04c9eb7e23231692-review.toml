@@ -1,0 +1,13 @@
+repo = "github.com/google/cadvisor"
+rule = "codelingo/go/reassigned-error"
+sha = "ebfe3ce776d05ff6f4022c0a04c9eb7e23231692"
+
+[[issues]]
+  filepath = "utils/cpuload/netlink/conn.go"
+  fileline = 39
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "utils/sysinfo/sysinfo.go"
+  fileline = 208
+  comment = "Error was not checked before reassignment"
