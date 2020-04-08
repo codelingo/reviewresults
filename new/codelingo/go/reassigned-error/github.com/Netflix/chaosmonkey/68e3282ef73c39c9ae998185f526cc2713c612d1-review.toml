@@ -1,0 +1,8 @@
+repo = "github.com/Netflix/chaosmonkey"
+rule = "codelingo/go/reassigned-error"
+sha = "68e3282ef73c39c9ae998185f526cc2713c612d1"
+
+[[issues]]
+  filepath = "command/eligible.go"
+  fileline = 30
+  comment = "Error was not checked before reassignment"

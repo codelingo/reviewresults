@@ -1,0 +1,8 @@
+repo = "github.com/grafana/loki"
+rule = "codelingo/go/non-exiting-goroutine"
+sha = "8e5fa03de3b3cf7efa15e4959bd5b7decae2d944"
+
+[[issues]]
+  filepath = "pkg/ingester/instance_test.go"
+  fileline = 86
+  comment = "This goroutine does not exit and may cause a resource leak."

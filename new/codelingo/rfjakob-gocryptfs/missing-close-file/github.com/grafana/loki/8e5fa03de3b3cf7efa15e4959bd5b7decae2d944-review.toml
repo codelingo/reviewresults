@@ -1,0 +1,8 @@
+repo = "github.com/grafana/loki"
+rule = "codelingo/rfjakob-gocryptfs/missing-close-file"
+sha = "8e5fa03de3b3cf7efa15e4959bd5b7decae2d944"
+
+[[issues]]
+  filepath = "pkg/loki/runtime_config.go"
+  fileline = 23
+  comment = "Close the file when you are done"

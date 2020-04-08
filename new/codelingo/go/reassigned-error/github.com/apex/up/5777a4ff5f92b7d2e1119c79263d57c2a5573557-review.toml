@@ -1,0 +1,8 @@
+repo = "github.com/apex/up"
+rule = "codelingo/go/reassigned-error"
+sha = "5777a4ff5f92b7d2e1119c79263d57c2a5573557"
+
+[[issues]]
+  filepath = "internal/cli/stack/stack.go"
+  fileline = 35
+  comment = "Error was not checked before reassignment"
