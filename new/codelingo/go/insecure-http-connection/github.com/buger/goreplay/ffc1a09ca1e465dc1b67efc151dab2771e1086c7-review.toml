@@ -3,6 +3,8 @@ rule = "codelingo/go/insecure-http-connection"
 sha = "ffc1a09ca1e465dc1b67efc151dab2771e1086c7"
 
 [[issues]]
-  filepath = "input_tcp_test.go"
-  fileline = 115
   comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+  fileline = 115
+  filepath = "input_tcp_test.go"
+  fixed = false
+  ignored = "fp"
