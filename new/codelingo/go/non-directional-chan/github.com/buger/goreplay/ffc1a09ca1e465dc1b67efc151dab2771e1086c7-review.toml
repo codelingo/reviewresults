@@ -3,16 +3,22 @@ rule = "codelingo/go/non-directional-chan"
 sha = "ffc1a09ca1e465dc1b67efc151dab2771e1086c7"
 
 [[issues]]
-  filepath = "emitter.go"
+  comment = "Returned channels or channel arguments should generally have a direction."
   fileline = 11
-  comment = "Returned channels or channel arguments should generally have a direction."
+  filepath = "emitter.go"
+  fixed = true
+  ignored = ""
 
 [[issues]]
-  filepath = "raw_socket_listener/listener.go"
+  comment = "Returned channels or channel arguments should generally have a direction."
   fileline = 893
-  comment = "Returned channels or channel arguments should generally have a direction."
+  filepath = "raw_socket_listener/listener.go"
+  fixed = false
+  ignored = "returned chan"
 
 [[issues]]
-  filepath = "vendor/github.com/google/gopacket/packet.go"
-  fileline = 837
   comment = "Returned channels or channel arguments should generally have a direction."
+  fileline = 837
+  filepath = "vendor/github.com/google/gopacket/packet.go"
+  fixed = false
+  ignored = "returned chan"
