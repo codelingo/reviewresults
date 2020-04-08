@@ -3,86 +3,120 @@ rule = "codelingo/go/non-directional-chan"
 sha = "745f5d2a257785cd165111f2b20992d0422b90c8"
 
 [[issues]]
-  filepath = "weed/shell/command_volume_fsck.go"
+  comment = "Returned channels or channel arguments should generally have a direction."
   fileline = 194
-  comment = "Returned channels or channel arguments should generally have a direction."
-
-[[issues]]
-  filepath = "weed/command/benchmark.go"
-  fileline = 198
-  comment = "Returned channels or channel arguments should generally have a direction."
-
-[[issues]]
-  filepath = "weed/command/benchmark.go"
-  fileline = 198
-  comment = "Returned channels or channel arguments should generally have a direction."
-
-[[issues]]
-  filepath = "weed/command/benchmark.go"
-  fileline = 270
-  comment = "Returned channels or channel arguments should generally have a direction."
-
-[[issues]]
-  filepath = "weed/shell/command_fs_meta_save.go"
-  fileline = 99
-  comment = "Returned channels or channel arguments should generally have a direction."
-
-[[issues]]
-  filepath = "weed/command/filer_copy.go"
-  fileline = 184
-  comment = "Returned channels or channel arguments should generally have a direction."
-
-[[issues]]
-  filepath = "weed/command/benchmark.go"
-  fileline = 339
-  comment = "Returned channels or channel arguments should generally have a direction."
-
-[[issues]]
-  filepath = "weed/command/benchmark.go"
-  fileline = 339
-  comment = "Returned channels or channel arguments should generally have a direction."
-
-[[issues]]
-  filepath = "weed/shell/command_fs_meta_save.go"
-  fileline = 99
-  comment = "Returned channels or channel arguments should generally have a direction."
-
-[[issues]]
-  filepath = "weed/command/benchmark.go"
-  fileline = 437
-  comment = "Returned channels or channel arguments should generally have a direction."
-
-[[issues]]
-  filepath = "weed/shell/command_fs_meta_save.go"
-  fileline = 80
-  comment = "Returned channels or channel arguments should generally have a direction."
-
-[[issues]]
-  filepath = "weed/server/master_grpc_server.go"
-  fileline = 250
-  comment = "Returned channels or channel arguments should generally have a direction."
-
-[[issues]]
-  filepath = "weed/command/filer_copy.go"
-  fileline = 223
-  comment = "Returned channels or channel arguments should generally have a direction."
-
-[[issues]]
-  filepath = "weed/command/benchmark.go"
-  fileline = 358
-  comment = "Returned channels or channel arguments should generally have a direction."
-
-[[issues]]
   filepath = "weed/shell/command_volume_fsck.go"
-  fileline = 187
-  comment = "Returned channels or channel arguments should generally have a direction."
+  fixed = true
+  ignored = ""
 
 [[issues]]
-  filepath = "weed/topology/store_replicate.go"
-  fileline = 141
   comment = "Returned channels or channel arguments should generally have a direction."
+  fileline = 198
+  filepath = "weed/command/benchmark.go"
+  fixed = true
+  ignored = ""
 
 [[issues]]
+  comment = "Returned channels or channel arguments should generally have a direction."
+  fileline = 198
+  filepath = "weed/command/benchmark.go"
+  fixed = true
+  ignored = ""
+
+[[issues]]
+  comment = "Returned channels or channel arguments should generally have a direction."
+  fileline = 270
+  filepath = "weed/command/benchmark.go"
+  fixed = true
+  ignored = ""
+
+[[issues]]
+  comment = "Returned channels or channel arguments should generally have a direction."
+  fileline = 99
   filepath = "weed/shell/command_fs_meta_save.go"
-  fileline = 72
+  fixed = false
+  ignored = "unsure"
+
+[[issues]]
   comment = "Returned channels or channel arguments should generally have a direction."
+  fileline = 184
+  filepath = "weed/command/filer_copy.go"
+  fixed = true
+  ignored = ""
+
+[[issues]]
+  comment = "Returned channels or channel arguments should generally have a direction."
+  fileline = 339
+  filepath = "weed/command/benchmark.go"
+  fixed = true
+  ignored = ""
+
+[[issues]]
+  comment = "Returned channels or channel arguments should generally have a direction."
+  fileline = 339
+  filepath = "weed/command/benchmark.go"
+  fixed = true
+  ignored = ""
+
+[[issues]]
+  comment = "Returned channels or channel arguments should generally have a direction."
+  fileline = 99
+  filepath = "weed/shell/command_fs_meta_save.go"
+  fixed = false
+  ignored = "unsure"
+
+[[issues]]
+  comment = "Returned channels or channel arguments should generally have a direction."
+  fileline = 437
+  filepath = "weed/command/benchmark.go"
+  fixed = true
+  ignored = ""
+
+[[issues]]
+  comment = "Returned channels or channel arguments should generally have a direction."
+  fileline = 80
+  filepath = "weed/shell/command_fs_meta_save.go"
+  fixed = true
+  ignored = ""
+
+[[issues]]
+  comment = "Returned channels or channel arguments should generally have a direction."
+  fileline = 250
+  filepath = "weed/server/master_grpc_server.go"
+  fixed = false
+  ignored = "returned chan"
+
+[[issues]]
+  comment = "Returned channels or channel arguments should generally have a direction."
+  fileline = 223
+  filepath = "weed/command/filer_copy.go"
+  fixed = true
+  ignored = ""
+
+[[issues]]
+  comment = "Returned channels or channel arguments should generally have a direction."
+  fileline = 358
+  filepath = "weed/command/benchmark.go"
+  fixed = true
+  ignored = ""
+
+[[issues]]
+  comment = "Returned channels or channel arguments should generally have a direction."
+  fileline = 187
+  filepath = "weed/shell/command_volume_fsck.go"
+  fixed = true
+  ignored = ""
+
+[[issues]]
+  comment = "Returned channels or channel arguments should generally have a direction."
+  fileline = 141
+  filepath = "weed/topology/store_replicate.go"
+  fixed = true
+  ignored = ""
+
+[[issues]]
+  comment = "Returned channels or channel arguments should generally have a direction."
+  fileline = 72
+  filepath = "weed/shell/command_fs_meta_save.go"
+  fixed = true
+  ignored = ""
