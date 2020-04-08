@@ -1,0 +1,213 @@
+repo = "github.com/go-gitea/gitea"
+rule = "codelingo/go/reassigned-error"
+sha = "089b34858ce1ce3101b13fa8e14e4e56e0a02a90"
+
+[[issues]]
+  filepath = "models/repo_indexer.go"
+  fileline = 94
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "models/migrations/v128.go"
+  fileline = 84
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "models/org_test.go"
+  fileline = 248
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "routers/repo/wiki.go"
+  fileline = 227
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "models/user_openid_test.go"
+  fileline = 16
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "integrations/migration-test/migration_test.go"
+  fileline = 173
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "integrations/migration-test/migration_test.go"
+  fileline = 173
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "integrations/migration-test/migration_test.go"
+  fileline = 178
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "models/issue_label_test.go"
+  fileline = 68
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "modules/lfs/server.go"
+  fileline = 634
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "models/u2f.go"
+  fileline = 90
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "integrations/pull_merge_test.go"
+  fileline = 64
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "modules/base/tool_test.go"
+  fileline = 42
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "integrations/pull_merge_test.go"
+  fileline = 108
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "models/issue_label_test.go"
+  fileline = 147
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "models/issue_label_test.go"
+  fileline = 147
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "models/issue_label_test.go"
+  fileline = 150
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "models/issue_label_test.go"
+  fileline = 153
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "models/issue_label_test.go"
+  fileline = 105
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "integrations/repofiles_update_test.go"
+  fileline = 282
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "models/login_source.go"
+  fileline = 394
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "models/user_openid_test.go"
+  fileline = 34
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "models/user_openid_test.go"
+  fileline = 39
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "models/user_openid_test.go"
+  fileline = 68
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "models/user_openid_test.go"
+  fileline = 58
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "models/user_openid_test.go"
+  fileline = 58
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "models/user_openid_test.go"
+  fileline = 63
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "models/user_openid_test.go"
+  fileline = 52
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "routers/api/v1/notify/user.go"
+  fileline = 56
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "modules/git/tree_entry_test.go"
+  fileline = 93
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "modules/git/tree_entry_test.go"
+  fileline = 86
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "modules/git/tree_entry_test.go"
+  fileline = 79
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "models/fixture_test.go"
+  fileline = 21
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "models/issue_label_test.go"
+  fileline = 190
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "models/issue_label_test.go"
+  fileline = 190
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "models/issue_label_test.go"
+  fileline = 196
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "models/issue_label_test.go"
+  fileline = 193
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "modules/charset/charset.go"
+  fileline = 25
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "modules/context/repo.go"
+  fileline = 91
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "modules/repository/fork.go"
+  fileline = 19
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "models/issue_label_test.go"
+  fileline = 229
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "models/login_source.go"
+  fileline = 317
+  comment = "Error was not checked before reassignment"

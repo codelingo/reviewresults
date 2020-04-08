@@ -1,0 +1,13 @@
+repo = "github.com/goharbor/harbor"
+rule = "codelingo/lomik-go-carbon/missing-stop-ticker"
+sha = "6ad855f0eec34528af12bf53e55b1fb90e5b1574"
+
+[[issues]]
+  filepath = "src/core/api/health.go"
+  fileline = 182
+  comment = "Stop the ticker to release associated resources."
+
+[[issues]]
+  filepath = "src/replication/registry/healthcheck.go"
+  fileline = 59
+  comment = "Stop the ticker to release associated resources."

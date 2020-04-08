@@ -1,0 +1,113 @@
+repo = "github.com/hashicorp/packer"
+rule = "codelingo/go/ticker-in-for-select"
+sha = "3892e0905a0e98b0548aac05646aeeda97b778dc"
+
+[[issues]]
+  filepath = "command/build_cancellation_test.go"
+  fileline = 78
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "provisioner/windows-restart/provisioner.go"
+  fileline = 221
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "helper/communicator/step_connect_ssh.go"
+  fileline = 78
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "builder/azure/chroot/diskattacher.go"
+  fileline = 107
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "builder/osc/common/step_get_password.go"
+  fileline = 114
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "common/step_provision.go"
+  fileline = 130
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "builder/vmware/common/step_shutdown.go"
+  fileline = 125
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "builder/lxc/step_wait_init.go"
+  fileline = 76
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "helper/communicator/step_connect_winrm.go"
+  fileline = 96
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "builder/osc/common/step_get_password.go"
+  fileline = 80
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "builder/lxc/step_wait_init.go"
+  fileline = 51
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "builder/digitalocean/step_shutdown.go"
+  fileline = 62
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "builder/vsphere/iso/step_boot_command.go"
+  fileline = 101
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "common/multistep_runner.go"
+  fileline = 144
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "helper/communicator/step_connect_ssh.go"
+  fileline = 128
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "builder/amazon/common/step_get_password.go"
+  fileline = 111
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "helper/communicator/step_connect_winrm.go"
+  fileline = 169
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "builder/azure/chroot/diskattacher.go"
+  fileline = 59
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "common/multistep_debug.go"
+  fileline = 44
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "builder/jdcloud/common.go"
+  fileline = 184
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "builder/vsphere/common/step_wait_for_ip.go"
+  fileline = 92
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "helper/communicator/step_connect_winrm.go"
+  fileline = 78
+  comment = "Make one ticker as opposed to making a new timer each iteration."

@@ -1,0 +1,33 @@
+repo = "github.com/go-martini/martini"
+rule = "codelingo/go/unchecked-type-assertion"
+sha = "22fa46961aabd2665cf3f1343b146d20028f5071"
+
+[[issues]]
+  filepath = "return_handler.go"
+  fileline = 18
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "martini.go"
+  fileline = 84
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "router.go"
+  fileline = 417
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "logger.go"
+  fileline = 24
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "router.go"
+  fileline = 347
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "recovery.go"
+  fileline = 124
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."

@@ -1,0 +1,148 @@
+repo = "github.com/hashicorp/consul"
+rule = "codelingo/go/default-in-type-switch"
+sha = "aae14b39514d7d4e0537d35308d6959f35bfbc48"
+
+[[issues]]
+  filepath = "api/watch/funcs.go"
+  fileline = 314
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "agent/structs/check_definition.go"
+  fileline = 108
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "agent/structs/structs.go"
+  fileline = 1430
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "agent/structs/structs.go"
+  fileline = 1410
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "acl/policy.go"
+  fileline = 532
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "agent/structs/structs.go"
+  fileline = 1420
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "agent/structs/check_type.go"
+  fileline = 119
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "agent/cache-types/connect_ca_leaf_test.go"
+  fileline = 928
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "api/health.go"
+  fileline = 133
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "agent/structs/structs.go"
+  fileline = 1440
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "agent/structs/check_type.go"
+  fileline = 109
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "agent/consul/auto_encrypt.go"
+  fileline = 215
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "agent/structs/acl.go"
+  fileline = 283
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "agent/structs/check_definition.go"
+  fileline = 128
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "agent/discovery_chain_endpoint.go"
+  fileline = 142
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "agent/structs/check_type.go"
+  fileline = 129
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "agent/consul/helper_test.go"
+  fileline = 122
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "agent/structs/check_type.go"
+  fileline = 139
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "agent/structs/check_definition.go"
+  fileline = 98
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "agent/dns_test.go"
+  fileline = 4038
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "agent/http_decode_test.go"
+  fileline = 2808
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "api/health.go"
+  fileline = 146
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "agent/cache-types/connect_ca_leaf_test.go"
+  fileline = 946
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "agent/structs/check_definition.go"
+  fileline = 118
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "api/health.go"
+  fileline = 119
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "agent/structs/structs.go"
+  fileline = 2041
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "agent/dns.go"
+  fileline = 1227
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "agent/cache-types/connect_ca_leaf_test.go"
+  fileline = 581
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "agent/http_decode_test.go"
+  fileline = 2758
+  comment = "Always include a default case when using a type switch."

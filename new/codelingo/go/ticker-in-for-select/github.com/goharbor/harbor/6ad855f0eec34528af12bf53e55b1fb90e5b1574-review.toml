@@ -1,0 +1,13 @@
+repo = "github.com/goharbor/harbor"
+rule = "codelingo/go/ticker-in-for-select"
+sha = "6ad855f0eec34528af12bf53e55b1fb90e5b1574"
+
+[[issues]]
+  filepath = "src/pkg/scan/job.go"
+  fileline = 211
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "src/jobservice/hook/hook_agent.go"
+  fileline = 208
+  comment = "Make one ticker as opposed to making a new timer each iteration."

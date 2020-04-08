@@ -1,0 +1,153 @@
+repo = "github.com/hashicorp/vault"
+rule = "codelingo/go/default-in-type-switch"
+sha = "6af3329f477bf78338c6de2340818bfbf368a466"
+
+[[issues]]
+  filepath = "sdk/logical/response.go"
+  fileline = 93
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "builtin/logical/pki/crl_util.go"
+  fileline = 217
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "builtin/logical/pki/path_root.go"
+  fileline = 308
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vault/core_util.go"
+  fileline = 64
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "builtin/logical/pki/path_root.go"
+  fileline = 410
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "builtin/logical/pki/crl_util.go"
+  fileline = 75
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "builtin/logical/pki/path_root.go"
+  fileline = 151
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "builtin/logical/pki/backend_test.go"
+  fileline = 249
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "physical/alicloudoss/alicloudoss.go"
+  fileline = 149
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "sdk/plugin/pb/translation.go"
+  fileline = 69
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "builtin/logical/pki/path_fetch.go"
+  fileline = 162
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "sdk/helper/identitytpl/templating.go"
+  fileline = 83
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "builtin/logical/pki/path_fetch.go"
+  fileline = 186
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "builtin/logical/mongodb/path_roles.go"
+  fileline = 138
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "vault/core_util.go"
+  fileline = 77
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "builtin/logical/pki/path_issue_sign.go"
+  fileline = 205
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "builtin/logical/pki/path_root.go"
+  fileline = 284
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "command/util.go"
+  fileline = 93
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "sdk/database/dbplugin/plugin.go"
+  fileline = 115
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "sdk/plugin/plugin.go"
+  fileline = 151
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "builtin/logical/pki/crl_util.go"
+  fileline = 124
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "builtin/logical/pki/crl_util.go"
+  fileline = 56
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "builtin/logical/pki/path_config_crl.go"
+  fileline = 116
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "command/base_helpers.go"
+  fileline = 262
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "sdk/helper/certutil/helpers.go"
+  fileline = 157
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "sdk/helper/policyutil/policyutil.go"
+  fileline = 27
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "builtin/logical/pki/crl_util.go"
+  fileline = 37
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "builtin/logical/pki/path_fetch.go"
+  fileline = 214
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "command/format.go"
+  fileline = 73
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "sdk/helper/identitytpl/templating.go"
+  fileline = 51
+  comment = "Always include a default case when using a type switch."

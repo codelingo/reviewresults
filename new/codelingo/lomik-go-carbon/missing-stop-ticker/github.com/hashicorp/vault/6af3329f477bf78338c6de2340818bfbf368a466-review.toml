@@ -1,0 +1,18 @@
+repo = "github.com/hashicorp/vault"
+rule = "codelingo/lomik-go-carbon/missing-stop-ticker"
+sha = "6af3329f477bf78338c6de2340818bfbf368a466"
+
+[[issues]]
+  filepath = "physical/spanner/spanner_ha.go"
+  fileline = 278
+  comment = "Stop the ticker to release associated resources."
+
+[[issues]]
+  filepath = "physical/dynamodb/dynamodb.go"
+  fileline = 730
+  comment = "Stop the ticker to release associated resources."
+
+[[issues]]
+  filepath = "physical/gcs/gcs_ha.go"
+  fileline = 275
+  comment = "Stop the ticker to release associated resources."

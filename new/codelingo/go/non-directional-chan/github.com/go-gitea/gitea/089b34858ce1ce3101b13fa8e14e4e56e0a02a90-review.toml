@@ -1,0 +1,18 @@
+repo = "github.com/go-gitea/gitea"
+rule = "codelingo/go/non-directional-chan"
+sha = "089b34858ce1ce3101b13fa8e14e4e56e0a02a90"
+
+[[issues]]
+  filepath = "modules/log/log_test.go"
+  fileline = 14
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "modules/log/log_test.go"
+  fileline = 14
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "modules/templates/helper.go"
+  fileline = 422
+  comment = "Returned channels or channel arguments should generally have a direction."

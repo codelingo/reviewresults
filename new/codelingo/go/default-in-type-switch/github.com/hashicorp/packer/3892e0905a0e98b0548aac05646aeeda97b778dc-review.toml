@@ -1,0 +1,93 @@
+repo = "github.com/hashicorp/packer"
+rule = "codelingo/go/default-in-type-switch"
+sha = "3892e0905a0e98b0548aac05646aeeda97b778dc"
+
+[[issues]]
+  filepath = "builder/vmware/common/driver_parser.go"
+  fileline = 908
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "helper/config/decode.go"
+  fileline = 60
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "scripts/generate-plugins.go"
+  fileline = 197
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "fix/helpers.go"
+  fileline = 12
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "builder/vmware/common/driver_parser.go"
+  fileline = 1404
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "builder/vmware/common/driver_parser.go"
+  fileline = 1725
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "builder/vmware/common/driver_parser.go"
+  fileline = 958
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "builder/vsphere/driver/vm.go"
+  fileline = 396
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "builder/vmware/common/driver_parser.go"
+  fileline = 1023
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "builder/qemu/step_run.go"
+  fileline = 262
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "helper/ssh/key_pair.go"
+  fileline = 70
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "cmd/mapstructure-to-hcl2/mapstructure-to-hcl2.go"
+  fileline = 252
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "fix/fixer_qemu_disk_size.go"
+  fileline = 38
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "builder/vmware/common/driver_parser.go"
+  fileline = 1377
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "cmd/mapstructure-to-hcl2/mapstructure-to-hcl2.go"
+  fileline = 294
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "builder/vmware/common/driver_parser.go"
+  fileline = 1048
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "builder/azure/common/client/tokenprovider_cert.go"
+  fileline = 131
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "builder/vmware/common/driver_parser.go"
+  fileline = 933
+  comment = "Always include a default case when using a type switch."

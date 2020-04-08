@@ -1,0 +1,308 @@
+repo = "github.com/goharbor/harbor"
+rule = "codelingo/go/reassigned-error"
+sha = "6ad855f0eec34528af12bf53e55b1fb90e5b1574"
+
+[[issues]]
+  filepath = "src/jobservice/config/config_test.go"
+  fileline = 145
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "src/jobservice/config/config_test.go"
+  fileline = 145
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "src/jobservice/config/config_test.go"
+  fileline = 148
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "src/jobservice/config/config_test.go"
+  fileline = 148
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "src/jobservice/config/config_test.go"
+  fileline = 149
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "src/jobservice/config/config_test.go"
+  fileline = 149
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "src/jobservice/config/config_test.go"
+  fileline = 150
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "src/jobservice/config/config_test.go"
+  fileline = 150
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "src/jobservice/config/config_test.go"
+  fileline = 151
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "src/jobservice/config/config_test.go"
+  fileline = 151
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "src/jobservice/config/config_test.go"
+  fileline = 152
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "src/jobservice/config/config_test.go"
+  fileline = 152
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "src/jobservice/config/config_test.go"
+  fileline = 153
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "src/jobservice/config/config_test.go"
+  fileline = 146
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "src/jobservice/config/config_test.go"
+  fileline = 146
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "src/jobservice/config/config_test.go"
+  fileline = 147
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "src/core/api/ldap.go"
+  fileline = 138
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "src/common/config/encrypt/encrypt_test.go"
+  fileline = 13
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "src/core/api/scanners.go"
+  fileline = 82
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "src/jobservice/core/controller_test.go"
+  fileline = 123
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "src/core/api/retention.go"
+  fileline = 255
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "src/core/api/retention.go"
+  fileline = 245
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "src/core/api/ldap.go"
+  fileline = 94
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "src/jobservice/common/rds/utils.go"
+  fileline = 129
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "src/jobservice/common/rds/utils.go"
+  fileline = 130
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "src/jobservice/config/config_test.go"
+  fileline = 133
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "src/jobservice/config/config_test.go"
+  fileline = 133
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "src/jobservice/config/config_test.go"
+  fileline = 136
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "src/jobservice/config/config_test.go"
+  fileline = 132
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "src/jobservice/config/config_test.go"
+  fileline = 129
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "src/jobservice/config/config_test.go"
+  fileline = 129
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "src/jobservice/config/config_test.go"
+  fileline = 138
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "src/jobservice/config/config_test.go"
+  fileline = 129
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "src/jobservice/config/config_test.go"
+  fileline = 131
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "src/jobservice/config/config_test.go"
+  fileline = 130
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "src/jobservice/config/config_test.go"
+  fileline = 130
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "src/jobservice/config/config_test.go"
+  fileline = 137
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "src/jobservice/config/config_test.go"
+  fileline = 134
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "src/jobservice/config/config_test.go"
+  fileline = 134
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "src/jobservice/config/config_test.go"
+  fileline = 135
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "src/pkg/notification/policy/manager/manager.go"
+  fileline = 108
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "src/controller/scan/base_controller.go"
+  fileline = 577
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "src/controller/artifact/processor/chart/chart_test.go"
+  fileline = 51
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "src/pkg/blob/dao/dao_test.go"
+  fileline = 157
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "src/jobservice/job/tracker.go"
+  fileline = 238
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "src/pkg/immutabletag/dao/immutable_test.go"
+  fileline = 37
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "src/core/api/retention.go"
+  fileline = 291
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "src/jobservice/job/tracker.go"
+  fileline = 353
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "src/jobservice/job/tracker.go"
+  fileline = 354
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "src/pkg/scan/report/base_manager_test.go"
+  fileline = 142
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "src/common/utils/oidc/helper.go"
+  fileline = 288
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "src/replication/registry/manager.go"
+  fileline = 168
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "src/jobservice/migration/migrator_v180.go"
+  fileline = 156
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "src/pkg/quota/manager_test.go"
+  fileline = 83
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "src/pkg/tag/dao/dao_test.go"
+  fileline = 98
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "src/core/auth/authenticator.go"
+  fileline = 132
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "src/jobservice/common/rds/utils_test.go"
+  fileline = 78
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "src/common/dao/dao_test.go"
+  fileline = 284
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "src/testing/apitests/apilib/harlogin.go"
+  fileline = 20
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "src/core/api/registry.go"
+  fileline = 193
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "src/testing/apitests/apilib/harborapi.go"
+  fileline = 68
+  comment = "Error was not checked before reassignment"

@@ -1,0 +1,333 @@
+repo = "github.com/hashicorp/vault"
+rule = "codelingo/go/non-directional-chan"
+sha = "6af3329f477bf78338c6de2340818bfbf368a466"
+
+[[issues]]
+  filepath = "physical/dynamodb/dynamodb.go"
+  fileline = 652
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vault/ha.go"
+  fileline = 388
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vault/ha.go"
+  fileline = 388
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "physical/postgresql/postgresql.go"
+  fileline = 438
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vault/cluster/inmem_layer.go"
+  fileline = 49
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "physical/mysql/mysql.go"
+  fileline = 442
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "physical/mysql/mysql.go"
+  fileline = 442
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "physical/mysql/mysql.go"
+  fileline = 442
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "physical/zookeeper/zookeeper.go"
+  fileline = 558
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "physical/zookeeper/zookeeper.go"
+  fileline = 558
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "physical/zookeeper/zookeeper.go"
+  fileline = 558
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "command/commands.go"
+  fileline = 671
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "physical/mysql/mysql.go"
+  fileline = 469
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vault/ha.go"
+  fileline = 55
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "command/agent/auth/cert/cert.go"
+  fileline = 60
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vault/ha.go"
+  fileline = 52
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vault/ha.go"
+  fileline = 52
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vault/ha.go"
+  fileline = 52
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "physical/zookeeper/zookeeper.go"
+  fileline = 586
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "command/commands_nonwindows.go"
+  fileline = 14
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "command/agent/auth/cf/cf.go"
+  fileline = 77
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vault/request_forwarding.go"
+  fileline = 145
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "physical/etcd/etcd2.go"
+  fileline = 429
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "command/agent/sink/sink.go"
+  fileline = 73
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "physical/raft/streamlayer.go"
+  fileline = 315
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vault/ha.go"
+  fileline = 632
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vault/ha.go"
+  fileline = 51
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vault/cluster/inmem_layer.go"
+  fileline = 369
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "command/agent/auth/aws/aws.go"
+  fileline = 243
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "command/agent/auth/auth_test.go"
+  fileline = 47
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "command/agent/auth/kerberos/kerberos.go"
+  fileline = 76
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "sdk/helper/pluginutil/runner.go"
+  fileline = 138
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vault/cluster/cluster.go"
+  fileline = 262
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "command/agent/auth/kubernetes/kubernetes.go"
+  fileline = 90
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "physical/foundationdb/foundationdb.go"
+  fileline = 658
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "physical/foundationdb/foundationdb.go"
+  fileline = 658
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vault/core.go"
+  fileline = 2067
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vault/ha.go"
+  fileline = 665
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vault/ha.go"
+  fileline = 665
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vault/core_util.go"
+  fileline = 128
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vault/request_forwarding.go"
+  fileline = 43
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vault/ha.go"
+  fileline = 56
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vault/ha.go"
+  fileline = 56
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vault/ha.go"
+  fileline = 56
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vault/cluster/cluster.go"
+  fileline = 43
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "physical/foundationdb/foundationdb.go"
+  fileline = 769
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "command/agent/template/template.go"
+  fileline = 77
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "command/agent/auth/jwt/jwt.go"
+  fileline = 105
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "physical/dynamodb/dynamodb.go"
+  fileline = 622
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "physical/dynamodb/dynamodb.go"
+  fileline = 622
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "physical/postgresql/postgresql.go"
+  fileline = 416
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "physical/postgresql/postgresql.go"
+  fileline = 416
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "command/commands.go"
+  fileline = 686
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "command/agent/auth/auth.go"
+  fileline = 18
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "physical/etcd/etcd2.go"
+  fileline = 415
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "physical/dynamodb/dynamodb.go"
+  fileline = 727
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "command/agent/auth/azure/azure.go"
+  fileline = 132
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "command/commands_windows.go"
+  fileline = 6
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "command/agent/auth/approle/approle.go"
+  fileline = 204
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "command/agent/auth/gcp/gcp.go"
+  fileline = 233
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "physical/foundationdb/foundationdb.go"
+  fileline = 706
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "physical/foundationdb/foundationdb.go"
+  fileline = 706
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "physical/foundationdb/foundationdb.go"
+  fileline = 706
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vault/ha.go"
+  fileline = 711
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vault/ha.go"
+  fileline = 329
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "command/agent/auth/alicloud/alicloud.go"
+  fileline = 190
+  comment = "Returned channels or channel arguments should generally have a direction."

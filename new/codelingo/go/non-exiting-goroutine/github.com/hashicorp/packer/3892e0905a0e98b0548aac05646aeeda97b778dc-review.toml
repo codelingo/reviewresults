@@ -1,0 +1,63 @@
+repo = "github.com/hashicorp/packer"
+rule = "codelingo/go/non-exiting-goroutine"
+sha = "3892e0905a0e98b0548aac05646aeeda97b778dc"
+
+[[issues]]
+  filepath = "common/step_create_floppy.go"
+  fileline = 357
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "log.go"
+  fileline = 37
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "builder/vmware/common/driver_parser.go"
+  fileline = 1175
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "common/iochan/iochan.go"
+  fileline = 22
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "builder/vmware/common/driver_parser.go"
+  fileline = 1125
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "packer/plugin/server.go"
+  fileline = 82
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "builder/vmware/common/driver_parser.go"
+  fileline = 1671
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "builder/vmware/common/driver_parser.go"
+  fileline = 237
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "builder/vagrant/driver_2_2.go"
+  fileline = 247
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "command/meta.go"
+  fileline = 151
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "builder/vmware/common/driver_parser.go"
+  fileline = 25
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "builder/vmware/common/driver_parser.go"
+  fileline = 58
+  comment = "This goroutine does not exit and may cause a resource leak."

@@ -1,0 +1,43 @@
+repo = "github.com/google/grumpy"
+rule = "codelingo/go/unchecked-type-assertion"
+sha = "3ec87959189cfcdeae82eb68a47648ac25ceb10b"
+
+[[issues]]
+  filepath = "runtime/long_test.go"
+  fileline = 201
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "runtime/native_test.go"
+  fileline = 697
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "runtime/type.go"
+  fileline = 169
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "runtime/long_test.go"
+  fileline = 187
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "runtime/native_test.go"
+  fileline = 292
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "runtime/slots_test.go"
+  fileline = 167
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "runtime/native.go"
+  fileline = 492
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "tools/pkgc.go"
+  fileline = 99
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."

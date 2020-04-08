@@ -1,0 +1,13 @@
+repo = "github.com/go-gitea/gitea"
+rule = "codelingo/rfjakob-gocryptfs/missing-close-file"
+sha = "089b34858ce1ce3101b13fa8e14e4e56e0a02a90"
+
+[[issues]]
+  filepath = "modules/lfs/content_store.go"
+  fileline = 34
+  comment = "Close the file when you are done"
+
+[[issues]]
+  filepath = "modules/git/repo_commitgraph.go"
+  fileline = 22
+  comment = "Close the file when you are done"

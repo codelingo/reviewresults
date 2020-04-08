@@ -1,0 +1,28 @@
+repo = "github.com/goharbor/harbor"
+rule = "codelingo/go/non-exiting-goroutine"
+sha = "6ad855f0eec34528af12bf53e55b1fb90e5b1574"
+
+[[issues]]
+  filepath = "src/common/utils/oidc/helper.go"
+  fileline = 67
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "src/cmd/migrate-patch/main.go"
+  fileline = 39
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "src/testing/apitests/api-testing/client/docker_client.go"
+  fileline = 83
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "src/pkg/permission/evaluator/rbac/casbin_match.go"
+  fileline = 68
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "src/core/api/health.go"
+  fileline = 183
+  comment = "This goroutine does not exit and may cause a resource leak."

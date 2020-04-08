@@ -1,0 +1,33 @@
+repo = "github.com/goharbor/harbor"
+rule = "codelingo/go/non-directional-chan"
+sha = "6ad855f0eec34528af12bf53e55b1fb90e5b1574"
+
+[[issues]]
+  filepath = "src/replication/replication.go"
+  fileline = 68
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "src/replication/registry/healthcheck.go"
+  fileline = 39
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "src/jobservice/runtime/bootstrap.go"
+  fileline = 182
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "src/pkg/notifier/notifier.go"
+  fileline = 190
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "src/core/api/health.go"
+  fileline = 90
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "src/core/main.go"
+  fileline = 84
+  comment = "Returned channels or channel arguments should generally have a direction."

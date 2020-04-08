@@ -1,0 +1,8 @@
+repo = "github.com/goharbor/harbor"
+rule = "codelingo/go/insecure-http-connection"
+sha = "6ad855f0eec34528af12bf53e55b1fb90e5b1574"
+
+[[issues]]
+  filepath = "src/common/utils/oidc/helper.go"
+  fileline = 107
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
