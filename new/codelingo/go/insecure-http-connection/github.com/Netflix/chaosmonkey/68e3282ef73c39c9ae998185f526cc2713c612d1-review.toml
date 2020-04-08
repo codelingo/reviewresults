@@ -3,6 +3,8 @@ rule = "codelingo/go/insecure-http-connection"
 sha = "68e3282ef73c39c9ae998185f526cc2713c612d1"
 
 [[issues]]
-  filepath = "spinnaker/spinnaker.go"
-  fileline = 96
   comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+  fileline = 96
+  filepath = "spinnaker/spinnaker.go"
+  fixed = true
+  ignored = ""
