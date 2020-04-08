@@ -1,0 +1,18 @@
+repo = "github.com/stretchr/testify"
+rule = "codelingo/go/reassigned-error"
+sha = "36f3f1ec859a61d43488b716233f520ff8fce203"
+
+[[issues]]
+  filepath = "assert/assertions_test.go"
+  fileline = 1010
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "assert/assertions_test.go"
+  fileline = 1041
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "_codegen/main.go"
+  fileline = 175
+  comment = "Error was not checked before reassignment"

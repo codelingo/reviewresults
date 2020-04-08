@@ -1,0 +1,68 @@
+repo = "github.com/google/gvisor"
+rule = "codelingo/go/reassigned-error"
+sha = "2907e6da5e9fc7eeda51644db7bec4d15691b384"
+
+[[issues]]
+  filepath = "runsc/container/container_test.go"
+  fileline = 218
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "pkg/p9/p9test/client_test.go"
+  fileline = 310
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "pkg/sentry/mm/io.go"
+  fileline = 469
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "pkg/sentry/mm/io.go"
+  fileline = 458
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "test/root/crictl_test.go"
+  fileline = 133
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "test/root/oom_score_adj_test.go"
+  fileline = 361
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "pkg/sentry/syscalls/linux/vfs2/poll.go"
+  fileline = 189
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "pkg/sentry/fs/dirent.go"
+  fileline = 1320
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "runsc/fsgofer/fsgofer_test.go"
+  fileline = 206
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "runsc/fsgofer/fsgofer_test.go"
+  fileline = 253
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "pkg/sentry/fs/fdpipe/pipe_test.go"
+  fileline = 94
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "pkg/sentry/syscalls/linux/sys_poll.go"
+  fileline = 186
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "pkg/sentry/syscalls/linux/sys_poll.go"
+  fileline = 174
+  comment = "Error was not checked before reassignment"

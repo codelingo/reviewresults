@@ -1,0 +1,38 @@
+repo = "github.com/jaegertracing/jaeger"
+rule = "codelingo/go/reassigned-error"
+sha = "bf870d9e2bffaf4758045919446be75ac9fc9783"
+
+[[issues]]
+  filepath = "examples/hotrod/services/customer/server.go"
+  fileline = 79
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "model/span_test.go"
+  fileline = 134
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "examples/hotrod/services/frontend/server.go"
+  fileline = 94
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "cmd/agent/app/servers/thriftudp/transport_test.go"
+  fileline = 136
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "model/span_test.go"
+  fileline = 60
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "examples/hotrod/pkg/tracing/init.go"
+  fileline = 33
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "plugin/storage/integration/elasticsearch_test.go"
+  fileline = 72
+  comment = "Error was not checked before reassignment"
