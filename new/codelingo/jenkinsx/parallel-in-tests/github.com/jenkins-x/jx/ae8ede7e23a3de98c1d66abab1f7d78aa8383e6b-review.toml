@@ -1,0 +1,3043 @@
+repo = "github.com/jenkins-x/jx"
+rule = "codelingo/jenkinsx/parallel-in-tests"
+sha = "ae8ede7e23a3de98c1d66abab1f7d78aa8383e6b"
+
+[[issues]]
+  filepath = "pkg/cmd/add/add_app_test.go"
+  fileline = 1204
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/add/add_app_test.go"
+  fileline = 581
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/add/add_app_test.go"
+  fileline = 132
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/add/add_app_test.go"
+  fileline = 367
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/add/add_app_test.go"
+  fileline = 930
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/add/add_app_test.go"
+  fileline = 1315
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/add/add_app_test.go"
+  fileline = 500
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/add/add_app_test.go"
+  fileline = 1406
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/add/add_app_test.go"
+  fileline = 990
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/add/add_app_test.go"
+  fileline = 1077
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/add/add_app_test.go"
+  fileline = 870
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/add/add_app_test.go"
+  fileline = 681
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/add/add_app_test.go"
+  fileline = 58
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/add/add_app_test.go"
+  fileline = 738
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/add/add_app_test.go"
+  fileline = 810
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/add/add_app_test.go"
+  fileline = 218
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/add/add_app_test.go"
+  fileline = 1143
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/kube/vault/vault_factory_test.go"
+  fileline = 13
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/kube/vault/vault_factory_test.go"
+  fileline = 58
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/kube/vault/vault_factory_test.go"
+  fileline = 43
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/kube/vault/vault_factory_test.go"
+  fileline = 28
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/gits/operations/pull_request_op_test.go"
+  fileline = 570
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/gits/operations/pull_request_op_test.go"
+  fileline = 458
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/gits/operations/pull_request_op_test.go"
+  fileline = 740
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/gits/operations/pull_request_op_test.go"
+  fileline = 86
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/gits/operations/pull_request_op_test.go"
+  fileline = 51
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/gits/operations/pull_request_op_test.go"
+  fileline = 284
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/gits/operations/pull_request_op_test.go"
+  fileline = 344
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/gits/operations/pull_request_op_test.go"
+  fileline = 160
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/gits/operations/pull_request_op_test.go"
+  fileline = 111
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/gits/operations/pull_request_op_test.go"
+  fileline = 479
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/gits/operations/pull_request_op_test.go"
+  fileline = 634
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/pipelinescheduler/builder_test.go"
+  fileline = 17
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/gits/provider_test.go"
+  fileline = 154
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/gits/bitbucket_cloud_test.go"
+  fileline = 508
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/helm/helm_cli_test.go"
+  fileline = 141
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/helm/helm_cli_test.go"
+  fileline = 188
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/helm/helm_cli_test.go"
+  fileline = 123
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/helm/helm_cli_test.go"
+  fileline = 259
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/helm/helm_cli_test.go"
+  fileline = 292
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/helm/helm_cli_test.go"
+  fileline = 385
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/helm/helm_cli_test.go"
+  fileline = 226
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/helm/helm_cli_test.go"
+  fileline = 237
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/helm/helm_cli_test.go"
+  fileline = 175
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/helm/helm_cli_test.go"
+  fileline = 371
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/helm/helm_cli_test.go"
+  fileline = 356
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/helm/helm_cli_test.go"
+  fileline = 310
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/helm/helm_cli_test.go"
+  fileline = 248
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/helm/helm_cli_test.go"
+  fileline = 103
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/helm/helm_cli_test.go"
+  fileline = 197
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/helm/helm_cli_test.go"
+  fileline = 165
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/helm/helm_cli_test.go"
+  fileline = 326
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/helm/helm_cli_test.go"
+  fileline = 80
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/helm/helm_cli_test.go"
+  fileline = 92
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/helm/helm_cli_test.go"
+  fileline = 210
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/helm/helm_cli_test.go"
+  fileline = 113
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/helm/helm_cli_test.go"
+  fileline = 270
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/prow/env_vars_test.go"
+  fileline = 15
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/prow/env_vars_test.go"
+  fileline = 32
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/util/downloads_test.go"
+  fileline = 124
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/util/downloads_test.go"
+  fileline = 114
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/vault/helpers_test.go"
+  fileline = 50
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/vault/helpers_test.go"
+  fileline = 19
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/environment_expansion_test.go"
+  fileline = 103
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/environment_expansion_test.go"
+  fileline = 25
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/environment_expansion_test.go"
+  fileline = 84
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/environment_expansion_test.go"
+  fileline = 50
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/tests/retry_test.go"
+  fileline = 35
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/tests/retry_test.go"
+  fileline = 26
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/step/create/helmfile/create_helmfile_test.go"
+  fileline = 71
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/step/create/helmfile/create_helmfile_test.go"
+  fileline = 92
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/step/create/helmfile/create_helmfile_test.go"
+  fileline = 125
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/step/create/helmfile/create_helmfile_test.go"
+  fileline = 51
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/step/create/helmfile/create_helmfile_test.go"
+  fileline = 31
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/applications/applications_test.go"
+  fileline = 14
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/commitstatus_expansion_test.go"
+  fileline = 107
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/commitstatus_expansion_test.go"
+  fileline = 88
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/commitstatus_expansion_test.go"
+  fileline = 25
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/commitstatus_expansion_test.go"
+  fileline = 50
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cloud/gke/helper_test.go"
+  fileline = 11
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/step/git/credentials/step_git_credentials_test.go"
+  fileline = 22
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/step/step_values_schema_template_test.go"
+  fileline = 23
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/importcmd/import_test.go"
+  fileline = 168
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/util/strings_test.go"
+  fileline = 124
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/util/strings_test.go"
+  fileline = 61
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/util/strings_test.go"
+  fileline = 41
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/util/strings_test.go"
+  fileline = 162
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/util/strings_test.go"
+  fileline = 36
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/util/strings_test.go"
+  fileline = 157
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/util/strings_test.go"
+  fileline = 87
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/util/strings_test.go"
+  fileline = 92
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/util/strings_test.go"
+  fileline = 49
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/util/strings_test.go"
+  fileline = 20
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/opts/quickstarts_test.go"
+  fileline = 24
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/create/create_cluster_gke_test.go"
+  fileline = 41
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/kube/vault/vault_selector_test.go"
+  fileline = 32
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/kube/vault/vault_selector_test.go"
+  fileline = 87
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/kube/vault/vault_selector_test.go"
+  fileline = 59
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/kube/vault/vault_selector_test.go"
+  fileline = 17
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/kube/vault/vault_selector_test.go"
+  fileline = 71
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/kube/vault/vault_selector_test.go"
+  fileline = 47
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/kube/crds_test.go"
+  fileline = 15
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/kube/crds_test.go"
+  fileline = 29
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/kube/vault/vault_test.go"
+  fileline = 53
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/kube/vault/vault_test.go"
+  fileline = 18
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/clients/fake/fake_factory_test.go"
+  fileline = 13
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/helm/helm_helpers_test.go"
+  fileline = 121
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/helm/helm_helpers_test.go"
+  fileline = 219
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/helm/helm_helpers_test.go"
+  fileline = 181
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/helm/helm_helpers_test.go"
+  fileline = 147
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/helm/helm_helpers_test.go"
+  fileline = 259
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/helm/helm_helpers_test.go"
+  fileline = 105
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/step/verify/step_verify_preinstall_test.go"
+  fileline = 266
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/step/verify/step_verify_preinstall_test.go"
+  fileline = 84
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/step/verify/step_verify_preinstall_test.go"
+  fileline = 329
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/step/verify/step_verify_preinstall_test.go"
+  fileline = 116
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/step/verify/step_verify_preinstall_test.go"
+  fileline = 227
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/gits/credentialhelper/git_credentialhelper_test.go"
+  fileline = 18
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/gits/gerrit_test.go"
+  fileline = 98
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/dependencymatrix/verify_test.go"
+  fileline = 12
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/pipelinestructure_expansion_test.go"
+  fileline = 24
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/pipelinestructure_expansion_test.go"
+  fileline = 49
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/pipelinestructure_expansion_test.go"
+  fileline = 102
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/pipelinestructure_expansion_test.go"
+  fileline = 83
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/pipelineactivity_expansion_test.go"
+  fileline = 103
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/pipelineactivity_expansion_test.go"
+  fileline = 84
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/pipelineactivity_expansion_test.go"
+  fileline = 50
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/pipelineactivity_expansion_test.go"
+  fileline = 25
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/secreturl/helpers_test.go"
+  fileline = 53
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/secreturl/helpers_test.go"
+  fileline = 37
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/secreturl/helpers_test.go"
+  fileline = 20
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/secreturl/helpers_test.go"
+  fileline = 136
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/secreturl/helpers_test.go"
+  fileline = 82
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/secreturl/helpers_test.go"
+  fileline = 124
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/secreturl/helpers_test.go"
+  fileline = 66
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/secreturl/helpers_test.go"
+  fileline = 111
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/secreturl/helpers_test.go"
+  fileline = 95
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cloud/amazon/ec2/ec2_test.go"
+  fileline = 52
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/jenkins/update_center_test.go"
+  fileline = 18
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/jenkins/update_center_test.go"
+  fileline = 14
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/team_expansion_test.go"
+  fileline = 50
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/team_expansion_test.go"
+  fileline = 25
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/team_expansion_test.go"
+  fileline = 103
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/team_expansion_test.go"
+  fileline = 84
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cve/anchore_test.go"
+  fileline = 41
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cloud/amazon/storage/bucket_provider_test.go"
+  fileline = 73
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cloud/amazon/storage/bucket_provider_test.go"
+  fileline = 159
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cloud/amazon/storage/bucket_provider_test.go"
+  fileline = 149
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cloud/amazon/storage/bucket_provider_test.go"
+  fileline = 135
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cloud/amazon/storage/bucket_provider_test.go"
+  fileline = 108
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cloud/amazon/storage/bucket_provider_test.go"
+  fileline = 175
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/packages/packages_test.go"
+  fileline = 27
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/packages/packages_test.go"
+  fileline = 33
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/packages/packages_test.go"
+  fileline = 11
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/collector/bucket_collector_test.go"
+  fileline = 44
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/collector/bucket_collector_test.go"
+  fileline = 20
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cloud/factory/factory_test.go"
+  fileline = 25
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cloud/factory/factory_test.go"
+  fileline = 86
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/create/install_test.go"
+  fileline = 53
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/create/install_test.go"
+  fileline = 39
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/namespace/namespace_test.go"
+  fileline = 47
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/namespace/namespace_test.go"
+  fileline = 25
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/namespace/namespace_test.go"
+  fileline = 78
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/namespace/namespace_test.go"
+  fileline = 109
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/release_expansion_test.go"
+  fileline = 103
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/release_expansion_test.go"
+  fileline = 84
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/release_expansion_test.go"
+  fileline = 25
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/release_expansion_test.go"
+  fileline = 50
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/docker/dockerfile_test.go"
+  fileline = 20
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/get/get_build_logs_test.go"
+  fileline = 92
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/get/get_build_logs_test.go"
+  fileline = 131
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/get/get_build_logs_test.go"
+  fileline = 186
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/get/get_build_logs_test.go"
+  fileline = 37
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/get/get_build_logs_test.go"
+  fileline = 301
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/get/get_build_logs_test.go"
+  fileline = 243
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/get/get_build_logs_test.go"
+  fileline = 355
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/version/info_test.go"
+  fileline = 30
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/version/info_test.go"
+  fileline = 21
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/version/info_test.go"
+  fileline = 14
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/get/get_pipeline_test.go"
+  fileline = 28
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/step/report/step_report_junit_test.go"
+  fileline = 60
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/step/report/step_report_junit_test.go"
+  fileline = 166
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/step/report/step_report_junit_test.go"
+  fileline = 24
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/step/report/step_report_junit_test.go"
+  fileline = 96
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/step/report/step_report_junit_test.go"
+  fileline = 149
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/cmd_test.go"
+  fileline = 16
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "cmd/codegen/util/go_test.go"
+  fileline = 15
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "cmd/codegen/util/go_test.go"
+  fileline = 52
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "cmd/codegen/util/go_test.go"
+  fileline = 41
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "cmd/codegen/util/go_test.go"
+  fileline = 92
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "cmd/codegen/util/go_test.go"
+  fileline = 67
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "cmd/codegen/util/go_test.go"
+  fileline = 77
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "cmd/codegen/util/go_test.go"
+  fileline = 30
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "cmd/codegen/util/go_test.go"
+  fileline = 107
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/upgrade/upgrade_ingress_test.go"
+  fileline = 72
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/kustomize/kustomize_cli_test.go"
+  fileline = 29
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/kustomize/kustomize_cli_test.go"
+  fileline = 14
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/plugin_expansion_test.go"
+  fileline = 25
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/plugin_expansion_test.go"
+  fileline = 102
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/plugin_expansion_test.go"
+  fileline = 84
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/plugin_expansion_test.go"
+  fileline = 50
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/deletecmd/delete_app_test.go"
+  fileline = 27
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/deletecmd/delete_app_test.go"
+  fileline = 118
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/deletecmd/delete_app_test.go"
+  fileline = 72
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/deletecmd/delete_app_test.go"
+  fileline = 143
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/step/create/pr/step_create_pr_versions_test.go"
+  fileline = 34
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/get/get_crd_counts_test.go"
+  fileline = 29
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/step/step_tag_test.go"
+  fileline = 97
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/get/get_preview_test.go"
+  fileline = 28
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/step/helm/step_helm_apply_test.go"
+  fileline = 27
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/kube/env_test.go"
+  fileline = 129
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/kube/env_test.go"
+  fileline = 147
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/environmentrolebinding_expansion_test.go"
+  fileline = 89
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/environmentrolebinding_expansion_test.go"
+  fileline = 108
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/environmentrolebinding_expansion_test.go"
+  fileline = 51
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/environmentrolebinding_expansion_test.go"
+  fileline = 26
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/tekton/syntax/pipeline_internal_test.go"
+  fileline = 10
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/step/buildpack/step_buildpack_apply_test.go"
+  fileline = 138
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/step/buildpack/step_buildpack_apply_test.go"
+  fileline = 127
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/tekton/syntax/pipeline_test.go"
+  fileline = 1854
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/tekton/syntax/pipeline_test.go"
+  fileline = 2001
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/tekton/syntax/pipeline_test.go"
+  fileline = 1473
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/tekton/syntax/pipeline_test.go"
+  fileline = 2079
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/tekton/syntax/pipeline_test.go"
+  fileline = 36
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/builds/helpers_test.go"
+  fileline = 14
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/config/project_config_test.go"
+  fileline = 92
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/kube/field_map_test.go"
+  fileline = 15
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/auth/gitcredentials_auth_test.go"
+  fileline = 13
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/auth/gitcredentials_auth_test.go"
+  fileline = 68
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cloud/buckets/buckets_test.go"
+  fileline = 14
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/step/scheduler/step_scheduler_config_migrate_test.go"
+  fileline = 65
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/step/scheduler/step_scheduler_config_migrate_test.go"
+  fileline = 37
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/step/scheduler/step_scheduler_config_migrate_test.go"
+  fileline = 163
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/step/scheduler/step_scheduler_config_migrate_test.go"
+  fileline = 51
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/logs/tekton_logging_test.go"
+  fileline = 333
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/logs/tekton_logging_test.go"
+  fileline = 62
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/logs/tekton_logging_test.go"
+  fileline = 118
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/logs/tekton_logging_test.go"
+  fileline = 552
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/logs/tekton_logging_test.go"
+  fileline = 589
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/logs/tekton_logging_test.go"
+  fileline = 43
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/logs/tekton_logging_test.go"
+  fileline = 516
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/logs/tekton_logging_test.go"
+  fileline = 260
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/logs/tekton_logging_test.go"
+  fileline = 480
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/logs/tekton_logging_test.go"
+  fileline = 150
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/logs/tekton_logging_test.go"
+  fileline = 424
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/logs/tekton_logging_test.go"
+  fileline = 199
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/logs/tekton_logging_test.go"
+  fileline = 295
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/logs/tekton_logging_test.go"
+  fileline = 91
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/logs/tekton_logging_test.go"
+  fileline = 171
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/logs/tekton_logging_test.go"
+  fileline = 225
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/logs/tekton_logging_test.go"
+  fileline = 371
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/logs/tekton_logging_test.go"
+  fileline = 403
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/util/files_test.go"
+  fileline = 134
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/util/files_test.go"
+  fileline = 124
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/util/files_test.go"
+  fileline = 128
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/util/files_test.go"
+  fileline = 151
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/tekton/pipelines_test.go"
+  fileline = 102
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/tekton/pipelines_test.go"
+  fileline = 141
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/tekton/pipelines_test.go"
+  fileline = 65
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/tekton/pipelines_test.go"
+  fileline = 180
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/tekton/pipelines_test.go"
+  fileline = 32
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/tekton/pipelines_test.go"
+  fileline = 224
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/step/report/step_report_chart_test.go"
+  fileline = 18
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/opts/kustomize_test.go"
+  fileline = 22
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/step/git/step_git_merge_test.go"
+  fileline = 22
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/pipeline/pipelinerunner_controller_test.go"
+  fileline = 78
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/util/environ_test.go"
+  fileline = 82
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/util/environ_test.go"
+  fileline = 13
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/gits/gitlab_test.go"
+  fileline = 234
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/step/verify/step_verify_ingress_test.go"
+  fileline = 31
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/kube/build_lock_test.go"
+  fileline = 636
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/kube/build_lock_test.go"
+  fileline = 708
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/kube/build_lock_test.go"
+  fileline = 621
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/kube/build_lock_test.go"
+  fileline = 662
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/kube/build_lock_test.go"
+  fileline = 565
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/kube/build_lock_test.go"
+  fileline = 602
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/kube/build_lock_test.go"
+  fileline = 584
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/kube/build_lock_test.go"
+  fileline = 800
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/kube/build_lock_test.go"
+  fileline = 527
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/kube/build_lock_test.go"
+  fileline = 649
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/kube/build_lock_test.go"
+  fileline = 754
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/kube/build_lock_test.go"
+  fileline = 843
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/kube/build_lock_test.go"
+  fileline = 540
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/kube/build_lock_test.go"
+  fileline = 25
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/ui/ui_test.go"
+  fileline = 91
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/ui/ui_test.go"
+  fileline = 25
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/ui/ui_test.go"
+  fileline = 52
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/ui/ui_test.go"
+  fileline = 107
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/uninstall/uninstall_test.go"
+  fileline = 105
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/uninstall/uninstall_test.go"
+  fileline = 220
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/uninstall/uninstall_test.go"
+  fileline = 238
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/uninstall/uninstall_test.go"
+  fileline = 202
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/uninstall/uninstall_test.go"
+  fileline = 35
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/uninstall/uninstall_test.go"
+  fileline = 51
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/uninstall/uninstall_test.go"
+  fileline = 147
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/uninstall/uninstall_test.go"
+  fileline = 79
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/uninstall/uninstall_test.go"
+  fileline = 259
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cloud/aks/aks_test.go"
+  fileline = 23
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cloud/aks/aks_test.go"
+  fileline = 68
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cloud/aks/aks_test.go"
+  fileline = 83
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cloud/aks/aks_test.go"
+  fileline = 53
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cloud/aks/aks_test.go"
+  fileline = 98
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cloud/aks/aks_test.go"
+  fileline = 44
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/gits/bitbucket_server_test.go"
+  fileline = 409
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/tekton/metapipeline/clientfactory_test.go"
+  fileline = 106
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/tekton/metapipeline/clientfactory_test.go"
+  fileline = 54
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/tekton/metapipeline/clientfactory_test.go"
+  fileline = 85
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/tekton/metapipeline/clientfactory_test.go"
+  fileline = 128
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/tekton/metapipeline/clientfactory_test.go"
+  fileline = 27
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/tekton/metapipeline/clientfactory_test.go"
+  fileline = 64
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/apis/jenkins.io/v1/types_environment_test.go"
+  fileline = 19
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/apis/jenkins.io/v1/types_environment_test.go"
+  fileline = 46
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/step/scheduler/step_scheduler_config_apply_test.go"
+  fileline = 112
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/step/scheduler/step_scheduler_config_apply_test.go"
+  fileline = 86
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/step/scheduler/step_scheduler_config_apply_test.go"
+  fileline = 62
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/step/scheduler/step_scheduler_config_apply_test.go"
+  fileline = 74
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/step/scheduler/step_scheduler_config_apply_test.go"
+  fileline = 164
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/step/scheduler/step_scheduler_config_apply_test.go"
+  fileline = 50
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/step/scheduler/step_scheduler_config_apply_test.go"
+  fileline = 138
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/step/scheduler/step_scheduler_config_apply_test.go"
+  fileline = 38
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/step/scheduler/step_scheduler_config_apply_test.go"
+  fileline = 230
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/step/step_changelog_test.go"
+  fileline = 16
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/auth/configmap_vault_config_handler_test.go"
+  fileline = 144
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/auth/configmap_vault_config_handler_test.go"
+  fileline = 185
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/auth/configmap_vault_config_handler_test.go"
+  fileline = 104
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/auth/configmap_vault_config_handler_test.go"
+  fileline = 20
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/auth/configmap_vault_config_handler_test.go"
+  fileline = 64
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/gits/git_url_test.go"
+  fileline = 171
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/extension_expansion_test.go"
+  fileline = 50
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/extension_expansion_test.go"
+  fileline = 103
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/extension_expansion_test.go"
+  fileline = 84
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/extension_expansion_test.go"
+  fileline = 25
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/tekton/metapipeline/pullref_test.go"
+  fileline = 11
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/log/log_test.go"
+  fileline = 11
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/log/log_test.go"
+  fileline = 25
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/kube/log_masker_test.go"
+  fileline = 18
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/kube/log_masker_test.go"
+  fileline = 51
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/surveyutils/schema_template_test.go"
+  fileline = 18
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/buildnum/http_build_num_test.go"
+  fileline = 52
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/buildnum/http_build_num_test.go"
+  fileline = 44
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/buildnum/http_build_num_test.go"
+  fileline = 20
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/buildnum/http_build_num_test.go"
+  fileline = 33
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/config/install_applications_test.go"
+  fileline = 13
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/config/install_applications_test.go"
+  fileline = 22
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/config/install_applications_test.go"
+  fileline = 28
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/user_expansion_test.go"
+  fileline = 50
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/user_expansion_test.go"
+  fileline = 103
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/user_expansion_test.go"
+  fileline = 25
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/user_expansion_test.go"
+  fileline = 84
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 734
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 301
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 500
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 824
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 124
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 253
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 919
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 279
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 618
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 775
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 212
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 901
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 187
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 847
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 91
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 142
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 389
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 47
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 587
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 697
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 367
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 756
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 176
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 715
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 955
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 457
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 323
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 518
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 232
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 406
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 556
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 937
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 64
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 797
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 345
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 972
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 423
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 639
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 107
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 163
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 661
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 482
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 679
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 865
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 440
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 540
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 989
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 883
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/promote/promote_test.go"
+  fileline = 260
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/promote/promote_test.go"
+  fileline = 323
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/promote/promote_test.go"
+  fileline = 168
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/promote/promote_test.go"
+  fileline = 275
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/promote/promote_test.go"
+  fileline = 40
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/promote/promote_test.go"
+  fileline = 356
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/promote/promote_test.go"
+  fileline = 245
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/promote/promote_test.go"
+  fileline = 98
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/promote/promote_test.go"
+  fileline = 290
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/opts/releases_test.go"
+  fileline = 22
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/brew/brew_test.go"
+  fileline = 20
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/step/step_wait_for_chart_test.go"
+  fileline = 21
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/start/start_protection_test.go"
+  fileline = 35
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/upgrade/upgrade_cli_test.go"
+  fileline = 164
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/upgrade/upgrade_cli_test.go"
+  fileline = 125
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/upgrade/upgrade_cli_test.go"
+  fileline = 138
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/upgrade/upgrade_cli_test.go"
+  fileline = 93
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/upgrade/upgrade_cli_test.go"
+  fileline = 87
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/upgrade/upgrade_cli_test.go"
+  fileline = 179
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/upgrade/upgrade_cli_test.go"
+  fileline = 151
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/upgrade/upgrade_cli_test.go"
+  fileline = 192
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/buildpack_expansion_test.go"
+  fileline = 25
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/buildpack_expansion_test.go"
+  fileline = 103
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/buildpack_expansion_test.go"
+  fileline = 84
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/buildpack_expansion_test.go"
+  fileline = 50
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/jenkinsfile/gitresolver/buildpack_test.go"
+  fileline = 19
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/gits/github_test.go"
+  fileline = 25
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/gits/features/disable_features_test.go"
+  fileline = 17
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/gits/git_cli_test.go"
+  fileline = 783
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/gits/git_cli_test.go"
+  fileline = 664
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/gits/git_cli_test.go"
+  fileline = 25
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/gits/git_cli_test.go"
+  fileline = 693
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/gits/git_cli_test.go"
+  fileline = 836
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/kube/cluster/cluster_test.go"
+  fileline = 84
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/kube/cluster/cluster_test.go"
+  fileline = 67
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/kube/cluster/cluster_test.go"
+  fileline = 24
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/upgrade/upgrade_apps_test.go"
+  fileline = 555
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/upgrade/upgrade_apps_test.go"
+  fileline = 39
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/upgrade/upgrade_apps_test.go"
+  fileline = 186
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/upgrade/upgrade_apps_test.go"
+  fileline = 106
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/upgrade/upgrade_apps_test.go"
+  fileline = 619
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/upgrade/upgrade_apps_test.go"
+  fileline = 477
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/upgrade/upgrade_apps_test.go"
+  fileline = 374
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/upgrade/upgrade_apps_test.go"
+  fileline = 274
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/gits/provider_githubapp_test.go"
+  fileline = 17
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/importcmd/import_placehoders_test.go"
+  fileline = 17
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/tekton/metapipeline/metapipeline_test.go"
+  fileline = 24
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/get/get_apps_test.go"
+  fileline = 29
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/get/get_apps_test.go"
+  fileline = 136
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/get/get_apps_test.go"
+  fileline = 63
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/get/get_apps_test.go"
+  fileline = 370
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/get/get_apps_test.go"
+  fileline = 98
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/get/get_apps_test.go"
+  fileline = 282
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/get/get_apps_test.go"
+  fileline = 174
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/get/get_apps_test.go"
+  fileline = 209
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/get/get_apps_test.go"
+  fileline = 326
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/get/get_apps_test.go"
+  fileline = 244
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/kube/activity_test.go"
+  fileline = 521
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/kube/activity_test.go"
+  fileline = 28
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/status_test.go"
+  fileline = 22
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/opts/common_test.go"
+  fileline = 54
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/opts/common_test.go"
+  fileline = 63
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/opts/common_test.go"
+  fileline = 157
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/opts/common_test.go"
+  fileline = 70
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/opts/common_test.go"
+  fileline = 146
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/opts/common_test.go"
+  fileline = 179
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/opts/common_test.go"
+  fileline = 168
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/opts/common_test.go"
+  fileline = 94
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/opts/common_test.go"
+  fileline = 77
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/opts/common_test.go"
+  fileline = 202
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/opts/common_test.go"
+  fileline = 45
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/opts/common_test.go"
+  fileline = 128
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/gits/helpers_test.go"
+  fileline = 2229
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/gits/helpers_test.go"
+  fileline = 253
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/gits/helpers_test.go"
+  fileline = 1517
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/gits/helpers_test.go"
+  fileline = 223
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/gits/helpers_test.go"
+  fileline = 35
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/gits/helpers_test.go"
+  fileline = 441
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/gits/helpers_test.go"
+  fileline = 912
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/gits/helpers_test.go"
+  fileline = 2198
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/gits/helpers_test.go"
+  fileline = 1127
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/gits/helpers_test.go"
+  fileline = 1160
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/gits/helpers_test.go"
+  fileline = 66
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/gits/helpers_test.go"
+  fileline = 1546
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/gits/helpers_test.go"
+  fileline = 78
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/gits/helpers_test.go"
+  fileline = 509
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/gits/helpers_test.go"
+  fileline = 2128
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/gits/helpers_test.go"
+  fileline = 2166
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/gits/helpers_test.go"
+  fileline = 1019
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/gits/helpers_test.go"
+  fileline = 608
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/gits/helpers_test.go"
+  fileline = 809
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/gits/helpers_test.go"
+  fileline = 706
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/gits/helpers_test.go"
+  fileline = 310
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/gits/helpers_test.go"
+  fileline = 131
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/gits/helpers_test.go"
+  fileline = 383
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/gits/helpers_test.go"
+  fileline = 96
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/gits/helpers_test.go"
+  fileline = 2235
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/kube/velero/velero_test.go"
+  fileline = 50
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/kube/velero/velero_test.go"
+  fileline = 13
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/config/install_requirements_test.go"
+  fileline = 328
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/config/install_requirements_test.go"
+  fileline = 412
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/dependencymatrix/matrix_test.go"
+  fileline = 60
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/dependencymatrix/matrix_test.go"
+  fileline = 22
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/dependencymatrix/matrix_test.go"
+  fileline = 229
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/dependencymatrix/matrix_test.go"
+  fileline = 112
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/dependencymatrix/matrix_test.go"
+  fileline = 164
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/dependencymatrix/matrix_test.go"
+  fileline = 263
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/vault/rule_test.go"
+  fileline = 13
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/features/features_test.go"
+  fileline = 51
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/features/features_test.go"
+  fileline = 12
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/features/features_test.go"
+  fileline = 38
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/features/features_test.go"
+  fileline = 25
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/workflow_expansion_test.go"
+  fileline = 84
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/workflow_expansion_test.go"
+  fileline = 103
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/workflow_expansion_test.go"
+  fileline = 50
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/workflow_expansion_test.go"
+  fileline = 25
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/gitservice_expansion_test.go"
+  fileline = 25
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/gitservice_expansion_test.go"
+  fileline = 84
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/gitservice_expansion_test.go"
+  fileline = 50
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/gitservice_expansion_test.go"
+  fileline = 103
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cloud/amazon/ecr_test.go"
+  fileline = 16
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cloud/amazon/ecr_test.go"
+  fileline = 28
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "cmd/jx/jx_test.go"
+  fileline = 27
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cloud/gke/storage/bucket_provider_test.go"
+  fileline = 33
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cloud/gke/storage/bucket_provider_test.go"
+  fileline = 15
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/jxfactory/connector/provider/integration_test.go"
+  fileline = 19
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/pipelinescheduler/config_builder_test.go"
+  fileline = 18
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/pipelinescheduler/config_builder_test.go"
+  fileline = 95
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/pipelinescheduler/config_builder_test.go"
+  fileline = 173
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/pipelinescheduler/config_builder_test.go"
+  fileline = 108
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/pipelinescheduler/config_builder_test.go"
+  fileline = 69
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/pipelinescheduler/config_builder_test.go"
+  fileline = 134
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/pipelinescheduler/config_builder_test.go"
+  fileline = 43
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/pipelinescheduler/config_builder_test.go"
+  fileline = 160
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/pipelinescheduler/config_builder_test.go"
+  fileline = 147
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/pipelinescheduler/config_builder_test.go"
+  fileline = 121
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/pipelinescheduler/config_builder_test.go"
+  fileline = 56
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/pipelinescheduler/config_builder_test.go"
+  fileline = 82
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/controller_build_test.go"
+  fileline = 41
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/controller_build_test.go"
+  fileline = 93
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/controller_build_test.go"
+  fileline = 206
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/controller_build_test.go"
+  fileline = 147
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/controller_build_test.go"
+  fileline = 161
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/controller_build_test.go"
+  fileline = 28
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/extensions/plugins_test.go"
+  fileline = 35
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/extensions/plugins_test.go"
+  fileline = 93
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cluster/eks/clusterclient_test.go"
+  fileline = 121
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cluster/eks/clusterclient_test.go"
+  fileline = 78
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cluster/eks/clusterclient_test.go"
+  fileline = 19
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cluster/eks/clusterclient_test.go"
+  fileline = 50
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cloud/gke/storage/long_term_storage_test.go"
+  fileline = 12
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cloud/gke/storage/long_term_storage_test.go"
+  fileline = 18
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/util/jenkinsfile_writer_test.go"
+  fileline = 12
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/step/create/step_create_templated_config_test.go"
+  fileline = 46
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/step/create/step_create_templated_config_test.go"
+  fileline = 109
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/step/create/step_create_templated_config_test.go"
+  fileline = 85
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/step/create/step_create_templated_config_test.go"
+  fileline = 152
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/step/create/step_create_templated_config_test.go"
+  fileline = 196
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/dependencymatrix/updates_test.go"
+  fileline = 13
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/dependencymatrix/updates_test.go"
+  fileline = 33
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/auth/user_auth_test.go"
+  fileline = 110
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/auth/user_auth_test.go"
+  fileline = 23
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/versionstream/version_data_test.go"
+  fileline = 94
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/versionstream/version_data_test.go"
+  fileline = 143
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/versionstream/version_data_test.go"
+  fileline = 48
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/versionstream/version_data_test.go"
+  fileline = 23
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/versionstream/version_data_test.go"
+  fileline = 64
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/versionstream/version_data_test.go"
+  fileline = 30
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/versionstream/version_data_test.go"
+  fileline = 38
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/versionstream/version_data_test.go"
+  fileline = 130
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/sourcerepository_expansion_test.go"
+  fileline = 84
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/sourcerepository_expansion_test.go"
+  fileline = 103
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/sourcerepository_expansion_test.go"
+  fileline = 25
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/sourcerepository_expansion_test.go"
+  fileline = 50
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/step/verify/step_verify_environments_test.go"
+  fileline = 181
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/step/verify/step_verify_environments_test.go"
+  fileline = 253
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/step/verify/step_verify_environments_test.go"
+  fileline = 122
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/step/verify/step_verify_environments_test.go"
+  fileline = 68
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/step/verify/step_verify_environments_test.go"
+  fileline = 29
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cloud/amazon/session/common_test.go"
+  fileline = 26
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cloud/amazon/session/common_test.go"
+  fileline = 16
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cloud/amazon/session/common_test.go"
+  fileline = 56
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cloud/amazon/session/common_test.go"
+  fileline = 66
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cloud/amazon/session/common_test.go"
+  fileline = 46
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cloud/amazon/session/common_test.go"
+  fileline = 36
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/fact_expansion_test.go"
+  fileline = 50
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/fact_expansion_test.go"
+  fileline = 84
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/fact_expansion_test.go"
+  fileline = 25
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/fact_expansion_test.go"
+  fileline = 103
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/opts/helm_test.go"
+  fileline = 21
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/opts/helm_test.go"
+  fileline = 70
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/util/regex_test.go"
+  fileline = 16
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/kube/sourcerepositories_test.go"
+  fileline = 54
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/kube/sourcerepositories_test.go"
+  fileline = 21
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/get/get_activity_test.go"
+  fileline = 24
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/jenkinsfile/pipeline_test.go"
+  fileline = 54
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/jenkinsfile/pipeline_test.go"
+  fileline = 64
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/jenkinsfile/pipeline_test.go"
+  fileline = 40
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/jenkinsfile/pipeline_test.go"
+  fileline = 19
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/jenkinsfile/pipeline_test.go"
+  fileline = 33
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/jenkinsfile/pipeline_test.go"
+  fileline = 12
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/jenkinsfile/pipeline_test.go"
+  fileline = 47
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/jenkinsfile/pipeline_test.go"
+  fileline = 26
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/step/create/step_create_values_test.go"
+  fileline = 167
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/step/create/step_create_values_test.go"
+  fileline = 47
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/step/step_replicate_test.go"
+  fileline = 42
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/step/step_replicate_test.go"
+  fileline = 53
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/step/step_replicate_test.go"
+  fileline = 30
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/step/step_replicate_test.go"
+  fileline = 66
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/step/step_replicate_test.go"
+  fileline = 20
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
+
+[[issues]]
+  filepath = "pkg/cmd/step/step_replicate_test.go"
+  fileline = 120
+  comment = "This unit test does not contain the `t.Parallel()` directive. Consider adding `t.Parallel()` as the first line of this test to keep it nice and speedy."
