@@ -3,26 +3,36 @@ rule = "codelingo/go/non-directional-chan"
 sha = "41c0fb157c8b939b724ae0d58dad3a1b7cd2e811"
 
 [[issues]]
-  filepath = "conn_pool.go"
+  comment = "Returned channels or channel arguments should generally have a direction."
   fileline = 176
-  comment = "Returned channels or channel arguments should generally have a direction."
+  filepath = "conn_pool.go"
+  fixed = false
+  ignored = "unidirectional"
 
 [[issues]]
-  filepath = "proxy.go"
+  comment = "Returned channels or channel arguments should generally have a direction."
   fileline = 1069
-  comment = "Returned channels or channel arguments should generally have a direction."
+  filepath = "proxy.go"
+  fixed = false
+  ignored = "chan only closed"
 
 [[issues]]
-  filepath = "conn_pool.go"
+  comment = "Returned channels or channel arguments should generally have a direction."
   fileline = 48
-  comment = "Returned channels or channel arguments should generally have a direction."
+  filepath = "conn_pool.go"
+  fixed = true
+  ignored = ""
 
 [[issues]]
-  filepath = "conn_pool.go"
+  comment = "Returned channels or channel arguments should generally have a direction."
   fileline = 33
-  comment = "Returned channels or channel arguments should generally have a direction."
+  filepath = "conn_pool.go"
+  fixed = true
+  ignored = ""
 
 [[issues]]
-  filepath = "conn_pool.go"
-  fileline = 143
   comment = "Returned channels or channel arguments should generally have a direction."
+  fileline = 143
+  filepath = "conn_pool.go"
+  fixed = false
+  ignored = "unidirectional"
