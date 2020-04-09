@@ -3,26 +3,36 @@ rule = "codelingo/go/non-directional-chan"
 sha = "f624449ccbf42c56279c594eadc226fed6583993"
 
 [[issues]]
-  filepath = "pkg/udp/proxy.go"
+  comment = "Returned channels or channel arguments should generally have a direction."
   fileline = 49
-  comment = "Returned channels or channel arguments should generally have a direction."
+  filepath = "pkg/udp/proxy.go"
+  fixed = true
+  ignored = ""
 
 [[issues]]
-  filepath = "pkg/provider/kubernetes/ingress/kubernetes.go"
+  comment = "Returned channels or channel arguments should generally have a direction."
   fileline = 567
-  comment = "Returned channels or channel arguments should generally have a direction."
+  filepath = "pkg/provider/kubernetes/ingress/kubernetes.go"
+  fixed = false
+  ignored = "returned chan"
 
 [[issues]]
-  filepath = "pkg/tcp/proxy.go"
+  comment = "Returned channels or channel arguments should generally have a direction."
   fileline = 55
-  comment = "Returned channels or channel arguments should generally have a direction."
+  filepath = "pkg/tcp/proxy.go"
+  fixed = true
+  ignored = ""
 
 [[issues]]
-  filepath = "pkg/provider/acme/provider.go"
+  comment = "Returned channels or channel arguments should generally have a direction."
   fileline = 107
-  comment = "Returned channels or channel arguments should generally have a direction."
+  filepath = "pkg/provider/acme/provider.go"
+  fixed = false
+  ignored = "unidirectional"
 
 [[issues]]
-  filepath = "pkg/provider/kubernetes/crd/kubernetes.go"
-  fileline = 728
   comment = "Returned channels or channel arguments should generally have a direction."
+  fileline = 728
+  filepath = "pkg/provider/kubernetes/crd/kubernetes.go"
+  fixed = false
+  ignored = "returned chan"
