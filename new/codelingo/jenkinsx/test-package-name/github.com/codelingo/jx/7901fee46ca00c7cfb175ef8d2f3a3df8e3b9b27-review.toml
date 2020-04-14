@@ -1,0 +1,523 @@
+repo = "github.com/codelingo/jx"
+rule = "codelingo/jenkinsx/test-package-name"
+sha = "7901fee46ca00c7cfb175ef8d2f3a3df8e3b9b27"
+
+[[issues]]
+  filepath = "pkg/cmd/step/create/step_create_values_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/jenkinsfile/gitresolver/buildpack_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/cmd/get/get_crd_counts_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "cmd/codegen/util/go_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/workflow_expansion_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/cluster/eks/clusterclient_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/tekton/metapipeline/metapipeline_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/vault/create/create_integration_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/auth/kube_config_handler_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/cloud/gke/storage/bucket_provider_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/cmd/step/verify/step_verify_pod_ready_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/cmd/cmd_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/apis/jenkins.io/v1/types_environment_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/release_expansion_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/builds/jenkinsfiles_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/cmd/ui/ui_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/cmd/step/step_tag_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/config/install_applications_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/health/health_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/util/k8s_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/cmd/step/git/step_git_merge_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/buildnum/http_build_num_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/cmd/step/create/step_create_task_integration_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/cloud/gke/storage/long_term_storage_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/builds/helpers_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/logs/tekton_logging_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/cmd/importcmd/import_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/cmd/upgrade/upgrade_boot_integration_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/cmd/create/create_cluster_gke_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/gitservice_expansion_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/kube/field_map_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/log/log_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/kube/velero/velero_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "cmd/jx/jx_test.go"
+  fileline = 5
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/util/http_utils_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/cloud/gke/images_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/cloud/factory/factory_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/gits/features/disable_features_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/collector/bucket_collector_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/environmentrolebinding_expansion_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/tekton/metapipeline/clientfactory_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/cmd/boot/boot_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/cmd/opts/common_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/cmd/deletecmd/delete_application_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/cmd/step/step_wait_for_chart_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/util/json/patch_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/gits/github_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/cmd/config/patch_configmap_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/cmd/step/create/step_create_task_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/cmd/get/get_build_logs_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/cmd/step/verify/step_verify_preinstall_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/versionstream/version_data_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/io/secrets/secret_locations_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/environment_expansion_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/fact_expansion_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/packages/packages_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/cloud/amazon/ec2/ec2_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/gits/credentialhelper/git_credentialhelper_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/cmd/boot/boot_integration_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/user_expansion_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/team_expansion_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/cmd/opts/helm_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/cmd/step/report/step_report_junit_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/kube/teams_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/cmd/upgrade/upgrade_cli_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/cmd/step/git/credentials/step_git_credentials_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/cmd/gc/gc_gke_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/util/system/version_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/cmd/gc/gc_activities_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/cmd/step/step_replicate_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/cmd/step/create/helmfile/create_helmfile_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/cmd/upgrade/upgrade_boot_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/terraform/terraform_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/pipeline/pipelinerunner_controller_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/util/downloads_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/prow/config/branch_protection_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/sourcerepository_expansion_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/pipelineactivity_expansion_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/commitstatus_expansion_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/buildpack_expansion_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/kube/certmanager_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/cmd/step/report/step_report_chart_test.go"
+  fileline = 5
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/pipelinestructure_expansion_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/cmd/clients/fake/fake_factory_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/util/system/version_linux_test.go"
+  fileline = 4
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/surveyutils/schema_template_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/extension_expansion_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/kube/build_lock_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/cmd/step/verify/step_verify_environments_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/util/pom_flavour_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/util/unzip_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/controller_build_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/applications/applications_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/cmd/opts/kustomize_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/util/dirs_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/auth/gitcredentials_auth_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/tekton/metapipeline/pullref_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/cmd/step/step_values_schema_template_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/cloud/gke/gcloud_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/tekton/syntax/pipeline_internal_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/plugin_expansion_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/cmd/update/update_webhooks_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/helm/helm_template_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."
+
+[[issues]]
+  filepath = "pkg/cloud/amazon/storage/bucket_provider_test.go"
+  fileline = 3
+  comment = "Best practice for unit tests is to define the testing package appending _test to the name of your package."

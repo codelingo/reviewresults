@@ -1,0 +1,2853 @@
+repo = "github.com/ngchain/ngcore"
+rule = "codelingo/code-review-comments/same-receiver-name"
+sha = "16e762e18441963bdb7adf2b32e6f13830196e69"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 364
+  comment = "If you call the receiver \"m\" in \"CalculateHash\" method, don't call it \"x\" in \"ProtoReflect\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 395
+  comment = "If you call the receiver \"m\" in \"CalculateHash\" method, don't call it \"x\" in \"GetParticipants\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 157
+  comment = "If you call the receiver \"x\" in \"String\" method, don't call it \"m\" in \"CheckError\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 157
+  comment = "If you call the receiver \"x\" in \"GetNetwork\" method, don't call it \"m\" in \"CheckError\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 157
+  comment = "If you call the receiver \"x\" in \"GetHeader\" method, don't call it \"m\" in \"CheckError\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 157
+  comment = "If you call the receiver \"x\" in \"ProtoReflect\" method, don't call it \"m\" in \"CheckError\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 157
+  comment = "If you call the receiver \"x\" in \"GetSheet\" method, don't call it \"m\" in \"CheckError\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 157
+  comment = "If you call the receiver \"x\" in \"Reset\" method, don't call it \"m\" in \"CheckError\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 157
+  comment = "If you call the receiver \"x\" in \"GetTxs\" method, don't call it \"m\" in \"CheckError\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 158
+  comment = "If you call the receiver \"x\" in \"String\" method, don't call it \"m\" in \"CheckGenerate\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 158
+  comment = "If you call the receiver \"x\" in \"ProtoReflect\" method, don't call it \"m\" in \"CheckGenerate\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 158
+  comment = "If you call the receiver \"x\" in \"GetSign\" method, don't call it \"m\" in \"CheckGenerate\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 158
+  comment = "If you call the receiver \"x\" in \"Reset\" method, don't call it \"m\" in \"CheckGenerate\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 158
+  comment = "If you call the receiver \"x\" in \"GetNetwork\" method, don't call it \"m\" in \"CheckGenerate\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 158
+  comment = "If you call the receiver \"x\" in \"GetHeader\" method, don't call it \"m\" in \"CheckGenerate\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 455
+  comment = "If you call the receiver \"m\" in \"BS58\" method, don't call it \"x\" in \"ProtoReflect\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 455
+  comment = "If you call the receiver \"m\" in \"GetParticipants\" method, don't call it \"x\" in \"ProtoReflect\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 455
+  comment = "If you call the receiver \"m\" in \"CheckGenerate\" method, don't call it \"x\" in \"ProtoReflect\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 455
+  comment = "If you call the receiver \"m\" in \"CheckAssign\" method, don't call it \"x\" in \"ProtoReflect\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 455
+  comment = "If you call the receiver \"m\" in \"CheckAppend\" method, don't call it \"x\" in \"ProtoReflect\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 455
+  comment = "If you call the receiver \"m\" in \"IsSigned\" method, don't call it \"x\" in \"ProtoReflect\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 455
+  comment = "If you call the receiver \"m\" in \"GetNonce\" method, don't call it \"x\" in \"ProtoReflect\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 455
+  comment = "If you call the receiver \"m\" in \"GetConvener\" method, don't call it \"x\" in \"ProtoReflect\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 455
+  comment = "If you call the receiver \"m\" in \"GetExtra\" method, don't call it \"x\" in \"ProtoReflect\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 455
+  comment = "If you call the receiver \"m\" in \"Verify\" method, don't call it \"x\" in \"ProtoReflect\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 455
+  comment = "If you call the receiver \"m\" in \"Equals\" method, don't call it \"x\" in \"ProtoReflect\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 455
+  comment = "If you call the receiver \"m\" in \"Copy\" method, don't call it \"x\" in \"ProtoReflect\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 455
+  comment = "If you call the receiver \"m\" in \"CalculateHash\" method, don't call it \"x\" in \"ProtoReflect\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 455
+  comment = "If you call the receiver \"m\" in \"CheckLogout\" method, don't call it \"x\" in \"ProtoReflect\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 455
+  comment = "If you call the receiver \"m\" in \"TotalExpenditure\" method, don't call it \"x\" in \"ProtoReflect\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 455
+  comment = "If you call the receiver \"m\" in \"Signature\" method, don't call it \"x\" in \"ProtoReflect\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 455
+  comment = "If you call the receiver \"m\" in \"GetFee\" method, don't call it \"x\" in \"ProtoReflect\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 455
+  comment = "If you call the receiver \"m\" in \"GetValues\" method, don't call it \"x\" in \"ProtoReflect\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 455
+  comment = "If you call the receiver \"m\" in \"GetType\" method, don't call it \"x\" in \"ProtoReflect\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 455
+  comment = "If you call the receiver \"m\" in \"ID\" method, don't call it \"x\" in \"ProtoReflect\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 455
+  comment = "If you call the receiver \"m\" in \"CheckTransaction\" method, don't call it \"x\" in \"ProtoReflect\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 455
+  comment = "If you call the receiver \"m\" in \"CheckRegister\" method, don't call it \"x\" in \"ProtoReflect\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 144
+  comment = "If you call the receiver \"x\" in \"String\" method, don't call it \"m\" in \"Copy\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 144
+  comment = "If you call the receiver \"x\" in \"ProtoReflect\" method, don't call it \"m\" in \"Copy\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 144
+  comment = "If you call the receiver \"x\" in \"GetSign\" method, don't call it \"m\" in \"Copy\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 144
+  comment = "If you call the receiver \"x\" in \"Reset\" method, don't call it \"m\" in \"Copy\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 144
+  comment = "If you call the receiver \"x\" in \"GetNetwork\" method, don't call it \"m\" in \"Copy\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 144
+  comment = "If you call the receiver \"x\" in \"GetHeader\" method, don't call it \"m\" in \"Copy\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 517
+  comment = "If you call the receiver \"m\" in \"ExportAccounts\" method, don't call it \"x\" in \"ProtoReflect\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 517
+  comment = "If you call the receiver \"m\" in \"HasAccount\" method, don't call it \"x\" in \"ProtoReflect\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 517
+  comment = "If you call the receiver \"m\" in \"CalculateHash\" method, don't call it \"x\" in \"ProtoReflect\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 517
+  comment = "If you call the receiver \"m\" in \"GetAccountByNum\" method, don't call it \"x\" in \"ProtoReflect\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 517
+  comment = "If you call the receiver \"m\" in \"RegisterAccount\" method, don't call it \"x\" in \"ProtoReflect\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 517
+  comment = "If you call the receiver \"m\" in \"GetAccountByKeyBytes\" method, don't call it \"x\" in \"ProtoReflect\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 517
+  comment = "If you call the receiver \"m\" in \"Copy\" method, don't call it \"x\" in \"ProtoReflect\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 517
+  comment = "If you call the receiver \"m\" in \"DelAccount\" method, don't call it \"x\" in \"ProtoReflect\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 517
+  comment = "If you call the receiver \"m\" in \"GetAccountByKey\" method, don't call it \"x\" in \"ProtoReflect\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/sheet.go"
+  fileline = 88
+  comment = "If you call the receiver \"x\" in \"GetAnonymous\" method, don't call it \"m\" in \"ExportAccounts\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/sheet.go"
+  fileline = 88
+  comment = "If you call the receiver \"x\" in \"GetAccounts\" method, don't call it \"m\" in \"ExportAccounts\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/sheet.go"
+  fileline = 88
+  comment = "If you call the receiver \"x\" in \"ProtoReflect\" method, don't call it \"m\" in \"ExportAccounts\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/sheet.go"
+  fileline = 88
+  comment = "If you call the receiver \"x\" in \"String\" method, don't call it \"m\" in \"ExportAccounts\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/sheet.go"
+  fileline = 88
+  comment = "If you call the receiver \"x\" in \"Reset\" method, don't call it \"m\" in \"ExportAccounts\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 349
+  comment = "If you call the receiver \"m\" in \"CalculateHash\" method, don't call it \"x\" in \"Reset\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 47
+  comment = "If you call the receiver \"x\" in \"String\" method, don't call it \"m\" in \"IsSigned\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 47
+  comment = "If you call the receiver \"x\" in \"ProtoReflect\" method, don't call it \"m\" in \"IsSigned\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 47
+  comment = "If you call the receiver \"x\" in \"GetSign\" method, don't call it \"m\" in \"IsSigned\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 47
+  comment = "If you call the receiver \"x\" in \"Reset\" method, don't call it \"m\" in \"IsSigned\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 47
+  comment = "If you call the receiver \"x\" in \"GetNetwork\" method, don't call it \"m\" in \"IsSigned\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 47
+  comment = "If you call the receiver \"x\" in \"GetHeader\" method, don't call it \"m\" in \"IsSigned\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 91
+  comment = "If you call the receiver \"x\" in \"String\" method, don't call it \"m\" in \"ToSealed\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 91
+  comment = "If you call the receiver \"x\" in \"GetNetwork\" method, don't call it \"m\" in \"ToSealed\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 91
+  comment = "If you call the receiver \"x\" in \"GetHeader\" method, don't call it \"m\" in \"ToSealed\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 91
+  comment = "If you call the receiver \"x\" in \"ProtoReflect\" method, don't call it \"m\" in \"ToSealed\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 91
+  comment = "If you call the receiver \"x\" in \"GetSheet\" method, don't call it \"m\" in \"ToSealed\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 91
+  comment = "If you call the receiver \"x\" in \"Reset\" method, don't call it \"m\" in \"ToSealed\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 91
+  comment = "If you call the receiver \"x\" in \"GetTxs\" method, don't call it \"m\" in \"ToSealed\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/sheet.go"
+  fileline = 103
+  comment = "If you call the receiver \"x\" in \"GetAnonymous\" method, don't call it \"m\" in \"CalculateHash\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/sheet.go"
+  fileline = 103
+  comment = "If you call the receiver \"x\" in \"GetAccounts\" method, don't call it \"m\" in \"CalculateHash\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/sheet.go"
+  fileline = 103
+  comment = "If you call the receiver \"x\" in \"ProtoReflect\" method, don't call it \"m\" in \"CalculateHash\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/sheet.go"
+  fileline = 103
+  comment = "If you call the receiver \"x\" in \"String\" method, don't call it \"m\" in \"CalculateHash\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/sheet.go"
+  fileline = 103
+  comment = "If you call the receiver \"x\" in \"Reset\" method, don't call it \"m\" in \"CalculateHash\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 349
+  comment = "If you call the receiver \"x\" in \"String\" method, don't call it \"m\" in \"GetValues\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 349
+  comment = "If you call the receiver \"x\" in \"ProtoReflect\" method, don't call it \"m\" in \"GetValues\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 349
+  comment = "If you call the receiver \"x\" in \"GetSign\" method, don't call it \"m\" in \"GetValues\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 349
+  comment = "If you call the receiver \"x\" in \"Reset\" method, don't call it \"m\" in \"GetValues\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 349
+  comment = "If you call the receiver \"x\" in \"GetNetwork\" method, don't call it \"m\" in \"GetValues\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 349
+  comment = "If you call the receiver \"x\" in \"GetHeader\" method, don't call it \"m\" in \"GetValues\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 361
+  comment = "If you call the receiver \"x\" in \"String\" method, don't call it \"m\" in \"GetNonce\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 361
+  comment = "If you call the receiver \"x\" in \"ProtoReflect\" method, don't call it \"m\" in \"GetNonce\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 361
+  comment = "If you call the receiver \"x\" in \"GetSign\" method, don't call it \"m\" in \"GetNonce\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 361
+  comment = "If you call the receiver \"x\" in \"Reset\" method, don't call it \"m\" in \"GetNonce\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 361
+  comment = "If you call the receiver \"x\" in \"GetNetwork\" method, don't call it \"m\" in \"GetNonce\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 361
+  comment = "If you call the receiver \"x\" in \"GetHeader\" method, don't call it \"m\" in \"GetNonce\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 320
+  comment = "If you call the receiver \"m\" in \"IsSealed\" method, don't call it \"x\" in \"GetSheet\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 320
+  comment = "If you call the receiver \"m\" in \"ToSealed\" method, don't call it \"x\" in \"GetSheet\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 320
+  comment = "If you call the receiver \"m\" in \"GetHeight\" method, don't call it \"x\" in \"GetSheet\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 320
+  comment = "If you call the receiver \"m\" in \"GetPoWBlob\" method, don't call it \"x\" in \"GetSheet\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 320
+  comment = "If you call the receiver \"m\" in \"IsGenesis\" method, don't call it \"x\" in \"GetSheet\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 320
+  comment = "If you call the receiver \"m\" in \"GetPrevHash\" method, don't call it \"x\" in \"GetSheet\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 320
+  comment = "If you call the receiver \"m\" in \"verifyNonce\" method, don't call it \"x\" in \"GetSheet\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 320
+  comment = "If you call the receiver \"m\" in \"IsTail\" method, don't call it \"x\" in \"GetSheet\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 320
+  comment = "If you call the receiver \"m\" in \"ToUnsealing\" method, don't call it \"x\" in \"GetSheet\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 320
+  comment = "If you call the receiver \"m\" in \"CheckError\" method, don't call it \"x\" in \"GetSheet\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 320
+  comment = "If you call the receiver \"m\" in \"CalculateHash\" method, don't call it \"x\" in \"GetSheet\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 320
+  comment = "If you call the receiver \"m\" in \"IsUnsealing\" method, don't call it \"x\" in \"GetSheet\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 320
+  comment = "If you call the receiver \"m\" in \"CalculateHeaderHash\" method, don't call it \"x\" in \"GetSheet\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 320
+  comment = "If you call the receiver \"m\" in \"IsHead\" method, don't call it \"x\" in \"GetSheet\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 296
+  comment = "If you call the receiver \"x\" in \"String\" method, don't call it \"m\" in \"CheckAppend\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 296
+  comment = "If you call the receiver \"x\" in \"ProtoReflect\" method, don't call it \"m\" in \"CheckAppend\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 296
+  comment = "If you call the receiver \"x\" in \"GetSign\" method, don't call it \"m\" in \"CheckAppend\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 296
+  comment = "If you call the receiver \"x\" in \"Reset\" method, don't call it \"m\" in \"CheckAppend\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 296
+  comment = "If you call the receiver \"x\" in \"GetNetwork\" method, don't call it \"m\" in \"CheckAppend\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 296
+  comment = "If you call the receiver \"x\" in \"GetHeader\" method, don't call it \"m\" in \"CheckAppend\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 321
+  comment = "If you call the receiver \"x\" in \"String\" method, don't call it \"m\" in \"Signature\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 321
+  comment = "If you call the receiver \"x\" in \"ProtoReflect\" method, don't call it \"m\" in \"Signature\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 321
+  comment = "If you call the receiver \"x\" in \"GetSign\" method, don't call it \"m\" in \"Signature\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 321
+  comment = "If you call the receiver \"x\" in \"Reset\" method, don't call it \"m\" in \"Signature\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 321
+  comment = "If you call the receiver \"x\" in \"GetNetwork\" method, don't call it \"m\" in \"Signature\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 321
+  comment = "If you call the receiver \"x\" in \"GetHeader\" method, don't call it \"m\" in \"Signature\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 416
+  comment = "If you call the receiver \"m\" in \"CalculateHash\" method, don't call it \"x\" in \"GetNonce\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 440
+  comment = "If you call the receiver \"m\" in \"BS58\" method, don't call it \"x\" in \"Reset\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 440
+  comment = "If you call the receiver \"m\" in \"GetParticipants\" method, don't call it \"x\" in \"Reset\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 440
+  comment = "If you call the receiver \"m\" in \"CheckGenerate\" method, don't call it \"x\" in \"Reset\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 440
+  comment = "If you call the receiver \"m\" in \"CheckAssign\" method, don't call it \"x\" in \"Reset\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 440
+  comment = "If you call the receiver \"m\" in \"CheckAppend\" method, don't call it \"x\" in \"Reset\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 440
+  comment = "If you call the receiver \"m\" in \"IsSigned\" method, don't call it \"x\" in \"Reset\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 440
+  comment = "If you call the receiver \"m\" in \"GetNonce\" method, don't call it \"x\" in \"Reset\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 440
+  comment = "If you call the receiver \"m\" in \"GetConvener\" method, don't call it \"x\" in \"Reset\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 440
+  comment = "If you call the receiver \"m\" in \"GetExtra\" method, don't call it \"x\" in \"Reset\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 440
+  comment = "If you call the receiver \"m\" in \"Verify\" method, don't call it \"x\" in \"Reset\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 440
+  comment = "If you call the receiver \"m\" in \"Equals\" method, don't call it \"x\" in \"Reset\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 440
+  comment = "If you call the receiver \"m\" in \"Copy\" method, don't call it \"x\" in \"Reset\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 440
+  comment = "If you call the receiver \"m\" in \"CalculateHash\" method, don't call it \"x\" in \"Reset\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 440
+  comment = "If you call the receiver \"m\" in \"CheckLogout\" method, don't call it \"x\" in \"Reset\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 440
+  comment = "If you call the receiver \"m\" in \"TotalExpenditure\" method, don't call it \"x\" in \"Reset\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 440
+  comment = "If you call the receiver \"m\" in \"Signature\" method, don't call it \"x\" in \"Reset\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 440
+  comment = "If you call the receiver \"m\" in \"GetFee\" method, don't call it \"x\" in \"Reset\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 440
+  comment = "If you call the receiver \"m\" in \"GetValues\" method, don't call it \"x\" in \"Reset\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 440
+  comment = "If you call the receiver \"m\" in \"GetType\" method, don't call it \"x\" in \"Reset\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 440
+  comment = "If you call the receiver \"m\" in \"ID\" method, don't call it \"x\" in \"Reset\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 440
+  comment = "If you call the receiver \"m\" in \"CheckTransaction\" method, don't call it \"x\" in \"Reset\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 440
+  comment = "If you call the receiver \"m\" in \"CheckRegister\" method, don't call it \"x\" in \"Reset\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 289
+  comment = "If you call the receiver \"m\" in \"IsSealed\" method, don't call it \"x\" in \"ProtoReflect\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 289
+  comment = "If you call the receiver \"m\" in \"ToSealed\" method, don't call it \"x\" in \"ProtoReflect\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 289
+  comment = "If you call the receiver \"m\" in \"GetHeight\" method, don't call it \"x\" in \"ProtoReflect\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 289
+  comment = "If you call the receiver \"m\" in \"GetPoWBlob\" method, don't call it \"x\" in \"ProtoReflect\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 289
+  comment = "If you call the receiver \"m\" in \"IsGenesis\" method, don't call it \"x\" in \"ProtoReflect\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 289
+  comment = "If you call the receiver \"m\" in \"GetPrevHash\" method, don't call it \"x\" in \"ProtoReflect\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 289
+  comment = "If you call the receiver \"m\" in \"verifyNonce\" method, don't call it \"x\" in \"ProtoReflect\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 289
+  comment = "If you call the receiver \"m\" in \"IsTail\" method, don't call it \"x\" in \"ProtoReflect\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 289
+  comment = "If you call the receiver \"m\" in \"ToUnsealing\" method, don't call it \"x\" in \"ProtoReflect\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 289
+  comment = "If you call the receiver \"m\" in \"CheckError\" method, don't call it \"x\" in \"ProtoReflect\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 289
+  comment = "If you call the receiver \"m\" in \"CalculateHash\" method, don't call it \"x\" in \"ProtoReflect\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 289
+  comment = "If you call the receiver \"m\" in \"IsUnsealing\" method, don't call it \"x\" in \"ProtoReflect\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 289
+  comment = "If you call the receiver \"m\" in \"CalculateHeaderHash\" method, don't call it \"x\" in \"ProtoReflect\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 289
+  comment = "If you call the receiver \"m\" in \"IsHead\" method, don't call it \"x\" in \"ProtoReflect\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 95
+  comment = "If you call the receiver \"x\" in \"String\" method, don't call it \"m\" in \"ID\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 95
+  comment = "If you call the receiver \"x\" in \"ProtoReflect\" method, don't call it \"m\" in \"ID\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 95
+  comment = "If you call the receiver \"x\" in \"GetSign\" method, don't call it \"m\" in \"ID\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 95
+  comment = "If you call the receiver \"x\" in \"Reset\" method, don't call it \"m\" in \"ID\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 95
+  comment = "If you call the receiver \"x\" in \"GetNetwork\" method, don't call it \"m\" in \"ID\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 95
+  comment = "If you call the receiver \"x\" in \"GetHeader\" method, don't call it \"m\" in \"ID\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 369
+  comment = "If you call the receiver \"x\" in \"String\" method, don't call it \"m\" in \"TotalExpenditure\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 369
+  comment = "If you call the receiver \"x\" in \"ProtoReflect\" method, don't call it \"m\" in \"TotalExpenditure\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 369
+  comment = "If you call the receiver \"x\" in \"GetSign\" method, don't call it \"m\" in \"TotalExpenditure\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 369
+  comment = "If you call the receiver \"x\" in \"Reset\" method, don't call it \"m\" in \"TotalExpenditure\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 369
+  comment = "If you call the receiver \"x\" in \"GetNetwork\" method, don't call it \"m\" in \"TotalExpenditure\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 369
+  comment = "If you call the receiver \"x\" in \"GetHeader\" method, don't call it \"m\" in \"TotalExpenditure\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 357
+  comment = "If you call the receiver \"x\" in \"String\" method, don't call it \"m\" in \"GetFee\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 357
+  comment = "If you call the receiver \"x\" in \"ProtoReflect\" method, don't call it \"m\" in \"GetFee\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 357
+  comment = "If you call the receiver \"x\" in \"GetSign\" method, don't call it \"m\" in \"GetFee\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 357
+  comment = "If you call the receiver \"x\" in \"Reset\" method, don't call it \"m\" in \"GetFee\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 357
+  comment = "If you call the receiver \"x\" in \"GetNetwork\" method, don't call it \"m\" in \"GetFee\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 357
+  comment = "If you call the receiver \"x\" in \"GetHeader\" method, don't call it \"m\" in \"GetFee\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 365
+  comment = "If you call the receiver \"x\" in \"String\" method, don't call it \"m\" in \"GetExtra\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 365
+  comment = "If you call the receiver \"x\" in \"ProtoReflect\" method, don't call it \"m\" in \"GetExtra\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 365
+  comment = "If you call the receiver \"x\" in \"GetSign\" method, don't call it \"m\" in \"GetExtra\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 365
+  comment = "If you call the receiver \"x\" in \"Reset\" method, don't call it \"m\" in \"GetExtra\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 365
+  comment = "If you call the receiver \"x\" in \"GetNetwork\" method, don't call it \"m\" in \"GetExtra\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 365
+  comment = "If you call the receiver \"x\" in \"GetHeader\" method, don't call it \"m\" in \"GetExtra\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 486
+  comment = "If you call the receiver \"m\" in \"BS58\" method, don't call it \"x\" in \"GetSign\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 486
+  comment = "If you call the receiver \"m\" in \"GetParticipants\" method, don't call it \"x\" in \"GetSign\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 486
+  comment = "If you call the receiver \"m\" in \"CheckGenerate\" method, don't call it \"x\" in \"GetSign\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 486
+  comment = "If you call the receiver \"m\" in \"CheckAssign\" method, don't call it \"x\" in \"GetSign\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 486
+  comment = "If you call the receiver \"m\" in \"CheckAppend\" method, don't call it \"x\" in \"GetSign\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 486
+  comment = "If you call the receiver \"m\" in \"IsSigned\" method, don't call it \"x\" in \"GetSign\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 486
+  comment = "If you call the receiver \"m\" in \"GetNonce\" method, don't call it \"x\" in \"GetSign\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 486
+  comment = "If you call the receiver \"m\" in \"GetConvener\" method, don't call it \"x\" in \"GetSign\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 486
+  comment = "If you call the receiver \"m\" in \"GetExtra\" method, don't call it \"x\" in \"GetSign\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 486
+  comment = "If you call the receiver \"m\" in \"Verify\" method, don't call it \"x\" in \"GetSign\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 486
+  comment = "If you call the receiver \"m\" in \"Equals\" method, don't call it \"x\" in \"GetSign\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 486
+  comment = "If you call the receiver \"m\" in \"Copy\" method, don't call it \"x\" in \"GetSign\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 486
+  comment = "If you call the receiver \"m\" in \"CalculateHash\" method, don't call it \"x\" in \"GetSign\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 486
+  comment = "If you call the receiver \"m\" in \"CheckLogout\" method, don't call it \"x\" in \"GetSign\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 486
+  comment = "If you call the receiver \"m\" in \"TotalExpenditure\" method, don't call it \"x\" in \"GetSign\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 486
+  comment = "If you call the receiver \"m\" in \"Signature\" method, don't call it \"x\" in \"GetSign\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 486
+  comment = "If you call the receiver \"m\" in \"GetFee\" method, don't call it \"x\" in \"GetSign\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 486
+  comment = "If you call the receiver \"m\" in \"GetValues\" method, don't call it \"x\" in \"GetSign\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 486
+  comment = "If you call the receiver \"m\" in \"GetType\" method, don't call it \"x\" in \"GetSign\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 486
+  comment = "If you call the receiver \"m\" in \"ID\" method, don't call it \"x\" in \"GetSign\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 486
+  comment = "If you call the receiver \"m\" in \"CheckTransaction\" method, don't call it \"x\" in \"GetSign\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 486
+  comment = "If you call the receiver \"m\" in \"CheckRegister\" method, don't call it \"x\" in \"GetSign\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 182
+  comment = "If you call the receiver \"x\" in \"String\" method, don't call it \"m\" in \"CalculateHash\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 182
+  comment = "If you call the receiver \"x\" in \"GetNetwork\" method, don't call it \"m\" in \"CalculateHash\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 182
+  comment = "If you call the receiver \"x\" in \"GetHeader\" method, don't call it \"m\" in \"CalculateHash\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 182
+  comment = "If you call the receiver \"x\" in \"ProtoReflect\" method, don't call it \"m\" in \"CalculateHash\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 182
+  comment = "If you call the receiver \"x\" in \"GetSheet\" method, don't call it \"m\" in \"CalculateHash\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 182
+  comment = "If you call the receiver \"x\" in \"Reset\" method, don't call it \"m\" in \"CalculateHash\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 182
+  comment = "If you call the receiver \"x\" in \"GetTxs\" method, don't call it \"m\" in \"CalculateHash\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 63
+  comment = "If you call the receiver \"x\" in \"String\" method, don't call it \"m\" in \"CalculateHeaderHash\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 63
+  comment = "If you call the receiver \"x\" in \"GetNetwork\" method, don't call it \"m\" in \"CalculateHeaderHash\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 63
+  comment = "If you call the receiver \"x\" in \"GetHeader\" method, don't call it \"m\" in \"CalculateHeaderHash\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 63
+  comment = "If you call the receiver \"x\" in \"ProtoReflect\" method, don't call it \"m\" in \"CalculateHeaderHash\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 63
+  comment = "If you call the receiver \"x\" in \"GetSheet\" method, don't call it \"m\" in \"CalculateHeaderHash\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 63
+  comment = "If you call the receiver \"x\" in \"Reset\" method, don't call it \"m\" in \"CalculateHeaderHash\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 63
+  comment = "If you call the receiver \"x\" in \"GetTxs\" method, don't call it \"m\" in \"CalculateHeaderHash\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 86
+  comment = "If you call the receiver \"x\" in \"String\" method, don't call it \"m\" in \"BS58\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 86
+  comment = "If you call the receiver \"x\" in \"ProtoReflect\" method, don't call it \"m\" in \"BS58\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 86
+  comment = "If you call the receiver \"x\" in \"GetSign\" method, don't call it \"m\" in \"BS58\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 86
+  comment = "If you call the receiver \"x\" in \"Reset\" method, don't call it \"m\" in \"BS58\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 86
+  comment = "If you call the receiver \"x\" in \"GetNetwork\" method, don't call it \"m\" in \"BS58\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 86
+  comment = "If you call the receiver \"x\" in \"GetHeader\" method, don't call it \"m\" in \"BS58\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 283
+  comment = "If you call the receiver \"m\" in \"IsSealed\" method, don't call it \"x\" in \"String\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 283
+  comment = "If you call the receiver \"m\" in \"ToSealed\" method, don't call it \"x\" in \"String\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 283
+  comment = "If you call the receiver \"m\" in \"GetHeight\" method, don't call it \"x\" in \"String\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 283
+  comment = "If you call the receiver \"m\" in \"GetPoWBlob\" method, don't call it \"x\" in \"String\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 283
+  comment = "If you call the receiver \"m\" in \"IsGenesis\" method, don't call it \"x\" in \"String\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 283
+  comment = "If you call the receiver \"m\" in \"GetPrevHash\" method, don't call it \"x\" in \"String\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 283
+  comment = "If you call the receiver \"m\" in \"verifyNonce\" method, don't call it \"x\" in \"String\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 283
+  comment = "If you call the receiver \"m\" in \"IsTail\" method, don't call it \"x\" in \"String\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 283
+  comment = "If you call the receiver \"m\" in \"ToUnsealing\" method, don't call it \"x\" in \"String\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 283
+  comment = "If you call the receiver \"m\" in \"CheckError\" method, don't call it \"x\" in \"String\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 283
+  comment = "If you call the receiver \"m\" in \"CalculateHash\" method, don't call it \"x\" in \"String\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 283
+  comment = "If you call the receiver \"m\" in \"IsUnsealing\" method, don't call it \"x\" in \"String\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 283
+  comment = "If you call the receiver \"m\" in \"CalculateHeaderHash\" method, don't call it \"x\" in \"String\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 283
+  comment = "If you call the receiver \"m\" in \"IsHead\" method, don't call it \"x\" in \"String\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 43
+  comment = "If you call the receiver \"x\" in \"String\" method, don't call it \"m\" in \"GetPoWBlob\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 43
+  comment = "If you call the receiver \"x\" in \"GetNetwork\" method, don't call it \"m\" in \"GetPoWBlob\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 43
+  comment = "If you call the receiver \"x\" in \"GetHeader\" method, don't call it \"m\" in \"GetPoWBlob\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 43
+  comment = "If you call the receiver \"x\" in \"ProtoReflect\" method, don't call it \"m\" in \"GetPoWBlob\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 43
+  comment = "If you call the receiver \"x\" in \"GetSheet\" method, don't call it \"m\" in \"GetPoWBlob\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 43
+  comment = "If you call the receiver \"x\" in \"Reset\" method, don't call it \"m\" in \"GetPoWBlob\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 43
+  comment = "If you call the receiver \"x\" in \"GetTxs\" method, don't call it \"m\" in \"GetPoWBlob\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 511
+  comment = "If you call the receiver \"m\" in \"ExportAccounts\" method, don't call it \"x\" in \"String\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 511
+  comment = "If you call the receiver \"m\" in \"HasAccount\" method, don't call it \"x\" in \"String\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 511
+  comment = "If you call the receiver \"m\" in \"CalculateHash\" method, don't call it \"x\" in \"String\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 511
+  comment = "If you call the receiver \"m\" in \"GetAccountByNum\" method, don't call it \"x\" in \"String\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 511
+  comment = "If you call the receiver \"m\" in \"RegisterAccount\" method, don't call it \"x\" in \"String\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 511
+  comment = "If you call the receiver \"m\" in \"GetAccountByKeyBytes\" method, don't call it \"x\" in \"String\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 511
+  comment = "If you call the receiver \"m\" in \"Copy\" method, don't call it \"x\" in \"String\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 511
+  comment = "If you call the receiver \"m\" in \"DelAccount\" method, don't call it \"x\" in \"String\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 511
+  comment = "If you call the receiver \"m\" in \"GetAccountByKey\" method, don't call it \"x\" in \"String\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 224
+  comment = "If you call the receiver \"x\" in \"String\" method, don't call it \"m\" in \"CheckLogout\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 224
+  comment = "If you call the receiver \"x\" in \"ProtoReflect\" method, don't call it \"m\" in \"CheckLogout\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 224
+  comment = "If you call the receiver \"x\" in \"GetSign\" method, don't call it \"m\" in \"CheckLogout\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 224
+  comment = "If you call the receiver \"x\" in \"Reset\" method, don't call it \"m\" in \"CheckLogout\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 224
+  comment = "If you call the receiver \"x\" in \"GetNetwork\" method, don't call it \"m\" in \"CheckLogout\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 224
+  comment = "If you call the receiver \"x\" in \"GetHeader\" method, don't call it \"m\" in \"CheckLogout\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 402
+  comment = "If you call the receiver \"m\" in \"CalculateHash\" method, don't call it \"x\" in \"GetFee\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 409
+  comment = "If you call the receiver \"m\" in \"CalculateHash\" method, don't call it \"x\" in \"GetValues\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 502
+  comment = "If you call the receiver \"m\" in \"ExportAccounts\" method, don't call it \"x\" in \"Reset\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 502
+  comment = "If you call the receiver \"m\" in \"HasAccount\" method, don't call it \"x\" in \"Reset\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 502
+  comment = "If you call the receiver \"m\" in \"CalculateHash\" method, don't call it \"x\" in \"Reset\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 502
+  comment = "If you call the receiver \"m\" in \"GetAccountByNum\" method, don't call it \"x\" in \"Reset\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 502
+  comment = "If you call the receiver \"m\" in \"RegisterAccount\" method, don't call it \"x\" in \"Reset\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 502
+  comment = "If you call the receiver \"m\" in \"GetAccountByKeyBytes\" method, don't call it \"x\" in \"Reset\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 502
+  comment = "If you call the receiver \"m\" in \"Copy\" method, don't call it \"x\" in \"Reset\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 502
+  comment = "If you call the receiver \"m\" in \"DelAccount\" method, don't call it \"x\" in \"Reset\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 502
+  comment = "If you call the receiver \"m\" in \"GetAccountByKey\" method, don't call it \"x\" in \"Reset\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/sheet.go"
+  fileline = 47
+  comment = "If you call the receiver \"x\" in \"GetAnonymous\" method, don't call it \"m\" in \"GetAccountByKey\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/sheet.go"
+  fileline = 47
+  comment = "If you call the receiver \"x\" in \"GetAccounts\" method, don't call it \"m\" in \"GetAccountByKey\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/sheet.go"
+  fileline = 47
+  comment = "If you call the receiver \"x\" in \"ProtoReflect\" method, don't call it \"m\" in \"GetAccountByKey\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/sheet.go"
+  fileline = 47
+  comment = "If you call the receiver \"x\" in \"String\" method, don't call it \"m\" in \"GetAccountByKey\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/sheet.go"
+  fileline = 47
+  comment = "If you call the receiver \"x\" in \"Reset\" method, don't call it \"m\" in \"GetAccountByKey\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 472
+  comment = "If you call the receiver \"m\" in \"BS58\" method, don't call it \"x\" in \"GetNetwork\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 472
+  comment = "If you call the receiver \"m\" in \"GetParticipants\" method, don't call it \"x\" in \"GetNetwork\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 472
+  comment = "If you call the receiver \"m\" in \"CheckGenerate\" method, don't call it \"x\" in \"GetNetwork\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 472
+  comment = "If you call the receiver \"m\" in \"CheckAssign\" method, don't call it \"x\" in \"GetNetwork\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 472
+  comment = "If you call the receiver \"m\" in \"CheckAppend\" method, don't call it \"x\" in \"GetNetwork\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 472
+  comment = "If you call the receiver \"m\" in \"IsSigned\" method, don't call it \"x\" in \"GetNetwork\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 472
+  comment = "If you call the receiver \"m\" in \"GetNonce\" method, don't call it \"x\" in \"GetNetwork\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 472
+  comment = "If you call the receiver \"m\" in \"GetConvener\" method, don't call it \"x\" in \"GetNetwork\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 472
+  comment = "If you call the receiver \"m\" in \"GetExtra\" method, don't call it \"x\" in \"GetNetwork\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 472
+  comment = "If you call the receiver \"m\" in \"Verify\" method, don't call it \"x\" in \"GetNetwork\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 472
+  comment = "If you call the receiver \"m\" in \"Equals\" method, don't call it \"x\" in \"GetNetwork\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 472
+  comment = "If you call the receiver \"m\" in \"Copy\" method, don't call it \"x\" in \"GetNetwork\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 472
+  comment = "If you call the receiver \"m\" in \"CalculateHash\" method, don't call it \"x\" in \"GetNetwork\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 472
+  comment = "If you call the receiver \"m\" in \"CheckLogout\" method, don't call it \"x\" in \"GetNetwork\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 472
+  comment = "If you call the receiver \"m\" in \"TotalExpenditure\" method, don't call it \"x\" in \"GetNetwork\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 472
+  comment = "If you call the receiver \"m\" in \"Signature\" method, don't call it \"x\" in \"GetNetwork\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 472
+  comment = "If you call the receiver \"m\" in \"GetFee\" method, don't call it \"x\" in \"GetNetwork\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 472
+  comment = "If you call the receiver \"m\" in \"GetValues\" method, don't call it \"x\" in \"GetNetwork\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 472
+  comment = "If you call the receiver \"m\" in \"GetType\" method, don't call it \"x\" in \"GetNetwork\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 472
+  comment = "If you call the receiver \"m\" in \"ID\" method, don't call it \"x\" in \"GetNetwork\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 472
+  comment = "If you call the receiver \"m\" in \"CheckTransaction\" method, don't call it \"x\" in \"GetNetwork\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 472
+  comment = "If you call the receiver \"m\" in \"CheckRegister\" method, don't call it \"x\" in \"GetNetwork\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 479
+  comment = "If you call the receiver \"m\" in \"BS58\" method, don't call it \"x\" in \"GetHeader\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 479
+  comment = "If you call the receiver \"m\" in \"GetParticipants\" method, don't call it \"x\" in \"GetHeader\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 479
+  comment = "If you call the receiver \"m\" in \"CheckGenerate\" method, don't call it \"x\" in \"GetHeader\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 479
+  comment = "If you call the receiver \"m\" in \"CheckAssign\" method, don't call it \"x\" in \"GetHeader\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 479
+  comment = "If you call the receiver \"m\" in \"CheckAppend\" method, don't call it \"x\" in \"GetHeader\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 479
+  comment = "If you call the receiver \"m\" in \"IsSigned\" method, don't call it \"x\" in \"GetHeader\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 479
+  comment = "If you call the receiver \"m\" in \"GetNonce\" method, don't call it \"x\" in \"GetHeader\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 479
+  comment = "If you call the receiver \"m\" in \"GetConvener\" method, don't call it \"x\" in \"GetHeader\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 479
+  comment = "If you call the receiver \"m\" in \"GetExtra\" method, don't call it \"x\" in \"GetHeader\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 479
+  comment = "If you call the receiver \"m\" in \"Verify\" method, don't call it \"x\" in \"GetHeader\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 479
+  comment = "If you call the receiver \"m\" in \"Equals\" method, don't call it \"x\" in \"GetHeader\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 479
+  comment = "If you call the receiver \"m\" in \"Copy\" method, don't call it \"x\" in \"GetHeader\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 479
+  comment = "If you call the receiver \"m\" in \"CalculateHash\" method, don't call it \"x\" in \"GetHeader\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 479
+  comment = "If you call the receiver \"m\" in \"CheckLogout\" method, don't call it \"x\" in \"GetHeader\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 479
+  comment = "If you call the receiver \"m\" in \"TotalExpenditure\" method, don't call it \"x\" in \"GetHeader\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 479
+  comment = "If you call the receiver \"m\" in \"Signature\" method, don't call it \"x\" in \"GetHeader\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 479
+  comment = "If you call the receiver \"m\" in \"GetFee\" method, don't call it \"x\" in \"GetHeader\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 479
+  comment = "If you call the receiver \"m\" in \"GetValues\" method, don't call it \"x\" in \"GetHeader\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 479
+  comment = "If you call the receiver \"m\" in \"GetType\" method, don't call it \"x\" in \"GetHeader\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 479
+  comment = "If you call the receiver \"m\" in \"ID\" method, don't call it \"x\" in \"GetHeader\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 479
+  comment = "If you call the receiver \"m\" in \"CheckTransaction\" method, don't call it \"x\" in \"GetHeader\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 479
+  comment = "If you call the receiver \"m\" in \"CheckRegister\" method, don't call it \"x\" in \"GetHeader\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 106
+  comment = "If you call the receiver \"x\" in \"String\" method, don't call it \"m\" in \"verifyNonce\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 106
+  comment = "If you call the receiver \"x\" in \"GetNetwork\" method, don't call it \"m\" in \"verifyNonce\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 106
+  comment = "If you call the receiver \"x\" in \"GetHeader\" method, don't call it \"m\" in \"verifyNonce\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 106
+  comment = "If you call the receiver \"x\" in \"ProtoReflect\" method, don't call it \"m\" in \"verifyNonce\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 106
+  comment = "If you call the receiver \"x\" in \"GetSheet\" method, don't call it \"m\" in \"verifyNonce\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 106
+  comment = "If you call the receiver \"x\" in \"Reset\" method, don't call it \"m\" in \"verifyNonce\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 106
+  comment = "If you call the receiver \"x\" in \"GetTxs\" method, don't call it \"m\" in \"verifyNonce\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 37
+  comment = "If you call the receiver \"x\" in \"String\" method, don't call it \"m\" in \"IsGenesis\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 37
+  comment = "If you call the receiver \"x\" in \"GetNetwork\" method, don't call it \"m\" in \"IsGenesis\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 37
+  comment = "If you call the receiver \"x\" in \"GetHeader\" method, don't call it \"m\" in \"IsGenesis\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 37
+  comment = "If you call the receiver \"x\" in \"ProtoReflect\" method, don't call it \"m\" in \"IsGenesis\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 37
+  comment = "If you call the receiver \"x\" in \"GetSheet\" method, don't call it \"m\" in \"IsGenesis\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 37
+  comment = "If you call the receiver \"x\" in \"Reset\" method, don't call it \"m\" in \"IsGenesis\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 37
+  comment = "If you call the receiver \"x\" in \"GetTxs\" method, don't call it \"m\" in \"IsGenesis\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 381
+  comment = "If you call the receiver \"m\" in \"CalculateHash\" method, don't call it \"x\" in \"GetType\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 327
+  comment = "If you call the receiver \"m\" in \"IsSealed\" method, don't call it \"x\" in \"GetTxs\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 327
+  comment = "If you call the receiver \"m\" in \"ToSealed\" method, don't call it \"x\" in \"GetTxs\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 327
+  comment = "If you call the receiver \"m\" in \"GetHeight\" method, don't call it \"x\" in \"GetTxs\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 327
+  comment = "If you call the receiver \"m\" in \"GetPoWBlob\" method, don't call it \"x\" in \"GetTxs\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 327
+  comment = "If you call the receiver \"m\" in \"IsGenesis\" method, don't call it \"x\" in \"GetTxs\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 327
+  comment = "If you call the receiver \"m\" in \"GetPrevHash\" method, don't call it \"x\" in \"GetTxs\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 327
+  comment = "If you call the receiver \"m\" in \"verifyNonce\" method, don't call it \"x\" in \"GetTxs\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 327
+  comment = "If you call the receiver \"m\" in \"IsTail\" method, don't call it \"x\" in \"GetTxs\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 327
+  comment = "If you call the receiver \"m\" in \"ToUnsealing\" method, don't call it \"x\" in \"GetTxs\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 327
+  comment = "If you call the receiver \"m\" in \"CheckError\" method, don't call it \"x\" in \"GetTxs\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 327
+  comment = "If you call the receiver \"m\" in \"CalculateHash\" method, don't call it \"x\" in \"GetTxs\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 327
+  comment = "If you call the receiver \"m\" in \"IsUnsealing\" method, don't call it \"x\" in \"GetTxs\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 327
+  comment = "If you call the receiver \"m\" in \"CalculateHeaderHash\" method, don't call it \"x\" in \"GetTxs\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 327
+  comment = "If you call the receiver \"m\" in \"IsHead\" method, don't call it \"x\" in \"GetTxs\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/sheet.go"
+  fileline = 73
+  comment = "If you call the receiver \"x\" in \"GetAnonymous\" method, don't call it \"m\" in \"HasAccount\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/sheet.go"
+  fileline = 73
+  comment = "If you call the receiver \"x\" in \"GetAccounts\" method, don't call it \"m\" in \"HasAccount\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/sheet.go"
+  fileline = 73
+  comment = "If you call the receiver \"x\" in \"ProtoReflect\" method, don't call it \"m\" in \"HasAccount\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/sheet.go"
+  fileline = 73
+  comment = "If you call the receiver \"x\" in \"String\" method, don't call it \"m\" in \"HasAccount\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/sheet.go"
+  fileline = 73
+  comment = "If you call the receiver \"x\" in \"Reset\" method, don't call it \"m\" in \"HasAccount\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 116
+  comment = "If you call the receiver \"x\" in \"String\" method, don't call it \"m\" in \"Equals\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 116
+  comment = "If you call the receiver \"x\" in \"ProtoReflect\" method, don't call it \"m\" in \"Equals\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 116
+  comment = "If you call the receiver \"x\" in \"GetSign\" method, don't call it \"m\" in \"Equals\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 116
+  comment = "If you call the receiver \"x\" in \"Reset\" method, don't call it \"m\" in \"Equals\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 116
+  comment = "If you call the receiver \"x\" in \"GetNetwork\" method, don't call it \"m\" in \"Equals\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 116
+  comment = "If you call the receiver \"x\" in \"GetHeader\" method, don't call it \"m\" in \"Equals\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 388
+  comment = "If you call the receiver \"m\" in \"CalculateHash\" method, don't call it \"x\" in \"GetConvener\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/sheet.go"
+  fileline = 61
+  comment = "If you call the receiver \"x\" in \"GetAnonymous\" method, don't call it \"m\" in \"GetAccountByKeyBytes\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/sheet.go"
+  fileline = 61
+  comment = "If you call the receiver \"x\" in \"GetAccounts\" method, don't call it \"m\" in \"GetAccountByKeyBytes\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/sheet.go"
+  fileline = 61
+  comment = "If you call the receiver \"x\" in \"ProtoReflect\" method, don't call it \"m\" in \"GetAccountByKeyBytes\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/sheet.go"
+  fileline = 61
+  comment = "If you call the receiver \"x\" in \"String\" method, don't call it \"m\" in \"GetAccountByKeyBytes\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/sheet.go"
+  fileline = 61
+  comment = "If you call the receiver \"x\" in \"Reset\" method, don't call it \"m\" in \"GetAccountByKeyBytes\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 29
+  comment = "If you call the receiver \"x\" in \"String\" method, don't call it \"m\" in \"IsHead\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 29
+  comment = "If you call the receiver \"x\" in \"GetNetwork\" method, don't call it \"m\" in \"IsHead\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 29
+  comment = "If you call the receiver \"x\" in \"GetHeader\" method, don't call it \"m\" in \"IsHead\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 29
+  comment = "If you call the receiver \"x\" in \"ProtoReflect\" method, don't call it \"m\" in \"IsHead\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 29
+  comment = "If you call the receiver \"x\" in \"GetSheet\" method, don't call it \"m\" in \"IsHead\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 29
+  comment = "If you call the receiver \"x\" in \"Reset\" method, don't call it \"m\" in \"IsHead\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 29
+  comment = "If you call the receiver \"x\" in \"GetTxs\" method, don't call it \"m\" in \"IsHead\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 358
+  comment = "If you call the receiver \"m\" in \"CalculateHash\" method, don't call it \"x\" in \"String\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 24
+  comment = "If you call the receiver \"x\" in \"String\" method, don't call it \"m\" in \"IsSealed\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 24
+  comment = "If you call the receiver \"x\" in \"GetNetwork\" method, don't call it \"m\" in \"IsSealed\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 24
+  comment = "If you call the receiver \"x\" in \"GetHeader\" method, don't call it \"m\" in \"IsSealed\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 24
+  comment = "If you call the receiver \"x\" in \"ProtoReflect\" method, don't call it \"m\" in \"IsSealed\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 24
+  comment = "If you call the receiver \"x\" in \"GetSheet\" method, don't call it \"m\" in \"IsSealed\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 24
+  comment = "If you call the receiver \"x\" in \"Reset\" method, don't call it \"m\" in \"IsSealed\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 24
+  comment = "If you call the receiver \"x\" in \"GetTxs\" method, don't call it \"m\" in \"IsSealed\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 345
+  comment = "If you call the receiver \"x\" in \"String\" method, don't call it \"m\" in \"GetConvener\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 345
+  comment = "If you call the receiver \"x\" in \"ProtoReflect\" method, don't call it \"m\" in \"GetConvener\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 345
+  comment = "If you call the receiver \"x\" in \"GetSign\" method, don't call it \"m\" in \"GetConvener\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 345
+  comment = "If you call the receiver \"x\" in \"Reset\" method, don't call it \"m\" in \"GetConvener\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 345
+  comment = "If you call the receiver \"x\" in \"GetNetwork\" method, don't call it \"m\" in \"GetConvener\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 345
+  comment = "If you call the receiver \"x\" in \"GetHeader\" method, don't call it \"m\" in \"GetConvener\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 541
+  comment = "If you call the receiver \"m\" in \"ExportAccounts\" method, don't call it \"x\" in \"GetAnonymous\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 541
+  comment = "If you call the receiver \"m\" in \"HasAccount\" method, don't call it \"x\" in \"GetAnonymous\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 541
+  comment = "If you call the receiver \"m\" in \"CalculateHash\" method, don't call it \"x\" in \"GetAnonymous\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 541
+  comment = "If you call the receiver \"m\" in \"GetAccountByNum\" method, don't call it \"x\" in \"GetAnonymous\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 541
+  comment = "If you call the receiver \"m\" in \"RegisterAccount\" method, don't call it \"x\" in \"GetAnonymous\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 541
+  comment = "If you call the receiver \"m\" in \"GetAccountByKeyBytes\" method, don't call it \"x\" in \"GetAnonymous\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 541
+  comment = "If you call the receiver \"m\" in \"Copy\" method, don't call it \"x\" in \"GetAnonymous\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 541
+  comment = "If you call the receiver \"m\" in \"DelAccount\" method, don't call it \"x\" in \"GetAnonymous\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 541
+  comment = "If you call the receiver \"m\" in \"GetAccountByKey\" method, don't call it \"x\" in \"GetAnonymous\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 272
+  comment = "If you call the receiver \"x\" in \"String\" method, don't call it \"m\" in \"CheckAssign\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 272
+  comment = "If you call the receiver \"x\" in \"ProtoReflect\" method, don't call it \"m\" in \"CheckAssign\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 272
+  comment = "If you call the receiver \"x\" in \"GetSign\" method, don't call it \"m\" in \"CheckAssign\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 272
+  comment = "If you call the receiver \"x\" in \"Reset\" method, don't call it \"m\" in \"CheckAssign\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 272
+  comment = "If you call the receiver \"x\" in \"GetNetwork\" method, don't call it \"m\" in \"CheckAssign\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 272
+  comment = "If you call the receiver \"x\" in \"GetHeader\" method, don't call it \"m\" in \"CheckAssign\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 341
+  comment = "If you call the receiver \"x\" in \"String\" method, don't call it \"m\" in \"GetType\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 341
+  comment = "If you call the receiver \"x\" in \"ProtoReflect\" method, don't call it \"m\" in \"GetType\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 341
+  comment = "If you call the receiver \"x\" in \"GetSign\" method, don't call it \"m\" in \"GetType\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 341
+  comment = "If you call the receiver \"x\" in \"Reset\" method, don't call it \"m\" in \"GetType\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 341
+  comment = "If you call the receiver \"x\" in \"GetNetwork\" method, don't call it \"m\" in \"GetType\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 341
+  comment = "If you call the receiver \"x\" in \"GetHeader\" method, don't call it \"m\" in \"GetType\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/sheet.go"
+  fileline = 78
+  comment = "If you call the receiver \"x\" in \"GetAnonymous\" method, don't call it \"m\" in \"DelAccount\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/sheet.go"
+  fileline = 78
+  comment = "If you call the receiver \"x\" in \"GetAccounts\" method, don't call it \"m\" in \"DelAccount\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/sheet.go"
+  fileline = 78
+  comment = "If you call the receiver \"x\" in \"ProtoReflect\" method, don't call it \"m\" in \"DelAccount\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/sheet.go"
+  fileline = 78
+  comment = "If you call the receiver \"x\" in \"String\" method, don't call it \"m\" in \"DelAccount\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/sheet.go"
+  fileline = 78
+  comment = "If you call the receiver \"x\" in \"Reset\" method, don't call it \"m\" in \"DelAccount\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 306
+  comment = "If you call the receiver \"m\" in \"IsSealed\" method, don't call it \"x\" in \"GetNetwork\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 306
+  comment = "If you call the receiver \"m\" in \"ToSealed\" method, don't call it \"x\" in \"GetNetwork\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 306
+  comment = "If you call the receiver \"m\" in \"GetHeight\" method, don't call it \"x\" in \"GetNetwork\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 306
+  comment = "If you call the receiver \"m\" in \"GetPoWBlob\" method, don't call it \"x\" in \"GetNetwork\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 306
+  comment = "If you call the receiver \"m\" in \"IsGenesis\" method, don't call it \"x\" in \"GetNetwork\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 306
+  comment = "If you call the receiver \"m\" in \"GetPrevHash\" method, don't call it \"x\" in \"GetNetwork\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 306
+  comment = "If you call the receiver \"m\" in \"verifyNonce\" method, don't call it \"x\" in \"GetNetwork\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 306
+  comment = "If you call the receiver \"m\" in \"IsTail\" method, don't call it \"x\" in \"GetNetwork\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 306
+  comment = "If you call the receiver \"m\" in \"ToUnsealing\" method, don't call it \"x\" in \"GetNetwork\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 306
+  comment = "If you call the receiver \"m\" in \"CheckError\" method, don't call it \"x\" in \"GetNetwork\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 306
+  comment = "If you call the receiver \"m\" in \"CalculateHash\" method, don't call it \"x\" in \"GetNetwork\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 306
+  comment = "If you call the receiver \"m\" in \"IsUnsealing\" method, don't call it \"x\" in \"GetNetwork\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 306
+  comment = "If you call the receiver \"m\" in \"CalculateHeaderHash\" method, don't call it \"x\" in \"GetNetwork\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 306
+  comment = "If you call the receiver \"m\" in \"IsHead\" method, don't call it \"x\" in \"GetNetwork\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/sheet.go"
+  fileline = 38
+  comment = "If you call the receiver \"x\" in \"GetAnonymous\" method, don't call it \"m\" in \"GetAccountByNum\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/sheet.go"
+  fileline = 38
+  comment = "If you call the receiver \"x\" in \"GetAccounts\" method, don't call it \"m\" in \"GetAccountByNum\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/sheet.go"
+  fileline = 38
+  comment = "If you call the receiver \"x\" in \"ProtoReflect\" method, don't call it \"m\" in \"GetAccountByNum\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/sheet.go"
+  fileline = 38
+  comment = "If you call the receiver \"x\" in \"String\" method, don't call it \"m\" in \"GetAccountByNum\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/sheet.go"
+  fileline = 38
+  comment = "If you call the receiver \"x\" in \"Reset\" method, don't call it \"m\" in \"GetAccountByNum\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 33
+  comment = "If you call the receiver \"x\" in \"String\" method, don't call it \"m\" in \"IsTail\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 33
+  comment = "If you call the receiver \"x\" in \"GetNetwork\" method, don't call it \"m\" in \"IsTail\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 33
+  comment = "If you call the receiver \"x\" in \"GetHeader\" method, don't call it \"m\" in \"IsTail\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 33
+  comment = "If you call the receiver \"x\" in \"ProtoReflect\" method, don't call it \"m\" in \"IsTail\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 33
+  comment = "If you call the receiver \"x\" in \"GetSheet\" method, don't call it \"m\" in \"IsTail\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 33
+  comment = "If you call the receiver \"x\" in \"Reset\" method, don't call it \"m\" in \"IsTail\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 33
+  comment = "If you call the receiver \"x\" in \"GetTxs\" method, don't call it \"m\" in \"IsTail\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/sheet.go"
+  fileline = 28
+  comment = "If you call the receiver \"x\" in \"GetAnonymous\" method, don't call it \"m\" in \"RegisterAccount\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/sheet.go"
+  fileline = 28
+  comment = "If you call the receiver \"x\" in \"GetAccounts\" method, don't call it \"m\" in \"RegisterAccount\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/sheet.go"
+  fileline = 28
+  comment = "If you call the receiver \"x\" in \"ProtoReflect\" method, don't call it \"m\" in \"RegisterAccount\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/sheet.go"
+  fileline = 28
+  comment = "If you call the receiver \"x\" in \"String\" method, don't call it \"m\" in \"RegisterAccount\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/sheet.go"
+  fileline = 28
+  comment = "If you call the receiver \"x\" in \"Reset\" method, don't call it \"m\" in \"RegisterAccount\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 534
+  comment = "If you call the receiver \"m\" in \"ExportAccounts\" method, don't call it \"x\" in \"GetAccounts\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 534
+  comment = "If you call the receiver \"m\" in \"HasAccount\" method, don't call it \"x\" in \"GetAccounts\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 534
+  comment = "If you call the receiver \"m\" in \"CalculateHash\" method, don't call it \"x\" in \"GetAccounts\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 534
+  comment = "If you call the receiver \"m\" in \"GetAccountByNum\" method, don't call it \"x\" in \"GetAccounts\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 534
+  comment = "If you call the receiver \"m\" in \"RegisterAccount\" method, don't call it \"x\" in \"GetAccounts\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 534
+  comment = "If you call the receiver \"m\" in \"GetAccountByKeyBytes\" method, don't call it \"x\" in \"GetAccounts\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 534
+  comment = "If you call the receiver \"m\" in \"Copy\" method, don't call it \"x\" in \"GetAccounts\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 534
+  comment = "If you call the receiver \"m\" in \"DelAccount\" method, don't call it \"x\" in \"GetAccounts\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 534
+  comment = "If you call the receiver \"m\" in \"GetAccountByKey\" method, don't call it \"x\" in \"GetAccounts\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/txHeader.go"
+  fileline = 10
+  comment = "If you call the receiver \"x\" in \"ProtoReflect\" method, don't call it \"m\" in \"CalculateHash\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/txHeader.go"
+  fileline = 10
+  comment = "If you call the receiver \"x\" in \"GetNonce\" method, don't call it \"m\" in \"CalculateHash\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/txHeader.go"
+  fileline = 10
+  comment = "If you call the receiver \"x\" in \"GetExtra\" method, don't call it \"m\" in \"CalculateHash\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/txHeader.go"
+  fileline = 10
+  comment = "If you call the receiver \"x\" in \"String\" method, don't call it \"m\" in \"CalculateHash\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/txHeader.go"
+  fileline = 10
+  comment = "If you call the receiver \"x\" in \"GetType\" method, don't call it \"m\" in \"CalculateHash\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/txHeader.go"
+  fileline = 10
+  comment = "If you call the receiver \"x\" in \"Reset\" method, don't call it \"m\" in \"CalculateHash\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/txHeader.go"
+  fileline = 10
+  comment = "If you call the receiver \"x\" in \"GetFee\" method, don't call it \"m\" in \"CalculateHash\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/txHeader.go"
+  fileline = 10
+  comment = "If you call the receiver \"x\" in \"GetConvener\" method, don't call it \"m\" in \"CalculateHash\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/txHeader.go"
+  fileline = 10
+  comment = "If you call the receiver \"x\" in \"GetParticipants\" method, don't call it \"m\" in \"CalculateHash\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/txHeader.go"
+  fileline = 10
+  comment = "If you call the receiver \"x\" in \"GetValues\" method, don't call it \"m\" in \"CalculateHash\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 353
+  comment = "If you call the receiver \"x\" in \"String\" method, don't call it \"m\" in \"GetParticipants\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 353
+  comment = "If you call the receiver \"x\" in \"ProtoReflect\" method, don't call it \"m\" in \"GetParticipants\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 353
+  comment = "If you call the receiver \"x\" in \"GetSign\" method, don't call it \"m\" in \"GetParticipants\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 353
+  comment = "If you call the receiver \"x\" in \"Reset\" method, don't call it \"m\" in \"GetParticipants\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 353
+  comment = "If you call the receiver \"x\" in \"GetNetwork\" method, don't call it \"m\" in \"GetParticipants\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 353
+  comment = "If you call the receiver \"x\" in \"GetHeader\" method, don't call it \"m\" in \"GetParticipants\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 274
+  comment = "If you call the receiver \"m\" in \"IsSealed\" method, don't call it \"x\" in \"Reset\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 274
+  comment = "If you call the receiver \"m\" in \"ToSealed\" method, don't call it \"x\" in \"Reset\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 274
+  comment = "If you call the receiver \"m\" in \"GetHeight\" method, don't call it \"x\" in \"Reset\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 274
+  comment = "If you call the receiver \"m\" in \"GetPoWBlob\" method, don't call it \"x\" in \"Reset\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 274
+  comment = "If you call the receiver \"m\" in \"IsGenesis\" method, don't call it \"x\" in \"Reset\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 274
+  comment = "If you call the receiver \"m\" in \"GetPrevHash\" method, don't call it \"x\" in \"Reset\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 274
+  comment = "If you call the receiver \"m\" in \"verifyNonce\" method, don't call it \"x\" in \"Reset\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 274
+  comment = "If you call the receiver \"m\" in \"IsTail\" method, don't call it \"x\" in \"Reset\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 274
+  comment = "If you call the receiver \"m\" in \"ToUnsealing\" method, don't call it \"x\" in \"Reset\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 274
+  comment = "If you call the receiver \"m\" in \"CheckError\" method, don't call it \"x\" in \"Reset\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 274
+  comment = "If you call the receiver \"m\" in \"CalculateHash\" method, don't call it \"x\" in \"Reset\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 274
+  comment = "If you call the receiver \"m\" in \"IsUnsealing\" method, don't call it \"x\" in \"Reset\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 274
+  comment = "If you call the receiver \"m\" in \"CalculateHeaderHash\" method, don't call it \"x\" in \"Reset\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 274
+  comment = "If you call the receiver \"m\" in \"IsHead\" method, don't call it \"x\" in \"Reset\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/sheet.go"
+  fileline = 97
+  comment = "If you call the receiver \"x\" in \"GetAnonymous\" method, don't call it \"m\" in \"Copy\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/sheet.go"
+  fileline = 97
+  comment = "If you call the receiver \"x\" in \"GetAccounts\" method, don't call it \"m\" in \"Copy\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/sheet.go"
+  fileline = 97
+  comment = "If you call the receiver \"x\" in \"ProtoReflect\" method, don't call it \"m\" in \"Copy\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/sheet.go"
+  fileline = 97
+  comment = "If you call the receiver \"x\" in \"String\" method, don't call it \"m\" in \"Copy\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/sheet.go"
+  fileline = 97
+  comment = "If you call the receiver \"x\" in \"Reset\" method, don't call it \"m\" in \"Copy\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 252
+  comment = "If you call the receiver \"x\" in \"String\" method, don't call it \"m\" in \"CheckTransaction\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 252
+  comment = "If you call the receiver \"x\" in \"ProtoReflect\" method, don't call it \"m\" in \"CheckTransaction\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 252
+  comment = "If you call the receiver \"x\" in \"GetSign\" method, don't call it \"m\" in \"CheckTransaction\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 252
+  comment = "If you call the receiver \"x\" in \"Reset\" method, don't call it \"m\" in \"CheckTransaction\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 252
+  comment = "If you call the receiver \"x\" in \"GetNetwork\" method, don't call it \"m\" in \"CheckTransaction\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 252
+  comment = "If you call the receiver \"x\" in \"GetHeader\" method, don't call it \"m\" in \"CheckTransaction\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 313
+  comment = "If you call the receiver \"m\" in \"IsSealed\" method, don't call it \"x\" in \"GetHeader\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 313
+  comment = "If you call the receiver \"m\" in \"ToSealed\" method, don't call it \"x\" in \"GetHeader\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 313
+  comment = "If you call the receiver \"m\" in \"GetHeight\" method, don't call it \"x\" in \"GetHeader\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 313
+  comment = "If you call the receiver \"m\" in \"GetPoWBlob\" method, don't call it \"x\" in \"GetHeader\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 313
+  comment = "If you call the receiver \"m\" in \"IsGenesis\" method, don't call it \"x\" in \"GetHeader\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 313
+  comment = "If you call the receiver \"m\" in \"GetPrevHash\" method, don't call it \"x\" in \"GetHeader\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 313
+  comment = "If you call the receiver \"m\" in \"verifyNonce\" method, don't call it \"x\" in \"GetHeader\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 313
+  comment = "If you call the receiver \"m\" in \"IsTail\" method, don't call it \"x\" in \"GetHeader\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 313
+  comment = "If you call the receiver \"m\" in \"ToUnsealing\" method, don't call it \"x\" in \"GetHeader\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 313
+  comment = "If you call the receiver \"m\" in \"CheckError\" method, don't call it \"x\" in \"GetHeader\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 313
+  comment = "If you call the receiver \"m\" in \"CalculateHash\" method, don't call it \"x\" in \"GetHeader\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 313
+  comment = "If you call the receiver \"m\" in \"IsUnsealing\" method, don't call it \"x\" in \"GetHeader\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 313
+  comment = "If you call the receiver \"m\" in \"CalculateHeaderHash\" method, don't call it \"x\" in \"GetHeader\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 313
+  comment = "If you call the receiver \"m\" in \"IsHead\" method, don't call it \"x\" in \"GetHeader\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 192
+  comment = "If you call the receiver \"x\" in \"String\" method, don't call it \"m\" in \"GetHeight\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 192
+  comment = "If you call the receiver \"x\" in \"GetNetwork\" method, don't call it \"m\" in \"GetHeight\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 192
+  comment = "If you call the receiver \"x\" in \"GetHeader\" method, don't call it \"m\" in \"GetHeight\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 192
+  comment = "If you call the receiver \"x\" in \"ProtoReflect\" method, don't call it \"m\" in \"GetHeight\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 192
+  comment = "If you call the receiver \"x\" in \"GetSheet\" method, don't call it \"m\" in \"GetHeight\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 192
+  comment = "If you call the receiver \"x\" in \"Reset\" method, don't call it \"m\" in \"GetHeight\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 192
+  comment = "If you call the receiver \"x\" in \"GetTxs\" method, don't call it \"m\" in \"GetHeight\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 52
+  comment = "If you call the receiver \"x\" in \"String\" method, don't call it \"m\" in \"Verify\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 52
+  comment = "If you call the receiver \"x\" in \"ProtoReflect\" method, don't call it \"m\" in \"Verify\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 52
+  comment = "If you call the receiver \"x\" in \"GetSign\" method, don't call it \"m\" in \"Verify\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 52
+  comment = "If you call the receiver \"x\" in \"Reset\" method, don't call it \"m\" in \"Verify\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 52
+  comment = "If you call the receiver \"x\" in \"GetNetwork\" method, don't call it \"m\" in \"Verify\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 52
+  comment = "If you call the receiver \"x\" in \"GetHeader\" method, don't call it \"m\" in \"Verify\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 69
+  comment = "If you call the receiver \"x\" in \"String\" method, don't call it \"m\" in \"ToUnsealing\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 69
+  comment = "If you call the receiver \"x\" in \"GetNetwork\" method, don't call it \"m\" in \"ToUnsealing\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 69
+  comment = "If you call the receiver \"x\" in \"GetHeader\" method, don't call it \"m\" in \"ToUnsealing\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 69
+  comment = "If you call the receiver \"x\" in \"ProtoReflect\" method, don't call it \"m\" in \"ToUnsealing\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 69
+  comment = "If you call the receiver \"x\" in \"GetSheet\" method, don't call it \"m\" in \"ToUnsealing\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 69
+  comment = "If you call the receiver \"x\" in \"Reset\" method, don't call it \"m\" in \"ToUnsealing\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 69
+  comment = "If you call the receiver \"x\" in \"GetTxs\" method, don't call it \"m\" in \"ToUnsealing\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 187
+  comment = "If you call the receiver \"x\" in \"String\" method, don't call it \"m\" in \"CheckRegister\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 187
+  comment = "If you call the receiver \"x\" in \"ProtoReflect\" method, don't call it \"m\" in \"CheckRegister\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 187
+  comment = "If you call the receiver \"x\" in \"GetSign\" method, don't call it \"m\" in \"CheckRegister\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 187
+  comment = "If you call the receiver \"x\" in \"Reset\" method, don't call it \"m\" in \"CheckRegister\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 187
+  comment = "If you call the receiver \"x\" in \"GetNetwork\" method, don't call it \"m\" in \"CheckRegister\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 187
+  comment = "If you call the receiver \"x\" in \"GetHeader\" method, don't call it \"m\" in \"CheckRegister\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 105
+  comment = "If you call the receiver \"x\" in \"String\" method, don't call it \"m\" in \"CalculateHash\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 105
+  comment = "If you call the receiver \"x\" in \"ProtoReflect\" method, don't call it \"m\" in \"CalculateHash\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 105
+  comment = "If you call the receiver \"x\" in \"GetSign\" method, don't call it \"m\" in \"CalculateHash\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 105
+  comment = "If you call the receiver \"x\" in \"Reset\" method, don't call it \"m\" in \"CalculateHash\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 105
+  comment = "If you call the receiver \"x\" in \"GetNetwork\" method, don't call it \"m\" in \"CalculateHash\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 105
+  comment = "If you call the receiver \"x\" in \"GetHeader\" method, don't call it \"m\" in \"CalculateHash\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 197
+  comment = "If you call the receiver \"x\" in \"String\" method, don't call it \"m\" in \"GetPrevHash\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 197
+  comment = "If you call the receiver \"x\" in \"GetNetwork\" method, don't call it \"m\" in \"GetPrevHash\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 197
+  comment = "If you call the receiver \"x\" in \"GetHeader\" method, don't call it \"m\" in \"GetPrevHash\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 197
+  comment = "If you call the receiver \"x\" in \"ProtoReflect\" method, don't call it \"m\" in \"GetPrevHash\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 197
+  comment = "If you call the receiver \"x\" in \"GetSheet\" method, don't call it \"m\" in \"GetPrevHash\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 197
+  comment = "If you call the receiver \"x\" in \"Reset\" method, don't call it \"m\" in \"GetPrevHash\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 197
+  comment = "If you call the receiver \"x\" in \"GetTxs\" method, don't call it \"m\" in \"GetPrevHash\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 449
+  comment = "If you call the receiver \"m\" in \"BS58\" method, don't call it \"x\" in \"String\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 449
+  comment = "If you call the receiver \"m\" in \"GetParticipants\" method, don't call it \"x\" in \"String\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 449
+  comment = "If you call the receiver \"m\" in \"CheckGenerate\" method, don't call it \"x\" in \"String\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 449
+  comment = "If you call the receiver \"m\" in \"CheckAssign\" method, don't call it \"x\" in \"String\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 449
+  comment = "If you call the receiver \"m\" in \"CheckAppend\" method, don't call it \"x\" in \"String\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 449
+  comment = "If you call the receiver \"m\" in \"IsSigned\" method, don't call it \"x\" in \"String\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 449
+  comment = "If you call the receiver \"m\" in \"GetNonce\" method, don't call it \"x\" in \"String\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 449
+  comment = "If you call the receiver \"m\" in \"GetConvener\" method, don't call it \"x\" in \"String\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 449
+  comment = "If you call the receiver \"m\" in \"GetExtra\" method, don't call it \"x\" in \"String\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 449
+  comment = "If you call the receiver \"m\" in \"Verify\" method, don't call it \"x\" in \"String\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 449
+  comment = "If you call the receiver \"m\" in \"Equals\" method, don't call it \"x\" in \"String\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 449
+  comment = "If you call the receiver \"m\" in \"Copy\" method, don't call it \"x\" in \"String\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 449
+  comment = "If you call the receiver \"m\" in \"CalculateHash\" method, don't call it \"x\" in \"String\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 449
+  comment = "If you call the receiver \"m\" in \"CheckLogout\" method, don't call it \"x\" in \"String\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 449
+  comment = "If you call the receiver \"m\" in \"TotalExpenditure\" method, don't call it \"x\" in \"String\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 449
+  comment = "If you call the receiver \"m\" in \"Signature\" method, don't call it \"x\" in \"String\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 449
+  comment = "If you call the receiver \"m\" in \"GetFee\" method, don't call it \"x\" in \"String\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 449
+  comment = "If you call the receiver \"m\" in \"GetValues\" method, don't call it \"x\" in \"String\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 449
+  comment = "If you call the receiver \"m\" in \"GetType\" method, don't call it \"x\" in \"String\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 449
+  comment = "If you call the receiver \"m\" in \"ID\" method, don't call it \"x\" in \"String\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 449
+  comment = "If you call the receiver \"m\" in \"CheckTransaction\" method, don't call it \"x\" in \"String\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 449
+  comment = "If you call the receiver \"m\" in \"CheckRegister\" method, don't call it \"x\" in \"String\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 423
+  comment = "If you call the receiver \"m\" in \"CalculateHash\" method, don't call it \"x\" in \"GetExtra\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 20
+  comment = "If you call the receiver \"x\" in \"String\" method, don't call it \"m\" in \"IsUnsealing\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 20
+  comment = "If you call the receiver \"x\" in \"GetNetwork\" method, don't call it \"m\" in \"IsUnsealing\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 20
+  comment = "If you call the receiver \"x\" in \"GetHeader\" method, don't call it \"m\" in \"IsUnsealing\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 20
+  comment = "If you call the receiver \"x\" in \"ProtoReflect\" method, don't call it \"m\" in \"IsUnsealing\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 20
+  comment = "If you call the receiver \"x\" in \"GetSheet\" method, don't call it \"m\" in \"IsUnsealing\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 20
+  comment = "If you call the receiver \"x\" in \"Reset\" method, don't call it \"m\" in \"IsUnsealing\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 20
+  comment = "If you call the receiver \"x\" in \"GetTxs\" method, don't call it \"m\" in \"IsUnsealing\" method. Be consistent. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"

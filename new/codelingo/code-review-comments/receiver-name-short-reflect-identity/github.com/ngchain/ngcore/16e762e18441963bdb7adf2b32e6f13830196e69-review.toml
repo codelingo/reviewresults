@@ -1,0 +1,633 @@
+repo = "github.com/ngchain/ngcore"
+rule = "codelingo/code-review-comments/receiver-name-short-reflect-identity"
+sha = "16e762e18441963bdb7adf2b32e6f13830196e69"
+
+[[issues]]
+  filepath = "ngp2p/pb/p2p.pb.go"
+  fileline = 51
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"Header\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 313
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"Block\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngp2p/pb/p2p.pb.go"
+  fileline = 294
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"ChainPayload\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 29
+  comment = "The name of a method's receiver \"m\" should be short and also a reflection of its identity \"Block\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 154
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"Account\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 91
+  comment = "The name of a method's receiver \"m\" should be short and also a reflection of its identity \"Block\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 320
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"Block\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 289
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"Block\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngsheet/sheet.go"
+  fileline = 132
+  comment = "The name of a method's receiver \"m\" should be short and also a reflection of its identity \"sheetEntry\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 283
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"Block\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 147
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"Account\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 235
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"BlockHeader\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 296
+  comment = "The name of a method's receiver \"m\" should be short and also a reflection of its identity \"Tx\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngsheet/nonce.go"
+  fileline = 8
+  comment = "The name of a method's receiver \"m\" should be short and also a reflection of its identity \"sheetEntry\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngsheet/check.go"
+  fileline = 88
+  comment = "The name of a method's receiver \"m\" should be short and also a reflection of its identity \"sheetEntry\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/sheet.go"
+  fileline = 78
+  comment = "The name of a method's receiver \"m\" should be short and also a reflection of its identity \"Sheet\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 158
+  comment = "The name of a method's receiver \"m\" should be short and also a reflection of its identity \"Tx\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 161
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"Account\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngsheet/sheet.go"
+  fileline = 114
+  comment = "The name of a method's receiver \"m\" should be short and also a reflection of its identity \"sheetEntry\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 86
+  comment = "The name of a method's receiver \"m\" should be short and also a reflection of its identity \"Tx\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/txHeader.go"
+  fileline = 10
+  comment = "The name of a method's receiver \"m\" should be short and also a reflection of its identity \"TxHeader\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 349
+  comment = "The name of a method's receiver \"m\" should be short and also a reflection of its identity \"Tx\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/sheet.go"
+  fileline = 73
+  comment = "The name of a method's receiver \"m\" should be short and also a reflection of its identity \"Sheet\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 157
+  comment = "The name of a method's receiver \"m\" should be short and also a reflection of its identity \"Block\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 197
+  comment = "The name of a method's receiver \"m\" should be short and also a reflection of its identity \"Block\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 52
+  comment = "The name of a method's receiver \"m\" should be short and also a reflection of its identity \"Tx\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 192
+  comment = "The name of a method's receiver \"m\" should be short and also a reflection of its identity \"Block\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngp2p/pb/p2p.pb.go"
+  fileline = 175
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"PingPongPayload\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngp2p/pb/p2p.pb.go"
+  fileline = 377
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"PoolPayload\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 20
+  comment = "The name of a method's receiver \"m\" should be short and also a reflection of its identity \"Block\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngp2p/pb/p2p.pb.go"
+  fileline = 128
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"Message\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 228
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"BlockHeader\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 353
+  comment = "The name of a method's receiver \"m\" should be short and also a reflection of its identity \"Tx\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 140
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"Account\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngp2p/pb/p2p.pb.go"
+  fileline = 346
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"GetPoolPayload\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 182
+  comment = "The name of a method's receiver \"m\" should be short and also a reflection of its identity \"Block\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngsheet/sheet.go"
+  fileline = 106
+  comment = "The name of a method's receiver \"m\" should be short and also a reflection of its identity \"sheetEntry\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 43
+  comment = "The name of a method's receiver \"m\" should be short and also a reflection of its identity \"Block\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 321
+  comment = "The name of a method's receiver \"m\" should be short and also a reflection of its identity \"Tx\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngp2p/pb/p2p.pb.go"
+  fileline = 81
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"Header\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/sheet.go"
+  fileline = 38
+  comment = "The name of a method's receiver \"m\" should be short and also a reflection of its identity \"Sheet\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngp2p/pb/p2p.pb.go"
+  fileline = 409
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"PoolPayload\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 37
+  comment = "The name of a method's receiver \"m\" should be short and also a reflection of its identity \"Block\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngp2p/pb/p2p.pb.go"
+  fileline = 158
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"Message\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngp2p/pb/p2p.pb.go"
+  fileline = 245
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"GetChainPayload\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngsheet/check.go"
+  fileline = 161
+  comment = "The name of a method's receiver \"m\" should be short and also a reflection of its identity \"sheetEntry\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 224
+  comment = "The name of a method's receiver \"m\" should be short and also a reflection of its identity \"Tx\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 365
+  comment = "The name of a method's receiver \"m\" should be short and also a reflection of its identity \"Tx\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 116
+  comment = "The name of a method's receiver \"m\" should be short and also a reflection of its identity \"Tx\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 24
+  comment = "The name of a method's receiver \"m\" should be short and also a reflection of its identity \"Block\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 105
+  comment = "The name of a method's receiver \"m\" should be short and also a reflection of its identity \"Tx\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngsheet/sheet.go"
+  fileline = 94
+  comment = "The name of a method's receiver \"m\" should be short and also a reflection of its identity \"sheetEntry\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 197
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"BlockHeader\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngp2p/pb/p2p.pb.go"
+  fileline = 285
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"ChainPayload\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngp2p/pb/p2p.pb.go"
+  fileline = 239
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"GetChainPayload\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngp2p/pb/p2p.pb.go"
+  fileline = 352
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"GetPoolPayload\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngp2p/pb/p2p.pb.go"
+  fileline = 102
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"Header\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 274
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"Block\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 306
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"Block\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/sheet.go"
+  fileline = 47
+  comment = "The name of a method's receiver \"m\" should be short and also a reflection of its identity \"Sheet\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngp2p/pb/p2p.pb.go"
+  fileline = 95
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"Header\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngp2p/pb/p2p.pb.go"
+  fileline = 151
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"Message\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngp2p/pb/p2p.pb.go"
+  fileline = 57
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"Header\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 341
+  comment = "The name of a method's receiver \"m\" should be short and also a reflection of its identity \"Tx\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngsheet/handle.go"
+  fileline = 15
+  comment = "The name of a method's receiver \"m\" should be short and also a reflection of its identity \"sheetEntry\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 63
+  comment = "The name of a method's receiver \"m\" should be short and also a reflection of its identity \"Block\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngp2p/pb/p2p.pb.go"
+  fileline = 119
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"Message\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 116
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"Account\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngsheet/sheet.go"
+  fileline = 45
+  comment = "The name of a method's receiver \"m\" should be short and also a reflection of its identity \"sheetEntry\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngp2p/pb/p2p.pb.go"
+  fileline = 262
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"GetChainPayload\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 133
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"Account\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngp2p/pb/p2p.pb.go"
+  fileline = 88
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"Header\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 369
+  comment = "The name of a method's receiver \"m\" should be short and also a reflection of its identity \"Tx\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngsheet/check.go"
+  fileline = 61
+  comment = "The name of a method's receiver \"m\" should be short and also a reflection of its identity \"sheetEntry\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 502
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"Sheet\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 249
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"BlockHeader\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngsheet/check.go"
+  fileline = 14
+  comment = "The name of a method's receiver \"m\" should be short and also a reflection of its identity \"sheetEntry\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 327
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"Block\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 345
+  comment = "The name of a method's receiver \"m\" should be short and also a reflection of its identity \"Tx\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 33
+  comment = "The name of a method's receiver \"m\" should be short and also a reflection of its identity \"Block\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 256
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"BlockHeader\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 357
+  comment = "The name of a method's receiver \"m\" should be short and also a reflection of its identity \"Tx\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/sheet.go"
+  fileline = 61
+  comment = "The name of a method's receiver \"m\" should be short and also a reflection of its identity \"Sheet\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngp2p/pb/p2p.pb.go"
+  fileline = 317
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"ChainPayload\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 47
+  comment = "The name of a method's receiver \"m\" should be short and also a reflection of its identity \"Tx\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 517
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"Sheet\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/sheet.go"
+  fileline = 28
+  comment = "The name of a method's receiver \"m\" should be short and also a reflection of its identity \"Sheet\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 69
+  comment = "The name of a method's receiver \"m\" should be short and also a reflection of its identity \"Block\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngsheet/check.go"
+  fileline = 197
+  comment = "The name of a method's receiver \"m\" should be short and also a reflection of its identity \"sheetEntry\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/block.go"
+  fileline = 106
+  comment = "The name of a method's receiver \"m\" should be short and also a reflection of its identity \"Block\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 110
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"Account\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngp2p/pb/p2p.pb.go"
+  fileline = 214
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"PingPongPayload\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 214
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"BlockHeader\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngp2p/pb/p2p.pb.go"
+  fileline = 392
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"PoolPayload\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/sheet.go"
+  fileline = 88
+  comment = "The name of a method's receiver \"m\" should be short and also a reflection of its identity \"Sheet\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 252
+  comment = "The name of a method's receiver \"m\" should be short and also a reflection of its identity \"Tx\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngp2p/pb/p2p.pb.go"
+  fileline = 134
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"Message\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngp2p/pb/p2p.pb.go"
+  fileline = 300
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"ChainPayload\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 182
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"BlockHeader\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 534
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"Sheet\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngsheet/sheet.go"
+  fileline = 69
+  comment = "The name of a method's receiver \"m\" should be short and also a reflection of its identity \"sheetEntry\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 187
+  comment = "The name of a method's receiver \"m\" should be short and also a reflection of its identity \"Tx\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngp2p/pb/p2p.pb.go"
+  fileline = 324
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"ChainPayload\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 144
+  comment = "The name of a method's receiver \"m\" should be short and also a reflection of its identity \"Tx\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngp2p/pb/p2p.pb.go"
+  fileline = 190
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"PingPongPayload\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 221
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"BlockHeader\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngp2p/pb/p2p.pb.go"
+  fileline = 386
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"PoolPayload\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 242
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"BlockHeader\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 272
+  comment = "The name of a method's receiver \"m\" should be short and also a reflection of its identity \"Tx\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 361
+  comment = "The name of a method's receiver \"m\" should be short and also a reflection of its identity \"Tx\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngp2p/pb/p2p.pb.go"
+  fileline = 207
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"PingPongPayload\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 101
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"Account\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 541
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"Sheet\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 511
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"Sheet\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/sheet.go"
+  fileline = 97
+  comment = "The name of a method's receiver \"m\" should be short and also a reflection of its identity \"Sheet\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngp2p/pb/p2p.pb.go"
+  fileline = 269
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"GetChainPayload\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/sheet.go"
+  fileline = 103
+  comment = "The name of a method's receiver \"m\" should be short and also a reflection of its identity \"Sheet\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 191
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"BlockHeader\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngp2p/pb/p2p.pb.go"
+  fileline = 230
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"GetChainPayload\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngtypes/tx.go"
+  fileline = 95
+  comment = "The name of a method's receiver \"m\" should be short and also a reflection of its identity \"Tx\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngsheet/check.go"
+  fileline = 125
+  comment = "The name of a method's receiver \"m\" should be short and also a reflection of its identity \"sheetEntry\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngp2p/pb/p2p.pb.go"
+  fileline = 42
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"Header\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngp2p/pb/p2p.pb.go"
+  fileline = 184
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"PingPongPayload\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngp2p/pb/p2p.pb.go"
+  fileline = 74
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"Header\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngp2p/pb/p2p.pb.go"
+  fileline = 337
+  comment = "The name of a method's receiver \"x\" should be short and also a reflection of its identity \"GetPoolPayload\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"
+
+[[issues]]
+  filepath = "ngsheet/check.go"
+  fileline = 233
+  comment = "The name of a method's receiver \"m\" should be short and also a reflection of its identity \"sheetEntry\" [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)"

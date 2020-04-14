@@ -1,0 +1,98 @@
+repo = "github.com/ngchain/ngcore"
+rule = "codelingo/code-review-comments/avoid-renaming-imports"
+sha = "16e762e18441963bdb7adf2b32e6f13830196e69"
+
+[[issues]]
+  filepath = "ngp2p/wiredpong.go"
+  fileline = 6
+  comment = "This import is renamed to `core` but this is a bad practice. \nImport without specifying a new name.\n"
+
+[[issues]]
+  filepath = "ngp2p/broadcasttx.go"
+  fileline = 6
+  comment = "This import is renamed to `pubsub` but this is a bad practice. \nImport without specifying a new name.\n"
+
+[[issues]]
+  filepath = "ngp2p/server.go"
+  fileline = 8
+  comment = "This import is renamed to `logging` but this is a bad practice. \nImport without specifying a new name.\n"
+
+[[issues]]
+  filepath = "txpool/pool.go"
+  fileline = 6
+  comment = "This import is renamed to `logging` but this is a bad practice. \nImport without specifying a new name.\n"
+
+[[issues]]
+  filepath = "cmd/ngcore/main.go"
+  fileline = 15
+  comment = "This import is renamed to `logging` but this is a bad practice. \nImport without specifying a new name.\n"
+
+[[issues]]
+  filepath = "consensus/pow.go"
+  fileline = 6
+  comment = "This import is renamed to `logging` but this is a bad practice. \nImport without specifying a new name.\n"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 12
+  comment = "This import is renamed to `protoimpl` but this is a bad practice. \nImport without specifying a new name.\n"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 10
+  comment = "This import is renamed to `proto` but this is a bad practice. \nImport without specifying a new name.\n"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 14
+  comment = "This import is renamed to `sync` but this is a bad practice. \nImport without specifying a new name.\n"
+
+[[issues]]
+  filepath = "ngp2p/broadcast.go"
+  fileline = 6
+  comment = "This import is renamed to `pubsub` but this is a bad practice. \nImport without specifying a new name.\n"
+
+[[issues]]
+  filepath = "ngp2p/pb/p2p.pb.go"
+  fileline = 10
+  comment = "This import is renamed to `proto` but this is a bad practice. \nImport without specifying a new name.\n"
+
+[[issues]]
+  filepath = "ngp2p/pb/p2p.pb.go"
+  fileline = 13
+  comment = "This import is renamed to `protoimpl` but this is a bad practice. \nImport without specifying a new name.\n"
+
+[[issues]]
+  filepath = "ngp2p/pb/p2p.pb.go"
+  fileline = 15
+  comment = "This import is renamed to `sync` but this is a bad practice. \nImport without specifying a new name.\n"
+
+[[issues]]
+  filepath = "ngp2p/pb/p2p.pb.go"
+  fileline = 11
+  comment = "This import is renamed to `ngtypes` but this is a bad practice. \nImport without specifying a new name.\n"
+
+[[issues]]
+  filepath = "utils/json.go"
+  fileline = 4
+  comment = "This import is renamed to `jsoniter` but this is a bad practice. \nImport without specifying a new name.\n"
+
+[[issues]]
+  filepath = "rpc/server.go"
+  fileline = 6
+  comment = "This import is renamed to `logging` but this is a bad practice. \nImport without specifying a new name.\n"
+
+[[issues]]
+  filepath = "ngchain/chain.go"
+  fileline = 10
+  comment = "This import is renamed to `logging` but this is a bad practice. \nImport without specifying a new name.\n"
+
+[[issues]]
+  filepath = "ngp2p/wiredping.go"
+  fileline = 7
+  comment = "This import is renamed to `core` but this is a bad practice. \nImport without specifying a new name.\n"
+
+[[issues]]
+  filepath = "ngp2p/broadcastblock.go"
+  fileline = 6
+  comment = "This import is renamed to `pubsub` but this is a bad practice. \nImport without specifying a new name.\n"

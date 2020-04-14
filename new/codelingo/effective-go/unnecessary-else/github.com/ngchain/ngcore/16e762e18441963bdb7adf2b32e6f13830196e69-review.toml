@@ -1,0 +1,13 @@
+repo = "github.com/ngchain/ngcore"
+rule = "codelingo/effective-go/unnecessary-else"
+sha = "16e762e18441963bdb7adf2b32e6f13830196e69"
+
+[[issues]]
+  filepath = "ngchain/helper.go"
+  fileline = 20
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "ngp2p/wiredgetchain.go"
+  fileline = 97
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"

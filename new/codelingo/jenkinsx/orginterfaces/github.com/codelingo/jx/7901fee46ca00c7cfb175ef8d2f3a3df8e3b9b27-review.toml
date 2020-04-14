@@ -1,0 +1,4193 @@
+repo = "github.com/codelingo/jx"
+rule = "codelingo/jenkinsx/orginterfaces"
+sha = "7901fee46ca00c7cfb175ef8d2f3a3df8e3b9b27"
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/sourcerepositorygroup.go"
+  fileline = 62
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/sourcerepositorygroup.go"
+  fileline = 33
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/sourcerepositorygroup.go"
+  fileline = 45
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/sourcerepositorygroup.go"
+  fileline = 13
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/app.go"
+  fileline = 16
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/app.go"
+  fileline = 21
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/pipelineactivity.go"
+  fileline = 62
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/pipelineactivity.go"
+  fileline = 33
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/pipelineactivity.go"
+  fileline = 45
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/pipelineactivity.go"
+  fileline = 13
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cloud/amazon/provider.go"
+  fileline = 13
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/validators_test.go"
+  fileline = 33
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/kube/field_map.go"
+  fileline = 45
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/kube/field_map.go"
+  fileline = 12
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/buildpack.go"
+  fileline = 21
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/buildpack.go"
+  fileline = 16
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/create/create_addon_prometheus.go"
+  fileline = 101
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/deletecmd/delete_application.go"
+  fileline = 403
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/pipeline/pipelinerunner_controller.go"
+  fileline = 347
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cloud/amazon/permissions.go"
+  fileline = 142
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cloud/amazon/permissions.go"
+  fileline = 127
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cloud/amazon/permissions.go"
+  fileline = 154
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cloud/amazon/permissions.go"
+  fileline = 79
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/informers/externalversions/jenkins.io/v1/plugin.go"
+  fileline = 20
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/pipelineactivity.go"
+  fileline = 16
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/pipelineactivity.go"
+  fileline = 21
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/user_expansion.go"
+  fileline = 13
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/app_expansion.go"
+  fileline = 13
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/environment.go"
+  fileline = 33
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/environment.go"
+  fileline = 13
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/environment.go"
+  fileline = 45
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/environment.go"
+  fileline = 62
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/util/validation.go"
+  fileline = 13
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/util/validation.go"
+  fileline = 11
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/util/validation.go"
+  fileline = 23
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/reports/reports.go"
+  fileline = 5
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/jenkins.io_client.go"
+  fileline = 12
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/environments/gitops.go"
+  fileline = 162
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/environments/gitops.go"
+  fileline = 160
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/environments/gitops.go"
+  fileline = 235
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/environments/gitops.go"
+  fileline = 35
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/environments/gitops.go"
+  fileline = 462
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cloud/iks/iks.go"
+  fileline = 14
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/helmfile/helmfile.go"
+  fileline = 12
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/helmfile/helmfile.go"
+  fileline = 160
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/helmfile/helmfile.go"
+  fileline = 213
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/helmfile/helmfile.go"
+  fileline = 133
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/helmfile/helmfile.go"
+  fileline = 46
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/helmfile/helmfile.go"
+  fileline = 188
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/helmfile/helmfile.go"
+  fileline = 235
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/helmfile/helmfile.go"
+  fileline = 159
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/helmfile/helmfile.go"
+  fileline = 236
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/gits/bitbucket_server.go"
+  fileline = 370
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/gits/bitbucket_server.go"
+  fileline = 212
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/gits/bitbucket_server.go"
+  fileline = 491
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/gits/bitbucket_server.go"
+  fileline = 97
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/gits/bitbucket_server.go"
+  fileline = 379
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/gits/bitbucket_server.go"
+  fileline = 377
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/gits/bitbucket_server.go"
+  fileline = 277
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/gits/bitbucket_server.go"
+  fileline = 362
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/gits/bitbucket_server.go"
+  fileline = 681
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/gits/bitbucket_server.go"
+  fileline = 755
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/gits/bitbucket_server.go"
+  fileline = 368
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/gits/bitbucket_server.go"
+  fileline = 613
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/gits/bitbucket_server.go"
+  fileline = 246
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/gits/bitbucket_server.go"
+  fileline = 825
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/gits/bitbucket_server.go"
+  fileline = 470
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/gits/bitbucket_server.go"
+  fileline = 468
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/gits/bitbucket_server.go"
+  fileline = 479
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/gits/bitbucket_server.go"
+  fileline = 938
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/gits/bitbucket_server.go"
+  fileline = 650
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/gits/bitbucket_server.go"
+  fileline = 833
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/gits/bitbucket_server.go"
+  fileline = 179
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/gits/bitbucket_server.go"
+  fileline = 469
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/gits/bitbucket_server.go"
+  fileline = 319
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/gits/bitbucket_server.go"
+  fileline = 856
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/gits/bitbucket_server.go"
+  fileline = 316
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/gits/bitbucket_server.go"
+  fileline = 930
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/gits/bitbucket_server.go"
+  fileline = 381
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/gits/bitbucket_server.go"
+  fileline = 372
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/gits/bitbucket_server.go"
+  fileline = 765
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/gits/bitbucket_server.go"
+  fileline = 483
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/gits/bitbucket_server.go"
+  fileline = 577
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/workflow.go"
+  fileline = 16
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/workflow.go"
+  fileline = 21
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cloud/iks/registry.go"
+  fileline = 45
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cloud/iks/registry.go"
+  fileline = 32
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/secreturl/helpers_test.go"
+  fileline = 42
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/secreturl/helpers_test.go"
+  fileline = 25
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/secreturl/helpers_test.go"
+  fileline = 71
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/secreturl/helpers_test.go"
+  fileline = 141
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/secreturl/helpers_test.go"
+  fileline = 100
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/kube/env.go"
+  fileline = 687
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/kube/env.go"
+  fileline = 688
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/kube/env.go"
+  fileline = 62
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/kube/vault/vault_selector.go"
+  fileline = 14
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/secreturl/fakevault/client.go"
+  fileline = 26
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/secreturl/fakevault/client.go"
+  fileline = 32
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/secreturl/fakevault/client.go"
+  fileline = 53
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/secreturl/fakevault/client.go"
+  fileline = 46
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/secreturl/fakevault/client.go"
+  fileline = 46
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/secreturl/fakevault/client.go"
+  fileline = 53
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/secreturl/fakevault/client.go"
+  fileline = 21
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/secreturl/fakevault/client.go"
+  fileline = 15
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/controller_backup.go"
+  fileline = 159
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/controller_backup.go"
+  fileline = 162
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/controller_backup.go"
+  fileline = 139
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/controller_backup.go"
+  fileline = 195
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/controller_backup.go"
+  fileline = 109
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/controller_backup.go"
+  fileline = 133
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/controller_backup.go"
+  fileline = 165
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/controller_backup.go"
+  fileline = 186
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/controller_backup.go"
+  fileline = 106
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/controller_backup.go"
+  fileline = 177
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/controller_backup.go"
+  fileline = 136
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/controller_backup.go"
+  fileline = 112
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/controller_backup.go"
+  fileline = 204
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/kube/configmap.go"
+  fileline = 63
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/kube/validate.go"
+  fileline = 33
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/kube/validate.go"
+  fileline = 18
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/templates/templater.go"
+  fileline = 29
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cloud/iks/regions.go"
+  fileline = 27
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/kube/resources/installer.go"
+  fileline = 11
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/step/create/step_create_values.go"
+  fileline = 318
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/pipelinescheduler/generator.go"
+  fileline = 640
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/pipelinescheduler/generator.go"
+  fileline = 542
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/environmentrolebinding_expansion.go"
+  fileline = 13
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/kube/env_cache.go"
+  fileline = 84
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/kube/env_cache.go"
+  fileline = 73
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/kube/env_cache.go"
+  fileline = 37
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/kube/env_cache.go"
+  fileline = 34
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/kube/env_cache.go"
+  fileline = 40
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/informers/externalversions/jenkins.io/v1/buildpack.go"
+  fileline = 20
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/tekton/metapipeline/client.go"
+  fileline = 47
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/upgrade/upgrade_addon_prow.go"
+  fileline = 212
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/step/verify/step_verify_behavior.go"
+  fileline = 229
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/apps/values.go"
+  fileline = 94
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/apps/values.go"
+  fileline = 146
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/extension.go"
+  fileline = 33
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/extension.go"
+  fileline = 45
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/extension.go"
+  fileline = 13
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/extension.go"
+  fileline = 62
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cloud/iks/zones.go"
+  fileline = 15
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cloud/iks/datacenters.go"
+  fileline = 41
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cloud/iks/datacenters.go"
+  fileline = 46
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/controller_commitstatus.go"
+  fileline = 107
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/controller_commitstatus.go"
+  fileline = 145
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/controller_commitstatus.go"
+  fileline = 128
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/controller_commitstatus.go"
+  fileline = 104
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/controller_commitstatus.go"
+  fileline = 110
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/controller_commitstatus.go"
+  fileline = 125
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/controller_commitstatus.go"
+  fileline = 131
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/controller_commitstatus.go"
+  fileline = 196
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/secreturl/mocks/secreturl_client.go"
+  fileline = 47
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/secreturl/mocks/secreturl_client.go"
+  fileline = 105
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/secreturl/mocks/secreturl_client.go"
+  fileline = 241
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/secreturl/mocks/secreturl_client.go"
+  fileline = 288
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/secreturl/mocks/secreturl_client.go"
+  fileline = 272
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/secreturl/mocks/secreturl_client.go"
+  fileline = 283
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/secreturl/mocks/secreturl_client.go"
+  fileline = 110
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/secreturl/mocks/secreturl_client.go"
+  fileline = 28
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/secreturl/mocks/secreturl_client.go"
+  fileline = 106
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/secreturl/mocks/secreturl_client.go"
+  fileline = 34
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/secreturl/mocks/secreturl_client.go"
+  fileline = 100
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/secreturl/mocks/secreturl_client.go"
+  fileline = 81
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/secreturl/mocks/secreturl_client.go"
+  fileline = 33
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/secreturl/mocks/secreturl_client.go"
+  fileline = 264
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/secreturl/mocks/secreturl_client.go"
+  fileline = 81
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/secreturl/mocks/secreturl_client.go"
+  fileline = 100
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/secreturl/mocks/secreturl_client.go"
+  fileline = 297
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/secreturl/mocks/secreturl_client.go"
+  fileline = 86
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/secreturl/mocks/secreturl_client.go"
+  fileline = 194
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/secreturl/mocks/secreturl_client.go"
+  fileline = 266
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/secreturl/mocks/secreturl_client.go"
+  fileline = 208
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/secreturl/mocks/secreturl_client.go"
+  fileline = 199
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/secreturl/mocks/secreturl_client.go"
+  fileline = 38
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/secreturl/mocks/secreturl_client.go"
+  fileline = 91
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/secreturl/mocks/secreturl_client.go"
+  fileline = 257
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/secreturl/mocks/secreturl_client.go"
+  fileline = 252
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/secreturl/mocks/secreturl_client.go"
+  fileline = 295
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/secreturl/mocks/secreturl_client.go"
+  fileline = 206
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/secreturl/mocks/secreturl_client.go"
+  fileline = 87
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/secreturl/mocks/secreturl_client.go"
+  fileline = 183
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/step/verify/step_verify_ingress_test.go"
+  fileline = 182
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/environment_expansion.go"
+  fileline = 13
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/sourcerepository.go"
+  fileline = 62
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/sourcerepository.go"
+  fileline = 13
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/sourcerepository.go"
+  fileline = 33
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/sourcerepository.go"
+  fileline = 45
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema.go"
+  fileline = 515
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema.go"
+  fileline = 229
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema.go"
+  fileline = 363
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema.go"
+  fileline = 180
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema.go"
+  fileline = 861
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema.go"
+  fileline = 632
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema.go"
+  fileline = 516
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema.go"
+  fileline = 645
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema.go"
+  fileline = 680
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema.go"
+  fileline = 203
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema.go"
+  fileline = 82
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema.go"
+  fileline = 134
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema.go"
+  fileline = 752
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema.go"
+  fileline = 63
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema.go"
+  fileline = 286
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema.go"
+  fileline = 79
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema.go"
+  fileline = 305
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema.go"
+  fileline = 217
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/edit/edit.go"
+  fileline = 101
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/mocks/vault_client.go"
+  fileline = 143
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/mocks/vault_client.go"
+  fileline = 181
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/mocks/vault_client.go"
+  fileline = 319
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/mocks/vault_client.go"
+  fileline = 71
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/mocks/vault_client.go"
+  fileline = 186
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/mocks/vault_client.go"
+  fileline = 324
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/mocks/vault_client.go"
+  fileline = 418
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/mocks/vault_client.go"
+  fileline = 148
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/mocks/vault_client.go"
+  fileline = 440
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/mocks/vault_client.go"
+  fileline = 149
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/mocks/vault_client.go"
+  fileline = 331
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/mocks/vault_client.go"
+  fileline = 90
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/mocks/vault_client.go"
+  fileline = 162
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/mocks/vault_client.go"
+  fileline = 308
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/mocks/vault_client.go"
+  fileline = 416
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/mocks/vault_client.go"
+  fileline = 153
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/mocks/vault_client.go"
+  fileline = 333
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/mocks/vault_client.go"
+  fileline = 424
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/mocks/vault_client.go"
+  fileline = 447
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/mocks/vault_client.go"
+  fileline = 191
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/mocks/vault_client.go"
+  fileline = 187
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/mocks/vault_client.go"
+  fileline = 76
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/mocks/vault_client.go"
+  fileline = 409
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/mocks/vault_client.go"
+  fileline = 167
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/mocks/vault_client.go"
+  fileline = 393
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/mocks/vault_client.go"
+  fileline = 143
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/mocks/vault_client.go"
+  fileline = 162
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/mocks/vault_client.go"
+  fileline = 77
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/mocks/vault_client.go"
+  fileline = 172
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/mocks/vault_client.go"
+  fileline = 168
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/mocks/vault_client.go"
+  fileline = 404
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/mocks/vault_client.go"
+  fileline = 449
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/mocks/vault_client.go"
+  fileline = 81
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/mocks/vault_client.go"
+  fileline = 435
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/auth/interfaces.go"
+  fileline = 20
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/auth/interfaces.go"
+  fileline = 4
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/kube/vault/commonhelpers_test.go"
+  fileline = 45
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/kube/vault/commonhelpers_test.go"
+  fileline = 52
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/kube/vault/commonhelpers_test.go"
+  fileline = 45
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/kube/vault/commonhelpers_test.go"
+  fileline = 44
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/kube/vault/commonhelpers_test.go"
+  fileline = 53
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/commitstatus.go"
+  fileline = 45
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/commitstatus.go"
+  fileline = 13
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/commitstatus.go"
+  fileline = 62
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/commitstatus.go"
+  fileline = 33
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/config/patch_configmap_test.go"
+  fileline = 106
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/config/patch_configmap_test.go"
+  fileline = 110
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/scheduler.go"
+  fileline = 16
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/scheduler.go"
+  fileline = 21
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/helper/error.go"
+  fileline = 106
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/kube/git_services_test.go"
+  fileline = 114
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/kube/vault/vault_factory.go"
+  fileline = 194
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/kube/vault/vault_factory.go"
+  fileline = 52
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/kube/vault/vault_factory.go"
+  fileline = 214
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/informers/externalversions/jenkins.io/v1/extension.go"
+  fileline = 20
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/informers/externalversions/jenkins.io/v1/release.go"
+  fileline = 20
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/promote/promote.go"
+  fileline = 550
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/gits/bitbucket_cloud.go"
+  fileline = 493
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/gits/bitbucket_cloud.go"
+  fileline = 505
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/gits/bitbucket_cloud.go"
+  fileline = 334
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/gits/bitbucket_cloud.go"
+  fileline = 434
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/gits/bitbucket_cloud.go"
+  fileline = 224
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/gits/bitbucket_cloud.go"
+  fileline = 435
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/gits/bitbucket_cloud.go"
+  fileline = 271
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/gits/bitbucket_cloud.go"
+  fileline = 73
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/gits/bitbucket_cloud.go"
+  fileline = 164
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/gits/bitbucket_cloud.go"
+  fileline = 695
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/gits/bitbucket_cloud.go"
+  fileline = 223
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/gits/bitbucket_cloud.go"
+  fileline = 719
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/gits/bitbucket_cloud.go"
+  fileline = 718
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/step/verify/step_verify_values_test.go"
+  fileline = 55
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/step/verify/step_verify_values_test.go"
+  fileline = 83
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/step/verify/step_verify_values_test.go"
+  fileline = 70
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/step/verify/step_verify_values_test.go"
+  fileline = 85
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/step/verify/step_verify_values_test.go"
+  fileline = 57
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/commitstatus_expansion.go"
+  fileline = 13
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/release_expansion.go"
+  fileline = 13
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/get/get.go"
+  fileline = 130
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/reportingtools/xunit_client.go"
+  fileline = 7
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/pipelineactivity_expansion.go"
+  fileline = 13
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/informers/externalversions/jenkins.io/v1/gitservice.go"
+  fileline = 20
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/informers/externalversions/jenkins.io/v1/scheduler.go"
+  fileline = 20
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/importcmd/import_reporter.go"
+  fileline = 11
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/importcmd/import_reporter.go"
+  fileline = 39
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/importcmd/import_reporter.go"
+  fileline = 29
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/util/system/version_linux.go"
+  fileline = 15
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cloud/iks/accounts.go"
+  fileline = 261
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cloud/iks/accounts.go"
+  fileline = 84
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cloud/iks/accounts.go"
+  fileline = 203
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/plugin.go"
+  fileline = 21
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/plugin.go"
+  fileline = 16
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/informers/externalversions/jenkins.io/v1/sourcerepositorygroup.go"
+  fileline = 20
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/release.go"
+  fileline = 62
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/release.go"
+  fileline = 45
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/release.go"
+  fileline = 13
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/release.go"
+  fileline = 33
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/pipeline_events/provider.go"
+  fileline = 5
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/fake/client.go"
+  fileline = 41
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/fake/client.go"
+  fileline = 34
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/fake/client.go"
+  fileline = 79
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/fake/client.go"
+  fileline = 70
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/fake/client.go"
+  fileline = 34
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/fake/client.go"
+  fileline = 29
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/fake/client.go"
+  fileline = 23
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/fake/client.go"
+  fileline = 52
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/fake/client.go"
+  fileline = 41
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/fake/client.go"
+  fileline = 50
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/plugin_expansion.go"
+  fileline = 13
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/plugin.go"
+  fileline = 45
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/plugin.go"
+  fileline = 33
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/plugin.go"
+  fileline = 62
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/plugin.go"
+  fileline = 13
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/create/install_gitops_integration_test.go"
+  fileline = 222
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/create/install_gitops_integration_test.go"
+  fileline = 208
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/team_expansion.go"
+  fileline = 13
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/create/install.go"
+  fileline = 1043
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/create/install.go"
+  fileline = 3301
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/create/install.go"
+  fileline = 1042
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/create/install.go"
+  fileline = 3348
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/create/install.go"
+  fileline = 3354
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/testhelpers/app_test_helpers.go"
+  fileline = 62
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/testhelpers/app_test_helpers.go"
+  fileline = 104
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/team.go"
+  fileline = 16
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/team.go"
+  fileline = 21
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/extensions/execution.go"
+  fileline = 84
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/secreturl/client.go"
+  fileline = 12
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/secreturl/client.go"
+  fileline = 19
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/secreturl/client.go"
+  fileline = 6
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/secreturl/client.go"
+  fileline = 8
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/secreturl/client.go"
+  fileline = 15
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/secreturl/client.go"
+  fileline = 15
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/secreturl/client.go"
+  fileline = 19
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/cmd.go"
+  fileline = 419
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/informers/externalversions/jenkins.io/v1/app.go"
+  fileline = 20
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/release.go"
+  fileline = 21
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/release.go"
+  fileline = 16
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/features/features.go"
+  fileline = 85
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/schema_template_test.go"
+  fileline = 76
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/util/structs.go"
+  fileline = 57
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/util/structs.go"
+  fileline = 52
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/util/structs.go"
+  fileline = 76
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/util/structs.go"
+  fileline = 97
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/util/structs.go"
+  fileline = 78
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/util/structs.go"
+  fileline = 52
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/util/structs.go"
+  fileline = 65
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/util/structs.go"
+  fileline = 65
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/util/structs.go"
+  fileline = 79
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/util/structs.go"
+  fileline = 12
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/util/structs.go"
+  fileline = 76
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/util/structs.go"
+  fileline = 84
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/util/structs.go"
+  fileline = 88
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/util/structs.go"
+  fileline = 78
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/schema_template.go"
+  fileline = 73
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/informers/externalversions/jenkins.io/v1/environment.go"
+  fileline = 20
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/controller_enviornmentcontroller.go"
+  fileline = 432
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/controller_enviornmentcontroller.go"
+  fileline = 445
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/helm/helm_helpers_test.go"
+  fileline = 38
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/helm/helm_helpers_test.go"
+  fileline = 75
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/helm/helm_helpers_test.go"
+  fileline = 60
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/helm/helm_helpers_test.go"
+  fileline = 242
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/helm/helm_helpers_test.go"
+  fileline = 98
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/helm/helm_helpers_test.go"
+  fileline = 96
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/helm/helm_helpers_test.go"
+  fileline = 75
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/helm/helm_helpers_test.go"
+  fileline = 31
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/helm/helm_helpers_test.go"
+  fileline = 35
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/helm/helm_helpers_test.go"
+  fileline = 68
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/helm/helm_helpers_test.go"
+  fileline = 57
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/helm/helm_helpers_test.go"
+  fileline = 203
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/helm/helm_helpers_test.go"
+  fileline = 49
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/helm/helm_helpers_test.go"
+  fileline = 65
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/helm/helm_helpers_test.go"
+  fileline = 75
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/helm/helm_helpers_test.go"
+  fileline = 76
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/helm/helm_helpers_test.go"
+  fileline = 64
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/helm/helm_helpers_test.go"
+  fileline = 45
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/helm/helm_helpers_test.go"
+  fileline = 86
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/helm/helm_helpers_test.go"
+  fileline = 52
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/helm/helm_helpers_test.go"
+  fileline = 44
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/helm/helm_helpers_test.go"
+  fileline = 56
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/informers/externalversions/jenkins.io/v1/commitstatus.go"
+  fileline = 20
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/kube/log_masker_test.go"
+  fileline = 57
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/kube/log_masker_test.go"
+  fileline = 58
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/kube/vault/vault.go"
+  fileline = 337
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/kube/vault/vault.go"
+  fileline = 481
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/kube/vault/vault.go"
+  fileline = 484
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/kube/vault/vault.go"
+  fileline = 483
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/kube/vault/vault.go"
+  fileline = 482
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/kube/vault/vault.go"
+  fileline = 174
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/kube/vault/vault.go"
+  fileline = 323
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/kube/vault/vault.go"
+  fileline = 175
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/apps/gitops.go"
+  fileline = 62
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/apps/gitops.go"
+  fileline = 92
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/apps/gitops.go"
+  fileline = 118
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/step/report/step_report_chart.go"
+  fileline = 227
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/logs/tekton_logging.go"
+  fileline = 58
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/clients/mocks/jenkins_client.go"
+  fileline = 1565
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/clients/mocks/jenkins_client.go"
+  fileline = 1560
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/clients/mocks/jenkins_client.go"
+  fileline = 1576
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/clients/mocks/jenkins_client.go"
+  fileline = 530
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/clients/mocks/jenkins_client.go"
+  fileline = 1549
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/clients/mocks/jenkins_client.go"
+  fileline = 1578
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/mocks/matchers/map_of_string_to_interface.go"
+  fileline = 16
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/mocks/matchers/map_of_string_to_interface.go"
+  fileline = 18
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/mocks/matchers/map_of_string_to_interface.go"
+  fileline = 16
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/mocks/matchers/map_of_string_to_interface.go"
+  fileline = 12
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/mocks/matchers/map_of_string_to_interface.go"
+  fileline = 11
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/mocks/matchers/map_of_string_to_interface.go"
+  fileline = 10
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/step/create/step_create_templated_config.go"
+  fileline = 141
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/helm/values_tree.go"
+  fileline = 253
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/helm/values_tree.go"
+  fileline = 236
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/helm/values_tree.go"
+  fileline = 58
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/helm/values_tree.go"
+  fileline = 181
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/helm/values_tree.go"
+  fileline = 152
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/helm/values_tree.go"
+  fileline = 259
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/helm/values_tree.go"
+  fileline = 77
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/helm/values_tree.go"
+  fileline = 92
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/helm/values_tree.go"
+  fileline = 254
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/helm/values_tree.go"
+  fileline = 186
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/helpers.go"
+  fileline = 54
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/helpers.go"
+  fileline = 47
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/upgrade/upgrade_apps_test.go"
+  fileline = 203
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/upgrade/upgrade_apps_test.go"
+  fileline = 391
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/upgrade/upgrade_apps_test.go"
+  fileline = 494
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/upgrade/upgrade_apps_test.go"
+  fileline = 291
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/informers/externalversions/factory.go"
+  fileline = 154
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cloud/iks/clusters.go"
+  fileline = 24
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/extensions/plugins.go"
+  fileline = 32
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/get/get_activity.go"
+  fileline = 174
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/get/get_activity.go"
+  fileline = 162
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/get/get_activity.go"
+  fileline = 159
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/get/get_activity.go"
+  fileline = 156
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/user.go"
+  fileline = 45
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/user.go"
+  fileline = 13
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/user.go"
+  fileline = 33
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/user.go"
+  fileline = 62
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/environmentrolebinding.go"
+  fileline = 21
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/environmentrolebinding.go"
+  fileline = 16
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/helm/helm_helpers.go"
+  fileline = 812
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/helm/helm_helpers.go"
+  fileline = 264
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/helm/helm_helpers.go"
+  fileline = 93
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/helm/helm_helpers.go"
+  fileline = 322
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/helm/helm_helpers.go"
+  fileline = 284
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/helm/helm_helpers.go"
+  fileline = 321
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/helm/helm_helpers.go"
+  fileline = 813
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/helm/helm_helpers.go"
+  fileline = 280
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/helm/helm_helpers.go"
+  fileline = 420
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/helm/helm_helpers.go"
+  fileline = 419
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/helm/helm_helpers.go"
+  fileline = 330
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/helm/helm_helpers.go"
+  fileline = 653
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/gits/github.go"
+  fileline = 565
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/gits/github.go"
+  fileline = 478
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/tests/helpers.go"
+  fileline = 37
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/generated_expansion.go"
+  fileline = 5
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/generated_expansion.go"
+  fileline = 7
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/informers/externalversions/generic.go"
+  fileline = 15
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/io/config_store.go"
+  fileline = 42
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/io/config_store.go"
+  fileline = 109
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/io/config_store.go"
+  fileline = 25
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/io/config_store.go"
+  fileline = 14
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/io/config_store.go"
+  fileline = 22
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/io/config_store.go"
+  fileline = 122
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/io/config_store.go"
+  fileline = 79
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/io/config_store.go"
+  fileline = 56
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/expansion_generated.go"
+  fileline = 91
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/expansion_generated.go"
+  fileline = 147
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/expansion_generated.go"
+  fileline = 11
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/expansion_generated.go"
+  fileline = 123
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/expansion_generated.go"
+  fileline = 67
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/expansion_generated.go"
+  fileline = 71
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/expansion_generated.go"
+  fileline = 75
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/expansion_generated.go"
+  fileline = 39
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/expansion_generated.go"
+  fileline = 139
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/expansion_generated.go"
+  fileline = 95
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/expansion_generated.go"
+  fileline = 143
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/expansion_generated.go"
+  fileline = 79
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/expansion_generated.go"
+  fileline = 131
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/expansion_generated.go"
+  fileline = 35
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/expansion_generated.go"
+  fileline = 31
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/expansion_generated.go"
+  fileline = 7
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/expansion_generated.go"
+  fileline = 99
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/expansion_generated.go"
+  fileline = 19
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/expansion_generated.go"
+  fileline = 83
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/expansion_generated.go"
+  fileline = 63
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/expansion_generated.go"
+  fileline = 127
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/expansion_generated.go"
+  fileline = 107
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/expansion_generated.go"
+  fileline = 27
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/expansion_generated.go"
+  fileline = 87
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/expansion_generated.go"
+  fileline = 55
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/expansion_generated.go"
+  fileline = 135
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/expansion_generated.go"
+  fileline = 23
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/expansion_generated.go"
+  fileline = 47
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/expansion_generated.go"
+  fileline = 43
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/expansion_generated.go"
+  fileline = 111
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/expansion_generated.go"
+  fileline = 103
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/expansion_generated.go"
+  fileline = 119
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/expansion_generated.go"
+  fileline = 59
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/expansion_generated.go"
+  fileline = 15
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/expansion_generated.go"
+  fileline = 51
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/expansion_generated.go"
+  fileline = 115
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/environmentrolebinding.go"
+  fileline = 45
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/environmentrolebinding.go"
+  fileline = 13
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/environmentrolebinding.go"
+  fileline = 33
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/environmentrolebinding.go"
+  fileline = 62
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/auth/configmap_vault_config_handler_test.go"
+  fileline = 133
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/auth/configmap_vault_config_handler_test.go"
+  fileline = 174
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/auth/configmap_vault_config_handler_test.go"
+  fileline = 52
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/auth/configmap_vault_config_handler_test.go"
+  fileline = 213
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/sourcerepository_expansion.go"
+  fileline = 13
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/commitstatus.go"
+  fileline = 21
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/commitstatus.go"
+  fileline = 16
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/util/suggestions.go"
+  fileline = 19
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/util/suggestions.go"
+  fileline = 72
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/util/suggestions.go"
+  fileline = 19
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/util/suggestions.go"
+  fileline = 14
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/informers/externalversions/jenkins.io/v1/sourcerepository.go"
+  fileline = 20
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/fact_expansion.go"
+  fileline = 13
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/builds/build_info.go"
+  fileline = 22
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/config/patch_configmap.go"
+  fileline = 183
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/informers/externalversions/jenkins.io/v1/workflow.go"
+  fileline = 20
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/controller_role.go"
+  fileline = 220
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/controller_role.go"
+  fileline = 239
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/controller_role.go"
+  fileline = 432
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/controller_role.go"
+  fileline = 432
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/controller_role.go"
+  fileline = 171
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/controller_role.go"
+  fileline = 223
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/controller_role.go"
+  fileline = 380
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/controller_role.go"
+  fileline = 168
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/controller_role.go"
+  fileline = 174
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/controller_role.go"
+  fileline = 239
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/controller_role.go"
+  fileline = 226
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/controller_role.go"
+  fileline = 380
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/controller_role.go"
+  fileline = 197
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/controller_role.go"
+  fileline = 200
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/controller_role.go"
+  fileline = 194
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/extension_expansion.go"
+  fileline = 13
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/clientset.go"
+  fileline = 12
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/jenkins/fake/fake_jenkins.go"
+  fileline = 297
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/jenkins/fake/fake_jenkins.go"
+  fileline = 107
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/kube/pipeline_cache.go"
+  fileline = 45
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/kube/pipeline_cache.go"
+  fileline = 112
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/kube/pipeline_cache.go"
+  fileline = 48
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/kube/pipeline_cache.go"
+  fileline = 51
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/kube/pipeline_cache.go"
+  fileline = 78
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/kube/pipeline_cache.go"
+  fileline = 78
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/kube/pipeline_cache.go"
+  fileline = 91
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/kube/pipeline_cache.go"
+  fileline = 91
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/kube/pipeline_cache.go"
+  fileline = 101
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 409
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 737
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 50
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 215
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 958
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 460
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 370
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 256
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 166
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 621
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 992
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 922
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 179
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 235
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 664
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 485
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 392
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 642
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 904
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 559
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 67
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 110
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 1007
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 975
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 521
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 443
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 190
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 868
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 828
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 145
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 718
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 850
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 282
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 326
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 886
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 543
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 940
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 590
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 800
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 831
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 682
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 304
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 700
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 127
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 778
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 426
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 348
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 759
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 94
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/jsonschema_test.go"
+  fileline = 503
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/io/secrets/secret_locations.go"
+  fileline = 30
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/informers/externalversions/jenkins.io/v1/user.go"
+  fileline = 20
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/validators.go"
+  fileline = 400
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/validators.go"
+  fileline = 268
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/validators.go"
+  fileline = 66
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/validators.go"
+  fileline = 280
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/validators.go"
+  fileline = 439
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/validators.go"
+  fileline = 412
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/validators.go"
+  fileline = 94
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/validators.go"
+  fileline = 126
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/validators.go"
+  fileline = 48
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/validators.go"
+  fileline = 158
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/validators.go"
+  fileline = 386
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/validators.go"
+  fileline = 206
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/validators.go"
+  fileline = 238
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/validators.go"
+  fileline = 143
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/validators.go"
+  fileline = 454
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/validators.go"
+  fileline = 47
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/validators.go"
+  fileline = 223
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/validators.go"
+  fileline = 468
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/validators.go"
+  fileline = 175
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/validators.go"
+  fileline = 440
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/validators.go"
+  fileline = 253
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/validators.go"
+  fileline = 73
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/validators.go"
+  fileline = 322
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/validators.go"
+  fileline = 438
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/validators.go"
+  fileline = 287
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/validators.go"
+  fileline = 387
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/validators.go"
+  fileline = 413
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/validators.go"
+  fileline = 279
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/validators.go"
+  fileline = 191
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/validators.go"
+  fileline = 426
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/validators.go"
+  fileline = 359
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/surveyutils/validators.go"
+  fileline = 110
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/step/step_values_schema_template.go"
+  fileline = 105
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/step/step_values_schema_template.go"
+  fileline = 92
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/workflow_expansion.go"
+  fileline = 13
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/gitservice.go"
+  fileline = 21
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/gitservice.go"
+  fileline = 16
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/tekton/crds.go"
+  fileline = 129
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/kube/log_masker.go"
+  fileline = 30
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/kube/log_masker.go"
+  fileline = 86
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/kube/log_masker.go"
+  fileline = 84
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/deletecmd/delete_app_test.go"
+  fileline = 146
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/deletecmd/delete_app_test.go"
+  fileline = 121
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/workflow.go"
+  fileline = 45
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/workflow.go"
+  fileline = 33
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/workflow.go"
+  fileline = 62
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/workflow.go"
+  fileline = 13
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/issues/provider.go"
+  fileline = 11
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/buildpack.go"
+  fileline = 62
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/buildpack.go"
+  fileline = 45
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/buildpack.go"
+  fileline = 33
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/buildpack.go"
+  fileline = 13
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/app.go"
+  fileline = 13
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/app.go"
+  fileline = 45
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/app.go"
+  fileline = 62
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/app.go"
+  fileline = 33
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/step/report/step_report.go"
+  fileline = 60
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/opts/common.go"
+  fileline = 185
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/opts/common.go"
+  fileline = 1264
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/opts/common.go"
+  fileline = 246
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/opts/common.go"
+  fileline = 1257
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/fact.go"
+  fileline = 62
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/fact.go"
+  fileline = 33
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/fact.go"
+  fileline = 45
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/fact.go"
+  fileline = 13
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/pipelinestructure.go"
+  fileline = 16
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/pipelinestructure.go"
+  fileline = 21
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/secreturl/localvault/client.go"
+  fileline = 92
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/secreturl/localvault/client.go"
+  fileline = 62
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/secreturl/localvault/client.go"
+  fileline = 76
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/secreturl/localvault/client.go"
+  fileline = 34
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/secreturl/localvault/client.go"
+  fileline = 76
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/secreturl/localvault/client.go"
+  fileline = 92
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/chats/provider.go"
+  fileline = 11
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/create/create_gke_service_account.go"
+  fileline = 89
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/controller_team.go"
+  fileline = 144
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/controller_team.go"
+  fileline = 132
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/controller_team.go"
+  fileline = 129
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/controller_team.go"
+  fileline = 126
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/helm/helm_template.go"
+  fileline = 933
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/step/create/step_create_devpod_workspace.go"
+  fileline = 159
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/sourcerepositorygroup.go"
+  fileline = 16
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/sourcerepositorygroup.go"
+  fileline = 21
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/apps/install.go"
+  fileline = 317
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/apps/install.go"
+  fileline = 266
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/apps/install.go"
+  fileline = 319
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/apps/install.go"
+  fileline = 98
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/pipelinestructure.go"
+  fileline = 45
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/pipelinestructure.go"
+  fileline = 62
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/pipelinestructure.go"
+  fileline = 13
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/pipelinestructure.go"
+  fileline = 33
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/step/verify/step_verify_values.go"
+  fileline = 217
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/step/verify/step_verify_values.go"
+  fileline = 216
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/step/verify/step_verify_values.go"
+  fileline = 222
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/step/verify/step_verify_values.go"
+  fileline = 216
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/step/verify/step_verify_values.go"
+  fileline = 214
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/step/verify/step_verify_values.go"
+  fileline = 200
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/step/verify/step_verify_values.go"
+  fileline = 214
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/config/install_requirements.go"
+  fileline = 713
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/config/install_requirements.go"
+  fileline = 683
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/config/install_requirements.go"
+  fileline = 727
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/config/install_requirements.go"
+  fileline = 684
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/kube/patch.go"
+  fileline = 14
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/kube/patch.go"
+  fileline = 34
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/kube/patch.go"
+  fileline = 29
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/kube/patch.go"
+  fileline = 18
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/team.go"
+  fileline = 13
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/team.go"
+  fileline = 62
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/team.go"
+  fileline = 33
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/team.go"
+  fileline = 45
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/helpers_test.go"
+  fileline = 36
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/helpers_test.go"
+  fileline = 67
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/fact.go"
+  fileline = 21
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/fact.go"
+  fileline = 16
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/vault_client.go"
+  fileline = 125
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/vault_client.go"
+  fileline = 66
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/vault_client.go"
+  fileline = 66
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/vault_client.go"
+  fileline = 38
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/vault_client.go"
+  fileline = 109
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/vault_client.go"
+  fileline = 25
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/vault_client.go"
+  fileline = 67
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/vault_client.go"
+  fileline = 29
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/vault_client.go"
+  fileline = 32
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/vault_client.go"
+  fileline = 99
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/vault_client.go"
+  fileline = 29
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/vault_client.go"
+  fileline = 42
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/vault_client.go"
+  fileline = 123
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/vault_client.go"
+  fileline = 23
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/vault_client.go"
+  fileline = 89
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/vault_client.go"
+  fileline = 25
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/vault_client.go"
+  fileline = 99
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/vault_client.go"
+  fileline = 78
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/vault_client.go"
+  fileline = 175
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/step/boot/step_boot_vault.go"
+  fileline = 372
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/user.go"
+  fileline = 16
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/user.go"
+  fileline = 21
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/create/create.go"
+  fileline = 75
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/create/create.go"
+  fileline = 451
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/vault/create/create.go"
+  fileline = 442
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/informers/externalversions/jenkins.io/v1/fact.go"
+  fileline = 20
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/gitservice_expansion.go"
+  fileline = 13
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/packages/packages.go"
+  fileline = 47
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/gitservice.go"
+  fileline = 33
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/gitservice.go"
+  fileline = 62
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/gitservice.go"
+  fileline = 13
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/gitservice.go"
+  fileline = 45
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/util/types.go"
+  fileline = 88
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/util/types.go"
+  fileline = 16
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/util/types.go"
+  fileline = 27
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/util/types.go"
+  fileline = 90
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/util/types.go"
+  fileline = 130
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/util/types.go"
+  fileline = 38
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/util/types.go"
+  fileline = 49
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/util/types.go"
+  fileline = 69
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/util/types.go"
+  fileline = 83
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/util/types.go"
+  fileline = 83
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/informers/externalversions/internalinterfaces/factory_interfaces.go"
+  fileline = 17
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/controller_build.go"
+  fileline = 1431
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/controller_build.go"
+  fileline = 1034
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/controller_build.go"
+  fileline = 1437
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/controller_build.go"
+  fileline = 1435
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/controller_build.go"
+  fileline = 235
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/controller_build.go"
+  fileline = 229
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/controller_build.go"
+  fileline = 1444
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/controller_build.go"
+  fileline = 1242
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/controller_build.go"
+  fileline = 294
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/controller_build.go"
+  fileline = 1454
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/controller/controller_build.go"
+  fileline = 232
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/environment.go"
+  fileline = 16
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/environment.go"
+  fileline = 21
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/add/add_app_test.go"
+  fileline = 1308
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/add/add_app_test.go"
+  fileline = 937
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/add/add_app_test.go"
+  fileline = 982
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/add/add_app_test.go"
+  fileline = 674
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/create/create_git_api_token.go"
+  fileline = 265
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/create/create_git_api_token.go"
+  fileline = 253
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/tests/console_wrapper.go"
+  fileline = 39
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/tests/console_wrapper.go"
+  fileline = 28
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cve/anchore.go"
+  fileline = 25
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/util/json/patch.go"
+  fileline = 16
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/util/json/patch.go"
+  fileline = 40
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/scheduler.go"
+  fileline = 62
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/scheduler.go"
+  fileline = 33
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/scheduler.go"
+  fileline = 13
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/listers/jenkins.io/v1/scheduler.go"
+  fileline = 45
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/informers/externalversions/jenkins.io/v1/environmentrolebinding.go"
+  fileline = 20
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/informers/externalversions/jenkins.io/v1/pipelineactivity.go"
+  fileline = 20
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "cmd/codegen/util/cli.go"
+  fileline = 21
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "cmd/codegen/util/cli.go"
+  fileline = 21
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/step/syntax/step_syntax_schema.go"
+  fileline = 71
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/step/syntax/step_syntax_schema.go"
+  fileline = 118
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/util/maps.go"
+  fileline = 85
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/util/maps.go"
+  fileline = 121
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/util/maps.go"
+  fileline = 142
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/util/maps.go"
+  fileline = 146
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/util/maps.go"
+  fileline = 132
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/util/maps.go"
+  fileline = 106
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/util/maps.go"
+  fileline = 132
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/util/maps.go"
+  fileline = 121
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/util/maps.go"
+  fileline = 54
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/util/maps.go"
+  fileline = 81
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/util/maps.go"
+  fileline = 123
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/util/maps.go"
+  fileline = 71
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/util/maps.go"
+  fileline = 50
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/util/maps.go"
+  fileline = 155
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/util/maps.go"
+  fileline = 50
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/util/maps.go"
+  fileline = 156
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/util/maps.go"
+  fileline = 56
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/util/maps.go"
+  fileline = 95
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/util/maps.go"
+  fileline = 155
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/util/maps.go"
+  fileline = 71
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/tests/retry.go"
+  fileline = 68
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/tests/retry.go"
+  fileline = 75
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/tests/retry.go"
+  fileline = 79
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/informers/externalversions/jenkins.io/v1/team.go"
+  fileline = 20
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/step/expose/step_expose.go"
+  fileline = 239
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/step/expose/step_expose.go"
+  fileline = 225
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cve/provider.go"
+  fileline = 20
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/informers/externalversions/jenkins.io/v1/pipelinestructure.go"
+  fileline = 20
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/buildpack_expansion.go"
+  fileline = 13
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/extension.go"
+  fileline = 21
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/extension.go"
+  fileline = 16
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/sourcerepository.go"
+  fileline = 16
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/sourcerepository.go"
+  fileline = 21
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/client/clientset/versioned/typed/jenkins.io/v1/pipelinestructure_expansion.go"
+  fileline = 13
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/get/get_crd_counts_test.go"
+  fileline = 141
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/get/get_crd_counts_test.go"
+  fileline = 129
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/get/get_crd_counts_test.go"
+  fileline = 138
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/cmd/get/get_crd_counts_test.go"
+  fileline = 126
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/builds/jenkinsfiles.go"
+  fileline = 123
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/pipeline_events/elasticsearch.go"
+  fileline = 20
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "pkg/gits/git_repo.go"
+  fileline = 196
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."

@@ -1,0 +1,18 @@
+repo = "github.com/ngchain/ngcore"
+rule = "codelingo/effective-go/defer-close-file"
+sha = "16e762e18441963bdb7adf2b32e6f13830196e69"
+
+[[issues]]
+  filepath = "vm/vm_test.go"
+  fileline = 17
+  comment = "Add `defer f.Close()` after opening the file `f`. . [as specified in Effective Go](https://golang.org/doc/effective_go.html#defer)"
+
+[[issues]]
+  filepath = "ngp2p/server.go"
+  fileline = 27
+  comment = "Add `defer keyFile.Close()` after opening the file `keyFile`. . [as specified in Effective Go](https://golang.org/doc/effective_go.html#defer)"
+
+[[issues]]
+  filepath = "vm/vm_test.go"
+  fileline = 39
+  comment = "Add `defer f.Close()` after opening the file `f`. . [as specified in Effective Go](https://golang.org/doc/effective_go.html#defer)"

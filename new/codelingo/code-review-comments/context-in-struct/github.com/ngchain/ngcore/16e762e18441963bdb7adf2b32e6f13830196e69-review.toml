@@ -1,0 +1,8 @@
+repo = "github.com/ngchain/ngcore"
+rule = "codelingo/code-review-comments/context-in-struct"
+sha = "16e762e18441963bdb7adf2b32e6f13830196e69"
+
+[[issues]]
+  filepath = "ngp2p/server.go"
+  fileline = 18
+  comment = "Don't add a Context member to a struct type; instead add a ctx parameter to each method on that type that needs to pass it along. From [Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#contexts)"

@@ -1,0 +1,73 @@
+repo = "github.com/ngchain/ngcore"
+rule = "codelingo/effective-go/comment-first-word-as-subject"
+sha = "16e762e18441963bdb7adf2b32e6f13830196e69"
+
+[[issues]]
+  filepath = "ngp2p/pb/p2p.pb.go"
+  fileline = 257
+  comment = "Every exported function in a program should have a doc comment. The first sentence should be a summary that starts with the name (Descriptor) being declared.\nFrom [effective go](https://golang.org/doc/effective_go.html#commentary).\n"
+
+[[issues]]
+  filepath = "ngp2p/pb/p2p.pb.go"
+  fileline = 312
+  comment = "Every exported function in a program should have a doc comment. The first sentence should be a summary that starts with the name (Descriptor) being declared.\nFrom [effective go](https://golang.org/doc/effective_go.html#commentary).\n"
+
+[[issues]]
+  filepath = "ngp2p/pb/p2p.pb.go"
+  fileline = 202
+  comment = "Every exported function in a program should have a doc comment. The first sentence should be a summary that starts with the name (Descriptor) being declared.\nFrom [effective go](https://golang.org/doc/effective_go.html#commentary).\n"
+
+[[issues]]
+  filepath = "ngp2p/pb/p2p.pb.go"
+  fileline = 404
+  comment = "Every exported function in a program should have a doc comment. The first sentence should be a summary that starts with the name (Descriptor) being declared.\nFrom [effective go](https://golang.org/doc/effective_go.html#commentary).\n"
+
+[[issues]]
+  filepath = "ngp2p/pb/p2p.pb.go"
+  fileline = 69
+  comment = "Every exported function in a program should have a doc comment. The first sentence should be a summary that starts with the name (Descriptor) being declared.\nFrom [effective go](https://golang.org/doc/effective_go.html#commentary).\n"
+
+[[issues]]
+  filepath = "ngp2p/pb/p2p.pb.go"
+  fileline = 146
+  comment = "Every exported function in a program should have a doc comment. The first sentence should be a summary that starts with the name (Descriptor) being declared.\nFrom [effective go](https://golang.org/doc/effective_go.html#commentary).\n"
+
+[[issues]]
+  filepath = "ngp2p/pb/p2p.pb.go"
+  fileline = 364
+  comment = "Every exported function in a program should have a doc comment. The first sentence should be a summary that starts with the name (Descriptor) being declared.\nFrom [effective go](https://golang.org/doc/effective_go.html#commentary).\n"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 84
+  comment = "Every exported function in a program should have a doc comment. The first sentence should be a summary that starts with the name (EnumDescriptor) being declared.\nFrom [effective go](https://golang.org/doc/effective_go.html#commentary).\n"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 529
+  comment = "Every exported function in a program should have a doc comment. The first sentence should be a summary that starts with the name (Descriptor) being declared.\nFrom [effective go](https://golang.org/doc/effective_go.html#commentary).\n"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 128
+  comment = "Every exported function in a program should have a doc comment. The first sentence should be a summary that starts with the name (Descriptor) being declared.\nFrom [effective go](https://golang.org/doc/effective_go.html#commentary).\n"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 467
+  comment = "Every exported function in a program should have a doc comment. The first sentence should be a summary that starts with the name (Descriptor) being declared.\nFrom [effective go](https://golang.org/doc/effective_go.html#commentary).\n"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 376
+  comment = "Every exported function in a program should have a doc comment. The first sentence should be a summary that starts with the name (Descriptor) being declared.\nFrom [effective go](https://golang.org/doc/effective_go.html#commentary).\n"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 209
+  comment = "Every exported function in a program should have a doc comment. The first sentence should be a summary that starts with the name (Descriptor) being declared.\nFrom [effective go](https://golang.org/doc/effective_go.html#commentary).\n"
+
+[[issues]]
+  filepath = "ngtypes/types.pb.go"
+  fileline = 301
+  comment = "Every exported function in a program should have a doc comment. The first sentence should be a summary that starts with the name (Descriptor) being declared.\nFrom [effective go](https://golang.org/doc/effective_go.html#commentary).\n"
