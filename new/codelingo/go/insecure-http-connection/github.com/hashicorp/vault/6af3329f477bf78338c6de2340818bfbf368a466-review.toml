@@ -1,0 +1,18 @@
+repo = "github.com/hashicorp/vault"
+rule = "codelingo/go/insecure-http-connection"
+sha = "6af3329f477bf78338c6de2340818bfbf368a466"
+
+[[issues]]
+  filepath = "physical/cassandra/cassandra.go"
+  fileline = 208
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+
+[[issues]]
+  filepath = "sdk/helper/ldaputil/client.go"
+  fileline = 482
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+
+[[issues]]
+  filepath = "api/client.go"
+  fileline = 220
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."

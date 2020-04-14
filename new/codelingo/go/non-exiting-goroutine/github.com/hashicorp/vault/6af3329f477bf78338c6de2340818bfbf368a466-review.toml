@@ -1,0 +1,28 @@
+repo = "github.com/hashicorp/vault"
+rule = "codelingo/go/non-exiting-goroutine"
+sha = "6af3329f477bf78338c6de2340818bfbf368a466"
+
+[[issues]]
+  filepath = "sdk/physical/inmem/inmem_ha.go"
+  fileline = 108
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "command/commands_nonwindows.go"
+  fileline = 20
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "command/commands.go"
+  fileline = 692
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "command/server_profile.go"
+  fileline = 25
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "vault/testing.go"
+  fileline = 520
+  comment = "This goroutine does not exit and may cause a resource leak."

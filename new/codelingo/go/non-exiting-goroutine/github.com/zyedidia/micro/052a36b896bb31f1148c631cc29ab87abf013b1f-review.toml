@@ -1,0 +1,8 @@
+repo = "github.com/zyedidia/micro"
+rule = "codelingo/go/non-exiting-goroutine"
+sha = "052a36b896bb31f1148c631cc29ab87abf013b1f"
+
+[[issues]]
+  filepath = "cmd/micro/micro.go"
+  fileline = 297
+  comment = "This goroutine does not exit and may cause a resource leak."

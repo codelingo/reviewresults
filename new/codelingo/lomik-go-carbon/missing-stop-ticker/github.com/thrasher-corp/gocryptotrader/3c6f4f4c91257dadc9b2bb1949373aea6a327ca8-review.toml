@@ -1,0 +1,8 @@
+repo = "github.com/thrasher-corp/gocryptotrader"
+rule = "codelingo/lomik-go-carbon/missing-stop-ticker"
+sha = "3c6f4f4c91257dadc9b2bb1949373aea6a327ca8"
+
+[[issues]]
+  filepath = "exchanges/request/request_test.go"
+  fileline = 415
+  comment = "Stop the ticker to release associated resources."

@@ -1,0 +1,13 @@
+repo = "github.com/apex/apex"
+rule = "codelingo/go/non-directional-chan"
+sha = "16c08f0eb344e00f7c8353483467230efc3e586b"
+
+[[issues]]
+  filepath = "logs/logs.go"
+  fileline = 66
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "logs/logs.go"
+  fileline = 66
+  comment = "Returned channels or channel arguments should generally have a direction."

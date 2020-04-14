@@ -1,0 +1,23 @@
+repo = "github.com/peterq/pan-light"
+rule = "codelingo/go/non-exiting-goroutine"
+sha = "867eee7a9251a0a5e6ac5367b1ec84c98b6cfb1d"
+
+[[issues]]
+  filepath = "demo/realtime/realtime.go"
+  fileline = 83
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "demo/realtime/realtime.go"
+  fileline = 85
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "pc/downloader/task.go"
+  fileline = 185
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "qt/tool-chain/cmd/moc/moc.go"
+  fileline = 374
+  comment = "This goroutine does not exit and may cause a resource leak."

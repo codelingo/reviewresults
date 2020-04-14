@@ -1,0 +1,18 @@
+repo = "github.com/chai2010/advanced-go-programming-book"
+rule = "codelingo/go/non-exiting-goroutine"
+sha = "cfa4bbb2c97141e68c3fb148178fab925167a41c"
+
+[[issues]]
+  filepath = "examples/ch4.4/basic/client/main.go"
+  fileline = 78
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "examples/ch4.3/rpc-reverse/client/main.go"
+  fileline = 19
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "examples/ch4.4/2/client/main.go"
+  fileline = 36
+  comment = "This goroutine does not exit and may cause a resource leak."

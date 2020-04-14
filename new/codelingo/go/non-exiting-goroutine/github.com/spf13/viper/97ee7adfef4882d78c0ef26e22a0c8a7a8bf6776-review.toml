@@ -1,0 +1,8 @@
+repo = "github.com/spf13/viper"
+rule = "codelingo/go/non-exiting-goroutine"
+sha = "97ee7adfef4882d78c0ef26e22a0c8a7a8bf6776"
+
+[[issues]]
+  filepath = "viper.go"
+  fileline = 1775
+  comment = "This goroutine does not exit and may cause a resource leak."

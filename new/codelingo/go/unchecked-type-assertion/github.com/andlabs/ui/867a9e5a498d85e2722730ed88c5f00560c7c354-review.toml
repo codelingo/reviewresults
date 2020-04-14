@@ -1,0 +1,93 @@
+repo = "github.com/andlabs/ui"
+rule = "codelingo/go/unchecked-type-assertion"
+sha = "867a9e5a498d85e2722730ed88c5f00560c7c354"
+
+[[issues]]
+  filepath = "multilineentry.go"
+  fileline = 80
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "checkbox.go"
+  fileline = 59
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "fontbutton.go"
+  fileline = 52
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "areahandler.go"
+  fileline = 193
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "window.go"
+  fileline = 81
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "colorbutton.go"
+  fileline = 58
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "areahandler.go"
+  fileline = 219
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "spinbox.go"
+  fileline = 51
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "datetimepicker.go"
+  fileline = 93
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "combobox.go"
+  fileline = 60
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "radiobuttons.go"
+  fileline = 59
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "editablecombobox.go"
+  fileline = 65
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "button.go"
+  fileline = 58
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "areahandler.go"
+  fileline = 235
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "entry.go"
+  fileline = 76
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "areahandler.go"
+  fileline = 142
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "areahandler.go"
+  fileline = 212
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "slider.go"
+  fileline = 51
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."

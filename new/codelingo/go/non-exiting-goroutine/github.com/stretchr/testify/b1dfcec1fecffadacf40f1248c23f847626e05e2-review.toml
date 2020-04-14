@@ -1,0 +1,13 @@
+repo = "github.com/stretchr/testify"
+rule = "codelingo/go/non-exiting-goroutine"
+sha = "b1dfcec1fecffadacf40f1248c23f847626e05e2"
+
+[[issues]]
+  filepath = "mock/mock_test.go"
+  fileline = 1439
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "mock/mock_test.go"
+  fileline = 1433
+  comment = "This goroutine does not exit and may cause a resource leak."

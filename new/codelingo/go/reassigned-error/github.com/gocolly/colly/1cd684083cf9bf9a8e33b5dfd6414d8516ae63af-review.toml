@@ -1,0 +1,8 @@
+repo = "github.com/gocolly/colly"
+rule = "codelingo/go/reassigned-error"
+sha = "1cd684083cf9bf9a8e33b5dfd6414d8516ae63af"
+
+[[issues]]
+  filepath = "colly_test.go"
+  fileline = 553
+  comment = "Error was not checked before reassignment"

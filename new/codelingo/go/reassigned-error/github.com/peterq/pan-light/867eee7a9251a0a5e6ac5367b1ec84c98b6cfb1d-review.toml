@@ -1,0 +1,18 @@
+repo = "github.com/peterq/pan-light"
+rule = "codelingo/go/reassigned-error"
+sha = "867eee7a9251a0a5e6ac5367b1ec84c98b6cfb1d"
+
+[[issues]]
+  filepath = "demo/realtime/realtime.go"
+  fileline = 129
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "pc/login/login-http-client.go"
+  fileline = 72
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "pc/downloader/task.go"
+  fileline = 380
+  comment = "Error was not checked before reassignment"

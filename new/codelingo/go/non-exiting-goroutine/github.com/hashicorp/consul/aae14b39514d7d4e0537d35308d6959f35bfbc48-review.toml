@@ -1,0 +1,13 @@
+repo = "github.com/hashicorp/consul"
+rule = "codelingo/go/non-exiting-goroutine"
+sha = "aae14b39514d7d4e0537d35308d6959f35bfbc48"
+
+[[issues]]
+  filepath = "command/connect/proxy/register.go"
+  fileline = 128
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "command/registry.go"
+  fileline = 53
+  comment = "This goroutine does not exit and may cause a resource leak."

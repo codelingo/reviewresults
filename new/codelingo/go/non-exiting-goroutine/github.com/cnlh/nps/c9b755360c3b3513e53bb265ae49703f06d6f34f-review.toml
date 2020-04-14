@@ -1,0 +1,38 @@
+repo = "github.com/cnlh/nps"
+rule = "codelingo/go/non-exiting-goroutine"
+sha = "c9b755360c3b3513e53bb265ae49703f06d6f34f"
+
+[[issues]]
+  filepath = "client/control.go"
+  fileline = 399
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "lib/pmux/pmux.go"
+  fileline = 69
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "lib/daemon/reload.go"
+  fileline = 19
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "gui/npc/npc.go"
+  fileline = 93
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "client/control.go"
+  fileline = 389
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "gui/npc/npc.go"
+  fileline = 81
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "cmd/npc/npc.go"
+  fileline = 232
+  comment = "This goroutine does not exit and may cause a resource leak."

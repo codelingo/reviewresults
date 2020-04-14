@@ -1,0 +1,43 @@
+repo = "github.com/jaegertracing/jaeger"
+rule = "codelingo/go/non-directional-chan"
+sha = "381cb976d35b5c09803b949e59cc168180be337e"
+
+[[issues]]
+  filepath = "pkg/discovery/notifier_test.go"
+  fileline = 43
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "cmd/agent/app/agent_test.go"
+  fileline = 45
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "cmd/agent/app/servers/server.go"
+  fileline = 27
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "cmd/agent/app/servers/tbuffered_server.go"
+  fileline = 122
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "cmd/agent/app/agent_test.go"
+  fileline = 75
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "cmd/agent/app/agent_test.go"
+  fileline = 85
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "crossdock/services/tracehandler.go"
+  fileline = 198
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "cmd/ingester/app/consumer/deadlock_detector.go"
+  fileline = 187
+  comment = "Returned channels or channel arguments should generally have a direction."

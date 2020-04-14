@@ -1,0 +1,43 @@
+repo = "github.com/hashicorp/packer"
+rule = "codelingo/go/reassigned-error"
+sha = "3892e0905a0e98b0548aac05646aeeda97b778dc"
+
+[[issues]]
+  filepath = "helper/ssh/key_pair_test.go"
+  fileline = 372
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "builder/azure/pkcs12/pkcs12.go"
+  fileline = 345
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "builder/vmware/common/driver_player5.go"
+  fileline = 82
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "builder/amazon/common/step_deregister_ami.go"
+  fileline = 34
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "post-processor/googlecompute-import/post-processor.go"
+  fileline = 194
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "builder/jdcloud/step_validate_parameters.go"
+  fileline = 81
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "helper/ssh/key_pair_test.go"
+  fileline = 333
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "provisioner/puppet-masterless/provisioner.go"
+  fileline = 157
+  comment = "Error was not checked before reassignment"

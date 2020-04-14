@@ -1,0 +1,73 @@
+repo = "github.com/bcicen/ctop"
+rule = "codelingo/go/non-directional-chan"
+sha = "4741b276e4bbaa41a67d62443239d50b5a936623"
+
+[[issues]]
+  filepath = "container/main.go"
+  fileline = 83
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "connector/collector/runc.go"
+  fileline = 53
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "cwidgets/single/logs.go"
+  fileline = 52
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "connector/collector/docker.go"
+  fileline = 67
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "widgets/input.go"
+  fileline = 61
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "connector/collector/main.go"
+  fileline = 18
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "connector/collector/mock_logs.go"
+  fileline = 15
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "connector/collector/main.go"
+  fileline = 13
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "logging/main.go"
+  fileline = 78
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "logging/main.go"
+  fileline = 35
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "menus.go"
+  fileline = 353
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "menus.go"
+  fileline = 353
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "connector/collector/docker_logs.go"
+  fileline = 28
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "connector/collector/mock.go"
+  fileline = 44
+  comment = "Returned channels or channel arguments should generally have a direction."

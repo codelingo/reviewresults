@@ -1,0 +1,153 @@
+repo = "github.com/hashicorp/vault"
+rule = "codelingo/go/reassigned-error"
+sha = "6af3329f477bf78338c6de2340818bfbf368a466"
+
+[[issues]]
+  filepath = "builtin/logical/nomad/backend_test.go"
+  fileline = 90
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "helper/storagepacker/storagepacker_test.go"
+  fileline = 25
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vault/expiration_test.go"
+  fileline = 331
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vault/token_store_test.go"
+  fileline = 1764
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "command/agent/cache_end_to_end_test.go"
+  fileline = 340
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vault/identity_store_util.go"
+  fileline = 2006
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "command/ssh.go"
+  fileline = 431
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vault/token_store_test.go"
+  fileline = 1686
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "builtin/logical/ssh/path_creds_create.go"
+  fileline = 227
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "builtin/logical/ssh/util.go"
+  fileline = 27
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "audit/hashstructure.go"
+  fileline = 122
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "builtin/logical/pki/crl_test.go"
+  fileline = 27
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vault/identity_store_entities.go"
+  fileline = 732
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "command/agent/config/config_test.go"
+  fileline = 14
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "builtin/credential/approle/path_tidy_user_id_test.go"
+  fileline = 52
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "builtin/credential/approle/path_tidy_user_id_test.go"
+  fileline = 41
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "sdk/database/dbplugin/grpc_transport.go"
+  fileline = 162
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vault/token_store_test.go"
+  fileline = 1287
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vault/mount_test.go"
+  fileline = 317
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vault/token_store.go"
+  fileline = 700
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vault/identity_store.go"
+  fileline = 393
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "builtin/logical/pki/backend_test.go"
+  fileline = 109
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "builtin/logical/pki/backend_test.go"
+  fileline = 85
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "builtin/credential/approle/path_tidy_user_id_test.go"
+  fileline = 135
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vault/raft.go"
+  fileline = 307
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "sdk/plugin/grpc_backend_server.go"
+  fileline = 33
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "builtin/credential/ldap/path_login.go"
+  fileline = 124
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vault/testing.go"
+  fileline = 495
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vault/router_test.go"
+  fileline = 42
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "vault/identity_store_groups.go"
+  fileline = 470
+  comment = "Error was not checked before reassignment"

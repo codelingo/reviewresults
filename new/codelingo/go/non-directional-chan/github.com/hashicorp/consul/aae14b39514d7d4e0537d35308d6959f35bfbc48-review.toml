@@ -1,0 +1,208 @@
+repo = "github.com/hashicorp/consul"
+rule = "codelingo/go/non-directional-chan"
+sha = "aae14b39514d7d4e0537d35308d6959f35bfbc48"
+
+[[issues]]
+  filepath = "command/exec/exec.go"
+  fileline = 284
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "command/exec/exec.go"
+  fileline = 283
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "command/exec/exec.go"
+  fileline = 283
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "command/exec/exec.go"
+  fileline = 284
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "command/exec/exec.go"
+  fileline = 283
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "command/exec/exec.go"
+  fileline = 284
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "agent/mock/notify.go"
+  fileline = 30
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "connect/tls_test.go"
+  fileline = 297
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "agent/ae/ae.go"
+  fileline = 114
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "agent/notify.go"
+  fileline = 31
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "agent/cache-types/connect_ca_leaf.go"
+  fileline = 126
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "tlsutil/config_test.go"
+  fileline = 23
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "agent/consul/leader.go"
+  fileline = 152
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "agent/consul/client_serf.go"
+  fileline = 17
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "agent/consul/leader.go"
+  fileline = 77
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "agent/cache-types/connect_ca_leaf.go"
+  fileline = 149
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "api/semaphore.go"
+  fileline = 496
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "agent/xds/server_test.go"
+  fileline = 365
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "command/lock/lock.go"
+  fileline = 405
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "api/agent.go"
+  fileline = 910
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "agent/proxycfg/manager.go"
+  fileline = 248
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "agent/consul/stats_fetcher.go"
+  fileline = 43
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "agent/agent.go"
+  fileline = 1858
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "agent/checks/alias.go"
+  fileline = 92
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "command/exec/exec.go"
+  fileline = 459
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "agent/local/state_test.go"
+  fileline = 2122
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "api/agent.go"
+  fileline = 902
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "api/agent.go"
+  fileline = 907
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "agent/cache-types/connect_ca_leaf_test.go"
+  fileline = 970
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "agent/xds/server_test.go"
+  fileline = 375
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "api/lock.go"
+  fileline = 375
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "agent/consul/auto_encrypt.go"
+  fileline = 21
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "agent/consul/acl_test.go"
+  fileline = 63
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "tlsutil/config_test.go"
+  fileline = 27
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "agent/router/manager.go"
+  fileline = 259
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "agent/notify.go"
+  fileline = 41
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "agent/notify_test.go"
+  fileline = 10
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "agent/checks/alias.go"
+  fileline = 137
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "agent/consul/server_serf.go"
+  fileline = 37
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "agent/checks/alias.go"
+  fileline = 78
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "tlsutil/config_test.go"
+  fileline = 19
+  comment = "Returned channels or channel arguments should generally have a direction."

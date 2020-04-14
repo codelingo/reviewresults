@@ -1,0 +1,8 @@
+repo = "github.com/grafana/loki"
+rule = "codelingo/go/break-select-in-for"
+sha = "8e5fa03de3b3cf7efa15e4959bd5b7decae2d944"
+
+[[issues]]
+  filepath = "pkg/promtail/client/client.go"
+  fileline = 174
+  comment = "This `break` statement only breaks to the innermost select, rather than the parent `for` loop.\nThis is generally unexpected and can cause an active goroutine to leak.\nFix it by adding a label to the for loop and breaking to that instead.\n"

@@ -1,0 +1,8 @@
+repo = "github.com/gopherjs/gopherjs"
+rule = "codelingo/go/reassigned-error"
+sha = "fce0ec30dd00773d3fa974351d04ce2737b5c4d9"
+
+[[issues]]
+  filepath = "compiler/prelude/genmin.go"
+  fileline = 25
+  comment = "Error was not checked before reassignment"

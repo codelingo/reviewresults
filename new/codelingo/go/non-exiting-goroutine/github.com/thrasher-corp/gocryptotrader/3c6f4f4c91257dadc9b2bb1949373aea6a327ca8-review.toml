@@ -1,0 +1,8 @@
+repo = "github.com/thrasher-corp/gocryptotrader"
+rule = "codelingo/go/non-exiting-goroutine"
+sha = "3c6f4f4c91257dadc9b2bb1949373aea6a327ca8"
+
+[[issues]]
+  filepath = "exchanges/account/account_test.go"
+  fileline = 100
+  comment = "This goroutine does not exit and may cause a resource leak."

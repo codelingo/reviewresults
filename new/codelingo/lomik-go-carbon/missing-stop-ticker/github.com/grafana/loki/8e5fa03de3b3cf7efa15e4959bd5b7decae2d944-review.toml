@@ -1,0 +1,18 @@
+repo = "github.com/grafana/loki"
+rule = "codelingo/lomik-go-carbon/missing-stop-ticker"
+sha = "8e5fa03de3b3cf7efa15e4959bd5b7decae2d944"
+
+[[issues]]
+  filepath = "pkg/promtail/client/client.go"
+  fileline = 163
+  comment = "Stop the ticker to release associated resources."
+
+[[issues]]
+  filepath = "pkg/promtail/positions/positions.go"
+  fileline = 145
+  comment = "Stop the ticker to release associated resources."
+
+[[issues]]
+  filepath = "pkg/promtail/targets/filetarget.go"
+  fileline = 163
+  comment = "Stop the ticker to release associated resources."

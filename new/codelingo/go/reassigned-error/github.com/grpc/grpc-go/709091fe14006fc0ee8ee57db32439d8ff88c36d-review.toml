@@ -1,0 +1,23 @@
+repo = "github.com/grpc/grpc-go"
+rule = "codelingo/go/reassigned-error"
+sha = "709091fe14006fc0ee8ee57db32439d8ff88c36d"
+
+[[issues]]
+  filepath = "internal/transport/transport_test.go"
+  fileline = 447
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "clientconn_test.go"
+  fileline = 819
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "server_test.go"
+  fileline = 59
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "interop/fake_grpclb/fake_grpclb.go"
+  fileline = 133
+  comment = "Error was not checked before reassignment"

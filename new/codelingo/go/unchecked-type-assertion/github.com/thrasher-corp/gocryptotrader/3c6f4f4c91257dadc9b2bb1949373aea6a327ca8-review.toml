@@ -1,0 +1,803 @@
+repo = "github.com/thrasher-corp/gocryptotrader"
+rule = "codelingo/go/unchecked-type-assertion"
+sha = "3c6f4f4c91257dadc9b2bb1949373aea6a327ca8"
+
+[[issues]]
+  filepath = "exchanges/coinut/coinut_wrapper.go"
+  fileline = 527
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/kraken/kraken.go"
+  fileline = 245
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/kraken/kraken.go"
+  fileline = 344
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/poloniex/poloniex_websocket.go"
+  fileline = 281
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "database/models/postgres/script_execution.go"
+  fileline = 413
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/bithumb/bithumb.go"
+  fileline = 198
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/bitfinex/bitfinex_websocket.go"
+  fileline = 710
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/bitfinex/bitfinex_websocket.go"
+  fileline = 309
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/coinbasepro/coinbasepro_wrapper.go"
+  fileline = 360
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/bitfinex/bitfinex.go"
+  fileline = 313
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/kraken/kraken_websocket.go"
+  fileline = 665
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/exmo/exmo.go"
+  fileline = 212
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/poloniex/poloniex_websocket.go"
+  fileline = 369
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "engine/rpcserver.go"
+  fileline = 1347
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/okgroup/okgroup.go"
+  fileline = 545
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/coinbene/coinbene.go"
+  fileline = 1144
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/bitfinex/bitfinex_websocket.go"
+  fileline = 1051
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/bitfinex/bitfinex_websocket.go"
+  fileline = 186
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/kraken/kraken_websocket.go"
+  fileline = 497
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/bitfinex/bitfinex_websocket.go"
+  fileline = 449
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/bitfinex/bitfinex_websocket.go"
+  fileline = 311
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/kraken/kraken.go"
+  fileline = 379
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/poloniex/poloniex.go"
+  fileline = 105
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/bitfinex/bitfinex_websocket.go"
+  fileline = 987
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/gateio/gateio_websocket.go"
+  fileline = 202
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/bitfinex/bitfinex_websocket.go"
+  fileline = 675
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/bitfinex/bitfinex_websocket.go"
+  fileline = 678
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "engine/rpcserver.go"
+  fileline = 1404
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/bitfinex/bitfinex.go"
+  fileline = 341
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/lbank/lbank.go"
+  fileline = 170
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/bitfinex/bitfinex_websocket.go"
+  fileline = 559
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/lbank/lbank.go"
+  fileline = 163
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/bitfinex/bitfinex.go"
+  fileline = 355
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/kraken/kraken_websocket.go"
+  fileline = 593
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/lakebtc/lakebtc_websocket.go"
+  fileline = 258
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "log/logger_test.go"
+  fileline = 87
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/bitfinex/bitfinex.go"
+  fileline = 343
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/bitfinex/bitfinex_websocket.go"
+  fileline = 1015
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/bitfinex/bitfinex_websocket.go"
+  fileline = 1052
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/kraken/kraken.go"
+  fileline = 371
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/bitfinex/bitfinex_websocket.go"
+  fileline = 1091
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/bitfinex/bitfinex_websocket.go"
+  fileline = 152
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/bitfinex/bitfinex_websocket.go"
+  fileline = 149
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "log/logger_test.go"
+  fileline = 72
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/kraken/kraken_websocket.go"
+  fileline = 490
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/poloniex/poloniex_websocket.go"
+  fileline = 457
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "engine/rpcserver.go"
+  fileline = 1444
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "database/models/sqlite3/withdrawal_history.go"
+  fileline = 540
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/mock/recording.go"
+  fileline = 331
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "cmd/apichecker/apicheck.go"
+  fileline = 565
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/bitfinex/bitfinex_websocket.go"
+  fileline = 262
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/poloniex/poloniex_websocket.go"
+  fileline = 438
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/lbank/lbank.go"
+  fileline = 156
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/bitfinex/bitfinex.go"
+  fileline = 344
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/kraken/kraken_websocket.go"
+  fileline = 498
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/bitfinex/bitfinex_websocket.go"
+  fileline = 672
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/bitfinex/bitfinex.go"
+  fileline = 315
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "engine/rpcserver.go"
+  fileline = 1487
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "engine/rpcserver.go"
+  fileline = 531
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/kraken/kraken_websocket.go"
+  fileline = 694
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/bitstamp/bitstamp.go"
+  fileline = 336
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/poloniex/poloniex_websocket.go"
+  fileline = 331
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/kraken/kraken.go"
+  fileline = 330
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/bitfinex/bitfinex.go"
+  fileline = 249
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/zb/zb.go"
+  fileline = 236
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/bitfinex/bitfinex_websocket.go"
+  fileline = 1050
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/binance/binance.go"
+  fileline = 222
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "database/models/postgres/withdrawal_history.go"
+  fileline = 462
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/kraken/kraken.go"
+  fileline = 283
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "database/testhelpers/test_helpers_test.go"
+  fileline = 75
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/bitfinex/bitfinex_websocket.go"
+  fileline = 347
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/bitfinex/bitfinex_websocket.go"
+  fileline = 232
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/poloniex/poloniex_websocket.go"
+  fileline = 287
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/bitfinex/bitfinex_websocket.go"
+  fileline = 982
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/poloniex/poloniex.go"
+  fileline = 232
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/poloniex/poloniex_websocket.go"
+  fileline = 77
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "database/models/sqlite3/withdrawal_fiat.go"
+  fileline = 413
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/bitfinex/bitfinex_websocket.go"
+  fileline = 1095
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "log/logger.go"
+  fileline = 27
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/gateio/gateio.go"
+  fileline = 78
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/mock/server.go"
+  fileline = 258
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/poloniex/poloniex.go"
+  fileline = 285
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/bitfinex/bitfinex_websocket.go"
+  fileline = 104
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/bitfinex/bitfinex_websocket.go"
+  fileline = 505
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/bitfinex/bitfinex.go"
+  fileline = 314
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/kraken/kraken.go"
+  fileline = 342
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "engine/rpcserver.go"
+  fileline = 1299
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/kraken/kraken.go"
+  fileline = 272
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/bitfinex/bitfinex_websocket.go"
+  fileline = 361
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "database/models/postgres/withdrawal_crypto.go"
+  fileline = 405
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/kraken/kraken.go"
+  fileline = 331
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/gateio/gateio_wrapper.go"
+  fileline = 355
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/lbank/lbank.go"
+  fileline = 150
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/bitfinex/bitfinex_websocket.go"
+  fileline = 707
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/bitfinex/bitfinex_websocket.go"
+  fileline = 580
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/bitfinex/bitfinex_websocket.go"
+  fileline = 981
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/bitfinex/bitfinex.go"
+  fileline = 326
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "database/models/postgres/withdrawal_history.go"
+  fileline = 557
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/kraken/kraken.go"
+  fileline = 372
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/coinut/coinut_wrapper.go"
+  fileline = 533
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/bitfinex/bitfinex_websocket.go"
+  fileline = 1092
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/exmo/exmo.go"
+  fileline = 216
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/kraken/kraken.go"
+  fileline = 281
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/bitfinex/bitfinex.go"
+  fileline = 1238
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/kraken/kraken_websocket.go"
+  fileline = 517
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/bitfinex/bitfinex_websocket.go"
+  fileline = 215
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "engine/routines.go"
+  fileline = 281
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/poloniex/poloniex_websocket.go"
+  fileline = 314
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/bitfinex/bitfinex.go"
+  fileline = 325
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/bitfinex/bitfinex_websocket.go"
+  fileline = 234
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/kraken/kraken.go"
+  fileline = 346
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/gateio/gateio_wrapper.go"
+  fileline = 338
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/bitfinex/bitfinex_websocket.go"
+  fileline = 663
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/coinut/coinut_wrapper.go"
+  fileline = 522
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/kraken/kraken_websocket.go"
+  fileline = 557
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/bitfinex/bitfinex.go"
+  fileline = 353
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "database/models/postgres/withdrawal_fiat.go"
+  fileline = 415
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/lbank/lbank.go"
+  fileline = 144
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "database/models/sqlite3/script_execution.go"
+  fileline = 388
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "database/models/sqlite3/withdrawal_history.go"
+  fileline = 445
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "dispatch/dispatch.go"
+  fileline = 286
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/hitbtc/hitbtc_websocket.go"
+  fileline = 110
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/zb/zb.go"
+  fileline = 237
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/bitfinex/bitfinex.go"
+  fileline = 562
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/kraken/kraken.go"
+  fileline = 282
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/gateio/gateio.go"
+  fileline = 80
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/bitfinex/bitfinex_websocket.go"
+  fileline = 121
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/bitfinex/bitfinex_websocket.go"
+  fileline = 669
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/kraken/kraken_websocket.go"
+  fileline = 618
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/gemini/gemini.go"
+  fileline = 239
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/kraken/kraken_websocket.go"
+  fileline = 489
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/bitfinex/bitfinex_websocket.go"
+  fileline = 614
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/kraken/kraken.go"
+  fileline = 348
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "database/models/postgres/script.go"
+  fileline = 453
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "database/models/sqlite3/script.go"
+  fileline = 429
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/poloniex/poloniex_websocket.go"
+  fileline = 78
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/bitfinex/bitfinex_websocket.go"
+  fileline = 988
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/binance/binance.go"
+  fileline = 234
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/bitfinex/bitfinex_websocket.go"
+  fileline = 666
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/bitfinex/bitfinex_websocket.go"
+  fileline = 713
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/kraken/kraken.go"
+  fileline = 231
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "log/logger_setup.go"
+  fileline = 15
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "engine/rpcserver.go"
+  fileline = 1570
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/bitfinex/bitfinex_websocket.go"
+  fileline = 601
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/poloniex/poloniex.go"
+  fileline = 115
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/bitfinex/bitfinex_websocket.go"
+  fileline = 1013
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/bitfinex/bitfinex_websocket.go"
+  fileline = 562
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/bitfinex/bitfinex_websocket.go"
+  fileline = 416
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/bitfinex/bitfinex_websocket.go"
+  fileline = 693
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/bitfinex/bitfinex_websocket.go"
+  fileline = 1014
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/kraken/kraken.go"
+  fileline = 289
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "cmd/apichecker/apicheck.go"
+  fileline = 579
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/binance/binance.go"
+  fileline = 238
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/kraken/kraken.go"
+  fileline = 276
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/poloniex/poloniex.go"
+  fileline = 252
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/poloniex/poloniex_websocket.go"
+  fileline = 288
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/mock/common.go"
+  fileline = 55
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/poloniex/poloniex.go"
+  fileline = 257
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "database/models/sqlite3/withdrawal_crypto.go"
+  fileline = 427
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "exchanges/hitbtc/hitbtc_websocket.go"
+  fileline = 128
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."

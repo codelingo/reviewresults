@@ -1,0 +1,33 @@
+repo = "github.com/go-delve/delve"
+rule = "codelingo/go/non-exiting-goroutine"
+sha = "3a72646782ea0c39946b12b214933027afd7c615"
+
+[[issues]]
+  filepath = "_fixtures/sigchldprog.go"
+  fileline = 18
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "_fixtures/binarytrees.go"
+  fileline = 54
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "cmd/dlv/dlv_test.go"
+  fileline = 104
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "cmd/dlv/dlv_test.go"
+  fileline = 544
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "_fixtures/teststepconcurrent.go"
+  fileline = 23
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "cmd/dlv/cmds/commands.go"
+  fileline = 620
+  comment = "This goroutine does not exit and may cause a resource leak."

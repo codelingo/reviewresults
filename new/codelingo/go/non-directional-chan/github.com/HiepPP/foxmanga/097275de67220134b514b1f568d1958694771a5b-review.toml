@@ -3,6 +3,8 @@ rule = "codelingo/go/non-directional-chan"
 sha = "097275de67220134b514b1f568d1958694771a5b"
 
 [[issues]]
-  filepath = "vendor/github.com/spf13/viper/viper.go"
-  fileline = 74
   comment = "Returned channels or channel arguments should generally have a direction."
+  fileline = 74
+  filepath = "vendor/github.com/spf13/viper/viper.go"
+  fixed = false
+  ignored = "in vendor"

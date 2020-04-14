@@ -1,0 +1,28 @@
+repo = "github.com/inconshreveable/ngrok"
+rule = "codelingo/go/non-directional-chan"
+sha = "a8e7fa486348f391f4bdf241344d798297f953bc"
+
+[[issues]]
+  filepath = "src/ngrok/proto/http.go"
+  fileline = 72
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "src/ngrok/util/broadcast.go"
+  fileline = 51
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "src/ngrok/util/broadcast.go"
+  fileline = 57
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "src/ngrok/proto/http.go"
+  fileline = 109
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "src/ngrok/util/broadcast.go"
+  fileline = 47
+  comment = "Returned channels or channel arguments should generally have a direction."

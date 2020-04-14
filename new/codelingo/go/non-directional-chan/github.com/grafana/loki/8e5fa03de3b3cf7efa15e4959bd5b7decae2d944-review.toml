@@ -1,0 +1,33 @@
+repo = "github.com/grafana/loki"
+rule = "codelingo/go/non-directional-chan"
+sha = "8e5fa03de3b3cf7efa15e4959bd5b7decae2d944"
+
+[[issues]]
+  filepath = "pkg/querier/queryrange/split_by_interval.go"
+  fileline = 44
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/canary/comparator/comparator.go"
+  fileline = 75
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/canary/comparator/comparator.go"
+  fileline = 75
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/canary/writer/writer.go"
+  fileline = 26
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/promtail/client/client_test.go"
+  fileline = 310
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/canary/reader/reader.go"
+  fileline = 53
+  comment = "Returned channels or channel arguments should generally have a direction."

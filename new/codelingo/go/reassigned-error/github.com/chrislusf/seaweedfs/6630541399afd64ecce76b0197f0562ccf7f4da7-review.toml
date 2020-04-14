@@ -1,0 +1,63 @@
+repo = "github.com/chrislusf/seaweedfs"
+rule = "codelingo/go/reassigned-error"
+sha = "6630541399afd64ecce76b0197f0562ccf7f4da7"
+
+[[issues]]
+  filepath = "weed/replication/sub/notification_aws_sqs.go"
+  fileline = 98
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "weed/storage/volume_vacuum.go"
+  fileline = 184
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "weed/command/filer_copy.go"
+  fileline = 292
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "weed/s3api/s3api_bucket_handlers.go"
+  fileline = 76
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "weed/util/http_util.go"
+  fileline = 99
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "weed/replication/replicator.go"
+  fileline = 54
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "unmaintained/stress_filer_upload/stress_filer_upload_actual/stress_filer_upload.go"
+  fileline = 133
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "unmaintained/stress_filer_upload/bench_filer_upload/bench_filer_upload.go"
+  fileline = 118
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "weed/storage/erasure_coding/ec_test.go"
+  fileline = 62
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "weed/command/msg_broker.go"
+  fileline = 88
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "weed/notification/google_pub_sub/google_pub_sub.go"
+  fileline = 72
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "weed/server/master_grpc_server.go"
+  fileline = 53
+  comment = "Error was not checked before reassignment"

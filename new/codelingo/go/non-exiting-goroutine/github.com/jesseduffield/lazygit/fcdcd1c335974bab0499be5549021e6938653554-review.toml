@@ -1,0 +1,18 @@
+repo = "github.com/jesseduffield/lazygit"
+rule = "codelingo/go/non-exiting-goroutine"
+sha = "fcdcd1c335974bab0499be5549021e6938653554"
+
+[[issues]]
+  filepath = "vendor/github.com/spf13/viper/viper.go"
+  fileline = 1773
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "pkg/commands/exec_live_default.go"
+  fileline = 36
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "pkg/gui/file_watching.go"
+  fileline = 125
+  comment = "This goroutine does not exit and may cause a resource leak."

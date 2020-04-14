@@ -1,0 +1,8 @@
+repo = "github.com/yudai/gotty"
+rule = "codelingo/go/non-directional-chan"
+sha = "a080c85cbc59226c94c6941ad8c395232d72d517"
+
+[[issues]]
+  filepath = "main.go"
+  fileline = 122
+  comment = "Returned channels or channel arguments should generally have a direction."

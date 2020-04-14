@@ -1,0 +1,8 @@
+repo = "github.com/google/grumpy"
+rule = "codelingo/go/non-exiting-goroutine"
+sha = "3ec87959189cfcdeae82eb68a47648ac25ceb10b"
+
+[[issues]]
+  filepath = "runtime/weakref_test.go"
+  fileline = 168
+  comment = "This goroutine does not exit and may cause a resource leak."

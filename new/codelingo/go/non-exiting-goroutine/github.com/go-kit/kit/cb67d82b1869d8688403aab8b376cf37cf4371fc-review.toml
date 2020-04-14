@@ -1,0 +1,13 @@
+repo = "github.com/go-kit/kit"
+rule = "codelingo/go/non-exiting-goroutine"
+sha = "cb67d82b1869d8688403aab8b376cf37cf4371fc"
+
+[[issues]]
+  filepath = "metrics/generic/generic_test.go"
+  fileline = 80
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "log/log_test.go"
+  fileline = 134
+  comment = "This goroutine does not exit and may cause a resource leak."

@@ -1,0 +1,38 @@
+repo = "github.com/containous/traefik"
+rule = "codelingo/go/non-directional-chan"
+sha = "f624449ccbf42c56279c594eadc226fed6583993"
+
+[[issues]]
+  comment = "Returned channels or channel arguments should generally have a direction."
+  fileline = 49
+  filepath = "pkg/udp/proxy.go"
+  fixed = true
+  ignored = ""
+
+[[issues]]
+  comment = "Returned channels or channel arguments should generally have a direction."
+  fileline = 567
+  filepath = "pkg/provider/kubernetes/ingress/kubernetes.go"
+  fixed = false
+  ignored = "returned chan"
+
+[[issues]]
+  comment = "Returned channels or channel arguments should generally have a direction."
+  fileline = 55
+  filepath = "pkg/tcp/proxy.go"
+  fixed = true
+  ignored = ""
+
+[[issues]]
+  comment = "Returned channels or channel arguments should generally have a direction."
+  fileline = 107
+  filepath = "pkg/provider/acme/provider.go"
+  fixed = false
+  ignored = "unidirectional"
+
+[[issues]]
+  comment = "Returned channels or channel arguments should generally have a direction."
+  fileline = 728
+  filepath = "pkg/provider/kubernetes/crd/kubernetes.go"
+  fixed = false
+  ignored = "returned chan"

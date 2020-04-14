@@ -1,0 +1,68 @@
+repo = "github.com/apex/up"
+rule = "codelingo/go/unchecked-type-assertion"
+sha = "5777a4ff5f92b7d2e1119c79263d57c2a5573557"
+
+[[issues]]
+  filepath = "internal/cli/domains/domains.go"
+  fileline = 198
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "internal/redirect/redirect.go"
+  fileline = 66
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "internal/logs/parser/ast/ast.go"
+  fileline = 195
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "reporter/text/text.go"
+  fileline = 186
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "internal/util/util.go"
+  fileline = 303
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "internal/logs/parser/parser.go"
+  fileline = 112
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "internal/cli/domains/domains.go"
+  fileline = 233
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "platform/lambda/stack/resources/resources_test.go"
+  fileline = 24
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "internal/logs/parser/ast/ast.go"
+  fileline = 76
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "internal/redirect/redirect_test.go"
+  fileline = 60
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "internal/cli/domains/domains.go"
+  fileline = 218
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "platform/lambda/stack/stack.go"
+  fileline = 564
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."
+
+[[issues]]
+  filepath = "reporter/text/text.go"
+  fileline = 173
+  comment = "Unchecked type assertions can cause panics. Check for success with the x, ok := y.(type) style."

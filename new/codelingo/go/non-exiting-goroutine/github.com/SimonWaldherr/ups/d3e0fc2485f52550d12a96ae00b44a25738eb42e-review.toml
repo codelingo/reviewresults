@@ -3,11 +3,15 @@ rule = "codelingo/go/non-exiting-goroutine"
 sha = "d3e0fc2485f52550d12a96ae00b44a25738eb42e"
 
 [[issues]]
-  filepath = "ups.go"
-  fileline = 45
   comment = "This goroutine does not exit and may cause a resource leak."
+  fileline = 45
+  filepath = "ups.go"
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "ups.go"
-  fileline = 543
   comment = "This goroutine does not exit and may cause a resource leak."
+  fileline = 543
+  filepath = "ups.go"
+  fixed = false
+  ignored = "fp"

@@ -1,0 +1,18 @@
+repo = "github.com/go-delve/delve"
+rule = "codelingo/go/non-directional-chan"
+sha = "3a72646782ea0c39946b12b214933027afd7c615"
+
+[[issues]]
+  filepath = "_fixtures/is sue239.go"
+  fileline = 7
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "cmd/dlv/cmds/commands.go"
+  fileline = 612
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "_fixtures/testnextprog.go"
+  fileline = 46
+  comment = "Returned channels or channel arguments should generally have a direction."

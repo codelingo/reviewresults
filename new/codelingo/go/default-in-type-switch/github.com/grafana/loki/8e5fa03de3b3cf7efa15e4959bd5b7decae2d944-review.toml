@@ -1,0 +1,23 @@
+repo = "github.com/grafana/loki"
+rule = "codelingo/go/default-in-type-switch"
+sha = "8e5fa03de3b3cf7efa15e4959bd5b7decae2d944"
+
+[[issues]]
+  filepath = "cmd/fluent-bit/loki.go"
+  fileline = 161
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "pkg/promtail/targets/syslogtarget.go"
+  fileline = 249
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "pkg/logentry/stages/metrics.go"
+  fileline = 159
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "pkg/logql/engine.go"
+  fileline = 191
+  comment = "Always include a default case when using a type switch."

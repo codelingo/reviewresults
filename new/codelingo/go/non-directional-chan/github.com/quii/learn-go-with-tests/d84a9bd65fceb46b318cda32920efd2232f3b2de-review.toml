@@ -1,0 +1,13 @@
+repo = "github.com/quii/learn-go-with-tests"
+rule = "codelingo/go/non-directional-chan"
+sha = "d84a9bd65fceb46b318cda32920efd2232f3b2de"
+
+[[issues]]
+  filepath = "select/v3/racer.go"
+  fileline = 28
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "select/v2/racer.go"
+  fileline = 17
+  comment = "Returned channels or channel arguments should generally have a direction."

@@ -1,0 +1,8 @@
+repo = "github.com/iikira/BaiduPCS-Go"
+rule = "codelingo/go/non-exiting-goroutine"
+sha = "f0cc6d80080b3824f355440387b6ad9e9fef20b8"
+
+[[issues]]
+  filepath = "requester/downloader/download_test.go"
+  fileline = 42
+  comment = "This goroutine does not exit and may cause a resource leak."

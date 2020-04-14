@@ -1,0 +1,8 @@
+repo = "github.com/goharbor/harbor"
+rule = "codelingo/go/default-in-type-switch"
+sha = "6ad855f0eec34528af12bf53e55b1fb90e5b1574"
+
+[[issues]]
+  filepath = "src/core/api/user.go"
+  fileline = 156
+  comment = "Always include a default case when using a type switch."

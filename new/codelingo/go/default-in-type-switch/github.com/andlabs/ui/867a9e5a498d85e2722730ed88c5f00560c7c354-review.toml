@@ -1,0 +1,8 @@
+repo = "github.com/andlabs/ui"
+rule = "codelingo/go/default-in-type-switch"
+sha = "867a9e5a498d85e2722730ed88c5f00560c7c354"
+
+[[issues]]
+  filepath = "tablemodel.go"
+  fileline = 149
+  comment = "Always include a default case when using a type switch."

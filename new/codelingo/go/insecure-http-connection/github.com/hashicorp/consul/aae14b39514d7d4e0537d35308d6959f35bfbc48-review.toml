@@ -1,0 +1,18 @@
+repo = "github.com/hashicorp/consul"
+rule = "codelingo/go/insecure-http-connection"
+sha = "aae14b39514d7d4e0537d35308d6959f35bfbc48"
+
+[[issues]]
+  filepath = "connect/tls.go"
+  fileline = 59
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+
+[[issues]]
+  filepath = "api/api_test.go"
+  fileline = 546
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+
+[[issues]]
+  filepath = "api/api_test.go"
+  fileline = 551
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."

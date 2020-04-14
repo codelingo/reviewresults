@@ -1,0 +1,78 @@
+repo = "github.com/hashicorp/vault"
+rule = "codelingo/go/ticker-in-for-select"
+sha = "6af3329f477bf78338c6de2340818bfbf368a466"
+
+[[issues]]
+  filepath = "command/agent_test.go"
+  fileline = 867
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "vault/ha.go"
+  fileline = 671
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "api/lifetime_watcher.go"
+  fileline = 343
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "command/agent/sink/sink.go"
+  fileline = 152
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "vault/ha.go"
+  fileline = 963
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "vault/ha.go"
+  fileline = 894
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "vault/ha.go"
+  fileline = 716
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "vault/raft.go"
+  fileline = 377
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "physical/etcd/etcd2.go"
+  fileline = 418
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "command/agent/auth/auth_test.go"
+  fileline = 93
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "builtin/credential/okta/backend.go"
+  fileline = 215
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "physical/zookeeper/zookeeper.go"
+  fileline = 645
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "command/server.go"
+  fileline = 2588
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "command/server.go"
+  fileline = 1551
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "vault/ha.go"
+  fileline = 586
+  comment = "Make one ticker as opposed to making a new timer each iteration."

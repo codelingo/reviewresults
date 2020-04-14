@@ -1,0 +1,8 @@
+repo = "github.com/containous/traefik"
+rule = "codelingo/go/break-select-in-for"
+sha = "f624449ccbf42c56279c594eadc226fed6583993"
+
+[[issues]]
+  filepath = "pkg/provider/acme/provider.go"
+  fileline = 560
+  comment = "This `break` statement only breaks to the innermost select, rather than the parent `for` loop.\nThis is generally unexpected and can cause an active goroutine to leak.\nFix it by adding a label to the for loop and breaking to that instead.\n"

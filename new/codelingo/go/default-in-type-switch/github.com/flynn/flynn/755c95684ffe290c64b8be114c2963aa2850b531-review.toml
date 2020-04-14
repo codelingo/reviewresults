@@ -1,0 +1,48 @@
+repo = "github.com/flynn/flynn"
+rule = "codelingo/go/default-in-type-switch"
+sha = "755c95684ffe290c64b8be114c2963aa2850b531"
+
+[[issues]]
+  filepath = "controller/scheduler/scheduler.go"
+  fileline = 1437
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "pkg/sirenia/client/client.go"
+  fileline = 101
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "discoverd/client/client.go"
+  fileline = 266
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "pkg/rpcplus/fdrpc/server.go"
+  fileline = 66
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "pkg/term/windows/console.go"
+  fileline = 13
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "controller/api/api.go"
+  fileline = 185
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "cli/main.go"
+  fileline = 168
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "host/cli/cli.go"
+  fileline = 55
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "pkg/rpcplus/fdrpc/client.go"
+  fileline = 105
+  comment = "Always include a default case when using a type switch."

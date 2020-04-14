@@ -1,0 +1,8 @@
+repo = "github.com/hashicorp/consul"
+rule = "codelingo/lomik-go-carbon/missing-stop-ticker"
+sha = "aae14b39514d7d4e0537d35308d6959f35bfbc48"
+
+[[issues]]
+  filepath = "sdk/freeport/freeport.go"
+  fileline = 166
+  comment = "Stop the ticker to release associated resources."

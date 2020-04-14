@@ -1,0 +1,28 @@
+repo = "github.com/containous/traefik"
+rule = "codelingo/go/non-exiting-goroutine"
+sha = "f624449ccbf42c56279c594eadc226fed6583993"
+
+[[issues]]
+  filepath = "pkg/middlewares/accesslog/logger_test.go"
+  fileline = 70
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "integration/udp_test.go"
+  fileline = 84
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "pkg/tcp/proxy_test.go"
+  fileline = 56
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "pkg/udp/conn_test.go"
+  fileline = 171
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "pkg/udp/proxy_test.go"
+  fileline = 15
+  comment = "This goroutine does not exit and may cause a resource leak."

@@ -1,0 +1,163 @@
+repo = "github.com/hashicorp/packer"
+rule = "codelingo/go/non-directional-chan"
+sha = "3892e0905a0e98b0548aac05646aeeda97b778dc"
+
+[[issues]]
+  filepath = "communicator/ssh/communicator.go"
+  fileline = 429
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "builder/vmware/common/driver_parser.go"
+  fileline = 49
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "builder/vmware/common/driver_parser.go"
+  fileline = 49
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "builder/vmware/common/driver_parser.go"
+  fileline = 1116
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "builder/vmware/common/driver_parser.go"
+  fileline = 1116
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "builder/vmware/common/driver_parser.go"
+  fileline = 236
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "builder/vmware/common/driver_parser.go"
+  fileline = 1710
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "builder/vmware/common/driver_parser.go"
+  fileline = 1670
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "builder/vmware/common/driver_parser.go"
+  fileline = 1670
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "builder/vmware/common/driver_parser.go"
+  fileline = 1959
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "builder/virtualbox/common/snapshot.go"
+  fileline = 94
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "builder/vmware/common/driver_parser.go"
+  fileline = 1124
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "builder/vmware/common/driver_parser.go"
+  fileline = 227
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "builder/vmware/common/driver_parser.go"
+  fileline = 227
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "builder/vmware/common/driver_parser.go"
+  fileline = 1167
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "builder/vmware/common/driver_parser.go"
+  fileline = 1167
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "common/step_create_floppy.go"
+  fileline = 356
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "builder/vmware/common/driver_parser.go"
+  fileline = 305
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "builder/vmware/common/driver_parser.go"
+  fileline = 1000
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "builder/vmware/common/driver_parser.go"
+  fileline = 990
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "builder/vmware/common/driver_parser.go"
+  fileline = 1173
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "builder/vmware/common/driver_parser.go"
+  fileline = 991
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "builder/vmware/common/driver_parser.go"
+  fileline = 57
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "builder/vmware/common/driver_parser.go"
+  fileline = 1664
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "builder/vmware/common/driver_parser.go"
+  fileline = 1664
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "builder/vmware/common/driver_parser.go"
+  fileline = 155
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "builder/vmware/common/driver_parser.go"
+  fileline = 23
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "builder/vmware/common/driver_parser.go"
+  fileline = 179
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "builder/vmware/common/driver_parser.go"
+  fileline = 19
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "common/step_create_floppy.go"
+  fileline = 106
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "communicator/ssh/tunnel.go"
+  fileline = 62
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "builder/vmware/common/driver_parser.go"
+  fileline = 185
+  comment = "Returned channels or channel arguments should generally have a direction."

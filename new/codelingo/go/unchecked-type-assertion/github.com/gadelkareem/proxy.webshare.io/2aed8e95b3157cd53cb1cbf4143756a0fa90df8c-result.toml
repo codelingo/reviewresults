@@ -3,5 +3,7 @@ rule = "codelingo/go/unchecked-type-assertion"
 sha = "2aed8e95b3157cd53cb1cbf4143756a0fa90df8c"
 
 [[issues]]
-  filepath = "client.go"
   fileline = 82
+  filepath = "client.go"
+  fixed = true
+  ignored = ""

@@ -1,0 +1,63 @@
+repo = "github.com/rkt/rkt"
+rule = "codelingo/go/reassigned-error"
+sha = "171c416fac02516604e48d2e65153dd55a12513e"
+
+[[issues]]
+  filepath = "stage1_fly/run/main.go"
+  fileline = 517
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "networking/podenv.go"
+  fileline = 241
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "tools/common/filelist/filelist.go"
+  fileline = 67
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "pkg/keystore/keystoretest/keygen/keygen.go"
+  fileline = 70
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "pkg/lock/keylock_test.go"
+  fileline = 182
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "pkg/lock/keylock_test.go"
+  fileline = 147
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "store/treestore/tree.go"
+  fileline = 290
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "store/treestore/tree.go"
+  fileline = 290
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "tests/rkt_dns_test.go"
+  fileline = 87
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "tests/inspect/inspect.go"
+  fileline = 496
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "rkt/pubkey/pubkey.go"
+  fileline = 159
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "tests/rkt_service_file_test.go"
+  fileline = 75
+  comment = "Error was not checked before reassignment"

@@ -1,0 +1,13 @@
+repo = "github.com/micro/go-micro"
+rule = "codelingo/go/break-select-in-for"
+sha = "4cac7dcc4809e190f83645172fca9368f6c8ef4b"
+
+[[issues]]
+  filepath = "network/default.go"
+  fileline = 1189
+  comment = "This `break` statement only breaks to the innermost select, rather than the parent `for` loop.\nThis is generally unexpected and can cause an active goroutine to leak.\nFix it by adding a label to the for loop and breaking to that instead.\n"
+
+[[issues]]
+  filepath = "api/handler/rpc/stream.go"
+  fileline = 179
+  comment = "This `break` statement only breaks to the innermost select, rather than the parent `for` loop.\nThis is generally unexpected and can cause an active goroutine to leak.\nFix it by adding a label to the for loop and breaking to that instead.\n"

@@ -1,0 +1,38 @@
+repo = "github.com/uber-go/zap"
+rule = "codelingo/go/non-exiting-goroutine"
+sha = "ec2dc456c680236892af2c645172713e1c4e1acd"
+
+[[issues]]
+  filepath = "zapcore/entry_test.go"
+  fileline = 46
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "buffer/pool_test.go"
+  fileline = 38
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "global_test.go"
+  fileline = 78
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "global_test.go"
+  fileline = 84
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "zapcore/sampler_test.go"
+  fileline = 216
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "zapcore/entry_test.go"
+  fileline = 39
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "common_test.go"
+  fileline = 52
+  comment = "This goroutine does not exit and may cause a resource leak."

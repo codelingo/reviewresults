@@ -1,0 +1,18 @@
+repo = "github.com/bcicen/ctop"
+rule = "codelingo/go/non-exiting-goroutine"
+sha = "4741b276e4bbaa41a67d62443239d50b5a936623"
+
+[[issues]]
+  filepath = "logging/main.go"
+  fileline = 83
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "connector/collector/mock_logs.go"
+  fileline = 18
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "connector/collector/docker_logs.go"
+  fileline = 49
+  comment = "This goroutine does not exit and may cause a resource leak."

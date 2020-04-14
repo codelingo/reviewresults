@@ -1,0 +1,568 @@
+repo = "github.com/flynn/flynn"
+rule = "codelingo/go/non-directional-chan"
+sha = "755c95684ffe290c64b8be114c2963aa2850b531"
+
+[[issues]]
+  filepath = "pkg/cluster/host.go"
+  fileline = 135
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "router/watcher.go"
+  fileline = 11
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "host/state.go"
+  fileline = 573
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "test/runner/runner.go"
+  fileline = 555
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "router/api.go"
+  fileline = 54
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "discoverd/health/register.go"
+  fileline = 20
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "controller/client/client.go"
+  fileline = 72
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/cluster/client.go"
+  fileline = 95
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "flannel/subnet/subnet.go"
+  fileline = 185
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "discoverd/client/service.go"
+  fileline = 140
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "controller/scheduler/host.go"
+  fileline = 153
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "host/logmux/sink.go"
+  fileline = 679
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "host/logmux/sink.go"
+  fileline = 454
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "controller/client/client.go"
+  fileline = 69
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "discoverd/server/handler.go"
+  fileline = 104
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/sirenia/simulator/simulator.go"
+  fileline = 493
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/sirenia/state/state.go"
+  fileline = 271
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "controller/scheduler/scheduler_test.go"
+  fileline = 52
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "discoverd/server/store_test.go"
+  fileline = 918
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "controller/scheduler/host.go"
+  fileline = 62
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "discoverd/client/watch_test.go"
+  fileline = 130
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "host/logmux/sink.go"
+  fileline = 362
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/postgres/migrate.go"
+  fileline = 87
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "host/state.go"
+  fileline = 584
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/signal/signal.go"
+  fileline = 24
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "discoverd/cache/cache.go"
+  fileline = 148
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/rpcplus/client.go"
+  fileline = 367
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "host/state.go"
+  fileline = 535
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "router/tcp.go"
+  fileline = 97
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "flannel/subnet/subnet.go"
+  fileline = 370
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "router/setup_test.go"
+  fileline = 134
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "controller/scheduler/discoverd.go"
+  fileline = 17
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "controller/scheduler/router.go"
+  fileline = 44
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "test/test_deployer.go"
+  fileline = 151
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "controller/client/v1/client.go"
+  fileline = 635
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "test/runner/runner.go"
+  fileline = 693
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/cluster/host.go"
+  fileline = 204
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "controller/scheduler/discoverd.go"
+  fileline = 98
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "controller/utils/utils.go"
+  fileline = 283
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "controller/client/v1/client.go"
+  fileline = 83
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "controller/client/client.go"
+  fileline = 103
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "test/test_deployer.go"
+  fileline = 128
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "discoverd/client/watch.go"
+  fileline = 42
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "router/client/client.go"
+  fileline = 57
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "discoverd/client/service.go"
+  fileline = 16
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "discoverd/health/monitor.go"
+  fileline = 62
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "controller/client/v1/client.go"
+  fileline = 617
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "router/store.go"
+  fileline = 15
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "host/volume/manager/manager.go"
+  fileline = 141
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "controller/testutils/fake_host_client.go"
+  fileline = 223
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "router/client/client.go"
+  fileline = 54
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "router/store.go"
+  fileline = 39
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "host/logmux/logmux.go"
+  fileline = 74
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "host/state.go"
+  fileline = 549
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "discoverd/health/register.go"
+  fileline = 79
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/cluster/host.go"
+  fileline = 162
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "controller/scheduler/service.go"
+  fileline = 23
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "router/http.go"
+  fileline = 538
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "discoverd/client/watch_test.go"
+  fileline = 48
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "host/libcontainer_backend.go"
+  fileline = 434
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "controller/client/client.go"
+  fileline = 74
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "controller/utils/utils.go"
+  fileline = 332
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "discoverd/client/service.go"
+  fileline = 17
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "controller/client/v1/client.go"
+  fileline = 549
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "controller/worker/deployment/context.go"
+  fileline = 134
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "controller/client/client.go"
+  fileline = 93
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "discoverd/client/watch.go"
+  fileline = 100
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "test/cluster/client/client.go"
+  fileline = 51
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "appliance/mongodb/process.go"
+  fileline = 785
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "discoverd/server/store_test.go"
+  fileline = 867
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "flannel/subnet/subnet.go"
+  fileline = 99
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "host/cli/bootstrap.go"
+  fileline = 139
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "router/setup_test.go"
+  fileline = 140
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "host/downloader/downloader.go"
+  fileline = 84
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "controller/testutils/fake_host_client.go"
+  fileline = 199
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "router/http.go"
+  fileline = 136
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "controller/testutils/fake_cluster.go"
+  fileline = 43
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "flannel/subnet/registry.go"
+  fileline = 24
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "controller/client/v1/client.go"
+  fileline = 837
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "discoverd/health/monitor_test.go"
+  fileline = 24
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "discoverd/health/monitor_test.go"
+  fileline = 24
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "router/watcher.go"
+  fileline = 27
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "discoverd/server/store.go"
+  fileline = 1032
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "router/watcher.go"
+  fileline = 43
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "discoverd/server/handler_test.go"
+  fileline = 217
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "controller/utils/utils.go"
+  fileline = 305
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "flannel/subnet/subnet.go"
+  fileline = 308
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "flannel/subnet/subnet.go"
+  fileline = 308
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "discoverd/server/handler_test.go"
+  fileline = 664
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "controller/utils/utils.go"
+  fileline = 273
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "discoverd/health/register.go"
+  fileline = 46
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "controller/client/v1/client.go"
+  fileline = 566
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "appliance/redis/process.go"
+  fileline = 179
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "host/volume/manager/manager.go"
+  fileline = 149
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "discoverd/server/handler_test.go"
+  fileline = 185
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "host/discoverd_wrapper.go"
+  fileline = 91
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "flannel/main.go"
+  fileline = 288
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "discoverd/client/watch_test.go"
+  fileline = 60
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "controller/client/v1/client.go"
+  fileline = 938
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "test/cluster/client/client.go"
+  fileline = 86
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "flannel/discoverd/registry.go"
+  fileline = 99
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "controller/utils/utils.go"
+  fileline = 271
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "flannel/subnet/subnet.go"
+  fileline = 402
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "controller/testutils/fake_controller_client.go"
+  fileline = 270
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "router/watcher.go"
+  fileline = 10
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "discoverd/server/handler_test.go"
+  fileline = 506
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "host/cli/log.go"
+  fileline = 133
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "host/downloader/downloader.go"
+  fileline = 120
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "router/setup_test.go"
+  fileline = 85
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "flannel/subnet/subnet_test.go"
+  fileline = 106
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/signal/signal.go"
+  fileline = 15
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "controller/testutils/fake_controller_client.go"
+  fileline = 282
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "controller/utils/utils.go"
+  fileline = 301
+  comment = "Returned channels or channel arguments should generally have a direction."

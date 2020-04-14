@@ -1,0 +1,53 @@
+repo = "github.com/openfaas/faas"
+rule = "codelingo/go/non-exiting-goroutine"
+sha = "28f45e7efaf5bada07810f59223c13f01dd0ee1a"
+
+[[issues]]
+  filepath = "sample-functions/MarkdownRender/vendor/golang.org/x/net/ipv4/bpf_test.go"
+  fileline = 58
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "sample-functions/MarkdownRender/vendor/golang.org/x/net/nettest/conntest.go"
+  fileline = 184
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "sample-functions/MarkdownRender/vendor/golang.org/x/net/nettest/conntest.go"
+  fileline = 336
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "sample-functions/MarkdownRender/vendor/golang.org/x/net/nettest/conntest.go"
+  fileline = 296
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "sample-functions/MarkdownRender/vendor/golang.org/x/net/netutil/listen_test.go"
+  fileline = 88
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "sample-functions/MarkdownRender/vendor/golang.org/x/net/http2/transport_test.go"
+  fileline = 3470
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "sample-functions/MarkdownRender/vendor/golang.org/x/net/nettest/conntest.go"
+  fileline = 271
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "sample-functions/MarkdownRender/vendor/golang.org/x/net/ipv6/bpf_test.go"
+  fileline = 61
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "sample-functions/MarkdownRender/vendor/golang.org/x/net/nettest/conntest.go"
+  fileline = 156
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "sample-functions/MarkdownRender/vendor/golang.org/x/net/nettest/conntest.go"
+  fileline = 328
+  comment = "This goroutine does not exit and may cause a resource leak."

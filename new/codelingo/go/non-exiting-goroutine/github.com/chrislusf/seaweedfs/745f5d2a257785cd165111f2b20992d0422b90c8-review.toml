@@ -1,0 +1,48 @@
+repo = "github.com/chrislusf/seaweedfs"
+rule = "codelingo/go/non-exiting-goroutine"
+sha = "745f5d2a257785cd165111f2b20992d0422b90c8"
+
+[[issues]]
+  filepath = "unmaintained/stress_filer_upload/stress_filer_upload_actual/stress_filer_upload.go"
+  fileline = 62
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "weed/replication/sub/notification_kafka.go"
+  fileline = 83
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "unmaintained/stress_filer_upload/stress_filer_upload_actual/stress_filer_upload.go"
+  fileline = 79
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "weed/topology/topology_event_handling.go"
+  fileline = 14
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "weed/topology/topology_event_handling.go"
+  fileline = 31
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "unmaintained/stress_filer_upload/bench_filer_upload/bench_filer_upload.go"
+  fileline = 54
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "unmaintained/stress_filer_upload/bench_filer_upload/bench_filer_upload.go"
+  fileline = 53
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "unmaintained/stress_filer_upload/bench_filer_upload/bench_filer_upload.go"
+  fileline = 73
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "unmaintained/repeated_vacuum/repeated_vacuum.go"
+  fileline = 33
+  comment = "This goroutine does not exit and may cause a resource leak."

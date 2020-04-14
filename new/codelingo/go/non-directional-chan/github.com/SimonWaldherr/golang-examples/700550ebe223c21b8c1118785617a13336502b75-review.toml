@@ -3,61 +3,85 @@ rule = "codelingo/go/non-directional-chan"
 sha = "700550ebe223c21b8c1118785617a13336502b75"
 
 [[issues]]
-  filepath = "expert/pi2go.go"
+  comment = "Returned channels or channel arguments should generally have a direction."
   fileline = 61
-  comment = "Returned channels or channel arguments should generally have a direction."
+  filepath = "expert/pi2go.go"
+  fixed = true
+  ignored = ""
 
 [[issues]]
-  filepath = "expert/pi2go-live.go"
+  comment = "Returned channels or channel arguments should generally have a direction."
   fileline = 90
-  comment = "Returned channels or channel arguments should generally have a direction."
+  filepath = "expert/pi2go-live.go"
+  fixed = true
+  ignored = ""
 
 [[issues]]
-  filepath = "expert/dynparallel.go"
+  comment = "Returned channels or channel arguments should generally have a direction."
   fileline = 119
-  comment = "Returned channels or channel arguments should generally have a direction."
+  filepath = "expert/dynparallel.go"
+  fixed = true
+  ignored = ""
 
 [[issues]]
-  filepath = "expert/pi2go.go"
+  comment = "Returned channels or channel arguments should generally have a direction."
   fileline = 78
-  comment = "Returned channels or channel arguments should generally have a direction."
+  filepath = "expert/pi2go.go"
+  fixed = true
+  ignored = ""
 
 [[issues]]
-  filepath = "expert/pi2go-live.go"
+  comment = "Returned channels or channel arguments should generally have a direction."
   fileline = 43
-  comment = "Returned channels or channel arguments should generally have a direction."
+  filepath = "expert/pi2go-live.go"
+  fixed = true
+  ignored = ""
 
 [[issues]]
-  filepath = "expert/pi2go.go"
+  comment = "Returned channels or channel arguments should generally have a direction."
   fileline = 22
-  comment = "Returned channels or channel arguments should generally have a direction."
-
-[[issues]]
-  filepath = "expert/pi2go-live.go"
-  fileline = 24
-  comment = "Returned channels or channel arguments should generally have a direction."
-
-[[issues]]
-  filepath = "advanced/getchar.go"
-  fileline = 9
-  comment = "Returned channels or channel arguments should generally have a direction."
-
-[[issues]]
-  filepath = "advanced/getchar.go"
-  fileline = 9
-  comment = "Returned channels or channel arguments should generally have a direction."
-
-[[issues]]
   filepath = "expert/pi2go.go"
-  fileline = 36
-  comment = "Returned channels or channel arguments should generally have a direction."
+  fixed = false
+  ignored = "fp"
 
 [[issues]]
-  filepath = "advanced/fanin.go"
-  fileline = 28
   comment = "Returned channels or channel arguments should generally have a direction."
-
-[[issues]]
+  fileline = 24
   filepath = "expert/pi2go-live.go"
-  fileline = 70
+  fixed = false
+  ignored = "fp"
+
+[[issues]]
   comment = "Returned channels or channel arguments should generally have a direction."
+  fileline = 9
+  filepath = "advanced/getchar.go"
+  fixed = true
+  ignored = ""
+
+[[issues]]
+  comment = "Returned channels or channel arguments should generally have a direction."
+  fileline = 9
+  filepath = "advanced/getchar.go"
+  fixed = true
+  ignored = ""
+
+[[issues]]
+  comment = "Returned channels or channel arguments should generally have a direction."
+  fileline = 36
+  filepath = "expert/pi2go.go"
+  fixed = true
+  ignored = ""
+
+[[issues]]
+  comment = "Returned channels or channel arguments should generally have a direction."
+  fileline = 28
+  filepath = "advanced/fanin.go"
+  fixed = false
+  ignored = "fp"
+
+[[issues]]
+  comment = "Returned channels or channel arguments should generally have a direction."
+  fileline = 70
+  filepath = "expert/pi2go-live.go"
+  fixed = true
+  ignored = ""

@@ -1,0 +1,8 @@
+repo = "github.com/apex/up"
+rule = "codelingo/rfjakob-gocryptfs/missing-close-file"
+sha = "5777a4ff5f92b7d2e1119c79263d57c2a5573557"
+
+[[issues]]
+  filepath = "internal/zip/zip.go"
+  fileline = 69
+  comment = "Close the file when you are done"

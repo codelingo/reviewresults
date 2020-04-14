@@ -1,0 +1,18 @@
+repo = "github.com/hashicorp/vault"
+rule = "codelingo/rfjakob-gocryptfs/missing-close-file"
+sha = "6af3329f477bf78338c6de2340818bfbf368a466"
+
+[[issues]]
+  filepath = "command/debug_test.go"
+  fileline = 277
+  comment = "Close the file when you are done"
+
+[[issues]]
+  filepath = "command/debug_test.go"
+  fileline = 661
+  comment = "Close the file when you are done"
+
+[[issues]]
+  filepath = "command/agent/auth/kubernetes/kubernetes.go"
+  fileline = 116
+  comment = "Close the file when you are done"

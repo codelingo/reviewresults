@@ -1,0 +1,23 @@
+repo = "github.com/golang/dep"
+rule = "codelingo/go/non-directional-chan"
+sha = "5600de07d5903b1d1acd8939b93ecf5c35151ace"
+
+[[issues]]
+  filepath = "gps/source_manager.go"
+  fileline = 346
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vendor/github.com/boltdb/bolt/tx.go"
+  fileline = 416
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "gps/source_manager.go"
+  fileline = 356
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "vendor/github.com/boltdb/bolt/tx.go"
+  fileline = 381
+  comment = "Returned channels or channel arguments should generally have a direction."

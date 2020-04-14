@@ -1,0 +1,73 @@
+repo = "github.com/hashicorp/packer"
+rule = "codelingo/go/insecure-http-connection"
+sha = "3892e0905a0e98b0548aac05646aeeda97b778dc"
+
+[[issues]]
+  filepath = "builder/osc/bsusurrogate/builder.go"
+  fileline = 114
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+
+[[issues]]
+  filepath = "builder/openstack/access_config.go"
+  fileline = 213
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+
+[[issues]]
+  filepath = "builder/osc/common/step_update_omi.go"
+  fileline = 103
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+
+[[issues]]
+  filepath = "builder/osc/common/step_update_omi.go"
+  fileline = 71
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+
+[[issues]]
+  filepath = "builder/osc/bsu/builder_acc_test.go"
+  fileline = 35
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+
+[[issues]]
+  filepath = "builder/osc/bsu/builder.go"
+  fileline = 96
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+
+[[issues]]
+  filepath = "builder/osc/common/artifact.go"
+  fileline = 93
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+
+[[issues]]
+  filepath = "builder/osc/bsuvolume/builder.go"
+  fileline = 99
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+
+[[issues]]
+  filepath = "builder/osc/common/step_deregister_omi.go"
+  fileline = 50
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+
+[[issues]]
+  filepath = "builder/amazon/common/access_config.go"
+  fileline = 161
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+
+[[issues]]
+  filepath = "builder/osc/bsuvolume/builder_acc_test.go"
+  fileline = 35
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+
+[[issues]]
+  filepath = "builder/osc/chroot/builder.go"
+  fileline = 203
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+
+[[issues]]
+  filepath = "builder/osc/common/step_create_tags.go"
+  fileline = 47
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."
+
+[[issues]]
+  filepath = "post-processor/vagrant-cloud/client.go"
+  fileline = 58
+  comment = "Skipping verification exposes the connection to man-in-the-middle attacks. This should only be used for testing."

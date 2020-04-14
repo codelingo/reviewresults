@@ -1,0 +1,43 @@
+repo = "github.com/go-gitea/gitea"
+rule = "codelingo/go/default-in-type-switch"
+sha = "089b34858ce1ce3101b13fa8e14e4e56e0a02a90"
+
+[[issues]]
+  filepath = "modules/markup/markdown/goldmark.go"
+  fileline = 37
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "modules/httplib/httplib.go"
+  fileline = 235
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "modules/webhook/webhook.go"
+  fileline = 28
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "modules/base/tool.go"
+  fileline = 240
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "modules/base/tool.go"
+  fileline = 259
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "modules/context/context.go"
+  fileline = 213
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "modules/markup/mdstripper/mdstripper.go"
+  fileline = 35
+  comment = "Always include a default case when using a type switch."
+
+[[issues]]
+  filepath = "models/login_source.go"
+  fileline = 180
+  comment = "Always include a default case when using a type switch."

@@ -1,0 +1,133 @@
+repo = "github.com/hashicorp/consul"
+rule = "codelingo/go/reassigned-error"
+sha = "aae14b39514d7d4e0537d35308d6959f35bfbc48"
+
+[[issues]]
+  filepath = "command/acl/authmethod/update/authmethod_update_test.go"
+  fileline = 339
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "agent/xds/listeners.go"
+  fileline = 380
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "agent/consul/acl_endpoint_test.go"
+  fileline = 1505
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "command/acl/role/read/role_read_test.go"
+  fileline = 217
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "agent/operator_endpoint_test.go"
+  fileline = 280
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "agent/consul/state/catalog.go"
+  fileline = 2115
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "agent/consul/acl_test.go"
+  fileline = 3239
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "agent/consul/acl_test.go"
+  fileline = 3209
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "agent/acl_test.go"
+  fileline = 348
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "agent/consul/fsm/snapshot_oss_test.go"
+  fileline = 501
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "agent/cache-types/catalog_datacenters_test.go"
+  fileline = 57
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "agent/cache-types/catalog_datacenters_test.go"
+  fileline = 56
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "agent/cache-types/catalog_datacenters_test.go"
+  fileline = 56
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "tlsutil/config_test.go"
+  fileline = 857
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "agent/consul/catalog_endpoint_test.go"
+  fileline = 640
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "agent/consul/catalog_endpoint_test.go"
+  fileline = 624
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "agent/consul/catalog_endpoint_test.go"
+  fileline = 632
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "agent/consul/catalog_endpoint_test.go"
+  fileline = 616
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "agent/consul/state/catalog_test.go"
+  fileline = 857
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "agent/agent_endpoint_test.go"
+  fileline = 1135
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "agent/consul/acl_endpoint_test.go"
+  fileline = 2109
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "agent/consul/acl_endpoint_test.go"
+  fileline = 2021
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "agent/agent.go"
+  fileline = 3528
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "agent/connect/ca/common.go"
+  fileline = 18
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "agent/discovery_chain_endpoint_test.go"
+  fileline = 213
+  comment = "Error was not checked before reassignment"
+
+[[issues]]
+  filepath = "command/acl/authmethod/list/authmethod_list_test.go"
+  fileline = 66
+  comment = "Error was not checked before reassignment"

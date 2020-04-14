@@ -1,0 +1,52 @@
+repo = "github.com/thrasher-corp/gocryptotrader"
+rule = "codelingo/go/default-in-type-switch"
+sha = "3c6f4f4c91257dadc9b2bb1949373aea6a327ca8"
+
+[[issues]]
+  comment = "Always include a default case when using a type switch."
+  fileline = 1238
+  filepath = "exchanges/bitfinex/bitfinex.go"
+  fixed = false
+  ignored = "uses fallthrough"
+
+[[issues]]
+  comment = "Always include a default case when using a type switch."
+  fileline = 186
+  filepath = "exchanges/bitfinex/bitfinex_websocket.go"
+  fixed = false
+  ignored = "fallthrough is a no-op"
+
+[[issues]]
+  comment = "Always include a default case when using a type switch."
+  fileline = 110
+  filepath = "exchanges/hitbtc/hitbtc_websocket.go"
+  fixed = false
+  ignored = "uses fallthrough"
+
+[[issues]]
+  comment = "Always include a default case when using a type switch."
+  fileline = 149
+  filepath = "exchanges/bitfinex/bitfinex_websocket.go"
+  fixed = false
+  ignored = "alt case is no-op"
+
+[[issues]]
+  comment = "Always include a default case when using a type switch."
+  fileline = 1487
+  filepath = "engine/rpcserver.go"
+  fixed = false
+  ignored = "fallthrough nil"
+
+[[issues]]
+  comment = "Always include a default case when using a type switch."
+  fileline = 882
+  filepath = "exchanges/websocket/wshandler/wshandler.go"
+  fixed = false
+  ignored = "fallthrough false"
+
+[[issues]]
+  comment = "Always include a default case when using a type switch."
+  fileline = 49
+  filepath = "exchanges/bitmex/bitmex_parameters.go"
+  fixed = false
+  ignored = "fallthrough nil"

@@ -1,0 +1,38 @@
+repo = "github.com/hashicorp/packer"
+rule = "codelingo/rfjakob-gocryptfs/missing-close-file"
+sha = "3892e0905a0e98b0548aac05646aeeda97b778dc"
+
+[[issues]]
+  filepath = "builder/lxc/step_export.go"
+  fileline = 46
+  comment = "Close the file when you are done"
+
+[[issues]]
+  filepath = "post-processor/compress/post-processor_test.go"
+  fileline = 172
+  comment = "Close the file when you are done"
+
+[[issues]]
+  filepath = "post-processor/compress/post-processor_test.go"
+  fileline = 145
+  comment = "Close the file when you are done"
+
+[[issues]]
+  filepath = "builder/proxmox/step_upload_iso.go"
+  fileline = 44
+  comment = "Close the file when you are done"
+
+[[issues]]
+  filepath = "builder/parallels/common/driver_9.go"
+  fileline = 79
+  comment = "Close the file when you are done"
+
+[[issues]]
+  filepath = "builder/virtualbox/common/step_upload_guest_additions.go"
+  fileline = 45
+  comment = "Close the file when you are done"
+
+[[issues]]
+  filepath = "post-processor/googlecompute-import/post-processor.go"
+  fileline = 177
+  comment = "Close the file when you are done"

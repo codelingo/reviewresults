@@ -1,0 +1,108 @@
+repo = "github.com/google/gvisor"
+rule = "codelingo/go/non-exiting-goroutine"
+sha = "fc72eb3595a7c4e2fa83caa39a9bb4171875c208"
+
+[[issues]]
+  filepath = "pkg/tmutex/tmutex_test.go"
+  fileline = 124
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "pkg/amutex/amutex_test.go"
+  fileline = 59
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "runsc/testutil/testutil.go"
+  fileline = 283
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "pkg/sentry/vfs/mount_test.go"
+  fileline = 219
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "pkg/sleep/sleep_test.go"
+  fileline = 354
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "pkg/sentry/vfs/mount_test.go"
+  fileline = 164
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "pkg/sentry/kernel/fd_table_test.go"
+  fileline = 220
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "pkg/tmutex/tmutex_test.go"
+  fileline = 244
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "pkg/tmutex/tmutex_test.go"
+  fileline = 164
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "pkg/sentry/fs/fdpipe/pipe_opener_test.go"
+  fileline = 262
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "pkg/p9/transport_test.go"
+  fileline = 195
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "pkg/tmutex/tmutex_test.go"
+  fileline = 212
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "pkg/tcpip/link/sharedmem/pipe/pipe_test.go"
+  fileline = 496
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "pkg/tcpip/link/sharedmem/pipe/pipe_test.go"
+  fileline = 499
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "pkg/sentry/vfs/mount_test.go"
+  fileline = 110
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "pkg/sleep/sleep_test.go"
+  fileline = 394
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "benchmarks/tcp/tcp_proxy.go"
+  fileline = 429
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "pkg/tmutex/tmutex_test.go"
+  fileline = 155
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "pkg/tcpip/link/sharedmem/pipe/pipe_test.go"
+  fileline = 480
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "pkg/tcpip/link/sharedmem/pipe/pipe_test.go"
+  fileline = 477
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "pkg/unet/unet_test.go"
+  fileline = 705
+  comment = "This goroutine does not exit and may cause a resource leak."

@@ -1,0 +1,13 @@
+repo = "github.com/spf13/viper"
+rule = "codelingo/go/non-directional-chan"
+sha = "97ee7adfef4882d78c0ef26e22a0c8a7a8bf6776"
+
+[[issues]]
+  filepath = "viper.go"
+  fileline = 76
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "remote/remote.go"
+  fileline = 46
+  comment = "Returned channels or channel arguments should generally have a direction."

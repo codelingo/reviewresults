@@ -1,0 +1,168 @@
+repo = "github.com/hashicorp/consul"
+rule = "codelingo/go/ticker-in-for-select"
+sha = "aae14b39514d7d4e0537d35308d6959f35bfbc48"
+
+[[issues]]
+  filepath = "agent/xds/server_test.go"
+  fileline = 508
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "agent/consul/acl_replication_legacy.go"
+  fileline = 211
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "agent/cache-types/connect_ca_leaf_test.go"
+  fileline = 392
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "agent/consul/client_test.go"
+  fileline = 701
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "agent/cache/watch.go"
+  fileline = 200
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "agent/cache/watch.go"
+  fileline = 228
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "agent/pool/pool.go"
+  fileline = 687
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "agent/agent.go"
+  fileline = 2153
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "agent/consul/coordinate_endpoint.go"
+  fileline = 50
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "agent/consul/leader.go"
+  fileline = 911
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "api/session.go"
+  fileline = 183
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "snapshot/snapshot_test.go"
+  fileline = 115
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "api/lock_test.go"
+  fileline = 168
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "agent/consul/wanfed/pool.go"
+  fileline = 148
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "agent/consul/rpc.go"
+  fileline = 847
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "api/watch/plan.go"
+  fileline = 168
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "command/agent/agent.go"
+  fileline = 389
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "logging/monitor/monitor_test.go"
+  fileline = 78
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "agent/remote_exec.go"
+  fileline = 229
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "agent/retry_join.go"
+  fileline = 263
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "command/exec/exec.go"
+  fileline = 256
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "agent/consul/session_ttl.go"
+  fileline = 138
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "agent/consul/acl_client.go"
+  fileline = 61
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "agent/cache/watch.go"
+  fileline = 123
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "agent/agent.go"
+  fileline = 715
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "command/exec/exec.go"
+  fileline = 463
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "logging/monitor/monitor_test.go"
+  fileline = 158
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "agent/connect/ca/provider_aws.go"
+  fileline = 427
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "agent/consul/auto_encrypt.go"
+  fileline = 125
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "api/watch/plan.go"
+  fileline = 95
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "agent/consul/leader_connect.go"
+  fileline = 653
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "logging/monitor/monitor_test.go"
+  fileline = 37
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "agent/agent.go"
+  fileline = 2060
+  comment = "Make one ticker as opposed to making a new timer each iteration."

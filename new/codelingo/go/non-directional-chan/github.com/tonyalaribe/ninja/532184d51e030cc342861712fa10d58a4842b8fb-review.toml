@@ -3,6 +3,8 @@ rule = "codelingo/go/non-directional-chan"
 sha = "532184d51e030cc342861712fa10d58a4842b8fb"
 
 [[issues]]
-  filepath = "uilayer/rest/rest.go"
-  fileline = 74
   comment = "Returned channels or channel arguments should generally have a direction."
+  fileline = 74
+  filepath = "uilayer/rest/rest.go"
+  fixed = false
+  ignored = "unsure"

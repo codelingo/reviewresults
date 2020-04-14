@@ -1,0 +1,38 @@
+repo = "github.com/cyfdecyf/cow"
+rule = "codelingo/go/non-directional-chan"
+sha = "41c0fb157c8b939b724ae0d58dad3a1b7cd2e811"
+
+[[issues]]
+  comment = "Returned channels or channel arguments should generally have a direction."
+  fileline = 176
+  filepath = "conn_pool.go"
+  fixed = false
+  ignored = "unidirectional"
+
+[[issues]]
+  comment = "Returned channels or channel arguments should generally have a direction."
+  fileline = 1069
+  filepath = "proxy.go"
+  fixed = false
+  ignored = "chan only closed"
+
+[[issues]]
+  comment = "Returned channels or channel arguments should generally have a direction."
+  fileline = 48
+  filepath = "conn_pool.go"
+  fixed = true
+  ignored = ""
+
+[[issues]]
+  comment = "Returned channels or channel arguments should generally have a direction."
+  fileline = 33
+  filepath = "conn_pool.go"
+  fixed = true
+  ignored = ""
+
+[[issues]]
+  comment = "Returned channels or channel arguments should generally have a direction."
+  fileline = 143
+  filepath = "conn_pool.go"
+  fixed = false
+  ignored = "unidirectional"

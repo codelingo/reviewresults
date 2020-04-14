@@ -1,0 +1,10 @@
+repo = "github.com/nsqio/nsq"
+rule = "codelingo/go/break-select-in-for"
+sha = "8db8c50e5e583bbde3528de93a5e363edd788868"
+
+[[issues]]
+  comment = "This `break` statement only breaks to the innermost select, rather than the parent `for` loop.\nThis is generally unexpected and can cause an active goroutine to leak.\nFix it by adding a label to the for loop and breaking to that instead.\n"
+  fileline = 32
+  filepath = "nsqd/statsd.go"
+  fixed = false
+  ignored = "fp. embedded loop"

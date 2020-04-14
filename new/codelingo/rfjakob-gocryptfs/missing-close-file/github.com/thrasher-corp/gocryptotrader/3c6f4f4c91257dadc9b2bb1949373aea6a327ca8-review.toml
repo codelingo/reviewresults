@@ -1,0 +1,8 @@
+repo = "github.com/thrasher-corp/gocryptotrader"
+rule = "codelingo/rfjakob-gocryptfs/missing-close-file"
+sha = "3c6f4f4c91257dadc9b2bb1949373aea6a327ca8"
+
+[[issues]]
+  filepath = "cmd/gctcli/commands.go"
+  fileline = 3930
+  comment = "Close the file when you are done"

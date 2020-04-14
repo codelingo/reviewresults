@@ -1,0 +1,23 @@
+repo = "github.com/stretchr/testify"
+rule = "codelingo/go/non-directional-chan"
+sha = "b1dfcec1fecffadacf40f1248c23f847626e05e2"
+
+[[issues]]
+  filepath = "mock/mock_test.go"
+  fileline = 54
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "assert/assertions_test.go"
+  fileline = 2011
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "mock/mock_test.go"
+  fileline = 784
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "mock/mock_test.go"
+  fileline = 322
+  comment = "Returned channels or channel arguments should generally have a direction."

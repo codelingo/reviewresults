@@ -1,0 +1,31 @@
+repo = "github.com/openfaas/faas"
+rule = "codelingo/go/break-select-in-for"
+sha = "28f45e7efaf5bada07810f59223c13f01dd0ee1a"
+
+[[issues]]
+  comment = "This `break` statement only breaks to the innermost select, rather than the parent `for` loop.\nThis is generally unexpected and can cause an active goroutine to leak.\nFix it by adding a label to the for loop and breaking to that instead.\n"
+  fileline = 473
+  filepath = "watchdog/vendor/github.com/prometheus/client_golang/prometheus/registry.go"
+  fixed = false
+  ignored = "vendor"
+
+[[issues]]
+  comment = "This `break` statement only breaks to the innermost select, rather than the parent `for` loop.\nThis is generally unexpected and can cause an active goroutine to leak.\nFix it by adding a label to the for loop and breaking to that instead.\n"
+  fileline = 481
+  filepath = "gateway/vendor/github.com/prometheus/client_golang/prometheus/registry.go"
+  fixed = false
+  ignored = "vendor"
+
+[[issues]]
+  comment = "This `break` statement only breaks to the innermost select, rather than the parent `for` loop.\nThis is generally unexpected and can cause an active goroutine to leak.\nFix it by adding a label to the for loop and breaking to that instead.\n"
+  fileline = 810
+  filepath = "sample-functions/MarkdownRender/vendor/golang.org/x/net/http2/server.go"
+  fixed = false
+  ignored = "vendor"
+
+[[issues]]
+  comment = "This `break` statement only breaks to the innermost select, rather than the parent `for` loop.\nThis is generally unexpected and can cause an active goroutine to leak.\nFix it by adding a label to the for loop and breaking to that instead.\n"
+  fileline = 92
+  filepath = "gateway/metrics/exporter.go"
+  fixed = false
+  ignored = "intentional"

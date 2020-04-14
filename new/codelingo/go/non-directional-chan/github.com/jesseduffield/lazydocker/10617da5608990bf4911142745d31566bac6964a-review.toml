@@ -1,0 +1,108 @@
+repo = "github.com/jesseduffield/lazydocker"
+rule = "codelingo/go/non-directional-chan"
+sha = "10617da5608990bf4911142745d31566bac6964a"
+
+[[issues]]
+  filepath = "pkg/gui/images_panel.go"
+  fileline = 79
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/gui/services_panel.go"
+  fileline = 107
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/gui/containers_panel.go"
+  fileline = 180
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/gui/containers_panel.go"
+  fileline = 165
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/gui/gui.go"
+  fileline = 134
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/gui/containers_panel.go"
+  fileline = 148
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/gui/containers_panel.go"
+  fileline = 138
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/commands/docker.go"
+  fileline = 70
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/gui/services_panel.go"
+  fileline = 107
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/gui/project_panel.go"
+  fileline = 159
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/tasks/tasks.go"
+  fileline = 113
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/tasks/tasks.go"
+  fileline = 57
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/tasks/tasks.go"
+  fileline = 29
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/tasks/tasks.go"
+  fileline = 116
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/gui/volumes_panel.go"
+  fileline = 76
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/gui/project_panel.go"
+  fileline = 102
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/gui/containers_panel.go"
+  fileline = 148
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/gui/project_panel.go"
+  fileline = 127
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/gui/services_panel.go"
+  fileline = 124
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/tasks/tasks.go"
+  fileline = 113
+  comment = "Returned channels or channel arguments should generally have a direction."
+
+[[issues]]
+  filepath = "pkg/gui/containers_panel.go"
+  fileline = 165
+  comment = "Returned channels or channel arguments should generally have a direction."

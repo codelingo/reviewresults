@@ -1,0 +1,278 @@
+repo = "github.com/flynn/flynn"
+rule = "codelingo/go/ticker-in-for-select"
+sha = "755c95684ffe290c64b8be114c2963aa2850b531"
+
+[[issues]]
+  filepath = "appliance/redis/process.go"
+  fileline = 167
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "router/http_test.go"
+  fileline = 1704
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "controller/events_test.go"
+  fileline = 190
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "test/test_host.go"
+  fileline = 88
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "flannel/subnet/subnet.go"
+  fileline = 375
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "discoverd/client/service.go"
+  fileline = 98
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "discoverd/client/watch_test.go"
+  fileline = 67
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "test/cluster/client/client.go"
+  fileline = 75
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "controller/scheduler/service.go"
+  fileline = 62
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "appliance/postgresql/process.go"
+  fileline = 527
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "test/test_scheduler.go"
+  fileline = 130
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "controller/scheduler/scheduler_test.go"
+  fileline = 927
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "controller/scheduler/scheduler_test.go"
+  fileline = 195
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "test/test_host.go"
+  fileline = 909
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "test/test_scheduler.go"
+  fileline = 829
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "controller/log_test.go"
+  fileline = 222
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "flannel/subnet/subnet.go"
+  fileline = 115
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "controller/formation_test.go"
+  fileline = 32
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "test/test_healthcheck.go"
+  fileline = 75
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "cli/docker.go"
+  fileline = 366
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "controller/formation_test.go"
+  fileline = 108
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "test/test_host.go"
+  fileline = 566
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "appliance/mariadb/process.go"
+  fileline = 812
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "appliance/mariadb/process.go"
+  fileline = 870
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "appliance/mariadb/process.go"
+  fileline = 832
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "test/test_host_update.go"
+  fileline = 115
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "test/test_controller.go"
+  fileline = 540
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "controller/events_test.go"
+  fileline = 233
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "discoverd/main.go"
+  fileline = 551
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "discoverd/client/watch_test.go"
+  fileline = 55
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "bootstrap/status_check_action.go"
+  fileline = 72
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "test/test_scheduler.go"
+  fileline = 315
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "appliance/mongodb/process.go"
+  fileline = 818
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "appliance/mongodb/process.go"
+  fileline = 846
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "flannel/discoverd/registry_test.go"
+  fileline = 77
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "appliance/postgresql/process.go"
+  fileline = 616
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "bootstrap/wait_action.go"
+  fileline = 77
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "test/test_discoverd.go"
+  fileline = 54
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "host/logmux/logmux.go"
+  fileline = 127
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "controller/events_test.go"
+  fileline = 73
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "test/sirenia.go"
+  fileline = 189
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "test/test_deployer.go"
+  fileline = 89
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "discoverd/deployment/deployment.go"
+  fileline = 141
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "test/helper.go"
+  fileline = 513
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "test/test_deployer.go"
+  fileline = 172
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "controller/scheduler/router.go"
+  fileline = 87
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "test/test_scheduler.go"
+  fileline = 705
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "bootstrap/wait_hosts_action.go"
+  fileline = 70
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "discoverd/client/watch_test.go"
+  fileline = 163
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "test/test_scheduler.go"
+  fileline = 610
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "test/test_deployer.go"
+  fileline = 140
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "discoverd/deployment/deployment.go"
+  fileline = 106
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "test/cluster/client/client.go"
+  fileline = 101
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "test/sirenia.go"
+  fileline = 239
+  comment = "Make one ticker as opposed to making a new timer each iteration."
+
+[[issues]]
+  filepath = "discoverd/server/dns_test.go"
+  fileline = 112
+  comment = "Make one ticker as opposed to making a new timer each iteration."

@@ -1,0 +1,10 @@
+repo = "github.com/thrasher-corp/gocryptotrader"
+rule = "codelingo/go/break-select-in-for"
+sha = "3c6f4f4c91257dadc9b2bb1949373aea6a327ca8"
+
+[[issues]]
+  comment = "This `break` statement only breaks to the innermost select, rather than the parent `for` loop.\nThis is generally unexpected and can cause an active goroutine to leak.\nFix it by adding a label to the for loop and breaking to that instead.\n"
+  fileline = 79
+  filepath = "exchanges/coinut/coinut_websocket.go"
+  fixed = false
+  ignored = "fp"
