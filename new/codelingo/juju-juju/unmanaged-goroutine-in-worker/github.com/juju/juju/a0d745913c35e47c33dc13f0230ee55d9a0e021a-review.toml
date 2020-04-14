@@ -1,0 +1,273 @@
+repo = "github.com/juju/juju"
+rule = "codelingo/juju-juju/unmanaged-goroutine-in-worker"
+sha = "a0d745913c35e47c33dc13f0230ee55d9a0e021a"
+
+[[issues]]
+  filepath = "worker/logforwarder/logforwarder.go"
+  fileline = 187
+  comment = "logforwarder.LogForwarder is a worker.Worker which starts an unmanaged goroutine.\n"
+
+[[issues]]
+  filepath = "worker/logforwarder/logforwarder.go"
+  fileline = 187
+  comment = "logforwarder.orchestrator is a worker.Worker which starts an unmanaged goroutine.\n"
+
+[[issues]]
+  filepath = "api/watcher/watcher.go"
+  fileline = 580
+  comment = "watcher.relationStatusWatcher is a worker.Worker which starts an unmanaged goroutine.\n"
+
+[[issues]]
+  filepath = "api/watcher/watcher.go"
+  fileline = 80
+  comment = "watcher.relationStatusWatcher is a worker.Worker which starts an unmanaged goroutine.\n"
+
+[[issues]]
+  filepath = "api/watcher/watcher.go"
+  fileline = 98
+  comment = "watcher.relationStatusWatcher is a worker.Worker which starts an unmanaged goroutine.\n"
+
+[[issues]]
+  filepath = "api/watcher/watcher.go"
+  fileline = 168
+  comment = "watcher.notifyWatcher is a worker.Worker which starts an unmanaged goroutine.\n"
+
+[[issues]]
+  filepath = "api/watcher/watcher.go"
+  fileline = 80
+  comment = "watcher.notifyWatcher is a worker.Worker which starts an unmanaged goroutine.\n"
+
+[[issues]]
+  filepath = "api/watcher/watcher.go"
+  fileline = 98
+  comment = "watcher.notifyWatcher is a worker.Worker which starts an unmanaged goroutine.\n"
+
+[[issues]]
+  filepath = "api/watcher/watcher.go"
+  fileline = 80
+  comment = "watcher.relationUnitsWatcher is a worker.Worker which starts an unmanaged goroutine.\n"
+
+[[issues]]
+  filepath = "api/watcher/watcher.go"
+  fileline = 98
+  comment = "watcher.relationUnitsWatcher is a worker.Worker which starts an unmanaged goroutine.\n"
+
+[[issues]]
+  filepath = "api/watcher/watcher.go"
+  fileline = 292
+  comment = "watcher.relationUnitsWatcher is a worker.Worker which starts an unmanaged goroutine.\n"
+
+[[issues]]
+  filepath = "api/watcher/watcher.go"
+  fileline = 80
+  comment = "watcher.migrationStatusWatcher is a worker.Worker which starts an unmanaged goroutine.\n"
+
+[[issues]]
+  filepath = "api/watcher/watcher.go"
+  fileline = 98
+  comment = "watcher.migrationStatusWatcher is a worker.Worker which starts an unmanaged goroutine.\n"
+
+[[issues]]
+  filepath = "api/watcher/watcher.go"
+  fileline = 826
+  comment = "watcher.migrationStatusWatcher is a worker.Worker which starts an unmanaged goroutine.\n"
+
+[[issues]]
+  filepath = "api/watcher/watcher.go"
+  fileline = 775
+  comment = "watcher.machineAttachmentsWatcher is a worker.Worker which starts an unmanaged goroutine.\n"
+
+[[issues]]
+  filepath = "api/watcher/watcher.go"
+  fileline = 80
+  comment = "watcher.machineAttachmentsWatcher is a worker.Worker which starts an unmanaged goroutine.\n"
+
+[[issues]]
+  filepath = "api/watcher/watcher.go"
+  fileline = 98
+  comment = "watcher.machineAttachmentsWatcher is a worker.Worker which starts an unmanaged goroutine.\n"
+
+[[issues]]
+  filepath = "api/watcher/watcher.go"
+  fileline = 80
+  comment = "watcher.stringsWatcher is a worker.Worker which starts an unmanaged goroutine.\n"
+
+[[issues]]
+  filepath = "api/watcher/watcher.go"
+  fileline = 98
+  comment = "watcher.stringsWatcher is a worker.Worker which starts an unmanaged goroutine.\n"
+
+[[issues]]
+  filepath = "api/watcher/watcher.go"
+  fileline = 218
+  comment = "watcher.stringsWatcher is a worker.Worker which starts an unmanaged goroutine.\n"
+
+[[issues]]
+  filepath = "api/watcher/watcher.go"
+  fileline = 80
+  comment = "watcher.commonWatcher is a worker.Worker which starts an unmanaged goroutine.\n"
+
+[[issues]]
+  filepath = "api/watcher/watcher.go"
+  fileline = 98
+  comment = "watcher.commonWatcher is a worker.Worker which starts an unmanaged goroutine.\n"
+
+[[issues]]
+  filepath = "api/watcher/watcher.go"
+  fileline = 80
+  comment = "watcher.offerStatusWatcher is a worker.Worker which starts an unmanaged goroutine.\n"
+
+[[issues]]
+  filepath = "api/watcher/watcher.go"
+  fileline = 98
+  comment = "watcher.offerStatusWatcher is a worker.Worker which starts an unmanaged goroutine.\n"
+
+[[issues]]
+  filepath = "api/watcher/watcher.go"
+  fileline = 669
+  comment = "watcher.offerStatusWatcher is a worker.Worker which starts an unmanaged goroutine.\n"
+
+[[issues]]
+  filepath = "api/watcher/watcher.go"
+  fileline = 80
+  comment = "watcher.remoteRelationCompatWatcher is a worker.Worker which starts an unmanaged goroutine.\n"
+
+[[issues]]
+  filepath = "api/watcher/watcher.go"
+  fileline = 98
+  comment = "watcher.remoteRelationCompatWatcher is a worker.Worker which starts an unmanaged goroutine.\n"
+
+[[issues]]
+  filepath = "api/watcher/watcher.go"
+  fileline = 80
+  comment = "watcher.remoteRelationWatcher is a worker.Worker which starts an unmanaged goroutine.\n"
+
+[[issues]]
+  filepath = "api/watcher/watcher.go"
+  fileline = 98
+  comment = "watcher.remoteRelationWatcher is a worker.Worker which starts an unmanaged goroutine.\n"
+
+[[issues]]
+  filepath = "worker/fortress/fortress.go"
+  fileline = 90
+  comment = "fortress.fortress is a worker.Worker which starts an unmanaged goroutine.\n"
+
+[[issues]]
+  filepath = "worker/fortress/fortress.go"
+  fileline = 101
+  comment = "fortress.fortress is a worker.Worker which starts an unmanaged goroutine.\n"
+
+[[issues]]
+  filepath = "worker/pubsub/remoteserver.go"
+  fileline = 269
+  comment = "pubsub.remoteServer is a worker.Worker which starts an unmanaged goroutine.\n"
+
+[[issues]]
+  filepath = "worker/raft/raftclusterer/worker.go"
+  fileline = 299
+  comment = "raftclusterer.Worker is a worker.Worker which starts an unmanaged goroutine.\n"
+
+[[issues]]
+  filepath = "worker/modelcache/worker.go"
+  fileline = 232
+  comment = "modelcache.cacheWorker is a worker.Worker which starts an unmanaged goroutine.\n"
+
+[[issues]]
+  filepath = "worker/httpserver/worker.go"
+  fileline = 337
+  comment = "httpserver.Worker is a worker.Worker which starts an unmanaged goroutine.\n"
+
+[[issues]]
+  filepath = "worker/httpserver/worker.go"
+  fileline = 161
+  comment = "httpserver.Worker is a worker.Worker which starts an unmanaged goroutine.\n"
+
+[[issues]]
+  filepath = "worker/httpserver/worker.go"
+  fileline = 198
+  comment = "httpserver.Worker is a worker.Worker which starts an unmanaged goroutine.\n"
+
+[[issues]]
+  filepath = "worker/leadership/tracker.go"
+  fileline = 352
+  comment = "leadership.Tracker is a worker.Worker which starts an unmanaged goroutine.\n"
+
+[[issues]]
+  filepath = "worker/leadership/tracker.go"
+  fileline = 222
+  comment = "leadership.Tracker is a worker.Worker which starts an unmanaged goroutine.\n"
+
+[[issues]]
+  filepath = "worker/raft/raftbackstop/worker.go"
+  fileline = 285
+  comment = "raftbackstop.backstopWorker is a worker.Worker which starts an unmanaged goroutine.\n"
+
+[[issues]]
+  filepath = "caas/kubernetes/provider/k8swatcher.go"
+  fileline = 222
+  comment = "provider.kubernetesStringsWatcher is a worker.Worker which starts an unmanaged goroutine.\n"
+
+[[issues]]
+  filepath = "caas/kubernetes/provider/k8swatcher.go"
+  fileline = 100
+  comment = "provider.kubernetesNotifyWatcher is a worker.Worker which starts an unmanaged goroutine.\n"
+
+[[issues]]
+  filepath = "worker/lease/manager.go"
+  fileline = 210
+  comment = "lease.Manager is a worker.Worker which starts an unmanaged goroutine.\n"
+
+[[issues]]
+  filepath = "worker/lease/manager.go"
+  fileline = 417
+  comment = "lease.Manager is a worker.Worker which starts an unmanaged goroutine.\n"
+
+[[issues]]
+  filepath = "worker/lease/manager.go"
+  fileline = 677
+  comment = "lease.Manager is a worker.Worker which starts an unmanaged goroutine.\n"
+
+[[issues]]
+  filepath = "worker/caasrbacmapper/mapper.go"
+  fileline = 90
+  comment = "caasrbacmapper.DefaultMapper is a worker.Worker which starts an unmanaged goroutine.\n"
+
+[[issues]]
+  filepath = "worker/caasrbacmapper/mapper.go"
+  fileline = 79
+  comment = "caasrbacmapper.DefaultMapper is a worker.Worker which starts an unmanaged goroutine.\n"
+
+[[issues]]
+  filepath = "worker/peergrouper/worker.go"
+  fileline = 395
+  comment = "peergrouper.pgWorker is a worker.Worker which starts an unmanaged goroutine.\n"
+
+[[issues]]
+  filepath = "worker/apiconfigwatcher/manifold.go"
+  fileline = 82
+  comment = "apiconfigwatcher.apiconfigwatcher is a worker.Worker which starts an unmanaged goroutine.\n"
+
+[[issues]]
+  filepath = "worker/raft/raftforwarder/worker.go"
+  fileline = 130
+  comment = "raftforwarder.forwarder is a worker.Worker which starts an unmanaged goroutine.\n"
+
+[[issues]]
+  filepath = "worker/raft/rafttransport/worker.go"
+  fileline = 275
+  comment = "rafttransport.Worker is a worker.Worker which starts an unmanaged goroutine.\n"
+
+[[issues]]
+  filepath = "worker/stateconfigwatcher/manifold.go"
+  fileline = 101
+  comment = "stateconfigwatcher.stateConfigWatcher is a worker.Worker which starts an unmanaged goroutine.\n"
+
+[[issues]]
+  filepath = "worker/provisioner/provisioner_task.go"
+  fileline = 970
+  comment = "provisioner.provisionerTask is a worker.Worker which starts an unmanaged goroutine.\n"
+
+[[issues]]
+  filepath = "worker/multiwatcher/worker.go"
+  fileline = 263
+  comment = "multiwatcher.Worker is a worker.Worker which starts an unmanaged goroutine.\n"
