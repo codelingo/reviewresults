@@ -1,0 +1,8 @@
+repo = "github.com/edumco/docker-slim"
+rule = "codelingo/go/surprising-for-direction"
+sha = "abba44d7e861c3df3f495315b5a73b21a8dd3ef0"
+
+[[issues]]
+  filepath = "internal/app/sensor/inspectors/sodeps/sodeps.go"
+  fileline = 133
+  comment = "The loop's exit condition is not consistent with its step operation.\n"

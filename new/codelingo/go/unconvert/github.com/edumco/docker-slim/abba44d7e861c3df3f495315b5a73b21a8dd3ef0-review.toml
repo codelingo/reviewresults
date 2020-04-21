@@ -1,0 +1,8 @@
+repo = "github.com/edumco/docker-slim"
+rule = "codelingo/go/unconvert"
+sha = "abba44d7e861c3df3f495315b5a73b21a8dd3ef0"
+
+[[issues]]
+  filepath = "pkg/system/syscalls_armf32.go"
+  fileline = 387
+  comment = "Unnecessary type conversion uint32; i.e., expression uint32(x) where x already has type uint32."

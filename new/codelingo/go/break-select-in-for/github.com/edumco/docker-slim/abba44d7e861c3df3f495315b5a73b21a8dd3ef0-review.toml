@@ -1,0 +1,13 @@
+repo = "github.com/edumco/docker-slim"
+rule = "codelingo/go/break-select-in-for"
+sha = "abba44d7e861c3df3f495315b5a73b21a8dd3ef0"
+
+[[issues]]
+  filepath = "internal/app/sensor/app.go"
+  fileline = 164
+  comment = "This `break` statement only breaks to the innermost select, rather than the parent `for` loop.\nThis is generally unexpected and can cause an active goroutine to leak.\nFix it by adding a label to the for loop and breaking to that instead.\n"
+
+[[issues]]
+  filepath = "internal/app/master/inspectors/container/container_inspector.go"
+  fileline = 391
+  comment = "This `break` statement only breaks to the innermost select, rather than the parent `for` loop.\nThis is generally unexpected and can cause an active goroutine to leak.\nFix it by adding a label to the for loop and breaking to that instead.\n"

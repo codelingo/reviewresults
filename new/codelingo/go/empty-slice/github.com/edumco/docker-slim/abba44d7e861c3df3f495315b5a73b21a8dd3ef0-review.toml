@@ -1,0 +1,33 @@
+repo = "github.com/edumco/docker-slim"
+rule = "codelingo/go/empty-slice"
+sha = "abba44d7e861c3df3f495315b5a73b21a8dd3ef0"
+
+[[issues]]
+  filepath = "pkg/docker/dockerfile/ast/line_parsers.go"
+  fileline = 90
+  comment = "You should declare this using \"var\" not \":=\" see https://github.com/golang/go/wiki/CodeReviewComments#declaring-empty-slices"
+
+[[issues]]
+  filepath = "internal/app/master/opts.go"
+  fileline = 411
+  comment = "You should declare this using \"var\" not \":=\" see https://github.com/golang/go/wiki/CodeReviewComments#declaring-empty-slices"
+
+[[issues]]
+  filepath = "pkg/docker/dockerfile/ast/split_command.go"
+  fileline = 40
+  comment = "You should declare this using \"var\" not \":=\" see https://github.com/golang/go/wiki/CodeReviewComments#declaring-empty-slices"
+
+[[issues]]
+  filepath = "pkg/docker/dockerimage/topobjects.go"
+  fileline = 42
+  comment = "You should declare this using \"var\" not \":=\" see https://github.com/golang/go/wiki/CodeReviewComments#declaring-empty-slices"
+
+[[issues]]
+  filepath = "internal/app/master/opts.go"
+  fileline = 363
+  comment = "You should declare this using \"var\" not \":=\" see https://github.com/golang/go/wiki/CodeReviewComments#declaring-empty-slices"
+
+[[issues]]
+  filepath = "pkg/docker/dockerfile/ast/parser.go"
+  fileline = 283
+  comment = "You should declare this using \"var\" not \":=\" see https://github.com/golang/go/wiki/CodeReviewComments#declaring-empty-slices"

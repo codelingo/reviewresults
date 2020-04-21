@@ -1,0 +1,8 @@
+repo = "github.com/edumco/docker-slim"
+rule = "codelingo/go/ticker-in-for-select"
+sha = "abba44d7e861c3df3f495315b5a73b21a8dd3ef0"
+
+[[issues]]
+  filepath = "internal/app/sensor/app.go"
+  fileline = 221
+  comment = "Make one ticker as opposed to making a new timer each iteration."

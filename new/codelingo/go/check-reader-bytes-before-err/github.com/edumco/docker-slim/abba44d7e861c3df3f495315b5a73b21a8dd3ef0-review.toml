@@ -1,0 +1,28 @@
+repo = "github.com/edumco/docker-slim"
+rule = "codelingo/go/check-reader-bytes-before-err"
+sha = "abba44d7e861c3df3f495315b5a73b21a8dd3ef0"
+
+[[issues]]
+  filepath = "pkg/third_party/madmo/fanotify/fanotify.go"
+  fileline = 174
+  comment = "Check io.Reader bytes read (and process) before checking err"
+
+[[issues]]
+  filepath = "pkg/ipc/channel/channel.go"
+  fileline = 493
+  comment = "Check io.Reader bytes read (and process) before checking err"
+
+[[issues]]
+  filepath = "pkg/ipc/channel/channel.go"
+  fileline = 422
+  comment = "Check io.Reader bytes read (and process) before checking err"
+
+[[issues]]
+  filepath = "internal/app/master/update/update.go"
+  fileline = 372
+  comment = "Check io.Reader bytes read (and process) before checking err"
+
+[[issues]]
+  filepath = "pkg/ipc/channel/channel.go"
+  fileline = 537
+  comment = "Check io.Reader bytes read (and process) before checking err"

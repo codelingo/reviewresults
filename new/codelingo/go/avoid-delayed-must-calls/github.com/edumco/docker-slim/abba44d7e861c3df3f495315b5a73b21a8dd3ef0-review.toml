@@ -1,0 +1,8 @@
+repo = "github.com/edumco/docker-slim"
+rule = "codelingo/go/avoid-delayed-must-calls"
+sha = "abba44d7e861c3df3f495315b5a73b21a8dd3ef0"
+
+[[issues]]
+  filepath = "pkg/docker/dockerfile/ast/parser.go"
+  fileline = 150
+  comment = "Functons prefixed with Must generally panic instead of returning errors. Only use in globals or init/main functions."
