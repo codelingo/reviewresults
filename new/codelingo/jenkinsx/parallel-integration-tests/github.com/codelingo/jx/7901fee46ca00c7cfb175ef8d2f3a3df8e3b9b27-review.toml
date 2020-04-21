@@ -1,0 +1,23 @@
+repo = "github.com/codelingo/jx"
+rule = "codelingo/jenkinsx/parallel-integration-tests"
+sha = "7901fee46ca00c7cfb175ef8d2f3a3df8e3b9b27"
+
+[[issues]]
+  filepath = "pkg/cmd/importcmd/import_deploy_integration_test.go"
+  fileline = 29
+  comment = "You should NOT add t.Parallel() to an unencapsulated test as it may cause intermittent failures."
+
+[[issues]]
+  filepath = "pkg/cmd/edit/edit_deploy_integration_test.go"
+  fileline = 25
+  comment = "You should NOT add t.Parallel() to an unencapsulated test as it may cause intermittent failures."
+
+[[issues]]
+  filepath = "pkg/cmd/step/verify/step_verify_requirements_integration_test.go"
+  fileline = 26
+  comment = "You should NOT add t.Parallel() to an unencapsulated test as it may cause intermittent failures."
+
+[[issues]]
+  filepath = "pkg/cmd/step/verify/step_verify_preinstall_integration_test.go"
+  fileline = 208
+  comment = "You should NOT add t.Parallel() to an unencapsulated test as it may cause intermittent failures."
