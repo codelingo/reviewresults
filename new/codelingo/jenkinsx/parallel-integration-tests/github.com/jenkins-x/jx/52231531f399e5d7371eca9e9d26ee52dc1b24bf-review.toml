@@ -3,21 +3,29 @@ rule = "codelingo/jenkinsx/parallel-integration-tests"
 sha = "52231531f399e5d7371eca9e9d26ee52dc1b24bf"
 
 [[issues]]
-  filepath = "pkg/cmd/edit/edit_deploy_integration_test.go"
+  comment = "You should NOT add t.Parallel() to an unencapsulated test as it may cause intermittent failures."
   fileline = 25
-  comment = "You should NOT add t.Parallel() to an unencapsulated test as it may cause intermittent failures."
+  filepath = "pkg/cmd/edit/edit_deploy_integration_test.go"
+  fixed = true
+  ignored = ""
 
 [[issues]]
-  filepath = "pkg/cmd/importcmd/import_deploy_integration_test.go"
+  comment = "You should NOT add t.Parallel() to an unencapsulated test as it may cause intermittent failures."
   fileline = 29
-  comment = "You should NOT add t.Parallel() to an unencapsulated test as it may cause intermittent failures."
+  filepath = "pkg/cmd/importcmd/import_deploy_integration_test.go"
+  fixed = true
+  ignored = ""
 
 [[issues]]
-  filepath = "pkg/cmd/step/verify/step_verify_preinstall_integration_test.go"
+  comment = "You should NOT add t.Parallel() to an unencapsulated test as it may cause intermittent failures."
   fileline = 208
-  comment = "You should NOT add t.Parallel() to an unencapsulated test as it may cause intermittent failures."
+  filepath = "pkg/cmd/step/verify/step_verify_preinstall_integration_test.go"
+  fixed = true
+  ignored = ""
 
 [[issues]]
-  filepath = "pkg/cmd/step/verify/step_verify_requirements_integration_test.go"
-  fileline = 26
   comment = "You should NOT add t.Parallel() to an unencapsulated test as it may cause intermittent failures."
+  fileline = 26
+  filepath = "pkg/cmd/step/verify/step_verify_requirements_integration_test.go"
+  fixed = true
+  ignored = ""
