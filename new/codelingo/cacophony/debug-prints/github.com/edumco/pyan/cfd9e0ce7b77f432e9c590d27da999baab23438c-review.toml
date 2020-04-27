@@ -1,0 +1,38 @@
+repo = "github.com/edumco/pyan"
+rule = "codelingo/cacophony/debug-prints"
+sha = "cfd9e0ce7b77f432e9c590d27da999baab23438c"
+
+[[issues]]
+  filepath = "setup.py"
+  fileline = 99
+  comment = "Remove debug prints as they make the program unnecessarily verbose and can output sensitive information."
+
+[[issues]]
+  filepath = "modvis.py"
+  fileline = 335
+  comment = "Remove debug prints as they make the program unnecessarily verbose and can output sensitive information."
+
+[[issues]]
+  filepath = "modvis.py"
+  fileline = 350
+  comment = "Remove debug prints as they make the program unnecessarily verbose and can output sensitive information."
+
+[[issues]]
+  filepath = "setup.py"
+  fileline = 99
+  comment = "Remove debug prints as they make the program unnecessarily verbose and can output sensitive information."
+
+[[issues]]
+  filepath = "setup.py"
+  fileline = 97
+  comment = "Remove debug prints as they make the program unnecessarily verbose and can output sensitive information."
+
+[[issues]]
+  filepath = "modvis.py"
+  fileline = 330
+  comment = "Remove debug prints as they make the program unnecessarily verbose and can output sensitive information."
+
+[[issues]]
+  filepath = "modvis.py"
+  fileline = 348
+  comment = "Remove debug prints as they make the program unnecessarily verbose and can output sensitive information."
