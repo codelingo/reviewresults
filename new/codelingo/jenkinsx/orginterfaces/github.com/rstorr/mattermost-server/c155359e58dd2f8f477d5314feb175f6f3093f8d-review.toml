@@ -1,0 +1,5708 @@
+repo = "github.com/rstorr/mattermost-server"
+rule = "codelingo/jenkinsx/orginterfaces"
+sha = "c155359e58dd2f8f477d5314feb175f6f3093f8d"
+
+[[issues]]
+  filepath = "wsapi/system.go"
+  fileline = 14
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "wsapi/system.go"
+  fileline = 15
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/environment.go"
+  fileline = 282
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/environment.go"
+  fileline = 247
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/environment.go"
+  fileline = 87
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "einterfaces/mfa.go"
+  fileline = 10
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/markdown/inlines.go"
+  fileline = 13
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/apptestlib.go"
+  fileline = 412
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/apptestlib.go"
+  fileline = 424
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/cluster_discovery_store.go"
+  fileline = 58
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/cluster_discovery_store.go"
+  fileline = 145
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/cluster_discovery_store.go"
+  fileline = 165
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/cluster_discovery_store.go"
+  fileline = 88
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/cluster_discovery_store.go"
+  fileline = 120
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "api4/openGraph_test.go"
+  fileline = 53
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "einterfaces/saml.go"
+  fileline = 10
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/layered_store.go"
+  fileline = 18
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/command_leave.go"
+  fileline = 42
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/status_store.go"
+  fileline = 68
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/status_store.go"
+  fileline = 44
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/status_store.go"
+  fileline = 160
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/status_store.go"
+  fileline = 117
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/status_store.go"
+  fileline = 82
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/status_store.go"
+  fileline = 106
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/status_store.go"
+  fileline = 150
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/status_store.go"
+  fileline = 140
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/status_store.go"
+  fileline = 130
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/user.go"
+  fileline = 279
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/user.go"
+  fileline = 281
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/user.go"
+  fileline = 257
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/user.go"
+  fileline = 1582
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/user.go"
+  fileline = 252
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/admin.go"
+  fileline = 160
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/admin.go"
+  fileline = 250
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/admin.go"
+  fileline = 228
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/webhook.go"
+  fileline = 166
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/webhook.go"
+  fileline = 242
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/webhook.go"
+  fileline = 159
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/webhook.go"
+  fileline = 215
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/webhook.go"
+  fileline = 192
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/hclog_adapter.go"
+  fileline = 85
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/hclog_adapter.go"
+  fileline = 38
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/hclog_adapter.go"
+  fileline = 20
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/hclog_adapter.go"
+  fileline = 29
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/hclog_adapter.go"
+  fileline = 47
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/hclog_adapter.go"
+  fileline = 56
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreSupplier.go"
+  fileline = 58
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreSupplier.go"
+  fileline = 81
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreSupplier.go"
+  fileline = 35
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreSupplier.go"
+  fileline = 177
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreSupplier.go"
+  fileline = 62
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreSupplier.go"
+  fileline = 380
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreSupplier.go"
+  fileline = 315
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreSupplier.go"
+  fileline = 242
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreSupplier.go"
+  fileline = 200
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreSupplier.go"
+  fileline = 39
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreSupplier.go"
+  fileline = 407
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreSupplier.go"
+  fileline = 361
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreSupplier.go"
+  fileline = 246
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreSupplier.go"
+  fileline = 357
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreSupplier.go"
+  fileline = 219
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreSupplier.go"
+  fileline = 127
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreSupplier.go"
+  fileline = 85
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreSupplier.go"
+  fileline = 104
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreSupplier.go"
+  fileline = 154
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreSupplier.go"
+  fileline = 334
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreSupplier.go"
+  fileline = 403
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreSupplier.go"
+  fileline = 223
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreSupplier.go"
+  fileline = 173
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreSupplier.go"
+  fileline = 384
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreSupplier.go"
+  fileline = 196
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreSupplier.go"
+  fileline = 150
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreSupplier.go"
+  fileline = 338
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreSupplier.go"
+  fileline = 131
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreSupplier.go"
+  fileline = 288
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreSupplier.go"
+  fileline = 311
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreSupplier.go"
+  fileline = 269
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreSupplier.go"
+  fileline = 292
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreSupplier.go"
+  fileline = 108
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreSupplier.go"
+  fileline = 265
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/channel_store.go"
+  fileline = 2636
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/channel_store.go"
+  fileline = 20
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/channel_store.go"
+  fileline = 2654
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/channel_store.go"
+  fileline = 2693
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/command_invite_people_test.go"
+  fileline = 28
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/email_batching.go"
+  fileline = 272
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/email_batching.go"
+  fileline = 238
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/channel.go"
+  fileline = 185
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/channel.go"
+  fileline = 53
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/channel.go"
+  fileline = 181
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "services/configservice/configservice.go"
+  fileline = 11
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/command_webhook_store.go"
+  fileline = 90
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/command_webhook_store.go"
+  fileline = 64
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/command_webhook_store.go"
+  fileline = 77
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/tokens_store.go"
+  fileline = 49
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/tokens_store.go"
+  fileline = 74
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/tokens_store.go"
+  fileline = 59
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/email.go"
+  fileline = 123
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/email.go"
+  fileline = 389
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/email.go"
+  fileline = 98
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/email.go"
+  fileline = 105
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/email.go"
+  fileline = 165
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/email.go"
+  fileline = 267
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/email.go"
+  fileline = 276
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/email.go"
+  fileline = 143
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/email.go"
+  fileline = 246
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/email.go"
+  fileline = 394
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/email.go"
+  fileline = 396
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/email.go"
+  fileline = 273
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/email.go"
+  fileline = 322
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/email.go"
+  fileline = 53
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/email.go"
+  fileline = 60
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/email.go"
+  fileline = 127
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/email.go"
+  fileline = 149
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/email.go"
+  fileline = 321
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/email.go"
+  fileline = 202
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/email.go"
+  fileline = 313
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/email.go"
+  fileline = 229
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/email.go"
+  fileline = 209
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/email.go"
+  fileline = 170
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/email.go"
+  fileline = 377
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/email.go"
+  fileline = 76
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/email.go"
+  fileline = 83
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/email.go"
+  fileline = 325
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/email.go"
+  fileline = 223
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/license.go"
+  fileline = 64
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/license.go"
+  fileline = 65
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/plugin_api_test.go"
+  fileline = 62
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/plugin_api_test.go"
+  fileline = 133
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/scheme_supplier.go"
+  fileline = 225
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/scheme_supplier.go"
+  fileline = 207
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/scheme_supplier.go"
+  fileline = 299
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/scheme_supplier.go"
+  fileline = 189
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/scheme_supplier.go"
+  fileline = 258
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/scheme_supplier.go"
+  fileline = 237
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/scheme_supplier.go"
+  fileline = 242
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/client4_test.go"
+  fileline = 43
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/client4_test.go"
+  fileline = 23
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/client4_test.go"
+  fileline = 17
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/preference_store_test.go"
+  fileline = 62
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/preference_store_test.go"
+  fileline = 73
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/command_channel_rename.go"
+  fileline = 72
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/command_channel_rename.go"
+  fileline = 79
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "services/filesstore/filesstore.go"
+  fileline = 13
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/password.go"
+  fileline = 62
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/password.go"
+  fileline = 15
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 2939
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 1231
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 1622
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 1059
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 2272
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 1202
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 74
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 2513
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 2041
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 1088
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 2600
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 3034
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 2630
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 594
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 1472
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 1382
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 257
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 1682
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 2861
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 2571
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 1891
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 2127
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 1591
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 2961
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 1860
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 762
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 2833
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 1116
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 2977
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 1290
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 2949
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 1443
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 1260
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 472
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 2822
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 1921
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 2950
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 3006
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 1770
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 3005
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 1560
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 507
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 111
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 733
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 2242
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 2718
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 676
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 2978
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 2773
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 2336
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 2184
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 849
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 3023
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 2803
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 1712
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 2367
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 1029
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 1412
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 1653
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 1952
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 2659
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 2304
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 1173
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 2995
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 2989
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 2213
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 1830
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 3017
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 364
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 292
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 997
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 1741
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 649
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 880
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 565
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 186
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 820
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 3033
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 1351
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 2815
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 148
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 909
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 2746
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 328
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 2891
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 40
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 536
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 400
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 938
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 2012
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 2070
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 2156
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 2689
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 1531
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 2832
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 2483
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 2098
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 2542
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 791
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 2425
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 436
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 1144
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 2396
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 1321
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 2933
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 1983
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 2967
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 621
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 705
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 967
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 221
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 1800
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 1500
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 2921
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc_generated.go"
+  fileline = 2454
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/oauth_store.go"
+  fileline = 242
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/oauth_store.go"
+  fileline = 344
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/oauth_store.go"
+  fileline = 307
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/oauth_store.go"
+  fileline = 217
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/oauth_store.go"
+  fileline = 355
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/oauth_store.go"
+  fileline = 261
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/oauth_store.go"
+  fileline = 138
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/oauth_store.go"
+  fileline = 371
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/oauth_store.go"
+  fileline = 272
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/oauth_store.go"
+  fileline = 229
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/oauth_store.go"
+  fileline = 152
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/oauth_store.go"
+  fileline = 126
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/oauth_store.go"
+  fileline = 316
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/oauth_store.go"
+  fileline = 203
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/oauth_store.go"
+  fileline = 326
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "mlog/sugar.go"
+  fileline = 18
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "mlog/sugar.go"
+  fileline = 26
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "mlog/sugar.go"
+  fileline = 14
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "mlog/sugar.go"
+  fileline = 22
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/channel_member_history_store.go"
+  fileline = 177
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/channel_member_history_store.go"
+  fileline = 123
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/channel_member_history_store.go"
+  fileline = 143
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/channel_member_history_store.go"
+  fileline = 59
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/markdown/blocks.go"
+  fileline = 30
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/markdown/blocks.go"
+  fileline = 15
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/command_invite.go"
+  fileline = 153
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/command_invite.go"
+  fileline = 110
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/command_invite.go"
+  fileline = 119
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/command_invite.go"
+  fileline = 98
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/command_invite.go"
+  fileline = 77
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/command_invite.go"
+  fileline = 137
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "jobs/jobs.go"
+  fileline = 132
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/post.go"
+  fileline = 337
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/post.go"
+  fileline = 225
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/post.go"
+  fileline = 33
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/post.go"
+  fileline = 326
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/post.go"
+  fileline = 39
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/post.go"
+  fileline = 243
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/post.go"
+  fileline = 231
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "einterfaces/jobs/data_retention.go"
+  fileline = 10
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "einterfaces/data_retention.go"
+  fileline = 10
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "cmd/mattermost/commands/output.go"
+  fileline = 19
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "cmd/mattermost/commands/output.go"
+  fileline = 11
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "cmd/mattermost/commands/output.go"
+  fileline = 15
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/post_test.go"
+  fileline = 404
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/post_test.go"
+  fileline = 403
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/post_test.go"
+  fileline = 395
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/post_test.go"
+  fileline = 394
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/email_batching_test.go"
+  fileline = 328
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/email_batching_test.go"
+  fileline = 301
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc.go"
+  fileline = 351
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc.go"
+  fileline = 435
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc.go"
+  fileline = 242
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc.go"
+  fileline = 94
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc.go"
+  fileline = 95
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc.go"
+  fileline = 244
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc.go"
+  fileline = 214
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc.go"
+  fileline = 196
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc.go"
+  fileline = 37
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc.go"
+  fileline = 243
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc.go"
+  fileline = 44
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc.go"
+  fileline = 202
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc.go"
+  fileline = 49
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc.go"
+  fileline = 53
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client_rpc.go"
+  fileline = 229
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/websocket_router.go"
+  fileline = 15
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/import.go"
+  fileline = 162
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/command_groupmsg.go"
+  fileline = 63
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/command_groupmsg.go"
+  fileline = 87
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/command_groupmsg.go"
+  fileline = 77
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "api4/post_test.go"
+  fileline = 511
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/supplier_reactions.go"
+  fileline = 209
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/supplier_reactions.go"
+  fileline = 155
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/supplier_reactions.go"
+  fileline = 137
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/supplier_reactions.go"
+  fileline = 187
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/supplier_reactions.go"
+  fileline = 117
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/supplier_reactions.go"
+  fileline = 223
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/supplier_reactions.go"
+  fileline = 128
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/supplier_reactions.go"
+  fileline = 97
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/config.go"
+  fileline = 383
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/config.go"
+  fileline = 237
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/config.go"
+  fileline = 259
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/config.go"
+  fileline = 173
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/config.go"
+  fileline = 364
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/config.go"
+  fileline = 321
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/config.go"
+  fileline = 383
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/config.go"
+  fileline = 422
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/config.go"
+  fileline = 460
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/config.go"
+  fileline = 367
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/config.go"
+  fileline = 405
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/config.go"
+  fileline = 363
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/config.go"
+  fileline = 392
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/config.go"
+  fileline = 167
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/config.go"
+  fileline = 303
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/config.go"
+  fileline = 363
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/config.go"
+  fileline = 476
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/config.go"
+  fileline = 398
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/config.go"
+  fileline = 309
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/config.go"
+  fileline = 326
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/config.go"
+  fileline = 391
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/config.go"
+  fileline = 303
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/config.go"
+  fileline = 467
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/config.go"
+  fileline = 392
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/config.go"
+  fileline = 391
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/config.go"
+  fileline = 243
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/notification_test.go"
+  fileline = 26
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "migrations/advanced_permissions_phase_2.go"
+  fileline = 68
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/import_functions.go"
+  fileline = 917
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/import_functions.go"
+  fileline = 874
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/import_functions.go"
+  fileline = 40
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/import_functions.go"
+  fileline = 798
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/import_functions.go"
+  fileline = 1272
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/import_functions.go"
+  fileline = 911
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/import_functions.go"
+  fileline = 205
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/import_functions.go"
+  fileline = 1201
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/import_functions.go"
+  fileline = 821
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/import_functions.go"
+  fileline = 923
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/import_functions.go"
+  fileline = 877
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/import_functions.go"
+  fileline = 1147
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/import_functions.go"
+  fileline = 977
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "migrations/worker.go"
+  fileline = 85
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "migrations/worker.go"
+  fileline = 156
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/store.go"
+  fileline = 42
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "einterfaces/compliance.go"
+  fileline = 10
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "api4/system_test.go"
+  fileline = 166
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/plugin_key_value.go"
+  fileline = 29
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/plugin_key_value.go"
+  fileline = 25
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/session_store.go"
+  fileline = 239
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/session_store.go"
+  fileline = 154
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/session_store.go"
+  fileline = 172
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/session_store.go"
+  fileline = 115
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/session_store.go"
+  fileline = 85
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/session_store.go"
+  fileline = 181
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/session_store.go"
+  fileline = 201
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/session_store.go"
+  fileline = 218
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/session_store.go"
+  fileline = 143
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/session_store.go"
+  fileline = 191
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "api4/user.go"
+  fileline = 892
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/post_store.go"
+  fileline = 434
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/post_store.go"
+  fileline = 207
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/post_store.go"
+  fileline = 1203
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/post_store.go"
+  fileline = 252
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/post_store.go"
+  fileline = 1122
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/post_store.go"
+  fileline = 778
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/post_store.go"
+  fileline = 1340
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/post_store.go"
+  fileline = 661
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/post_store.go"
+  fileline = 416
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/post_store.go"
+  fileline = 325
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/post_store.go"
+  fileline = 125
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/post_store.go"
+  fileline = 167
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/post_store.go"
+  fileline = 755
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/post_store.go"
+  fileline = 1035
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/post_store.go"
+  fileline = 1090
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/post_store.go"
+  fileline = 456
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/post_store.go"
+  fileline = 683
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/post_store.go"
+  fileline = 129
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/post_store.go"
+  fileline = 483
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/post_store.go"
+  fileline = 1148
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/post_store.go"
+  fileline = 425
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/post_store.go"
+  fileline = 122
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/post_store.go"
+  fileline = 719
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/post_store.go"
+  fileline = 409
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/post_store.go"
+  fileline = 600
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/post_store.go"
+  fileline = 281
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/post_store.go"
+  fileline = 390
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/post_store.go"
+  fileline = 304
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/post_store.go"
+  fileline = 342
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/post_store.go"
+  fileline = 1222
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/post_store.go"
+  fileline = 164
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/post_store.go"
+  fileline = 1367
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/post_store.go"
+  fileline = 1135
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "einterfaces/jobs/elasticsearch.go"
+  fileline = 10
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "einterfaces/jobs/elasticsearch.go"
+  fileline = 14
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/i18n.go"
+  fileline = 118
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/emoji.go"
+  fileline = 98
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/emoji.go"
+  fileline = 54
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "einterfaces/message_export.go"
+  fileline = 12
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/lru.go"
+  fileline = 32
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/lru.go"
+  fileline = 19
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/lru.go"
+  fileline = 134
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/lru.go"
+  fileline = 18
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/lru.go"
+  fileline = 17
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/lru.go"
+  fileline = 79
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/lru.go"
+  fileline = 144
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/lru.go"
+  fileline = 43
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/lru.go"
+  fileline = 44
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/lru.go"
+  fileline = 115
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/lru.go"
+  fileline = 54
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/lru.go"
+  fileline = 21
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/lru.go"
+  fileline = 22
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/lru.go"
+  fileline = 115
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/lru.go"
+  fileline = 83
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/lru.go"
+  fileline = 21
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/lru.go"
+  fileline = 148
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/lru.go"
+  fileline = 75
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/plugin_install.go"
+  fileline = 55
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "einterfaces/account_migration.go"
+  fileline = 8
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/status.go"
+  fileline = 71
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/status.go"
+  fileline = 72
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/server.go"
+  fileline = 61
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "einterfaces/jobs/message_export.go"
+  fileline = 10
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/hooks.go"
+  fileline = 43
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "einterfaces/oauthproviders.go"
+  fileline = 12
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "api4/user_test.go"
+  fileline = 1300
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/command_code_test.go"
+  fileline = 12
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/markdown/text_range_test.go"
+  fileline = 102
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/utils.go"
+  fileline = 53
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/utils.go"
+  fileline = 35
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/utils.go"
+  fileline = 262
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/utils.go"
+  fileline = 106
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/utils.go"
+  fileline = 240
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/utils.go"
+  fileline = 243
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/utils.go"
+  fileline = 265
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/utils.go"
+  fileline = 267
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/utils.go"
+  fileline = 257
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/utils.go"
+  fileline = 364
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/channel.go"
+  fileline = 1852
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/channel.go"
+  fileline = 885
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/channel.go"
+  fileline = 139
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/channel.go"
+  fileline = 1848
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/channel.go"
+  fileline = 911
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/channel.go"
+  fileline = 713
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/channel.go"
+  fileline = 1429
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "einterfaces/cluster.go"
+  fileline = 12
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/command_remove.go"
+  fileline = 130
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/command_remove.go"
+  fileline = 139
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "web/context.go"
+  fileline = 188
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "web/context.go"
+  fileline = 184
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "api4/channel.go"
+  fileline = 140
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/config.go"
+  fileline = 2070
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/config.go"
+  fileline = 1790
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/config.go"
+  fileline = 2334
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/config.go"
+  fileline = 1820
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/config.go"
+  fileline = 2503
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/config.go"
+  fileline = 2126
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/user_access_token_store.go"
+  fileline = 178
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/user_access_token_store.go"
+  fileline = 190
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/user_access_token_store.go"
+  fileline = 236
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/user_access_token_store.go"
+  fileline = 217
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/user_access_token_store.go"
+  fileline = 140
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/user_access_token_store.go"
+  fileline = 162
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/user_access_token_store.go"
+  fileline = 99
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/user_access_token_store.go"
+  fileline = 289
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/user_access_token_store.go"
+  fileline = 278
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/user_access_token_store.go"
+  fileline = 88
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/user_access_token_store.go"
+  fileline = 151
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/user_access_token_store.go"
+  fileline = 206
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "wsapi/user.go"
+  fileline = 14
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/authentication.go"
+  fileline = 208
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/saml.go"
+  fileline = 116
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/interface_generator/main.go"
+  fileline = 329
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/command_mute.go"
+  fileline = 59
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/command_mute.go"
+  fileline = 89
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/command_mute.go"
+  fileline = 86
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/command_mute.go"
+  fileline = 67
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/compliance_store.go"
+  fileline = 95
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/compliance_store.go"
+  fileline = 73
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/compliance_store.go"
+  fileline = 219
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "cmd/mattermost/commands/config.go"
+  fileline = 396
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "cmd/mattermost/commands/config.go"
+  fileline = 198
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "cmd/mattermost/commands/config.go"
+  fileline = 383
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "cmd/mattermost/commands/config.go"
+  fileline = 378
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "cmd/mattermost/commands/config.go"
+  fileline = 220
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "cmd/mattermost/commands/config.go"
+  fileline = 308
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "cmd/mattermost/commands/config.go"
+  fileline = 378
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "cmd/mattermost/commands/config.go"
+  fileline = 323
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "cmd/mattermost/commands/config.go"
+  fileline = 208
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "cmd/mattermost/commands/config.go"
+  fileline = 401
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "cmd/mattermost/commands/config.go"
+  fileline = 383
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "cmd/mattermost/commands/config.go"
+  fileline = 186
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/file_info_store.go"
+  fileline = 90
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/file_info_store.go"
+  fileline = 228
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/file_info_store.go"
+  fileline = 167
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/file_info_store.go"
+  fileline = 195
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/file_info_store.go"
+  fileline = 213
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/file_info_store.go"
+  fileline = 259
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/file_info_store.go"
+  fileline = 243
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/file_info_store.go"
+  fileline = 114
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/file_info_store.go"
+  fileline = 278
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/notification_email.go"
+  fileline = 203
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/notification_email.go"
+  fileline = 154
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/notification_email.go"
+  fileline = 139
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/notification_email.go"
+  fileline = 218
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/notification_email.go"
+  fileline = 212
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/notification_email.go"
+  fileline = 312
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/notification_email.go"
+  fileline = 233
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/notification_email.go"
+  fileline = 189
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/notification_email.go"
+  fileline = 124
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/notification_email.go"
+  fileline = 227
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/role_supplier.go"
+  fileline = 192
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/role_supplier.go"
+  fileline = 150
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/role_supplier.go"
+  fileline = 219
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/role_supplier.go"
+  fileline = 168
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "wsapi/status.go"
+  fileline = 21
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "wsapi/status.go"
+  fileline = 16
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/team_store.go"
+  fileline = 323
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/team_store.go"
+  fileline = 293
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/team_store.go"
+  fileline = 524
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/team_store.go"
+  fileline = 271
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/team_store.go"
+  fileline = 501
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/team_store.go"
+  fileline = 974
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/team_store.go"
+  fileline = 759
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/team_store.go"
+  fileline = 336
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/team_store.go"
+  fileline = 739
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/team_store.go"
+  fileline = 458
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/team_store.go"
+  fileline = 919
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/team_store.go"
+  fileline = 686
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/team_store.go"
+  fileline = 550
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/team_store.go"
+  fileline = 566
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/team_store.go"
+  fileline = 638
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/team_store.go"
+  fileline = 237
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/team_store.go"
+  fileline = 625
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/team_store.go"
+  fileline = 384
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/team_store.go"
+  fileline = 366
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/team_store.go"
+  fileline = 730
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/team_store.go"
+  fileline = 603
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/team_store.go"
+  fileline = 945
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/team_store.go"
+  fileline = 748
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/team_store.go"
+  fileline = 721
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/team_store.go"
+  fileline = 582
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/team_store.go"
+  fileline = 783
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/team_store.go"
+  fileline = 432
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/team_store.go"
+  fileline = 894
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/team_store.go"
+  fileline = 310
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/team_store.go"
+  fileline = 449
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/team_store.go"
+  fileline = 663
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/team_store.go"
+  fileline = 709
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/team_store.go"
+  fileline = 864
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/system_store.go"
+  fileline = 81
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/system_store.go"
+  fileline = 92
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/system_store.go"
+  fileline = 42
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/user_store.go"
+  fileline = 793
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/user_store.go"
+  fileline = 771
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/user_store.go"
+  fileline = 1177
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/user_store.go"
+  fileline = 315
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/user_store.go"
+  fileline = 489
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/user_store.go"
+  fileline = 453
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/user_store.go"
+  fileline = 848
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/user_store.go"
+  fileline = 898
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/user_store.go"
+  fileline = 913
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/user_store.go"
+  fileline = 1320
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/user_store.go"
+  fileline = 400
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/user_store.go"
+  fileline = 1295
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/user_store.go"
+  fileline = 878
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/user_store.go"
+  fileline = 289
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/user_store.go"
+  fileline = 252
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/user_store.go"
+  fileline = 218
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/user_store.go"
+  fileline = 617
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/user_store.go"
+  fileline = 349
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/user_store.go"
+  fileline = 810
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/user_store.go"
+  fileline = 710
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/user_store.go"
+  fileline = 826
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/user_store.go"
+  fileline = 928
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/user_store.go"
+  fileline = 564
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/user_store.go"
+  fileline = 208
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/user_store.go"
+  fileline = 1102
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/user_store.go"
+  fileline = 1057
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/user_store.go"
+  fileline = 838
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/user_store.go"
+  fileline = 242
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/user_store.go"
+  fileline = 665
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/user_store.go"
+  fileline = 965
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/user_store.go"
+  fileline = 1246
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/user_store.go"
+  fileline = 955
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/user_store.go"
+  fileline = 1158
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/user_store.go"
+  fileline = 1349
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/user_store.go"
+  fileline = 230
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/user_store.go"
+  fileline = 1269
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/user_store.go"
+  fileline = 287
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/user_store.go"
+  fileline = 1006
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/user_store.go"
+  fileline = 601
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/user_store.go"
+  fileline = 387
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/user_store.go"
+  fileline = 1034
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/user_store.go"
+  fileline = 945
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/user_store.go"
+  fileline = 695
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/user_store.go"
+  fileline = 526
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/user_store.go"
+  fileline = 372
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/user_store.go"
+  fileline = 303
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/user_store.go"
+  fileline = 1126
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "api4/team_test.go"
+  fileline = 1923
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/redis_supplier.go"
+  fileline = 23
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/redis_supplier.go"
+  fileline = 55
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/redis_supplier.go"
+  fileline = 66
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/redis_supplier.go"
+  fileline = 33
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/layered_store_supplier.go"
+  fileline = 17
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/file.go"
+  fileline = 435
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client.go"
+  fileline = 14
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/client.go"
+  fileline = 13
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/emoji_store.go"
+  fileline = 191
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/emoji_store.go"
+  fileline = 143
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/emoji_store.go"
+  fileline = 161
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/emoji_store.go"
+  fileline = 97
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/emoji_store.go"
+  fileline = 120
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/team.go"
+  fileline = 887
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/team.go"
+  fileline = 116
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/webhook_store.go"
+  fileline = 364
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/webhook_store.go"
+  fileline = 207
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/webhook_store.go"
+  fileline = 182
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/webhook_store.go"
+  fileline = 160
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/webhook_store.go"
+  fileline = 320
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/webhook_store.go"
+  fileline = 311
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/webhook_store.go"
+  fileline = 301
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/webhook_store.go"
+  fileline = 195
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/webhook_store.go"
+  fileline = 171
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/webhook_store.go"
+  fileline = 251
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/webhook_store.go"
+  fileline = 263
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/webhook_store.go"
+  fileline = 386
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/webhook_store.go"
+  fileline = 219
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/webhook_store.go"
+  fileline = 282
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/webhook_store.go"
+  fileline = 329
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/webhook_store.go"
+  fileline = 142
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/job_store.go"
+  fileline = 280
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/job_store.go"
+  fileline = 263
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/job_store.go"
+  fileline = 220
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/job_store.go"
+  fileline = 176
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/job_store.go"
+  fileline = 294
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/job_store.go"
+  fileline = 61
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/job_store.go"
+  fileline = 196
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/job_store.go"
+  fileline = 240
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/job_store.go"
+  fileline = 150
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/job_store.go"
+  fileline = 122
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/markdown/inspect_test.go"
+  fileline = 25
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/diagnostics.go"
+  fileline = 701
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/diagnostics.go"
+  fileline = 353
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/diagnostics.go"
+  fileline = 627
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/diagnostics.go"
+  fileline = 531
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/diagnostics.go"
+  fileline = 475
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/diagnostics.go"
+  fileline = 181
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/diagnostics.go"
+  fileline = 556
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/diagnostics.go"
+  fileline = 397
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/diagnostics.go"
+  fileline = 378
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/diagnostics.go"
+  fileline = 420
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/diagnostics.go"
+  fileline = 308
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/diagnostics.go"
+  fileline = 737
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/diagnostics.go"
+  fileline = 509
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/diagnostics.go"
+  fileline = 502
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/diagnostics.go"
+  fileline = 102
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/diagnostics.go"
+  fileline = 266
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/diagnostics.go"
+  fileline = 404
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/diagnostics.go"
+  fileline = 90
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/diagnostics.go"
+  fileline = 453
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/diagnostics.go"
+  fileline = 493
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/diagnostics.go"
+  fileline = 319
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/diagnostics.go"
+  fileline = 330
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/diagnostics.go"
+  fileline = 198
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/diagnostics.go"
+  fileline = 102
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/diagnostics.go"
+  fileline = 410
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/diagnostics.go"
+  fileline = 98
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/diagnostics.go"
+  fileline = 299
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/diagnostics.go"
+  fileline = 98
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/diagnostics.go"
+  fileline = 338
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/diagnostics.go"
+  fileline = 666
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/diagnostics.go"
+  fileline = 498
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/diagnostics.go"
+  fileline = 487
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/diagnostics.go"
+  fileline = 539
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/diagnostics.go"
+  fileline = 551
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/diagnostics.go"
+  fileline = 382
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/diagnostics.go"
+  fileline = 447
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/diagnostics.go"
+  fileline = 563
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/diagnostics.go"
+  fileline = 524
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/diagnostics.go"
+  fileline = 641
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/diagnostics.go"
+  fileline = 392
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/diagnostics.go"
+  fileline = 442
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/diagnostics.go"
+  fileline = 482
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "services/httpservice/httpservice.go"
+  fileline = 14
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "jobs/interfaces/migrations_interface.go"
+  fileline = 8
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/status_test.go"
+  fileline = 65
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/status_test.go"
+  fileline = 47
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "jobs/interfaces/plugins_interface.go"
+  fileline = 8
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/license_store.go"
+  fileline = 40
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreDatabaseLayer.go"
+  fileline = 384
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreDatabaseLayer.go"
+  fileline = 465
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreDatabaseLayer.go"
+  fileline = 361
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreDatabaseLayer.go"
+  fileline = 403
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreDatabaseLayer.go"
+  fileline = 334
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreDatabaseLayer.go"
+  fileline = 596
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreDatabaseLayer.go"
+  fileline = 488
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreDatabaseLayer.go"
+  fileline = 600
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreDatabaseLayer.go"
+  fileline = 688
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreDatabaseLayer.go"
+  fileline = 469
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreDatabaseLayer.go"
+  fileline = 642
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreDatabaseLayer.go"
+  fileline = 442
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreDatabaseLayer.go"
+  fileline = 669
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreDatabaseLayer.go"
+  fileline = 692
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreDatabaseLayer.go"
+  fileline = 515
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreDatabaseLayer.go"
+  fileline = 534
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreDatabaseLayer.go"
+  fileline = 561
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreDatabaseLayer.go"
+  fileline = 619
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreDatabaseLayer.go"
+  fileline = 623
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreDatabaseLayer.go"
+  fileline = 407
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreDatabaseLayer.go"
+  fileline = 715
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreDatabaseLayer.go"
+  fileline = 492
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreDatabaseLayer.go"
+  fileline = 380
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreDatabaseLayer.go"
+  fileline = 538
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreDatabaseLayer.go"
+  fileline = 446
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreDatabaseLayer.go"
+  fileline = 357
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreDatabaseLayer.go"
+  fileline = 646
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreDatabaseLayer.go"
+  fileline = 711
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreDatabaseLayer.go"
+  fileline = 665
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreDatabaseLayer.go"
+  fileline = 315
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreDatabaseLayer.go"
+  fileline = 311
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreDatabaseLayer.go"
+  fileline = 511
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreDatabaseLayer.go"
+  fileline = 338
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/storetest/mocks/LayeredStoreDatabaseLayer.go"
+  fileline = 557
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/plugintest/api.go"
+  fileline = 1567
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/plugintest/api.go"
+  fileline = 1543
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/plugintest/api.go"
+  fileline = 1542
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/plugintest/api.go"
+  fileline = 1550
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/plugintest/api.go"
+  fileline = 1528
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/plugintest/api.go"
+  fileline = 1574
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/plugintest/api.go"
+  fileline = 1566
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/plugintest/api.go"
+  fileline = 1558
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/plugintest/api.go"
+  fileline = 1532
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/plugintest/api.go"
+  fileline = 1551
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/plugintest/api.go"
+  fileline = 1559
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/command_remove_test.go"
+  fileline = 54
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/command_remove_test.go"
+  fileline = 117
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/command_remove_test.go"
+  fileline = 75
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/command_remove_test.go"
+  fileline = 43
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/command_remove_test.go"
+  fileline = 64
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/command_remove_test.go"
+  fileline = 90
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/command_remove_test.go"
+  fileline = 102
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "einterfaces/jobs/ldap_sync.go"
+  fileline = 10
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/html.go"
+  fileline = 129
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/html.go"
+  fileline = 136
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/html.go"
+  fileline = 98
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/html.go"
+  fileline = 135
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/html.go"
+  fileline = 90
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/html.go"
+  fileline = 122
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/html.go"
+  fileline = 129
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "einterfaces/metrics.go"
+  fileline = 6
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/oauth.go"
+  fileline = 582
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/oauth.go"
+  fileline = 538
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/oauth.go"
+  fileline = 795
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/oauth.go"
+  fileline = 570
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/oauth.go"
+  fileline = 525
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "migrations/migrationstestlib.go"
+  fileline = 311
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/plugin_commands_test.go"
+  fileline = 30
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/app.go"
+  fileline = 70
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/webhook_test.go"
+  fileline = 428
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/webhook_test.go"
+  fileline = 440
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/webhook_test.go"
+  fileline = 453
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/webhook_test.go"
+  fileline = 408
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/example_help_test.go"
+  fileline = 106
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/command_invite_test.go"
+  fileline = 31
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/upgrade.go"
+  fileline = 157
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/command_store.go"
+  fileline = 167
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/command_store.go"
+  fileline = 71
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/command_store.go"
+  fileline = 121
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/command_store.go"
+  fileline = 112
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/command_store.go"
+  fileline = 83
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/command_store.go"
+  fileline = 130
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/command_store.go"
+  fileline = 102
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/html_test.go"
+  fileline = 133
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/html_test.go"
+  fileline = 29
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/html_test.go"
+  fileline = 106
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/html_test.go"
+  fileline = 113
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/html_test.go"
+  fileline = 129
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/html_test.go"
+  fileline = 114
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/plugintest/mock/mock.go"
+  fileline = 31
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/plugintest/mock/mock.go"
+  fileline = 27
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/plugintest/mock/mock.go"
+  fileline = 31
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/command_channel_rename_test.go"
+  fileline = 20
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/command_channel_rename_test.go"
+  fileline = 51
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/command_channel_rename_test.go"
+  fileline = 39
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/command_channel_rename_test.go"
+  fileline = 61
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/command_channel_rename_test.go"
+  fileline = 76
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/command_channel_rename_test.go"
+  fileline = 88
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/terms_of_service.go"
+  fileline = 61
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/supplier.go"
+  fileline = 994
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/supplier.go"
+  fileline = 976
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/supplier.go"
+  fileline = 1027
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/supplier.go"
+  fileline = 976
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/supplier.go"
+  fileline = 987
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/supplier.go"
+  fileline = 1007
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/supplier.go"
+  fileline = 1037
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/supplier.go"
+  fileline = 997
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/supplier.go"
+  fileline = 1017
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/supplier.go"
+  fileline = 1036
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/api.go"
+  fileline = 349
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/api.go"
+  fileline = 328
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/api.go"
+  fileline = 16
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/api.go"
+  fileline = 361
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/api.go"
+  fileline = 19
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/api.go"
+  fileline = 367
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "plugin/api.go"
+  fileline = 355
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/cluster.go"
+  fileline = 28
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "api4/apitestlib.go"
+  fileline = 602
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/diagnostics_test.go"
+  fileline = 87
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/diagnostics_test.go"
+  fileline = 35
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/diagnostics_test.go"
+  fileline = 36
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "cmd/mattermost/commands/config_test.go"
+  fileline = 539
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "cmd/mattermost/commands/config_test.go"
+  fileline = 160
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "cmd/mattermost/commands/config_test.go"
+  fileline = 286
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "cmd/mattermost/commands/config_test.go"
+  fileline = 263
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "cmd/mattermost/commands/config_test.go"
+  fileline = 118
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "cmd/mattermost/commands/config_test.go"
+  fileline = 251
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "cmd/mattermost/commands/config_test.go"
+  fileline = 203
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "cmd/mattermost/commands/config_test.go"
+  fileline = 174
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "cmd/mattermost/commands/config_test.go"
+  fileline = 177
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "cmd/mattermost/commands/config_test.go"
+  fileline = 165
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "cmd/mattermost/commands/config_test.go"
+  fileline = 547
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "cmd/mattermost/commands/config_test.go"
+  fileline = 144
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "cmd/mattermost/commands/config_test.go"
+  fileline = 293
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "cmd/mattermost/commands/config_test.go"
+  fileline = 204
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "cmd/mattermost/commands/config_test.go"
+  fileline = 539
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "cmd/mattermost/commands/config_test.go"
+  fileline = 127
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "cmd/mattermost/commands/config_test.go"
+  fileline = 117
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "cmd/mattermost/commands/config_test.go"
+  fileline = 169
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "cmd/mattermost/commands/config_test.go"
+  fileline = 230
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "cmd/mattermost/commands/config_test.go"
+  fileline = 297
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "cmd/mattermost/commands/config_test.go"
+  fileline = 287
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "cmd/mattermost/commands/config_test.go"
+  fileline = 480
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "cmd/mattermost/commands/config_test.go"
+  fileline = 255
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "cmd/mattermost/commands/config_test.go"
+  fileline = 260
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "cmd/mattermost/commands/config_test.go"
+  fileline = 213
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "cmd/mattermost/commands/config_test.go"
+  fileline = 159
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "cmd/mattermost/commands/config_test.go"
+  fileline = 245
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "cmd/mattermost/commands/config_test.go"
+  fileline = 246
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/audit_store.go"
+  fileline = 91
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/audit_store.go"
+  fileline = 65
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/audit_store.go"
+  fileline = 76
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/command_channel_header_test.go"
+  fileline = 97
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/command_channel_header_test.go"
+  fileline = 59
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/command_channel_header_test.go"
+  fileline = 75
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/command_channel_header_test.go"
+  fileline = 107
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/command_channel_header_test.go"
+  fileline = 37
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/command_channel_header_test.go"
+  fileline = 85
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/command_channel_header_test.go"
+  fileline = 22
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/command_channel_header_test.go"
+  fileline = 49
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/status.go"
+  fileline = 60
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/status.go"
+  fileline = 63
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/status.go"
+  fileline = 58
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "einterfaces/elasticsearch.go"
+  fileline = 12
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/permissions_test.go"
+  fileline = 50
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "wsapi/websocket_handler.go"
+  fileline = 42
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "wsapi/websocket_handler.go"
+  fileline = 60
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "wsapi/websocket_handler.go"
+  fileline = 16
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "wsapi/websocket_handler.go"
+  fileline = 22
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/preference_store.go"
+  fileline = 260
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/preference_store.go"
+  fileline = 273
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/preference_store.go"
+  fileline = 244
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/preference_store.go"
+  fileline = 320
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/preference_store.go"
+  fileline = 286
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/preference_store.go"
+  fileline = 200
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/preference_store.go"
+  fileline = 229
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/preference_store.go"
+  fileline = 218
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/preference_store.go"
+  fileline = 96
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/preference_store.go"
+  fileline = 181
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/post.go"
+  fileline = 329
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/post.go"
+  fileline = 537
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/post.go"
+  fileline = 443
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/post.go"
+  fileline = 333
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/post.go"
+  fileline = 313
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/extension.go"
+  fileline = 37
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/command_channel_purpose_test.go"
+  fileline = 59
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/command_channel_purpose_test.go"
+  fileline = 22
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/command_channel_purpose_test.go"
+  fileline = 86
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/command_channel_purpose_test.go"
+  fileline = 49
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/command_channel_purpose_test.go"
+  fileline = 74
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/command_channel_purpose_test.go"
+  fileline = 37
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/websocket_message.go"
+  fileline = 131
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/websocket_message.go"
+  fileline = 54
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/websocket_message.go"
+  fileline = 102
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/websocket_message.go"
+  fileline = 77
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/websocket_message.go"
+  fileline = 97
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/websocket_message.go"
+  fileline = 135
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/websocket_message.go"
+  fileline = 139
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/config_test.go"
+  fileline = 450
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/config_test.go"
+  fileline = 582
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/config_test.go"
+  fileline = 512
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/config_test.go"
+  fileline = 634
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/config_test.go"
+  fileline = 534
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/config_test.go"
+  fileline = 81
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/config_test.go"
+  fileline = 556
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/config_test.go"
+  fileline = 85
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/config_test.go"
+  fileline = 102
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/config_test.go"
+  fileline = 638
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/config_test.go"
+  fileline = 632
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/config_test.go"
+  fileline = 490
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/config_test.go"
+  fileline = 640
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/config_test.go"
+  fileline = 629
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/config_test.go"
+  fileline = 98
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/websocket_client.go"
+  fileline = 63
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/websocket_client.go"
+  fileline = 140
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/websocket_client.go"
+  fileline = 96
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/websocket_client.go"
+  fileline = 170
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/websocket_client.go"
+  fileline = 154
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/channel_test.go"
+  fileline = 519
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/channel_test.go"
+  fileline = 602
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/channel_test.go"
+  fileline = 609
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/channel_test.go"
+  fileline = 608
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/channel_test.go"
+  fileline = 642
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/channel_test.go"
+  fileline = 601
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/channel_test.go"
+  fileline = 571
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/channel_test.go"
+  fileline = 517
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/channel_test.go"
+  fileline = 635
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/channel_test.go"
+  fileline = 556
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/channel_test.go"
+  fileline = 649
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/channel_test.go"
+  fileline = 637
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/channel_test.go"
+  fileline = 600
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/channel_test.go"
+  fileline = 570
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/channel_test.go"
+  fileline = 569
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/channel_test.go"
+  fileline = 532
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/channel_test.go"
+  fileline = 499
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/channel_test.go"
+  fileline = 533
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/channel_test.go"
+  fileline = 644
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/channel_test.go"
+  fileline = 518
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/channel_test.go"
+  fileline = 643
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/channel_test.go"
+  fileline = 603
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/channel_test.go"
+  fileline = 636
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/channel_test.go"
+  fileline = 534
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/channel_test.go"
+  fileline = 568
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/channel_test.go"
+  fileline = 634
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/slackimport.go"
+  fileline = 185
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/slackimport.go"
+  fileline = 168
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/slackimport.go"
+  fileline = 651
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/slackimport.go"
+  fileline = 221
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/slackimport.go"
+  fileline = 493
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/slackimport.go"
+  fileline = 189
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/slackimport.go"
+  fileline = 170
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/slackimport.go"
+  fileline = 217
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/slackimport.go"
+  fileline = 505
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/slackimport.go"
+  fileline = 439
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/slackimport.go"
+  fileline = 652
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/slackimport.go"
+  fileline = 157
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/slackimport.go"
+  fileline = 443
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/session.go"
+  fileline = 49
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/session.go"
+  fileline = 71
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/session.go"
+  fileline = 76
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/session.go"
+  fileline = 88
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/slack_attachment.go"
+  fileline = 29
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/slack_attachment.go"
+  fileline = 35
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/job.go"
+  fileline = 115
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/job.go"
+  fileline = 109
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/websocket_message_test.go"
+  fileline = 38
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/manifest.go"
+  fileline = 63
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/command.go"
+  fileline = 267
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/command.go"
+  fileline = 233
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/command.go"
+  fileline = 257
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/command.go"
+  fileline = 270
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/command.go"
+  fileline = 19
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/command.go"
+  fileline = 262
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/command.go"
+  fileline = 45
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/command.go"
+  fileline = 276
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/store.go"
+  fileline = 419
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/store.go"
+  fileline = 507
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/store.go"
+  fileline = 30
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/store.go"
+  fileline = 316
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/store.go"
+  fileline = 325
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/store.go"
+  fileline = 498
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/store.go"
+  fileline = 300
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/store.go"
+  fileline = 414
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/store.go"
+  fileline = 382
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/store.go"
+  fileline = 346
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/store.go"
+  fileline = 119
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/store.go"
+  fileline = 426
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/store.go"
+  fileline = 355
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/store.go"
+  fileline = 307
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/store.go"
+  fileline = 394
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/store.go"
+  fileline = 462
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/store.go"
+  fileline = 470
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/store.go"
+  fileline = 13
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/store.go"
+  fileline = 227
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/store.go"
+  fileline = 401
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/store.go"
+  fileline = 435
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/store.go"
+  fileline = 79
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/store.go"
+  fileline = 525
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/store.go"
+  fileline = 285
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/store.go"
+  fileline = 516
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/store.go"
+  fileline = 187
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/store.go"
+  fileline = 194
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/store.go"
+  fileline = 41
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/store.go"
+  fileline = 485
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/store.go"
+  fileline = 447
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/plugin_api.go"
+  fileline = 33
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/plugin_api.go"
+  fileline = 453
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/plugin_api.go"
+  fileline = 473
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/plugin_api.go"
+  fileline = 479
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/plugin_api.go"
+  fileline = 476
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/plugin_api.go"
+  fileline = 482
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/plugin_api.go"
+  fileline = 32
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/notification.go"
+  fileline = 522
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/notification.go"
+  fileline = 217
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/notification.go"
+  fileline = 229
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/notification.go"
+  fileline = 241
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/notification.go"
+  fileline = 379
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/notification.go"
+  fileline = 375
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/config.go"
+  fileline = 41
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/config.go"
+  fileline = 37
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/plugin_store.go"
+  fileline = 113
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/plugin_store.go"
+  fileline = 64
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/plugin_store.go"
+  fileline = 132
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/plugin_store.go"
+  fileline = 78
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/plugin_store.go"
+  fileline = 92
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/plugin_store.go"
+  fileline = 102
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/client4.go"
+  fileline = 2229
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/client4.go"
+  fileline = 998
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/client4.go"
+  fileline = 3853
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/client4.go"
+  fileline = 71
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/client4.go"
+  fileline = 947
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/client4.go"
+  fileline = 932
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/client4.go"
+  fileline = 71
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/client4.go"
+  fileline = 2471
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/import_validators.go"
+  fileline = 512
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/import_validators.go"
+  fileline = 465
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/websocket_request.go"
+  fileline = 17
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/authorization_test.go"
+  fileline = 52
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/authorization_test.go"
+  fileline = 55
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/authorization_test.go"
+  fileline = 41
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/channel_store.go"
+  fileline = 1036
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/channel_store.go"
+  fileline = 1921
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/channel_store.go"
+  fileline = 1231
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/channel_store.go"
+  fileline = 987
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/channel_store.go"
+  fileline = 677
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/channel_store.go"
+  fileline = 1410
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/channel_store.go"
+  fileline = 2061
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/channel_store.go"
+  fileline = 1213
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/channel_store.go"
+  fileline = 871
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/channel_store.go"
+  fileline = 853
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/channel_store.go"
+  fileline = 1539
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/channel_store.go"
+  fileline = 1375
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/channel_store.go"
+  fileline = 2466
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/channel_store.go"
+  fileline = 2490
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/channel_store.go"
+  fileline = 1248
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/channel_store.go"
+  fileline = 1886
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/channel_store.go"
+  fileline = 1968
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/channel_store.go"
+  fileline = 642
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/channel_store.go"
+  fileline = 2027
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/channel_store.go"
+  fileline = 900
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/channel_store.go"
+  fileline = 918
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/channel_store.go"
+  fileline = 1805
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/channel_store.go"
+  fileline = 1155
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/channel_store.go"
+  fileline = 1815
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/channel_store.go"
+  fileline = 713
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/channel_store.go"
+  fileline = 928
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/channel_store.go"
+  fileline = 1657
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/channel_store.go"
+  fileline = 1855
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/channel_store.go"
+  fileline = 1486
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/channel_store.go"
+  fileline = 1698
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/channel_store.go"
+  fileline = 1019
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/channel_store.go"
+  fileline = 2250
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/channel_store.go"
+  fileline = 1107
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/channel_store.go"
+  fileline = 2200
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/channel_store.go"
+  fileline = 1672
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/channel_store.go"
+  fileline = 823
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/channel_store.go"
+  fileline = 1707
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/channel_store.go"
+  fileline = 577
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/channel_store.go"
+  fileline = 1396
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/channel_store.go"
+  fileline = 400
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/channel_store.go"
+  fileline = 565
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/channel_store.go"
+  fileline = 1086
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/channel_store.go"
+  fileline = 1873
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/channel_store.go"
+  fileline = 1587
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/channel_store.go"
+  fileline = 2033
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/channel_store.go"
+  fileline = 2172
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/channel_store.go"
+  fileline = 1932
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/channel_store.go"
+  fileline = 1332
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/channel_store.go"
+  fileline = 2355
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/channel_store.go"
+  fileline = 1360
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/channel_store.go"
+  fileline = 2094
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/channel_store.go"
+  fileline = 2385
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/channel_store.go"
+  fileline = 1715
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/channel_store.go"
+  fileline = 1979
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/channel_store.go"
+  fileline = 804
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/channel_store.go"
+  fileline = 1838
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/channel_store.go"
+  fileline = 2226
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "store/sqlstore/channel_store.go"
+  fileline = 942
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "einterfaces/ldap.go"
+  fileline = 10
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/license.go"
+  fileline = 62
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/utils_test.go"
+  fileline = 524
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "model/utils_test.go"
+  fileline = 673
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/config_test.go"
+  fileline = 156
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "app/options.go"
+  fileline = 16
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "utils/markdown/inspect.go"
+  fileline = 8
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "api4/command_test.go"
+  fileline = 706
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "api4/command_test.go"
+  fileline = 478
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "api4/command_test.go"
+  fileline = 598
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "api4/command_test.go"
+  fileline = 766
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "api4/command_test.go"
+  fileline = 538
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
+
+[[issues]]
+  filepath = "api4/command_test.go"
+  fileline = 648
+  comment = "Interfaces should be defined in a file called interface.go in the relevant folder."
