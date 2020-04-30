@@ -1,0 +1,208 @@
+repo = "github.com/juju/juju"
+rule = "codelingo/code-review-comments/camel-case-constants"
+sha = "a0d745913c35e47c33dc13f0230ee55d9a0e021a"
+
+[[issues]]
+  filepath = "service/windows/service_windows.go"
+  fileline = 26
+  comment = "Define constant \"SC_ENUM_PROCESS_INFO\" as \"ScEnumProcessInfo\". The convention in Go is to use MixedCaps or mixedCaps rather than underscores to write multiword constant names. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#mixed-caps)"
+
+[[issues]]
+  filepath = "service/windows/service_windows.go"
+  fileline = 28
+  comment = "Define constant \"SERVICE_CONFIG_FAILURE_ACTIONS_FLAG\" as \"ServiceConfigFailureActionsFlag\". The convention in Go is to use MixedCaps or mixedCaps rather than underscores to write multiword constant names. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#mixed-caps)"
+
+[[issues]]
+  filepath = "service/windows/service_windows.go"
+  fileline = 27
+  comment = "Define constant \"SERVICE_CONFIG_FAILURE_ACTIONS\" as \"ServiceConfigFailureActions\". The convention in Go is to use MixedCaps or mixedCaps rather than underscores to write multiword constant names. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#mixed-caps)"
+
+[[issues]]
+  filepath = "environs/simplestreams/testing/testing.go"
+  fileline = 694
+  comment = "Define constant \"Index_v1\" as \"IndexV1\". The convention in Go is to use MixedCaps or mixedCaps rather than underscores to write multiword constant names. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#mixed-caps)"
+
+[[issues]]
+  filepath = "environs/simplestreams/testing/testing.go"
+  fileline = 695
+  comment = "Define constant \"Product_v1\" as \"ProductV1\". The convention in Go is to use MixedCaps or mixedCaps rather than underscores to write multiword constant names. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#mixed-caps)"
+
+[[issues]]
+  filepath = "environs/simplestreams/testing/testing.go"
+  fileline = 696
+  comment = "Define constant \"Mirror_v1\" as \"MirrorV1\". The convention in Go is to use MixedCaps or mixedCaps rather than underscores to write multiword constant names. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#mixed-caps)"
+
+[[issues]]
+  filepath = "environs/simplestreams/datasource.go"
+  fileline = 53
+  comment = "Define constant \"EXISTING_CLOUD_DATA\" as \"ExistingCloudData\". The convention in Go is to use MixedCaps or mixedCaps rather than underscores to write multiword constant names. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#mixed-caps)"
+
+[[issues]]
+  filepath = "environs/simplestreams/datasource.go"
+  fileline = 66
+  comment = "Define constant \"CUSTOM_CLOUD_DATA\" as \"CustomCloudData\". The convention in Go is to use MixedCaps or mixedCaps rather than underscores to write multiword constant names. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#mixed-caps)"
+
+[[issues]]
+  filepath = "environs/simplestreams/datasource.go"
+  fileline = 57
+  comment = "Define constant \"DEFAULT_CLOUD_DATA\" as \"DefaultCloudData\". The convention in Go is to use MixedCaps or mixedCaps rather than underscores to write multiword constant names. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#mixed-caps)"
+
+[[issues]]
+  filepath = "environs/simplestreams/datasource.go"
+  fileline = 62
+  comment = "Define constant \"SPECIFIC_CLOUD_DATA\" as \"SpecificCloudData\". The convention in Go is to use MixedCaps or mixedCaps rather than underscores to write multiword constant names. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#mixed-caps)"
+
+[[issues]]
+  filepath = "storage/plans/iscsi/iscsi.go"
+  fileline = 32
+  comment = "Define constant \"ISCSI_ERR_SESS_EXISTS\" as \"IscsiErrSessExists\". The convention in Go is to use MixedCaps or mixedCaps rather than underscores to write multiword constant names. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#mixed-caps)"
+
+[[issues]]
+  filepath = "storage/plans/iscsi/iscsi.go"
+  fileline = 36
+  comment = "Define constant \"ISCSI_ERR_NO_OBJS_FOUND\" as \"IscsiErrNoObjsFound\". The convention in Go is to use MixedCaps or mixedCaps rather than underscores to write multiword constant names. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#mixed-caps)"
+
+[[issues]]
+  filepath = "service/windows/service.go"
+  fileline = 33
+  comment = "Define constant \"c_ERROR_SERVICE_EXISTS\" as \"cErrorServiceExists\". The convention in Go is to use MixedCaps or mixedCaps rather than underscores to write multiword constant names. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#mixed-caps)"
+
+[[issues]]
+  filepath = "service/windows/service.go"
+  fileline = 29
+  comment = "Define constant \"c_ERROR_SERVICE_DOES_NOT_EXIST\" as \"cErrorServiceDoesNotExist\". The convention in Go is to use MixedCaps or mixedCaps rather than underscores to write multiword constant names. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#mixed-caps)"
+
+[[issues]]
+  filepath = "caas/kubernetes/provider/storage.go"
+  fileline = 25
+  comment = "Define constant \"K8s_ProviderType\" as \"K8sProvidertype\". The convention in Go is to use MixedCaps or mixedCaps rather than underscores to write multiword constant names. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#mixed-caps)"
+
+[[issues]]
+  filepath = "network/devicenames.go"
+  fileline = 15
+  comment = "Define constant \"NUMBER\" as \"Number\". The convention in Go is to use MixedCaps or mixedCaps rather than underscores to write multiword constant names. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#mixed-caps)"
+
+[[issues]]
+  filepath = "network/devicenames.go"
+  fileline = 14
+  comment = "Define constant \"LITERAL\" as \"Literal\". The convention in Go is to use MixedCaps or mixedCaps rather than underscores to write multiword constant names. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#mixed-caps)"
+
+[[issues]]
+  filepath = "core/network/nic.go"
+  fileline = 33
+  comment = "Define constant \"VLAN_8021QInterface\" as \"Vlan8021qinterface\". The convention in Go is to use MixedCaps or mixedCaps rather than underscores to write multiword constant names. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#mixed-caps)"
+
+[[issues]]
+  filepath = "provider/ec2/ebs.go"
+  fileline = 36
+  comment = "Define constant \"EBS_VolumeType\" as \"EbsVolumetype\". The convention in Go is to use MixedCaps or mixedCaps rather than underscores to write multiword constant names. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#mixed-caps)"
+
+[[issues]]
+  filepath = "provider/ec2/ebs.go"
+  fileline = 44
+  comment = "Define constant \"EBS_Encrypted\" as \"EbsEncrypted\". The convention in Go is to use MixedCaps or mixedCaps rather than underscores to write multiword constant names. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#mixed-caps)"
+
+[[issues]]
+  filepath = "provider/ec2/ebs.go"
+  fileline = 41
+  comment = "Define constant \"EBS_IOPS\" as \"EbsIops\". The convention in Go is to use MixedCaps or mixedCaps rather than underscores to write multiword constant names. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#mixed-caps)"
+
+[[issues]]
+  filepath = "provider/ec2/ebs.go"
+  fileline = 28
+  comment = "Define constant \"EBS_ProviderType\" as \"EbsProvidertype\". The convention in Go is to use MixedCaps or mixedCaps rather than underscores to write multiword constant names. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#mixed-caps)"
+
+[[issues]]
+  filepath = "core/migration/phase.go"
+  fileline = 13
+  comment = "Define constant \"QUIESCE\" as \"Quiesce\". The convention in Go is to use MixedCaps or mixedCaps rather than underscores to write multiword constant names. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#mixed-caps)"
+
+[[issues]]
+  filepath = "core/migration/phase.go"
+  fileline = 17
+  comment = "Define constant \"SUCCESS\" as \"Success\". The convention in Go is to use MixedCaps or mixedCaps rather than underscores to write multiword constant names. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#mixed-caps)"
+
+[[issues]]
+  filepath = "core/migration/phase.go"
+  fileline = 18
+  comment = "Define constant \"LOGTRANSFER\" as \"Logtransfer\". The convention in Go is to use MixedCaps or mixedCaps rather than underscores to write multiword constant names. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#mixed-caps)"
+
+[[issues]]
+  filepath = "core/migration/phase.go"
+  fileline = 14
+  comment = "Define constant \"IMPORT\" as \"Import\". The convention in Go is to use MixedCaps or mixedCaps rather than underscores to write multiword constant names. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#mixed-caps)"
+
+[[issues]]
+  filepath = "core/migration/phase.go"
+  fileline = 11
+  comment = "Define constant \"UNKNOWN\" as \"Unknown\". The convention in Go is to use MixedCaps or mixedCaps rather than underscores to write multiword constant names. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#mixed-caps)"
+
+[[issues]]
+  filepath = "core/migration/phase.go"
+  fileline = 16
+  comment = "Define constant \"VALIDATION\" as \"Validation\". The convention in Go is to use MixedCaps or mixedCaps rather than underscores to write multiword constant names. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#mixed-caps)"
+
+[[issues]]
+  filepath = "core/migration/phase.go"
+  fileline = 22
+  comment = "Define constant \"ABORT\" as \"Abort\". The convention in Go is to use MixedCaps or mixedCaps rather than underscores to write multiword constant names. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#mixed-caps)"
+
+[[issues]]
+  filepath = "core/migration/phase.go"
+  fileline = 23
+  comment = "Define constant \"ABORTDONE\" as \"Abortdone\". The convention in Go is to use MixedCaps or mixedCaps rather than underscores to write multiword constant names. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#mixed-caps)"
+
+[[issues]]
+  filepath = "core/migration/phase.go"
+  fileline = 20
+  comment = "Define constant \"REAPFAILED\" as \"Reapfailed\". The convention in Go is to use MixedCaps or mixedCaps rather than underscores to write multiword constant names. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#mixed-caps)"
+
+[[issues]]
+  filepath = "core/migration/phase.go"
+  fileline = 15
+  comment = "Define constant \"PROCESSRELATIONS\" as \"Processrelations\". The convention in Go is to use MixedCaps or mixedCaps rather than underscores to write multiword constant names. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#mixed-caps)"
+
+[[issues]]
+  filepath = "service/windows/service_windows.go"
+  fileline = 36
+  comment = "Define constant \"SC_ACTION_REBOOT\" as \"ScActionReboot\". The convention in Go is to use MixedCaps or mixedCaps rather than underscores to write multiword constant names. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#mixed-caps)"
+
+[[issues]]
+  filepath = "service/windows/service_windows.go"
+  fileline = 37
+  comment = "Define constant \"SC_ACTION_RUN_COMMAND\" as \"ScActionRunCommand\". The convention in Go is to use MixedCaps or mixedCaps rather than underscores to write multiword constant names. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#mixed-caps)"
+
+[[issues]]
+  filepath = "service/windows/service_windows.go"
+  fileline = 35
+  comment = "Define constant \"SC_ACTION_RESTART\" as \"ScActionRestart\". The convention in Go is to use MixedCaps or mixedCaps rather than underscores to write multiword constant names. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#mixed-caps)"
+
+[[issues]]
+  filepath = "service/windows/service_windows.go"
+  fileline = 34
+  comment = "Define constant \"SC_ACTION_NONE\" as \"ScActionNone\". The convention in Go is to use MixedCaps or mixedCaps rather than underscores to write multiword constant names. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#mixed-caps)"
+
+[[issues]]
+  filepath = "mongo/mongo.go"
+  fileline = 67
+  comment = "Define constant \"MMAPV1\" as \"Mmapv1\". The convention in Go is to use MixedCaps or mixedCaps rather than underscores to write multiword constant names. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#mixed-caps)"
+
+[[issues]]
+  filepath = "cmd/jujuc/main.go"
+  fileline = 43
+  comment = "Define constant \"exit_panic\" as \"exitPanic\". The convention in Go is to use MixedCaps or mixedCaps rather than underscores to write multiword constant names. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#mixed-caps)"
+
+[[issues]]
+  filepath = "cmd/jujuc/main.go"
+  fileline = 41
+  comment = "Define constant \"exit_err\" as \"exitErr\". The convention in Go is to use MixedCaps or mixedCaps rather than underscores to write multiword constant names. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#mixed-caps)"
+
+[[issues]]
+  filepath = "cmd/jujud/main.go"
+  fileline = 75
+  comment = "Define constant \"exit_err\" as \"exitErr\". The convention in Go is to use MixedCaps or mixedCaps rather than underscores to write multiword constant names. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#mixed-caps)"
+
+[[issues]]
+  filepath = "cmd/jujud/main.go"
+  fileline = 77
+  comment = "Define constant \"exit_panic\" as \"exitPanic\". The convention in Go is to use MixedCaps or mixedCaps rather than underscores to write multiword constant names. [as specified in Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#mixed-caps)"

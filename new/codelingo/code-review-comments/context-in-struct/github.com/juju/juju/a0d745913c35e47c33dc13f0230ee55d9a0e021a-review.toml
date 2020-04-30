@@ -1,0 +1,68 @@
+repo = "github.com/juju/juju"
+rule = "codelingo/code-review-comments/context-in-struct"
+sha = "a0d745913c35e47c33dc13f0230ee55d9a0e021a"
+
+[[issues]]
+  filepath = "api/apiclient_test.go"
+  fileline = 316
+  comment = "Don't add a Context member to a struct type; instead add a ctx parameter to each method on that type that needs to pass it along. From [Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#contexts)"
+
+[[issues]]
+  filepath = "rpc/rpc_test.go"
+  fileline = 204
+  comment = "Don't add a Context member to a struct type; instead add a ctx parameter to each method on that type that needs to pass it along. From [Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#contexts)"
+
+[[issues]]
+  filepath = "apiserver/facades/client/applicationoffers/base.go"
+  fileline = 34
+  comment = "Don't add a Context member to a struct type; instead add a ctx parameter to each method on that type that needs to pass it along. From [Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#contexts)"
+
+[[issues]]
+  filepath = "provider/vsphere/session.go"
+  fileline = 26
+  comment = "Don't add a Context member to a struct type; instead add a ctx parameter to each method on that type that needs to pass it along. From [Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#contexts)"
+
+[[issues]]
+  filepath = "api/apiclient.go"
+  fileline = 1044
+  comment = "Don't add a Context member to a struct type; instead add a ctx parameter to each method on that type that needs to pass it along. From [Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#contexts)"
+
+[[issues]]
+  filepath = "worker/raft/rafttransport/worker.go"
+  fileline = 196
+  comment = "Don't add a Context member to a struct type; instead add a ctx parameter to each method on that type that needs to pass it along. From [Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#contexts)"
+
+[[issues]]
+  filepath = "cmd/modelcmd/base.go"
+  fileline = 126
+  comment = "Don't add a Context member to a struct type; instead add a ctx parameter to each method on that type that needs to pass it along. From [Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#contexts)"
+
+[[issues]]
+  filepath = "resource/api/private/client/client.go"
+  fileline = 57
+  comment = "Don't add a Context member to a struct type; instead add a ctx parameter to each method on that type that needs to pass it along. From [Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#contexts)"
+
+[[issues]]
+  filepath = "rpc/server.go"
+  fileline = 158
+  comment = "Don't add a Context member to a struct type; instead add a ctx parameter to each method on that type that needs to pass it along. From [Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#contexts)"
+
+[[issues]]
+  filepath = "api/apiclient.go"
+  fileline = 71
+  comment = "Don't add a Context member to a struct type; instead add a ctx parameter to each method on that type that needs to pass it along. From [Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#contexts)"
+
+[[issues]]
+  filepath = "resource/api/client/client.go"
+  fileline = 41
+  comment = "Don't add a Context member to a struct type; instead add a ctx parameter to each method on that type that needs to pass it along. From [Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#contexts)"
+
+[[issues]]
+  filepath = "resource/api/private/client/client.go"
+  fileline = 115
+  comment = "Don't add a Context member to a struct type; instead add a ctx parameter to each method on that type that needs to pass it along. From [Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#contexts)"
+
+[[issues]]
+  filepath = "apiserver/facades/controller/crossmodelrelations/crossmodelrelations.go"
+  fileline = 36
+  comment = "Don't add a Context member to a struct type; instead add a ctx parameter to each method on that type that needs to pass it along. From [Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#contexts)"

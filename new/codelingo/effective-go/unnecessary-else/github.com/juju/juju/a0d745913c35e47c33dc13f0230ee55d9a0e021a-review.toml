@@ -1,0 +1,773 @@
+repo = "github.com/juju/juju"
+rule = "codelingo/effective-go/unnecessary-else"
+sha = "a0d745913c35e47c33dc13f0230ee55d9a0e021a"
+
+[[issues]]
+  filepath = "provider/maas/environ.go"
+  fileline = 378
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "environs/config/config.go"
+  fileline = 1216
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "cmd/jujud/dumplogs/dumplogs.go"
+  fileline = 95
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "state/volume.go"
+  fileline = 732
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "controller/config.go"
+  fileline = 954
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "worker/uniter/runner/debug/server.go"
+  fileline = 132
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "jujuclient/file.go"
+  fileline = 687
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "environs/instances/image_test.go"
+  fileline = 385
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "service/windows/stubsvcmanager_test.go"
+  fileline = 30
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "environs/bootstrap/bootstrap.go"
+  fileline = 969
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "worker/uniter/resolver/loop.go"
+  fileline = 155
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "apiserver/common/crossmodel/crossmodel.go"
+  fileline = 450
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "cmd/juju/caas/add_test.go"
+  fileline = 325
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "mongo/mongo.go"
+  fileline = 336
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "scripts/juju-blobstore-cleanup/main.go"
+  fileline = 311
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "cmd/juju/action/run.go"
+  fileline = 156
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "environs/config/config.go"
+  fileline = 1179
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "cmd/juju/action/list.go"
+  fileline = 164
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "state/application.go"
+  fileline = 1161
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "provider/openstack/provider.go"
+  fileline = 1313
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "state/allwatcher.go"
+  fileline = 2028
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "worker/storageprovisioner/volume_events.go"
+  fileline = 120
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "worker/meterstatus/manifold_test.go"
+  fileline = 231
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "worker/deployer/deployer.go"
+  fileline = 123
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "apiserver/facades/client/sshclient/facade.go"
+  fileline = 115
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "provider/openstack/firewaller.go"
+  fileline = 474
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "cmd/juju/commands/bootstrap.go"
+  fileline = 986
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "provider/gce/environ_network.go"
+  fileline = 372
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "provider/oci/networking.go"
+  fileline = 988
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "apiserver/facades/client/usermanager/usermanager.go"
+  fileline = 105
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "caas/kubernetes/provider/operator.go"
+  fileline = 381
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "cmd/juju/commands/upgrademodel.go"
+  fileline = 537
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "cmd/juju/application/register.go"
+  fileline = 97
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "apiserver/facades/client/modelconfig/modelconfig_test.go"
+  fileline = 243
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "cmd/juju/commands/bootstrap.go"
+  fileline = 1205
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "state/relation.go"
+  fileline = 348
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "cmd/juju/model/configcommand.go"
+  fileline = 320
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "apiserver/facades/agent/upgrader/upgrader.go"
+  fileline = 152
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "worker/uniter/remotestate/watcher.go"
+  fileline = 759
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "cmd/juju/crossmodel/offer.go"
+  fileline = 125
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "state/logs.go"
+  fileline = 182
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "provider/oci/networking.go"
+  fileline = 820
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "state/modelconfig.go"
+  fileline = 409
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "apiserver/facades/client/machinemanager/machinemanager_test.go"
+  fileline = 847
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "state/minimumunits.go"
+  fileline = 111
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "worker/caasunitprovisioner/application_worker.go"
+  fileline = 253
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "apiserver/common/firewall/mock_test.go"
+  fileline = 81
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "cmd/juju/action/list.go"
+  fileline = 130
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "provider/oci/storage_volumes.go"
+  fileline = 55
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "provider/oci/networking.go"
+  fileline = 170
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "cmd/juju/caas/update.go"
+  fileline = 235
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "cmd/juju/model/configcommand.go"
+  fileline = 364
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "worker/provisioner/provisioner_test.go"
+  fileline = 1922
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "provider/oracle/instance.go"
+  fileline = 286
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "cmd/juju/application/resolved_test.go"
+  fileline = 98
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "apiserver/facades/client/modelmanager/modelinfo_test.go"
+  fileline = 921
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "cmd/juju/action/runaction.go"
+  fileline = 105
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "environs/bootstrap/bootstrap.go"
+  fileline = 985
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "caas/broker.go"
+  fileline = 63
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "cmd/juju/common/cloud.go"
+  fileline = 44
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "provider/openstack/networking.go"
+  fileline = 344
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "provider/maas/storage.go"
+  fileline = 40
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "apiserver/common/block_test.go"
+  fileline = 55
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "network/devicenames.go"
+  fileline = 43
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "state/unit.go"
+  fileline = 1015
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "apiserver/facades/controller/remoterelations/mock_test.go"
+  fileline = 59
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "cmd/juju/commands/switch.go"
+  fileline = 137
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "caas/kubernetes/provider/operator.go"
+  fileline = 373
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "state/application.go"
+  fileline = 926
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "provider/oci/storage_volumes.go"
+  fileline = 202
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "worker/upgradesteps/worker_test.go"
+  fileline = 200
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "environs/config/config.go"
+  fileline = 1169
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "apiserver/facades/controller/machineundertaker/undertaker.go"
+  fileline = 153
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "state/machine_test.go"
+  fileline = 2537
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "apiserver/root.go"
+  fileline = 267
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "environs/open.go"
+  fileline = 29
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "apiserver/facades/client/client/client.go"
+  fileline = 541
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "provider/ec2/environ.go"
+  fileline = 721
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "state/logs.go"
+  fileline = 724
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "mongo/prealloc.go"
+  fileline = 80
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "environs/config/config.go"
+  fileline = 1206
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "state/upgrade.go"
+  fileline = 383
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "api/modelmanager/modelmanager.go"
+  fileline = 270
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "apiserver/facades/controller/firewaller/mock_test.go"
+  fileline = 76
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "provider/maas/devices.go"
+  fileline = 428
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "worker/proxyupdater/proxyupdater.go"
+  fileline = 238
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "cmd/juju/commands/upgrademodel.go"
+  fileline = 742
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "environs/config/config.go"
+  fileline = 643
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "api/spaces/spaces_test.go"
+  fileline = 375
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "network/debinterfaces/activate.go"
+  fileline = 156
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "state/distribution.go"
+  fileline = 72
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "provider/oci/networking.go"
+  fileline = 650
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "worker/upgradedatabase/worker.go"
+  fileline = 242
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "cmd/juju/space/space.go"
+  fileline = 324
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "cmd/jujud/agent/machine_test.go"
+  fileline = 355
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "cmd/juju/action/status.go"
+  fileline = 89
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "caas/kubernetes/provider/exec/exec.go"
+  fileline = 296
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "state/settings.go"
+  fileline = 517
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "state/migration_import.go"
+  fileline = 101
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "cmd/juju/application/resumerelation.go"
+  fileline = 73
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "state/cleanup.go"
+  fileline = 806
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "cmd/juju/application/suspendrelation.go"
+  fileline = 75
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "api/cloud/cloud.go"
+  fileline = 306
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "worker/peergrouper/worker.go"
+  fileline = 337
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "service/windows/stubsvcmanager_test.go"
+  fileline = 41
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "cmd/juju/commands/ssh_common.go"
+  fileline = 144
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "worker/provisioner/provisioner_task.go"
+  fileline = 1129
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "network/netplan/netplan.go"
+  fileline = 262
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "worker/firewaller/firewaller.go"
+  fileline = 1448
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "provider/oci/storage_volumes.go"
+  fileline = 537
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "state/state.go"
+  fileline = 980
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "caas/kubernetes/provider/statefulsets.go"
+  fileline = 100
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "caas/kubernetes/provider/operator.go"
+  fileline = 389
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "service/agentconf.go"
+  fileline = 196
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "cmd/juju/status/formatter.go"
+  fileline = 561
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "state/machine.go"
+  fileline = 643
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "api/common/network.go"
+  fileline = 229
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "state/watcher.go"
+  fileline = 3619
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "state/upgrade.go"
+  fileline = 516
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "apiserver/facades/client/machinemanager/machinemanager_test.go"
+  fileline = 876
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "worker/state/statetracker_test.go"
+  fileline = 114
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "provider/oci/networking.go"
+  fileline = 1007
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "apiserver/facades/controller/caasoperatorprovisioner/provisioner.go"
+  fileline = 148
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "container/lxd/image.go"
+  fileline = 98
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "container/broker/instance_broker.go"
+  fileline = 127
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "api/modelmanager/modelmanager.go"
+  fileline = 263
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "network/fan.go"
+  fileline = 89
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "state/storage.go"
+  fileline = 1576
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "api/modelmanager/modelmanager.go"
+  fileline = 257
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "apiserver/authentication/user.go"
+  fileline = 245
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "worker/uniter/runner/jujuc/util_test.go"
+  fileline = 105
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "state/storage.go"
+  fileline = 1111
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "provider/oracle/storage.go"
+  fileline = 78
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "state/resources_mongo.go"
+  fileline = 250
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "state/unit.go"
+  fileline = 2694
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "provider/oci/networking.go"
+  fileline = 358
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "cmd/juju/application/setseries.go"
+  fileline = 94
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "state/relationunit.go"
+  fileline = 144
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "state/backups/create.go"
+  fileline = 208
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "environs/tools/build.go"
+  fileline = 213
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "storage/constraints.go"
+  fileline = 66
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "provider/oci/networking.go"
+  fileline = 66
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "storage/poolmanager/poolmanager.go"
+  fileline = 124
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "scripts/leadershipclaimer/leadershipclaimer.go"
+  fileline = 106
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "apiserver/facades/agent/uniter/uniter.go"
+  fileline = 2561
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "cmd/juju/controller/kill.go"
+  fileline = 300
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "cloudconfig/userdatacfg_test.go"
+  fileline = 131
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "state/testing/suite.go"
+  fileline = 206
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "state/logs.go"
+  fileline = 642
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "worker/caasoperatorprovisioner/worker.go"
+  fileline = 261
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "provider/maas/interfaces.go"
+  fileline = 169
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "cmd/juju/common/cloudcredential.go"
+  fileline = 156
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "provider/oracle/network/environ.go"
+  fileline = 81
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
+
+[[issues]]
+  filepath = "state/charm.go"
+  fileline = 179
+  comment = "Omit unnecessary else when `if` doesn't flow into the next statement. [as specified in Effective Go](https://golang.org/doc/effective_go.html#control-structures)"
