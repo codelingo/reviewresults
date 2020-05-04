@@ -1,0 +1,13 @@
+repo = "github.com/mrcrowl/swarm"
+rule = "codelingo/effective-go/single-method-interface-name"
+sha = "1611adb62c5c96673030783311328ecd35ea05b6"
+
+[[issues]]
+  filepath = "version/updater.go"
+  fileline = 11
+  comment = "If an interface contains only one method, the method name should appear \nat the beginning of the interface name. Eg. interface \"Reader\" with method \"Read()\"\n"
+
+[[issues]]
+  filepath = "version/internet.go"
+  fileline = 10
+  comment = "If an interface contains only one method, the method name should appear \nat the beginning of the interface name. Eg. interface \"Reader\" with method \"Read()\"\n"
