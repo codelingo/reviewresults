@@ -1,0 +1,18 @@
+repo = "github.com/TokTok/go-toxcore-c"
+rule = "codelingo/go/empty-slice"
+sha = "3fbebdd9a913bbd38dd7d71c74daf022f273580b"
+
+[[issues]]
+  filepath = "group_intern.go"
+  fileline = 18
+  comment = "You should declare this using \"var\" not \":=\" see https://github.com/golang/go/wiki/CodeReviewComments#declaring-empty-slices"
+
+[[issues]]
+  filepath = "tools/generrmsg.go"
+  fileline = 18
+  comment = "You should declare this using \"var\" not \":=\" see https://github.com/golang/go/wiki/CodeReviewComments#declaring-empty-slices"
+
+[[issues]]
+  filepath = "group_intern.go"
+  fileline = 26
+  comment = "You should declare this using \"var\" not \":=\" see https://github.com/golang/go/wiki/CodeReviewComments#declaring-empty-slices"

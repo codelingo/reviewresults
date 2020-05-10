@@ -1,0 +1,18 @@
+repo = "github.com/howbazaar/juju"
+rule = "codelingo/go/non-exiting-goroutine"
+sha = "ef17f71281d245540a9e5ed54a00095610ac0797"
+
+[[issues]]
+  filepath = "worker/peergrouper/worker_test.go"
+  fileline = 246
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "provider/vsphere/ova_import_manager.go"
+  fileline = 267
+  comment = "This goroutine does not exit and may cause a resource leak."
+
+[[issues]]
+  filepath = "featuretests/dblog_test.go"
+  fileline = 163
+  comment = "This goroutine does not exit and may cause a resource leak."
