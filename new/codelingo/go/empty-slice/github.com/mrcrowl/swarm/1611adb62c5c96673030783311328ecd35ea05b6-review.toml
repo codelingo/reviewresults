@@ -1,0 +1,8 @@
+repo = "github.com/mrcrowl/swarm"
+rule = "codelingo/go/empty-slice"
+sha = "1611adb62c5c96673030783311328ecd35ea05b6"
+
+[[issues]]
+  filepath = "assets/assets_prod.go"
+  fileline = 45
+  comment = "You should declare this using \"var\" not \":=\" see https://github.com/golang/go/wiki/CodeReviewComments#declaring-empty-slices"
