@@ -1,0 +1,28 @@
+repo = "github.com/solidarik/war-map"
+rule = "codelingo/cacophony/caught-generic-exceptions"
+sha = "9ffcfa21feebec4ff1a279c3cf932682a70bbb1d"
+
+[[issues]]
+  filepath = "loadDatabase/python/parse_xls_to_json_chronos.py"
+  fileline = 125
+  comment = "Caught exception is too generic. Catch a more specific exception(s): https://docs.python.org/3/library/exceptions.html#exception-hierarchy.\n"
+
+[[issues]]
+  filepath = "loadDatabase/python/parse_xls_to_json_battles.py"
+  fileline = 157
+  comment = "Caught exception is too generic. Catch a more specific exception(s): https://docs.python.org/3/library/exceptions.html#exception-hierarchy.\n"
+
+[[issues]]
+  filepath = "loadDatabase/python/parse_xls_to_json_chronos.py"
+  fileline = 82
+  comment = "Caught exception is too generic. Catch a more specific exception(s): https://docs.python.org/3/library/exceptions.html#exception-hierarchy.\n"
+
+[[issues]]
+  filepath = "loadDatabase/python/helper.py"
+  fileline = 218
+  comment = "Caught exception is too generic. Catch a more specific exception(s): https://docs.python.org/3/library/exceptions.html#exception-hierarchy.\n"
+
+[[issues]]
+  filepath = "loadDatabase/python/parse_xls_to_json_agreements.py"
+  fileline = 91
+  comment = "Caught exception is too generic. Catch a more specific exception(s): https://docs.python.org/3/library/exceptions.html#exception-hierarchy.\n"
