@@ -1,0 +1,13 @@
+repo = "github.com/Bornm1/codelingo"
+rule = "codelingo/cacophony/caught-generic-exceptions"
+sha = "d681873c851c4d439b1ea05f05ae4d828a794f99"
+
+[[issues]]
+  filepath = "tenets/codelingo/cacophony/caught-generic-exceptions/example.py"
+  fileline = 45
+  comment = "Caught exception is too generic. Catch a more specific exception(s): https://docs.python.org/3/library/exceptions.html#exception-hierarchy.\n"
+
+[[issues]]
+  filepath = "tenets/codelingo/python/caught-generic-exceptions/example.py"
+  fileline = 45
+  comment = "Caught exception is too generic. Catch a more specific exception(s): https://docs.python.org/3/library/exceptions.html#exception-hierarchy.\n"
